@@ -1,10 +1,347 @@
 {
-  "updatedAt": null,
-  "items": [],
+  "updatedAt": "2026-08-11T19:41:05.343029+00:00",
+  "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.9",
+      "title": "v0.32.9",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.9",
+      "publishedAt": "2026-08-11T13:24:14Z",
+      "source": "Ollama",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.8",
+      "title": "v0.32.8",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.8",
+      "publishedAt": "2026-08-11T06:39:00Z",
+      "source": "Ollama",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.8-rc0",
+      "title": "v0.32.8-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.8-rc0",
+      "publishedAt": "2026-08-10T22:48:32Z",
+      "source": "Ollama",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.7",
+      "title": "v0.32.7",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.7",
+      "publishedAt": "2026-08-10T11:13:46Z",
+      "source": "Ollama",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.6",
+      "title": "v0.32.6",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6",
+      "publishedAt": "2026-08-05T19:46:52Z",
+      "source": "Ollama",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.6-rc0",
+      "title": "v0.32.6-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
+      "publishedAt": "2026-08-04T16:51:52Z",
+      "source": "Ollama",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.5",
+      "title": "v0.32.5",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
+      "publishedAt": "2026-07-27T20:45:08Z",
+      "source": "Ollama",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.5-rc0",
+      "title": "v0.32.5-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5-rc0",
+      "publishedAt": "2026-07-26T23:59:47Z",
+      "source": "Ollama",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.4",
+      "title": "v0.32.4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.4",
+      "publishedAt": "2026-07-25T18:26:49Z",
+      "source": "Ollama",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.4-rc0",
+      "title": "v0.32.4-rc0: model: add Laguna MLX support (#17237)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0",
+      "publishedAt": "2026-07-25T01:24:53Z",
+      "source": "Ollama",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.5.4",
+      "title": "langchain-core==1.5.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.4",
+      "publishedAt": "2026-08-11T18:03:12Z",
+      "source": "LangChain",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.5.5",
+      "title": "langchain-anthropic==1.5.5",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.5",
+      "publishedAt": "2026-08-11T19:16:57Z",
+      "source": "LangChain",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain==1.3.15",
+      "title": "langchain==1.3.15",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.15",
+      "publishedAt": "2026-08-11T19:11:11Z",
+      "source": "LangChain",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.4.3",
+      "title": "langchain-openai==1.4.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.3",
+      "publishedAt": "2026-08-10T13:23:36Z",
+      "source": "LangChain",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.4.2",
+      "title": "langchain-openai==1.4.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.2",
+      "publishedAt": "2026-08-07T13:58:16Z",
+      "source": "LangChain",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.5.4",
+      "title": "langchain-anthropic==1.5.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4",
+      "publishedAt": "2026-08-05T19:03:35Z",
+      "source": "LangChain",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.5.3",
+      "title": "langchain-core==1.5.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.3",
+      "publishedAt": "2026-07-30T14:56:11Z",
+      "source": "LangChain",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.5.2",
+      "title": "langchain-core==1.5.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.2",
+      "publishedAt": "2026-07-28T16:39:05Z",
+      "source": "LangChain",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.5.3",
+      "title": "langchain-anthropic==1.5.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.3",
+      "publishedAt": "2026-07-28T17:03:16Z",
+      "source": "LangChain",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-fireworks==1.5.2",
+      "title": "langchain-fireworks==1.5.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.2",
+      "publishedAt": "2026-07-27T16:59:57Z",
+      "source": "LangChain",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.15.0",
+      "title": "Release: v5.15.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+      "publishedAt": "2026-08-10T10:28:13Z",
+      "source": "Hugging Face",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.14.1",
+      "title": "Patch release: v5.14.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.1",
+      "publishedAt": "2026-07-16T09:41:36Z",
+      "source": "Hugging Face",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.14.0",
+      "title": "Release v5.14.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.0",
+      "publishedAt": "2026-07-15T19:02:19Z",
+      "source": "Hugging Face",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.13.1",
+      "title": "Patch release v5.13.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.13.1",
+      "publishedAt": "2026-07-11T09:15:36Z",
+      "source": "Hugging Face",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.13.0",
+      "title": "Release v5.13.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.13.0",
+      "publishedAt": "2026-07-03T16:06:27Z",
+      "source": "Hugging Face",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.12.1",
+      "title": "Patch release v5.12.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
+      "publishedAt": "2026-06-15T17:29:59Z",
+      "source": "Hugging Face",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.10.3",
+      "title": "Patch release v5.10.4",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.3",
+      "publishedAt": "2026-06-19T13:25:50Z",
+      "source": "Hugging Face",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.12.0",
+      "title": "Release v5.12.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.0",
+      "publishedAt": "2026-06-12T14:39:40Z",
+      "source": "Hugging Face",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.11.0",
+      "title": "Release v5.11.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.11.0",
+      "publishedAt": "2026-06-10T16:32:44Z",
+      "source": "Hugging Face",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.10.2",
+      "title": "Patch release v5.10.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.2",
+      "publishedAt": "2026-06-04T18:43:06Z",
+      "source": "Hugging Face",
+      "kind": "Open source"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1219093",
+      "title": "Gotcha",
+      "url": "https://www.producthunt.com/products/gotcha-5",
+      "publishedAt": "2026-08-11T12:15:57-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1212310",
+      "title": "agent-manager",
+      "url": "https://www.producthunt.com/products/agent-manager",
+      "publishedAt": "2026-08-11T12:27:11-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1210851",
+      "title": "Cerenovus",
+      "url": "https://www.producthunt.com/products/cerenovus",
+      "publishedAt": "2026-08-11T12:24:13-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1217674",
+      "title": "bb",
+      "url": "https://www.producthunt.com/products/bb",
+      "publishedAt": "2026-08-11T12:23:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1199218",
+      "title": "AMP by CanyonTechs AI",
+      "url": "https://www.producthunt.com/products/amp-by-canyontechs-ai",
+      "publishedAt": "2026-08-11T12:15:58-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1216287",
+      "title": "Bullet",
+      "url": "https://www.producthunt.com/products/bullet-6",
+      "publishedAt": "2026-08-11T12:38:41-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1212767",
+      "title": "Octomind Cloud and Hub",
+      "url": "https://www.producthunt.com/products/octomind-plug-n-play-ai-agents",
+      "publishedAt": "2026-08-11T12:15:54-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1219727",
+      "title": "Lexi",
+      "url": "https://www.producthunt.com/products/lexi-5",
+      "publishedAt": "2026-08-11T12:16:31-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1214347",
+      "title": "Vizard Agent",
+      "url": "https://www.producthunt.com/products/vizard-agent-the-first-video-agi",
+      "publishedAt": "2026-08-11T12:22:15-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1217504",
+      "title": "Tines 3B",
+      "url": "https://www.producthunt.com/products/tines",
+      "publishedAt": "2026-08-11T12:34:53-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1205805",
+      "title": "Product Analytics for Agents and Users",
+      "url": "https://www.producthunt.com/products/kubit",
+      "publishedAt": "2026-08-11T12:29:49-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1218517",
+      "title": "Switchy for Mac",
+      "url": "https://www.producthunt.com/products/switchy-for-mac",
+      "publishedAt": "2026-08-11T12:24:14-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery"
+    }
+  ],
   "sources": [
-    "Ollama releases",
-    "LangChain releases",
-    "Hugging Face Transformers releases",
-    "Product Hunt feed"
+    "Ollama",
+    "LangChain",
+    "Hugging Face",
+    "Product Hunt"
   ]
 }
