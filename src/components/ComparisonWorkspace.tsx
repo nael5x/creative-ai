@@ -82,5 +82,10 @@ export function ComparisonWorkspace({ language, copy, leftId, rightId, mode, onS
       <div className="conclusion-tools">{[leftTool, rightTool].map((tool) => <div key={tool.id}><strong><span className="monogram">{tool.name.en[0]}</span>{tool.name[language]}</strong><span>{copy.chooseWhen}</span><p>{tool.bestFor.map((item) => item[language]).join("; ")}.</p></div>)}</div>
       <p className="neutral">{copy.neutral}</p>
     </section>
+
+    <details className="disclosure">
+      <summary>{copy.whyResult}</summary>
+      <p>{copy.whyResultBody}</p>
+    </details>
   </main>;
 }

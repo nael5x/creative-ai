@@ -199,6 +199,12 @@ footer p { margin: 0; font-size: 12px; }
   .tool-identity { padding-inline: 9px; }
   .metric, .best-for { margin-inline: -9px; padding-inline: 9px; }
 }
+.disclosure { margin: 6px 8px 30px; border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; }
+.disclosure summary { cursor: pointer; color: var(--text); font-weight: 700; font-size: 14px; }
+.disclosure summary::-webkit-details-marker { display: none; }
+.disclosure summary::after { content: "+"; float: inline-end; color: var(--muted); }
+.disclosure[open] summary::after { content: "−"; }
+.disclosure p { margin: 12px 0 0; color: var(--muted); font-size: 13px; line-height: 1.75; max-width: 72ch; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }

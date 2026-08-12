@@ -11,4 +11,4 @@ npm test
 npm run build
 ```
 
-The static Vite build is written to `dist/`. The existing GitHub Actions source monitor still refreshes `data/updates.json` every six hours, but collected items are marked `needs-review`; discovery sources never become published claims automatically.
+The static Vite build is written to `dist/`. The existing GitHub Actions source monitor still refreshes `public/data/updates.json` every six hours, but collected items are marked `needs-review`; discovery sources never become published claims automatically.

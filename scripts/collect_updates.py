@@ -70,7 +70,8 @@ def main():
         "sources": [x[0] for x in SOURCES],
         "publicationPolicy": "Owner review required before an item may be labeled published.",
     }
-    Path("data/updates.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    Path("public/data").mkdir(parents=True, exist_ok=True)
+    Path("public/data/updates.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Stored {len(unique)} review candidates from {len(SOURCES)} sources")
 
 if __name__ == "__main__":

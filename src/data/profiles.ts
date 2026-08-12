@@ -32,19 +32,46 @@ const scoreSets: Record<string, ScoreSet> = {
   "hugging-face": { quality: 8.2, easeOfUse: 6.8, freeValue: 9.2, paidValue: 8.0, speed: 7.2, contextFiles: 7.5, integrations: 9.5, privacy: 8.5, collaboration: 9.0, developerFit: 9.7, sourceTransparency: 9.5, platformAvailability: 9.0 },
 };
 
-const rationale = (criterion: ComparisonCriterion, score: number) => ({
-  en: `Editorial assessment (${score}/10) based on the documented product capabilities relevant to ${criterion}. Open the source and methodology before relying on it.`,
-  ar: `تقييم تحريري (${score}/10) مبني على قدرات المنتج الموثقة ذات الصلة بمعيار ${criterion}. افتح المصدر والمنهجية قبل الاعتماد عليه.`,
+// Subjective, editorial or performance judgments. An official overview or
+// marketing page does NOT verify these; they require a reproducible test or
+// claim-specific evidence, which the current data does not provide.
+const SUBJECTIVE: ReadonlySet<ComparisonCriterion> = new Set([
+  "quality", "easeOfUse", "speed", "freeValue", "paidValue",
+  "privacy", "collaboration", "developerFit",
+]);
+
+// Open-source availability is itself a documented, verifiable fact for these tools.
+const OPEN_SOURCE: ReadonlySet<string> = new Set(["ollama", "n8n", "hugging-face"]);
+
+const subjectiveRationale = (criterion: ComparisonCriterion): { en: string; ar: string } => ({
+  en: `“${criterion}” is a subjective editorial judgment. No reproducible documented test or claim-specific evidence currently supports a verified score, so it is withheld rather than guessed.`,
+  ar: `«${criterion}» تقييم تحريري ذاتي. لا يوجد اختبار موثق قابل للتكرار أو دليل محدد يدعم درجة موثّقة، لذا يُحجب بدل تخمينه.`,
 });
+
+const factualRationale = (criterion: ComparisonCriterion): { en: string; ar: string } => {
+  switch (criterion) {
+    case "platformAvailability":
+      return { en: "Platform availability reflects the operating systems and surfaces the vendor documents on its official overview.", ar: "يُستمد توفر المنصات من أنظمة التشغيل والواجهات التي يوثّقها المورّد في صفحته الرسمية." };
+    case "integrations":
+      return { en: "Integrations reflect the connectors and ecosystem links documented on the official source.", ar: "التكاملات تعكس الموصِّلات وروابط المنظومة الموثّقة في المصدر الرسمي." };
+    case "contextFiles":
+      return { en: "Context and file handling reflect the upload and context capabilities documented on the official source.", ar: "السياق والملفات تعكس قدرات الرفع والسياق الموثّقة في المصدر الرسمي." };
+    case "sourceTransparency":
+      return { en: "Source transparency reflects the public open-source repository and documentation referenced as evidence.", ar: "شفافية المصادر تعكس المستودع الموثّق مفتوح المصدر والمستندات المشار إليها كدليل." };
+    default:
+      return { en: "This factual criterion is documented on the official source.", ar: "هذا المعيار الواقعي موثّق في المصدر الرسمي." };
+  }
+};
 
 function assessment(toolId: string, criterion: ComparisonCriterion, value: number | "na"): CriterionAssessment {
   if (value === "na") return { score: null, status: "not-applicable", rationale: { en: "This criterion does not materially apply to this product category.", ar: "لا ينطبق هذا المعيار بصورة جوهرية على فئة المنتج." }, evidence: [] };
-  if (criterion === "quality") return { score: null, status: "not-verified", rationale: { en: "Output quality requires a reproducible documented test; an official feature page alone is not sufficient evidence.", ar: "تحتاج جودة المخرجات إلى اختبار موثق قابل للتكرار؛ صفحة الميزات الرسمية وحدها ليست دليلًا كافيًا." }, evidence: [] };
+  const subjective = SUBJECTIVE.has(criterion) || (criterion === "sourceTransparency" && !OPEN_SOURCE.has(toolId));
+  if (subjective) return { score: null, status: "not-verified", rationale: subjectiveRationale(criterion), evidence: [] };
   const [title, url, sourceType] = sources[toolId];
   return {
-    score: value,
+    score: typeof value === "number" ? value : null,
     status: "verified",
-    rationale: rationale(criterion, value),
+    rationale: factualRationale(criterion),
     evidence: [{ title, url, sourceType, verifiedAt, claims: [criterion] }],
   };
 }
