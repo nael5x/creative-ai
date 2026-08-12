@@ -4,7 +4,7 @@ import { profiles, unverifiedAssessment } from "../data/profiles";
 import { toolMap } from "../data/tools";
 import { compareTools } from "../lib/scoring";
 import type { Copy } from "../i18n";
-import type { ComparisonCriterion, Language } from "../types";
+import type { ComparisonCriterion, CriterionAssessment, Language } from "../types";
 import { ToolSelector } from "./ToolSelector";
 
 type Props = { language: Language; copy: Copy; leftId: string; rightId: string; mode: string; onState: (next: { left?: string; right?: string; mode?: string }) => void; onAsk: () => void };
@@ -13,6 +13,12 @@ const criterionOrder: ComparisonCriterion[] = ["quality", "easeOfUse", "freeValu
 
 function Metric({ label, value }: { label: string; value: string }) {
   return <div className="metric"><span>{label}</span><strong>{value}</strong></div>;
+}
+
+function criterionLabel(item: CriterionAssessment, copy: Copy): string {
+  if (item.status === "not-applicable") return copy.notApplicable;
+  if (item.status === "verified") return item.score !== null ? `${item.score} / 10` : copy.verified;
+  return copy.notVerified;
 }
 
 export function ComparisonWorkspace({ language, copy, leftId, rightId, mode, onState, onAsk }: Props) {
@@ -69,7 +75,7 @@ export function ComparisonWorkspace({ language, copy, leftId, rightId, mode, onS
         const right = profiles[rightId]?.assessments[criterion] ?? unverifiedAssessment;
         const weight = preset.weights[criterion] ?? 0;
         return <details className="criterion" key={criterion}>
-          <summary><span className="criterion-name">{criterionLabels[criterion][language]} <small>{weight}%</small></span><span>{left.score === null ? (left.status === "not-applicable" ? copy.notApplicable : copy.notVerified) : `${left.score} / 10`}</span><span>{right.score === null ? (right.status === "not-applicable" ? copy.notApplicable : copy.notVerified) : `${right.score} / 10`}</span></summary>
+          <summary><span className="criterion-name">{criterionLabels[criterion][language]} <small>{weight}%</small></span><span>{criterionLabel(left, copy)}</span><span>{criterionLabel(right, copy)}</span></summary>
           <div className="evidence-grid">
             {[left, right].map((item, index) => <div key={index}><strong>{index === 0 ? leftTool.name[language] : rightTool.name[language]}</strong><p>{item.rationale[language]}</p>{item.evidence.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a>)}</div>)}
           </div>

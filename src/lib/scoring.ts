@@ -9,9 +9,12 @@ export function scoreTool(profile: ToolComparisonProfile | undefined, preset: Us
   let verified = 0;
   for (const [criterion, weight] of Object.entries(preset.weights) as [ComparisonCriterion, number][]) {
     const item = profile?.assessments[criterion];
-    if (item?.status === "not-applicable") continue;
+    if (!item || item.status === "not-applicable") continue;
+    // A verified fact without a declared numeric rubric is evidence, not a
+    // suitability score; exclude it from the suitability denominator entirely.
+    if (item.status === "verified" && item.score === null) continue;
     applicable += 1;
-    if (item?.status === "verified" && item.score !== null) {
+    if (item.status === "verified" && item.score !== null) {
       verified += 1;
       weighted += item.score * weight;
       usedWeight += weight;
