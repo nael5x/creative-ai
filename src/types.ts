@@ -15,9 +15,15 @@ export type Evidence = {
   claims: string[];
 };
 
+export type CapabilityState = "supported" | "not-supported";
+
 export type CriterionAssessment = {
   score: number | null;
   status: "verified" | "not-verified" | "not-applicable";
+  // Meaningful only when status === "verified". A verified claim may confirm the
+  // capability exists ("supported") OR confirm it is absent ("not-supported").
+  // It must never be inferred from status alone.
+  capability?: CapabilityState;
   rationale: Localized;
   evidence: Evidence[];
 };

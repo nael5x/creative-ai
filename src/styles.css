@@ -95,6 +95,7 @@ nav a:hover { color: var(--accent); border-color: var(--accent); }
 .conclusion-tools > div > span { display: block; margin: 8px 0 0 38px; color: var(--muted); font-size: 12px; }
 .conclusion-tools p { margin: 3px 0 0 38px; color: #d1d8d5; }
 .neutral { text-align: center; color: var(--muted); font-size: 12px; margin: 16px 0 0; }
+.fit-lead { color: #c3ccc8; font-size: 14px; margin: 0 0 16px; max-width: 74ch; line-height: 1.6; }
 .method { display: grid; grid-template-columns: 1fr 1fr; margin-top: 12px; border: 1px solid var(--line); padding: 22px; }
 .method h2 { margin: 0; font-size: 20px; }
 .method p { color: var(--muted); margin: 6px 0 10px; }

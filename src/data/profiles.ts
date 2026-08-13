@@ -1,4 +1,4 @@
-import type { ComparisonCriterion, CriterionAssessment, Evidence, ToolComparisonProfile } from "../types";
+import type { CapabilityState, ComparisonCriterion, CriterionAssessment, Evidence, ToolComparisonProfile } from "../types";
 
 const verifiedAt = "2026-08-13";
 
@@ -55,7 +55,7 @@ const LOCAL_RAT = {
   ar: "الخصوصية حقيقة موثّقة: التنفيذ المحلي أو المستضاف ذاتيًا الموثّق يعني تشغيل الأحمال على بنية المستخدم نفسه لا سحابة طرف ثالث.",
 };
 
-type FactEvidence = { evidence: Evidence; rationale: { en: string; ar: string } };
+type FactEvidence = { evidence: Evidence; rationale: { en: string; ar: string }; state?: CapabilityState };
 
 const ev = (url: string, title: string, sourceType: Evidence["sourceType"]): Evidence => ({
   url, title, sourceType, verifiedAt, claims: [],
@@ -67,82 +67,82 @@ const ev = (url: string, title: string, sourceType: Evidence["sourceType"]): Evi
 // reproducible rubric maps the evidence to a number (none are declared yet).
 const facts: Record<string, Partial<Record<ComparisonCriterion, FactEvidence>>> = {
   chatgpt: {
-    platformAvailability: { evidence: ev("https://help.openai.com/en/articles/12677804-what-is-chatgpt-faq", "ChatGPT FAQ", "official"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://openai.com/chatgpt/features/", "ChatGPT features", "official"), rationale: INTEG_RAT },
-    contextFiles: { evidence: ev("https://platform.openai.com/docs/models", "OpenAI models", "official"), rationale: CONTEXT_RAT },
-    freeValue: { evidence: ev("https://openai.com/chatgpt/pricing/", "ChatGPT pricing", "official"), rationale: FREE_RAT },
-    paidValue: { evidence: ev("https://openai.com/chatgpt/pricing/", "ChatGPT pricing", "official"), rationale: PAID_RAT },
+    platformAvailability: { evidence: ev("https://help.openai.com/en/articles/12677804-what-is-chatgpt-faq", "ChatGPT FAQ", "official"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://openai.com/chatgpt/features/", "ChatGPT features", "official"), rationale: INTEG_RAT, state: "supported" },
+    contextFiles: { evidence: ev("https://platform.openai.com/docs/models", "OpenAI models", "official"), rationale: CONTEXT_RAT, state: "supported" },
+    freeValue: { evidence: ev("https://openai.com/chatgpt/pricing/", "ChatGPT pricing", "official"), rationale: FREE_RAT, state: "supported" },
+    paidValue: { evidence: ev("https://openai.com/chatgpt/pricing/", "ChatGPT pricing", "official"), rationale: PAID_RAT, state: "supported" },
   },
   claude: {
-    platformAvailability: { evidence: ev("https://www.anthropic.com/claude", "Claude overview", "official"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://www.anthropic.com/claude", "Claude overview", "official"), rationale: INTEG_RAT },
-    contextFiles: { evidence: ev("https://docs.anthropic.com/en/docs/about-claude/models/overview", "Claude models", "official"), rationale: CONTEXT_RAT },
-    freeValue: { evidence: ev("https://www.anthropic.com/pricing", "Claude pricing", "official"), rationale: FREE_RAT },
-    paidValue: { evidence: ev("https://www.anthropic.com/pricing", "Claude pricing", "official"), rationale: PAID_RAT },
+    platformAvailability: { evidence: ev("https://www.anthropic.com/claude", "Claude overview", "official"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://www.anthropic.com/claude", "Claude overview", "official"), rationale: INTEG_RAT, state: "supported" },
+    contextFiles: { evidence: ev("https://docs.anthropic.com/en/docs/about-claude/models/overview", "Claude models", "official"), rationale: CONTEXT_RAT, state: "supported" },
+    freeValue: { evidence: ev("https://www.anthropic.com/pricing", "Claude pricing", "official"), rationale: FREE_RAT, state: "supported" },
+    paidValue: { evidence: ev("https://www.anthropic.com/pricing", "Claude pricing", "official"), rationale: PAID_RAT, state: "supported" },
   },
   gemini: {
-    platformAvailability: { evidence: ev("https://gemini.google/overview/", "Gemini overview", "official"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://gemini.google/overview/", "Gemini overview", "official"), rationale: INTEG_RAT },
-    contextFiles: { evidence: ev("https://ai.google.dev/gemini-api/docs/models", "Gemini models", "official"), rationale: CONTEXT_RAT },
-    freeValue: { evidence: ev("https://ai.google.dev/pricing", "Gemini API pricing", "official"), rationale: FREE_RAT },
-    paidValue: { evidence: ev("https://ai.google.dev/pricing", "Gemini API pricing", "official"), rationale: PAID_RAT },
+    platformAvailability: { evidence: ev("https://gemini.google/overview/", "Gemini overview", "official"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://gemini.google/overview/", "Gemini overview", "official"), rationale: INTEG_RAT, state: "supported" },
+    contextFiles: { evidence: ev("https://ai.google.dev/gemini-api/docs/models", "Gemini models", "official"), rationale: CONTEXT_RAT, state: "supported" },
+    freeValue: { evidence: ev("https://ai.google.dev/pricing", "Gemini API pricing", "official"), rationale: FREE_RAT, state: "supported" },
+    paidValue: { evidence: ev("https://ai.google.dev/pricing", "Gemini API pricing", "official"), rationale: PAID_RAT, state: "supported" },
   },
   perplexity: {
-    platformAvailability: { evidence: ev("https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work", "How Perplexity works", "official"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work", "How Perplexity works", "official"), rationale: INTEG_RAT },
-    contextFiles: { evidence: ev("https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work", "How Perplexity works", "official"), rationale: CONTEXT_RAT },
-    freeValue: { evidence: ev("https://www.perplexity.ai/pricing", "Perplexity pricing", "official"), rationale: FREE_RAT },
-    paidValue: { evidence: ev("https://www.perplexity.ai/pricing", "Perplexity pricing", "official"), rationale: PAID_RAT },
-    sourceTransparency: { evidence: ev("https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work", "How Perplexity works", "official"), rationale: CITE_RAT },
+    platformAvailability: { evidence: ev("https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work", "How Perplexity works", "official"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work", "How Perplexity works", "official"), rationale: INTEG_RAT, state: "supported" },
+    contextFiles: { evidence: ev("https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work", "How Perplexity works", "official"), rationale: CONTEXT_RAT, state: "supported" },
+    freeValue: { evidence: ev("https://www.perplexity.ai/pricing", "Perplexity pricing", "official"), rationale: FREE_RAT, state: "supported" },
+    paidValue: { evidence: ev("https://www.perplexity.ai/pricing", "Perplexity pricing", "official"), rationale: PAID_RAT, state: "supported" },
+    sourceTransparency: { evidence: ev("https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work", "How Perplexity works", "official"), rationale: CITE_RAT, state: "supported" },
   },
   cursor: {
-    platformAvailability: { evidence: ev("https://www.cursor.com/features", "Cursor features", "official"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://www.cursor.com/features", "Cursor features", "official"), rationale: INTEG_RAT },
-    contextFiles: { evidence: ev("https://www.cursor.com/features", "Cursor features", "official"), rationale: CONTEXT_RAT },
-    freeValue: { evidence: ev("https://www.cursor.com/pricing", "Cursor pricing", "official"), rationale: FREE_RAT },
-    paidValue: { evidence: ev("https://www.cursor.com/pricing", "Cursor pricing", "official"), rationale: PAID_RAT },
+    platformAvailability: { evidence: ev("https://www.cursor.com/features", "Cursor features", "official"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://www.cursor.com/features", "Cursor features", "official"), rationale: INTEG_RAT, state: "supported" },
+    contextFiles: { evidence: ev("https://www.cursor.com/features", "Cursor features", "official"), rationale: CONTEXT_RAT, state: "supported" },
+    freeValue: { evidence: ev("https://www.cursor.com/pricing", "Cursor pricing", "official"), rationale: FREE_RAT, state: "supported" },
+    paidValue: { evidence: ev("https://www.cursor.com/pricing", "Cursor pricing", "official"), rationale: PAID_RAT, state: "supported" },
   },
   "github-copilot": {
-    platformAvailability: { evidence: ev("https://github.com/features/copilot", "GitHub Copilot features", "official"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://github.com/features/copilot", "GitHub Copilot features", "official"), rationale: INTEG_RAT },
-    contextFiles: { evidence: ev("https://github.com/features/copilot", "GitHub Copilot features", "official"), rationale: CONTEXT_RAT },
-    freeValue: { evidence: ev("https://github.com/features/copilot/plans", "GitHub Copilot plans", "official"), rationale: FREE_RAT },
-    paidValue: { evidence: ev("https://github.com/features/copilot/plans", "GitHub Copilot plans", "official"), rationale: PAID_RAT },
+    platformAvailability: { evidence: ev("https://github.com/features/copilot", "GitHub Copilot features", "official"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://github.com/features/copilot", "GitHub Copilot features", "official"), rationale: INTEG_RAT, state: "supported" },
+    contextFiles: { evidence: ev("https://github.com/features/copilot", "GitHub Copilot features", "official"), rationale: CONTEXT_RAT, state: "supported" },
+    freeValue: { evidence: ev("https://github.com/features/copilot/plans", "GitHub Copilot plans", "official"), rationale: FREE_RAT, state: "supported" },
+    paidValue: { evidence: ev("https://github.com/features/copilot/plans", "GitHub Copilot plans", "official"), rationale: PAID_RAT, state: "supported" },
   },
   ollama: {
-    platformAvailability: { evidence: ev("https://github.com/ollama/ollama", "Ollama repository", "official-github"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://github.com/ollama/ollama", "Ollama repository", "official-github"), rationale: INTEG_RAT },
-    contextFiles: { evidence: ev("https://github.com/ollama/ollama", "Ollama repository", "official-github"), rationale: CONTEXT_RAT },
-    freeValue: { evidence: ev("https://ollama.com/", "Ollama", "official"), rationale: FREE_RAT },
-    privacy: { evidence: ev("https://github.com/ollama/ollama", "Ollama repository", "official-github"), rationale: LOCAL_RAT },
-    sourceTransparency: { evidence: ev("https://github.com/ollama/ollama", "Ollama repository", "official-github"), rationale: OSS_RAT },
+    platformAvailability: { evidence: ev("https://github.com/ollama/ollama", "Ollama repository", "official-github"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://github.com/ollama/ollama", "Ollama repository", "official-github"), rationale: INTEG_RAT, state: "supported" },
+    contextFiles: { evidence: ev("https://github.com/ollama/ollama", "Ollama repository", "official-github"), rationale: CONTEXT_RAT, state: "supported" },
+    freeValue: { evidence: ev("https://ollama.com/", "Ollama", "official"), rationale: FREE_RAT, state: "supported" },
+    privacy: { evidence: ev("https://github.com/ollama/ollama", "Ollama repository", "official-github"), rationale: LOCAL_RAT, state: "supported" },
+    sourceTransparency: { evidence: ev("https://github.com/ollama/ollama", "Ollama repository", "official-github"), rationale: OSS_RAT, state: "supported" },
   },
   "hugging-face": {
-    platformAvailability: { evidence: ev("https://huggingface.co/docs/hub/index", "Hugging Face Hub documentation", "official"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://huggingface.co/docs", "Hugging Face documentation", "official"), rationale: INTEG_RAT },
-    contextFiles: { evidence: ev("https://huggingface.co/docs", "Hugging Face documentation", "official"), rationale: CONTEXT_RAT },
-    freeValue: { evidence: ev("https://huggingface.co/pricing", "Hugging Face pricing", "official"), rationale: FREE_RAT },
-    paidValue: { evidence: ev("https://huggingface.co/pricing", "Hugging Face pricing", "official"), rationale: PAID_RAT },
-    privacy: { evidence: ev("https://huggingface.co/docs", "Hugging Face documentation", "official"), rationale: LOCAL_RAT },
-    sourceTransparency: { evidence: ev("https://github.com/huggingface/transformers", "Transformers repository", "official-github"), rationale: OSS_RAT },
+    platformAvailability: { evidence: ev("https://huggingface.co/docs/hub/index", "Hugging Face Hub documentation", "official"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://huggingface.co/docs", "Hugging Face documentation", "official"), rationale: INTEG_RAT, state: "supported" },
+    contextFiles: { evidence: ev("https://huggingface.co/docs", "Hugging Face documentation", "official"), rationale: CONTEXT_RAT, state: "supported" },
+    freeValue: { evidence: ev("https://huggingface.co/pricing", "Hugging Face pricing", "official"), rationale: FREE_RAT, state: "supported" },
+    paidValue: { evidence: ev("https://huggingface.co/pricing", "Hugging Face pricing", "official"), rationale: PAID_RAT, state: "supported" },
+    privacy: { evidence: ev("https://huggingface.co/docs", "Hugging Face documentation", "official"), rationale: LOCAL_RAT, state: "supported" },
+    sourceTransparency: { evidence: ev("https://github.com/huggingface/transformers", "Transformers repository", "official-github"), rationale: OSS_RAT, state: "supported" },
   },
   midjourney: {
-    platformAvailability: { evidence: ev("https://docs.midjourney.com/", "Midjourney documentation", "official"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://docs.midjourney.com/", "Midjourney documentation", "official"), rationale: INTEG_RAT },
+    platformAvailability: { evidence: ev("https://docs.midjourney.com/", "Midjourney documentation", "official"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://docs.midjourney.com/", "Midjourney documentation", "official"), rationale: INTEG_RAT, state: "supported" },
   },
   "adobe-firefly": {
-    platformAvailability: { evidence: ev("https://www.adobe.com/products/firefly.html", "Adobe Firefly overview", "official"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://www.adobe.com/products/firefly.html", "Adobe Firefly overview", "official"), rationale: INTEG_RAT },
+    platformAvailability: { evidence: ev("https://www.adobe.com/products/firefly.html", "Adobe Firefly overview", "official"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://www.adobe.com/products/firefly.html", "Adobe Firefly overview", "official"), rationale: INTEG_RAT, state: "supported" },
   },
   runway: {
-    platformAvailability: { evidence: ev("https://runwayml.com/product", "Runway product overview", "official"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://runwayml.com/product", "Runway product overview", "official"), rationale: INTEG_RAT },
+    platformAvailability: { evidence: ev("https://runwayml.com/product", "Runway product overview", "official"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://runwayml.com/product", "Runway product overview", "official"), rationale: INTEG_RAT, state: "supported" },
   },
   n8n: {
-    platformAvailability: { evidence: ev("https://docs.n8n.io/", "n8n documentation", "official"), rationale: PLATFORM_RAT },
-    integrations: { evidence: ev("https://docs.n8n.io/", "n8n documentation", "official"), rationale: INTEG_RAT },
-    privacy: { evidence: ev("https://docs.n8n.io/", "n8n documentation", "official"), rationale: LOCAL_RAT },
-    sourceTransparency: { evidence: ev("https://docs.n8n.io/", "n8n documentation", "official"), rationale: OSS_RAT },
+    platformAvailability: { evidence: ev("https://docs.n8n.io/", "n8n documentation", "official"), rationale: PLATFORM_RAT, state: "supported" },
+    integrations: { evidence: ev("https://docs.n8n.io/", "n8n documentation", "official"), rationale: INTEG_RAT, state: "supported" },
+    privacy: { evidence: ev("https://docs.n8n.io/", "n8n documentation", "official"), rationale: LOCAL_RAT, state: "supported" },
+    sourceTransparency: { evidence: ev("https://docs.n8n.io/", "n8n documentation", "official"), rationale: OSS_RAT, state: "supported" },
   },
 };
 
@@ -170,9 +170,11 @@ function assessment(toolId: string, criterion: ComparisonCriterion): CriterionAs
   if (subjective) return { score: null, status: "not-verified", rationale: subjectiveRationale(criterion), evidence: [] };
   const fact = facts[toolId]?.[criterion];
   if (!fact) return { score: null, status: "not-verified", rationale: factualMissingRationale(criterion), evidence: [] };
-  // Verified factual capability, but no numeric suitability score is assigned
-  // unless a declared, reproducible rubric maps the evidence to a number.
-  return { score: null, status: "verified", rationale: fact.rationale, evidence: [fact.evidence] };
+  // Verified factual capability. `capability` states whether the verified claim
+  // confirms the capability ("supported") or confirms its absence ("not-supported").
+  // Missing polarity MUST NOT default to "supported" — it fails safe to "unknown"
+  // in fit.ts so an unannotated claim can never silently satisfy a requirement.
+  return { score: null, status: "verified", capability: fact.state, rationale: fact.rationale, evidence: [fact.evidence] };
 }
 
 export const profiles: Record<string, ToolComparisonProfile> = Object.fromEntries(
@@ -190,3 +192,4 @@ export const unverifiedAssessment: CriterionAssessment = {
   rationale: { en: "This criterion has not been editorially reviewed yet.", ar: "لم تتم مراجعة هذا المعيار تحريريًا بعد." },
   evidence: [],
 };
+

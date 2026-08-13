@@ -3,6 +3,7 @@ import { criterionLabels, presets } from "../data/presets";
 import { profiles, unverifiedAssessment } from "../data/profiles";
 import { toolMap } from "../data/tools";
 import { compareTools } from "../lib/scoring";
+import { documentedFit } from "../lib/fit";
 import type { Copy } from "../i18n";
 import type { ComparisonCriterion, CriterionAssessment, Language } from "../types";
 import { ToolSelector } from "./ToolSelector";
@@ -27,8 +28,37 @@ export function ComparisonWorkspace({ language, copy, leftId, rightId, mode, onS
   const rightTool = toolMap.get(rightId)!;
   const preset = presets.find((item) => item.id === mode) ?? presets[0];
   const result = compareTools(leftTool, rightTool, profiles[leftId], profiles[rightId], preset);
-  const resultTitle = result.outcome === "insufficient" ? copy.insufficient : result.outcome === "tie" ? copy.tie : result.outcome === "left" ? `${leftTool.name[language]} — ${copy.outcomeLeft}` : `${rightTool.name[language]} — ${copy.outcomeRight}`;
+  const fit = documentedFit(profiles[leftId], profiles[rightId], preset);
   const visibleCriteria = criterionOrder.filter((criterion) => preset.weights[criterion] !== undefined);
+
+  const winnerTool = fit.outcome === "left" ? leftTool : fit.outcome === "right" ? rightTool : null;
+  const docFitTitle = fit.outcome === "left" || fit.outcome === "right"
+    ? `${copy.docFitWinner} ${winnerTool!.name[language]}`
+    : fit.outcome === "inconclusive"
+    ? copy.docFitInconclusive
+    : fit.outcome === "similar"
+    ? copy.docFitSimilar
+    : copy.docFitInsufficient;
+
+  const docFitReason = (() => {
+    if (fit.outcome === "left") {
+      const caps = fit.decisiveCriteriaLeft.map((c) => criterionLabels[c][language]);
+      return `${leftTool.name[language]} ${copy.docFitReasonWinner} ${caps.join(" · ")}; ${rightTool.name[language]} ${copy.docFitReasonLoserUnsupported}.`;
+    }
+    if (fit.outcome === "right") {
+      const caps = fit.decisiveCriteriaRight.map((c) => criterionLabels[c][language]);
+      return `${rightTool.name[language]} ${copy.docFitReasonWinner} ${caps.join(" · ")}; ${leftTool.name[language]} ${copy.docFitReasonLoserUnsupported}.`;
+    }
+    if (fit.outcome === "inconclusive") {
+      return fit.asymmetry.map((entry) => {
+        const knownTool = entry.knownSide === "left" ? leftTool : rightTool;
+        const unknownTool = entry.knownSide === "left" ? rightTool : leftTool;
+        const knownPhrase = entry.knownState === "supported" ? copy.docFitReasonAsym : copy.docFitReasonAsymUnsupported;
+        return `${knownTool.name[language]} ${knownPhrase} ${criterionLabels[entry.criterion][language]}; ${unknownTool.name[language]} ${copy.docFitReasonUnknown}.`;
+      }).join(" ");
+    }
+    return copy.docFitReasonSimilar;
+  })();
 
   async function copyLink() {
     await navigator.clipboard.writeText(window.location.href);
@@ -84,10 +114,24 @@ export function ComparisonWorkspace({ language, copy, leftId, rightId, mode, onS
     </section>
 
     <section className="conclusion">
-      <h2>{resultTitle}</h2>
+      <h2>{docFitTitle}</h2>
+      <p className="fit-lead">{docFitReason}</p>
+      <div className="conclusion-tools">{[leftTool, rightTool].map((tool, index) => {
+        const f = index === 0 ? fit.left : fit.right;
+        return <div key={tool.id}><strong><span className="monogram">{tool.name.en[0]}</span>{tool.name[language]}</strong><span>{copy.docFit}: {f.supported.length} / {f.relevant}</span></div>;
+      })}</div>
       <div className="conclusion-tools">{[leftTool, rightTool].map((tool) => <div key={tool.id}><strong><span className="monogram">{tool.name.en[0]}</span>{tool.name[language]}</strong><span>{copy.chooseWhen}</span><p>{tool.bestFor.map((item) => item[language]).join("; ")}.</p></div>)}</div>
       <p className="neutral">{copy.neutral}</p>
     </section>
+
+    <details className="disclosure">
+      <summary>{copy.docFitWhy}</summary>
+      <p>{copy.docFitReq}: {fit.requirements.required.map((c) => criterionLabels[c][language]).join(", ")}.</p>
+      <p>{copy.docFitPref}: {fit.requirements.preferred.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}.</p>
+      <p><strong>{leftTool.name[language]}</strong> — {copy.docFitMatched}: {fit.left.supported.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnknown}: {fit.left.unknown.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnsupported}: {fit.left.notSupported.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}.</p>
+      <p><strong>{rightTool.name[language]}</strong> — {copy.docFitMatched}: {fit.right.supported.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnknown}: {fit.right.unknown.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnsupported}: {fit.right.notSupported.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}.</p>
+      <p>{copy.docFitCoverage}: {leftTool.name[language]} {fit.left.supported.length + fit.left.notSupported.length}/{fit.left.relevant}, {rightTool.name[language]} {fit.right.supported.length + fit.right.notSupported.length}/{fit.right.relevant}. {copy.docFitNote}</p>
+    </details>
 
     <details className="disclosure">
       <summary>{copy.whyResult}</summary>
