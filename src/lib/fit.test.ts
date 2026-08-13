@@ -1,193 +1,187 @@
 import { describe, expect, it } from "vitest";
 import { documentedFit, WORKFLOW_REQUIREMENTS } from "./fit";
-import { profiles } from "../data/profiles";
+import { capabilities, capabilityLabels } from "../data/capabilities";
 import { presets } from "../data/presets";
-import type { ComparisonCriterion, CriterionAssessment, ToolComparisonProfile } from "../types";
+import type { CapabilityAssessment, CapabilityId } from "../types";
 
 const preset = (id: string) => presets.find((p) => p.id === id)!;
-const prof = (assessments: ToolComparisonProfile["assessments"]): ToolComparisonProfile => ({ toolId: "t", lastVerifiedAt: "2026-08-13", changelog: [], assessments });
-const supported = (): CriterionAssessment => ({ score: 9, status: "verified", capability: "supported", rationale: { en: "", ar: "" }, evidence: [] });
-const unsupported = (): CriterionAssessment => ({ score: null, status: "verified", capability: "not-supported", rationale: { en: "", ar: "" }, evidence: [] });
-const unverified = (): CriterionAssessment => ({ score: null, status: "not-verified", rationale: { en: "", ar: "" }, evidence: [] });
-const verifiedNoPolarity = (): CriterionAssessment => ({ score: null, status: "verified", rationale: { en: "", ar: "" }, evidence: [] });
-const na = (): CriterionAssessment => ({ score: null, status: "not-applicable", rationale: { en: "", ar: "" }, evidence: [] });
 
-// A complete profile defines every criterion (matching real data), defaulting
-// unlisted criteria to unknown so they count as applicable/unknown rather than
-// collapsing the joint-applicable set.
-const ALL_CRITERIA: ComparisonCriterion[] = [
-  "quality", "easeOfUse", "freeValue", "paidValue", "speed", "contextFiles",
-  "integrations", "privacy", "collaboration", "developerFit", "sourceTransparency", "platformAvailability",
-];
-const fullProf = (overrides: Partial<Record<ComparisonCriterion, CriterionAssessment>>): ToolComparisonProfile =>
-  prof(Object.fromEntries(ALL_CRITERIA.map((c) => [c, overrides[c] ?? unverified()])));
+// A capability assessment is either supported or not-supported. A capability that
+// is absent from the map is treated as UNKNOWN by the engine (missing evidence).
+const cap = (state: "supported" | "not-supported"): CapabilityAssessment => ({ state, rationale: { en: "", ar: "" }, verifiedAt: "2026-08-13" });
+const capProf = (overrides: Partial<Record<CapabilityId, CapabilityAssessment>> = {}): Partial<Record<CapabilityId, CapabilityAssessment>> => overrides;
 
-describe("fail-safe capability polarity", () => {
-  it("verified + capability supported => supported", () => {
-    const r = documentedFit(fullProf({ sourceTransparency: supported() }), fullProf({ sourceTransparency: supported() }), preset("research"));
-    expect(r.left.supported).toContain("sourceTransparency");
-    expect(r.left.unknown).not.toContain("sourceTransparency");
+describe("capability state basics", () => {
+  it("supported capability is reported as supported", () => {
+    const r = documentedFit(capProf({ sourceCitations: cap("supported"), fileContext: cap("supported") }), capProf({ sourceCitations: cap("supported"), fileContext: cap("supported") }), preset("research"));
+    expect(r.left.supported).toContain("sourceCitations");
+    expect(r.left.unknown).not.toContain("sourceCitations");
   });
 
-  it("verified + capability not-supported => not-supported (never a match)", () => {
-    const r = documentedFit(fullProf({ sourceTransparency: supported() }), fullProf({ sourceTransparency: unsupported() }), preset("research"));
-    expect(r.left.supported).toContain("sourceTransparency");
-    expect(r.right.notSupported).toContain("sourceTransparency");
-    expect(r.right.supported).not.toContain("sourceTransparency");
+  it("not-supported capability is never a match", () => {
+    const r = documentedFit(capProf({ sourceCitations: cap("supported") }), capProf({ sourceCitations: cap("not-supported") }), preset("research"));
+    expect(r.left.supported).toContain("sourceCitations");
+    expect(r.right.notSupported).toContain("sourceCitations");
+    expect(r.right.supported).not.toContain("sourceCitations");
   });
 
-  it("verified + NO capability polarity => unknown (fails safe), never a match", () => {
-    const a = fullProf({ sourceTransparency: verifiedNoPolarity(), contextFiles: supported() });
-    const b = fullProf({ sourceTransparency: supported(), contextFiles: supported() });
-    const r = documentedFit(a, b, preset("research"));
-    expect(r.left.supported).not.toContain("sourceTransparency");
-    expect(r.left.unknown).toContain("sourceTransparency");
-    // Missing polarity can never create a documented-fit advantage for b.
-    expect(r.outcome).toBe("inconclusive");
-    expect(r.decisiveCriteriaLeft).toHaveLength(0);
-    expect(r.decisiveCriteriaRight).toHaveLength(0);
-  });
-
-  it("missing polarity can never accidentally create a documented-fit match", () => {
-    const r = documentedFit(fullProf({ sourceTransparency: verifiedNoPolarity() }), fullProf({ sourceTransparency: verifiedNoPolarity() }), preset("research"));
-    expect(r.left.unknown).toContain("sourceTransparency");
-    expect(r.left.supported).not.toContain("sourceTransparency");
+  it("absent capability is UNKNOWN, never a match", () => {
+    // Neither tool documents sourceCitations => both unknown.
+    const r = documentedFit(capProf({ fileContext: cap("supported") }), capProf({ fileContext: cap("supported") }), preset("research"));
+    expect(r.left.unknown).toContain("sourceCitations");
+    expect(r.left.supported).not.toContain("sourceCitations");
+    expect(r.right.unknown).toContain("sourceCitations");
   });
 });
 
-describe("capability state — supported vs unknown", () => {
-  it("supported vs unknown resolves to INCONCLUSIVE, not a winner", () => {
+describe("Problem 2 — unknown vs unknown must NOT be 'similar'", () => {
+  it("symmetric missing evidence on a required capability => INSUFFICIENT", () => {
+    // coding requires ideIntegration + fileContext; neither is provided => unknown/unknown.
+    const result = documentedFit(capProf({}), capProf({}), preset("coding"));
+    expect(result.outcome).toBe("insufficient");
+    expect(result.asymmetry).toHaveLength(0);
+    expect(result.decisiveCapabilitiesLeft).toHaveLength(0);
+    expect(result.decisiveCapabilitiesRight).toHaveLength(0);
+  });
+
+  it("supported vs unknown resolves to INCONCLUSIVE (asymmetry), not a winner", () => {
     const result = documentedFit(
-      fullProf({ sourceTransparency: supported(), contextFiles: supported() }),
-      fullProf({ sourceTransparency: unverified(), contextFiles: supported() }),
+      capProf({ sourceCitations: cap("supported"), fileContext: cap("supported") }),
+      capProf({ fileContext: cap("supported") }),
       preset("research"),
     );
     expect(result.outcome).toBe("inconclusive");
-    expect(result.decisiveCriteriaLeft).toHaveLength(0);
-    expect(result.asymmetry.some((a) => a.criterion === "sourceTransparency" && a.knownSide === "left" && a.knownState === "supported")).toBe(true);
+    expect(result.decisiveCapabilitiesLeft).toHaveLength(0);
+    expect(result.asymmetry.some((a) => a.capability === "sourceCitations" && a.knownSide === "left" && a.knownState === "supported")).toBe(true);
   });
 
   it("not-supported vs unknown resolves to INCONCLUSIVE (unknown is not a failure)", () => {
     const result = documentedFit(
-      fullProf({ sourceTransparency: unsupported(), contextFiles: supported() }),
-      fullProf({ sourceTransparency: unverified(), contextFiles: supported() }),
+      capProf({ sourceCitations: cap("not-supported"), fileContext: cap("supported") }),
+      capProf({ fileContext: cap("supported") }),
       preset("research"),
     );
     expect(result.outcome).toBe("inconclusive");
-    expect(result.left.unknown).not.toContain("sourceTransparency");
-    expect(result.left.notSupported).toContain("sourceTransparency");
-    expect(result.right.unknown).toContain("sourceTransparency");
+    expect(result.left.unknown).not.toContain("sourceCitations");
+    expect(result.left.notSupported).toContain("sourceCitations");
+    expect(result.right.unknown).toContain("sourceCitations");
   });
 });
 
-describe("capability state — supported vs not-supported", () => {
-  it("supported vs not-supported MAY produce a winner", () => {
+describe("Problem 3 — conflicting decisive advantages => TRADEOFF", () => {
+  it("each tool leads on a different required capability => tradeoff (no bias)", () => {
+    // general requires webAccess, fileContext, freeTier.
+    const a = capProf({ webAccess: cap("supported"), fileContext: cap("supported"), freeTier: cap("not-supported") });
+    const b = capProf({ webAccess: cap("not-supported"), fileContext: cap("supported"), freeTier: cap("supported") });
+    const result = documentedFit(a, b, preset("general"));
+    expect(result.outcome).toBe("tradeoff");
+    expect(result.decisiveCapabilitiesLeft).toContain("webAccess");
+    expect(result.decisiveCapabilitiesRight).toContain("freeTier");
+    expect(result.asymmetry).toHaveLength(0);
+  });
+
+  it("supported vs not-supported with a single decisive side => left/right", () => {
     const result = documentedFit(
-      fullProf({ sourceTransparency: supported(), contextFiles: supported() }),
-      fullProf({ sourceTransparency: unsupported(), contextFiles: supported() }),
+      capProf({ sourceCitations: cap("supported"), fileContext: cap("supported") }),
+      capProf({ sourceCitations: cap("not-supported"), fileContext: cap("supported") }),
       preset("research"),
     );
     expect(result.outcome).toBe("left");
-    expect(result.decisiveCriteriaLeft).toContain("sourceTransparency");
+    expect(result.decisiveCapabilitiesLeft).toContain("sourceCitations");
     expect(result.asymmetry).toHaveLength(0);
   });
 });
 
-describe("evidence coverage is separate from documented fit", () => {
-  it("more known evidence does not imply a fit advantage when the gap is unknown", () => {
-    const a = fullProf({ platformAvailability: supported(), integrations: supported(), freeValue: supported(), contextFiles: supported(), paidValue: supported() });
-    const b = fullProf({ platformAvailability: supported(), integrations: supported(), freeValue: supported(), contextFiles: supported(), paidValue: unverified() });
-    const result = documentedFit(a, b, preset("general"));
-    expect(result.outcome).toBe("similar");
-    const knownA = result.left.supported.length + result.left.notSupported.length;
-    const knownB = result.right.supported.length + result.right.notSupported.length;
-    expect(knownA).toBeGreaterThan(knownB); // coverage differs
-  });
-});
-
-describe("not-applicable behavior", () => {
-  it("excludes not-applicable criteria from the relevant requirement count", () => {
-    const result = documentedFit(profiles.midjourney, profiles.chatgpt, preset("coding"));
-    expect(result.left.notApplicable).toContain("contextFiles");
-    expect(result.jointApplicable).not.toContain("contextFiles");
-  });
-});
-
-describe("documented fit — decision outcomes", () => {
-  it("declares a similar fit when both tools support the same requirements", () => {
-    const a = fullProf({ integrations: supported(), contextFiles: supported(), platformAvailability: supported(), freeValue: supported(), paidValue: supported() });
-    const b = fullProf({ integrations: supported(), contextFiles: supported(), platformAvailability: supported(), freeValue: supported(), paidValue: supported() });
+describe("capability state — similar fit", () => {
+  it("declares similar when both tools support the same known requirements (no unknown)", () => {
+    const a = capProf({ webAccess: cap("supported"), fileContext: cap("supported"), freeTier: cap("supported"), paidPlan: cap("supported"), thirdPartyIntegrations: cap("supported") });
+    const b = capProf({ webAccess: cap("supported"), fileContext: cap("supported"), freeTier: cap("supported"), paidPlan: cap("supported"), thirdPartyIntegrations: cap("supported") });
     expect(documentedFit(a, b, preset("general")).outcome).toBe("similar");
   });
 
   it("never produces a universal-winner outcome — equal points stay similar", () => {
-    const a = fullProf({ integrations: supported(), contextFiles: supported() });
-    const b = fullProf({ integrations: supported(), contextFiles: supported() });
+    const a = capProf({ ideIntegration: cap("supported"), fileContext: cap("supported") });
+    const b = capProf({ ideIntegration: cap("supported"), fileContext: cap("supported") });
     const result = documentedFit(a, b, preset("coding"));
     expect(result.leftPoints).toBe(result.rightPoints);
     expect(result.outcome).toBe("similar");
   });
+});
 
+describe("decision outcome guards", () => {
   it("withholds a conclusion when too few requirements apply to both tools", () => {
-    const result = documentedFit(prof({}), prof({}), { id: "no-such-preset", label: { en: "", ar: "" }, explanation: { en: "", ar: "" }, weights: {} });
+    const result = documentedFit(capProf({}), capProf({}), { id: "no-such-preset", label: { en: "", ar: "" }, explanation: { en: "", ar: "" }, weights: {} });
     expect(result.outcome).toBe("insufficient");
-  });
-
-  it("swap symmetry holds (decisive and similar both invert/survive on swap)", () => {
-    const a = fullProf({ sourceTransparency: unsupported(), contextFiles: supported() });
-    const b = fullProf({ sourceTransparency: supported(), contextFiles: supported() });
-    expect(documentedFit(a, b, preset("research")).outcome).toBe("right");
-    expect(documentedFit(b, a, preset("research")).outcome).toBe("left");
-    const s1 = documentedFit(fullProf({ sourceTransparency: supported(), contextFiles: supported() }), fullProf({ sourceTransparency: supported(), contextFiles: supported() }), preset("research"));
-    const s2 = documentedFit(fullProf({ sourceTransparency: supported(), contextFiles: supported() }), fullProf({ sourceTransparency: supported(), contextFiles: supported() }), preset("research"));
-    expect(s1.outcome).toBe("similar");
-    expect(s2.outcome).toBe("similar");
   });
 });
 
-describe("documented fit — independence from numeric suitability", () => {
-  it("ignores score values and depends only on verification status/polarity", () => {
-    const high = fullProf({ sourceTransparency: { score: 10, status: "verified", capability: "supported", rationale: { en: "", ar: "" }, evidence: [] }, contextFiles: supported() });
-    const low = fullProf({ sourceTransparency: { score: 1, status: "verified", capability: "supported", rationale: { en: "", ar: "" }, evidence: [] }, contextFiles: supported() });
-    const result = documentedFit(high, low, preset("research"));
-    expect(result.outcome).toBe("similar");
-    expect(result.leftPoints).toBe(result.rightPoints);
-  });
+describe("swap symmetry", () => {
+  it("decisive inverts, tradeoff/similar/inconclusive survive on swap", () => {
+    // decisive left -> wins as right after swap
+    const a = capProf({ sourceCitations: cap("supported"), fileContext: cap("supported") });
+    const b = capProf({ sourceCitations: cap("not-supported"), fileContext: cap("supported") });
+    expect(documentedFit(a, b, preset("research")).outcome).toBe("left");
+    expect(documentedFit(b, a, preset("research")).outcome).toBe("right");
 
-  it("every requirement is a factual (non-subjective) criterion", () => {
-    const SUBJECTIVE = new Set<ComparisonCriterion>(["quality", "easeOfUse", "speed", "collaboration", "developerFit"]);
-    for (const req of Object.values(WORKFLOW_REQUIREMENTS)) {
-      for (const c of [...req.required, ...req.preferred]) {
-        expect(SUBJECTIVE.has(c)).toBe(false);
-      }
-    }
+    // tradeoff survives swap (still both decisive)
+    const t1 = capProf({ webAccess: cap("supported"), fileContext: cap("supported"), freeTier: cap("not-supported") });
+    const t2 = capProf({ webAccess: cap("not-supported"), fileContext: cap("supported"), freeTier: cap("supported") });
+    expect(documentedFit(t1, t2, preset("general")).outcome).toBe("tradeoff");
+    expect(documentedFit(t2, t1, preset("general")).outcome).toBe("tradeoff");
+
+    // similar survives swap
+    const s = capProf({ webAccess: cap("supported"), fileContext: cap("supported"), freeTier: cap("supported") });
+    expect(documentedFit(s, s, preset("general")).outcome).toBe("similar");
+
+    // inconclusive survives swap
+    const i1 = capProf({ sourceCitations: cap("supported"), fileContext: cap("supported") });
+    const i2 = capProf({ fileContext: cap("supported") });
+    expect(documentedFit(i1, i2, preset("research")).outcome).toBe("inconclusive");
+    expect(documentedFit(i2, i1, preset("research")).outcome).toBe("inconclusive");
   });
 });
 
 describe("documented fit — six priority comparisons", () => {
-  const cases: Array<[string, string, string, "similar" | "inconclusive"]> = [
-    ["chatgpt", "claude", "coding", "similar"],
+  const cases: Array<[string, string, string, "similar" | "inconclusive" | "insufficient"]> = [
+    ["chatgpt", "claude", "coding", "insufficient"],
     ["chatgpt", "gemini", "general", "similar"],
     ["perplexity", "chatgpt", "research", "inconclusive"],
-    ["cursor", "github-copilot", "coding", "similar"],
+    ["cursor", "github-copilot", "coding", "insufficient"],
     ["ollama", "hugging-face", "local", "similar"],
     ["ollama", "hugging-face", "development", "similar"],
   ];
   for (const [left, right, mode, expected] of cases) {
     it(`${left} vs ${right} (${mode}) -> ${expected}`, () => {
-      const result = documentedFit(profiles[left], profiles[right], preset(mode));
+      const result = documentedFit(capabilities[left], capabilities[right], preset(mode));
       expect(result.outcome).toBe(expected);
     });
   }
 
   it("Perplexity vs ChatGPT (Research) is INCONCLUSIVE — evidence asymmetric, not a Perplexity win", () => {
-    const result = documentedFit(profiles.perplexity, profiles.chatgpt, preset("research"));
+    const result = documentedFit(capabilities.perplexity, capabilities.chatgpt, preset("research"));
     expect(result.outcome).toBe("inconclusive");
-    expect(result.decisiveCriteriaLeft).toHaveLength(0);
-    expect(result.decisiveCriteriaRight).toHaveLength(0);
-    // Evidence asymmetry: Perplexity documents source transparency; ChatGPT is unknown.
-    expect(result.asymmetry.some((a) => a.criterion === "sourceTransparency" && a.knownSide === "left" && a.knownState === "supported")).toBe(true);
-    expect(result.left.supported).toContain("sourceTransparency");
-    expect(result.right.unknown).toContain("sourceTransparency");
+    expect(result.decisiveCapabilitiesLeft).toHaveLength(0);
+    expect(result.decisiveCapabilitiesRight).toHaveLength(0);
+    // Evidence asymmetry: Perplexity documents source citations; ChatGPT is unknown.
+    expect(result.asymmetry.some((a) => a.capability === "sourceCitations" && a.knownSide === "left" && a.knownState === "supported")).toBe(true);
+    expect(result.left.supported).toContain("sourceCitations");
+    expect(result.right.unknown).toContain("sourceCitations");
+  });
+
+  it("ChatGPT vs Claude (Coding) is INSUFFICIENT — IDE integration is unknown for both", () => {
+    const result = documentedFit(capabilities.chatgpt, capabilities.claude, preset("coding"));
+    expect(result.outcome).toBe("insufficient");
+    expect(result.left.unknown).toContain("ideIntegration");
+    expect(result.right.unknown).toContain("ideIntegration");
+  });
+});
+
+describe("requirement integrity", () => {
+  it("every requirement capability is defined in the capability taxonomy labels", () => {
+    for (const req of Object.values(WORKFLOW_REQUIREMENTS)) {
+      for (const c of [...req.required, ...req.preferred]) {
+        expect(capabilityLabels[c]).toBeDefined();
+      }
+    }
   });
 });

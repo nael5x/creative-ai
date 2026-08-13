@@ -17,6 +17,22 @@ export type Evidence = {
 
 export type CapabilityState = "supported" | "not-supported";
 
+// Explicit, product-agnostic capability taxonomy. This is deliberately separate
+// from ComparisonCriterion (the scoring facts). A capability is a factual,
+// observable property of a tool; it carries polarity (supported / not-supported)
+// but no numeric suitability score.
+export type CapabilityId =
+  | "webAccess" | "thirdPartyIntegrations" | "fileContext"
+  | "freeTier" | "paidPlan" | "localExecution" | "selfHosting"
+  | "openSource" | "sourceCitations" | "ideIntegration" | "apiAvailability";
+
+export type CapabilityAssessment = {
+  state: CapabilityState; // "supported" | "not-supported"
+  evidence?: Evidence;
+  rationale: Localized;
+  verifiedAt: string;
+};
+
 export type CriterionAssessment = {
   score: number | null;
   status: "verified" | "not-verified" | "not-applicable";

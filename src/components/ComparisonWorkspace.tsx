@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { criterionLabels, presets } from "../data/presets";
 import { profiles, unverifiedAssessment } from "../data/profiles";
+import { capabilities, capabilityLabels } from "../data/capabilities";
 import { toolMap } from "../data/tools";
 import { compareTools } from "../lib/scoring";
 import { documentedFit } from "../lib/fit";
@@ -28,7 +29,7 @@ export function ComparisonWorkspace({ language, copy, leftId, rightId, mode, onS
   const rightTool = toolMap.get(rightId)!;
   const preset = presets.find((item) => item.id === mode) ?? presets[0];
   const result = compareTools(leftTool, rightTool, profiles[leftId], profiles[rightId], preset);
-  const fit = documentedFit(profiles[leftId], profiles[rightId], preset);
+  const fit = documentedFit(capabilities[leftId], capabilities[rightId], preset);
   const visibleCriteria = criterionOrder.filter((criterion) => preset.weights[criterion] !== undefined);
 
   const winnerTool = fit.outcome === "left" ? leftTool : fit.outcome === "right" ? rightTool : null;
@@ -38,23 +39,30 @@ export function ComparisonWorkspace({ language, copy, leftId, rightId, mode, onS
     ? copy.docFitInconclusive
     : fit.outcome === "similar"
     ? copy.docFitSimilar
+    : fit.outcome === "tradeoff"
+    ? copy.docFitTradeoff
     : copy.docFitInsufficient;
 
   const docFitReason = (() => {
     if (fit.outcome === "left") {
-      const caps = fit.decisiveCriteriaLeft.map((c) => criterionLabels[c][language]);
+      const caps = fit.decisiveCapabilitiesLeft.map((c) => capabilityLabels[c][language]);
       return `${leftTool.name[language]} ${copy.docFitReasonWinner} ${caps.join(" · ")}; ${rightTool.name[language]} ${copy.docFitReasonLoserUnsupported}.`;
     }
     if (fit.outcome === "right") {
-      const caps = fit.decisiveCriteriaRight.map((c) => criterionLabels[c][language]);
+      const caps = fit.decisiveCapabilitiesRight.map((c) => capabilityLabels[c][language]);
       return `${rightTool.name[language]} ${copy.docFitReasonWinner} ${caps.join(" · ")}; ${leftTool.name[language]} ${copy.docFitReasonLoserUnsupported}.`;
+    }
+    if (fit.outcome === "tradeoff") {
+      const leftCaps = fit.decisiveCapabilitiesLeft.map((c) => capabilityLabels[c][language]);
+      const rightCaps = fit.decisiveCapabilitiesRight.map((c) => capabilityLabels[c][language]);
+      return `${leftTool.name[language]} ${copy.docFitReasonWinner} ${leftCaps.join(" · ")}; ${rightTool.name[language]} ${copy.docFitReasonWinner} ${rightCaps.join(" · ")}.`;
     }
     if (fit.outcome === "inconclusive") {
       return fit.asymmetry.map((entry) => {
         const knownTool = entry.knownSide === "left" ? leftTool : rightTool;
         const unknownTool = entry.knownSide === "left" ? rightTool : leftTool;
         const knownPhrase = entry.knownState === "supported" ? copy.docFitReasonAsym : copy.docFitReasonAsymUnsupported;
-        return `${knownTool.name[language]} ${knownPhrase} ${criterionLabels[entry.criterion][language]}; ${unknownTool.name[language]} ${copy.docFitReasonUnknown}.`;
+        return `${knownTool.name[language]} ${knownPhrase} ${capabilityLabels[entry.capability][language]}; ${unknownTool.name[language]} ${copy.docFitReasonUnknown}.`;
       }).join(" ");
     }
     return copy.docFitReasonSimilar;
@@ -126,10 +134,10 @@ export function ComparisonWorkspace({ language, copy, leftId, rightId, mode, onS
 
     <details className="disclosure">
       <summary>{copy.docFitWhy}</summary>
-      <p>{copy.docFitReq}: {fit.requirements.required.map((c) => criterionLabels[c][language]).join(", ")}.</p>
-      <p>{copy.docFitPref}: {fit.requirements.preferred.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}.</p>
-      <p><strong>{leftTool.name[language]}</strong> — {copy.docFitMatched}: {fit.left.supported.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnknown}: {fit.left.unknown.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnsupported}: {fit.left.notSupported.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}.</p>
-      <p><strong>{rightTool.name[language]}</strong> — {copy.docFitMatched}: {fit.right.supported.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnknown}: {fit.right.unknown.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnsupported}: {fit.right.notSupported.map((c) => criterionLabels[c][language]).join(", ") || copy.docFitNone}.</p>
+      <p>{copy.docFitReq}: {fit.requirements.required.map((c) => capabilityLabels[c][language]).join(", ")}.</p>
+      <p>{copy.docFitPref}: {fit.requirements.preferred.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}.</p>
+      <p><strong>{leftTool.name[language]}</strong> — {copy.docFitMatched}: {fit.left.supported.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnknown}: {fit.left.unknown.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnsupported}: {fit.left.notSupported.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}.</p>
+      <p><strong>{rightTool.name[language]}</strong> — {copy.docFitMatched}: {fit.right.supported.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnknown}: {fit.right.unknown.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnsupported}: {fit.right.notSupported.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}.</p>
       <p>{copy.docFitCoverage}: {leftTool.name[language]} {fit.left.supported.length + fit.left.notSupported.length}/{fit.left.relevant}, {rightTool.name[language]} {fit.right.supported.length + fit.right.notSupported.length}/{fit.right.relevant}. {copy.docFitNote}</p>
     </details>
 

@@ -1,6 +1,6 @@
 import type { CapabilityState, ComparisonCriterion, CriterionAssessment, Evidence, ToolComparisonProfile } from "../types";
 
-const verifiedAt = "2026-08-13";
+export const verifiedAt = "2026-08-13";
 
 // Criteria that are subjective/editorial judgments. An official overview or
 // marketing page does NOT verify these; they require a reproducible test or
@@ -65,7 +65,7 @@ const ev = (url: string, title: string, sourceType: Evidence["sourceType"]): Evi
 // These are VERIFIED FACTS (capability exists), not numeric suitability scores.
 // No arbitrary 0–10 number is stored; a score is added only when a declared,
 // reproducible rubric maps the evidence to a number (none are declared yet).
-const facts: Record<string, Partial<Record<ComparisonCriterion, FactEvidence>>> = {
+export const facts: Record<string, Partial<Record<ComparisonCriterion, FactEvidence>>> = {
   chatgpt: {
     platformAvailability: { evidence: ev("https://help.openai.com/en/articles/12677804-what-is-chatgpt-faq", "ChatGPT FAQ", "official"), rationale: PLATFORM_RAT, state: "supported" },
     integrations: { evidence: ev("https://openai.com/chatgpt/features/", "ChatGPT features", "official"), rationale: INTEG_RAT, state: "supported" },
