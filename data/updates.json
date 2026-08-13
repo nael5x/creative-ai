@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T03:02:54.740334+00:00",
+  "updatedAt": "2026-08-13T07:57:27.188526+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.10-rc1",
@@ -202,6 +202,106 @@
       "why": "Useful for developers building AI products."
     },
     {
+      "id": "tag:github.com,2008:Repository/155220641/v5.15.0",
+      "title": "Release: v5.15.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+      "publishedAt": "2026-08-10T10:28:13Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.14.1",
+      "title": "Patch release: v5.14.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.1",
+      "publishedAt": "2026-07-16T09:41:36Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.14.0",
+      "title": "Release v5.14.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.0",
+      "publishedAt": "2026-07-15T19:02:19Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.13.1",
+      "title": "Patch release v5.13.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.13.1",
+      "publishedAt": "2026-07-11T09:15:36Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.13.0",
+      "title": "Release v5.13.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.13.0",
+      "publishedAt": "2026-07-03T16:06:27Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.12.1",
+      "title": "Patch release v5.12.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
+      "publishedAt": "2026-06-15T17:29:59Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.10.3",
+      "title": "Patch release v5.10.4",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.3",
+      "publishedAt": "2026-06-19T13:25:50Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.12.0",
+      "title": "Release v5.12.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.0",
+      "publishedAt": "2026-06-12T14:39:40Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.11.0",
+      "title": "Release v5.11.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.11.0",
+      "publishedAt": "2026-06-10T16:32:44Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/155220641/v5.10.2",
+      "title": "Patch release v5.10.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.2",
+      "publishedAt": "2026-06-04T18:43:06Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.32.0",
       "title": "v0.32.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.32.0",
@@ -302,6 +402,106 @@
       "why": "Useful for advanced Stable Diffusion users."
     },
     {
+      "id": "tag:github.com,2008:Repository/701547123/v0.11.0",
+      "title": "v0.11.0",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.0",
+      "publishedAt": "2026-07-27T09:30:15Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/701547123/v0.10.2",
+      "title": "v0.10.2",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.10.2",
+      "publishedAt": "2026-07-01T08:41:29Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/701547123/v0.10.1",
+      "title": "v0.10.1",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.10.1",
+      "publishedAt": "2026-06-29T19:38:44Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/701547123/v0.10.0",
+      "title": "v0.10.0",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.10.0",
+      "publishedAt": "2026-06-29T19:17:48Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/701547123/v0.9.6",
+      "title": "v0.9.6",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.9.6",
+      "publishedAt": "2026-06-02T02:22:06Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/701547123/v0.9.5",
+      "title": "v0.9.5",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.9.5",
+      "publishedAt": "2026-05-10T18:14:07Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/701547123/v0.9.4",
+      "title": "v0.9.4",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.9.4",
+      "publishedAt": "2026-05-09T07:50:17Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/701547123/v0.9.3",
+      "title": "v0.9.3",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.9.3",
+      "publishedAt": "2026-05-09T07:17:19Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/701547123/v0.9.2",
+      "title": "v0.9.2",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.9.2",
+      "publishedAt": "2026-04-24T09:56:14Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/701547123/v0.9.1",
+      "title": "v0.9.1",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.9.1",
+      "publishedAt": "2026-04-21T10:45:37Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/621803253/flowise-ui@3.1.4",
       "title": "flowise-ui@3.1.4: Release/3.1.4 (#6681)",
       "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise-ui%403.1.4",
@@ -400,6 +600,106 @@
       "kind": "Visual AI builder",
       "purpose": "Build visual chatflows and LLM applications.",
       "why": "Useful for prototyping RAG and chatbot workflows."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev25",
+      "title": "v1.12.0.dev25",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev25",
+      "publishedAt": "2026-08-13T00:30:33Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev24",
+      "title": "v1.12.0.dev24",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev24",
+      "publishedAt": "2026-08-12T00:29:51Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev23",
+      "title": "v1.12.0.dev23",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev23",
+      "publishedAt": "2026-08-11T00:24:40Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.11.3",
+      "title": "1.11.3",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.3",
+      "publishedAt": "2026-08-11T23:14:51Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev22",
+      "title": "v1.12.0.dev22",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev22",
+      "publishedAt": "2026-08-10T00:25:34Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev21",
+      "title": "v1.12.0.dev21",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev21",
+      "publishedAt": "2026-08-09T00:24:30Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev20",
+      "title": "v1.12.0.dev20",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev20",
+      "publishedAt": "2026-08-08T02:54:05Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev19",
+      "title": "v1.12.0.dev19",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev19",
+      "publishedAt": "2026-08-07T01:19:58Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev18",
+      "title": "v1.12.0.dev18",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev18",
+      "publishedAt": "2026-08-06T00:36:36Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev17",
+      "title": "v1.12.0.dev17",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev17",
+      "publishedAt": "2026-08-05T03:04:12Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
     },
     {
       "id": "tag:github.com,2008:Repository/193215554/v1",
@@ -602,100 +902,100 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1216886",
-      "title": "Swipe",
-      "url": "https://www.producthunt.com/products/swipe-9",
-      "publishedAt": "2026-08-12T20:01:46-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1221616",
+      "title": "Pickle Browser",
+      "url": "https://www.producthunt.com/products/pickle-browser",
+      "publishedAt": "2026-08-13T00:56:37-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1220103",
-      "title": "Media Sharing",
-      "url": "https://www.producthunt.com/products/argos",
-      "publishedAt": "2026-08-12T19:21:25-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1221864",
+      "title": "Human Behavior",
+      "url": "https://www.producthunt.com/products/human-behavior",
+      "publishedAt": "2026-08-13T00:56:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1218956",
-      "title": "tash",
-      "url": "https://www.producthunt.com/products/tash",
-      "publishedAt": "2026-08-12T18:18:14-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1194941",
+      "title": "WebBrain",
+      "url": "https://www.producthunt.com/products/webbrain",
+      "publishedAt": "2026-08-13T00:56:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1217742",
-      "title": "RightCard",
-      "url": "https://www.producthunt.com/products/rightcard",
-      "publishedAt": "2026-08-12T18:41:22-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1184295",
+      "title": "Execlave",
+      "url": "https://www.producthunt.com/products/execlave",
+      "publishedAt": "2026-08-13T00:56:33-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1220706",
-      "title": "Linforge",
-      "url": "https://www.producthunt.com/products/linforge",
-      "publishedAt": "2026-08-12T20:02:23-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1221712",
+      "title": "Phinq",
+      "url": "https://www.producthunt.com/products/phinq",
+      "publishedAt": "2026-08-13T00:56:35-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1218357",
-      "title": "Lettertrace",
-      "url": "https://www.producthunt.com/products/lettertrace",
-      "publishedAt": "2026-08-12T19:43:34-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1221718",
+      "title": "Kivicube",
+      "url": "https://www.producthunt.com/products/kivicube",
+      "publishedAt": "2026-08-13T00:56:32-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1220714",
-      "title": "Sidekick™",
-      "url": "https://www.producthunt.com/products/sidekick-16",
-      "publishedAt": "2026-08-12T19:58:38-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1220624",
+      "title": "Oasis",
+      "url": "https://www.producthunt.com/products/oasis-6",
+      "publishedAt": "2026-08-13T00:56:32-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1219801",
-      "title": "Chat Agent by Trigger.dev",
-      "url": "https://www.producthunt.com/products/trigger-dev",
-      "publishedAt": "2026-08-12T20:02:22-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1204836",
+      "title": "Ito",
+      "url": "https://www.producthunt.com/products/ito-ai-code-review-that-runs-code",
+      "publishedAt": "2026-08-13T00:56:31-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1220890",
-      "title": "Cohesor",
-      "url": "https://www.producthunt.com/products/cohesor",
-      "publishedAt": "2026-08-12T20:02:23-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1221825",
+      "title": "FluidDocs CLI",
+      "url": "https://www.producthunt.com/products/fluiddocs-html-deck-builder",
+      "publishedAt": "2026-08-13T00:56:31-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1220486",
-      "title": "Nearfield",
-      "url": "https://www.producthunt.com/products/nearfield",
-      "publishedAt": "2026-08-12T20:02:23-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1221818",
+      "title": "Kin Health",
+      "url": "https://www.producthunt.com/products/kin-health",
+      "publishedAt": "2026-08-13T00:56:28-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
