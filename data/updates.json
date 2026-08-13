@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T07:57:27.188526+00:00",
+  "updatedAt": "2026-08-13T13:52:29.824976+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.10-rc1",
@@ -102,6 +102,16 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.5.0",
+      "title": "langchain-openai==1.5.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.0",
+      "publishedAt": "2026-08-13T13:15:02Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.5.6",
       "title": "langchain-anthropic==1.5.6",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.6",
@@ -186,16 +196,6 @@
       "title": "langchain-core==1.5.2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.2",
       "publishedAt": "2026-07-28T16:39:05Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.5.3",
-      "title": "langchain-anthropic==1.5.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.3",
-      "publishedAt": "2026-07-28T17:03:16Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -703,9 +703,39 @@
     },
     {
       "id": "tag:github.com,2008:Repository/193215554/v1",
-      "title": "v1: :rocket: Release 1.123.70 (#36104)",
+      "title": "v1: :rocket: Release 1.123.71 (#36182)",
       "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
-      "publishedAt": "2026-08-12T07:31:56Z",
+      "publishedAt": "2026-08-13T07:28:45Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.35.2",
+      "title": "n8n@2.35.2",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.2",
+      "publishedAt": "2026-08-13T08:03:43Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@1.123.71",
+      "title": "n8n@1.123.71",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.71",
+      "publishedAt": "2026-08-13T08:08:35Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/beta",
+      "title": "beta",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "publishedAt": "2026-08-13T07:59:54Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -752,16 +782,6 @@
       "why": "Useful for repeatable content and business automation."
     },
     {
-      "id": "tag:github.com,2008:Repository/193215554/beta",
-      "title": "beta",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "publishedAt": "2026-08-12T07:56:48Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
       "id": "tag:github.com,2008:Repository/193215554/n8n@2.35.0",
       "title": "n8n@2.35.0",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.0",
@@ -776,26 +796,6 @@
       "title": "n8n@2.34.4",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.4",
       "publishedAt": "2026-08-11T08:00:24Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.34.3",
-      "title": "n8n@2.34.3",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.3",
-      "publishedAt": "2026-08-07T07:57:17Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.33.7",
-      "title": "n8n@2.33.7",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.7",
-      "publishedAt": "2026-08-07T16:57:08Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -902,60 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1221616",
-      "title": "Pickle Browser",
-      "url": "https://www.producthunt.com/products/pickle-browser",
-      "publishedAt": "2026-08-13T00:56:37-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1221864",
-      "title": "Human Behavior",
-      "url": "https://www.producthunt.com/products/human-behavior",
-      "publishedAt": "2026-08-13T00:56:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1194941",
-      "title": "WebBrain",
-      "url": "https://www.producthunt.com/products/webbrain",
-      "publishedAt": "2026-08-13T00:56:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1184295",
       "title": "Execlave",
       "url": "https://www.producthunt.com/products/execlave",
-      "publishedAt": "2026-08-13T00:56:33-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1221712",
-      "title": "Phinq",
-      "url": "https://www.producthunt.com/products/phinq",
-      "publishedAt": "2026-08-13T00:56:35-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1221718",
-      "title": "Kivicube",
-      "url": "https://www.producthunt.com/products/kivicube",
-      "publishedAt": "2026-08-13T00:56:32-07:00",
+      "publishedAt": "2026-08-13T06:40:39-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,7 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1220624",
       "title": "Oasis",
       "url": "https://www.producthunt.com/products/oasis-6",
-      "publishedAt": "2026-08-13T00:56:32-07:00",
+      "publishedAt": "2026-08-13T06:51:50-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,27 +925,77 @@
       "id": "tag:www.producthunt.com,2005:Post/1204836",
       "title": "Ito",
       "url": "https://www.producthunt.com/products/ito-ai-code-review-that-runs-code",
-      "publishedAt": "2026-08-13T00:56:31-07:00",
+      "publishedAt": "2026-08-13T06:51:23-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1221825",
-      "title": "FluidDocs CLI",
-      "url": "https://www.producthunt.com/products/fluiddocs-html-deck-builder",
-      "publishedAt": "2026-08-13T00:56:31-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1214622",
+      "title": "Nuphos",
+      "url": "https://www.producthunt.com/products/nuphos",
+      "publishedAt": "2026-08-13T06:51:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1221818",
-      "title": "Kin Health",
-      "url": "https://www.producthunt.com/products/kin-health",
-      "publishedAt": "2026-08-13T00:56:28-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1221864",
+      "title": "Human Behavior",
+      "url": "https://www.producthunt.com/products/human-behavior",
+      "publishedAt": "2026-08-13T06:51:24-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1194941",
+      "title": "WebBrain",
+      "url": "https://www.producthunt.com/products/webbrain",
+      "publishedAt": "2026-08-13T06:50:51-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1214956",
+      "title": "Scrimba Explain",
+      "url": "https://www.producthunt.com/products/scrimba",
+      "publishedAt": "2026-08-13T06:50:47-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1220673",
+      "title": "Mem Agent",
+      "url": "https://www.producthunt.com/products/mem-2-0",
+      "publishedAt": "2026-08-13T06:50:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1218262",
+      "title": "Patience",
+      "url": "https://www.producthunt.com/products/patience-2",
+      "publishedAt": "2026-08-13T06:49:43-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1220849",
+      "title": "Caveman",
+      "url": "https://www.producthunt.com/products/caveman",
+      "publishedAt": "2026-08-13T06:46:08-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
