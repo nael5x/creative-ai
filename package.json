@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && vite-node src/static/prerender-cli.ts",
     "test": "vitest run",
     "lint": "eslint ."
   },
@@ -21,6 +21,7 @@
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
     "@testing-library/user-event": "latest",
+    "@types/node": "^26.2.0",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "eslint": "latest",
@@ -29,6 +30,7 @@
     "globals": "latest",
     "jsdom": "latest",
     "playwright": "^1.62.1",
+    "vite-node": "^6.0.0",
     "vitest": "latest"
   }
 }

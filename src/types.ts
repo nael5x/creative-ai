@@ -66,6 +66,45 @@ export type ToolComparisonProfile = {
   changelog: { date: string; summary: Localized }[];
 };
 
+// A work domain / use case the product is organized around (the IA hero).
+// Domains are data-driven (not a closed union) so the catalog can grow.
+export type Domain = {
+  id: string;
+  name: Localized;
+  description: Localized;
+  // Default use-case preset used when comparing inside this domain.
+  relatedPreset: string;
+  // Curated tool ids that fit this domain (subset of the tool catalog).
+  toolIds: string[];
+  // Short orientation / starting-point text (roadmap seed; editor-expandable).
+  orientation: Localized;
+};
+
+// Components extend the catalog beyond tools: skills, plugins and connectors.
+export type ComponentType = "skill" | "plugin" | "connector";
+
+// Evidence tier for components (tools stay fully verified). See blueprint §21.
+// - verified: editor-reviewed (may carry the "trusted" badge)
+// - listed: has an official source link only (auto-eligible, no editorial verdict)
+// - community: user-submitted, editor-approved
+export type ComponentStatus = "verified" | "listed" | "community";
+
+export type Component = {
+  id: string;
+  type: ComponentType;
+  name: Localized;
+  description: Localized;
+  domainIds: string[];
+  // Tools this component works with. >1 => shared across tools; 1 => private to that tool.
+  toolIds: string[];
+  officialUrl: string;
+  status: ComponentStatus;
+  evidence?: Evidence; // required when status === "verified"
+  install: Localized; // how to install / connect
+  whenToUse: Localized; // when this component is appropriate
+  lastVerifiedAt: string;
+};
+
 export type UseCasePreset = {
   id: string;
   label: Localized;
