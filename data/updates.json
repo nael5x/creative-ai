@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T07:54:12.977568+00:00",
+  "updatedAt": "2026-08-14T13:48:02.828548+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.11",
@@ -702,6 +702,46 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
+      "id": "tag:github.com,2008:Repository/193215554/stable",
+      "title": "stable",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "publishedAt": "2026-08-14T08:13:05Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.35.3",
+      "title": "n8n@2.35.3",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.3",
+      "publishedAt": "2026-08-14T10:26:02Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.34.6",
+      "title": "n8n@2.34.6",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.6",
+      "publishedAt": "2026-08-14T08:16:43Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/beta",
+      "title": "beta",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "publishedAt": "2026-08-14T10:21:10Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
       "id": "tag:github.com,2008:Repository/193215554/v1",
       "title": "v1: :rocket: Release 1.123.71 (#36182)",
       "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
@@ -732,26 +772,6 @@
       "why": "Useful for repeatable content and business automation."
     },
     {
-      "id": "tag:github.com,2008:Repository/193215554/beta",
-      "title": "beta",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "publishedAt": "2026-08-13T07:59:54Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/stable",
-      "title": "stable",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "publishedAt": "2026-08-12T08:04:42Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
       "id": "tag:github.com,2008:Repository/193215554/n8n@2.35.1",
       "title": "n8n@2.35.1",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.1",
@@ -776,26 +796,6 @@
       "title": "n8n@1.123.70",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.70",
       "publishedAt": "2026-08-12T08:27:31Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.35.0",
-      "title": "n8n@2.35.0",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.0",
-      "publishedAt": "2026-08-11T07:57:42Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.34.4",
-      "title": "n8n@2.34.4",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.4",
-      "publishedAt": "2026-08-11T08:00:24Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -902,70 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1222442",
-      "title": "Suno Studio 2.0",
-      "url": "https://www.producthunt.com/products/suno",
-      "publishedAt": "2026-08-14T00:52:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1222359",
       "title": "Gemini 3.7 Flash",
       "url": "https://www.producthunt.com/products/gemini-3-7-flash",
-      "publishedAt": "2026-08-14T00:52:38-07:00",
+      "publishedAt": "2026-08-14T06:47:30-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1200173",
-      "title": "Hoplite",
-      "url": "https://www.producthunt.com/products/hoplite",
-      "publishedAt": "2026-08-14T00:52:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1222324",
-      "title": "Freebuff",
-      "url": "https://www.producthunt.com/products/freebuff-2",
-      "publishedAt": "2026-08-14T00:53:52-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1222530",
-      "title": "ChordViz",
-      "url": "https://www.producthunt.com/products/chordviz",
-      "publishedAt": "2026-08-14T00:52:37-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1217183",
-      "title": "BrowserAct Cloud",
-      "url": "https://www.producthunt.com/products/browseract",
-      "publishedAt": "2026-08-14T00:53:06-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1222240",
-      "title": "NS1",
-      "url": "https://www.producthunt.com/products/ns1",
-      "publishedAt": "2026-08-14T00:52:37-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1220291",
+      "title": "Muse",
+      "url": "https://www.producthunt.com/products/muse-19",
+      "publishedAt": "2026-08-14T06:42:18-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,17 +925,67 @@
       "id": "tag:www.producthunt.com,2005:Post/430331",
       "title": "Outcome",
       "url": "https://www.producthunt.com/products/contentblocks",
-      "publishedAt": "2026-08-14T00:52:38-07:00",
+      "publishedAt": "2026-08-14T06:47:05-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1222175",
-      "title": "Port22",
-      "url": "https://www.producthunt.com/products/port22",
-      "publishedAt": "2026-08-14T00:52:37-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1221363",
+      "title": "Munder Difflin",
+      "url": "https://www.producthunt.com/products/munder-difflin",
+      "publishedAt": "2026-08-14T06:47:04-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1200173",
+      "title": "Hoplite",
+      "url": "https://www.producthunt.com/products/hoplite",
+      "publishedAt": "2026-08-14T06:42:43-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1222530",
+      "title": "ChordViz",
+      "url": "https://www.producthunt.com/products/chordviz",
+      "publishedAt": "2026-08-14T06:32:20-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1222549",
+      "title": "Theos[RFM]",
+      "url": "https://www.producthunt.com/products/theos-rfm-remote-facility-manager",
+      "publishedAt": "2026-08-14T06:04:51-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1222324",
+      "title": "Freebuff",
+      "url": "https://www.producthunt.com/products/freebuff-2",
+      "publishedAt": "2026-08-14T06:46:38-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1222394",
+      "title": "Compass Calendar",
+      "url": "https://www.producthunt.com/products/compass-calendar",
+      "publishedAt": "2026-08-14T06:46:25-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +995,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1221760",
       "title": "min.",
       "url": "https://www.producthunt.com/products/min-4",
-      "publishedAt": "2026-08-14T00:52:36-07:00",
+      "publishedAt": "2026-08-14T06:33:05-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
