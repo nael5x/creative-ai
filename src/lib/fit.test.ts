@@ -145,8 +145,8 @@ describe("documented fit — six priority comparisons", () => {
   const cases: Array<[string, string, string, "similar" | "inconclusive" | "insufficient"]> = [
     ["chatgpt", "claude", "coding", "insufficient"],
     ["chatgpt", "gemini", "general", "similar"],
-    ["perplexity", "chatgpt", "research", "inconclusive"],
-    ["cursor", "github-copilot", "coding", "insufficient"],
+    ["perplexity", "chatgpt", "research", "similar"],
+    ["cursor", "github-copilot", "coding", "inconclusive"],
     ["ollama", "hugging-face", "local", "similar"],
     ["ollama", "hugging-face", "development", "similar"],
   ];
@@ -157,15 +157,15 @@ describe("documented fit — six priority comparisons", () => {
     });
   }
 
-  it("Perplexity vs ChatGPT (Research) is INCONCLUSIVE — evidence asymmetric, not a Perplexity win", () => {
+  it("Perplexity vs ChatGPT (Research) is SIMILAR after citation evidence expansion", () => {
     const result = documentedFit(capabilities.perplexity, capabilities.chatgpt, preset("research"));
-    expect(result.outcome).toBe("inconclusive");
+    expect(result.outcome).toBe("similar");
     expect(result.decisiveCapabilitiesLeft).toHaveLength(0);
     expect(result.decisiveCapabilitiesRight).toHaveLength(0);
-    // Evidence asymmetry: Perplexity documents source citations; ChatGPT is unknown.
-    expect(result.asymmetry.some((a) => a.capability === "sourceCitations" && a.knownSide === "left" && a.knownState === "supported")).toBe(true);
+    // Both products now document source citations; the comparison is symmetric.
     expect(result.left.supported).toContain("sourceCitations");
-    expect(result.right.unknown).toContain("sourceCitations");
+    expect(result.right.supported).toContain("sourceCitations");
+    expect(result.asymmetry).toHaveLength(0);
   });
 
   it("ChatGPT vs Claude (Coding) is INSUFFICIENT — IDE integration is unknown for both", () => {

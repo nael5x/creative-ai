@@ -139,6 +139,14 @@ export function ComparisonWorkspace({ language, copy, leftId, rightId, mode, onS
       <p><strong>{leftTool.name[language]}</strong> — {copy.docFitMatched}: {fit.left.supported.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnknown}: {fit.left.unknown.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnsupported}: {fit.left.notSupported.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}.</p>
       <p><strong>{rightTool.name[language]}</strong> — {copy.docFitMatched}: {fit.right.supported.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnknown}: {fit.right.unknown.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}; {copy.docFitUnsupported}: {fit.right.notSupported.map((c) => capabilityLabels[c][language]).join(", ") || copy.docFitNone}.</p>
       <p>{copy.docFitCoverage}: {leftTool.name[language]} {fit.left.supported.length + fit.left.notSupported.length}/{fit.left.relevant}, {rightTool.name[language]} {fit.right.supported.length + fit.right.notSupported.length}/{fit.right.relevant}. {copy.docFitNote}</p>
+      {[leftTool, rightTool].map((tool) => (
+        <p key={tool.id}><strong>{tool.name[language]}</strong> — {copy.docFitMatched}:{" "}
+          {fit[tool.id === leftId ? "left" : "right"].supported.length === 0 ? copy.docFitNone : fit[tool.id === leftId ? "left" : "right"].supported.map((c, index) => {
+            const evidence = capabilities[tool.id]?.[c]?.evidence;
+            return <span key={c}>{index > 0 ? ", " : ""}{capabilityLabels[c][language]}{evidence ? <> (<a href={evidence.url} target="_blank" rel="noreferrer">{evidence.title} ↗</a>)</> : null}</span>;
+          })}
+        </p>
+      ))}
     </details>
 
     <details className="disclosure">

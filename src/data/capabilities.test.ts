@@ -115,10 +115,89 @@ describe("missing evidence remains unknown", () => {
     expect(capabilities.chatgpt.apiAvailability).toBeUndefined();
     expect(capabilities.chatgpt.localExecution).toBeUndefined();
     expect(capabilities.chatgpt.selfHosting).toBeUndefined();
-    expect(capabilities.chatgpt.sourceCitations).toBeUndefined();
     // ollama has no evidence for these either.
     expect(capabilities.ollama.ideIntegration).toBeUndefined();
-    expect(capabilities.ollama.apiAvailability).toBeUndefined();
     expect(capabilities.ollama.webAccess).toBeUndefined();
+  });
+});
+
+describe("Milestone 3E — primary-source evidence expansion", () => {
+  it("newly supported capabilities carry explicit, claim-specific, dated evidence", () => {
+    const checks: Array<[string, CapabilityId]> = [
+      ["chatgpt", "sourceCitations"],
+      ["claude", "sourceCitations"],
+      ["github-copilot", "ideIntegration"],
+      ["ollama", "apiAvailability"],
+      ["hugging-face", "apiAvailability"],
+    ];
+    for (const [tool, capability] of checks) {
+      const a = capabilities[tool][capability]!;
+      expect(a.state).toBe("supported");
+      // Explicit polarity + non-empty claim-specific EN/AR rationale.
+      expect(a.rationale.en.length).toBeGreaterThan(0);
+      expect(a.rationale.ar.length).toBeGreaterThan(0);
+      // Complete evidence object.
+      expect(a.evidence).toBeDefined();
+      expect(a.evidence!.url.length).toBeGreaterThan(0);
+      expect(a.evidence!.title.length).toBeGreaterThan(0);
+      expect(a.evidence!.sourceType).toBe("official");
+      expect(a.evidence!.verifiedAt).toBe("2026-08-14");
+      expect(a.verifiedAt).toBe("2026-08-14");
+    }
+  });
+
+  it("API evidence cannot leak across product boundaries (vendor API != product API)", () => {
+    // OpenAI/Anthropic/Google/Perplexity each have a separate provider API, but those
+    // are distinct entities from the chat product; the product API must stay UNKNOWN.
+    for (const tool of ["chatgpt", "claude", "gemini", "perplexity", "cursor", "github-copilot"] as const) {
+      expect(capabilities[tool].apiAvailability).toBeUndefined();
+    }
+    // Only the products whose own runtime exposes a public API are supported.
+    expect(capabilities.ollama.apiAvailability?.state).toBe("supported");
+    expect(capabilities["hugging-face"].apiAvailability?.state).toBe("supported");
+  });
+
+  it("IDE capability cannot leak from another product by the same vendor", () => {
+    // Vendors ship separate coding products/APIs (Codex, Claude Code, Gemini Code
+    // Assist, Perplexity API) but the chat entity has no IDE integration evidence.
+    for (const tool of ["chatgpt", "claude", "gemini", "perplexity"] as const) {
+      expect(capabilities[tool].ideIntegration).toBeUndefined();
+    }
+    // Being an IDE/editor (Cursor) is NOT the same as integrating WITH another IDE,
+    // so Cursor stays UNKNOWN; only products that document integration with an IDE
+    // are supported.
+    expect(capabilities.cursor.ideIntegration).toBeUndefined();
+    expect(capabilities["github-copilot"].ideIntegration?.state).toBe("supported");
+  });
+
+  it("scoped citation capability remains factual and does not leak the API entity", () => {
+    // ChatGPT/Claude citations are scoped to their in-product web search, not a vendor API.
+    expect(capabilities.chatgpt.sourceCitations?.rationale.en).toMatch(/web search|Search/i);
+    expect(capabilities.claude.sourceCitations?.rationale.en).toMatch(/web search/i);
+    // Gemini's only citation evidence found was the Gemini API (a different entity),
+    // so the Gemini consumer product must stay UNKNOWN.
+    expect(capabilities.gemini.sourceCitations).toBeUndefined();
+  });
+
+  it("documented-fit decision safety stays intact as evidence expands", () => {
+    // Coding (Cursor vs Copilot) is INCONCLUSIVE: Copilot documents IDE integration
+    // (supported) but Cursor is only an editor (no evidence of integrating with an
+    // IDE), so ideIntegration is unknown for Cursor. A supported-vs-unknown required
+    // capability is evidence asymmetry, never a similar fit and never a winner.
+    const coding = documentedFit(capabilities.cursor, capabilities["github-copilot"], preset("coding"));
+    expect(coding.outcome).toBe("inconclusive");
+    expect(coding.left.unknown).toContain("ideIntegration");
+    expect(coding.right.supported).toContain("ideIntegration");
+    expect(coding.asymmetry.some((a) => a.capability === "ideIntegration" && a.knownSide === "right" && a.knownState === "supported")).toBe(true);
+    // Research (Perplexity vs ChatGPT) converts inconclusive -> similar as ChatGPT now
+    // documents citations; still symmetric, no biased winner.
+    const research = documentedFit(capabilities.perplexity, capabilities.chatgpt, preset("research"));
+    expect(research.outcome).toBe("similar");
+    expect(research.asymmetry).toHaveLength(0);
+    // ChatGPT vs Claude coding remains INSUFFICIENT (IDE integration unknown for both).
+    const chatClaude = documentedFit(capabilities.chatgpt, capabilities.claude, preset("coding"));
+    expect(chatClaude.outcome).toBe("insufficient");
+    expect(chatClaude.left.unknown).toContain("ideIntegration");
+    expect(chatClaude.right.unknown).toContain("ideIntegration");
   });
 });

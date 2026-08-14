@@ -16,19 +16,33 @@ export const capabilityLabels: Record<CapabilityId, Localized> = {
   apiAvailability: { en: "Public API availability", ar: "توفّر واجهة برمجية عامة" },
 };
 
-// Evidence reuse ONLY. This helper returns the underlying Evidence metadata
-// (URL, title, source type, verification date) from an existing scoring fact.
-// It NEVER decides which CapabilityId becomes supported — capability support is
-// authored explicitly in the `capabilities` record below.
+// Verification date for evidence gathered in this milestone (primary-source check).
+const TODAY = "2026-08-14";
+
+// Evidence reuse ONLY. Returns the underlying Evidence metadata (URL, title,
+// source type, verification date) from an existing scoring fact. It NEVER decides
+// which CapabilityId becomes supported — capability support is authored explicitly.
 function reuseEvidence(toolId: string, criterion: ComparisonCriterion): Evidence | undefined {
   return facts[toolId]?.[criterion]?.evidence;
 }
 
-// Author a single capability assessment. The decision that THIS capability is
-// supported is made explicitly at the call site, not by any generic rule.
+// Author a capability whose evidence is REUSED from an existing scoring fact.
 function authored(toolId: string, criterion: ComparisonCriterion, rationale: Localized): CapabilityAssessment {
   return { state: "supported", evidence: reuseEvidence(toolId, criterion), rationale, verifiedAt };
 }
+
+// Author a capability whose evidence is a PRIMARY source captured explicitly here.
+// This keeps capability data first-class and independent from any ComparisonCriterion.
+function authoredEvidence(evidence: Evidence, rationale: Localized): CapabilityAssessment {
+  return { state: "supported", evidence, rationale, verifiedAt: evidence.verifiedAt };
+}
+
+// --- Primary-source evidence gathered for Milestone 3E (verified 2026-08-14) ---
+const CHATGPT_CITATIONS: Evidence = { url: "https://help.openai.com/en/articles/9237897", title: "ChatGPT Search", sourceType: "official", verifiedAt: TODAY, claims: [] };
+const CLAUDE_CITATIONS: Evidence = { url: "https://support.claude.com/en/articles/10684626-enable-and-use-web-search", title: "Enable and use web search", sourceType: "official", verifiedAt: TODAY, claims: [] };
+const COPILOT_IDE: Evidence = { url: "https://docs.github.com/en/copilot/reference/copilot-feature-matrix", title: "GitHub Copilot feature matrix", sourceType: "official", verifiedAt: TODAY, claims: [] };
+const OLLAMA_API: Evidence = { url: "https://docs.ollama.com/api", title: "Ollama API", sourceType: "official", verifiedAt: TODAY, claims: [] };
+const HF_API: Evidence = { url: "https://huggingface.co/docs/inference-providers/main/en/index", title: "Inference Providers", sourceType: "official", verifiedAt: TODAY, claims: [] };
 
 // Capability support is FIRST-CLASS, explicitly authored data: each tool maps to
 // the exact CapabilityIds its existing primary-source evidence directly proves.
@@ -42,6 +56,7 @@ export const capabilities: Record<string, Partial<Record<CapabilityId, Capabilit
     fileContext: authored("chatgpt", "contextFiles", { en: "OpenAI documents ChatGPT's file upload and document/context handling.", ar: "توثّق OpenAI رفع الملفات ومعالجة السياق والوثائق في ChatGPT." }),
     freeTier: authored("chatgpt", "freeValue", { en: "OpenAI's pricing page documents a free tier for ChatGPT.", ar: "توثّق صفحة أسعار OpenAI فئة مجانية لـ ChatGPT." }),
     paidPlan: authored("chatgpt", "paidValue", { en: "OpenAI's pricing page documents paid ChatGPT plans.", ar: "توثّق صفحة أسعار OpenAI خططًا مدفوعة لـ ChatGPT." }),
+    sourceCitations: authoredEvidence(CHATGPT_CITATIONS, { en: "ChatGPT's web search (ChatGPT Search) provides inline citations and a Sources panel linking responses to web sources.", ar: "يوفّر البحث عبر الويب في ChatGPT (ChatGPT Search) استشهادات مضمّنة ولوحة Sources تربط الردود بمصادر الويب." }),
   },
   claude: {
     webAccess: authored("claude", "platformAvailability", { en: "Anthropic documents Claude as available through its web application.", ar: "توثّق Anthropic توفر Claude عبر تطبيق الويب." }),
@@ -49,6 +64,7 @@ export const capabilities: Record<string, Partial<Record<CapabilityId, Capabilit
     fileContext: authored("claude", "contextFiles", { en: "Anthropic documents Claude's file upload and document/context handling.", ar: "توثّق Anthropic رفع الملفات ومعالجة السياق والوثائق في Claude." }),
     freeTier: authored("claude", "freeValue", { en: "Anthropic's pricing page documents a free tier for Claude.", ar: "توثّق صفحة أسعار Anthropic فئة مجانية لـ Claude." }),
     paidPlan: authored("claude", "paidValue", { en: "Anthropic's pricing page documents paid Claude plans.", ar: "توثّق صفحة أسعار Anthropic خططًا مدفوعة لـ Claude." }),
+    sourceCitations: authoredEvidence(CLAUDE_CITATIONS, { en: "Claude's web search documents responses with direct citations and source links to the original pages.", ar: "يوثّق البحث عبر الويب في Claude ردوده باستشهادات مباشرة وروابط مصادر للصفحات الأصلية." }),
   },
   gemini: {
     webAccess: authored("gemini", "platformAvailability", { en: "Google documents Gemini as available through its web application.", ar: "توثّق Google توفر Gemini عبر تطبيق الويب." }),
@@ -77,6 +93,7 @@ export const capabilities: Record<string, Partial<Record<CapabilityId, Capabilit
     fileContext: authored("github-copilot", "contextFiles", { en: "GitHub documents Copilot's file and context handling.", ar: "توثّق GitHub معالجة Copilot للملفات والسياق." }),
     freeTier: authored("github-copilot", "freeValue", { en: "GitHub's plans page documents a free tier for Copilot.", ar: "توثّق صفحة خطط GitHub فئة مجانية لـ Copilot." }),
     paidPlan: authored("github-copilot", "paidValue", { en: "GitHub's plans page documents paid Copilot plans.", ar: "توثّق صفحة خطط GitHub خططًا مدفوعة لـ Copilot." }),
+    ideIntegration: authoredEvidence(COPILOT_IDE, { en: "GitHub's documentation confirms Copilot works inside IDEs including VS Code, Visual Studio, JetBrains, Neovim, Eclipse and Xcode.", ar: "توثّق وثائق GitHub عمل Copilot داخل المحررات بما فيها VS Code وVisual Studio وJetBrains وNeovim وEclipse وXcode." }),
   },
   ollama: {
     thirdPartyIntegrations: authored("ollama", "integrations", { en: "Ollama's repository documents integrations with other tools and services via its API.", ar: "يوثّق مستودع Ollama تكاملاته مع أدوات وخدمات أخرى عبر واجهته البرمجية." }),
@@ -85,6 +102,7 @@ export const capabilities: Record<string, Partial<Record<CapabilityId, Capabilit
     localExecution: authored("ollama", "privacy", { en: "Ollama's official repository documents running models locally on the user's machine.", ar: "يوثّق المستودع الرسمي لـ Ollama تشغيل النماذج محليًا على جهاز المستخدم." }),
     selfHosting: authored("ollama", "privacy", { en: "Ollama's repository provides the implementation to self-host the model server on your own infrastructure.", ar: "يوفّر مستودع Ollama التنفيذ لاستضافة خادم النماذج ذاتيًا على بنيتك الخاصة." }),
     openSource: authored("ollama", "sourceTransparency", { en: "Ollama's official GitHub repository is published as open source.", ar: "يُنشر المستودع الرسمي لـ Ollama على GitHub كمصادر مفتوحة." }),
+    apiAvailability: authoredEvidence(OLLAMA_API, { en: "Ollama's official documentation provides a public REST API for running and managing models (localhost:11434/api and ollama.com/api).", ar: "توثّق وثائق Ollama الرسمية واجهة REST عامة لتشغيل النماذج وإدارتها (على localhost:11434/api وollama.com/api)." }),
   },
   "hugging-face": {
     webAccess: authored("hugging-face", "platformAvailability", { en: "Hugging Face documents the Hub as available through its web application.", ar: "توثّق Hugging Face توفر Hub عبر تطبيق الويب." }),
@@ -95,6 +113,7 @@ export const capabilities: Record<string, Partial<Record<CapabilityId, Capabilit
     localExecution: authored("hugging-face", "privacy", { en: "Hugging Face documents running its models locally (e.g., via Transformers) on the user's environment.", ar: "توثّق Hugging Face تشغيل نماذجها محليًا (مثل Transformers) على بيئة المستخدم." }),
     selfHosting: authored("hugging-face", "privacy", { en: "Hugging Face documents self-hosting its Hub and inference endpoints on your own infrastructure.", ar: "توثّق Hugging Face استضافة Hub ونقاط الاستدلال ذاتيًا على بنيتك الخاصة." }),
     openSource: authored("hugging-face", "sourceTransparency", { en: "Hugging Face's Transformers repository is published as open source.", ar: "يُنشر مستودع Transformers الخاص بـ Hugging Face كمصادر مفتوحة." }),
+    apiAvailability: authoredEvidence(HF_API, { en: "Hugging Face documents a public API for the Hub (Hub API and serverless Inference Providers/Inference Endpoints).", ar: "توثّق Hugging Face واجهة برمجية عامة لـ Hub (Hub API وInference Providers/Inference Endpoints بلا خادم)." }),
   },
   n8n: {
     webAccess: authored("n8n", "platformAvailability", { en: "n8n documents a cloud web application (n8n.cloud) accessible in the browser.", ar: "توثّق n8n تطبيقًا سحابيًا (n8n.cloud) متاحًا عبر المتصفح." }),
