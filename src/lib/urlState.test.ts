@@ -23,4 +23,30 @@ describe("urlState view routing", () => {
     const state = parseUrl("?view=unknown&compare=chatgpt,claude&mode=general");
     expect(state.view).toBeUndefined();
   });
+
+  it("parses fit tool/domain params", () => {
+    const state = parseUrl("?view=fit&tool=chatgpt&domain=research");
+    expect(state.view).toBe("fit");
+    expect(state.fitTool).toBe("chatgpt");
+    expect(state.fitDomain).toBe("research");
+  });
+
+  it("serializes fit tool/domain params", () => {
+    const url = serializeUrl({ left: "chatgpt", right: "claude", mode: "general", view: "fit", fitTool: "chatgpt", fitDomain: "research" });
+    expect(url).toContain("view=fit");
+    expect(url).toContain("tool=chatgpt");
+    expect(url).toContain("domain=research");
+  });
+
+  it("parses the watchlist shared param", () => {
+    const state = parseUrl("?view=watchlist&w=abc");
+    expect(state.view).toBe("watchlist");
+    expect(state.shared).toBe("abc");
+  });
+
+  it("serializes the watchlist shared param", () => {
+    const url = serializeUrl({ left: "chatgpt", right: "claude", mode: "general", view: "watchlist", shared: "abc" });
+    expect(url).toContain("view=watchlist");
+    expect(url).toContain("w=abc");
+  });
 });

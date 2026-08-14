@@ -8,8 +8,10 @@ import { components } from "../data/components";
 import { capabilities, capabilityLabels } from "../data/capabilities";
 import { presets } from "../data/presets";
 import { fetchUpdates, updatesFor, type UnifiedUpdate } from "../data/updates";
+import { dealForTool } from "../data/deals";
 import { StatusBadge } from "./StatusBadge";
 import { CorrectionForm } from "./CorrectionForm";
+import { SaveButton } from "./SaveButton";
 
 type Props = { language: Language; copy: Copy; viewId: string; onState: (next: Partial<UrlState>) => void };
 
@@ -25,6 +27,7 @@ export function ToolPage({ language, copy, viewId, onState }: Props) {
   const priv = toolComponents.filter((c) => c.toolIds.length === 1);
   const caps = capabilities[tool.id] ?? {};
   const other = tools.find((t) => t.id !== tool.id)!;
+  const deal = dealForTool(tool.id);
 
   return (
     <main id="tool" className="page-width workspace">
@@ -63,10 +66,29 @@ export function ToolPage({ language, copy, viewId, onState }: Props) {
       <div className="tag-row">
         {relatedDomains.map((d) => <button key={d.id} className="tag" onClick={() => onState({ view: "domain", viewId: d.id })}>{d.name[language]}</button>)}
       </div>
+      {relatedDomains.length > 0 && (
+        <>
+          <section className="section-heading"><div><h2>{copy.fitByDomain}</h2></div></section>
+          <div className="tag-row">
+            {relatedDomains.map((d) => <button key={d.id} className="tag tag-fit" onClick={() => onState({ view: "fit", fitTool: tool.id, fitDomain: d.id })}>{tool.name[language]} → {d.name[language]}</button>)}
+          </div>
+        </>
+      )}
+      {deal && (
+        <>
+          <section className="section-heading"><div><h2>{copy.plansForTool}</h2></div></section>
+          <div className="deal-inline">
+            <p>{deal.detail[language]}</p>
+            <a className="chip" href={deal.url} target="_blank" rel="noopener noreferrer sponsored">{copy.viewDeal} ↗</a>
+            <p className="deals-disclosure">{copy.dealsDisclosure}</p>
+          </div>
+        </>
+      )}
       <section className="section-heading"><div><h2>{copy.changelog}</h2></div></section>
       <div className="update-list">{entityUpdates.length ? entityUpdates.map((u) => <div key={u.id} className="update-row"><time dateTime={u.publishedAt}>{u.publishedAt.slice(0, 10)}</time><strong>{tool.name[language]}</strong><span>{u.title}</span><a href={u.url} target="_blank" rel="noreferrer">{copy.sources}</a></div>) : <p>{copy.noUpdates}</p>}</div>
       <div className="selection-actions">
         <button className="primary" onClick={() => onState({ view: undefined, viewId: undefined, left: tool.id, right: other.id, mode: relatedDomains[0]?.relatedPreset ?? "general" })}>{copy.compareThese}</button>
+        <SaveButton item={{ kind: "tool", id: tool.id }} copy={copy} />
         <button className="secondary" onClick={() => setCorrectionOpen(true)}>{copy.reportCorrection}</button>
       </div>
       {correctionOpen ? <CorrectionForm copy={copy} entityType="tool" entityId={tool.id} entityName={tool.name[language]} onClose={() => setCorrectionOpen(false)} /> : null}

@@ -7,6 +7,13 @@ const routes = [
   "/?view=tool&id=chatgpt",
   "/?view=component&id=mcp",
   "/?view=editor",
+  "/?view=guides",
+  "/?view=guide&id=research-stack",
+  "/?view=fit&tool=chatgpt&domain=research",
+  "/?view=matrix",
+  "/?view=matrix&domain=coding",
+  "/?view=watchlist",
+  "/?view=deals",
 ];
 
 const errors = [];
@@ -29,13 +36,24 @@ for (const route of routes) {
 // Exercise the guided Advisor flow on the home page
 errors.length = 0;
 await page.goto(BASE + "/", { waitUntil: "networkidle" });
-await page.getByRole("button", { name: /Ask Creative AI/i }).click();
+await page.getByRole("button", { name: "Ask Creative AI", exact: true }).click();
 const advisor = page.locator(".advisor");
 await advisor.getByRole("button", { name: /Coding/ }).click();
 await advisor.getByRole("button", { name: /Doesn't matter|Paid|Free/i }).first().click();
 const advisorOk = (await advisor.getByText(/Recommended starting points/i).count()) > 0;
 if (!advisorOk) failed = true;
 console.log(`${advisorOk && errors.length === 0 ? "OK" : "FAIL"} advisor-flow ${errors.length ? "-> " + errors.join("; ") : ""}`);
+
+// Exercise the cited Ask panel (header button)
+errors.length = 0;
+await page.goto(BASE + "/", { waitUntil: "networkidle" });
+await page.getByRole("button", { name: /Ask/i }).first().click();
+const ask = page.locator(".ask-card");
+await ask.getByPlaceholder(/research tool/i).fill("research tool with cited sources");
+await ask.getByRole("button", { name: /Prepare comparison/i }).click();
+const askOk = (await ask.getByText(/source-linked comparison data/i).count()) > 0 && (await ask.getByRole("link").count()) > 0;
+if (!askOk) failed = true;
+console.log(`${askOk && errors.length === 0 ? "OK" : "FAIL"} ask-flow ${errors.length ? "-> " + errors.join("; ") : ""}`);
 
 await browser.close();
 console.log(failed ? "QA: FAILED" : "QA: PASSED");

@@ -9,6 +9,7 @@ import { fetchUpdates, updatesFor, type UnifiedUpdate } from "../data/updates";
 import { getVerifiedOverrides } from "../data/editorial";
 import { StatusBadge } from "./StatusBadge";
 import { CorrectionForm } from "./CorrectionForm";
+import { SaveButton } from "./SaveButton";
 
 const typeLabel: Record<string, { en: string; ar: string }> = {
   skill: { en: "Skill", ar: "مهارة" },
@@ -53,6 +54,7 @@ export function ComponentPage({ language, copy, viewId, onState }: Props) {
       <div className="update-list">{entityUpdates.length ? entityUpdates.map((u) => <div key={u.id} className="update-row"><time dateTime={u.publishedAt}>{u.publishedAt.slice(0, 10)}</time><strong>{c.name[language]}</strong><span>{u.title}</span><a href={u.url} target="_blank" rel="noreferrer">{copy.sources}</a></div>) : <p>{copy.noUpdates}</p>}</div>
       <div className="selection-actions">
         <a className="primary" href={c.officialUrl} target="_blank" rel="noreferrer">{sourceLabel}</a>
+        <SaveButton item={{ kind: "component", id: c.id }} copy={copy} />
         <button className="secondary" onClick={() => setCorrectionOpen(true)}>{copy.reportCorrection}</button>
       </div>
       {correctionOpen ? <CorrectionForm copy={copy} entityType="component" entityId={c.id} entityName={c.name[language]} onClose={() => setCorrectionOpen(false)} /> : null}

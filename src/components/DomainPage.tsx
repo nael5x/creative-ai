@@ -3,16 +3,17 @@ import type { Language } from "../types";
 import { domains, domainMap } from "../data/domains";
 import { tools } from "../data/tools";
 import { components } from "../data/components";
-import { presets } from "../data/presets";
+import { guidesForDomain } from "../data/guides";
 import { StatusBadge } from "./StatusBadge";
 
-type Props = { language: Language; copy: Copy; viewId: string; onState: (next: { view?: "domain" | "tool" | "component"; viewId?: string; left?: string; right?: string; mode?: string }) => void };
+type Props = { language: Language; copy: Copy; viewId: string; onState: (next: { view?: "domain" | "tool" | "component" | "guide"; viewId?: string; left?: string; right?: string; mode?: string }) => void };
 
 export function DomainPage({ language, copy, viewId, onState }: Props) {
   const domain = domainMap.get(viewId);
   if (!domain) return <main className="page-width"><p>{language === "ar" ? "المجال غير موجود" : "Domain not found"}</p></main>;
   const domainTools = domain.toolIds.map((id) => tools.find((t) => t.id === id)!).filter(Boolean);
   const domainComponents = components.filter((c) => c.domainIds.includes(domain.id));
+  const domainGuides = guidesForDomain(domain.id);
   const compareLeft = domain.toolIds[0];
   const compareRight = domain.toolIds.find((id) => id !== compareLeft) ?? domain.toolIds[1] ?? fallbackTool(compareLeft);
   return (
@@ -45,6 +46,19 @@ export function DomainPage({ language, copy, viewId, onState }: Props) {
           </button>
         ))}
       </div>
+      {domainGuides.length > 0 && (
+        <>
+          <section className="section-heading"><div><h2>{copy.guides}</h2></div></section>
+          <div className="card-grid">
+            {domainGuides.map((g) => (
+              <button key={g.id} className="entity-card" onClick={() => onState({ view: "guide", viewId: g.id })}>
+                <span className="monogram">{g.title.en[0]}</span>
+                <div><h3>{g.title[language]}</h3><p>{g.summary[language]}</p></div>
+              </button>
+            ))}
+          </div>
+        </>
+      )}
     </main>
   );
 }

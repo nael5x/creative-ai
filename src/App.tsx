@@ -5,6 +5,14 @@ import { Directory } from "./components/Directory";
 import { DomainPage } from "./components/DomainPage";
 import { ToolPage } from "./components/ToolPage";
 import { ComponentPage } from "./components/ComponentPage";
+import { GuidePage } from "./components/GuidePage";
+import { GuidesPage } from "./components/GuidesPage";
+import { FitPage } from "./components/FitPage";
+import { MatrixPage } from "./components/MatrixPage";
+import { WatchlistPage } from "./components/WatchlistPage";
+import { DealsPage } from "./components/DealsPage";
+import { AskPanel } from "./components/AskPanel";
+import { decodeWatchlist } from "./lib/watchlist";
 import { Updates } from "./components/Updates";
 import { EditorialDashboard } from "./components/EditorialDashboard";
 import { domains } from "./data/domains";
@@ -17,6 +25,7 @@ export function App() {
   const [language, setLanguage] = useState<Language>(() => localStorage.getItem("creative-ai-language") === "ar" ? "ar" : "en");
   const [state, setState] = useState<UrlState>(() => parseUrl(window.location.search));
   const [advisorOpen, setAdvisorOpen] = useState(false);
+  const [askOpen, setAskOpen] = useState(false);
   const copy = ui[language];
 
   useEffect(() => {
@@ -40,18 +49,28 @@ export function App() {
     localStorage.setItem("creative-ai-recent-v1", JSON.stringify([`${value.left},${value.right},${value.mode}`, ...recent.filter((item) => !item.startsWith(`${value.left},${value.right},`))].slice(0, 5)));
   }
 
-  const showPage = !!state.view && !!state.viewId;
+  const showPage = !!state.view;
+
+  function renderView() {
+    switch (state.view) {
+      case "domain": return <DomainPage language={language} copy={copy} viewId={state.viewId!} onState={update} />;
+      case "tool": return <ToolPage language={language} copy={copy} viewId={state.viewId!} onState={update} />;
+      case "component": return <ComponentPage language={language} copy={copy} viewId={state.viewId!} onState={update} />;
+      case "guide": return <GuidePage language={language} copy={copy} viewId={state.viewId!} />;
+      case "guides": return <GuidesPage language={language} copy={copy} />;
+      case "fit": return <FitPage language={language} copy={copy} fitTool={state.fitTool ?? state.left} fitDomain={state.fitDomain ?? "research"} onState={update} />;
+      case "matrix": return <MatrixPage language={language} copy={copy} domainId={state.fitDomain} onState={update} />;
+      case "watchlist": return <WatchlistPage language={language} copy={copy} shared={state.shared ? decodeWatchlist(state.shared) : undefined} onState={update} />;
+      case "deals": return <DealsPage language={language} copy={copy} onState={update} />;
+      case "editor": return <EditorialDashboard language={language} copy={copy} />;
+      default: return <main className="page-width"><p>{language === "ar" ? "غير معروف" : "Unknown view"}</p></main>;
+    }
+  }
 
   return <>
-    <header className="site-header"><div className="page-width header-inner"><a className="brand" href="#top" aria-label="Creative AI">CREATIVE <span>AI</span></a><nav aria-label="Primary"><a href="#top">{copy.domains}</a><a href="#compare">{copy.compare}</a><a href="#directory">{copy.directory}</a><a href="#updates">{copy.updates}</a><a href="#methodology">{copy.methodology}</a></nav><button className="language" onClick={() => setLanguage((value) => value === "en" ? "ar" : "en")}>◎ {language === "en" ? "العربية" : "English"}</button></div></header>
+    <header className="site-header"><div className="page-width header-inner"><a className="brand" href="#top" aria-label="Creative AI">CREATIVE <span>AI</span></a><nav aria-label="Primary"><a href="#top">{copy.domains}</a><a href="#compare">{copy.compare}</a><a href="#directory">{copy.directory}</a><a href="/?view=guides">{copy.guides}</a><a href="/?view=matrix">{copy.matrix}</a><a href="/?view=watchlist">{copy.watchlist}</a><a href="/?view=deals">{copy.deals}</a><a href="#updates">{copy.updates}</a><a href="#methodology">{copy.methodology}</a></nav><button className="language" onClick={() => setAskOpen(true)}>❓ {copy.ask}</button><button className="language" onClick={() => setLanguage((value) => value === "en" ? "ar" : "en")}>◎ {language === "en" ? "العربية" : "English"}</button></div></header>
 
-    {showPage ? (
-      state.view === "domain" ? <DomainPage language={language} copy={copy} viewId={state.viewId!} onState={update} />
-      : state.view === "tool" ? <ToolPage language={language} copy={copy} viewId={state.viewId!} onState={update} />
-      : state.view === "component" ? <ComponentPage language={language} copy={copy} viewId={state.viewId!} onState={update} />
-      : state.view === "editor" ? <EditorialDashboard language={language} copy={copy} />
-      : <main className="page-width"><p>{language === "ar" ? "غير معروف" : "Unknown view"}</p></main>
-    ) : (
+    {showPage ? renderView() : (
       <>
         <section id="top" className="domain-hero page-width">
           <div className="hero-intro"><h1>{copy.domainHero}</h1><p>{copy.domainHeroSub}</p></div>
@@ -69,5 +88,6 @@ export function App() {
 
     <footer><div className="page-width"><strong>CREATIVE <span>AI</span></strong><p>{copy.disclosure}</p><button className="link-name" onClick={() => update({ view: "editor", viewId: undefined, left: state.left, right: state.right, mode: state.mode })}>{copy.editorial}</button></div></footer>
     {advisorOpen ? <Advisor language={language} copy={copy} onClose={() => setAdvisorOpen(false)} onChoose={(left, right, mode) => { update({ left, right, mode }); setAdvisorOpen(false); }} onState={update} /> : null}
+    {askOpen ? <AskPanel language={language} copy={copy} onClose={() => setAskOpen(false)} /> : null}
   </>;
 }
