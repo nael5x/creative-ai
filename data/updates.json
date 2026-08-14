@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-14T13:48:02.828548+00:00",
+  "updatedAt": "2026-08-14T19:17:29.035542+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.13",
+      "title": "v0.32.13",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.13",
+      "publishedAt": "2026-08-14T19:16:07Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.12",
+      "title": "v0.32.12",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
+      "publishedAt": "2026-08-14T16:49:45Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.11",
       "title": "v0.32.11",
@@ -82,24 +102,34 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.32.6",
-      "title": "v0.32.6",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6",
-      "publishedAt": "2026-08-05T19:46:52Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openrouter==0.2.8",
+      "title": "langchain-openrouter==0.2.8",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.8",
+      "publishedAt": "2026-08-14T19:03:47Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.32.6-rc0",
-      "title": "v0.32.6-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
-      "publishedAt": "2026-08-04T16:51:52Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.5.1",
+      "title": "langchain-openai==1.5.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.1",
+      "publishedAt": "2026-08-14T15:47:45Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.5.5",
+      "title": "langchain-core==1.5.5",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.5",
+      "publishedAt": "2026-08-14T18:56:43Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
     },
     {
       "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.5.0",
@@ -166,36 +196,6 @@
       "title": "langchain-openai==1.4.2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.2",
       "publishedAt": "2026-08-07T13:58:16Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.5.4",
-      "title": "langchain-anthropic==1.5.4",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4",
-      "publishedAt": "2026-08-05T19:03:35Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.5.3",
-      "title": "langchain-core==1.5.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.3",
-      "publishedAt": "2026-07-30T14:56:11Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.5.2",
-      "title": "langchain-core==1.5.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.2",
-      "publishedAt": "2026-07-28T16:39:05Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -612,6 +612,16 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.11.4",
+      "title": "v1.11.4: chore: bump release versions to 1.11.4",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.4",
+      "publishedAt": "2026-08-14T18:28:32Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev25",
       "title": "v1.12.0.dev25",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev25",
@@ -686,16 +696,6 @@
       "title": "v1.12.0.dev19",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev19",
       "publishedAt": "2026-08-07T01:19:58Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev18",
-      "title": "v1.12.0.dev18",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev18",
-      "publishedAt": "2026-08-06T00:36:36Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,70 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1222359",
-      "title": "Gemini 3.7 Flash",
-      "url": "https://www.producthunt.com/products/gemini-3-7-flash",
-      "publishedAt": "2026-08-14T06:47:30-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1217183",
+      "title": "BrowserAct Cloud",
+      "url": "https://www.producthunt.com/products/browseract",
+      "publishedAt": "2026-08-14T12:07:13-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1220291",
-      "title": "Muse",
-      "url": "https://www.producthunt.com/products/muse-19",
-      "publishedAt": "2026-08-14T06:42:18-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/430331",
-      "title": "Outcome",
-      "url": "https://www.producthunt.com/products/contentblocks",
-      "publishedAt": "2026-08-14T06:47:05-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1221363",
-      "title": "Munder Difflin",
-      "url": "https://www.producthunt.com/products/munder-difflin",
-      "publishedAt": "2026-08-14T06:47:04-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1200173",
-      "title": "Hoplite",
-      "url": "https://www.producthunt.com/products/hoplite",
-      "publishedAt": "2026-08-14T06:42:43-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1222530",
-      "title": "ChordViz",
-      "url": "https://www.producthunt.com/products/chordviz",
-      "publishedAt": "2026-08-14T06:32:20-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1222549",
-      "title": "Theos[RFM]",
-      "url": "https://www.producthunt.com/products/theos-rfm-remote-facility-manager",
-      "publishedAt": "2026-08-14T06:04:51-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1219838",
+      "title": "Occasio®",
+      "url": "https://www.producthunt.com/products/occasio-2",
+      "publishedAt": "2026-08-14T11:03:11-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,17 +925,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1222324",
       "title": "Freebuff",
       "url": "https://www.producthunt.com/products/freebuff-2",
-      "publishedAt": "2026-08-14T06:46:38-07:00",
+      "publishedAt": "2026-08-14T12:14:13-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1222394",
-      "title": "Compass Calendar",
-      "url": "https://www.producthunt.com/products/compass-calendar",
-      "publishedAt": "2026-08-14T06:46:25-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1221363",
+      "title": "Munder Difflin",
+      "url": "https://www.producthunt.com/products/munder-difflin",
+      "publishedAt": "2026-08-14T12:11:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1222557",
+      "title": "Basedash Tasks",
+      "url": "https://www.producthunt.com/products/basedash",
+      "publishedAt": "2026-08-14T11:53:31-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/430331",
+      "title": "Outcome",
+      "url": "https://www.producthunt.com/products/contentblocks",
+      "publishedAt": "2026-08-14T12:09:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1221923",
+      "title": "Openmotion",
+      "url": "https://www.producthunt.com/products/openmotion",
+      "publishedAt": "2026-08-14T11:52:26-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1220291",
+      "title": "Muse",
+      "url": "https://www.producthunt.com/products/muse-19",
+      "publishedAt": "2026-08-14T12:10:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1221760",
       "title": "min.",
       "url": "https://www.producthunt.com/products/min-4",
-      "publishedAt": "2026-08-14T06:33:05-07:00",
+      "publishedAt": "2026-08-14T12:10:15-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1222175",
+      "title": "Port22",
+      "url": "https://www.producthunt.com/products/port22",
+      "publishedAt": "2026-08-14T12:04:35-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
