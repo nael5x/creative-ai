@@ -39,7 +39,7 @@ const componentUpdates: UnifiedUpdate[] = components
 export async function fetchUpdates(): Promise<UnifiedUpdate[]> {
   const toolFeed: UnifiedUpdate[] = [];
   try {
-    const res = await fetch("/data/updates.json");
+    const res = await fetch(import.meta.env.BASE_URL + "data/updates.json");
     const data = (await res.json()) as { items: { id: string; title: string; url: string; publishedAt: string; source: string }[] };
     for (const item of data.items.slice(0, 40)) {
       const entityId = sourceToToolId.get(item.source.toLocaleLowerCase()) ?? "";

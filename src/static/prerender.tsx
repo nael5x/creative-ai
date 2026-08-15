@@ -59,9 +59,9 @@ function breadcrumbItem(position: number, name: string, item: string) {
   return { "@type": "ListItem", position, name, item };
 }
 
-function nav(lang: Language): string {
+function nav(lang: Language, base: string): string {
   const c = ui[lang];
-  return `<header class="site-header"><div class="page-width header-inner"><a class="brand" href="/">CREATIVE <span>AI</span></a><nav aria-label="Primary"><a href="/#top">${c.domains}</a><a href="/#compare">${c.compare}</a><a href="/#directory">${c.directory}</a><a href="/#updates">${c.updates}</a><a href="/#methodology">${c.methodology}</a></nav></nav></div></header>`;
+  return `<header class="site-header"><div class="page-width header-inner"><a class="brand" href="${base}/">CREATIVE <span>AI</span></a><nav aria-label="Primary"><a href="${base}/#top">${c.domains}</a><a href="${base}/#compare">${c.compare}</a><a href="${base}/#directory">${c.directory}</a><a href="${base}/#updates">${c.updates}</a><a href="${base}/#methodology">${c.methodology}</a></nav></nav></div></header>`;
 }
 
 function footer(lang: Language): string {
@@ -77,6 +77,7 @@ export function buildStatic(outDir: string, origin: string): string[] {
   const assetsDir = join(outDir, "assets");
   const cssFile = existsSync(assetsDir) ? readdirSync(assetsDir).find((f) => f.endsWith(".css")) : undefined;
   const css = cssFile ? readFileSync(join(assetsDir, cssFile), "utf8") : "";
+  const base = new URL(origin).pathname === "/" ? "" : new URL(origin).pathname;
   const written: string[] = [];
   mkdirSync(join(outDir, "compare"), { recursive: true });
   mkdirSync(join(outDir, "d"), { recursive: true });
@@ -101,7 +102,7 @@ export function buildStatic(outDir: string, origin: string): string[] {
       const title = `${left.name[lang]} vs ${right.name[lang]} — ${c.compare}`;
       const description = `${c.headline} ${left.name[lang]} vs ${right.name[lang]} (${c.useCase}: ${route.mode}).`;
       const bodyEl: ReactElement = <ComparisonWorkspace language={lang} copy={c} leftId={route.left} rightId={route.right} mode={route.mode} onState={() => {}} onAsk={() => {}} />;
-      const body = nav(lang) + `<main class="page-width workspace">${renderToStaticMarkup(bodyEl)}</main>` + footer(lang);
+      const body = nav(lang, base) + `<main class="page-width workspace">${renderToStaticMarkup(bodyEl)}</main>` + footer(lang);
       const file = `compare/${route.slug}${lang === "ar" ? ".ar" : ""}.html`;
       writeFileSync(join(outDir, file), doc({ lang, title, description, body, css, jsonLd: comparisonLd, alternates: [{ lang: "en", href: enHref }, { lang: "ar", href: arHref }, { lang: "x-default", href: enHref }] }), "utf8");
       written.push(file);
@@ -124,7 +125,7 @@ export function buildStatic(outDir: string, origin: string): string[] {
       const title = `${domain.name[lang]} — ${c.domains}`;
       const description = domain.description[lang];
       const bodyEl: ReactElement = <DomainPage language={lang} copy={c} viewId={d.slug} onState={() => {}} />;
-      const body = nav(lang) + renderToStaticMarkup(bodyEl) + footer(lang);
+      const body = nav(lang, base) + renderToStaticMarkup(bodyEl) + footer(lang);
       const file = `d/${d.slug}${lang === "ar" ? ".ar" : ""}.html`;
       writeFileSync(join(outDir, file), doc({ lang, title, description, body, css, jsonLd: domainLd, alternates: [{ lang: "en", href: enHref }, { lang: "ar", href: arHref }, { lang: "x-default", href: enHref }] }), "utf8");
       written.push(file);
@@ -148,7 +149,7 @@ export function buildStatic(outDir: string, origin: string): string[] {
       const title = `${comp.name[lang]} — ${c.entityComponent}`;
       const description = comp.description[lang];
       const bodyEl: ReactElement = <ComponentPage language={lang} copy={c} viewId={compRoute.slug} onState={() => {}} />;
-      const body = nav(lang) + renderToStaticMarkup(bodyEl) + footer(lang);
+      const body = nav(lang, base) + renderToStaticMarkup(bodyEl) + footer(lang);
       const file = `c/${compRoute.slug}${lang === "ar" ? ".ar" : ""}.html`;
       writeFileSync(join(outDir, file), doc({ lang, title, description, body, css, jsonLd: componentLd, alternates: [{ lang: "en", href: enHref }, { lang: "ar", href: arHref }, { lang: "x-default", href: enHref }] }), "utf8");
       written.push(file);
@@ -165,7 +166,7 @@ export function buildStatic(outDir: string, origin: string): string[] {
   });
   for (const lang of ["en", "ar"] as Language[]) {
     const c = ui[lang];
-    const idxBody = nav(lang) + renderToStaticMarkup(<GuidesPage language={lang} copy={c} />) + footer(lang);
+    const idxBody = nav(lang, base) + renderToStaticMarkup(<GuidesPage language={lang} copy={c} />) + footer(lang);
     const idxFile = `g/index${lang === "ar" ? ".ar" : ""}.html`;
     writeFileSync(join(outDir, idxFile), doc({ lang, title: `${c.guides} — Creative AI`, description: c.guideSummary, body: idxBody, css, jsonLd: guidesLd, alternates: [{ lang: "en", href: guidesEnHref }, { lang: "ar", href: guidesArHref }, { lang: "x-default", href: guidesEnHref }] }), "utf8");
     written.push(idxFile);
@@ -186,7 +187,7 @@ export function buildStatic(outDir: string, origin: string): string[] {
     for (const lang of ["en", "ar"] as Language[]) {
       const c = ui[lang];
       const bodyEl: ReactElement = <GuidePage language={lang} copy={c} viewId={route.slug} />;
-      const body = nav(lang) + renderToStaticMarkup(bodyEl) + footer(lang);
+      const body = nav(lang, base) + renderToStaticMarkup(bodyEl) + footer(lang);
       const file = `g/${route.slug}${lang === "ar" ? ".ar" : ""}.html`;
       writeFileSync(join(outDir, file), doc({ lang, title: `${g.title[lang]} — ${c.guides}`, description: g.summary[lang], body, css, jsonLd: guideLd, alternates: [{ lang: "en", href: enHref }, { lang: "ar", href: arHref }, { lang: "x-default", href: enHref }] }), "utf8");
       written.push(file);
@@ -211,7 +212,7 @@ export function buildStatic(outDir: string, origin: string): string[] {
       for (const lang of ["en", "ar"] as Language[]) {
         const c = ui[lang];
         const bodyEl: ReactElement = <FitPage language={lang} copy={c} fitTool={toolId} fitDomain={d.id} onState={() => {}} />;
-        const body = nav(lang) + renderToStaticMarkup(bodyEl) + footer(lang);
+        const body = nav(lang, base) + renderToStaticMarkup(bodyEl) + footer(lang);
         const file = `fit/${slug}${lang === "ar" ? ".ar" : ""}.html`;
         writeFileSync(join(outDir, file), doc({ lang, title: `${tool.name[lang]} ${lang === "ar" ? "لـ" : "for"} ${d.name[lang]} — ${c.domains}`, description: d.description[lang], body, css, jsonLd: fitLd, alternates: [{ lang: "en", href: enHref }, { lang: "ar", href: arHref }, { lang: "x-default", href: enHref }] }), "utf8");
         written.push(file);
@@ -231,7 +232,7 @@ export function buildStatic(outDir: string, origin: string): string[] {
     for (const lang of ["en", "ar"] as Language[]) {
       const c = ui[lang];
       const bodyEl: ReactElement = <MatrixPage language={lang} copy={c} domainId={d.id} onState={() => {}} />;
-      const body = nav(lang) + renderToStaticMarkup(bodyEl) + footer(lang);
+      const body = nav(lang, base) + renderToStaticMarkup(bodyEl) + footer(lang);
       const file = `matrix/${d.id}${lang === "ar" ? ".ar" : ""}.html`;
       writeFileSync(join(outDir, file), doc({ lang, title: `${c.matrixFor} — ${d.name[lang]}`, description: c.matrixFor, body, css, jsonLd: matrixLd, alternates: [{ lang: "en", href: enHref }, { lang: "ar", href: arHref }, { lang: "x-default", href: enHref }] }), "utf8");
       written.push(file);

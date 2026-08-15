@@ -2,3 +2,6 @@ node_modules/
 dist/
 scripts/__pycache__/
 *.pyc
+dev.err
+dev.log
+*.log
