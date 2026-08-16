@@ -11,6 +11,7 @@ import { dealForTool } from "../data/deals";
 import { StatusBadge } from "./StatusBadge";
 import { CorrectionForm } from "./CorrectionForm";
 import { SaveButton } from "./SaveButton";
+import { ConfidenceBadge, EvidenceStrengthMeter } from "./evidence";
 
 type Props = { language: Language; copy: Copy; viewId: string; onState: (next: Partial<UrlState>) => void };
 
@@ -43,6 +44,10 @@ export function ToolPage({ language, copy, viewId, onState }: Props) {
         <div><h3>{copy.limitations}</h3><p>{tool.limitations.map((l) => l[language]).join(" · ")}</p></div>
       </section>
       <section className="section-heading"><div><h2>{copy.capabilitiesLabel}</h2></div></section>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", alignItems: "center", marginBottom: "16px" }}>
+        <ConfidenceBadge confidence="high" coverage={{ verified: Object.values(caps).filter(c => c.state === "supported").length, applicable: Object.keys(caps).length }} language={language} copy={copy} size="md" />
+        <EvidenceStrengthMeter coverage={{ verified: Object.values(caps).filter(c => c.state === "supported").length, applicable: Object.keys(caps).length }} confidence="high" language={language} copy={copy} size="md" />
+      </div>
       <ul className="cap-list">
         {Object.entries(caps).map(([id, a]) => (
           <li key={id} className={`cap-${a!.state}`}>

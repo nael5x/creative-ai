@@ -8,6 +8,8 @@ import { documentedFit } from "../lib/fit";
 import type { Copy } from "../i18n";
 import type { ComparisonCriterion, CriterionAssessment, Language } from "../types";
 import { ToolSelector } from "./ToolSelector";
+import { ConfidenceBadge, EvidenceStrengthMeter } from "./evidence";
+import { SavedComparisonUI } from "./SavedComparisonUI";
 
 type Props = { language: Language; copy: Copy; leftId: string; rightId: string; mode: string; onState: (next: { left?: string; right?: string; mode?: string }) => void; onAsk: () => void };
 
@@ -89,6 +91,14 @@ export function ComparisonWorkspace({ language, copy, leftId, rightId, mode, onS
       <div className="selection-actions"><button className="secondary" onClick={copyLink}>{copied ? `✓ ${copy.copied}` : `↗ ${copy.copy}`}</button><button className="primary" onClick={onAsk}>{copy.ask}</button></div>
     </section>
 
+    <SavedComparisonUI
+      language={language}
+      copy={copy}
+      currentState={{ left: leftId, right: rightId, mode }}
+      onState={onState}
+      onCompare={onAsk}
+    />
+
     {result.crossCategory ? <aside className="warning"><strong>{copy.crossCategory}</strong><span>{copy.crossCategoryText}</span></aside> : null}
 
     <section className="identity comparison-grid">
@@ -99,9 +109,11 @@ export function ComparisonWorkspace({ language, copy, leftId, rightId, mode, onS
           <div className="identity-heading"><span className="monogram">{tool.name.en[0]}</span><div><h2>{tool.name[language]}</h2><p>{tool.category[language]}</p></div></div>
           <a href={tool.officialUrl} target="_blank" rel="noreferrer">{copy.official} ↗</a>
           <small>{copy.verified}: <time dateTime={tool.lastVerifiedAt}>{tool.lastVerifiedAt}</time></small>
-          <Metric label={copy.suitability} value={summary.score === null ? copy.notVerified : `${summary.score} / 10`} />
-          <Metric label={copy.confidence} value={summary.confidence} />
-          <Metric label={copy.coverage} value={`${summary.coverage.verified} / ${summary.coverage.applicable}`} />
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", alignItems: "center" }}>
+            <Metric label={copy.suitability} value={summary.score === null ? copy.notVerified : `${summary.score} / 10`} />
+            <ConfidenceBadge confidence={summary.confidence} coverage={summary.coverage} language={language} copy={copy} size="md" />
+            <EvidenceStrengthMeter coverage={summary.coverage} confidence={summary.confidence} language={language} copy={copy} size="md" />
+          </div>
           <div className="best-for"><span>{copy.bestFor}</span><strong>{tool.bestFor.map((item) => item[language]).join(" · ")}</strong></div>
         </article>;
       })}
