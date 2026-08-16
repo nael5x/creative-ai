@@ -32,9 +32,10 @@ describe("WizardShell flow", () => {
     expect(screen.getByTestId("wizard-step-privacy")).toBeTruthy();
     fireEvent.click(screen.getByTestId("wizard-privacy-cloud"));
 
-    // Step 4 — focus
+    // Step 4 — focus (pick two verified priorities so an evidence-backed alternative exists)
     expect(screen.getByTestId("wizard-step-focus")).toBeTruthy();
     fireEvent.click(screen.getByTestId("wizard-focus-ideIntegration"));
+    fireEvent.click(screen.getByTestId("wizard-focus-fileContext"));
     fireEvent.click(screen.getByTestId("wizard-see-results"));
 
     // Step 5 — results: recommendation for GitHub Copilot (verified IDE integration)
@@ -94,5 +95,16 @@ describe("WizardResults states", () => {
     expect(screen.getByTestId("wizard-result-insufficient")).toBeTruthy();
     expect(screen.getByText(ui.en.wInsufficientNoEvidence)).toBeTruthy();
     expect(screen.getByTestId("wizard-available-elevenlabs")).toBeTruthy();
+  });
+
+  it("does not present a zero-evidence second candidate as an alternative or comparison", () => {
+    const best: WizardResult["best"] = { toolId: "github-copilot", score: 2, matchedFocus: ["ideIntegration"], unknownFocus: [], localSupport: [], freeTier: "supported", paidPlan: "supported" };
+    const zeroAlt: WizardResult["alternative"] = { toolId: "windsurf", score: 0, matchedFocus: [], unknownFocus: ["ideIntegration"], localSupport: [], freeTier: "unknown", paidPlan: "unknown" };
+    const result: WizardResult = { state: "recommendation", reason: "ok", focus: ["ideIntegration"], candidates: [best!, zeroAlt!], best, alternative: zeroAlt };
+    render(<WizardResults language="en" copy={ui.en} result={result} selection={{ domain: "coding", budget: "any", privacy: "cloud", focus: ["ideIntegration"] }} onBack={vi.fn()} onRestart={vi.fn()} onCompare={vi.fn()} />);
+    expect(screen.getByTestId("wizard-result-recommendation")).toBeTruthy();
+    expect(screen.getByText("GitHub Copilot")).toBeTruthy();
+    expect(screen.queryByTestId("wizard-alternative")).toBeNull();
+    expect(screen.queryByTestId("wizard-compare-top")).toBeNull();
   });
 });

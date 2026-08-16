@@ -85,13 +85,17 @@ function ToolHeading({ language, candidate, tag }: { language: Language; candida
 export function WizardResults({ language, copy, result, selection, onBack, onRestart, onCompare }: Props) {
   const best = result.best;
   const alternative = result.alternative;
+  // Only present an alternative / offer a comparison when the second candidate has
+  // its OWN verified supporting evidence for the selected priorities. A zero-score
+  // second candidate has no evidence basis and must not be implied as an endorsement.
+  const evidenceBackedAlt = alternative && alternative.score > 0 ? alternative : undefined;
 
-  const compareBtn = best && alternative ? (
+  const compareBtn = best && evidenceBackedAlt ? (
     <button
       type="button"
       className="primary wizard-compare"
       data-testid="wizard-compare-top"
-      onClick={() => onCompare(best.toolId, alternative.toolId, domainPreset(selection.domain))}
+      onClick={() => onCompare(best.toolId, evidenceBackedAlt.toolId, domainPreset(selection.domain))}
     >
       {copy.wCompareTop} →
     </button>
@@ -110,10 +114,10 @@ export function WizardResults({ language, copy, result, selection, onBack, onRes
             <h4>{copy.wWhyFits}</h4>
             <CandidateEvidence language={language} copy={copy} candidate={best} selection={selection} />
           </div>
-          {alternative ? (
+          {evidenceBackedAlt ? (
             <div className="wizard-alt" data-testid="wizard-alternative">
-              <ToolHeading language={language} candidate={alternative} tag={copy.wAlternative} />
-              <CandidateEvidence language={language} copy={copy} candidate={alternative} selection={selection} />
+              <ToolHeading language={language} candidate={evidenceBackedAlt} tag={copy.wAlternative} />
+              <CandidateEvidence language={language} copy={copy} candidate={evidenceBackedAlt} selection={selection} />
             </div>
           ) : null}
           {compareBtn}
