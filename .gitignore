@@ -5,3 +5,7 @@ scripts/__pycache__/
 dev.err
 dev.log
 *.log
+
+# Emergent runtime artifacts
+.emergent/
+memory/PRD.md
