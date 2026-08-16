@@ -55,22 +55,36 @@ export function ld(obj: unknown): string {
   return `<script type="application/ld+json">${json}</script>`;
 }
 
+// Escape a dynamic value for safe interpolation into HTML text or (double/single
+// quoted) attribute contexts. Escaping "&" first prevents double-encoding. This
+// is NOT applied to JSON-LD (see ld(), which uses the correct \u003c escaping for
+// the <script> context) nor to trusted CSS, so those serializations stay valid.
+export function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 function breadcrumbItem(position: number, name: string, item: string) {
   return { "@type": "ListItem", position, name, item };
 }
 
 function nav(lang: Language, base: string): string {
   const c = ui[lang];
-  return `<header class="site-header"><div class="page-width header-inner"><a class="brand" href="${base}/">CREATIVE <span>AI</span></a><nav aria-label="Primary"><a href="${base}/#top">${c.domains}</a><a href="${base}/#compare">${c.compare}</a><a href="${base}/#directory">${c.directory}</a><a href="${base}/#updates">${c.updates}</a><a href="${base}/#methodology">${c.methodology}</a></nav></nav></div></header>`;
+  const b = escapeHtml(base);
+  return `<header class="site-header"><div class="page-width header-inner"><a class="brand" href="${b}/">CREATIVE <span>AI</span></a><nav aria-label="Primary"><a href="${b}/#top">${escapeHtml(c.domains)}</a><a href="${b}/#compare">${escapeHtml(c.compare)}</a><a href="${b}/#directory">${escapeHtml(c.directory)}</a><a href="${b}/#updates">${escapeHtml(c.updates)}</a><a href="${b}/#methodology">${escapeHtml(c.methodology)}</a></nav></nav></div></header>`;
 }
 
 function footer(lang: Language): string {
-  return `<footer><div class="page-width"><strong>CREATIVE <span>AI</span></strong><p>${ui[lang].disclosure}</p></div></footer>`;
+  return `<footer><div class="page-width"><strong>CREATIVE <span>AI</span></strong><p>${escapeHtml(ui[lang].disclosure)}</p></div></footer>`;
 }
 
 function doc(opts: { lang: Language; title: string; description: string; body: string; css: string; alternates: { lang: string; href: string }[]; jsonLd?: string }): string {
-  const alt = opts.alternates.map((a) => `<link rel="alternate" hreflang="${a.lang}" href="${a.href}" />`).join("\n");
-  return `<!doctype html><html lang="${opts.lang}"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>${opts.title}</title><meta name="description" content="${opts.description}"/>${alt}<style>${opts.css}</style>${opts.jsonLd ?? ""}</head><body>${opts.body}</body></html>`;
+  const alt = opts.alternates.map((a) => `<link rel="alternate" hreflang="${escapeHtml(a.lang)}" href="${escapeHtml(a.href)}" />`).join("\n");
+  return `<!doctype html><html lang="${escapeHtml(opts.lang)}"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>${escapeHtml(opts.title)}</title><meta name="description" content="${escapeHtml(opts.description)}"/>${alt}<style>${opts.css}</style>${opts.jsonLd ?? ""}</head><body>${opts.body}</body></html>`;
 }
 
 export function buildStatic(outDir: string, origin: string): string[] {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { parseUrl, serializeUrl } from "./urlState";
+import { parseUrl, serializeUrl, type UrlState } from "./urlState";
 
 describe("urlState view routing", () => {
   it("parses a view + id", () => {
@@ -48,5 +48,51 @@ describe("urlState view routing", () => {
     const url = serializeUrl({ left: "chatgpt", right: "claude", mode: "general", view: "watchlist", shared: "abc" });
     expect(url).toContain("view=watchlist");
     expect(url).toContain("w=abc");
+  });
+});
+
+describe("urlState wizard routing", () => {
+  it("round-trips a full wizard state (serialize -> parse)", () => {
+    const state: UrlState = {
+      left: "chatgpt", right: "claude", mode: "general",
+      view: "wizard", wizardStep: 5, wizardDomain: "coding",
+      wizardBudget: "free", wizardPrivacy: "strict-local",
+      wizardFocus: ["ideIntegration", "fileContext"],
+    };
+    const parsed = parseUrl(serializeUrl(state));
+    expect(parsed.view).toBe("wizard");
+    expect(parsed.wizardStep).toBe(5);
+    expect(parsed.wizardDomain).toBe("coding");
+    expect(parsed.wizardBudget).toBe("free");
+    expect(parsed.wizardPrivacy).toBe("strict-local");
+    expect(parsed.wizardFocus).toEqual(["ideIntegration", "fileContext"]);
+  });
+
+  it("recovers safely from invalid wizard parameters", () => {
+    const parsed = parseUrl("?view=wizard&step=99&domain=nope&budget=bananas&privacy=galaxy&focus=teamSize,sso");
+    expect(parsed.view).toBe("wizard");
+    expect(parsed.wizardStep).toBeUndefined();
+    expect(parsed.wizardDomain).toBeUndefined();
+    expect(parsed.wizardBudget).toBeUndefined();
+    expect(parsed.wizardPrivacy).toBeUndefined();
+    expect(parsed.wizardFocus).toBeUndefined();
+  });
+
+  it("drops focus values that are not valid options for the domain", () => {
+    // sourceCitations is not a focus option for the coding domain preset.
+    const parsed = parseUrl("?view=wizard&step=5&domain=coding&budget=any&privacy=cloud&focus=ideIntegration,openSource");
+    expect(parsed.wizardFocus).toEqual(["ideIntegration"]); // openSource excluded (privacy cap)
+  });
+
+  it("reproduces a step-5 deep link that maps to the same evaluated result", () => {
+    const parsed = parseUrl("?view=wizard&step=5&domain=coding&budget=any&privacy=cloud&focus=ideIntegration");
+    expect(parsed.wizardStep).toBe(5);
+    expect(parsed.wizardDomain).toBe("coding");
+    expect(parsed.wizardFocus).toEqual(["ideIntegration"]);
+  });
+
+  it("does not crash on a malformed query string", () => {
+    expect(() => parseUrl("?view=wizard&step=&focus=&domain=")).not.toThrow();
+    expect(() => parseUrl("%%%not-a-query")).not.toThrow();
   });
 });

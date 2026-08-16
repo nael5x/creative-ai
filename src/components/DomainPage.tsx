@@ -1,6 +1,6 @@
 import type { Copy } from "../i18n";
 import type { Language } from "../types";
-import { domains, domainMap } from "../data/domains";
+import { domainMap } from "../data/domains";
 import { tools } from "../data/tools";
 import { components } from "../data/components";
 import { guidesForDomain } from "../data/guides";

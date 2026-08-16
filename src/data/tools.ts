@@ -9,7 +9,7 @@ const seeds: Seed[] = [
   ["claude", "Claude", "كلود", "General assistant", "مساعد عام", "Free / Paid", "https://claude.ai/"],
   ["gemini", "Gemini", "جيميني", "General assistant", "مساعد عام", "Free / Paid", "https://gemini.google.com/"],
   ["perplexity", "Perplexity", "بيربليكسيتي", "Research", "البحث", "Free / Paid", "https://www.perplexity.ai/"],
-  ["notebooklm", "NotebookLM", "نوتبوك إل إم", "Learn from files", "التعلم من الملفات", "Free / Paid", "https://notebooklm.google/"],
+  ["notebooklm", "NotebookLM", "نوتبوك إل إم", "Learn from files", "التعلم من الملفات", "Free / Paid", "https://notebooklm.google.com/"],
   ["midjourney", "Midjourney", "ميدجورني", "Images", "الصور", "Paid", "https://www.midjourney.com/"],
   ["adobe-firefly", "Adobe Firefly", "أدوبي فايرفلاي", "Images & design", "الصور والتصميم", "Free / Paid", "https://firefly.adobe.com/"],
   ["canva-ai", "Canva AI", "كانفا AI", "Design", "التصميم", "Free / Paid", "https://www.canva.com/ai-image-generator/"],

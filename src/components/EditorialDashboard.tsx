@@ -1,7 +1,7 @@
 import { useState } from "react";
 import type { Copy } from "../i18n";
 import type { Language } from "../types";
-import { components, componentMap } from "../data/components";
+import { components } from "../data/components";
 import { getCorrections, resolveCorrection, getVerifiedOverrides, setVerified, unsetVerified } from "../data/editorial";
 
 export function EditorialDashboard({ language, copy }: { language: Language; copy: Copy }) {

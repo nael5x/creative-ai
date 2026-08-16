@@ -6,7 +6,7 @@ import { getWatchlist, encodeWatchlist, type WatchItem } from "../lib/watchlist"
 import { toolMap } from "../data/tools";
 import { componentMap } from "../data/components";
 import { domainMap } from "../data/domains";
-import { fetchUpdates, updatesFor, type UnifiedUpdate } from "../data/updates";
+import { fetchUpdates, type UnifiedUpdate } from "../data/updates";
 
 function label(item: WatchItem, lang: Language): string {
   if (item.kind === "tool") return toolMap.get(item.id)?.name[lang] ?? item.id;

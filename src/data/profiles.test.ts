@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { profiles } from "./profiles";
-import { compareTools, scoreTool } from "../lib/scoring";
+import { compareTools } from "../lib/scoring";
 import { presets } from "./presets";
 import { toolMap } from "./tools";
 import type { ComparisonCriterion } from "../types";

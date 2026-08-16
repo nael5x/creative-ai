@@ -12,6 +12,7 @@ import { MatrixPage } from "./components/MatrixPage";
 import { WatchlistPage } from "./components/WatchlistPage";
 import { DealsPage } from "./components/DealsPage";
 import { AskPanel } from "./components/AskPanel";
+import { WizardShell } from "./components/WizardShell";
 import { decodeWatchlist } from "./lib/watchlist";
 import { Updates } from "./components/Updates";
 import { EditorialDashboard } from "./components/EditorialDashboard";
@@ -62,18 +63,19 @@ export function App() {
       case "matrix": return <MatrixPage language={language} copy={copy} domainId={state.fitDomain} onState={update} />;
       case "watchlist": return <WatchlistPage language={language} copy={copy} shared={state.shared ? decodeWatchlist(state.shared) : undefined} onState={update} />;
       case "deals": return <DealsPage language={language} copy={copy} onState={update} />;
+      case "wizard": return <WizardShell language={language} copy={copy} state={state} onState={update} onCompare={(left, right, mode) => { update({ view: undefined, viewId: undefined, left, right, mode }); requestAnimationFrame(() => document.getElementById("compare")?.scrollIntoView()); }} />;
       case "editor": return <EditorialDashboard language={language} copy={copy} />;
       default: return <main className="page-width"><p>{language === "ar" ? "غير معروف" : "Unknown view"}</p></main>;
     }
   }
 
   return <>
-    <header className="site-header"><div className="page-width header-inner"><a className="brand" href="#top" aria-label="Creative AI">CREATIVE <span>AI</span></a><nav aria-label="Primary"><a href="#top">{copy.domains}</a><a href="#compare">{copy.compare}</a><a href="#directory">{copy.directory}</a><a href={import.meta.env.BASE_URL + "?view=guides"}>{copy.guides}</a><a href={import.meta.env.BASE_URL + "?view=matrix"}>{copy.matrix}</a><a href={import.meta.env.BASE_URL + "?view=watchlist"}>{copy.watchlist}</a><a href={import.meta.env.BASE_URL + "?view=deals"}>{copy.deals}</a><a href="#updates">{copy.updates}</a><a href="#methodology">{copy.methodology}</a></nav><button className="language" onClick={() => setAskOpen(true)}>❓ {copy.ask}</button><button className="language" onClick={() => setLanguage((value) => value === "en" ? "ar" : "en")}>◎ {language === "en" ? "العربية" : "English"}</button></div></header>
+    <header className="site-header"><div className="page-width header-inner"><a className="brand" href="#top" aria-label="Creative AI">CREATIVE <span>AI</span></a><nav aria-label="Primary"><a href="#top">{copy.domains}</a><a href="#compare">{copy.compare}</a><a href="#directory">{copy.directory}</a><a href={import.meta.env.BASE_URL + "?view=guides"}>{copy.guides}</a><a href={import.meta.env.BASE_URL + "?view=matrix"}>{copy.matrix}</a><a href={import.meta.env.BASE_URL + "?view=watchlist"}>{copy.watchlist}</a><a href={import.meta.env.BASE_URL + "?view=deals"}>{copy.deals}</a><a href={import.meta.env.BASE_URL + "?view=wizard"}>{copy.wizard}</a><a href="#updates">{copy.updates}</a><a href="#methodology">{copy.methodology}</a></nav><button className="language" onClick={() => setAskOpen(true)}>❓ {copy.ask}</button><button className="language" onClick={() => setLanguage((value) => value === "en" ? "ar" : "en")}>◎ {language === "en" ? "العربية" : "English"}</button></div></header>
 
     {showPage ? renderView() : (
       <>
         <section id="top" className="domain-hero page-width">
-          <div className="hero-intro"><h1>{copy.domainHero}</h1><p>{copy.domainHeroSub}</p></div>
+          <div className="hero-intro"><h1>{copy.domainHero}</h1><p>{copy.domainHeroSub}</p><button className="primary wizard-hero-cta" data-testid="launch-wizard" onClick={() => update({ view: "wizard", wizardStep: 1 })}>✦ {copy.wizardTitle} →</button></div>
           <div className="domain-grid">
             {domains.map((d) => <button key={d.id} className="domain-card" onClick={() => update({ view: "domain", viewId: d.id })}><strong>{d.name[language]}</strong><span>{d.description[language]}</span></button>)}
           </div>
