@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T01:59:44.301100+00:00",
+  "updatedAt": "2026-08-16T07:03:07.212935+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.14-rc0",
@@ -902,20 +902,70 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1222502",
-      "title": "Chronock",
-      "url": "https://www.producthunt.com/products/chronock",
-      "publishedAt": "2026-08-15T18:49:32-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1216311",
+      "title": "Vidaya",
+      "url": "https://www.producthunt.com/products/vidaya",
+      "publishedAt": "2026-08-16T00:01:42-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1196496",
-      "title": "Big Mike",
-      "url": "https://www.producthunt.com/products/big-mike",
-      "publishedAt": "2026-08-15T18:54:04-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1222624",
+      "title": "HarnessRouter Community Edition",
+      "url": "https://www.producthunt.com/products/epsilla",
+      "publishedAt": "2026-08-16T00:01:45-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1211172",
+      "title": "CostLogic",
+      "url": "https://www.producthunt.com/products/costlogic",
+      "publishedAt": "2026-08-16T00:02:09-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1221007",
+      "title": "Expeditione",
+      "url": "https://www.producthunt.com/products/expeditione",
+      "publishedAt": "2026-08-16T00:01:42-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1200353",
+      "title": "Blume",
+      "url": "https://www.producthunt.com/products/blume-3",
+      "publishedAt": "2026-08-16T00:01:42-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1223253",
+      "title": "Chert",
+      "url": "https://www.producthunt.com/products/chert",
+      "publishedAt": "2026-08-16T00:01:45-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1219365",
+      "title": "AirAlarm",
+      "url": "https://www.producthunt.com/products/airalarm",
+      "publishedAt": "2026-08-16T00:01:45-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,47 +975,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1218955",
       "title": "Attyn",
       "url": "https://www.producthunt.com/products/attyn",
-      "publishedAt": "2026-08-15T18:57:13-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1217720",
-      "title": "Zetik",
-      "url": "https://www.producthunt.com/products/zetik",
-      "publishedAt": "2026-08-15T18:56:03-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1222612",
-      "title": "GLM-5.3",
-      "url": "https://www.producthunt.com/products/z-ai",
-      "publishedAt": "2026-08-15T18:54:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1220779",
-      "title": "Inferock Bench",
-      "url": "https://www.producthunt.com/products/inferock-bench",
-      "publishedAt": "2026-08-15T18:54:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1218699",
-      "title": "Clamshell",
-      "url": "https://www.producthunt.com/products/clamshell",
-      "publishedAt": "2026-08-15T18:21:23-07:00",
+      "publishedAt": "2026-08-15T23:14:55-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,27 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1222256",
       "title": "Talvo",
       "url": "https://www.producthunt.com/products/talvo-2",
-      "publishedAt": "2026-08-15T17:17:27-07:00",
+      "publishedAt": "2026-08-15T23:02:55-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1217087",
-      "title": "FileRouter",
-      "url": "https://www.producthunt.com/products/filerouter",
-      "publishedAt": "2026-08-15T18:18:41-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1221450",
-      "title": "nenspace",
-      "url": "https://www.producthunt.com/products/nenspace",
-      "publishedAt": "2026-08-15T18:24:29-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1215892",
+      "title": "Joy",
+      "url": "https://www.producthunt.com/products/joy-celebrate-your-wins",
+      "publishedAt": "2026-08-15T23:41:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
