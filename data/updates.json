@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T13:10:08.379501+00:00",
+  "updatedAt": "2026-08-17T19:01:37.296262+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.14",
@@ -902,10 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1222691",
-      "title": "Meridian",
-      "url": "https://www.producthunt.com/products/meridian-16",
-      "publishedAt": "2026-08-17T06:09:55-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1119893",
+      "title": "Bulbthings",
+      "url": "https://www.producthunt.com/products/bulbthings",
+      "publishedAt": "2026-08-17T11:37:31-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -915,77 +915,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1223058",
       "title": "Omni by xpander",
       "url": "https://www.producthunt.com/products/omni-by-xpander",
-      "publishedAt": "2026-08-17T06:09:54-07:00",
+      "publishedAt": "2026-08-17T11:59:01-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1224203",
-      "title": "Skriptr",
-      "url": "https://www.producthunt.com/products/skriptr",
-      "publishedAt": "2026-08-17T06:06:37-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224464",
-      "title": "Blender Agent Bridge",
-      "url": "https://www.producthunt.com/products/blender-agent-bridge",
-      "publishedAt": "2026-08-17T06:06:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1119893",
-      "title": "Bulbthings",
-      "url": "https://www.producthunt.com/products/bulbthings",
-      "publishedAt": "2026-08-17T06:06:05-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1221388",
-      "title": "Samepage Artifacts",
-      "url": "https://www.producthunt.com/products/samepage-signals",
-      "publishedAt": "2026-08-17T06:05:49-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224561",
-      "title": "Hansel by Seedling",
-      "url": "https://www.producthunt.com/products/hansel-by-seedling",
-      "publishedAt": "2026-08-17T06:06:05-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1220844",
-      "title": "Startup Program by Recall.ai",
-      "url": "https://www.producthunt.com/products/recall-ai",
-      "publishedAt": "2026-08-17T06:05:55-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1221696",
-      "title": "Scholé Scenarios",
-      "url": "https://www.producthunt.com/products/schole-2",
-      "publishedAt": "2026-08-17T06:05:55-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1224641",
+      "title": "TinyFish",
+      "url": "https://www.producthunt.com/products/tinyfish-2",
+      "publishedAt": "2026-08-17T11:58:23-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +935,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1220962",
       "title": "Treg",
       "url": "https://www.producthunt.com/products/treg-openrouter-for-tools",
-      "publishedAt": "2026-08-17T06:05:55-07:00",
+      "publishedAt": "2026-08-17T11:55:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1220844",
+      "title": "Startup Program by Recall.ai",
+      "url": "https://www.producthunt.com/products/recall-ai",
+      "publishedAt": "2026-08-17T11:55:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1224203",
+      "title": "Skriptr",
+      "url": "https://www.producthunt.com/products/skriptr",
+      "publishedAt": "2026-08-17T11:50:05-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1224529",
+      "title": "Vendo",
+      "url": "https://www.producthunt.com/products/vendo",
+      "publishedAt": "2026-08-17T11:56:44-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1222691",
+      "title": "Meridian",
+      "url": "https://www.producthunt.com/products/meridian-16",
+      "publishedAt": "2026-08-17T11:59:01-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1220459",
+      "title": "Replay QA for Teams",
+      "url": "https://www.producthunt.com/products/replayio",
+      "publishedAt": "2026-08-17T11:45:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1221388",
+      "title": "Samepage Artifacts",
+      "url": "https://www.producthunt.com/products/samepage-signals",
+      "publishedAt": "2026-08-17T11:45:29-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
