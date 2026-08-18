@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T07:08:10.518227+00:00",
+  "updatedAt": "2026-08-18T13:12:00.002408+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.14",
@@ -702,6 +702,26 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.36.0",
+      "title": "n8n@2.36.0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0",
+      "publishedAt": "2026-08-18T09:41:08Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/beta",
+      "title": "beta",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "publishedAt": "2026-08-18T09:41:51Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
       "id": "tag:github.com,2008:Repository/193215554/v1",
       "title": "v1: :rocket: Release 1.123.72 (#36390)",
       "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
@@ -725,7 +745,7 @@
       "id": "tag:github.com,2008:Repository/193215554/stable",
       "title": "stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "publishedAt": "2026-08-14T08:13:05Z",
+      "publishedAt": "2026-08-18T09:44:27Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -735,7 +755,7 @@
       "id": "tag:github.com,2008:Repository/193215554/n8n@2.35.3",
       "title": "n8n@2.35.3",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.3",
-      "publishedAt": "2026-08-14T10:26:02Z",
+      "publishedAt": "2026-08-18T09:44:26Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -746,16 +766,6 @@
       "title": "n8n@2.34.6",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.6",
       "publishedAt": "2026-08-14T08:16:43Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/beta",
-      "title": "beta",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "publishedAt": "2026-08-14T10:21:10Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -786,16 +796,6 @@
       "title": "n8n@2.35.1",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.1",
       "publishedAt": "2026-08-12T08:00:34Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.34.5",
-      "title": "n8n@2.34.5",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.5",
-      "publishedAt": "2026-08-12T08:09:43Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -902,90 +902,70 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1223171",
-      "title": "AirBuddy 3",
-      "url": "https://www.producthunt.com/products/airbuddy-2",
-      "publishedAt": "2026-08-18T00:07:16-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1225417",
-      "title": "Shepherd Terminal",
-      "url": "https://www.producthunt.com/products/shepherd-terminal-designed-for-agent",
-      "publishedAt": "2026-08-18T00:07:32-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1225484",
-      "title": "Dates by Agenda Hero",
-      "url": "https://www.producthunt.com/products/dates-by-agenda-hero",
-      "publishedAt": "2026-08-18T00:07:28-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1223864",
-      "title": "Tiny Funnel",
-      "url": "https://www.producthunt.com/products/tiny-funnel",
-      "publishedAt": "2026-08-18T00:07:11-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1225316",
-      "title": "Finch",
-      "url": "https://www.producthunt.com/products/finch-6",
-      "publishedAt": "2026-08-18T00:07:30-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1223773",
-      "title": "Skim Recap",
-      "url": "https://www.producthunt.com/products/skim-recap",
-      "publishedAt": "2026-08-18T00:07:18-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1204828",
-      "title": "Memoria",
-      "url": "https://www.producthunt.com/products/memoria-5",
-      "publishedAt": "2026-08-18T00:07:18-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1221280",
-      "title": "monolog",
-      "url": "https://www.producthunt.com/products/monolog-2",
-      "publishedAt": "2026-08-18T00:07:18-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1224258",
       "title": "Taku AI",
       "url": "https://www.producthunt.com/products/taku-ai",
-      "publishedAt": "2026-08-18T00:07:17-07:00",
+      "publishedAt": "2026-08-18T06:10:33-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1223221",
+      "title": "Salem Robotics",
+      "url": "https://www.producthunt.com/products/salem-robotics",
+      "publishedAt": "2026-08-18T06:10:07-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1225574",
+      "title": "Controller AI",
+      "url": "https://www.producthunt.com/products/insight-ai",
+      "publishedAt": "2026-08-18T06:10:19-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1225408",
+      "title": "Gauge",
+      "url": "https://www.producthunt.com/products/gauge",
+      "publishedAt": "2026-08-18T06:10:12-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1218197",
+      "title": "Open Index",
+      "url": "https://www.producthunt.com/products/open-brain",
+      "publishedAt": "2026-08-18T06:02:23-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1221930",
+      "title": "Deepmark",
+      "url": "https://www.producthunt.com/products/deepmark",
+      "publishedAt": "2026-08-18T06:10:02-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1213345",
+      "title": "CrewTower",
+      "url": "https://www.producthunt.com/products/crew-tower",
+      "publishedAt": "2026-08-18T06:10:01-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +975,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1224615",
       "title": "Superflow AI",
       "url": "https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions",
-      "publishedAt": "2026-08-18T00:07:15-07:00",
+      "publishedAt": "2026-08-18T06:08:34-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1219657",
+      "title": "Atlas by WorkOS",
+      "url": "https://www.producthunt.com/products/workos",
+      "publishedAt": "2026-08-18T06:04:09-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1220249",
+      "title": "Clara AI SDR",
+      "url": "https://www.producthunt.com/products/clara-ai-sdr",
+      "publishedAt": "2026-08-18T06:09:11-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
