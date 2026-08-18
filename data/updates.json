@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T13:12:00.002408+00:00",
+  "updatedAt": "2026-08-18T19:00:27.623862+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.14",
@@ -102,6 +102,16 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.5.2",
+      "title": "langchain-openai==1.5.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2",
+      "publishedAt": "2026-08-18T17:38:13Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.5.2a1",
       "title": "langchain-openai==1.5.2a1",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2a1",
@@ -186,16 +196,6 @@
       "title": "langchain-anthropic==1.5.5",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.5",
       "publishedAt": "2026-08-11T19:16:57Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain==1.3.15",
-      "title": "langchain==1.3.15",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.15",
-      "publishedAt": "2026-08-11T19:11:11Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -902,20 +902,50 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1224258",
-      "title": "Taku AI",
-      "url": "https://www.producthunt.com/products/taku-ai",
-      "publishedAt": "2026-08-18T06:10:33-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1221930",
+      "title": "Deepmark",
+      "url": "https://www.producthunt.com/products/deepmark",
+      "publishedAt": "2026-08-18T11:54:26-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1223221",
-      "title": "Salem Robotics",
-      "url": "https://www.producthunt.com/products/salem-robotics",
-      "publishedAt": "2026-08-18T06:10:07-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1223864",
+      "title": "Tiny Funnel",
+      "url": "https://www.producthunt.com/products/tiny-funnel",
+      "publishedAt": "2026-08-18T11:24:04-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1223171",
+      "title": "AirBuddy 3",
+      "url": "https://www.producthunt.com/products/airbuddy-2",
+      "publishedAt": "2026-08-18T11:38:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1221883",
+      "title": "LayerProof Matte 3.0",
+      "url": "https://www.producthunt.com/products/layerproof-social-content-generation",
+      "publishedAt": "2026-08-18T10:34:41-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1162563",
+      "title": "Whisperstream",
+      "url": "https://www.producthunt.com/products/whisperstream",
+      "publishedAt": "2026-08-18T10:34:45-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,57 +955,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1225574",
       "title": "Controller AI",
       "url": "https://www.producthunt.com/products/insight-ai",
-      "publishedAt": "2026-08-18T06:10:19-07:00",
+      "publishedAt": "2026-08-18T10:32:26-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1225408",
-      "title": "Gauge",
-      "url": "https://www.producthunt.com/products/gauge",
-      "publishedAt": "2026-08-18T06:10:12-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1218197",
-      "title": "Open Index",
-      "url": "https://www.producthunt.com/products/open-brain",
-      "publishedAt": "2026-08-18T06:02:23-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1221930",
-      "title": "Deepmark",
-      "url": "https://www.producthunt.com/products/deepmark",
-      "publishedAt": "2026-08-18T06:10:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1213345",
-      "title": "CrewTower",
-      "url": "https://www.producthunt.com/products/crew-tower",
-      "publishedAt": "2026-08-18T06:10:01-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224615",
-      "title": "Superflow AI",
-      "url": "https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions",
-      "publishedAt": "2026-08-18T06:08:34-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1200449",
+      "title": "Transept AI",
+      "url": "https://www.producthunt.com/products/transept-ai",
+      "publishedAt": "2026-08-18T10:34:47-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,7 +975,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1219657",
       "title": "Atlas by WorkOS",
       "url": "https://www.producthunt.com/products/workos",
-      "publishedAt": "2026-08-18T06:04:09-07:00",
+      "publishedAt": "2026-08-18T11:51:55-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1224258",
+      "title": "Taku AI",
+      "url": "https://www.producthunt.com/products/taku-ai",
+      "publishedAt": "2026-08-18T11:59:03-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +995,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1220249",
       "title": "Clara AI SDR",
       "url": "https://www.producthunt.com/products/clara-ai-sdr",
-      "publishedAt": "2026-08-18T06:09:11-07:00",
+      "publishedAt": "2026-08-18T11:59:04-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
