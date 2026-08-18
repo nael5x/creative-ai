@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T19:01:37.296262+00:00",
+  "updatedAt": "2026-08-18T01:53:37.655089+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.14",
@@ -102,6 +102,26 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.5.2a1",
+      "title": "langchain-openai==1.5.2a1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2a1",
+      "publishedAt": "2026-08-18T01:51:40Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.5.6",
+      "title": "langchain-core==1.5.6",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.6",
+      "publishedAt": "2026-08-17T21:26:48Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-openrouter==0.2.8",
       "title": "langchain-openrouter==0.2.8",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.8",
@@ -176,26 +196,6 @@
       "title": "langchain==1.3.15",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.15",
       "publishedAt": "2026-08-11T19:11:11Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.4.3",
-      "title": "langchain-openai==1.4.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.3",
-      "publishedAt": "2026-08-10T13:23:36Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.4.2",
-      "title": "langchain-openai==1.4.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.2",
-      "publishedAt": "2026-08-07T13:58:16Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.33.2",
+      "title": "v0.33.2",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.2",
+      "publishedAt": "2026-08-17T19:31:22Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.33.1",
       "title": "v0.33.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.1",
@@ -386,16 +396,6 @@
       "title": "v0.29.2",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.2",
       "publishedAt": "2026-07-31T06:56:45Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.29.1",
-      "title": "v0.29.1",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.1",
-      "publishedAt": "2026-07-31T01:20:19Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -602,10 +602,30 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev31",
+      "title": "v1.12.0.dev31",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev31",
+      "publishedAt": "2026-08-18T00:17:32Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev30",
       "title": "v1.12.0.dev30",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev30",
       "publishedAt": "2026-08-17T00:18:07Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.11.4",
+      "title": "v1.11.4",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.4",
+      "publishedAt": "2026-08-17T21:12:06Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -652,16 +672,6 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/599320067/v1.11.4",
-      "title": "v1.11.4",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.4",
-      "publishedAt": "2026-08-14T19:29:36Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
       "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev25",
       "title": "v1.12.0.dev25",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev25",
@@ -686,16 +696,6 @@
       "title": "v1.12.0.dev23",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev23",
       "publishedAt": "2026-08-11T00:24:40Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.11.3",
-      "title": "1.11.3",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.3",
-      "publishedAt": "2026-08-11T23:14:51Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,10 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1119893",
-      "title": "Bulbthings",
-      "url": "https://www.producthunt.com/products/bulbthings",
-      "publishedAt": "2026-08-17T11:37:31-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1224529",
+      "title": "Vendo",
+      "url": "https://www.producthunt.com/products/vendo",
+      "publishedAt": "2026-08-17T18:52:31-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1221696",
+      "title": "Scholé Scenarios",
+      "url": "https://www.producthunt.com/products/schole-2",
+      "publishedAt": "2026-08-17T18:29:30-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -915,57 +925,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1223058",
       "title": "Omni by xpander",
       "url": "https://www.producthunt.com/products/omni-by-xpander",
-      "publishedAt": "2026-08-17T11:59:01-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224641",
-      "title": "TinyFish",
-      "url": "https://www.producthunt.com/products/tinyfish-2",
-      "publishedAt": "2026-08-17T11:58:23-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1220962",
-      "title": "Treg",
-      "url": "https://www.producthunt.com/products/treg-openrouter-for-tools",
-      "publishedAt": "2026-08-17T11:55:25-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1220844",
-      "title": "Startup Program by Recall.ai",
-      "url": "https://www.producthunt.com/products/recall-ai",
-      "publishedAt": "2026-08-17T11:55:25-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224203",
-      "title": "Skriptr",
-      "url": "https://www.producthunt.com/products/skriptr",
-      "publishedAt": "2026-08-17T11:50:05-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224529",
-      "title": "Vendo",
-      "url": "https://www.producthunt.com/products/vendo",
-      "publishedAt": "2026-08-17T11:56:44-07:00",
+      "publishedAt": "2026-08-17T18:52:06-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,27 +935,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1222691",
       "title": "Meridian",
       "url": "https://www.producthunt.com/products/meridian-16",
-      "publishedAt": "2026-08-17T11:59:01-07:00",
+      "publishedAt": "2026-08-17T18:35:22-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1220459",
-      "title": "Replay QA for Teams",
-      "url": "https://www.producthunt.com/products/replayio",
-      "publishedAt": "2026-08-17T11:45:29-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1224464",
+      "title": "Blender Agent Bridge",
+      "url": "https://www.producthunt.com/products/blender-agent-bridge",
+      "publishedAt": "2026-08-17T18:48:29-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1221388",
-      "title": "Samepage Artifacts",
-      "url": "https://www.producthunt.com/products/samepage-signals",
-      "publishedAt": "2026-08-17T11:45:29-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1223212",
+      "title": "OpenTrade",
+      "url": "https://www.producthunt.com/products/opentrade",
+      "publishedAt": "2026-08-17T18:36:47-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1219620",
+      "title": "envfix",
+      "url": "https://www.producthunt.com/products/envfix",
+      "publishedAt": "2026-08-17T17:20:32-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1224641",
+      "title": "TinyFish",
+      "url": "https://www.producthunt.com/products/tinyfish-2",
+      "publishedAt": "2026-08-17T18:13:48-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1224561",
+      "title": "Hansel by Seedling",
+      "url": "https://www.producthunt.com/products/hansel-by-seedling",
+      "publishedAt": "2026-08-17T18:13:48-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1119893",
+      "title": "Bulbthings",
+      "url": "https://www.producthunt.com/products/bulbthings",
+      "publishedAt": "2026-08-17T17:14:39-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
