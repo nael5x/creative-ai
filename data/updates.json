@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T07:09:09.059208+00:00",
+  "updatedAt": "2026-08-19T13:13:13.429802+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.14",
@@ -202,6 +202,16 @@
       "why": "Useful for developers building AI products."
     },
     {
+      "id": "tag:github.com,2008:Repository/155220641/v5.15.1",
+      "title": "Patch release: v5.15.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
+      "publishedAt": "2026-08-19T10:50:47Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/155220641/v5.15.0",
       "title": "Release: v5.15.0",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
@@ -286,16 +296,6 @@
       "title": "Release v5.11.0",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.11.0",
       "publishedAt": "2026-06-10T16:32:44Z",
-      "source": "Hugging Face",
-      "kind": "Models & datasets",
-      "purpose": "Use and follow open AI model tooling.",
-      "why": "Useful for anyone working with open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/155220641/v5.10.2",
-      "title": "Patch release v5.10.2",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.2",
-      "publishedAt": "2026-06-04T18:43:06Z",
       "source": "Hugging Face",
       "kind": "Models & datasets",
       "purpose": "Use and follow open AI model tooling.",
@@ -722,6 +722,16 @@
       "why": "Useful for repeatable content and business automation."
     },
     {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.36.2",
+      "title": "n8n@2.36.2",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.2",
+      "publishedAt": "2026-08-19T08:57:06Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
       "id": "tag:github.com,2008:Repository/193215554/n8n@2.35.4",
       "title": "n8n@2.35.4",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.4",
@@ -742,20 +752,20 @@
       "why": "Useful for repeatable content and business automation."
     },
     {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.36.0",
-      "title": "n8n@2.36.0",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0",
-      "publishedAt": "2026-08-18T09:41:08Z",
+      "id": "tag:github.com,2008:Repository/193215554/beta",
+      "title": "beta",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "publishedAt": "2026-08-19T08:16:18Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
       "why": "Useful for repeatable content and business automation."
     },
     {
-      "id": "tag:github.com,2008:Repository/193215554/beta",
-      "title": "beta",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "publishedAt": "2026-08-18T09:41:51Z",
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.36.0",
+      "title": "n8n@2.36.0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0",
+      "publishedAt": "2026-08-18T09:41:08Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -786,16 +796,6 @@
       "title": "n8n@2.34.6",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.6",
       "publishedAt": "2026-08-14T08:16:43Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.35.2",
-      "title": "n8n@2.35.2",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.2",
-      "publishedAt": "2026-08-13T08:03:43Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -902,60 +902,30 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
+      "id": "tag:www.producthunt.com,2005:Post/1226370",
+      "title": "Vois 2.0",
+      "url": "https://www.producthunt.com/products/vois",
+      "publishedAt": "2026-08-19T06:12:20-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1226377",
+      "title": "Fairphone Gen 6+",
+      "url": "https://www.producthunt.com/products/fairphone",
+      "publishedAt": "2026-08-19T06:10:00-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
       "id": "tag:www.producthunt.com,2005:Post/1226478",
       "title": "Claude Watermark",
       "url": "https://www.producthunt.com/products/claude-watermark",
-      "publishedAt": "2026-08-19T00:08:45-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1223958",
-      "title": "AgentR 3.0",
-      "url": "https://www.producthunt.com/products/agentr",
-      "publishedAt": "2026-08-19T00:08:45-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1223837",
-      "title": "OmniVibe",
-      "url": "https://www.producthunt.com/products/omnivibe",
-      "publishedAt": "2026-08-19T00:08:45-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1202116",
-      "title": "Sider 6.0",
-      "url": "https://www.producthunt.com/products/chatgpt-sidebar-chrome-extension",
-      "publishedAt": "2026-08-19T00:08:44-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1226016",
-      "title": "Ressearch AI",
-      "url": "https://www.producthunt.com/products/ressearch-ai",
-      "publishedAt": "2026-08-19T00:08:41-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1225372",
-      "title": "Mochi",
-      "url": "https://www.producthunt.com/products/githumochib",
-      "publishedAt": "2026-08-19T00:08:44-07:00",
+      "publishedAt": "2026-08-19T06:12:17-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,27 +935,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1225966",
       "title": "Origin by Cursor",
       "url": "https://www.producthunt.com/products/cursor",
-      "publishedAt": "2026-08-19T00:08:43-07:00",
+      "publishedAt": "2026-08-19T06:12:06-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1226287",
-      "title": "Cronloop AI",
-      "url": "https://www.producthunt.com/products/cronloop-ai",
-      "publishedAt": "2026-08-19T00:08:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1216898",
-      "title": "Paper Critters",
-      "url": "https://www.producthunt.com/products/paper-critters",
-      "publishedAt": "2026-08-19T00:08:42-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1202963",
+      "title": "Clipto MCP",
+      "url": "https://www.producthunt.com/products/clipto-ai",
+      "publishedAt": "2026-08-19T06:12:06-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +955,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1224395",
       "title": "Astute",
       "url": "https://www.producthunt.com/products/astute-2",
-      "publishedAt": "2026-08-19T00:08:41-07:00",
+      "publishedAt": "2026-08-19T06:12:06-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1226289",
+      "title": "Balsa UI",
+      "url": "https://www.producthunt.com/products/balsa-ui",
+      "publishedAt": "2026-08-19T06:12:00-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1224932",
+      "title": "Hosted Agents in Cluing",
+      "url": "https://www.producthunt.com/products/cluing",
+      "publishedAt": "2026-08-19T06:09:57-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1223837",
+      "title": "OmniVibe",
+      "url": "https://www.producthunt.com/products/omnivibe",
+      "publishedAt": "2026-08-19T06:10:00-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1222356",
+      "title": "Expert Chase 2.0",
+      "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920",
+      "publishedAt": "2026-08-19T06:10:02-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
