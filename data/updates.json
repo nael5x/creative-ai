@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T19:00:27.623862+00:00",
+  "updatedAt": "2026-08-19T01:55:47.897684+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.14",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev32",
+      "title": "v1.12.0.dev32",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev32",
+      "publishedAt": "2026-08-19T00:17:57Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev31",
       "title": "v1.12.0.dev31",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev31",
@@ -623,9 +633,9 @@
     },
     {
       "id": "tag:github.com,2008:Repository/599320067/v1.11.4",
-      "title": "v1.11.4",
+      "title": "1.11.4",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.4",
-      "publishedAt": "2026-08-17T21:12:06Z",
+      "publishedAt": "2026-08-19T00:01:42Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -686,16 +696,6 @@
       "title": "v1.12.0.dev24",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev24",
       "publishedAt": "2026-08-12T00:29:51Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev23",
-      "title": "v1.12.0.dev23",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev23",
-      "publishedAt": "2026-08-11T00:24:40Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,10 +902,60 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1221930",
-      "title": "Deepmark",
-      "url": "https://www.producthunt.com/products/deepmark",
-      "publishedAt": "2026-08-18T11:54:26-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1209535",
+      "title": "Meterless.ai",
+      "url": "https://www.producthunt.com/products/meterless-ai",
+      "publishedAt": "2026-08-18T17:11:04-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1225408",
+      "title": "Gauge",
+      "url": "https://www.producthunt.com/products/gauge",
+      "publishedAt": "2026-08-18T17:01:52-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1223221",
+      "title": "Salem Robotics",
+      "url": "https://www.producthunt.com/products/salem-robotics",
+      "publishedAt": "2026-08-18T18:52:49-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1213987",
+      "title": "Clipwing Autopilot",
+      "url": "https://www.producthunt.com/products/clipwing",
+      "publishedAt": "2026-08-18T18:52:49-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1213345",
+      "title": "CrewTower",
+      "url": "https://www.producthunt.com/products/crew-tower",
+      "publishedAt": "2026-08-18T18:52:48-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1225316",
+      "title": "Finch",
+      "url": "https://www.producthunt.com/products/finch-6",
+      "publishedAt": "2026-08-18T18:52:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -915,7 +965,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1223864",
       "title": "Tiny Funnel",
       "url": "https://www.producthunt.com/products/tiny-funnel",
-      "publishedAt": "2026-08-18T11:24:04-07:00",
+      "publishedAt": "2026-08-18T18:52:48-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1216574",
+      "title": "Reckon",
+      "url": "https://www.producthunt.com/products/reckon",
+      "publishedAt": "2026-08-18T18:52:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,77 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1223171",
       "title": "AirBuddy 3",
       "url": "https://www.producthunt.com/products/airbuddy-2",
-      "publishedAt": "2026-08-18T11:38:25-07:00",
+      "publishedAt": "2026-08-18T18:52:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1221883",
-      "title": "LayerProof Matte 3.0",
-      "url": "https://www.producthunt.com/products/layerproof-social-content-generation",
-      "publishedAt": "2026-08-18T10:34:41-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1162563",
-      "title": "Whisperstream",
-      "url": "https://www.producthunt.com/products/whisperstream",
-      "publishedAt": "2026-08-18T10:34:45-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1225574",
-      "title": "Controller AI",
-      "url": "https://www.producthunt.com/products/insight-ai",
-      "publishedAt": "2026-08-18T10:32:26-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1200449",
-      "title": "Transept AI",
-      "url": "https://www.producthunt.com/products/transept-ai",
-      "publishedAt": "2026-08-18T10:34:47-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1219657",
-      "title": "Atlas by WorkOS",
-      "url": "https://www.producthunt.com/products/workos",
-      "publishedAt": "2026-08-18T11:51:55-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224258",
-      "title": "Taku AI",
-      "url": "https://www.producthunt.com/products/taku-ai",
-      "publishedAt": "2026-08-18T11:59:03-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1220249",
-      "title": "Clara AI SDR",
-      "url": "https://www.producthunt.com/products/clara-ai-sdr",
-      "publishedAt": "2026-08-18T11:59:04-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1225417",
+      "title": "Shepherd Terminal",
+      "url": "https://www.producthunt.com/products/shepherd-terminal-designed-for-agent",
+      "publishedAt": "2026-08-18T18:52:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
