@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-19T13:13:13.429802+00:00",
+  "updatedAt": "2026-08-19T18:56:32.473980+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.15-rc1",
+      "title": "v0.32.15",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
+      "publishedAt": "2026-08-19T17:25:16Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.32.15-rc0",
+      "title": "v0.32.15-rc0: mlx update (#17850)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc0",
+      "publishedAt": "2026-08-19T14:15:11Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.14",
       "title": "v0.32.14",
@@ -82,24 +102,14 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.32.9",
-      "title": "v0.32.9",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.9",
-      "publishedAt": "2026-08-11T13:24:14Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.32.8",
-      "title": "v0.32.8",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.8",
-      "publishedAt": "2026-08-11T06:39:00Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.6.0",
+      "title": "langchain-core==1.6.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.0",
+      "publishedAt": "2026-08-19T15:55:59Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
     },
     {
       "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.5.2",
@@ -186,16 +196,6 @@
       "title": "langchain-core==1.5.4",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.4",
       "publishedAt": "2026-08-11T18:03:12Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.5.5",
-      "title": "langchain-anthropic==1.5.5",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.5",
-      "publishedAt": "2026-08-11T19:16:57Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -802,6 +802,16 @@
       "why": "Useful for repeatable content and business automation."
     },
     {
+      "id": "tag:github.com,2008:Repository/560704231/v0.14.24",
+      "title": "v0.14.24",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24",
+      "publishedAt": "2026-08-19T18:48:01Z",
+      "source": "LlamaIndex",
+      "kind": "AI development",
+      "purpose": "Connect data to LLM applications.",
+      "why": "Useful for search and Q&A over documents or databases."
+    },
+    {
       "id": "tag:github.com,2008:Repository/560704231/v0.14.23",
       "title": "v0.14.23",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.23",
@@ -892,50 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:github.com,2008:Repository/560704231/v0.14.13",
-      "title": "v0.14.13",
-      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.13",
-      "publishedAt": "2026-01-21T20:44:52Z",
-      "source": "LlamaIndex",
-      "kind": "AI development",
-      "purpose": "Connect data to LLM applications.",
-      "why": "Useful for search and Q&A over documents or databases."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1226370",
-      "title": "Vois 2.0",
-      "url": "https://www.producthunt.com/products/vois",
-      "publishedAt": "2026-08-19T06:12:20-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1226377",
-      "title": "Fairphone Gen 6+",
-      "url": "https://www.producthunt.com/products/fairphone",
-      "publishedAt": "2026-08-19T06:10:00-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1226478",
-      "title": "Claude Watermark",
-      "url": "https://www.producthunt.com/products/claude-watermark",
-      "publishedAt": "2026-08-19T06:12:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1225966",
-      "title": "Origin by Cursor",
-      "url": "https://www.producthunt.com/products/cursor",
-      "publishedAt": "2026-08-19T06:12:06-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1224932",
+      "title": "Hosted Agents in Cluing",
+      "url": "https://www.producthunt.com/products/cluing",
+      "publishedAt": "2026-08-19T11:53:51-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,7 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1202963",
       "title": "Clipto MCP",
       "url": "https://www.producthunt.com/products/clipto-ai",
-      "publishedAt": "2026-08-19T06:12:06-07:00",
+      "publishedAt": "2026-08-19T11:53:40-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,27 +925,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1224395",
       "title": "Astute",
       "url": "https://www.producthunt.com/products/astute-2",
-      "publishedAt": "2026-08-19T06:12:06-07:00",
+      "publishedAt": "2026-08-19T11:53:49-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1226289",
-      "title": "Balsa UI",
-      "url": "https://www.producthunt.com/products/balsa-ui",
-      "publishedAt": "2026-08-19T06:12:00-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1226370",
+      "title": "Vois 2.0",
+      "url": "https://www.producthunt.com/products/vois",
+      "publishedAt": "2026-08-19T11:48:30-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1224932",
-      "title": "Hosted Agents in Cluing",
-      "url": "https://www.producthunt.com/products/cluing",
-      "publishedAt": "2026-08-19T06:09:57-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1226016",
+      "title": "Ressearch AI",
+      "url": "https://www.producthunt.com/products/ressearch-ai",
+      "publishedAt": "2026-08-19T11:24:30-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,7 +955,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1223837",
       "title": "OmniVibe",
       "url": "https://www.producthunt.com/products/omnivibe",
-      "publishedAt": "2026-08-19T06:10:00-07:00",
+      "publishedAt": "2026-08-19T11:27:12-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1225934",
+      "title": "ChatGPT for Teens",
+      "url": "https://www.producthunt.com/products/openai",
+      "publishedAt": "2026-08-19T11:52:01-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1226478",
+      "title": "Claude Watermark Remover",
+      "url": "https://www.producthunt.com/products/claude-watermark",
+      "publishedAt": "2026-08-19T11:51:52-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1222356",
       "title": "Expert Chase 2.0",
       "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920",
-      "publishedAt": "2026-08-19T06:10:02-07:00",
+      "publishedAt": "2026-08-19T11:54:10-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1202116",
+      "title": "Sider 6.0",
+      "url": "https://www.producthunt.com/products/chatgpt-sidebar-chrome-extension",
+      "publishedAt": "2026-08-19T11:35:56-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
