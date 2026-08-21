@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T19:04:33.165401+00:00",
+  "updatedAt": "2026-08-21T02:00:37.194594+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.15",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev34",
+      "title": "v1.12.0.dev34",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev34",
+      "publishedAt": "2026-08-21T00:18:59Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev33",
       "title": "v1.12.0.dev33",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev33",
@@ -686,16 +696,6 @@
       "title": "v1.12.0.dev26",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev26",
       "publishedAt": "2026-08-14T00:30:37Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev25",
-      "title": "v1.12.0.dev25",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev25",
-      "publishedAt": "2026-08-13T00:30:33Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -905,57 +905,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1226457",
       "title": "MeetStream AI",
       "url": "https://www.producthunt.com/products/meetstream-ai",
-      "publishedAt": "2026-08-20T12:03:43-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1226841",
-      "title": "Grok 4.6",
-      "url": "https://www.producthunt.com/products/grok-4-6-7",
-      "publishedAt": "2026-08-20T12:03:34-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1227170",
-      "title": "Prized",
-      "url": "https://www.producthunt.com/products/prized",
-      "publishedAt": "2026-08-20T12:01:31-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1227327",
-      "title": "The New Calendly",
-      "url": "https://www.producthunt.com/products/calendly",
-      "publishedAt": "2026-08-20T11:03:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1215949",
-      "title": "HyNote for Mac",
-      "url": "https://www.producthunt.com/products/hynote-ai",
-      "publishedAt": "2026-08-20T12:00:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1227218",
-      "title": "Hermai Brand API",
-      "url": "https://www.producthunt.com/products/hermai-brand-api",
-      "publishedAt": "2026-08-20T11:55:54-07:00",
+      "publishedAt": "2026-08-20T18:52:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,37 +915,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1226829",
       "title": "Glasp for Firefox",
       "url": "https://www.producthunt.com/products/glasp-for-firefox",
-      "publishedAt": "2026-08-20T11:34:40-07:00",
+      "publishedAt": "2026-08-20T17:21:08-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1225203",
-      "title": "bitdrift.ai",
-      "url": "https://www.producthunt.com/products/bitdrift",
-      "publishedAt": "2026-08-20T12:02:44-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1227327",
+      "title": "The New Calendly",
+      "url": "https://www.producthunt.com/products/calendly",
+      "publishedAt": "2026-08-20T18:32:40-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1227128",
-      "title": "Aloud",
-      "url": "https://www.producthunt.com/products/aloud-4",
-      "publishedAt": "2026-08-20T11:39:24-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1226604",
+      "title": "Cloudways Managed AI Agents",
+      "url": "https://www.producthunt.com/products/cloudways",
+      "publishedAt": "2026-08-20T16:32:23-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1227258",
-      "title": "Lifelong",
-      "url": "https://www.producthunt.com/products/lifelong-the-family-health-company",
-      "publishedAt": "2026-08-20T10:49:28-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1227394",
+      "title": "ProtoNote",
+      "url": "https://www.producthunt.com/products/protonote",
+      "publishedAt": "2026-08-20T16:52:06-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1226404",
+      "title": "Revy",
+      "url": "https://www.producthunt.com/products/revy-the-fashion-app",
+      "publishedAt": "2026-08-20T15:38:43-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1220408",
+      "title": "Roveri",
+      "url": "https://www.producthunt.com/products/roveri",
+      "publishedAt": "2026-08-20T18:01:26-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1211537",
+      "title": "Zoho Cliq 7.0",
+      "url": "https://www.producthunt.com/products/zoho",
+      "publishedAt": "2026-08-20T18:01:26-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1226285",
+      "title": "Berd",
+      "url": "https://www.producthunt.com/products/berd",
+      "publishedAt": "2026-08-20T18:20:32-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1226610",
+      "title": "NobodyWho",
+      "url": "https://www.producthunt.com/products/nobodywho",
+      "publishedAt": "2026-08-20T18:33:13-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
