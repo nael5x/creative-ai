@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T13:14:36.353737+00:00",
+  "updatedAt": "2026-08-21T19:00:19.982137+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.32.15",
@@ -102,6 +102,16 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-perplexity==1.4.1",
+      "title": "langchain-perplexity==1.4.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.1",
+      "publishedAt": "2026-08-21T14:08:47Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-fireworks==1.6.0",
       "title": "langchain-fireworks==1.6.0",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.0",
@@ -186,16 +196,6 @@
       "title": "langchain-core==1.5.6",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.6",
       "publishedAt": "2026-08-17T21:26:48Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-openrouter==0.2.8",
-      "title": "langchain-openrouter==0.2.8",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.8",
-      "publishedAt": "2026-08-14T19:03:47Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -902,70 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1220506",
-      "title": "Supernova",
-      "url": "https://www.producthunt.com/products/supernova-ai",
-      "publishedAt": "2026-08-21T06:13:48-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1227815",
-      "title": "Epho",
-      "url": "https://www.producthunt.com/products/epho-claude-code-in-the-cloud",
-      "publishedAt": "2026-08-21T06:13:25-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1227792",
-      "title": "Wizstar",
-      "url": "https://www.producthunt.com/products/wizstar",
-      "publishedAt": "2026-08-21T06:13:15-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1227654",
-      "title": "Dockhand",
-      "url": "https://www.producthunt.com/products/dockhand",
-      "publishedAt": "2026-08-21T06:13:28-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1228265",
-      "title": "Antigravity IDE Extensions",
-      "url": "https://www.producthunt.com/products/google-antigravity",
-      "publishedAt": "2026-08-21T06:13:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1223186",
-      "title": "Mindcase",
-      "url": "https://www.producthunt.com/products/mindcase",
-      "publishedAt": "2026-08-21T06:13:16-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1228269",
       "title": "ShogunAI",
       "url": "https://www.producthunt.com/products/shogunai",
-      "publishedAt": "2026-08-21T06:02:20-07:00",
+      "publishedAt": "2026-08-21T11:54:37-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1227471",
+      "title": "fx (by Vercel)",
+      "url": "https://www.producthunt.com/products/fx-by-vercel",
+      "publishedAt": "2026-08-21T11:57:31-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,7 +925,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1228155",
       "title": "Project SKY",
       "url": "https://www.producthunt.com/products/project-sky",
-      "publishedAt": "2026-08-21T06:02:19-07:00",
+      "publishedAt": "2026-08-21T11:59:48-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1228265",
+      "title": "Antigravity IDE Extensions",
+      "url": "https://www.producthunt.com/products/google-antigravity",
+      "publishedAt": "2026-08-21T11:34:28-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1223186",
+      "title": "Mindcase",
+      "url": "https://www.producthunt.com/products/mindcase",
+      "publishedAt": "2026-08-21T11:52:37-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1227792",
+      "title": "Wizstar",
+      "url": "https://www.producthunt.com/products/wizstar",
+      "publishedAt": "2026-08-21T11:56:37-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1227944",
+      "title": "Flunkey",
+      "url": "https://www.producthunt.com/products/flunkey",
+      "publishedAt": "2026-08-21T11:55:40-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1220506",
+      "title": "Supernova",
+      "url": "https://www.producthunt.com/products/supernova-ai",
+      "publishedAt": "2026-08-21T11:52:46-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1227732",
+      "title": "Router by Ramp",
+      "url": "https://www.producthunt.com/products/ramp-router",
+      "publishedAt": "2026-08-21T11:55:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +995,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1227229",
       "title": "Local",
       "url": "https://www.producthunt.com/products/local-7",
-      "publishedAt": "2026-08-21T06:09:55-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1227894",
-      "title": "Lynqo",
-      "url": "https://www.producthunt.com/products/lynqo-your-local-nas-server",
-      "publishedAt": "2026-08-21T06:02:20-07:00",
+      "publishedAt": "2026-08-21T11:43:56-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
