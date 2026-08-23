@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T07:05:39.664060+00:00",
+  "updatedAt": "2026-08-23T13:05:34.457838+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.33.0-rc2",
@@ -902,70 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
+      "id": "tag:www.producthunt.com,2005:Post/1228104",
+      "title": "Claude Academy",
+      "url": "https://www.producthunt.com/products/claude-academy",
+      "publishedAt": "2026-08-23T06:03:21-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
       "id": "tag:www.producthunt.com,2005:Post/1227238",
       "title": "Yatko",
       "url": "https://www.producthunt.com/products/yatko",
-      "publishedAt": "2026-08-23T00:05:13-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1209530",
-      "title": "Local Music Organizer for Mac",
-      "url": "https://www.producthunt.com/products/local-music-organizer-for-mac",
-      "publishedAt": "2026-08-23T00:04:44-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224087",
-      "title": "Tab Notes",
-      "url": "https://www.producthunt.com/products/tab-notes",
-      "publishedAt": "2026-08-23T00:04:30-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1227963",
-      "title": "KanaSensei",
-      "url": "https://www.producthunt.com/products/kanasensei",
-      "publishedAt": "2026-08-23T00:04:29-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1186033",
-      "title": "Construct Computer",
-      "url": "https://www.producthunt.com/products/construct-computer",
-      "publishedAt": "2026-08-23T00:04:28-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1223147",
-      "title": "FetchSandbox MCP",
-      "url": "https://www.producthunt.com/products/fetchsandbox-mcp",
-      "publishedAt": "2026-08-23T00:04:27-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224596",
-      "title": "Yattayo",
-      "url": "https://www.producthunt.com/products/yattayo",
-      "publishedAt": "2026-08-23T00:04:27-07:00",
+      "publishedAt": "2026-08-23T06:03:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,17 +925,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1226244",
       "title": "Plask",
       "url": "https://www.producthunt.com/products/plask-3",
-      "publishedAt": "2026-08-23T00:04:28-07:00",
+      "publishedAt": "2026-08-23T06:01:56-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1228104",
-      "title": "Claude Academy",
-      "url": "https://www.producthunt.com/products/claude-academy",
-      "publishedAt": "2026-08-23T00:04:30-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1224087",
+      "title": "Tab Notes",
+      "url": "https://www.producthunt.com/products/tab-notes",
+      "publishedAt": "2026-08-23T06:01:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1209530",
+      "title": "Local Music Organizer for Mac",
+      "url": "https://www.producthunt.com/products/local-music-organizer-for-mac",
+      "publishedAt": "2026-08-23T05:46:12-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1227963",
+      "title": "KanaSensei",
+      "url": "https://www.producthunt.com/products/kanasensei",
+      "publishedAt": "2026-08-23T05:42:00-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1207124",
+      "title": "Flown",
+      "url": "https://www.producthunt.com/products/flown",
+      "publishedAt": "2026-08-23T05:51:08-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1224596",
+      "title": "Yattayo",
+      "url": "https://www.producthunt.com/products/yattayo",
+      "publishedAt": "2026-08-23T04:33:00-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1195105",
       "title": "ANCBuddy for Bose QC Ultra",
       "url": "https://www.producthunt.com/products/ancbuddy-for-bose-qc-ultra",
-      "publishedAt": "2026-08-23T00:04:30-07:00",
+      "publishedAt": "2026-08-23T05:06:58-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1229381",
+      "title": "OpenLogi",
+      "url": "https://www.producthunt.com/products/openlogi",
+      "publishedAt": "2026-08-23T06:03:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
