@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T07:32:10.287107+00:00",
+  "updatedAt": "2026-08-24T13:17:28.223963+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.33.0-rc2",
@@ -702,6 +702,26 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.36.6",
+      "title": "n8n@2.36.6",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.6",
+      "publishedAt": "2026-08-24T08:56:40Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/beta",
+      "title": "beta",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
+      "publishedAt": "2026-08-24T08:42:26Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
       "id": "tag:github.com,2008:Repository/193215554/v1",
       "title": "v1: :rocket: Release 1.123.75 (#36790)",
       "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
@@ -772,30 +792,10 @@
       "why": "Useful for repeatable content and business automation."
     },
     {
-      "id": "tag:github.com,2008:Repository/193215554/beta",
-      "title": "beta",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "publishedAt": "2026-08-21T10:30:55Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
       "id": "tag:github.com,2008:Repository/193215554/n8n@2.36.3",
       "title": "n8n@2.36.3",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.3",
       "publishedAt": "2026-08-20T08:05:09Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.35.5",
-      "title": "n8n@2.35.5",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.5",
-      "publishedAt": "2026-08-20T08:27:27Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -902,90 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1229902",
-      "title": "Localdock",
-      "url": "https://www.producthunt.com/products/localdock",
-      "publishedAt": "2026-08-24T00:30:34-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1229726",
-      "title": "Decawork",
-      "url": "https://www.producthunt.com/products/decawork",
-      "publishedAt": "2026-08-24T00:30:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1229906",
-      "title": "Bumply",
-      "url": "https://www.producthunt.com/products/bumply",
-      "publishedAt": "2026-08-24T00:30:33-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1230103",
-      "title": "IFAH",
-      "url": "https://www.producthunt.com/products/ifah-a-new-experience-of-sound",
-      "publishedAt": "2026-08-24T00:30:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1222466",
-      "title": "Navigara",
-      "url": "https://www.producthunt.com/products/navigara",
-      "publishedAt": "2026-08-24T00:30:34-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1229798",
-      "title": "Contrive",
-      "url": "https://www.producthunt.com/products/contrive",
-      "publishedAt": "2026-08-24T00:30:33-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1227233",
       "title": "Destiny Rings",
       "url": "https://www.producthunt.com/products/destiny-rings",
-      "publishedAt": "2026-08-24T00:30:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1229329",
-      "title": "Offloop",
-      "url": "https://www.producthunt.com/products/offloop",
-      "publishedAt": "2026-08-24T00:31:09-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1230321",
-      "title": "Wavepocket ▶︎•၊||၊||။၊|။",
-      "url": "https://www.producthunt.com/products/wavepocket-free-ios-app",
-      "publishedAt": "2026-08-24T00:30:33-07:00",
+      "publishedAt": "2026-08-24T06:08:49-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +915,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1230451",
       "title": "Antigravity Remote Control",
       "url": "https://www.producthunt.com/products/google-antigravity",
-      "publishedAt": "2026-08-24T00:30:35-07:00",
+      "publishedAt": "2026-08-24T06:08:10-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1222466",
+      "title": "Navigara",
+      "url": "https://www.producthunt.com/products/navigara",
+      "publishedAt": "2026-08-24T06:14:10-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1229329",
+      "title": "Offloop",
+      "url": "https://www.producthunt.com/products/offloop",
+      "publishedAt": "2026-08-24T06:12:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1229949",
+      "title": "WorldMap.lol",
+      "url": "https://www.producthunt.com/products/worldmap-lol",
+      "publishedAt": "2026-08-24T06:11:49-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1229726",
+      "title": "Decawork",
+      "url": "https://www.producthunt.com/products/decawork",
+      "publishedAt": "2026-08-24T06:10:41-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1229902",
+      "title": "Localdock",
+      "url": "https://www.producthunt.com/products/localdock",
+      "publishedAt": "2026-08-24T06:08:49-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1230074",
+      "title": "Treebar",
+      "url": "https://www.producthunt.com/products/treebar-where-is-codex",
+      "publishedAt": "2026-08-24T06:09:05-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1230103",
+      "title": "IFAH",
+      "url": "https://www.producthunt.com/products/ifah-a-new-experience-of-sound",
+      "publishedAt": "2026-08-24T06:09:03-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1230136",
+      "title": "Dropstone",
+      "url": "https://www.producthunt.com/products/dropstone-2",
+      "publishedAt": "2026-08-24T06:16:16-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
