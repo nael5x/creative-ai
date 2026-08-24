@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T13:17:28.223963+00:00",
+  "updatedAt": "2026-08-24T19:04:17.976435+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.33.0-rc2",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0",
+      "title": "v1.12.0",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0",
+      "publishedAt": "2026-08-24T17:59:10Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev37",
       "title": "v1.12.0.dev37",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev37",
@@ -686,16 +696,6 @@
       "title": "1.11.4",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.4",
       "publishedAt": "2026-08-19T00:01:42Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev29",
-      "title": "v1.12.0.dev29",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev29",
-      "publishedAt": "2026-08-16T00:19:02Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,60 +902,50 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
+      "id": "tag:www.producthunt.com,2005:Post/1230103",
+      "title": "IFAH",
+      "url": "https://www.producthunt.com/products/ifah-a-new-experience-of-sound",
+      "publishedAt": "2026-08-24T12:00:20-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1229798",
+      "title": "Contrive",
+      "url": "https://www.producthunt.com/products/contrive",
+      "publishedAt": "2026-08-24T11:39:28-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1229883",
+      "title": "Cortex by SKYNETLAB",
+      "url": "https://www.producthunt.com/products/cortex-by-skynetlab",
+      "publishedAt": "2026-08-24T11:59:11-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1230321",
+      "title": "Wavepocket ▶︎•၊||၊||။၊|။",
+      "url": "https://www.producthunt.com/products/wavepocket-free-ios-app",
+      "publishedAt": "2026-08-24T11:24:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
       "id": "tag:www.producthunt.com,2005:Post/1227233",
       "title": "Destiny Rings",
       "url": "https://www.producthunt.com/products/destiny-rings",
-      "publishedAt": "2026-08-24T06:08:49-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1230451",
-      "title": "Antigravity Remote Control",
-      "url": "https://www.producthunt.com/products/google-antigravity",
-      "publishedAt": "2026-08-24T06:08:10-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1222466",
-      "title": "Navigara",
-      "url": "https://www.producthunt.com/products/navigara",
-      "publishedAt": "2026-08-24T06:14:10-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1229329",
-      "title": "Offloop",
-      "url": "https://www.producthunt.com/products/offloop",
-      "publishedAt": "2026-08-24T06:12:56-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1229949",
-      "title": "WorldMap.lol",
-      "url": "https://www.producthunt.com/products/worldmap-lol",
-      "publishedAt": "2026-08-24T06:11:49-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1229726",
-      "title": "Decawork",
-      "url": "https://www.producthunt.com/products/decawork",
-      "publishedAt": "2026-08-24T06:10:41-07:00",
+      "publishedAt": "2026-08-24T11:57:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,37 +955,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1229902",
       "title": "Localdock",
       "url": "https://www.producthunt.com/products/localdock",
-      "publishedAt": "2026-08-24T06:08:49-07:00",
+      "publishedAt": "2026-08-24T12:01:33-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1230074",
-      "title": "Treebar",
-      "url": "https://www.producthunt.com/products/treebar-where-is-codex",
-      "publishedAt": "2026-08-24T06:09:05-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1227796",
+      "title": "PaymentKit",
+      "url": "https://www.producthunt.com/products/paymentkit",
+      "publishedAt": "2026-08-24T12:02:24-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1230103",
-      "title": "IFAH",
-      "url": "https://www.producthunt.com/products/ifah-a-new-experience-of-sound",
-      "publishedAt": "2026-08-24T06:09:03-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1230122",
+      "title": "Lucid Train",
+      "url": "https://www.producthunt.com/products/lucid-train",
+      "publishedAt": "2026-08-24T12:00:34-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1230136",
-      "title": "Dropstone",
-      "url": "https://www.producthunt.com/products/dropstone-2",
-      "publishedAt": "2026-08-24T06:16:16-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1222466",
+      "title": "Navigara",
+      "url": "https://www.producthunt.com/products/navigara",
+      "publishedAt": "2026-08-24T12:00:57-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1229329",
+      "title": "Offloop",
+      "url": "https://www.producthunt.com/products/offloop",
+      "publishedAt": "2026-08-24T11:59:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
