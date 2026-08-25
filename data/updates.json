@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T13:15:13.891727+00:00",
+  "updatedAt": "2026-08-25T19:02:03.211312+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.33.0-rc3",
@@ -622,20 +622,20 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev37",
-      "title": "v1.12.0.dev37",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev37",
-      "publishedAt": "2026-08-24T00:18:38Z",
+      "id": "tag:github.com,2008:Repository/599320067/v1.11.5",
+      "title": "1.11.5",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.5",
+      "publishedAt": "2026-08-25T15:35:13Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/599320067/v1.11.5",
-      "title": "v1.11.5: fix(memory-base): handle tagged Ollama embedding models (#14740)",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.5",
-      "publishedAt": "2026-08-24T17:21:27Z",
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev37",
+      "title": "v1.12.0.dev37",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev37",
+      "publishedAt": "2026-08-24T00:18:38Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -712,6 +712,16 @@
       "why": "Useful for repeatable content and business automation."
     },
     {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.37.1",
+      "title": "n8n@2.37.1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.1",
+      "publishedAt": "2026-08-25T14:11:21Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
       "id": "tag:github.com,2008:Repository/193215554/n8n@2.37.0",
       "title": "n8n@2.37.0",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.0",
@@ -735,7 +745,7 @@
       "id": "tag:github.com,2008:Repository/193215554/beta",
       "title": "beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "publishedAt": "2026-08-25T09:43:55Z",
+      "publishedAt": "2026-08-25T14:05:39Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -786,16 +796,6 @@
       "title": "n8n@2.35.7",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.7",
       "publishedAt": "2026-08-21T10:28:37Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.35.6",
-      "title": "n8n@2.35.6",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.6",
-      "publishedAt": "2026-08-21T08:03:11Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -902,70 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1231198",
-      "title": "Splitsense",
-      "url": "https://www.producthunt.com/products/splitsense",
-      "publishedAt": "2026-08-25T06:14:58-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1163717",
-      "title": "DockDuck",
-      "url": "https://www.producthunt.com/products/dockduck",
-      "publishedAt": "2026-08-25T06:14:46-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1227699",
-      "title": "coolplugz",
-      "url": "https://www.producthunt.com/products/coolplugz",
-      "publishedAt": "2026-08-25T06:14:22-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1215722",
-      "title": "Inquio",
-      "url": "https://www.producthunt.com/products/inquio",
-      "publishedAt": "2026-08-25T06:04:11-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1230655",
-      "title": "session-indexer",
-      "url": "https://www.producthunt.com/products/session-indexer",
-      "publishedAt": "2026-08-25T06:03:58-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1226051",
-      "title": "Particle Studio",
-      "url": "https://www.producthunt.com/products/particle-studio",
-      "publishedAt": "2026-08-25T06:03:58-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1204828",
-      "title": "Memoria",
-      "url": "https://www.producthunt.com/products/memoria-5",
-      "publishedAt": "2026-08-25T06:03:40-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1209635",
+      "title": "Hacktron Automations",
+      "url": "https://www.producthunt.com/products/hacktron",
+      "publishedAt": "2026-08-25T11:57:02-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,17 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1230617",
       "title": "Postaway.space",
       "url": "https://www.producthunt.com/products/postaway-space",
-      "publishedAt": "2026-08-25T06:03:53-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1222259",
-      "title": "Ninjō AI",
-      "url": "https://www.producthunt.com/products/ninjo-ai",
-      "publishedAt": "2026-08-25T06:10:51-07:00",
+      "publishedAt": "2026-08-25T11:57:02-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +925,77 @@
       "id": "tag:www.producthunt.com,2005:Post/1231157",
       "title": "whoisthegoat.lol",
       "url": "https://www.producthunt.com/products/whoisthegoat-lol",
-      "publishedAt": "2026-08-25T06:04:11-07:00",
+      "publishedAt": "2026-08-25T11:57:03-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1231198",
+      "title": "Splitsense",
+      "url": "https://www.producthunt.com/products/splitsense",
+      "publishedAt": "2026-08-25T11:57:02-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1215722",
+      "title": "Inquio",
+      "url": "https://www.producthunt.com/products/inquio",
+      "publishedAt": "2026-08-25T11:57:03-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1227508",
+      "title": "Assistly",
+      "url": "https://www.producthunt.com/products/assistly-4",
+      "publishedAt": "2026-08-25T11:57:02-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1230818",
+      "title": "Altar II",
+      "url": "https://www.producthunt.com/products/electronic-materials-office-altar-i",
+      "publishedAt": "2026-08-25T11:57:01-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1226051",
+      "title": "Particle Studio",
+      "url": "https://www.producthunt.com/products/particle-studio",
+      "publishedAt": "2026-08-25T11:57:02-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1231025",
+      "title": "ChatGPT Ad Library",
+      "url": "https://www.producthunt.com/products/chatgpt-ad-library",
+      "publishedAt": "2026-08-25T11:57:02-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1226267",
+      "title": "Marble MCP",
+      "url": "https://www.producthunt.com/products/marble-7",
+      "publishedAt": "2026-08-25T11:57:17-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
