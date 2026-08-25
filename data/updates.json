@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T19:04:17.976435+00:00",
+  "updatedAt": "2026-08-25T01:55:29.235855+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.33.0-rc2",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.33.4",
+      "title": "v0.33.4",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.4",
+      "publishedAt": "2026-08-24T19:57:19Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.33.3",
       "title": "v0.33.3",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.3",
@@ -386,16 +396,6 @@
       "title": "v0.30.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.30.1",
       "publishedAt": "2026-08-03T05:26:16Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.30.0",
-      "title": "v0.30.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.30.0",
-      "publishedAt": "2026-08-03T03:48:40Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -605,7 +605,17 @@
       "id": "tag:github.com,2008:Repository/599320067/v1.12.0",
       "title": "v1.12.0",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0",
-      "publishedAt": "2026-08-24T17:59:10Z",
+      "publishedAt": "2026-08-25T01:53:11Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev38",
+      "title": "v1.12.0.dev38",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev38",
+      "publishedAt": "2026-08-25T00:18:15Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -686,16 +696,6 @@
       "title": "v1.12.0.dev30",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev30",
       "publishedAt": "2026-08-17T00:18:07Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.11.4",
-      "title": "1.11.4",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.4",
-      "publishedAt": "2026-08-19T00:01:42Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,40 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
+      "id": "tag:www.producthunt.com,2005:Post/1229329",
+      "title": "Offloop",
+      "url": "https://www.producthunt.com/products/offloop",
+      "publishedAt": "2026-08-24T18:53:42-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
       "id": "tag:www.producthunt.com,2005:Post/1230103",
       "title": "IFAH",
       "url": "https://www.producthunt.com/products/ifah-a-new-experience-of-sound",
-      "publishedAt": "2026-08-24T12:00:20-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1229798",
-      "title": "Contrive",
-      "url": "https://www.producthunt.com/products/contrive",
-      "publishedAt": "2026-08-24T11:39:28-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1229883",
-      "title": "Cortex by SKYNETLAB",
-      "url": "https://www.producthunt.com/products/cortex-by-skynetlab",
-      "publishedAt": "2026-08-24T11:59:11-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1230321",
-      "title": "Wavepocket ▶︎•၊||၊||။၊|။",
-      "url": "https://www.producthunt.com/products/wavepocket-free-ios-app",
-      "publishedAt": "2026-08-24T11:24:25-07:00",
+      "publishedAt": "2026-08-24T18:46:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,27 +925,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1227233",
       "title": "Destiny Rings",
       "url": "https://www.producthunt.com/products/destiny-rings",
-      "publishedAt": "2026-08-24T11:57:15-07:00",
+      "publishedAt": "2026-08-24T18:48:30-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1229902",
-      "title": "Localdock",
-      "url": "https://www.producthunt.com/products/localdock",
-      "publishedAt": "2026-08-24T12:01:33-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1227796",
-      "title": "PaymentKit",
-      "url": "https://www.producthunt.com/products/paymentkit",
-      "publishedAt": "2026-08-24T12:02:24-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1229883",
+      "title": "Cortex by SKYNETLAB",
+      "url": "https://www.producthunt.com/products/cortex-by-skynetlab",
+      "publishedAt": "2026-08-24T18:46:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,27 +945,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1230122",
       "title": "Lucid Train",
       "url": "https://www.producthunt.com/products/lucid-train",
-      "publishedAt": "2026-08-24T12:00:34-07:00",
+      "publishedAt": "2026-08-24T18:43:04-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1222466",
-      "title": "Navigara",
-      "url": "https://www.producthunt.com/products/navigara",
-      "publishedAt": "2026-08-24T12:00:57-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1229902",
+      "title": "Localdock",
+      "url": "https://www.producthunt.com/products/localdock",
+      "publishedAt": "2026-08-24T18:43:23-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1229329",
-      "title": "Offloop",
-      "url": "https://www.producthunt.com/products/offloop",
-      "publishedAt": "2026-08-24T11:59:20-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1230074",
+      "title": "Treebar",
+      "url": "https://www.producthunt.com/products/treebar-where-is-codex",
+      "publishedAt": "2026-08-24T18:46:21-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1229906",
+      "title": "Bumply",
+      "url": "https://www.producthunt.com/products/bumply",
+      "publishedAt": "2026-08-24T18:42:30-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1229949",
+      "title": "WorldMap.lol",
+      "url": "https://www.producthunt.com/products/worldmap-lol",
+      "publishedAt": "2026-08-24T18:51:33-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1227796",
+      "title": "PaymentKit",
+      "url": "https://www.producthunt.com/products/paymentkit",
+      "publishedAt": "2026-08-24T18:51:54-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
