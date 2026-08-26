@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T07:11:59.868444+00:00",
+  "updatedAt": "2026-08-26T13:26:00.873557+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.33.0",
@@ -202,6 +202,16 @@
       "why": "Useful for developers building AI products."
     },
     {
+      "id": "tag:github.com,2008:Repository/155220641/v5.16.0",
+      "title": "Release: v5.16.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+      "publishedAt": "2026-08-26T12:35:15Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/155220641/v5.15.1",
       "title": "Patch release: v5.15.1",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
@@ -286,16 +296,6 @@
       "title": "Release v5.12.0",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.0",
       "publishedAt": "2026-06-12T14:39:40Z",
-      "source": "Hugging Face",
-      "kind": "Models & datasets",
-      "purpose": "Use and follow open AI model tooling.",
-      "why": "Useful for anyone working with open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/155220641/v5.11.0",
-      "title": "Release v5.11.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.11.0",
-      "publishedAt": "2026-06-10T16:32:44Z",
       "source": "Hugging Face",
       "kind": "Models & datasets",
       "purpose": "Use and follow open AI model tooling.",
@@ -902,90 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1227198",
-      "title": "Knack MCP Server",
-      "url": "https://www.producthunt.com/products/knack",
-      "publishedAt": "2026-08-26T00:11:29-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1226279",
+      "title": "Arena AI Agent",
+      "url": "https://www.producthunt.com/products/arena-5",
+      "publishedAt": "2026-08-26T06:13:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1231951",
-      "title": "macadress",
-      "url": "https://www.producthunt.com/products/macadress",
-      "publishedAt": "2026-08-26T00:11:28-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1229461",
-      "title": "EasySwitch",
-      "url": "https://www.producthunt.com/products/easyswitch",
-      "publishedAt": "2026-08-26T00:11:45-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1231917",
-      "title": "LoupeKit",
-      "url": "https://www.producthunt.com/products/loupekit",
-      "publishedAt": "2026-08-26T00:11:58-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1232444",
-      "title": "HEVN U.S.",
-      "url": "https://www.producthunt.com/products/hevn-u-s-accounts-for-non-us-companies",
-      "publishedAt": "2026-08-26T00:11:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1232310",
-      "title": "BaudBuddy",
-      "url": "https://www.producthunt.com/products/baudbuddy-serial-terminal",
-      "publishedAt": "2026-08-26T00:11:28-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1227188",
-      "title": "Evidence Core",
-      "url": "https://www.producthunt.com/products/evidence",
-      "publishedAt": "2026-08-26T00:11:29-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1231160",
-      "title": "choclift for iPad",
-      "url": "https://www.producthunt.com/products/choclift-workflow-sweetener",
-      "publishedAt": "2026-08-26T00:11:22-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1229226",
-      "title": "ChatCut Desktop",
-      "url": "https://www.producthunt.com/products/chatcut-ai-video-editor",
-      "publishedAt": "2026-08-26T00:11:47-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1231169",
+      "title": "Termy",
+      "url": "https://www.producthunt.com/products/termy-language-learning",
+      "publishedAt": "2026-08-26T06:15:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +925,77 @@
       "id": "tag:www.producthunt.com,2005:Post/1222870",
       "title": "Playcall",
       "url": "https://www.producthunt.com/products/playcall",
-      "publishedAt": "2026-08-26T00:11:46-07:00",
+      "publishedAt": "2026-08-26T06:13:36-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1228915",
+      "title": "ReWeaver AI DriftDetector",
+      "url": "https://www.producthunt.com/products/reweaver-driftdetector",
+      "publishedAt": "2026-08-26T06:14:16-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1232122",
+      "title": "Basedash for Grok Bot",
+      "url": "https://www.producthunt.com/products/basedash",
+      "publishedAt": "2026-08-26T06:14:11-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1227198",
+      "title": "Knack MCP Server",
+      "url": "https://www.producthunt.com/products/knack",
+      "publishedAt": "2026-08-26T06:25:43-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1231951",
+      "title": "macadress",
+      "url": "https://www.producthunt.com/products/macadress",
+      "publishedAt": "2026-08-26T06:24:38-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1232225",
+      "title": "PostHog Desktop",
+      "url": "https://www.producthunt.com/products/posthog",
+      "publishedAt": "2026-08-26T06:22:35-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1232073",
+      "title": "Message Album",
+      "url": "https://www.producthunt.com/products/message-album",
+      "publishedAt": "2026-08-26T06:14:16-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1231160",
+      "title": "choclift for iPad",
+      "url": "https://www.producthunt.com/products/choclift-workflow-sweetener",
+      "publishedAt": "2026-08-26T06:14:14-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
