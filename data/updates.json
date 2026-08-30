@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T20:58:48.685594+00:00",
+  "updatedAt": "2026-08-30T05:30:34.409148+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.33.2",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev43",
+      "title": "v1.12.0.dev43",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev43",
+      "publishedAt": "2026-08-30T00:42:09Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.12.0",
       "title": "v1.12.0",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0",
@@ -686,16 +696,6 @@
       "title": "v1.12.0.dev36",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev36",
       "publishedAt": "2026-08-23T00:18:27Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev35",
-      "title": "v1.12.0.dev35",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev35",
-      "publishedAt": "2026-08-22T00:17:54Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,60 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1195558",
-      "title": "1752vc Pitch Deck Analyzer",
-      "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis",
-      "publishedAt": "2026-08-29T13:53:53-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1231748",
-      "title": "seendiff",
-      "url": "https://www.producthunt.com/products/seendiff",
-      "publishedAt": "2026-08-29T13:57:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1235253",
-      "title": "God’s Eye View",
-      "url": "https://www.producthunt.com/products/god-s-eye-view",
-      "publishedAt": "2026-08-29T13:56:26-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1230534",
-      "title": "Any Command",
-      "url": "https://www.producthunt.com/products/any-command-remote-control-for-pc",
-      "publishedAt": "2026-08-29T13:51:08-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1231087",
-      "title": "Einfall",
-      "url": "https://www.producthunt.com/products/einfall-a-place-for-fugitive-thoughts",
-      "publishedAt": "2026-08-29T13:47:39-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1232038",
-      "title": "Lubb",
-      "url": "https://www.producthunt.com/products/lubb-heartbeat-for-sleep",
-      "publishedAt": "2026-08-29T13:44:47-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1234330",
+      "title": "publicdesktop.lol",
+      "url": "https://www.producthunt.com/products/publicdesktop-lol",
+      "publishedAt": "2026-08-29T22:03:29-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,7 +915,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1225462",
       "title": "Neo",
       "url": "https://www.producthunt.com/products/neo",
-      "publishedAt": "2026-08-29T13:50:37-07:00",
+      "publishedAt": "2026-08-29T21:56:11-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1232456",
+      "title": "RawToHEIC",
+      "url": "https://www.producthunt.com/products/rawtoheic",
+      "publishedAt": "2026-08-29T20:03:08-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1229483",
+      "title": "Tiles",
+      "url": "https://www.producthunt.com/products/tiles-5",
+      "publishedAt": "2026-08-29T22:23:02-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1235253",
+      "title": "God’s Eye View",
+      "url": "https://www.producthunt.com/products/god-s-eye-view",
+      "publishedAt": "2026-08-29T21:02:44-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1231087",
+      "title": "Einfall",
+      "url": "https://www.producthunt.com/products/einfall-a-place-for-fugitive-thoughts",
+      "publishedAt": "2026-08-29T22:03:30-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1230534",
+      "title": "Any Command",
+      "url": "https://www.producthunt.com/products/any-command-remote-control-for-pc",
+      "publishedAt": "2026-08-29T21:58:18-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1195558",
+      "title": "1752vc Pitch Deck Analyzer",
+      "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis",
+      "publishedAt": "2026-08-29T22:23:04-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,27 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1235085",
       "title": "Cohere Parse 5",
       "url": "https://www.producthunt.com/products/cohere-2",
-      "publishedAt": "2026-08-29T13:56:29-07:00",
+      "publishedAt": "2026-08-29T22:12:29-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1231231",
-      "title": "Mossy",
-      "url": "https://www.producthunt.com/products/mossy-2",
-      "publishedAt": "2026-08-29T13:24:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1232760",
-      "title": "WIT",
-      "url": "https://www.producthunt.com/products/wit-will-it-travel",
-      "publishedAt": "2026-08-29T13:56:48-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1231748",
+      "title": "seendiff",
+      "url": "https://www.producthunt.com/products/seendiff",
+      "publishedAt": "2026-08-29T22:03:29-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
