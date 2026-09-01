@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T16:44:11.709299+00:00",
+  "updatedAt": "2026-09-01T21:07:09.785820+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.33.2",
@@ -102,6 +102,16 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain==1.4.0a3",
+      "title": "langchain==1.4.0a3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a3",
+      "publishedAt": "2026-09-01T17:22:31Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain==1.4.0a2",
       "title": "langchain==1.4.0a2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2",
@@ -186,16 +196,6 @@
       "title": "langchain-fireworks==1.6.0",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.0",
       "publishedAt": "2026-08-20T17:47:20Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.6.1",
-      "title": "langchain-anthropic==1.6.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.6.1",
-      "publishedAt": "2026-08-20T14:06:51Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -605,7 +605,7 @@
       "id": "tag:github.com,2008:Repository/599320067/v1.12.0",
       "title": "v1.12.0",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0",
-      "publishedAt": "2026-09-01T15:58:48Z",
+      "publishedAt": "2026-09-01T16:46:51Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,90 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1233934",
-      "title": "Computable GPU Index (CGI)",
-      "url": "https://www.producthunt.com/products/computable-gpu-index-cgi",
-      "publishedAt": "2026-09-01T09:21:07-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1237936",
-      "title": "nOS4",
-      "url": "https://www.producthunt.com/products/nos4",
-      "publishedAt": "2026-09-01T08:04:29-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1237681",
-      "title": "TrustedRouter",
-      "url": "https://www.producthunt.com/products/trustedrouter",
-      "publishedAt": "2026-09-01T09:43:56-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224803",
-      "title": "WaseiGo",
-      "url": "https://www.producthunt.com/products/waseigo",
-      "publishedAt": "2026-09-01T08:47:05-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1237941",
-      "title": "Murmell",
-      "url": "https://www.producthunt.com/products/murmell",
-      "publishedAt": "2026-09-01T09:09:27-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1233906",
       "title": "Folio",
       "url": "https://www.producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa5fdd41a3ba",
-      "publishedAt": "2026-09-01T09:35:58-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1234451",
-      "title": "ThunderPhone",
-      "url": "https://www.producthunt.com/products/thunderphone",
-      "publishedAt": "2026-09-01T09:38:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1238101",
-      "title": "HONOR Robot Phone",
-      "url": "https://www.producthunt.com/products/honor-robot-phone",
-      "publishedAt": "2026-09-01T09:42:25-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1232332",
-      "title": "ChannelOS",
-      "url": "https://www.producthunt.com/products/channelos",
-      "publishedAt": "2026-09-01T09:36:32-07:00",
+      "publishedAt": "2026-09-01T14:06:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +915,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1237043",
       "title": "Happy Shrimp",
       "url": "https://www.producthunt.com/products/happy-shrimp",
-      "publishedAt": "2026-09-01T09:34:31-07:00",
+      "publishedAt": "2026-09-01T14:06:46-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1234451",
+      "title": "ThunderPhone",
+      "url": "https://www.producthunt.com/products/thunderphone",
+      "publishedAt": "2026-09-01T14:06:45-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1233519",
+      "title": "Creatium Coach",
+      "url": "https://www.producthunt.com/products/creatium",
+      "publishedAt": "2026-09-01T14:06:36-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1224803",
+      "title": "WaseiGo",
+      "url": "https://www.producthunt.com/products/waseigo",
+      "publishedAt": "2026-09-01T14:02:37-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1237681",
+      "title": "TrustedRouter",
+      "url": "https://www.producthunt.com/products/trustedrouter",
+      "publishedAt": "2026-09-01T14:04:14-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1234734",
+      "title": "Sider Code",
+      "url": "https://www.producthunt.com/products/sider-code-customize-any-website",
+      "publishedAt": "2026-09-01T14:02:37-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1235091",
+      "title": "Gauth AI Course",
+      "url": "https://www.producthunt.com/products/gauth-ai-course",
+      "publishedAt": "2026-09-01T14:04:14-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1234150",
+      "title": "Keiki",
+      "url": "https://www.producthunt.com/products/keiki",
+      "publishedAt": "2026-09-01T14:02:37-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1237733",
+      "title": "EAS Observe",
+      "url": "https://www.producthunt.com/products/expo",
+      "publishedAt": "2026-09-01T14:05:51-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
