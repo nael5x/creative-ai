@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T22:54:46.442029+00:00",
+  "updatedAt": "2026-09-01T05:18:00.993786+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.33.2",
@@ -602,6 +602,26 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev45",
+      "title": "v1.12.0.dev45",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev45",
+      "publishedAt": "2026-09-01T03:05:47Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.11.6",
+      "title": "1.11.6",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.6",
+      "publishedAt": "2026-09-01T02:21:40Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev44",
       "title": "v1.12.0.dev44",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev44",
@@ -676,26 +696,6 @@
       "title": "v1.12.0.dev38",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev38",
       "publishedAt": "2026-08-25T00:18:15Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.11.5",
-      "title": "1.11.5",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.11.5",
-      "publishedAt": "2026-08-25T15:35:13Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev37",
-      "title": "v1.12.0.dev37",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev37",
-      "publishedAt": "2026-08-24T00:18:38Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,10 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1231542",
-      "title": "WebTerm Learn",
-      "url": "https://www.producthunt.com/products/webterm",
-      "publishedAt": "2026-08-31T15:27:59-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1233229",
+      "title": "Ask My Wardrobe",
+      "url": "https://www.producthunt.com/products/ask-my-wardrobe",
+      "publishedAt": "2026-08-31T22:16:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -915,7 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1235226",
       "title": "Radar by Particle",
       "url": "https://www.producthunt.com/products/particle-5",
-      "publishedAt": "2026-08-31T15:21:12-07:00",
+      "publishedAt": "2026-08-31T22:13:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,27 +925,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1237132",
       "title": "Tether",
       "url": "https://www.producthunt.com/products/tether-a-ball-for-boring-meetings",
-      "publishedAt": "2026-08-31T15:46:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224981",
-      "title": "Video Agent by Fotor",
-      "url": "https://www.producthunt.com/products/fotor",
-      "publishedAt": "2026-08-31T15:37:33-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1233229",
-      "title": "Ask My Wardrobe",
-      "url": "https://www.producthunt.com/products/ask-my-wardrobe",
-      "publishedAt": "2026-08-31T15:29:28-07:00",
+      "publishedAt": "2026-08-31T22:14:13-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,7 +935,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1237061",
       "title": "EP–2350 FX–MIC",
       "url": "https://www.producthunt.com/products/teenage-engineering",
-      "publishedAt": "2026-08-31T15:40:09-07:00",
+      "publishedAt": "2026-08-31T22:13:42-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,27 +945,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1226002",
       "title": "BrandJet",
       "url": "https://www.producthunt.com/products/brandjet-ai",
-      "publishedAt": "2026-08-31T15:37:55-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1225427",
-      "title": "Interactive Sessions",
-      "url": "https://www.producthunt.com/products/revolte",
-      "publishedAt": "2026-08-31T15:37:56-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1235109",
-      "title": "BrandMyLaptop",
-      "url": "https://www.producthunt.com/products/brandmylaptop",
-      "publishedAt": "2026-08-31T15:40:23-07:00",
+      "publishedAt": "2026-08-31T22:13:39-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +955,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1218252",
       "title": "StackScope",
       "url": "https://www.producthunt.com/products/stackscope-dev",
-      "publishedAt": "2026-08-31T15:12:48-07:00",
+      "publishedAt": "2026-08-31T22:17:00-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1231542",
+      "title": "WebTerm Learn",
+      "url": "https://www.producthunt.com/products/webterm",
+      "publishedAt": "2026-08-31T21:57:18-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1235109",
+      "title": "BrandMyLaptop",
+      "url": "https://www.producthunt.com/products/brandmylaptop",
+      "publishedAt": "2026-08-31T22:13:47-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1235917",
+      "title": "Orato",
+      "url": "https://www.producthunt.com/products/orato-speech-coach",
+      "publishedAt": "2026-08-31T22:13:49-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1235311",
+      "title": "FrameOS",
+      "url": "https://www.producthunt.com/products/frameos-3",
+      "publishedAt": "2026-08-31T22:14:24-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
