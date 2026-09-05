@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-04T20:49:46.382940+00:00",
+  "updatedAt": "2026-09-05T04:37:17.345529+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.34.0-rc1",
+      "title": "v0.34.0-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1",
+      "publishedAt": "2026-09-05T00:48:55Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.34.0-rc0",
+      "title": "v0.34.0-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc0",
+      "publishedAt": "2026-09-04T21:04:48Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.33.3",
       "title": "v0.33.3",
@@ -82,24 +102,14 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.33.1-rc1",
-      "title": "v0.33.1-rc1: linux: fix llama.cpp docker build (#18040)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1",
-      "publishedAt": "2026-08-26T17:21:21Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.33.1-rc0",
-      "title": "v0.33.1-rc0: MLX: Qwen3.8 Flash Next support (#18032)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc0",
-      "publishedAt": "2026-08-26T15:05:59Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.6.2",
+      "title": "langchain-core==1.6.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2",
+      "publishedAt": "2026-09-04T21:29:44Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
     },
     {
       "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.7.1",
@@ -186,16 +196,6 @@
       "title": "langchain==1.4.0a1",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a1",
       "publishedAt": "2026-08-27T22:21:11Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain==1.3.18",
-      "title": "langchain==1.3.18",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.18",
-      "publishedAt": "2026-08-27T17:33:29Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -302,6 +302,26 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.34.5",
+      "title": "v0.34.5",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.5",
+      "publishedAt": "2026-09-05T02:40:10Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/589831718/v0.34.4",
+      "title": "v0.34.4",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.4",
+      "publishedAt": "2026-09-04T21:07:26Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.34.3",
       "title": "v0.34.3",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.3",
@@ -376,26 +396,6 @@
       "title": "v0.33.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.1",
       "publishedAt": "2026-08-13T22:18:34Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.33.0",
-      "title": "v0.33.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.0",
-      "publishedAt": "2026-08-13T17:20:22Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.32.0",
-      "title": "v0.32.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.32.0",
-      "publishedAt": "2026-08-11T21:56:20Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev3",
+      "title": "v1.13.0.dev3",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev3",
+      "publishedAt": "2026-09-05T00:37:23Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev2",
       "title": "v1.13.0.dev2",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev2",
@@ -686,16 +696,6 @@
       "title": "v1.12.0.dev42",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev42",
       "publishedAt": "2026-08-29T02:33:45Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.0.dev41",
-      "title": "v1.12.0.dev41",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.0.dev41",
-      "publishedAt": "2026-08-28T03:21:58Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,40 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1235086",
-      "title": "myAIcademy",
-      "url": "https://www.producthunt.com/products/myaicademy",
-      "publishedAt": "2026-09-04T13:42:56-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1240758",
-      "title": "GPT-6 Astra",
-      "url": "https://www.producthunt.com/products/openai",
-      "publishedAt": "2026-09-04T13:46:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1240566",
       "title": "Clockwork",
       "url": "https://www.producthunt.com/products/clockwork-5",
-      "publishedAt": "2026-09-04T13:23:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1228878",
-      "title": "Compliance by TwelveLabs",
-      "url": "https://www.producthunt.com/products/twelvelabs",
-      "publishedAt": "2026-09-04T13:41:02-07:00",
+      "publishedAt": "2026-09-04T21:02:44-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,27 +915,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1240334",
       "title": "cmmnts",
       "url": "https://www.producthunt.com/products/cmmnts",
-      "publishedAt": "2026-09-04T13:40:20-07:00",
+      "publishedAt": "2026-09-04T21:02:43-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1240543",
-      "title": "WeatherNext 3",
-      "url": "https://www.producthunt.com/products/weathernext-3",
-      "publishedAt": "2026-09-04T13:31:24-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1238286",
-      "title": "TrackMCP",
-      "url": "https://www.producthunt.com/products/trackmcp",
-      "publishedAt": "2026-09-04T13:39:51-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1240413",
+      "title": "Chalked for Mac",
+      "url": "https://www.producthunt.com/products/chalked",
+      "publishedAt": "2026-09-04T21:02:44-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,17 +935,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1240461",
       "title": "Omarchy",
       "url": "https://www.producthunt.com/products/omarchy-3",
-      "publishedAt": "2026-09-04T13:46:02-07:00",
+      "publishedAt": "2026-09-04T21:02:43-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1239559",
-      "title": "Google Gemini 3.8 Flash and Cyber",
-      "url": "https://www.producthunt.com/products/gemini-3-8-flash",
-      "publishedAt": "2026-09-04T13:48:00-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1226107",
+      "title": "Offline JS Playground",
+      "url": "https://www.producthunt.com/products/offline-js-playground",
+      "publishedAt": "2026-09-04T21:02:44-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1240308",
+      "title": "Snitch",
+      "url": "https://www.producthunt.com/products/snitch-4",
+      "publishedAt": "2026-09-04T21:02:43-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1239730",
+      "title": "sidebranch",
+      "url": "https://www.producthunt.com/products/sidebranch",
+      "publishedAt": "2026-09-04T21:02:44-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1238286",
+      "title": "TrackMCP",
+      "url": "https://www.producthunt.com/products/trackmcp",
+      "publishedAt": "2026-09-04T20:45:57-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1240322",
       "title": "Inline",
       "url": "https://www.producthunt.com/products/inline-5",
-      "publishedAt": "2026-09-04T12:26:11-07:00",
+      "publishedAt": "2026-09-04T21:02:44-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1235086",
+      "title": "myAIcademy",
+      "url": "https://www.producthunt.com/products/myaicademy",
+      "publishedAt": "2026-09-04T21:34:05-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
