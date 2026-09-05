@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T10:42:42.792648+00:00",
+  "updatedAt": "2026-09-05T15:19:23.166721+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.0-rc1",
@@ -902,50 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1217440",
-      "title": "dif.sh",
-      "url": "https://www.producthunt.com/products/dif-sh",
-      "publishedAt": "2026-09-05T03:42:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1239518",
-      "title": "Queuebrick",
-      "url": "https://www.producthunt.com/products/queuebrick",
-      "publishedAt": "2026-09-05T03:41:39-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1238273",
       "title": "Reflexio",
       "url": "https://www.producthunt.com/products/reflexio-2",
-      "publishedAt": "2026-09-05T03:41:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1232929",
-      "title": "Retold",
-      "url": "https://www.producthunt.com/products/retold",
-      "publishedAt": "2026-09-05T03:41:48-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1238037",
-      "title": "CommuteBar",
-      "url": "https://www.producthunt.com/products/commutebar",
-      "publishedAt": "2026-09-05T03:41:32-07:00",
+      "publishedAt": "2026-09-05T08:19:03-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,27 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1241345",
       "title": "Ponytail",
       "url": "https://www.producthunt.com/products/ponytail",
-      "publishedAt": "2026-09-05T03:41:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1240932",
-      "title": "GitWarren",
-      "url": "https://www.producthunt.com/products/gitwarren",
-      "publishedAt": "2026-09-05T03:41:44-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1239306",
-      "title": "BrickForgerAI",
-      "url": "https://www.producthunt.com/products/brickforgerai",
-      "publishedAt": "2026-09-05T03:41:45-07:00",
+      "publishedAt": "2026-09-05T08:15:18-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,7 +925,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1240371",
       "title": "at8pm",
       "url": "https://www.producthunt.com/products/at8pm",
-      "publishedAt": "2026-09-05T03:41:48-07:00",
+      "publishedAt": "2026-09-05T08:03:18-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1238037",
+      "title": "CommuteBar",
+      "url": "https://www.producthunt.com/products/commutebar",
+      "publishedAt": "2026-09-05T08:15:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +945,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1240885",
       "title": "Experiential Labs",
       "url": "https://www.producthunt.com/products/experiential-labs",
-      "publishedAt": "2026-09-05T03:41:32-07:00",
+      "publishedAt": "2026-09-05T08:15:14-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1240932",
+      "title": "GitWarren",
+      "url": "https://www.producthunt.com/products/gitwarren",
+      "publishedAt": "2026-09-05T08:13:34-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1217440",
+      "title": "dif.sh",
+      "url": "https://www.producthunt.com/products/dif-sh",
+      "publishedAt": "2026-09-05T08:17:43-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1234474",
+      "title": "PostBox",
+      "url": "https://www.producthunt.com/products/postbox",
+      "publishedAt": "2026-09-05T08:14:51-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1239518",
+      "title": "Queuebrick",
+      "url": "https://www.producthunt.com/products/queuebrick",
+      "publishedAt": "2026-09-05T08:02:45-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1239306",
+      "title": "BrickForgerAI",
+      "url": "https://www.producthunt.com/products/brickforgerai",
+      "publishedAt": "2026-09-05T08:13:43-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
