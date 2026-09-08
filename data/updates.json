@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T11:26:29.674792+00:00",
+  "updatedAt": "2026-09-08T16:42:46.595030+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.0-rc1",
@@ -102,6 +102,16 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.6.1",
+      "title": "langchain-openai==1.6.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1",
+      "publishedAt": "2026-09-08T14:20:42Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.6.2",
       "title": "langchain-core==1.6.2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2",
@@ -186,16 +196,6 @@
       "title": "langchain-anthropic==1.7.0",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.0",
       "publishedAt": "2026-08-27T15:24:18Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain==1.4.0a1",
-      "title": "langchain==1.4.0a1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a1",
-      "publishedAt": "2026-08-27T22:21:11Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -902,40 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1209261",
-      "title": "Widgo",
-      "url": "https://www.producthunt.com/products/paillor",
-      "publishedAt": "2026-09-08T04:25:29-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1240399",
+      "title": "Dictantor",
+      "url": "https://www.producthunt.com/products/dictantor",
+      "publishedAt": "2026-09-08T09:41:40-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1244310",
-      "title": "Catenary",
-      "url": "https://www.producthunt.com/products/catenary",
-      "publishedAt": "2026-09-08T04:25:10-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1233670",
-      "title": "Switch",
-      "url": "https://www.producthunt.com/products/switch-11",
-      "publishedAt": "2026-09-08T04:25:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1244005",
-      "title": "Kopai",
-      "url": "https://www.producthunt.com/products/kopai-the-marketplace-for-ai-agents",
-      "publishedAt": "2026-09-08T04:21:19-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1240790",
+      "title": "Replay QA Security Scan",
+      "url": "https://www.producthunt.com/products/replayio",
+      "publishedAt": "2026-09-08T09:23:32-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,37 +925,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1237958",
       "title": "OpenMarket",
       "url": "https://www.producthunt.com/products/openmarket",
-      "publishedAt": "2026-09-08T04:21:04-07:00",
+      "publishedAt": "2026-09-08T09:37:57-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1244024",
-      "title": "Lyrimuse",
-      "url": "https://www.producthunt.com/products/lyrimuse",
-      "publishedAt": "2026-09-08T04:24:20-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1241818",
-      "title": "Jupitrr Cut",
-      "url": "https://www.producthunt.com/products/jupitrr",
-      "publishedAt": "2026-09-08T04:24:20-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1185859",
-      "title": "SODAX SDK",
-      "url": "https://www.producthunt.com/products/sodax",
-      "publishedAt": "2026-09-08T04:24:20-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1244310",
+      "title": "Catenary",
+      "url": "https://www.producthunt.com/products/catenary",
+      "publishedAt": "2026-09-08T09:01:45-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +945,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1226181",
       "title": "Nametag",
       "url": "https://www.producthunt.com/products/nametag-ai",
-      "publishedAt": "2026-09-08T04:13:01-07:00",
+      "publishedAt": "2026-09-08T09:33:16-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1240399",
-      "title": "Dictantor",
-      "url": "https://www.producthunt.com/products/dictantor",
-      "publishedAt": "2026-09-08T04:24:20-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1209261",
+      "title": "Widgo",
+      "url": "https://www.producthunt.com/products/paillor",
+      "publishedAt": "2026-09-08T09:34:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1244325",
+      "title": "bonds",
+      "url": "https://www.producthunt.com/products/bonds-2",
+      "publishedAt": "2026-09-08T09:09:42-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1236545",
+      "title": "AppGacha",
+      "url": "https://www.producthunt.com/products/appgacha",
+      "publishedAt": "2026-09-08T09:03:11-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1243318",
+      "title": "Knockin'",
+      "url": "https://www.producthunt.com/products/knockin",
+      "publishedAt": "2026-09-08T09:18:40-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1243922",
+      "title": "Tables.so",
+      "url": "https://www.producthunt.com/products/tables-so",
+      "publishedAt": "2026-09-08T09:35:22-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
