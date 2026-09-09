@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T11:31:56.460215+00:00",
+  "updatedAt": "2026-09-09T16:44:09.138397+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.0-rc3",
@@ -202,6 +202,16 @@
       "why": "Useful for developers building AI products."
     },
     {
+      "id": "tag:github.com,2008:Repository/155220641/v5.17.0",
+      "title": "Release 5.17.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.17.0",
+      "publishedAt": "2026-09-09T15:42:45Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/155220641/v5.16.1",
       "title": "Release v5.16.1",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
@@ -286,16 +296,6 @@
       "title": "Patch release v5.12.1",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
       "publishedAt": "2026-06-15T17:29:59Z",
-      "source": "Hugging Face",
-      "kind": "Models & datasets",
-      "purpose": "Use and follow open AI model tooling.",
-      "why": "Useful for anyone working with open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/155220641/v5.10.3",
-      "title": "Patch release v5.10.4",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.3",
-      "publishedAt": "2026-06-19T13:25:50Z",
       "source": "Hugging Face",
       "kind": "Models & datasets",
       "purpose": "Use and follow open AI model tooling.",
@@ -702,10 +702,30 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.39.0",
-      "title": "n8n@2.39.0",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.0",
-      "publishedAt": "2026-09-08T08:29:53Z",
+      "id": "tag:github.com,2008:Repository/193215554/stable",
+      "title": "stable",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "publishedAt": "2026-09-09T12:06:00Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.39.1",
+      "title": "n8n@2.39.1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.1",
+      "publishedAt": "2026-09-09T12:30:09Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.38.5",
+      "title": "n8n@2.38.5",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.5",
+      "publishedAt": "2026-09-09T12:11:44Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -715,17 +735,17 @@
       "id": "tag:github.com,2008:Repository/193215554/beta",
       "title": "beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "publishedAt": "2026-09-08T08:26:55Z",
+      "publishedAt": "2026-09-09T12:26:59Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
       "why": "Useful for repeatable content and business automation."
     },
     {
-      "id": "tag:github.com,2008:Repository/193215554/stable",
-      "title": "stable",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "publishedAt": "2026-09-08T08:39:42Z",
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.39.0",
+      "title": "n8n@2.39.0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.0",
+      "publishedAt": "2026-09-08T08:29:53Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -776,26 +796,6 @@
       "title": "n8n@2.38.3",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.3",
       "publishedAt": "2026-09-03T08:13:52Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.37.9",
-      "title": "n8n@2.37.9",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.9",
-      "publishedAt": "2026-09-03T13:22:54Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@1.123.77",
-      "title": "n8n@1.123.77",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.77",
-      "publishedAt": "2026-09-03T08:00:09Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -902,20 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1179169",
-      "title": "AdScope",
-      "url": "https://www.producthunt.com/products/adscope-2",
-      "publishedAt": "2026-09-09T04:29:47-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1245256",
-      "title": "AlphaGenome Atlas",
-      "url": "https://www.producthunt.com/products/alphagenome-atlas",
-      "publishedAt": "2026-09-09T04:26:18-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1244146",
+      "title": "Diiverge",
+      "url": "https://www.producthunt.com/products/diiverge-co",
+      "publishedAt": "2026-09-09T09:35:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,57 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1245183",
       "title": "Frigade Assist API",
       "url": "https://www.producthunt.com/products/frigade",
-      "publishedAt": "2026-09-09T04:15:31-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1243113",
-      "title": "GoModel",
-      "url": "https://www.producthunt.com/products/gomodel",
-      "publishedAt": "2026-09-09T04:22:44-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1244551",
-      "title": "Ass Auction",
-      "url": "https://www.producthunt.com/products/ass-auction",
-      "publishedAt": "2026-09-09T04:15:00-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1245173",
-      "title": "Basedash in Español Français & Português",
-      "url": "https://www.producthunt.com/products/basedash",
-      "publishedAt": "2026-09-09T04:16:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1244146",
-      "title": "Diiverge",
-      "url": "https://www.producthunt.com/products/diiverge-co",
-      "publishedAt": "2026-09-09T04:15:30-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1244990",
-      "title": "DuckFightClub",
-      "url": "https://www.producthunt.com/products/duckfightclub",
-      "publishedAt": "2026-09-09T04:22:56-07:00",
+      "publishedAt": "2026-09-09T09:32:32-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,7 +925,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1242714",
       "title": "WorkID.ai",
       "url": "https://www.producthunt.com/products/workid-ai",
-      "publishedAt": "2026-09-09T04:15:30-07:00",
+      "publishedAt": "2026-09-09T09:38:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1179169",
+      "title": "AdScope",
+      "url": "https://www.producthunt.com/products/adscope-2",
+      "publishedAt": "2026-09-09T09:38:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1245173",
+      "title": "Basedash in Español Français & Português",
+      "url": "https://www.producthunt.com/products/basedash",
+      "publishedAt": "2026-09-09T09:36:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1245333",
+      "title": "Type.com",
+      "url": "https://www.producthunt.com/products/type-com",
+      "publishedAt": "2026-09-09T09:31:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1243113",
+      "title": "GoModel",
+      "url": "https://www.producthunt.com/products/gomodel",
+      "publishedAt": "2026-09-09T09:30:19-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +975,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1238593",
       "title": "49agents IDE",
       "url": "https://www.producthunt.com/products/49agents-ide",
-      "publishedAt": "2026-09-09T04:27:40-07:00",
+      "publishedAt": "2026-09-09T09:31:45-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1233411",
+      "title": "Noodle Seed",
+      "url": "https://www.producthunt.com/products/noodle-seed",
+      "publishedAt": "2026-09-09T09:43:26-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1245256",
+      "title": "AlphaGenome Atlas",
+      "url": "https://www.producthunt.com/products/alphagenome-atlas",
+      "publishedAt": "2026-09-09T09:37:44-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
