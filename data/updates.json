@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T16:30:13.230509+00:00",
+  "updatedAt": "2026-09-10T20:55:57.934323+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.0",
@@ -102,6 +102,16 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.7.2",
+      "title": "langchain-anthropic==1.7.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.2",
+      "publishedAt": "2026-09-10T19:13:12Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.6.2",
       "title": "langchain-openai==1.6.2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.2",
@@ -186,16 +196,6 @@
       "title": "langchain-fireworks==1.6.1",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.1",
       "publishedAt": "2026-08-27T21:56:29Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.6.1",
-      "title": "langchain-core==1.6.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.1",
-      "publishedAt": "2026-08-27T19:31:36Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -902,90 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1219905",
-      "title": "Athenic AI",
-      "url": "https://www.producthunt.com/products/athenic-ai",
-      "publishedAt": "2026-09-10T09:20:13-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1240780",
-      "title": "Typewise Nova",
-      "url": "https://www.producthunt.com/products/typewise",
-      "publishedAt": "2026-09-10T09:29:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1246107",
-      "title": "Desert Ant Labs",
-      "url": "https://www.producthunt.com/products/desert-ant-labs",
-      "publishedAt": "2026-09-10T09:29:12-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1244158",
-      "title": "Wealthfolio",
-      "url": "https://www.producthunt.com/products/wealthfolio",
-      "publishedAt": "2026-09-10T09:22:43-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1246159",
-      "title": "AirPods 5",
-      "url": "https://www.producthunt.com/products/apple",
-      "publishedAt": "2026-09-10T09:29:04-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1228578",
-      "title": "AI Observability by OpenObserve",
-      "url": "https://www.producthunt.com/products/openobserve",
-      "publishedAt": "2026-09-10T09:29:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1246124",
-      "title": "iPhone Duo",
-      "url": "https://www.producthunt.com/products/apple",
-      "publishedAt": "2026-09-10T09:29:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1238876",
-      "title": "FreeScan.app",
-      "url": "https://www.producthunt.com/products/freescan-app",
-      "publishedAt": "2026-09-10T09:15:14-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1246291",
-      "title": "Modeinspect",
-      "url": "https://www.producthunt.com/products/modeinspect-1-0",
-      "publishedAt": "2026-09-10T09:16:50-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1245959",
+      "title": "Drive",
+      "url": "https://www.producthunt.com/products/drive-gforce-telemetry",
+      "publishedAt": "2026-09-10T11:40:18-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +915,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1238848",
       "title": "Live Captions by Subanana",
       "url": "https://www.producthunt.com/products/subanana",
-      "publishedAt": "2026-09-10T09:29:06-07:00",
+      "publishedAt": "2026-09-10T13:40:09-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1246116",
+      "title": "hob",
+      "url": "https://www.producthunt.com/products/hob-2",
+      "publishedAt": "2026-09-10T13:13:10-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1224919",
+      "title": "Viso Now",
+      "url": "https://www.producthunt.com/products/viso-now",
+      "publishedAt": "2026-09-10T13:50:18-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1245936",
+      "title": "Whip",
+      "url": "https://www.producthunt.com/products/whip",
+      "publishedAt": "2026-09-10T13:04:43-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1219905",
+      "title": "Athenic AI",
+      "url": "https://www.producthunt.com/products/athenic-ai",
+      "publishedAt": "2026-09-10T13:40:21-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1238876",
+      "title": "FreeScan.app",
+      "url": "https://www.producthunt.com/products/freescan-app",
+      "publishedAt": "2026-09-10T13:40:42-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1078041",
+      "title": "Mock Magic: Video Presets",
+      "url": "https://www.producthunt.com/products/mockmagic",
+      "publishedAt": "2026-09-10T13:06:31-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1246124",
+      "title": "iPhone Duo",
+      "url": "https://www.producthunt.com/products/apple",
+      "publishedAt": "2026-09-10T13:42:53-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1240780",
+      "title": "Typewise Nova",
+      "url": "https://www.producthunt.com/products/typewise",
+      "publishedAt": "2026-09-10T13:49:23-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
