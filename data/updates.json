@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T11:30:22.593385+00:00",
+  "updatedAt": "2026-09-11T16:34:22.375105+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.0",
@@ -902,70 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1247121",
-      "title": "Cadenya",
-      "url": "https://www.producthunt.com/products/cadenya-the-agent-runtime",
-      "publishedAt": "2026-09-11T04:24:46-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1241271",
+      "title": "easyspecs.ai",
+      "url": "https://www.producthunt.com/products/easyspecs-ai",
+      "publishedAt": "2026-09-11T09:31:05-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1247185",
-      "title": "Moji",
-      "url": "https://www.producthunt.com/products/moji-2",
-      "publishedAt": "2026-09-11T04:27:40-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1247106",
-      "title": "Devin Voice",
-      "url": "https://www.producthunt.com/products/devin-voice",
-      "publishedAt": "2026-09-11T04:24:07-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1246922",
-      "title": "sizeless",
-      "url": "https://www.producthunt.com/products/sizeless",
-      "publishedAt": "2026-09-11T04:24:32-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1247107",
-      "title": "Jackalope",
-      "url": "https://www.producthunt.com/products/jackalope",
-      "publishedAt": "2026-09-11T04:19:16-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1247211",
-      "title": "LiveGrid",
-      "url": "https://www.producthunt.com/products/livegrid-4",
-      "publishedAt": "2026-09-11T04:28:03-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1246712",
-      "title": "Formesign",
-      "url": "https://www.producthunt.com/products/formesign",
-      "publishedAt": "2026-09-11T04:28:27-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1246789",
+      "title": "Design Studio by Monday Merch",
+      "url": "https://www.producthunt.com/products/design-studio-by-monday-merch",
+      "publishedAt": "2026-09-11T09:31:06-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,7 +925,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1220456",
       "title": "Anysite.io",
       "url": "https://www.producthunt.com/products/anysite",
-      "publishedAt": "2026-09-11T04:29:24-07:00",
+      "publishedAt": "2026-09-11T09:32:28-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1225735",
+      "title": "Wisry",
+      "url": "https://www.producthunt.com/products/wisry",
+      "publishedAt": "2026-09-11T09:31:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +945,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1243621",
       "title": "Loqua",
       "url": "https://www.producthunt.com/products/loqua",
-      "publishedAt": "2026-09-11T04:28:54-07:00",
+      "publishedAt": "2026-09-11T09:31:07-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1246911",
-      "title": "chat-recall",
-      "url": "https://www.producthunt.com/products/chat-recall",
-      "publishedAt": "2026-09-11T04:27:01-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1244851",
+      "title": "Cline Desktop App",
+      "url": "https://www.producthunt.com/products/cline-4",
+      "publishedAt": "2026-09-11T09:31:07-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1246922",
+      "title": "sizeless",
+      "url": "https://www.producthunt.com/products/sizeless",
+      "publishedAt": "2026-09-11T09:31:06-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1247121",
+      "title": "Cadenya",
+      "url": "https://www.producthunt.com/products/cadenya-the-agent-runtime",
+      "publishedAt": "2026-09-11T09:31:06-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1217842",
+      "title": "TIM PG",
+      "url": "https://www.producthunt.com/products/tim-pg",
+      "publishedAt": "2026-09-11T09:31:06-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1247107",
+      "title": "Jackalope",
+      "url": "https://www.producthunt.com/products/jackalope",
+      "publishedAt": "2026-09-11T09:31:06-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
