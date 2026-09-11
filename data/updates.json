@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:55:57.934323+00:00",
+  "updatedAt": "2026-09-11T04:48:29.471581+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.0",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.35.1",
+      "title": "v0.35.1",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.1",
+      "publishedAt": "2026-09-10T21:14:03Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.35.0",
       "title": "v0.35.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.0",
@@ -386,16 +396,6 @@
       "title": "v0.33.4",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.4",
       "publishedAt": "2026-08-24T19:57:19Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.33.3",
-      "title": "v0.33.3",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.3",
-      "publishedAt": "2026-08-20T18:13:36Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -602,10 +602,30 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev9",
+      "title": "v1.13.0.dev9",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev9",
+      "publishedAt": "2026-09-11T00:38:04Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev8",
       "title": "v1.13.0.dev8",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev8",
       "publishedAt": "2026-09-10T00:37:26Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.2",
+      "title": "v1.12.2",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.2",
+      "publishedAt": "2026-09-10T23:17:31Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -676,26 +696,6 @@
       "title": "v1.13.0.dev2",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev2",
       "publishedAt": "2026-09-04T00:37:01Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev1",
-      "title": "v1.13.0.dev1",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev1",
-      "publishedAt": "2026-09-03T00:40:07Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev0",
-      "title": "v1.13.0.dev0",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev0",
-      "publishedAt": "2026-09-02T02:21:43Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,80 +902,30 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1245959",
-      "title": "Drive",
-      "url": "https://www.producthunt.com/products/drive-gforce-telemetry",
-      "publishedAt": "2026-09-10T11:40:18-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1238848",
-      "title": "Live Captions by Subanana",
-      "url": "https://www.producthunt.com/products/subanana",
-      "publishedAt": "2026-09-10T13:40:09-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1246116",
-      "title": "hob",
-      "url": "https://www.producthunt.com/products/hob-2",
-      "publishedAt": "2026-09-10T13:13:10-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1224919",
-      "title": "Viso Now",
-      "url": "https://www.producthunt.com/products/viso-now",
-      "publishedAt": "2026-09-10T13:50:18-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1245936",
-      "title": "Whip",
-      "url": "https://www.producthunt.com/products/whip",
-      "publishedAt": "2026-09-10T13:04:43-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1219905",
-      "title": "Athenic AI",
-      "url": "https://www.producthunt.com/products/athenic-ai",
-      "publishedAt": "2026-09-10T13:40:21-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1238876",
       "title": "FreeScan.app",
       "url": "https://www.producthunt.com/products/freescan-app",
-      "publishedAt": "2026-09-10T13:40:42-07:00",
+      "publishedAt": "2026-09-10T20:21:06-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1078041",
-      "title": "Mock Magic: Video Presets",
-      "url": "https://www.producthunt.com/products/mockmagic",
-      "publishedAt": "2026-09-10T13:06:31-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1246291",
+      "title": "Modeinspect",
+      "url": "https://www.producthunt.com/products/modeinspect-1-0",
+      "publishedAt": "2026-09-10T21:47:24-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1228578",
+      "title": "AI Observability by OpenObserve",
+      "url": "https://www.producthunt.com/products/openobserve",
+      "publishedAt": "2026-09-10T21:42:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,7 +935,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1246124",
       "title": "iPhone Duo",
       "url": "https://www.producthunt.com/products/apple",
-      "publishedAt": "2026-09-10T13:42:53-07:00",
+      "publishedAt": "2026-09-10T21:42:32-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1219905",
+      "title": "Athenic AI",
+      "url": "https://www.producthunt.com/products/athenic-ai",
+      "publishedAt": "2026-09-10T21:44:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +955,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1240780",
       "title": "Typewise Nova",
       "url": "https://www.producthunt.com/products/typewise",
-      "publishedAt": "2026-09-10T13:49:23-07:00",
+      "publishedAt": "2026-09-10T21:44:19-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1245023",
+      "title": "Speechmark",
+      "url": "https://www.producthunt.com/products/speechmark",
+      "publishedAt": "2026-09-10T21:44:20-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1246071",
+      "title": "Vibe Eyes",
+      "url": "https://www.producthunt.com/products/vibe-eyes",
+      "publishedAt": "2026-09-10T20:03:35-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1238848",
+      "title": "Live Captions by Subanana",
+      "url": "https://www.producthunt.com/products/subanana",
+      "publishedAt": "2026-09-10T21:32:44-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1078041",
+      "title": "Mock Magic: Video Presets",
+      "url": "https://www.producthunt.com/products/mockmagic",
+      "publishedAt": "2026-09-10T20:54:45-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
