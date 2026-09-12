@@ -34,6 +34,12 @@ scripts/validate_tools.py
 
 .github/workflows/validate-tools.yml
   └─ validates catalog changes on pull requests
+
+tests/test_collect_updates.py
+  └─ regression tests for Atom/RSS parsing
+
+.github/workflows/test-feed-parsers.yml
+  └─ runs feed parser tests on relevant pull requests and main pushes
 ```
 
 ## Monitored sources
@@ -68,6 +74,14 @@ To validate the curated tool catalog:
 python scripts/validate_tools.py
 ```
 
+To run the feed parser regression tests:
+
+```bash
+python -m unittest discover -s tests -p "test_*.py" -v
+```
+
+The parser tests use local fixture XML only; they do not require network access.
+
 ## Project structure
 
 ```text
@@ -75,6 +89,7 @@ python scripts/validate_tools.py
   ISSUE_TEMPLATE/
   workflows/
     source-monitor.yml
+    test-feed-parsers.yml
     validate-tools.yml
   PULL_REQUEST_TEMPLATE.md
 
@@ -86,6 +101,9 @@ data/
 scripts/
   collect_updates.py
   validate_tools.py
+
+tests/
+  test_collect_updates.py
 
 index.html
 CONTRIBUTING.md
@@ -105,7 +123,7 @@ Contributions are welcome. Good contribution areas include:
 - accessibility and UI improvements;
 - source-health and monitoring improvements.
 
-Before opening a pull request, read [`CONTRIBUTING.md`](CONTRIBUTING.md). For tool catalog changes, also read [`data/TOOLS_FORMAT.md`](data/TOOLS_FORMAT.md) and run `python scripts/validate_tools.py`.
+Before opening a pull request, read [`CONTRIBUTING.md`](CONTRIBUTING.md). For tool catalog changes, also read [`data/TOOLS_FORMAT.md`](data/TOOLS_FORMAT.md) and run `python scripts/validate_tools.py`. For feed parser changes, run `python -m unittest discover -s tests -p "test_*.py" -v`.
 
 ## Maintenance approach
 
