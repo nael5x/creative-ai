@@ -1,0 +1,20 @@
+name: Validate tool catalog
+
+on:
+  pull_request:
+    paths:
+      - "data/tools.json"
+      - "scripts/validate_tools.py"
+      - ".github/workflows/validate-tools.yml"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate data/tools.json
+        run: python scripts/validate_tools.py

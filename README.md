@@ -1,65 +1,50 @@
 # Creative AI
 
-Creative AI is a bilingual directory and automated update monitor for AI tools, open-source projects, releases, and verified discovery signals.
+Creative AI is a bilingual AI update monitor and practical directory for tools, releases, open-source projects, and verified discovery signals.
 
-The project combines a lightweight static website with a scheduled GitHub Actions workflow that refreshes `data/updates.json` every six hours from trusted sources.
+The public site combines a curated tool directory with an automated source monitor that refreshes `data/updates.json` every six hours through GitHub Actions.
 
-## Features
+## What the project does
 
-- English and Arabic interface
-- Curated AI tools grouped by practical use case
-- Search and category filters
-- Automated release monitoring
-- Source-linked update feed
-- Static-site architecture with no backend required
-- GitHub Actions refresh every six hours
+- Explains practical AI tools in English and Arabic.
+- Groups tools by purpose so users can search by task instead of brand name alone.
+- Monitors selected upstream release feeds and discovery sources.
+- Publishes fresh update data automatically through GitHub Actions.
+- Links users back to original tools and sources rather than republishing full external content.
 
-## How it works
+## Live architecture
 
-1. `scripts/collect_updates.py` fetches release feeds and discovery sources.
-2. Entries are normalized and deduplicated.
-3. The script writes the latest signals to `data/updates.json`.
-4. `.github/workflows/source-monitor.yml` runs the collector on a schedule and commits fresh data.
-5. `index.html` renders the public bilingual directory and update feed.
+```text
+index.html
+  ├─ loads data/tools.json
+  └─ loads data/updates.json
+
+data/tools.json
+  └─ curated tool catalog used by the directory UI
+
+scripts/collect_updates.py
+  └─ reads upstream Atom/RSS feeds
+      └─ writes data/updates.json
+
+.github/workflows/source-monitor.yml
+  └─ runs the collector every six hours
+
+scripts/validate_tools.py
+  └─ validates tool catalog structure and URLs
+
+.github/workflows/validate-tools.yml
+  └─ validates catalog changes on pull requests
+```
 
 ## Monitored sources
 
-The current collector includes sources such as:
-
-- Ollama
-- LangChain
-- Hugging Face Transformers
-- ComfyUI
-- Open WebUI
-- Flowise
-- Langflow
-- n8n
-- LlamaIndex
-- Product Hunt (discovery only)
-
-Important claims should always be checked against the original source linked by the project.
-
-## Project structure
-
-```text
-.
-├── .github/
-│   └── workflows/
-│       └── source-monitor.yml
-├── data/
-│   └── updates.json
-├── scripts/
-│   └── collect_updates.py
-├── index.html
-├── CONTRIBUTING.md
-└── README.md
-```
+The current monitor includes official or project release feeds for tools such as Ollama, LangChain, Hugging Face Transformers, ComfyUI, Open WebUI, Flowise, Langflow, n8n, and LlamaIndex. Product Hunt is included as a discovery-only source and should not be treated as an official release feed.
 
 ## Run locally
 
-You can serve the repository with any simple static HTTP server.
+No build step is required for the public site. Serve the repository with any local static server so the browser can load the JSON files.
 
-For example, with Python:
+For example:
 
 ```bash
 python -m http.server 8000
@@ -71,41 +56,69 @@ Then open:
 http://localhost:8000
 ```
 
-## Refresh update data manually
-
-Requires Python 3.12+.
+To refresh the monitored data manually:
 
 ```bash
 python scripts/collect_updates.py
 ```
 
-The command updates:
+To validate the curated tool catalog:
+
+```bash
+python scripts/validate_tools.py
+```
+
+## Project structure
 
 ```text
-data/updates.json
+.github/
+  ISSUE_TEMPLATE/
+  workflows/
+    source-monitor.yml
+    validate-tools.yml
+  PULL_REQUEST_TEMPLATE.md
+
+data/
+  tools.json
+  TOOLS_FORMAT.md
+  updates.json
+
+scripts/
+  collect_updates.py
+  validate_tools.py
+
+index.html
+CONTRIBUTING.md
+LICENSE
+README.md
 ```
 
 ## Contributing
 
-Contributions are welcome. Useful contributions include:
+Contributions are welcome. Good contribution areas include:
 
-- adding or correcting AI tool information
-- suggesting reliable monitored sources
-- improving Arabic or English copy
-- fixing accessibility or responsive-layout issues
-- improving collector reliability
-- adding tests and validation
+- correcting inaccurate tool descriptions;
+- adding or improving curated AI tools in `data/tools.json`;
+- adding reliable upstream release sources;
+- improving Arabic or English copy;
+- parser fixes and regression tests;
+- accessibility and UI improvements;
+- source-health and monitoring improvements.
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+Before opening a pull request, read [`CONTRIBUTING.md`](CONTRIBUTING.md). For tool catalog changes, also read [`data/TOOLS_FORMAT.md`](data/TOOLS_FORMAT.md) and run `python scripts/validate_tools.py`.
+
+## Maintenance approach
+
+Creative AI favors small, reviewable changes. Source additions should be verifiable, tool links should point to official destinations, and automated collection changes should preserve partial success when one upstream feed fails.
+
+## Project status
+
+The project is actively maintained. The current focus is making the repository easier for outside contributors to understand, test, and extend while keeping the public experience lightweight.
 
 ## Maintainer
 
 Primary maintainer: [@nael5x](https://github.com/nael5x)
 
-## Project status
-
-Creative AI is under active development. The public directory is usable today, while the open-source maintenance workflow, contribution process, testing, and release process are being expanded.
-
 ## License
 
-A project license has not been selected yet. Until a license is added, the repository should not be assumed to grant reuse or redistribution rights beyond GitHub's platform terms.
+Creative AI is available under the MIT License. See [`LICENSE`](LICENSE).
