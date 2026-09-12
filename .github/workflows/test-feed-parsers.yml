@@ -1,0 +1,29 @@
+name: Test feed parsers
+
+on:
+  pull_request:
+    paths:
+      - "scripts/collect_updates.py"
+      - "tests/**"
+      - ".github/workflows/test-feed-parsers.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/collect_updates.py"
+      - "tests/**"
+      - ".github/workflows/test-feed-parsers.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run feed parser regression tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
