@@ -1,7 +1,17 @@
+import json
+from pathlib import Path
+import tempfile
 import unittest
 import xml.etree.ElementTree as ET
 
-from scripts.collect_updates import atom, build_payload, collect_sources, error_summary, rss
+from scripts.collect_updates import (
+    atom,
+    build_payload,
+    collect_sources,
+    error_summary,
+    rss,
+    write_payload_if_changed,
+)
 
 
 SOURCE = "Test Source"
@@ -154,6 +164,68 @@ class SourceHealthTests(unittest.TestCase):
         self.assertLessEqual(len(summary), 32)
         self.assertNotIn("\n", summary)
         self.assertTrue(summary.startswith("RuntimeError:"))
+
+
+class PayloadWriteTests(unittest.TestCase):
+    def sample_payload(self, updated_at="2026-09-13T00:00:00+00:00"):
+        return {
+            "updatedAt": updated_at,
+            "items": [
+                {
+                    "id": "release-1",
+                    "title": "Release 1",
+                    "url": "https://example.com/releases/1",
+                    "publishedAt": "2026-09-12T12:00:00Z",
+                    "source": "Example",
+                    "kind": "Testing",
+                    "purpose": "Test payload writes.",
+                    "why": "Avoid noisy commits.",
+                }
+            ],
+            "sources": ["Example"],
+            "sourceHealth": {
+                "total": 1,
+                "ok": 1,
+                "failed": 0,
+                "sources": [
+                    {
+                        "source": "Example",
+                        "url": "https://example.com/feed.xml",
+                        "status": "ok",
+                        "items": 1,
+                    }
+                ],
+            },
+        }
+
+    def test_unchanged_payload_keeps_existing_file_untouched(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "updates.json"
+            previous = self.sample_payload("2026-09-12T00:00:00+00:00")
+            path.write_text(json.dumps(previous, indent=2) + "\n", encoding="utf-8")
+            before = path.read_text(encoding="utf-8")
+
+            changed = write_payload_if_changed(
+                self.sample_payload("2026-09-13T00:00:00+00:00"), path
+            )
+
+            self.assertFalse(changed)
+            self.assertEqual(path.read_text(encoding="utf-8"), before)
+
+    def test_changed_payload_rewrites_file(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "updates.json"
+            previous = self.sample_payload("2026-09-12T00:00:00+00:00")
+            path.write_text(json.dumps(previous, indent=2) + "\n", encoding="utf-8")
+            updated = self.sample_payload("2026-09-13T00:00:00+00:00")
+            updated["sourceHealth"]["sources"][0]["items"] = 2
+
+            changed = write_payload_if_changed(updated, path)
+
+            self.assertTrue(changed)
+            stored = json.loads(path.read_text(encoding="utf-8"))
+            self.assertEqual(stored["updatedAt"], "2026-09-13T00:00:00+00:00")
+            self.assertEqual(stored["sourceHealth"]["sources"][0]["items"], 2)
 
 
 if __name__ == "__main__":
