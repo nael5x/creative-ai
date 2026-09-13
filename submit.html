@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Submit a Tool — Creative AI</title>
+  <meta name="description" content="Suggest a new tool or correction for the Creative AI maintained catalog.">
+  <link rel="stylesheet" href="styles/design-system.css">
+  <link rel="stylesheet" href="styles/discovery-hub.css">
+</head>
+<body>
+<main class="wrap discovery-page">
+  <header class="top">
+    <a class="brand" href="./"><span class="brand-mark">&lt;/&gt;</span><span>Creative AI</span></a>
+    <nav class="nav" aria-label="Primary"><a href="tools.html" id="navTools">Tools</a><a href="categories.html" id="navCategories">Categories</a><a href="updates.html" id="navUpdates">Updates</a><a href="submit.html" aria-current="page" id="navSubmit">Submit</a></nav>
+    <div class="actions"><a class="btn github" href="https://github.com/nael5x/creative-ai" target="_blank" rel="noopener noreferrer">GitHub ↗</a><button class="lang" id="lang" type="button">العربية</button></div>
+  </header>
+
+  <section class="discovery-hero">
+    <div class="eyebrow" id="eyebrow">OPEN-SOURCE CATALOG</div>
+    <h1 id="title">Suggest a tool or fix catalog information.</h1>
+    <p id="intro">Submissions open a transparent GitHub issue for review. A submission is a suggestion, not automatic approval.</p>
+  </section>
+
+  <section class="submit-layout">
+    <form class="submit-panel" id="submitForm">
+      <h2 id="formTitle">Tool submission</h2>
+      <p id="formIntro">Give us the official source and enough context to verify the entry.</p>
+      <div class="submit-grid">
+        <label><span id="typeLabel">Request type</span><select id="type"><option value="new">New tool</option><option value="correction">Correction</option></select></label>
+        <label><span id="nameLabel">Tool name *</span><input id="toolName" required autocomplete="off"></label>
+        <label class="full"><span id="urlLabel">Official URL *</span><input id="toolUrl" type="url" required placeholder="https://example.com"></label>
+        <label><span id="categoryLabel">Category</span><input id="category" autocomplete="off" placeholder="Coding, Research, Video…"></label>
+        <label><span id="availabilityLabel">Availability</span><select id="availability"><option value="Unknown">Unknown</option><option value="Free">Free</option><option value="Free tier / Paid">Free tier / Paid</option><option value="Free / Paid">Free / Paid</option><option value="Paid">Paid</option><option value="Open source">Open source</option></select></label>
+        <label class="full"><span id="descriptionLabel">Short description *</span><textarea id="description" required></textarea></label>
+        <label class="full"><span id="evidenceLabel">Verification notes / sources</span><textarea id="evidence" placeholder="Pricing page, docs, GitHub repo, or what needs correcting"></textarea></label>
+      </div>
+      <div class="submit-actions"><button class="btn primary" type="submit" id="submitButton">Open GitHub issue →</button><a class="btn" id="templateLink" href="https://github.com/nael5x/creative-ai/issues/new?template=tool_submission.md" target="_blank" rel="noopener noreferrer">Use issue template</a></div>
+    </form>
+
+    <aside class="submit-panel">
+      <h2 id="reviewTitle">How review works</h2>
+      <p id="reviewText">Creative AI checks the official source before adding or changing catalog data. We do not promise inclusion, rankings, votes, or paid placement.</p>
+      <div class="submit-note" id="note">Please submit only information you can point back to an official or clearly verifiable source.</div>
+    </aside>
+  </section>
+</main>
+<script>
+const copy={
+ en:{eyebrow:"OPEN-SOURCE CATALOG",title:"Suggest a tool or fix catalog information.",intro:"Submissions open a transparent GitHub issue for review. A submission is a suggestion, not automatic approval.",tools:"Tools",categories:"Categories",updates:"Updates",submit:"Submit",formTitle:"Tool submission",formIntro:"Give us the official source and enough context to verify the entry.",type:"Request type",newTool:"New tool",correction:"Correction",name:"Tool name *",url:"Official URL *",category:"Category",availability:"Availability",description:"Short description *",evidence:"Verification notes / sources",submitButton:"Open GitHub issue →",template:"Use issue template",review:"How review works",reviewText:"Creative AI checks the official source before adding or changing catalog data. We do not promise inclusion, rankings, votes, or paid placement.",note:"Please submit only information you can point back to an official or clearly verifiable source."},
+ ar:{eyebrow:"دليل مفتوح المصدر",title:"اقترح أداة أو صحّح معلومات في الدليل.",intro:"الاقتراح يفتح Issue واضحة على GitHub للمراجعة. الإرسال اقتراح وليس موافقة تلقائية.",tools:"الأدوات",categories:"التصنيفات",updates:"التحديثات",submit:"اقترح",formTitle:"اقتراح أداة",formIntro:"أعطنا المصدر الرسمي ومعلومات كافية حتى نتحقق من الإدخال.",type:"نوع الطلب",newTool:"أداة جديدة",correction:"تصحيح",name:"اسم الأداة *",url:"الرابط الرسمي *",category:"التصنيف",availability:"التوفر",description:"وصف قصير *",evidence:"ملاحظات التحقق / المصادر",submitButton:"افتح Issue على GitHub ←",template:"استخدم قالب GitHub",review:"كيف تتم المراجعة",reviewText:"Creative AI يتحقق من المصدر الرسمي قبل إضافة أو تعديل بيانات الدليل. لا نَعِد بالإدراج أو الترتيب أو الأصوات أو الظهور المدفوع.",note:"أرسل فقط معلومات تستطيع ربطها بمصدر رسمي أو مصدر يمكن التحقق منه بوضوح."}
+};
+let lang=new URLSearchParams(location.search).get("lang")==="ar"?"ar":"en";const $=id=>document.getElementById(id);
+function apply(){const t=copy[lang];document.documentElement.lang=lang;document.documentElement.dir=lang==="ar"?"rtl":"ltr";document.body.classList.toggle("rtl",lang==="ar");$("lang").textContent=lang==="en"?"العربية":"English";$("eyebrow").textContent=t.eyebrow;$("title").textContent=t.title;$("intro").textContent=t.intro;$("navTools").textContent=t.tools;$("navCategories").textContent=t.categories;$("navUpdates").textContent=t.updates;$("navSubmit").textContent=t.submit;$("formTitle").textContent=t.formTitle;$("formIntro").textContent=t.formIntro;$("typeLabel").textContent=t.type;$("type").options[0].text=t.newTool;$("type").options[1].text=t.correction;$("nameLabel").textContent=t.name;$("urlLabel").textContent=t.url;$("categoryLabel").textContent=t.category;$("availabilityLabel").textContent=t.availability;$("descriptionLabel").textContent=t.description;$("evidenceLabel").textContent=t.evidence;$("submitButton").textContent=t.submitButton;$("templateLink").textContent=t.template;$("reviewTitle").textContent=t.review;$("reviewText").textContent=t.reviewText;$("note").textContent=t.note;$("navTools").href=`tools.html?lang=${lang}`;$("navCategories").href=`categories.html?lang=${lang}`;$("navUpdates").href=`updates.html?lang=${lang}`;history.replaceState({},"",lang==="ar"?"submit.html?lang=ar":"submit.html")}
+$("lang").onclick=()=>{lang=lang==="en"?"ar":"en";apply()};
+$("submitForm").onsubmit=e=>{e.preventDefault();const type=$("type").value,name=$("toolName").value.trim(),url=$("toolUrl").value.trim(),category=$("category").value.trim()||"Not specified",availability=$("availability").value,description=$("description").value.trim(),evidence=$("evidence").value.trim()||"Not provided";const title=`[Catalog ${type === "correction" ? "correction" : "submission"}] ${name}`;const body=`## Request type\n${type === "correction" ? "Correction" : "New tool"}\n\n## Tool name\n${name}\n\n## Official URL\n${url}\n\n## Category\n${category}\n\n## Availability\n${availability}\n\n## Short description\n${description}\n\n## Verification notes / sources\n${evidence}\n\n## Checklist\n- [ ] I used an official or clearly verifiable source.\n- [ ] I did not include private credentials or secrets.\n- [ ] I understand submission does not guarantee inclusion.`;const issue=`https://github.com/nael5x/creative-ai/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;window.open(issue,"_blank","noopener,noreferrer")};
+apply();
+</script>
+</body></html>
