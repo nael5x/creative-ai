@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "policy": "Only facts backed by a checked official source belong here. Missing facts stay unknown; absence must never be rendered as No.",
+  "tools": {
+    "ChatGPT": [
+      {
+        "id": "developer-api",
+        "value": "available",
+        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "sourceUrl": "https://platform.openai.com/docs/models",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "Claude": [
+      {
+        "id": "developer-api",
+        "value": "available",
+        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "sourceUrl": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-templates-and-variables",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "Gemini": [
+      {
+        "id": "developer-api",
+        "value": "available",
+        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "sourceUrl": "https://ai.google.dev/gemini-api/docs/get-started",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "ElevenLabs": [
+      {
+        "id": "developer-api",
+        "value": "available",
+        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "sourceUrl": "https://elevenlabs.io/docs/api-reference/introduction",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "Runway": [
+      {
+        "id": "developer-api",
+        "value": "available",
+        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "sourceUrl": "https://docs.dev.runwayml.com/",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "Hugging Face": [
+      {
+        "id": "inference-api",
+        "value": "available",
+        "label": {"en": "Inference API", "ar": "واجهة Inference API"},
+        "sourceUrl": "https://huggingface.co/docs/inference-endpoints/api_reference",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "n8n": [
+      {
+        "id": "self-hosting",
+        "value": "available",
+        "label": {"en": "Self-hosting", "ar": "استضافة ذاتية"},
+        "sourceUrl": "https://support.n8n.io/section/n8n-self-hosted-faq-uly57w0tlb2uq2l0yn1byx9o",
+        "verifiedAt": "2026-09-13"
+      }
+    ]
+  }
+}
