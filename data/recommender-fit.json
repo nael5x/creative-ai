@@ -1,0 +1,138 @@
+{
+  "ChatGPT": {
+    "w": {"writing": 5.0, "research": 4.2, "study": 4.4},
+    "fit": {"en": "A broad general-purpose assistant that is easy to start with for writing, analysis and working with files.", "ar": "مساعد عام واسع الاستخدام وسهل للبدء في الكتابة والتحليل والعمل مع الملفات."}
+  },
+  "Claude": {
+    "w": {"writing": 4.9, "coding": 3.8, "study": 4.8},
+    "fit": {"en": "Strong for careful long-form reasoning, document work and explaining complex code or ideas.", "ar": "مناسب للتفكير المتأني والمستندات الطويلة وشرح الأكواد أو الأفكار المعقدة."}
+  },
+  "Gemini": {
+    "w": {"writing": 4.3, "research": 4.4, "study": 4.1},
+    "fit": {"en": "A practical choice for users already working across Google products and multimodal tasks.", "ar": "خيار عملي لمن يعمل كثيرًا ضمن خدمات Google والمهام متعددة الوسائط."}
+  },
+  "Perplexity": {
+    "w": {"research": 5.0, "study": 4.0},
+    "fit": {"en": "Built around web research with visible sources, making it useful when traceability matters.", "ar": "مخصص للبحث على الويب مع إظهار المصادر، لذلك يفيد عندما يهمك معرفة أصل المعلومات."}
+  },
+  "NotebookLM": {
+    "w": {"research": 4.5, "study": 5.0},
+    "fit": {"en": "Best suited to learning from a defined set of your own documents, notes and links.", "ar": "مناسب جدًا للدراسة من مجموعة محددة من ملفاتك وملاحظاتك وروابطك."}
+  },
+  "Midjourney": {
+    "w": {"images": 5.0, "design": 4.0},
+    "fit": {"en": "Focused on polished creative image generation when visual quality and style exploration matter most.", "ar": "يركز على توليد صور إبداعية مصقولة عندما تكون الجودة البصرية واستكشاف الأسلوب هي الأولوية."}
+  },
+  "Adobe Firefly": {
+    "w": {"images": 4.3, "design": 4.3},
+    "fit": {"en": "Fits design workflows that benefit from quick generation and close integration with Adobe tools.", "ar": "مناسب لتدفقات التصميم التي تستفيد من التوليد السريع والتكامل مع أدوات Adobe."}
+  },
+  "Canva AI": {
+    "w": {"images": 4.0, "video": 3.4, "design": 4.8},
+    "fit": {"en": "Easy for quickly turning ideas into social graphics, presentations and lightweight branded content.", "ar": "سهل لتحويل الأفكار بسرعة إلى تصاميم للسوشيال وعروض ومحتوى بسيط بهوية واضحة."}
+  },
+  "Runway": {
+    "w": {"video": 5.0},
+    "fit": {"en": "A focused video tool for generation, editing and visual effects in one creative workflow.", "ar": "أداة فيديو مركزة تجمع التوليد والتحرير والمؤثرات البصرية ضمن سير عمل إبداعي واحد."}
+  },
+  "Pika": {
+    "w": {"video": 4.3},
+    "fit": {"en": "A simple starting point for short prompt-based video experiments and social-style clips.", "ar": "نقطة بداية سهلة لتجارب الفيديو القصير بالبرومبت والمقاطع المناسبة للسوشيال."}
+  },
+  "Luma Dream Machine": {
+    "w": {"video": 4.6},
+    "fit": {"en": "Useful when the goal is cinematic motion from text or a still image with relatively direct controls.", "ar": "مفيد عندما يكون الهدف حركة سينمائية من نص أو صورة ثابتة مع تحكم مباشر نسبيًا."}
+  },
+  "ElevenLabs": {
+    "w": {"audio": 5.0},
+    "fit": {"en": "A focused option for natural speech, narration and multilingual voice generation.", "ar": "خيار متخصص للصوت الطبيعي والسرد وتوليد الأصوات متعددة اللغات."}
+  },
+  "Suno": {
+    "w": {"audio": 4.7},
+    "fit": {"en": "Designed for generating songs and music ideas quickly from a prompt.", "ar": "مصمم لإنشاء الأغاني والأفكار الموسيقية بسرعة من وصف نصي."}
+  },
+  "Cursor": {
+    "w": {"coding": 5.0},
+    "fit": {"en": "A coding-first editor that works directly with a repository, making it a strong fit for building and changing real codebases.", "ar": "محرر برمجة مخصص للعمل مع المستودع مباشرة، لذلك يناسب بناء وتعديل مشاريع برمجية حقيقية."}
+  },
+  "GitHub Copilot": {
+    "w": {"coding": 4.8},
+    "fit": {"en": "Fits developers who want AI help inside an existing editor and GitHub-centered development workflow.", "ar": "مناسب للمطور الذي يريد مساعدة AI داخل محرره الحالي وسير عمل يعتمد على GitHub."}
+  },
+  "Windsurf": {
+    "w": {"coding": 4.7},
+    "fit": {"en": "A coding environment aimed at coordinated agent-style changes across multiple project files.", "ar": "بيئة برمجة مناسبة للتعديلات المنسقة بأسلوب الوكلاء عبر عدة ملفات في المشروع."}
+  },
+  "Replit": {
+    "w": {"coding": 4.2},
+    "fit": {"en": "A convenient browser-based option for coding, experimenting and deploying without local setup.", "ar": "خيار مريح للبرمجة والتجربة والنشر من المتصفح دون إعداد محلي."}
+  },
+  "v0": {
+    "w": {"coding": 3.9, "design": 4.6},
+    "fit": {"en": "Best when the coding task is specifically about rapidly producing React interfaces and UI prototypes.", "ar": "مناسب عندما تكون مهمة البرمجة تحديدًا إنشاء واجهات React ونماذج UI بسرعة."}
+  },
+  "Lovable": {
+    "w": {"coding": 3.8, "design": 4.4},
+    "fit": {"en": "Useful for turning a product idea into a working web-app prototype with minimal setup.", "ar": "مفيد لتحويل فكرة منتج إلى نموذج أولي لتطبيق ويب يعمل مع إعداد بسيط."}
+  },
+  "n8n": {
+    "w": {"automation": 5.0},
+    "fit": {"en": "A strong fit for advanced automations when self-hosting, extensibility or local control matters.", "ar": "مناسب للأتمتة المتقدمة عندما يهمك الاستضافة الذاتية أو قابلية التوسعة أو التحكم المحلي."}
+  },
+  "Make": {
+    "w": {"automation": 4.6},
+    "fit": {"en": "A visual automation builder that is approachable for multi-step workflows without heavy coding.", "ar": "منشئ أتمتة مرئي وسهل نسبيًا لتدفقات العمل متعددة الخطوات دون برمجة ثقيلة."}
+  },
+  "Zapier": {
+    "w": {"automation": 4.4},
+    "fit": {"en": "A straightforward choice for common trigger-and-action automations across many popular services.", "ar": "خيار مباشر لأتمتة مهام التشغيل والإجراء بين عدد كبير من الخدمات المعروفة."}
+  },
+  "Ollama": {
+    "w": {"writing": 3.4, "research": 3.2, "coding": 3.6, "local": 5.0},
+    "fit": {"en": "A strong local-first option for running supported models on your own machine with direct control.", "ar": "خيار قوي للتشغيل المحلي للنماذج المدعومة على جهازك مع تحكم مباشر."}
+  },
+  "LM Studio": {
+    "w": {"writing": 3.2, "research": 3.1, "coding": 3.3, "local": 4.8},
+    "fit": {"en": "An approachable desktop route to downloading and using local language models through a graphical interface.", "ar": "طريقة سهلة نسبيًا لتنزيل واستخدام نماذج اللغة محليًا عبر واجهة رسومية."}
+  },
+  "Open WebUI": {
+    "w": {"writing": 3.1, "research": 3.0, "coding": 3.2, "local": 4.7},
+    "fit": {"en": "Useful as a browser-friendly interface over local or remote models, especially around Ollama-style setups.", "ar": "مفيد كواجهة متصفح للنماذج المحلية أو البعيدة، خصوصًا مع إعدادات شبيهة بـ Ollama."}
+  },
+  "ComfyUI": {
+    "w": {"images": 4.8, "local": 4.2},
+    "fit": {"en": "A strong advanced choice for local, node-based image generation workflows with deep control.", "ar": "خيار متقدم وقوي لتدفقات توليد الصور المحلية القائمة على العقد مع تحكم عميق."}
+  },
+  "Hugging Face": {
+    "w": {"research": 3.8, "coding": 3.6, "local": 3.9},
+    "fit": {"en": "Fits developers and researchers who need access to open models, datasets, demos and model ecosystem resources.", "ar": "مناسب للمطورين والباحثين الذين يحتاجون نماذج مفتوحة وبيانات وعروضًا تجريبية وموارد للنماذج."}
+  },
+  "LangChain": {
+    "w": {"coding": 3.9, "automation": 4.0},
+    "fit": {"en": "A developer framework for assembling LLM applications, tools, agents and retrieval workflows.", "ar": "إطار للمطورين لبناء تطبيقات LLM والأدوات والوكلاء وتدفقات الاسترجاع."}
+  },
+  "LlamaIndex": {
+    "w": {"coding": 3.8, "research": 4.0},
+    "fit": {"en": "Best aligned with developer workflows that connect private data and documents to LLM applications.", "ar": "مناسب لتدفقات التطوير التي تربط البيانات والمستندات الخاصة بتطبيقات النماذج اللغوية."}
+  },
+  "Flowise": {
+    "w": {"coding": 3.7, "automation": 4.3},
+    "fit": {"en": "A visual way to assemble LLM and RAG workflows without hand-coding every component.", "ar": "طريقة مرئية لبناء تدفقات LLM وRAG دون برمجة كل مكوّن يدويًا."}
+  },
+  "Figma AI": {
+    "w": {"design": 4.7},
+    "fit": {"en": "Fits product and interface design work where collaboration and editable design files matter.", "ar": "مناسب لتصميم المنتجات والواجهات عندما يهمك التعاون وملفات التصميم القابلة للتحرير."}
+  },
+  "Gamma": {
+    "w": {"design": 4.5},
+    "fit": {"en": "A quick route from outline to presentation or document when speed matters more than deep manual layout.", "ar": "طريقة سريعة لتحويل مخطط إلى عرض أو مستند عندما تكون السرعة أهم من التحكم اليدوي العميق."}
+  },
+  "Notion AI": {
+    "w": {"writing": 4.0, "study": 3.9},
+    "fit": {"en": "Fits writing and summarization inside an existing Notion knowledge workflow.", "ar": "مناسب للكتابة والتلخيص ضمن سير عمل يعتمد أصلًا على Notion."}
+  },
+  "Grammarly": {
+    "w": {"writing": 4.2},
+    "fit": {"en": "A focused writing assistant for grammar, tone and polishing professional English text.", "ar": "مساعد كتابة متخصص في القواعد والنبرة وصقل النصوص الإنجليزية الاحترافية."}
+  }
+}
