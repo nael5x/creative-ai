@@ -2,12 +2,17 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+HOME = (ROOT / "index.html").read_text(encoding="utf-8")
 TOOLS = (ROOT / "tools.html").read_text(encoding="utf-8")
 DETAIL = (ROOT / "tool.html").read_text(encoding="utf-8")
 CATALOG_CSS = (ROOT / "styles" / "catalog.css").read_text(encoding="utf-8")
 
 
 class ToolsDiscoveryContractTests(unittest.TestCase):
+    def test_homepage_links_to_dedicated_database(self):
+        self.assertIn('id="navTools" href="tools.html"', HOME)
+        self.assertIn('$("navTools").href="tools.html"+q', HOME)
+
     def test_database_uses_maintained_project_sources(self):
         for source in ("data/tools.json", "data/recommender.json", "data/recommender-fit.json"):
             self.assertIn(source, TOOLS)
