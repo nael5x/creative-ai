@@ -1,0 +1,37 @@
+@import url("./design-system.css");
+
+/* Shared Developer Studio skin for Finder, Compare, Alternatives and My Stack. */
+:root{--page-panel:rgba(14,21,27,.9);--page-panel-2:rgba(17,26,32,.92);--page-border:#263640;--page-border-hover:#35515b}
+body{background-color:var(--bg);background-image:linear-gradient(rgba(120,148,156,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(120,148,156,.045) 1px,transparent 1px),radial-gradient(850px 500px at 76% 5%,rgba(38,113,119,.09),transparent 64%)!important;background-size:42px 42px,42px 42px,auto!important;background-attachment:fixed!important;color:var(--text)!important}
+.wrap{max-width:1180px!important;width:min(1180px,calc(100% - 40px))!important;padding:0!important}
+.top{min-height:68px!important;padding:0!important;border-bottom:1px solid var(--line-soft)!important}
+.brand{display:inline-flex!important;align-items:center!important;gap:8px!important;color:var(--text)!important;font-size:19px!important;font-weight:900!important;letter-spacing:-.45px!important}
+.brand i{background:transparent!important;color:var(--accent)!important;border:1px solid rgba(103,232,189,.28)!important;border-radius:8px!important;padding:3px 6px!important;font:800 11px/1 var(--mono)!important;margin-left:2px!important}
+.actions{gap:7px!important}
+.btn,button,select,input{border-color:var(--line)!important;background:rgba(15,21,27,.9)!important;color:var(--text)!important;border-radius:10px!important}
+.btn:hover,button:hover{border-color:#3a545e!important;background:#121b22!important}
+button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid rgba(103,232,189,.72)!important;outline-offset:3px!important}
+.primary{background:var(--accent)!important;border-color:var(--accent)!important;color:#07100d!important}
+.hero{padding:70px 0 30px!important;max-width:930px!important;display:block!important}
+.eyebrow,.rank,.slot,.block h3,.block h4,.fitbox b{font-family:var(--mono)!important;color:#9bb0b2!important;letter-spacing:.12em!important}
+.hero h1{font-size:clamp(43px,6.2vw,72px)!important;line-height:1!important;letter-spacing:-.055em!important;margin:13px 0 18px!important;max-width:900px!important}
+.hero p{font-size:17px!important;line-height:1.7!important;color:var(--muted)!important;max-width:780px!important}
+.promise{gap:7px!important;margin-top:20px!important}.promise span{font:11px/1.4 var(--mono)!important;color:#a8b5b7!important;border-color:var(--line)!important;background:rgba(14,21,27,.76)!important;padding:6px 9px!important}
+.panel,.selector{background:linear-gradient(180deg,rgba(17,26,32,.94),rgba(12,18,23,.94))!important;border-color:var(--page-border)!important;border-radius:18px!important;box-shadow:0 20px 55px rgba(0,0,0,.2)!important}
+.field label{font-size:12px!important;color:#c9d3d4!important}
+.field select,.search{min-height:46px!important;background:#0d1419!important}
+.helper,.results-head p,.panel p,.selected p,.meta,.fit{color:var(--muted)!important}
+.results-head h2,.panel h2,.selected h2{letter-spacing:-.035em!important}
+.grid,.compare,.stack-list,.catalog{gap:10px!important}
+.card,.tool,.toolrow,.stackrow,.selected{background:rgba(14,21,27,.9)!important;border-color:var(--page-border)!important;border-radius:14px!important;box-shadow:none!important;transition:transform .16s ease,border-color .16s ease,background .16s ease!important}
+.card:hover,.tool:hover,.toolrow:hover,.stackrow:hover{transform:translateY(-2px)!important;border-color:var(--page-border-hover)!important;background:#101920!important}
+.card.top-match{border-color:#356257!important;box-shadow:0 0 0 1px rgba(103,232,189,.06)!important}
+.tag,.chip,.availability,.preference span{background:#111a20!important;border:1px solid #2a3940!important;color:#aebbbc!important}
+.tag.good{background:#0e2319!important;border-color:#254939!important;color:#b9e8cb!important}.tag.open{background:#10242a!important;border-color:#28505a!important;color:#acdbe4!important}
+.open,.compare,.open-link,.official{border-color:#30434c!important;color:#c9d6d7!important}.open:hover,.compare:hover,.open-link:hover{border-color:#3f5d68!important;background:#121d24!important}
+.note{border-color:var(--accent)!important;background:rgba(14,21,27,.86)!important;color:var(--muted)!important}
+.position{background:var(--accent-soft)!important;color:var(--accent)!important}
+.shared{border-color:#31554d!important;background:#0e1917!important}.danger{color:var(--danger)!important}
+.rtl .brand i{margin-right:2px!important;margin-left:0!important}
+@media(max-width:680px){body{background-size:34px 34px,34px 34px,auto!important}.wrap{width:min(100% - 28px,1180px)!important}.top{min-height:58px!important}.hero{padding:48px 0 24px!important}.hero h1{font-size:clamp(39px,12vw,56px)!important}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important}}
