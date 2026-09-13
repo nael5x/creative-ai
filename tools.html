@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Tools Database — Creative AI</title>
+  <meta name="description" content="Search and filter the Creative AI maintained tools catalog by task, category and availability.">
+  <link rel="stylesheet" href="styles/design-system.css">
+  <link rel="stylesheet" href="styles/catalog.css">
+</head>
+<body>
+<main class="wrap catalog-page">
+  <header class="top">
+    <a class="brand" href="./"><span class="brand-mark">&lt;/&gt;</span><span>Creative AI</span></a>
+    <nav class="nav" aria-label="Primary"><a href="tools.html" aria-current="page">Tools</a><a href="compare.html?lang=en" id="navCompare">Compare</a><a href="alternatives.html?lang=en" id="navAlt">Alternatives</a><a href="stack.html?lang=en" id="navStack">My Stack</a></nav>
+    <div class="actions"><a class="btn github" href="https://github.com/nael5x/creative-ai" target="_blank" rel="noopener noreferrer">GitHub ↗</a><button class="lang" id="lang" type="button">العربية</button></div>
+  </header>
+
+  <section class="catalog-hero">
+    <div class="eyebrow" id="eyebrow">MAINTAINED TOOL DATABASE</div>
+    <h1 id="title">Explore tools by what actually matters.</h1>
+    <p id="intro">Search by name, task or category, then narrow the catalog by availability. Creative AI does not use fake popularity scores.</p>
+  </section>
+
+  <section class="catalog-shell">
+    <aside class="filters" aria-label="Filters">
+      <h2 id="filtersTitle">Filters</h2>
+      <div class="filter-group"><h3 id="availabilityTitle">Availability</h3><div class="filter-list" id="availabilityFilters"></div></div>
+      <div class="filter-group"><h3 id="viewTitle">View</h3><div class="filter-list"><button class="filter-btn active" type="button" data-view="all" id="allView">All tools</button><button class="filter-btn" type="button" data-view="open" id="openView">Open source</button><button class="filter-btn" type="button" data-view="free" id="freeView">Free-friendly</button></div></div>
+      <div class="filter-group"><h3 id="quickTitle">Quick paths</h3><div class="filter-list"><a class="filter-btn" id="finderLink" href="recommend.html?lang=en">Guided finder →</a><a class="filter-btn" id="compareLink" href="compare.html?lang=en">Compare tools →</a></div></div>
+    </aside>
+
+    <div class="catalog-main">
+      <div class="catalog-toolbar">
+        <label class="catalog-search"><input id="search" type="search" autocomplete="off" placeholder="Search by name, task or category…"></label>
+        <label class="sort"><select id="sort"><option value="name">Name A–Z</option><option value="category">Category</option><option value="availability">Availability</option></select></label>
+      </div>
+      <div class="category-strip" id="categories"></div>
+      <div class="catalog-meta"><span id="resultCount">Loading tools…</span><span id="methodNote">Maintained catalog data · no vote or popularity ranking</span></div>
+      <div class="tool-grid" id="toolGrid"><div class="empty-catalog">Loading tools…</div></div>
+      <div class="pager"><button id="prev" type="button">← Previous</button><button id="next" type="button">Next →</button></div>
+    </div>
+  </section>
+</main>
+<script>
+const copy={
+ en:{eyebrow:"MAINTAINED TOOL DATABASE",title:"Explore tools by what actually matters.",intro:"Search by name, task or category, then narrow the catalog by availability. Creative AI does not use fake popularity scores.",filters:"Filters",availability:"Availability",view:"View",all:"All tools",open:"Open source",free:"Free-friendly",quick:"Quick paths",finder:"Guided finder →",compare:"Compare tools →",placeholder:"Search by name, task or category…",count:n=>`${n} tool${n===1?"":"s"} found`,method:"Maintained catalog data · no vote or popularity ranking",previous:"← Previous",next:"Next →",details:"View details",best:"Best for",any:"Any availability",freeTier:"Free / free tier",paid:"Paid",openSource:"Open source",categoryAll:"All categories",empty:"No tools match these filters.",sortName:"Name A–Z",sortCategory:"Category",sortAvailability:"Availability"},
+ ar:{eyebrow:"قاعدة أدوات مُصانة",title:"استكشف الأدوات حسب الأشياء التي تهم فعلًا.",intro:"ابحث بالاسم أو المهمة أو التصنيف ثم ضيّق النتائج حسب التوفر. Creative AI لا يستخدم تقييمات شعبية وهمية.",filters:"الفلاتر",availability:"التوفر",view:"العرض",all:"كل الأدوات",open:"مفتوح المصدر",free:"مناسب للبدء مجانًا",quick:"مسارات سريعة",finder:"مساعد الاختيار ←",compare:"قارن الأدوات ←",placeholder:"ابحث بالاسم أو المهمة أو التصنيف…",count:n=>`تم العثور على ${n} أداة`,method:"بيانات الدليل المصانة · بدون ترتيب أصوات أو شعبية",previous:"السابق →",next:"← التالي",details:"عرض التفاصيل",best:"مناسبة لـ",any:"كل أنواع التوفر",freeTier:"مجاني / خطة مجانية",paid:"مدفوع",openSource:"مفتوح المصدر",categoryAll:"كل التصنيفات",empty:"لا توجد أدوات مطابقة لهذه الفلاتر.",sortName:"الاسم أ–ي",sortCategory:"التصنيف",sortAvailability:"التوفر"}
+};
+const categoryAr={"Writing & research":"الكتابة والبحث","Writing & coding":"الكتابة والبرمجة","Research & Google":"بحث وخدمات Google","Research":"بحث","Learn from your files":"التعلم من الملفات","Images":"صور","Images & design":"صور وتصميم","Design":"تصميم","Video":"فيديو","Voice & audio":"صوت","Music":"موسيقى","Coding":"برمجة","Web UI":"واجهات ويب","Web apps":"تطبيقات ويب","Build & deploy":"بناء ونشر","Automation":"أتمتة","Local models":"نماذج محلية","Local AI UI":"واجهة AI محلية","Image workflows":"تدفقات صور","Models & datasets":"نماذج وبيانات","AI development":"تطوير AI","Visual AI builder":"بناء AI مرئي","Product design":"تصميم منتجات","Presentations":"عروض","Knowledge work":"إدارة معرفة","Writing":"كتابة"};
+let lang=new URLSearchParams(location.search).get("lang")==="ar"?"ar":"en",catalog=[],config=null,fitMeta={},query="",availabilityFilter="any",view="all",category="all",sortMode="name",page=1;const PAGE_SIZE=24;const $=id=>document.getElementById(id);const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+function validTool(row){return Array.isArray(row)&&row.length===6&&row.every(v=>typeof v==="string"&&v.trim())&&/^https?:\/\//.test(row[5]);}
+function profile(name){return config?.profiles?.[name]||null}function fit(name){return fitMeta?.[name]?.fit?.[lang]||""}function categoryLabel(value){return lang==="ar"?(categoryAr[value]||value):value}function availabilityLabel(value){if(lang==="en")return value;return value==="Open source"?"مفتوح المصدر":value==="Free"?"مجاني":value==="Paid"?"مدفوع":value==="Free / Paid"?"مجاني / مدفوع":value==="Free tier / Paid"?"خطة مجانية / مدفوع":value}
+function isFree(row){return /free|open source/i.test(row[4])}function isOpen(row){return row[4]==="Open source"}
+function toolSearchText(row){const p=profile(row[0]);return [row[0],row[1],row[2],row[3],...(p?.tasks||[]),...(p?.traits||[])].join(" ").toLowerCase()}
+function filtered(){let rows=catalog.filter(row=>toolSearchText(row).includes(query.toLowerCase()));if(availabilityFilter!=="any")rows=rows.filter(row=>row[4]===availabilityFilter);if(view==="open")rows=rows.filter(isOpen);if(view==="free")rows=rows.filter(isFree);if(category!=="all")rows=rows.filter(row=>row[1]===category);rows.sort((a,b)=>sortMode==="category"?a[1].localeCompare(b[1])||a[0].localeCompare(b[0]):sortMode==="availability"?a[4].localeCompare(b[4])||a[0].localeCompare(b[0]):a[0].localeCompare(b[0]));return rows}
+function renderFilters(){const t=copy[lang],values=[...new Set(catalog.map(x=>x[4]))].sort();$("availabilityFilters").innerHTML=`<button class="filter-btn ${availabilityFilter==="any"?"active":""}" data-availability="any">${esc(t.any)}</button>`+values.map(v=>`<button class="filter-btn ${availabilityFilter===v?"active":""}" data-availability="${esc(v)}">${esc(availabilityLabel(v))}</button>`).join("");document.querySelectorAll("[data-availability]").forEach(b=>b.onclick=()=>{availabilityFilter=b.dataset.availability;page=1;render()});document.querySelectorAll("[data-view]").forEach(b=>{b.classList.toggle("active",b.dataset.view===view);b.onclick=()=>{view=b.dataset.view;page=1;render()}})}
+function renderCategories(){const t=copy[lang],values=[...new Set(catalog.map(x=>x[1]))].sort();$("categories").innerHTML=`<button class="category-chip ${category==="all"?"active":""}" data-category="all">${esc(t.categoryAll)}</button>`+values.map(v=>`<button class="category-chip ${category===v?"active":""}" data-category="${esc(v)}">${esc(categoryLabel(v))}</button>`).join("");document.querySelectorAll("[data-category]").forEach(b=>b.onclick=()=>{category=b.dataset.category;page=1;render()})}
+function renderCards(){const t=copy[lang],rows=filtered(),pages=Math.max(1,Math.ceil(rows.length/PAGE_SIZE));page=Math.min(page,pages);const visible=rows.slice((page-1)*PAGE_SIZE,page*PAGE_SIZE);$("resultCount").textContent=t.count(rows.length);$("toolGrid").innerHTML=visible.length?visible.map(row=>{const cls=isOpen(row)?"open":"",text=fit(row[0])||row[3],url=`tool.html?tool=${encodeURIComponent(row[0])}&lang=${lang}`;return `<article class="tool-card"><div class="mini-tags"><span class="mini-tag">${esc(categoryLabel(row[1]))}</span><span class="mini-tag ${cls}">${esc(availabilityLabel(row[4]))}</span></div><h2>${esc(row[0])}</h2><p><b>${esc(t.best)}:</b> ${esc(text)}</p><div class="card-foot"><span class="source">${esc(t.details)} →</span></div><a class="detail-link" href="${esc(url)}" aria-label="${esc(t.details+" "+row[0])}">${esc(t.details)}</a></article>`}).join(""):`<div class="empty-catalog">${esc(t.empty)}</div>`;$("prev").disabled=page<=1;$("next").disabled=page>=pages}
+function render(){renderFilters();renderCategories();renderCards()}
+function applyLanguage(){const t=copy[lang];document.documentElement.lang=lang;document.documentElement.dir=lang==="ar"?"rtl":"ltr";document.body.classList.toggle("rtl",lang==="ar");document.title=lang==="ar"?"قاعدة أدوات AI — Creative AI":"AI Tools Database — Creative AI";$("lang").textContent=lang==="en"?"العربية":"English";$("eyebrow").textContent=t.eyebrow;$("title").textContent=t.title;$("intro").textContent=t.intro;$("filtersTitle").textContent=t.filters;$("availabilityTitle").textContent=t.availability;$("viewTitle").textContent=t.view;$("allView").textContent=t.all;$("openView").textContent=t.open;$("freeView").textContent=t.free;$("quickTitle").textContent=t.quick;$("finderLink").textContent=t.finder;$("compareLink").textContent=t.compare;$("search").placeholder=t.placeholder;$("methodNote").textContent=t.method;$("prev").textContent=t.previous;$("next").textContent=t.next;$("sort").options[0].text=t.sortName;$("sort").options[1].text=t.sortCategory;$("sort").options[2].text=t.sortAvailability;const q=`?lang=${lang}`;$("navCompare").href="compare.html"+q;$("navAlt").href="alternatives.html"+q;$("navStack").href="stack.html"+q;$("finderLink").href="recommend.html"+q;$("compareLink").href="compare.html"+q;history.replaceState({},"",lang==="ar"?"tools.html?lang=ar":"tools.html");render()}
+$("search").oninput=e=>{query=e.target.value;page=1;renderCards()};$("sort").onchange=e=>{sortMode=e.target.value;page=1;renderCards()};$("prev").onclick=()=>{page=Math.max(1,page-1);renderCards();scrollTo({top:250,behavior:"smooth"})};$("next").onclick=()=>{page++;renderCards();scrollTo({top:250,behavior:"smooth"})};$("lang").onclick=()=>{lang=lang==="en"?"ar":"en";applyLanguage()};
+Promise.all([fetch("data/tools.json",{cache:"no-store"}),fetch("data/recommender.json",{cache:"no-store"}),fetch("data/recommender-fit.json",{cache:"no-store"})]).then(async([a,b,c])=>{if(!a.ok||!b.ok||!c.ok)throw new Error("load failed");catalog=(await a.json()).filter(validTool);config=await b.json();fitMeta=await c.json();applyLanguage()}).catch(()=>{$("toolGrid").innerHTML='<div class="empty-catalog">Unable to load the catalog.</div>'});
+</script>
+</body></html>
