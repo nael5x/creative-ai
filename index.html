@@ -3,114 +3,135 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Creative AI — Find the right tool for your workflow</title>
-  <meta name="description" content="Find, compare and organize useful AI tools with clear bilingual guidance.">
+  <title>Creative AI — Find, compare and track useful AI tools</title>
+  <meta name="description" content="A maintained bilingual AI tools discovery hub with search, categories, comparison, alternatives, stacks and official-source updates.">
   <link rel="stylesheet" href="styles/design-system.css">
+  <link rel="stylesheet" href="styles/home-hub.css">
 </head>
 <body>
-  <main class="wrap">
-    <header class="top">
-      <a class="brand" href="./"><span class="brand-mark">&lt;/&gt;</span><span>Creative AI</span></a>
-      <nav class="nav" aria-label="Primary">
-        <a id="navTools" href="tools.html">Tools</a>
-        <a id="navCompare" href="compare.html?lang=en">Compare</a>
-        <a id="navAlternatives" href="alternatives.html?lang=en">Alternatives</a>
-        <a id="navStack" href="stack.html?lang=en">My Stack</a>
-        <a id="navUpdates" href="#updatesSection">Updates</a>
-      </nav>
-      <div class="actions">
-        <a class="btn github" href="https://github.com/nael5x/creative-ai" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-        <button class="lang" id="lang" type="button" aria-label="Switch language">العربية</button>
-      </div>
-    </header>
+<main class="wrap">
+  <header class="top">
+    <a class="brand" href="./"><span class="brand-mark">&lt;/&gt;</span><span>Creative AI</span></a>
+    <nav class="nav" aria-label="Primary">
+      <a id="navTools" href="tools.html">Tools</a>
+      <a id="navCategories" href="categories.html">Categories</a>
+      <a id="navNew" href="new.html">New</a>
+      <a id="navUpdates" href="updates.html">Updates</a>
+      <a id="navCompare" href="compare.html?lang=en">Compare</a>
+    </nav>
+    <div class="actions">
+      <a class="btn github" href="https://github.com/nael5x/creative-ai" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <button class="lang" id="lang" type="button" aria-label="Switch language">العربية</button>
+    </div>
+  </header>
 
-    <section class="hero">
-      <div class="hero-copy">
-        <div class="eyebrow" id="eyebrow">DISCOVER. COMPARE. BUILD.</div>
-        <h1 id="title">Find the right tool for your <span class="accent-word">workflow.</span></h1>
-        <p id="intro">Search, compare, find alternatives, and build a stack that fits the way you actually work.</p>
-        <div class="command">
-          <span class="command-icon">⌕</span>
-          <span class="command-copy" id="commandText">Tell us what you want to do.</span>
-          <a class="btn primary" id="heroFinder" href="recommend.html?lang=en">Find tools →</a>
+  <section class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow" id="eyebrow">DISCOVER. COMPARE. BUILD.</div>
+      <h1 id="title">Find the right tool for your <span class="accent-word">workflow.</span></h1>
+      <p id="intro">Search a maintained catalog, browse categories, compare practical differences, track official updates and build a stack that fits how you work.</p>
+      <div class="command">
+        <span class="command-icon">⌕</span>
+        <span class="command-copy" id="commandText">Tell us what you want to do.</span>
+        <a class="btn primary" id="heroFinder" href="recommend.html?lang=en">Find tools →</a>
+      </div>
+      <div class="quick" aria-label="Quick paths">
+        <a id="quickBuild" href="recommend.html?task=coding&budget=any&priority=easy&lang=en">Build a website</a>
+        <a id="quickCode" href="recommend.html?task=coding&budget=free&priority=easy&lang=en">Write code</a>
+        <a id="quickResearch" href="recommend.html?task=research&budget=any&priority=easy&lang=en">Research</a>
+        <a id="quickLocal" href="recommend.html?task=local&budget=open-source&priority=privacy&lang=en">Run AI locally</a>
+      </div>
+      <div class="catalog-facts" aria-label="Catalog facts">
+        <span class="catalog-fact"><strong id="toolCount">—</strong> <span id="toolCountLabel">maintained tools</span></span>
+        <span class="catalog-fact"><strong id="categoryCount">—</strong> <span id="categoryCountLabel">categories</span></span>
+        <span class="catalog-fact"><strong id="sourceCount">—</strong> <span id="sourceCountLabel">monitored sources</span></span>
+      </div>
+    </div>
+
+    <div class="editor" aria-hidden="true">
+      <div class="editor-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="editor-title">creative-ai / discover.js</span></div>
+      <div class="editor-body">
+        <div class="editor-side"><b>creative-ai</b>⌄ tools<br>⌄ categories<br>⌄ compare<br>⌄ alternatives<br>⌄ my-stack<br><br><b>workflow</b>research<br>create<br>automate<br>ship</div>
+        <div class="code">
+          <div class="code-line"><span class="c">// discover from maintained data</span></div>
+          <div class="code-line"><span class="k">const</span> goal = <span class="s">"build"</span>;</div>
+          <div class="code-line"><span class="k">const</span> signals = [</div>
+          <div class="code-line">&nbsp;&nbsp;<span class="s">"task"</span>,</div>
+          <div class="code-line">&nbsp;&nbsp;<span class="s">"availability"</span>,</div>
+          <div class="code-line">&nbsp;&nbsp;<span class="s">"maintained-data"</span></div>
+          <div class="code-line">];</div><br>
+          <div class="code-line"><span class="k">function</span> <span class="f">discover</span>(goal) {</div>
+          <div class="code-line">&nbsp;&nbsp;<span class="k">return</span> creativeAI.match(goal);</div>
+          <div class="code-line">}</div><br>
+          <div class="code-line">discover(goal); <span class="cursor"></span></div>
         </div>
-        <div class="quick" aria-label="Quick paths">
-          <a id="quickBuild" href="recommend.html?task=coding&budget=any&priority=easy&lang=en">Build a website</a>
-          <a id="quickCode" href="recommend.html?task=coding&budget=free&priority=easy&lang=en">Write code</a>
-          <a id="quickResearch" href="recommend.html?task=research&budget=any&priority=easy&lang=en">Research</a>
-          <a id="quickLocal" href="recommend.html?task=local&budget=open-source&priority=privacy&lang=en">Run AI locally</a>
-        </div>
       </div>
+    </div>
+  </section>
 
-      <div class="editor" aria-hidden="true">
-        <div class="editor-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="editor-title">creative-ai / discover.js</span></div>
-        <div class="editor-body">
-          <div class="editor-side"><b>creative-ai</b>⌄ tools<br>⌄ compare<br>⌄ alternatives<br>⌄ my-stack<br><br><b>workflow</b>research<br>create<br>automate<br>ship</div>
-          <div class="code">
-            <div class="code-line"><span class="c">// find tools that fit the job</span></div>
-            <div class="code-line"><span class="k">const</span> goal = <span class="s">"build"</span>;</div>
-            <div class="code-line"><span class="k">const</span> priorities = [</div>
-            <div class="code-line">&nbsp;&nbsp;<span class="s">"useful"</span>,</div>
-            <div class="code-line">&nbsp;&nbsp;<span class="s">"clear"</span>,</div>
-            <div class="code-line">&nbsp;&nbsp;<span class="s">"maintained"</span></div>
-            <div class="code-line">];</div>
-            <br>
-            <div class="code-line"><span class="k">function</span> <span class="f">findTools</span>(goal) {</div>
-            <div class="code-line">&nbsp;&nbsp;<span class="k">return</span> creativeAI.match(goal);</div>
-            <div class="code-line">}</div>
-            <br>
-            <div class="code-line">findTools(goal); <span class="cursor"></span></div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <section class="home-discovery" aria-labelledby="discoverTitle">
+    <div class="section-intro"><div><h2 id="discoverTitle">Explore the catalog</h2><p id="discoverIntro">Different ways into the same maintained source of truth.</p></div></div>
+    <div class="hub-links">
+      <a class="hub-link" id="hubTools" href="tools.html"><span class="arrow">→</span><span class="kicker" id="hubToolsKicker">DATABASE</span><h3 id="hubToolsTitle">Browse all tools</h3><p id="hubToolsText">Search, filter and sort the full maintained catalog.</p></a>
+      <a class="hub-link" id="hubCategories" href="categories.html"><span class="arrow">→</span><span class="kicker" id="hubCategoriesKicker">CATEGORIES</span><h3 id="hubCategoriesTitle">Browse by work</h3><p id="hubCategoriesText">Start with coding, research, video, automation and more.</p></a>
+      <a class="hub-link" id="hubNew" href="new.html"><span class="arrow">→</span><span class="kicker" id="hubNewKicker">LIFECYCLE</span><h3 id="hubNewTitle">Newly tracked</h3><p id="hubNewText">See truthful catalog dates without invented launch claims.</p></a>
+      <a class="hub-link" id="hubSubmit" href="submit.html"><span class="arrow">→</span><span class="kicker" id="hubSubmitKicker">OPEN SOURCE</span><h3 id="hubSubmitTitle">Suggest a tool</h3><p id="hubSubmitText">Open a transparent GitHub request for a tool or correction.</p></a>
+    </div>
+  </section>
 
-    <section class="product-paths" aria-labelledby="choicesTitle">
-      <div class="section-intro"><div><h2 id="choicesTitle">Choose your path</h2><p id="choicesIntro">Four focused tools, one clear job each.</p></div></div>
-      <div class="choice-grid">
-        <a class="choice" id="choiceFind" href="recommend.html?lang=en"><span class="choice-arrow">→</span><span class="choice-icon">⌕</span><h3 id="findTitle">Find a tool</h3><p id="findText">Tell us the task and get a focused shortlist.</p></a>
-        <a class="choice" id="choiceCompare" href="compare.html?lang=en"><span class="choice-arrow">→</span><span class="choice-icon">≡</span><h3 id="compareTitle">Compare tools</h3><p id="compareText">See practical differences side by side.</p></a>
-        <a class="choice" id="choiceAlternatives" href="alternatives.html?lang=en"><span class="choice-arrow">→</span><span class="choice-icon">⇄</span><h3 id="alternativesTitle">Find alternatives</h3><p id="alternativesText">Find free, open-source or privacy-friendly replacements.</p></a>
-        <a class="choice" id="choiceStack" href="stack.html?lang=en"><span class="choice-arrow">→</span><span class="choice-icon">▱</span><h3 id="stackTitle">My AI Stack</h3><p id="stackText">Save and organize the tools you actually use.</p></a>
-      </div>
-    </section>
+  <section class="category-home" aria-labelledby="categoryTitle">
+    <div class="section-head"><div><h2 id="categoryTitle">Browse by category</h2><p id="categoryIntro">Real category counts generated from the maintained catalog.</p></div><a class="section-more" id="allCategories" href="categories.html">All categories →</a></div>
+    <div class="category-home-grid" id="categoryHighlights"><div class="empty">Loading categories…</div></div>
+  </section>
 
-    <section class="section" id="directory">
-      <div class="section-head"><div><h2 id="directoryTitle">Explore useful tools</h2><p id="directoryIntro">Search the maintained catalog by tool, task or category.</p></div></div>
-      <label class="search"><input id="search" type="search" placeholder="Search a tool or task…" autocomplete="off"></label>
-      <div class="grid" id="tools"></div>
-      <button class="lang show-more" id="showMore" type="button" hidden>Show all tools</button>
-    </section>
+  <section class="product-paths" aria-labelledby="choicesTitle">
+    <div class="section-intro"><div><h2 id="choicesTitle">Choose your path</h2><p id="choicesIntro">Four focused decision tools, one clear job each.</p></div></div>
+    <div class="choice-grid">
+      <a class="choice" id="choiceFind" href="recommend.html?lang=en"><span class="choice-arrow">→</span><span class="choice-icon">⌕</span><h3 id="findTitle">Find a tool</h3><p id="findText">Tell us the task and get a focused shortlist.</p></a>
+      <a class="choice" id="choiceCompare" href="compare.html?lang=en"><span class="choice-arrow">→</span><span class="choice-icon">≡</span><h3 id="compareTitle">Compare tools</h3><p id="compareText">See practical differences side by side.</p></a>
+      <a class="choice" id="choiceAlternatives" href="alternatives.html?lang=en"><span class="choice-arrow">→</span><span class="choice-icon">⇄</span><h3 id="alternativesTitle">Find alternatives</h3><p id="alternativesText">Find free, open-source or privacy-friendly replacements.</p></a>
+      <a class="choice" id="choiceStack" href="stack.html?lang=en"><span class="choice-arrow">→</span><span class="choice-icon">▱</span><h3 id="stackTitle">My AI Stack</h3><p id="stackText">Save and organize the tools you actually use.</p></a>
+    </div>
+  </section>
 
-    <section class="section" id="updatesSection">
-      <div class="section-head"><div><h2 id="updatesTitle">Latest updates</h2><p id="updatesIntro">Recent changes from original sources monitored by Creative AI.</p></div><small class="updated-at" id="updatedAt"></small></div>
-      <div class="grid updates" id="updates"><div class="empty">Loading updates…</div></div>
-    </section>
+  <section class="section" id="directory">
+    <div class="section-head"><div><h2 id="directoryTitle">Explore useful tools</h2><p id="directoryIntro">Search a quick homepage view or open the full database for filters and sorting.</p></div><a class="section-more" id="allTools" href="tools.html">Full database →</a></div>
+    <label class="search"><input id="search" type="search" placeholder="Search a tool or task…" autocomplete="off"></label>
+    <div class="grid" id="tools"></div>
+    <button class="lang show-more" id="showMore" type="button" hidden>Show all tools</button>
+  </section>
 
-    <footer class="footer"><div id="footer"><strong>Creative AI</strong> — Open source. Built for useful decisions.</div><div class="footer-links"><a href="https://github.com/nael5x/creative-ai" target="_blank" rel="noopener noreferrer">GitHub</a><a id="footerFind" href="recommend.html?lang=en">Finder</a><a id="footerCompare" href="compare.html?lang=en">Compare</a><a id="footerAlt" href="alternatives.html?lang=en">Alternatives</a></div></footer>
-  </main>
+  <section class="timeline-strip" aria-labelledby="timelineTitle">
+    <div class="section-head"><div><h2 id="timelineTitle">Catalog timeline</h2><p id="timelineIntro">First verified appearances in the maintained catalog — not product launch dates.</p></div><a class="section-more" id="allNew" href="new.html">Open lifecycle →</a></div>
+    <div class="timeline-grid" id="timeline"><div class="empty">Loading lifecycle…</div></div>
+  </section>
+
+  <section class="section" id="updatesSection">
+    <div class="section-head"><div><h2 id="updatesTitle">Latest official-source updates</h2><p id="updatesIntro">Recent release changes from sources monitored by Creative AI.</p></div><div><small class="updated-at" id="updatedAt"></small> <a class="section-more" id="allUpdates" href="updates.html">All updates →</a></div></div>
+    <div class="grid updates" id="updates"><div class="empty">Loading updates…</div></div>
+  </section>
+
+  <footer class="footer"><div id="footer"><strong>Creative AI</strong> — Open source. Built for useful decisions.</div><div class="footer-links"><a href="https://github.com/nael5x/creative-ai" target="_blank" rel="noopener noreferrer">GitHub</a><a id="footerTools" href="tools.html">Tools</a><a id="footerCategories" href="categories.html">Categories</a><a id="footerFind" href="recommend.html?lang=en">Finder</a><a id="footerCompare" href="compare.html?lang=en">Compare</a></div></footer>
+</main>
 <script>
-let catalog=[];
+let catalog=[],feed={items:[],sources:[],updatedAt:null},lifecycle={tools:{},trackingStartedAt:null},language=new URLSearchParams(location.search).get("lang")==="ar"?"ar":"en",query="",expanded=false;
+const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 const translations={
-  en:{eyebrow:"DISCOVER. COMPARE. BUILD.",title:'Find the right tool for your <span class="accent-word">workflow.</span>',intro:"Search, compare, find alternatives, and build a stack that fits the way you actually work.",command:"Tell us what you want to do.",heroFinder:"Find tools →",tools:"Tools",compare:"Compare",alternatives:"Alternatives",stack:"My Stack",updates:"Updates",quickBuild:"Build a website",quickCode:"Write code",quickResearch:"Research",quickLocal:"Run AI locally",choicesTitle:"Choose your path",choicesIntro:"Four focused tools, one clear job each.",findTitle:"Find a tool",findText:"Tell us the task and get a focused shortlist.",compareTitle:"Compare tools",compareText:"See practical differences side by side.",alternativesTitle:"Find alternatives",alternativesText:"Find free, open-source or privacy-friendly replacements.",stackTitle:"My AI Stack",stackText:"Save and organize the tools you actually use.",directoryTitle:"Explore useful tools",directoryIntro:"Search the maintained catalog by tool, task or category.",placeholder:"Search a tool or task…",showAll:"Show all tools",showLess:"Show fewer",updatesTitle:"Latest updates",updatesIntro:"Recent changes from original sources monitored by Creative AI.",open:"Open official source",why:"Best for",updated:"Updated",empty:"No matching tools.",footer:"Open source. Built for useful decisions."},
-  ar:{eyebrow:"اكتشف. قارن. ابنِ.",title:'اعثر على الأداة المناسبة <span class="accent-word">لسير عملك.</span>',intro:"ابحث وقارن واعثر على بدائل وابنِ مجموعة أدوات تناسب طريقة عملك فعلًا.",command:"أخبرنا ماذا تريد أن تفعل.",heroFinder:"اختر أدواتي ←",tools:"الأدوات",compare:"مقارنة",alternatives:"البدائل",stack:"مجموعتي",updates:"التحديثات",quickBuild:"بناء موقع",quickCode:"كتابة كود",quickResearch:"بحث",quickLocal:"تشغيل AI محليًا",choicesTitle:"اختر مسارك",choicesIntro:"أربع أدوات مركزة، لكل واحدة مهمة واضحة.",findTitle:"اختر أداة",findText:"حدد المهمة وخذ قائمة قصيرة ومركزة.",compareTitle:"قارن الأدوات",compareText:"شاهد الفروقات العملية جنبًا إلى جنب.",alternativesTitle:"ابحث عن بدائل",alternativesText:"اعثر على بدائل مجانية أو مفتوحة المصدر أو أفضل للخصوصية.",stackTitle:"مجموعتي AI",stackText:"احفظ ونظّم الأدوات التي تستخدمها فعلًا.",directoryTitle:"استكشف الأدوات المفيدة",directoryIntro:"ابحث في الدليل بحسب الأداة أو المهمة أو التصنيف.",placeholder:"ابحث عن أداة أو مهمة…",showAll:"عرض كل الأدوات",showLess:"عرض أقل",updatesTitle:"آخر التحديثات",updatesIntro:"تغييرات حديثة من المصادر الأصلية التي يراقبها Creative AI.",open:"افتح المصدر الرسمي",why:"مناسبة لـ",updated:"آخر تحديث",empty:"لا توجد أدوات مطابقة.",footer:"مفتوح المصدر. مبني لاتخاذ قرارات مفيدة."}
+ en:{eyebrow:"DISCOVER. COMPARE. BUILD.",title:'Find the right tool for your <span class="accent-word">workflow.</span>',intro:"Search a maintained catalog, browse categories, compare practical differences, track official updates and build a stack that fits how you work.",command:"Tell us what you want to do.",heroFinder:"Find tools →",navTools:"Tools",navCategories:"Categories",navNew:"New",navUpdates:"Updates",navCompare:"Compare",quickBuild:"Build a website",quickCode:"Write code",quickResearch:"Research",quickLocal:"Run AI locally",toolCount:"maintained tools",categoryCount:"categories",sourceCount:"monitored sources",discoverTitle:"Explore the catalog",discoverIntro:"Different ways into the same maintained source of truth.",hubToolsTitle:"Browse all tools",hubToolsText:"Search, filter and sort the full maintained catalog.",hubCategoriesTitle:"Browse by work",hubCategoriesText:"Start with coding, research, video, automation and more.",hubNewTitle:"Newly tracked",hubNewText:"See truthful catalog dates without invented launch claims.",hubSubmitTitle:"Suggest a tool",hubSubmitText:"Open a transparent GitHub request for a tool or correction.",categoryTitle:"Browse by category",categoryIntro:"Real category counts generated from the maintained catalog.",allCategories:"All categories →",choicesTitle:"Choose your path",choicesIntro:"Four focused decision tools, one clear job each.",findTitle:"Find a tool",findText:"Tell us the task and get a focused shortlist.",compareTitle:"Compare tools",compareText:"See practical differences side by side.",alternativesTitle:"Find alternatives",alternativesText:"Find free, open-source or privacy-friendly replacements.",stackTitle:"My AI Stack",stackText:"Save and organize the tools you actually use.",directoryTitle:"Explore useful tools",directoryIntro:"Search a quick homepage view or open the full database for filters and sorting.",placeholder:"Search a tool or task…",showAll:"Show all tools",showLess:"Show fewer",allTools:"Full database →",why:"Best for",details:"View details",empty:"No matching tools.",timelineTitle:"Catalog timeline",timelineIntro:"First verified appearances in the maintained catalog — not product launch dates.",allNew:"Open lifecycle →",baseline:"Baseline import",added:"Added",updatesTitle:"Latest official-source updates",updatesIntro:"Recent release changes from sources monitored by Creative AI.",updated:"Updated",allUpdates:"All updates →",open:"Open original source",footer:"Open source. Built for useful decisions."},
+ ar:{eyebrow:"اكتشف. قارن. ابنِ.",title:'اعثر على الأداة المناسبة <span class="accent-word">لسير عملك.</span>',intro:"ابحث في دليل مُصان، وتصفّح التصنيفات، وقارن الفروقات العملية، وتابع التحديثات الرسمية وابنِ مجموعة تناسب عملك.",command:"أخبرنا ماذا تريد أن تفعل.",heroFinder:"اختر أدواتي ←",navTools:"الأدوات",navCategories:"التصنيفات",navNew:"جديد",navUpdates:"التحديثات",navCompare:"مقارنة",quickBuild:"بناء موقع",quickCode:"كتابة كود",quickResearch:"بحث",quickLocal:"تشغيل AI محليًا",toolCount:"أداة مصانة",categoryCount:"تصنيف",sourceCount:"مصدر مراقب",discoverTitle:"استكشف الدليل",discoverIntro:"طرق مختلفة للوصول إلى نفس مصدر البيانات المصان.",hubToolsTitle:"تصفّح كل الأدوات",hubToolsText:"ابحث وفلتر ورتب قاعدة الأدوات كاملة.",hubCategoriesTitle:"تصفّح حسب العمل",hubCategoriesText:"ابدأ بالبرمجة أو البحث أو الفيديو أو الأتمتة وغيرها.",hubNewTitle:"المتتبع حديثًا",hubNewText:"شاهد تواريخ الدليل الحقيقية بدون ادعاءات إطلاق مختلقة.",hubSubmitTitle:"اقترح أداة",hubSubmitText:"افتح طلب GitHub شفاف لإضافة أداة أو تصحيح معلومة.",categoryTitle:"تصفّح حسب التصنيف",categoryIntro:"أعداد حقيقية يتم توليدها مباشرة من الدليل المصان.",allCategories:"كل التصنيفات ←",choicesTitle:"اختر مسارك",choicesIntro:"أربع أدوات لاتخاذ القرار، ولكل واحدة مهمة واضحة.",findTitle:"اختر أداة",findText:"حدد المهمة وخذ قائمة قصيرة ومركزة.",compareTitle:"قارن الأدوات",compareText:"شاهد الفروقات العملية جنبًا إلى جنب.",alternativesTitle:"ابحث عن بدائل",alternativesText:"اعثر على بدائل مجانية أو مفتوحة المصدر أو أفضل للخصوصية.",stackTitle:"مجموعتي AI",stackText:"احفظ ونظّم الأدوات التي تستخدمها فعلًا.",directoryTitle:"استكشف الأدوات المفيدة",directoryIntro:"ابحث بسرعة هنا أو افتح قاعدة الأدوات الكاملة للفلاتر والترتيب.",placeholder:"ابحث عن أداة أو مهمة…",showAll:"عرض كل الأدوات",showLess:"عرض أقل",allTools:"قاعدة الأدوات كاملة ←",why:"مناسبة لـ",details:"عرض التفاصيل",empty:"لا توجد أدوات مطابقة.",timelineTitle:"الخط الزمني للدليل",timelineIntro:"أول ظهور موثّق في الدليل المصان — وليس تاريخ إطلاق المنتج.",allNew:"افتح دورة الحياة ←",baseline:"استيراد أساسي",added:"أضيفت",updatesTitle:"آخر تحديثات المصادر الرسمية",updatesIntro:"تغييرات حديثة من مصادر الإصدارات التي يراقبها Creative AI.",updated:"آخر تحديث",allUpdates:"كل التحديثات ←",open:"افتح المصدر الأصلي",footer:"مفتوح المصدر. مبني لاتخاذ قرارات مفيدة."}
 };
-const arText={
- "Writing & research":["الكتابة والبحث","محادثة وكتابة وتحليل وعصف ذهني والعمل مع الملفات.","تحويل الأفكار أو المستندات إلى مسودات وملخصات وخطط واضحة."],"Writing & coding":["الكتابة والبرمجة","فهم المستندات الطويلة وكتابة دقيقة ومساعدة برمجية وتحليل.","قراءة مستندات طويلة أو تحسين النص أو التفكير في مهمة معقدة."],"Research & Google":["بحث وخدمات Google","مساعد متصل بخدمات Google للكتابة والبحث والمهام متعددة الوسائط.","مناسب لمن يعمل كثيرًا مع خدمات Google."],"Research":["بحث","محرك إجابات يعرض مصادر الويب.","بحث سريع مع معرفة مصدر الادعاءات."],"Learn from your files":["تعلّم من ملفاتك","دفتر AI يعتمد على مصادرك أنت.","دراسة ملفات PDF والملاحظات والروابط ضمن سياقك."],"Images":["صور","توليد صور وتصميمات بالذكاء الاصطناعي.","الصور المفاهيمية والمصغرات والمنتجات والمحتوى الإبداعي."],"Images & design":["صور وتصميم","توليد صور وتصميمات موجهة للاستخدام التجاري.","المرئيات التسويقية وسير عمل التصميم."],"Design":["تصميم","تصميم سريع للصور والمنشورات والعروض والفيديو.","مرئيات السوشيال والمحتوى البسيط بهوية واضحة."],"Video":["فيديو","توليد الفيديو والتحرير والمؤثرات البصرية.","تحويل برومبت أو صورة إلى لقطة فيديو إبداعية قصيرة."],"Voice & audio":["صوت","أصوات طبيعية ودبلجة وتحويل النص إلى كلام.","التعليق الصوتي والسرد والصوت متعدد اللغات."],"Music":["موسيقى","إنشاء أغاني وموسيقى من وصف نصي.","مقدمات وأفكار موسيقية؛ راجع الترخيص قبل الاستخدام التجاري."],"Coding":["برمجة","مساعدة AI داخل بيئة البرمجة وفهم المشروع.","بناء وتعديل البرمجيات مع فهم ملفات المشروع."],"Web UI":["واجهات ويب","توليد واجهات React من الوصف.","نماذج سريعة لصفحات ويب ومكونات واجهة."],"Web apps":["تطبيقات ويب","بناء نموذج أولي لتطبيق ويب باللغة الطبيعية.","تحويل فكرة منتج إلى بداية تطبيق ويب تعمل."],"Build & deploy":["بناء ونشر","برمجة في المتصفح ومساعدة AI ونشر.","تجربة التطبيقات دون إعداد بيئة محلية."],"Automation":["أتمتة","ربط التطبيقات وواجهات API وخطوات AI في تدفقات عمل.","أتمتة المهام المتكررة بين التطبيقات والذكاء الاصطناعي."],"Local models":["نماذج محلية","تشغيل نماذج AI محليًا على جهازك.","التجربة الخاصة واستخدام النماذج المفتوحة محليًا."],"Local AI UI":["واجهة AI محلية","واجهة ويب للنماذج المحلية أو البعيدة.","استخدام النماذج المحلية بسهولة في المتصفح."],"Image workflows":["تدفقات عمل صور","تدفقات مرئية قائمة على العقد لتوليد الصور.","تحكم متقدم في مسارات توليد الصور."],"Models & datasets":["نماذج وبيانات","مركز للنماذج والبيانات والعروض التجريبية.","العثور على نماذج مفتوحة وتجربة العروض ونشر مشاريع ML."],"AI development":["تطوير AI","إطار يربط النماذج بالبيانات والأدوات.","بناء مساعدات AI وRAG ووكلاء للبرمجيات."],"Visual AI builder":["بناء AI مرئي","منشئ مرئي لتطبيقات LLM وتدفقات الدردشة.","تركيب Chatbot أو RAG دون برمجة كل جزء من الصفر."],"Product design":["تصميم منتجات","تصميم واجهات تعاوني مع ميزات AI.","تصميم شاشات المنتجات والتعاون مع فريق التصميم."],"Presentations":["عروض","عروض ومستندات بمساعدة AI.","تحويل مخطط إلى عرض سريع."],"Knowledge work":["إدارة معرفة","أدوات كتابة ومعرفة ضمن Notion.","الصياغة والتلخيص وتنظيم الملاحظات."],"Writing":["كتابة","تدقيق لغوي ومساعدة بالنبرة والكتابة.","صقل الإنجليزية والرسائل والنص الاحترافي."]
-};
-let language=new URLSearchParams(location.search).get("lang")==="ar"?"ar":"en",query="",feed={items:[],sources:[],updatedAt:null},expanded=false;
-const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;"," ":" ",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
-function t(){return translations[language]}
-function validTool(x){return Array.isArray(x)&&x.length===6&&x.every(v=>typeof v==="string"&&v.trim())&&/^https?:\/\//.test(x[5])}
-function toolInfo(x){if(language==="en")return {category:x[1],why:x[3]};const a=arText[x[1]]||[x[1],x[2],x[3]];return {category:a[0],why:a[2]}}
-function availability(a){if(language==="en")return a;return a==="Open source"?"مفتوح المصدر":a==="Free"?"مجاني":a==="Paid"?"مدفوع":a==="Free / Paid"?"مجاني / مدفوع":a==="Free tier / Paid"?"مجاني محدود / مدفوع":a}
-function renderTools(){const text=t(),matches=catalog.filter(x=>[x[0],x[1],x[2],x[3],toolInfo(x).category,toolInfo(x).why].join(" ").toLowerCase().includes(query.toLowerCase())),visible=query||expanded?matches:matches.slice(0,12);$("tools").innerHTML=visible.length?visible.map(x=>{const info=toolInfo(x),cls=x[4].includes("Open")?"open":x[4]==="Paid"?"paid":"free";return `<article class="card"><div class="tags"><span class="tag">${esc(info.category)}</span><span class="tag ${cls}">${esc(availability(x[4]))}</span></div><h3>${esc(x[0])}</h3><p class="why"><b>${esc(text.why)}:</b> ${esc(info.why)}</p><div class="source">${esc(text.open)} ↗</div><a class="card-link" href="${esc(x[5])}" target="_blank" rel="noopener noreferrer" aria-label="${esc(text.open+" "+x[0])}">${esc(text.open)}</a></article>`}).join(""):`<div class="empty">${esc(text.empty)}</div>`;const more=$("showMore");more.hidden=!!query||matches.length<=12;more.textContent=expanded?text.showLess:text.showAll}
-function infer(item){let why=item.why||item.purpose||"";if(!why)why=language==="ar"?"افتح المصدر لمعرفة ما إذا كان التحديث يؤثر في أدواتك الحالية.":"Open the source to see whether this change affects your current tools.";return why}
-function renderUpdates(){const text=t(),items=(feed.items||[]).slice(0,6);$("updatedAt").textContent=feed.updatedAt?text.updated+": "+new Date(feed.updatedAt).toLocaleString(language==="ar"?"ar":"en"):"";$("updates").innerHTML=items.length?items.map(x=>`<article class="card"><div class="tags"><span class="tag open">${esc(x.source||"Source")}</span></div><h3>${esc(x.title)}</h3><p>${esc(infer(x))}</p><div class="source">${esc(text.open)} ↗</div><a class="card-link" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(text.open+" "+x.title)}">${esc(text.open)}</a></article>`).join(""):`<div class="empty">${esc(text.empty)}</div>`}
-function applyLanguage(){const text=t();document.documentElement.lang=language;document.documentElement.dir=language==="ar"?"rtl":"ltr";document.body.classList.toggle("rtl",language==="ar");$("lang").textContent=language==="en"?"العربية":"English";$("eyebrow").textContent=text.eyebrow;$("title").innerHTML=text.title;$("intro").textContent=text.intro;$("commandText").textContent=text.command;$("heroFinder").textContent=text.heroFinder;$("navTools").textContent=text.tools;$("navCompare").textContent=text.compare;$("navAlternatives").textContent=text.alternatives;$("navStack").textContent=text.stack;$("navUpdates").textContent=text.updates;$("quickBuild").textContent=text.quickBuild;$("quickCode").textContent=text.quickCode;$("quickResearch").textContent=text.quickResearch;$("quickLocal").textContent=text.quickLocal;$("choicesTitle").textContent=text.choicesTitle;$("choicesIntro").textContent=text.choicesIntro;$("findTitle").textContent=text.findTitle;$("findText").textContent=text.findText;$("compareTitle").textContent=text.compareTitle;$("compareText").textContent=text.compareText;$("alternativesTitle").textContent=text.alternativesTitle;$("alternativesText").textContent=text.alternativesText;$("stackTitle").textContent=text.stackTitle;$("stackText").textContent=text.stackText;$("directoryTitle").textContent=text.directoryTitle;$("directoryIntro").textContent=text.directoryIntro;$("search").placeholder=text.placeholder;$("updatesTitle").textContent=text.updatesTitle;$("updatesIntro").textContent=text.updatesIntro;$("footer").innerHTML=`<strong>Creative AI</strong> — ${esc(text.footer)}`;const q=`?lang=${language}`;$("heroFinder").href="recommend.html"+q;$("choiceFind").href="recommend.html"+q;$("choiceCompare").href="compare.html"+q;$("choiceAlternatives").href="alternatives.html"+q;$("choiceStack").href="stack.html"+q;$("navTools").href="tools.html"+q;$("navCompare").href="compare.html"+q;$("navAlternatives").href="alternatives.html"+q;$("navStack").href="stack.html"+q;$("footerFind").href="recommend.html"+q;$("footerCompare").href="compare.html"+q;$("footerAlt").href="alternatives.html"+q;$("quickBuild").href=`recommend.html?task=coding&budget=any&priority=easy&lang=${language}`;$("quickCode").href=`recommend.html?task=coding&budget=free&priority=easy&lang=${language}`;$("quickResearch").href=`recommend.html?task=research&budget=any&priority=easy&lang=${language}`;$("quickLocal").href=`recommend.html?task=local&budget=open-source&priority=privacy&lang=${language}`;history.replaceState({},"",language==="ar"?"?lang=ar":"./");renderTools();renderUpdates()}
+const arCategory={"Writing & research":"الكتابة والبحث","Writing & coding":"الكتابة والبرمجة","Research & Google":"بحث وخدمات Google","Research":"بحث","Learn from your files":"التعلم من الملفات","Images":"صور","Images & design":"صور وتصميم","Design":"تصميم","Video":"فيديو","Voice & audio":"صوت","Music":"موسيقى","Coding":"برمجة","Web UI":"واجهات ويب","Web apps":"تطبيقات ويب","Build & deploy":"بناء ونشر","Automation":"أتمتة","Local models":"نماذج محلية","Local AI UI":"واجهة AI محلية","Image workflows":"تدفقات صور","Models & datasets":"نماذج وبيانات","AI development":"تطوير AI","Visual AI builder":"بناء AI مرئي","Product design":"تصميم منتجات","Presentations":"عروض","Knowledge work":"إدارة معرفة","Writing":"كتابة"};
+const arWhy={"Writing & research":"تحويل الأفكار أو المستندات إلى مسودات وملخصات وخطط واضحة.","Writing & coding":"قراءة مستندات طويلة أو تحسين النص أو التفكير في مهمة معقدة.","Research & Google":"مناسب لمن يعمل كثيرًا مع خدمات Google.","Research":"بحث سريع مع معرفة مصدر الادعاءات.","Learn from your files":"دراسة ملفات PDF والملاحظات والروابط ضمن سياقك.","Images":"الصور المفاهيمية والمصغرات والمنتجات والمحتوى الإبداعي.","Images & design":"المرئيات التسويقية وسير عمل التصميم.","Design":"مرئيات السوشيال والمحتوى البسيط بهوية واضحة.","Video":"تحويل برومبت أو صورة إلى لقطة فيديو إبداعية قصيرة.","Voice & audio":"التعليق الصوتي والسرد والصوت متعدد اللغات.","Music":"مقدمات وأفكار موسيقية؛ راجع الترخيص قبل الاستخدام التجاري.","Coding":"بناء وتعديل البرمجيات مع فهم ملفات المشروع.","Web UI":"نماذج سريعة لصفحات ويب ومكونات واجهة.","Web apps":"تحويل فكرة منتج إلى بداية تطبيق ويب تعمل.","Build & deploy":"تجربة التطبيقات دون إعداد بيئة محلية.","Automation":"أتمتة المهام المتكررة بين التطبيقات والذكاء الاصطناعي.","Local models":"التجربة الخاصة واستخدام النماذج المفتوحة محليًا.","Local AI UI":"استخدام النماذج المحلية بسهولة في المتصفح.","Image workflows":"تحكم متقدم في مسارات توليد الصور.","Models & datasets":"العثور على نماذج مفتوحة وتجربة العروض ونشر مشاريع ML.","AI development":"بناء مساعدات AI وRAG ووكلاء للبرمجيات.","Visual AI builder":"تركيب Chatbot أو RAG دون برمجة كل جزء من الصفر.","Product design":"تصميم شاشات المنتجات والتعاون مع فريق التصميم.","Presentations":"تحويل مخطط إلى عرض سريع.","Knowledge work":"الصياغة والتلخيص وتنظيم الملاحظات.","Writing":"صقل الإنجليزية والرسائل والنص الاحترافي."};
+function t(){return translations[language]}function validTool(x){return Array.isArray(x)&&x.length===6&&x.every(v=>typeof v==="string"&&v.trim())&&/^https?:\/\//.test(x[5])}function categoryLabel(v){return language==="ar"?(arCategory[v]||v):v}function why(row){return language==="ar"?(arWhy[row[1]]||row[3]):row[3]}function availability(a){if(language==="en")return a;return a==="Open source"?"مفتوح المصدر":a==="Free"?"مجاني":a==="Paid"?"مدفوع":a==="Free / Paid"?"مجاني / مدفوع":a==="Free tier / Paid"?"خطة مجانية / مدفوع":a}
+function renderFacts(){const categories=new Set(catalog.map(x=>x[1]));$("toolCount").textContent=catalog.length;$("categoryCount").textContent=categories.size;$("sourceCount").textContent=(feed.sources||[]).length||new Set((feed.items||[]).map(x=>x.source).filter(Boolean)).size}
+function renderCategories(){const counts=new Map();catalog.forEach(row=>counts.set(row[1],(counts.get(row[1])||0)+1));const rows=[...counts.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,8);$("categoryHighlights").innerHTML=rows.map(([cat,count])=>`<a class="category-home-card" href="tools.html?category=${encodeURIComponent(cat)}&lang=${language}"><span class="count">${count} ${language==="ar"?"أداة":count===1?"tool":"tools"}</span><h3>${esc(categoryLabel(cat))}</h3></a>`).join("")}
+function renderTools(){const text=t(),matches=catalog.filter(x=>[x[0],x[1],x[2],x[3],categoryLabel(x[1]),why(x)].join(" ").toLowerCase().includes(query.toLowerCase())),visible=query||expanded?matches:matches.slice(0,12);$("tools").innerHTML=visible.length?visible.map(x=>{const cls=x[4].includes("Open")?"open":x[4]==="Paid"?"paid":"free",url=`tool.html?tool=${encodeURIComponent(x[0])}&lang=${language}`;return `<article class="card"><div class="tags"><span class="tag">${esc(categoryLabel(x[1]))}</span><span class="tag ${cls}">${esc(availability(x[4]))}</span></div><h3>${esc(x[0])}</h3><p class="why"><b>${esc(text.why)}:</b> ${esc(why(x))}</p><div class="source">${esc(text.details)} →</div><a class="card-link" href="${esc(url)}" aria-label="${esc(text.details+" "+x[0])}">${esc(text.details)}</a></article>`}).join(""):`<div class="empty">${esc(text.empty)}</div>`;const more=$("showMore");more.hidden=!!query||matches.length<=12;more.textContent=expanded?text.showLess:text.showAll}
+function renderTimeline(){const text=t(),records=lifecycle.tools||{},rows=catalog.map(row=>({row,meta:records[row[0]]})).filter(x=>x.meta).sort((a,b)=>b.meta.firstTrackedAt.localeCompare(a.meta.firstTrackedAt)||a.row[0].localeCompare(b.row[0])).slice(0,6);$("timeline").innerHTML=rows.length?rows.map(({row,meta})=>`<a class="timeline-card" href="tool.html?tool=${encodeURIComponent(row[0])}&lang=${language}"><span class="timeline-badge">${esc(meta.event==="added"?text.added:text.baseline)}</span><h3>${esc(row[0])}</h3><p>${esc(new Date(meta.firstTrackedAt).toLocaleDateString(language==="ar"?"ar":"en",{year:"numeric",month:"short",day:"numeric"}))}</p></a>`).join(""):`<div class="empty">${esc(text.empty)}</div>`}
+function infer(item){return item.why||item.purpose||(language==="ar"?"افتح المصدر الأصلي لمعرفة تفاصيل التحديث.":"Open the original source for the full update details.")}
+function renderUpdates(){const text=t(),items=(feed.items||[]).slice(0,6);$("updatedAt").textContent=feed.updatedAt?text.updated+": "+new Date(feed.updatedAt).toLocaleDateString(language==="ar"?"ar":"en"):"";$("updates").innerHTML=items.length?items.map(x=>`<article class="card"><div class="tags"><span class="tag open">${esc(x.source||"Source")}</span></div><h3>${esc(x.title||"Update")}</h3><p>${esc(infer(x))}</p><div class="source">${esc(text.open)} ↗</div><a class="card-link" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(text.open+" "+(x.title||"Update"))}">${esc(text.open)}</a></article>`).join(""):`<div class="empty">${esc(text.empty)}</div>`}
+function applyLanguage(){const text=t();document.documentElement.lang=language;document.documentElement.dir=language==="ar"?"rtl":"ltr";document.body.classList.toggle("rtl",language==="ar");$("lang").textContent=language==="en"?"العربية":"English";$("eyebrow").textContent=text.eyebrow;$("title").innerHTML=text.title;$("intro").textContent=text.intro;$("commandText").textContent=text.command;$("heroFinder").textContent=text.heroFinder;$("navTools").textContent=text.navTools;$("navCategories").textContent=text.navCategories;$("navNew").textContent=text.navNew;$("navUpdates").textContent=text.navUpdates;$("navCompare").textContent=text.navCompare;$("quickBuild").textContent=text.quickBuild;$("quickCode").textContent=text.quickCode;$("quickResearch").textContent=text.quickResearch;$("quickLocal").textContent=text.quickLocal;$("toolCountLabel").textContent=text.toolCount;$("categoryCountLabel").textContent=text.categoryCount;$("sourceCountLabel").textContent=text.sourceCount;$("discoverTitle").textContent=text.discoverTitle;$("discoverIntro").textContent=text.discoverIntro;$("hubToolsTitle").textContent=text.hubToolsTitle;$("hubToolsText").textContent=text.hubToolsText;$("hubCategoriesTitle").textContent=text.hubCategoriesTitle;$("hubCategoriesText").textContent=text.hubCategoriesText;$("hubNewTitle").textContent=text.hubNewTitle;$("hubNewText").textContent=text.hubNewText;$("hubSubmitTitle").textContent=text.hubSubmitTitle;$("hubSubmitText").textContent=text.hubSubmitText;$("categoryTitle").textContent=text.categoryTitle;$("categoryIntro").textContent=text.categoryIntro;$("allCategories").textContent=text.allCategories;$("choicesTitle").textContent=text.choicesTitle;$("choicesIntro").textContent=text.choicesIntro;$("findTitle").textContent=text.findTitle;$("findText").textContent=text.findText;$("compareTitle").textContent=text.compareTitle;$("compareText").textContent=text.compareText;$("alternativesTitle").textContent=text.alternativesTitle;$("alternativesText").textContent=text.alternativesText;$("stackTitle").textContent=text.stackTitle;$("stackText").textContent=text.stackText;$("directoryTitle").textContent=text.directoryTitle;$("directoryIntro").textContent=text.directoryIntro;$("search").placeholder=text.placeholder;$("allTools").textContent=text.allTools;$("timelineTitle").textContent=text.timelineTitle;$("timelineIntro").textContent=text.timelineIntro;$("allNew").textContent=text.allNew;$("updatesTitle").textContent=text.updatesTitle;$("updatesIntro").textContent=text.updatesIntro;$("allUpdates").textContent=text.allUpdates;$("footer").innerHTML=`<strong>Creative AI</strong> — ${esc(text.footer)}`;const q=`?lang=${language}`;$("heroFinder").href="recommend.html"+q;$("navTools").href="tools.html"+q;$("navCategories").href="categories.html"+q;$("navNew").href="new.html"+q;$("navUpdates").href="updates.html"+q;$("navCompare").href="compare.html"+q;$("hubTools").href="tools.html"+q;$("hubCategories").href="categories.html"+q;$("hubNew").href="new.html"+q;$("hubSubmit").href="submit.html"+q;$("allCategories").href="categories.html"+q;$("choiceFind").href="recommend.html"+q;$("choiceCompare").href="compare.html"+q;$("choiceAlternatives").href="alternatives.html"+q;$("choiceStack").href="stack.html"+q;$("allTools").href="tools.html"+q;$("allNew").href="new.html"+q;$("allUpdates").href="updates.html"+q;$("footerTools").href="tools.html"+q;$("footerCategories").href="categories.html"+q;$("footerFind").href="recommend.html"+q;$("footerCompare").href="compare.html"+q;$("quickBuild").href=`recommend.html?task=coding&budget=any&priority=easy&lang=${language}`;$("quickCode").href=`recommend.html?task=coding&budget=free&priority=easy&lang=${language}`;$("quickResearch").href=`recommend.html?task=research&budget=any&priority=easy&lang=${language}`;$("quickLocal").href=`recommend.html?task=local&budget=open-source&priority=privacy&lang=${language}`;history.replaceState({},"",language==="ar"?"?lang=ar":"./");renderFacts();renderCategories();renderTools();renderTimeline();renderUpdates()}
 $("lang").onclick=()=>{language=language==="en"?"ar":"en";applyLanguage()};$("search").oninput=e=>{query=e.target.value;renderTools()};$("showMore").onclick=()=>{expanded=!expanded;renderTools()};
-Promise.allSettled([fetch("data/tools.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject()),fetch("data/updates.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject())]).then(([toolsResult,feedResult])=>{if(toolsResult.status==="fulfilled")catalog=toolsResult.value.filter(validTool);if(feedResult.status==="fulfilled")feed=feedResult.value;applyLanguage()});
+Promise.allSettled([fetch("data/tools.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject()),fetch("data/updates.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject()),fetch("data/tool-lifecycle.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject())]).then(([toolsResult,feedResult,lifecycleResult])=>{if(toolsResult.status==="fulfilled")catalog=toolsResult.value.filter(validTool);if(feedResult.status==="fulfilled")feed=feedResult.value;if(lifecycleResult.status==="fulfilled")lifecycle=lifecycleResult.value;applyLanguage()});
 applyLanguage();
 </script>
-</body>
-</html>
+</body></html>
