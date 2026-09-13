@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Newly tracked AI tools — Creative AI</title>
+  <meta name="description" content="See tools by the first verified date they appeared in the maintained Creative AI catalog.">
+  <link rel="stylesheet" href="styles/design-system.css">
+  <link rel="stylesheet" href="styles/catalog.css">
+  <style>
+    .new-page{padding-bottom:72px}.new-hero{padding:62px 0 26px;max-width:900px}.new-hero h1{font-size:clamp(42px,6vw,72px);line-height:1;letter-spacing:-.055em;margin:12px 0 16px}.new-hero p{color:var(--muted);font-size:17px;max-width:760px;margin:0}.tracking-note{margin:22px 0 28px;border:1px solid var(--line);background:rgba(14,21,27,.9);border-radius:16px;padding:16px 18px;display:flex;justify-content:space-between;gap:18px;align-items:center}.tracking-note strong{display:block;margin-bottom:4px}.tracking-note p{margin:0;color:var(--muted);font-size:13px}.tracking-date{font:800 11px var(--mono);color:var(--accent);white-space:nowrap}.new-toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:14px}.view-tabs{display:flex;gap:7px;flex-wrap:wrap}.view-tabs button{border:1px solid var(--line);background:#0e151b;color:#9facaf;border-radius:999px;padding:7px 11px;font-size:11px}.view-tabs button.active,.view-tabs button:hover{border-color:#33534f;color:#d8f5eb;background:#10221e}.new-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.new-card{position:relative;display:flex;flex-direction:column;min-height:220px;border:1px solid var(--line);border-radius:15px;background:rgba(14,21,27,.9);padding:16px}.new-card h2{font-size:19px;margin:14px 0 7px}.new-card p{color:var(--muted);font-size:13px;margin:0}.new-card .date{font:750 11px var(--mono);color:#8fa0a2;margin-top:auto;padding-top:18px}.new-card a{position:absolute;inset:0;text-indent:-9999px;overflow:hidden}.status-added{color:#b9e8cb;border-color:#254939;background:#0e2319}.status-baseline{color:#b7c1c3;border-color:#34424a;background:#121a20}.empty-new{grid-column:1/-1;border:1px dashed #33434a;border-radius:14px;padding:32px;text-align:center;color:var(--muted)}
+    @media(max-width:900px){.new-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.tracking-note,.new-toolbar{align-items:flex-start;flex-direction:column}.new-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<main class="wrap new-page">
+  <header class="top">
+    <a class="brand" href="./"><span class="brand-mark">&lt;/&gt;</span><span>Creative AI</span></a>
+    <nav class="nav" aria-label="Primary"><a id="navTools" href="tools.html">Tools</a><a id="navCategories" href="categories.html">Categories</a><a id="navNew" href="new.html" aria-current="page">New</a><a id="navUpdates" href="updates.html">Updates</a><a id="navSubmit" href="submit.html">Submit</a></nav>
+    <div class="actions"><a class="btn github" href="https://github.com/nael5x/creative-ai" target="_blank" rel="noopener noreferrer">GitHub ↗</a><button class="lang" id="lang" type="button">العربية</button></div>
+  </header>
+
+  <section class="new-hero">
+    <div class="eyebrow" id="eyebrow">CATALOG LIFECYCLE</div>
+    <h1 id="title">Newly tracked tools, with dates we can prove.</h1>
+    <p id="intro">Creative AI records the first verified date a tool appears in the maintained catalog. This is a catalog date — not the product's launch date.</p>
+  </section>
+
+  <div class="tracking-note">
+    <div><strong id="noteTitle">Why this page is different</strong><p id="noteText">We do not invent “new” dates. Existing tools imported when tracking began are marked as a baseline; future additions receive their real catalog addition timestamp.</p></div>
+    <div class="tracking-date" id="trackingDate">Tracking started …</div>
+  </div>
+
+  <div class="new-toolbar">
+    <div class="view-tabs"><button type="button" class="active" data-view="all" id="allTab">All tracked</button><button type="button" data-view="added" id="addedTab">New additions</button><button type="button" data-view="baseline" id="baselineTab">Baseline</button></div>
+    <a class="btn" id="browseAll" href="tools.html">Browse all tools →</a>
+  </div>
+
+  <section class="new-grid" id="grid"><div class="empty-new">Loading lifecycle data…</div></section>
+</main>
+<script>
+const copy={
+ en:{eyebrow:"CATALOG LIFECYCLE",title:"Newly tracked tools, with dates we can prove.",intro:"Creative AI records the first verified date a tool appears in the maintained catalog. This is a catalog date — not the product's launch date.",noteTitle:"Why this page is different",noteText:"We do not invent “new” dates. Existing tools imported when tracking began are marked as a baseline; future additions receive their real catalog addition timestamp.",tracking:"Tracking started",all:"All tracked",added:"New additions",baseline:"Baseline",browse:"Browse all tools →",addedBadge:"Added",baselineBadge:"Baseline import",details:"View details",emptyAdded:"No post-baseline tools have been added yet. When a new catalog entry lands, it will appear here automatically.",empty:"No lifecycle records match this view.",failed:"Unable to load lifecycle data."},
+ ar:{eyebrow:"دورة حياة الدليل",title:"أدوات متتبعة حديثًا، بتواريخ يمكن إثباتها.",intro:"يسجل Creative AI أول تاريخ موثّق لظهور الأداة في الدليل المُصان. هذا تاريخ داخل الدليل، وليس تاريخ إطلاق المنتج نفسه.",noteTitle:"لماذا هذه الصفحة مختلفة",noteText:"لا نخترع تواريخ «جديدة». الأدوات الموجودة عند بدء التتبع مميزة كأساس أولي، وأي إضافة مستقبلية تأخذ تاريخ دخولها الحقيقي إلى الدليل.",tracking:"بدأ التتبع",all:"كل الأدوات المتتبعة",added:"الإضافات الجديدة",baseline:"الأساس الأولي",browse:"تصفح كل الأدوات ←",addedBadge:"أضيفت",baselineBadge:"استيراد أساسي",details:"عرض التفاصيل",emptyAdded:"لم تتم إضافة أدوات بعد بدء التتبع حتى الآن. عند إضافة أداة جديدة للدليل ستظهر هنا تلقائيًا.",empty:"لا توجد سجلات مطابقة لهذا العرض.",failed:"تعذر تحميل بيانات التتبع."}
+};
+let lang=new URLSearchParams(location.search).get("lang")==="ar"?"ar":"en",catalog=[],lifecycle=null,view="all";const $=id=>document.getElementById(id);const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+function fmt(date){return new Date(date).toLocaleDateString(lang==="ar"?"ar":"en",{year:"numeric",month:"short",day:"numeric"})}
+function render(){const t=copy[lang],records=lifecycle?.tools||{};let rows=catalog.map(row=>({row,meta:records[row[0]]})).filter(x=>x.meta);if(view==="added")rows=rows.filter(x=>x.meta.event==="added");if(view==="baseline")rows=rows.filter(x=>x.meta.event==="baseline_import");rows.sort((a,b)=>b.meta.firstTrackedAt.localeCompare(a.meta.firstTrackedAt)||a.row[0].localeCompare(b.row[0]));$("grid").innerHTML=rows.length?rows.map(({row,meta})=>{const added=meta.event==="added",badge=added?t.addedBadge:t.baselineBadge,cls=added?"status-added":"status-baseline",url=`tool.html?tool=${encodeURIComponent(row[0])}&lang=${lang}`;return `<article class="new-card"><div class="mini-tags"><span class="mini-tag ${cls}">${esc(badge)}</span><span class="mini-tag">${esc(row[1])}</span></div><h2>${esc(row[0])}</h2><p>${esc(row[3])}</p><div class="date">${esc(fmt(meta.firstTrackedAt))}</div><a href="${esc(url)}" aria-label="${esc(t.details+" "+row[0])}">${esc(t.details)}</a></article>`}).join(""):`<div class="empty-new">${esc(view==="added"?t.emptyAdded:t.empty)}</div>`;document.querySelectorAll("[data-view]").forEach(b=>b.classList.toggle("active",b.dataset.view===view))}
+function apply(){const t=copy[lang];document.documentElement.lang=lang;document.documentElement.dir=lang==="ar"?"rtl":"ltr";document.body.classList.toggle("rtl",lang==="ar");$("lang").textContent=lang==="en"?"العربية":"English";$("eyebrow").textContent=t.eyebrow;$("title").textContent=t.title;$("intro").textContent=t.intro;$("noteTitle").textContent=t.noteTitle;$("noteText").textContent=t.noteText;$("allTab").textContent=t.all;$("addedTab").textContent=t.added;$("baselineTab").textContent=t.baseline;$("browseAll").textContent=t.browse;$("trackingDate").textContent=lifecycle?.trackingStartedAt?`${t.tracking}: ${fmt(lifecycle.trackingStartedAt)}`:`${t.tracking}: —`;const q=`?lang=${lang}`;$("navTools").href="tools.html"+q;$("navCategories").href="categories.html"+q;$("navNew").href="new.html"+q;$("navUpdates").href="updates.html"+q;$("navSubmit").href="submit.html"+q;$("browseAll").href="tools.html"+q;history.replaceState({},"",lang==="ar"?"new.html?lang=ar":"new.html");render()}
+document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>{view=b.dataset.view;render()});$("lang").onclick=()=>{lang=lang==="en"?"ar":"en";apply()};
+Promise.all([fetch("data/tools.json",{cache:"no-store"}),fetch("data/tool-lifecycle.json",{cache:"no-store"})]).then(async([a,b])=>{if(!a.ok||!b.ok)throw new Error("load failed");catalog=await a.json();lifecycle=await b.json();apply()}).catch(()=>{$("grid").innerHTML=`<div class="empty-new">${esc(copy[lang].failed)}</div>`});
+</script>
+</body></html>
