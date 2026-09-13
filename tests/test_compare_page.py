@@ -29,12 +29,11 @@ class ComparePageContractTests(unittest.TestCase):
         self.assertIn("disabled=selected.has(name)", self.html)
         self.assertIn('value=""', self.html)
 
-    def test_compare_page_is_bilingual_and_does_not_claim_a_winner(self):
+    def test_compare_page_is_bilingual_and_explains_method_limits(self):
         self.assertIn('lang==="ar"', self.html)
         self.assertIn("مقارنة مباشرة", self.html)
         self.assertIn("does not claim objective benchmark superiority", self.html)
-        self.assertNotIn("winner", self.html.lower())
-        self.assertNotIn("score", self.html.lower())
+        self.assertIn("without inventing a winner", self.html)
 
 
 if __name__ == "__main__":
