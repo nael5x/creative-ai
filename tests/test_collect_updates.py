@@ -1,7 +1,7 @@
 import unittest
 import xml.etree.ElementTree as ET
 
-from scripts.collect_updates import atom, rss
+from scripts.collect_updates import atom, build_payload, collect_sources, error_summary, rss
 
 
 SOURCE = "Test Source"
@@ -100,6 +100,60 @@ class RssParserTests(unittest.TestCase):
     def test_malformed_rss_feed_raises_parse_error(self):
         with self.assertRaises(ET.ParseError):
             rss(b"<rss><channel><item></rss>", SOURCE, KIND, PURPOSE, WHY)
+
+
+class SourceHealthTests(unittest.TestCase):
+    def test_source_failure_preserves_successful_items_and_records_health(self):
+        sources = [
+            (
+                "Healthy Source",
+                "https://healthy.example/feed",
+                KIND,
+                PURPOSE,
+                WHY,
+            ),
+            (
+                "Broken Source",
+                "https://broken.example/feed",
+                KIND,
+                PURPOSE,
+                WHY,
+            ),
+        ]
+        healthy_feed = b"""<feed xmlns='http://www.w3.org/2005/Atom'>
+          <entry>
+            <id>tag:example.com,2026:healthy</id>
+            <title>Healthy release</title>
+            <link href='https://example.com/releases/healthy' />
+          </entry>
+        </feed>"""
+
+        def fake_get(url):
+            if "broken" in url:
+                raise TimeoutError("upstream\nrequest timed out")
+            return healthy_feed
+
+        items, health = collect_sources(sources=sources, fetcher=fake_get)
+        payload = build_payload(items, health, sources=sources)
+
+        self.assertEqual([item["title"] for item in payload["items"]], ["Healthy release"])
+        self.assertEqual(payload["sourceHealth"]["total"], 2)
+        self.assertEqual(payload["sourceHealth"]["ok"], 1)
+        self.assertEqual(payload["sourceHealth"]["failed"], 1)
+        self.assertEqual(health[0]["status"], "ok")
+        self.assertEqual(health[0]["items"], 1)
+        self.assertEqual(health[1]["status"], "error")
+        self.assertEqual(health[1]["items"], 0)
+        self.assertEqual(health[1]["source"], "Broken Source")
+        self.assertIn("TimeoutError", health[1]["error"])
+        self.assertNotIn("\n", health[1]["error"])
+
+    def test_error_summary_is_concise_and_single_line(self):
+        summary = error_summary(RuntimeError("first line\nsecond line"), limit=32)
+
+        self.assertLessEqual(len(summary), 32)
+        self.assertNotIn("\n", summary)
+        self.assertTrue(summary.startswith("RuntimeError:"))
 
 
 if __name__ == "__main__":
