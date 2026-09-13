@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Latest AI Tool Updates — Creative AI</title>
+  <meta name="description" content="Browse recent official-source updates monitored by Creative AI.">
+  <link rel="stylesheet" href="styles/design-system.css">
+  <link rel="stylesheet" href="styles/discovery-hub.css">
+</head>
+<body>
+<main class="wrap discovery-page">
+  <header class="top">
+    <a class="brand" href="./"><span class="brand-mark">&lt;/&gt;</span><span>Creative AI</span></a>
+    <nav class="nav" aria-label="Primary"><a href="tools.html" id="navTools">Tools</a><a href="categories.html" id="navCategories">Categories</a><a href="updates.html" aria-current="page" id="navUpdates">Updates</a><a href="submit.html" id="navSubmit">Submit</a></nav>
+    <div class="actions"><a class="btn github" href="https://github.com/nael5x/creative-ai" target="_blank" rel="noopener noreferrer">GitHub ↗</a><button class="lang" id="lang" type="button">العربية</button></div>
+  </header>
+
+  <section class="discovery-hero">
+    <div class="eyebrow" id="eyebrow">OFFICIAL-SOURCE MONITOR</div>
+    <h1 id="title">See what changed before choosing your next tool.</h1>
+    <p id="intro">These entries come from the release sources already monitored by Creative AI. No fabricated news ranking or engagement score is added.</p>
+    <div class="discovery-nav"><a href="tools.html" id="toolsLink">Browse tools</a><a href="categories.html" id="categoriesLink">Categories</a><a href="submit.html" id="submitLink">Submit a tool</a></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><h2 id="sectionTitle">Latest updates</h2><p id="sectionIntro">Search by title or source, or focus on one monitored source.</p></div><small class="updated-at" id="updatedAt"></small></div>
+    <div class="discovery-toolbar"><input id="search" type="search" autocomplete="off" placeholder="Search updates…"><select id="source"><option value="all">All sources</option></select></div>
+    <div class="update-list" id="updateList"><div class="empty">Loading updates…</div></div>
+  </section>
+</main>
+<script>
+const copy={
+ en:{eyebrow:"OFFICIAL-SOURCE MONITOR",title:"See what changed before choosing your next tool.",intro:"These entries come from the release sources already monitored by Creative AI. No fabricated news ranking or engagement score is added.",tools:"Tools",categories:"Categories",updates:"Updates",submit:"Submit",browse:"Browse tools",cats:"Categories",submitTool:"Submit a tool",section:"Latest updates",sectionIntro:"Search by title or source, or focus on one monitored source.",search:"Search updates…",all:"All sources",updated:"Feed updated",open:"Open original source ↗",empty:"No updates match these filters."},
+ ar:{eyebrow:"مراقبة المصادر الرسمية",title:"شاهد ما تغيّر قبل أن تختار أداتك التالية.",intro:"هذه العناصر تأتي من مصادر الإصدارات التي يراقبها Creative AI أصلًا، بدون ترتيب أخبار أو أرقام تفاعل مختلقة.",tools:"الأدوات",categories:"التصنيفات",updates:"التحديثات",submit:"اقترح",browse:"تصفّح الأدوات",cats:"التصنيفات",submitTool:"اقترح أداة",section:"آخر التحديثات",sectionIntro:"ابحث بالعنوان أو المصدر، أو ركّز على مصدر واحد.",search:"ابحث في التحديثات…",all:"كل المصادر",updated:"آخر تحديث للتغذية",open:"افتح المصدر الأصلي ↗",empty:"لا توجد تحديثات مطابقة لهذه الفلاتر."}
+};
+let lang=new URLSearchParams(location.search).get("lang")==="ar"?"ar":"en",feed={items:[],sources:[],updatedAt:null},query="",source="all";const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+function summary(item){return item.why||item.purpose||(lang==="ar"?"افتح المصدر الأصلي لمعرفة تفاصيل التحديث.":"Open the original source for the full update details.")}
+function renderSources(){const t=copy[lang],names=[...new Set((feed.items||[]).map(x=>x.source).filter(Boolean))].sort();$("source").innerHTML=`<option value="all">${esc(t.all)}</option>`+names.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join("");$("source").value=source}
+function render(){const t=copy[lang],items=(feed.items||[]).filter(x=>{const hay=[x.title,x.source,summary(x)].join(" ").toLowerCase();return hay.includes(query.toLowerCase())&&(source==="all"||x.source===source)}).slice(0,60);$("updatedAt").textContent=feed.updatedAt?`${t.updated}: ${new Date(feed.updatedAt).toLocaleString(lang==="ar"?"ar":"en")}`:"";$("updateList").innerHTML=items.length?items.map(x=>`<article class="update-card"><div class="update-meta"><span>${esc(x.source||"Source")}</span></div><h2>${esc(x.title||"Update")}</h2><p>${esc(summary(x))}</p><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(t.open)}</a></article>`).join(""):`<div class="empty">${esc(t.empty)}</div>`}
+function apply(){const t=copy[lang];document.documentElement.lang=lang;document.documentElement.dir=lang==="ar"?"rtl":"ltr";document.body.classList.toggle("rtl",lang==="ar");$("lang").textContent=lang==="en"?"العربية":"English";$("eyebrow").textContent=t.eyebrow;$("title").textContent=t.title;$("intro").textContent=t.intro;$("navTools").textContent=t.tools;$("navCategories").textContent=t.categories;$("navUpdates").textContent=t.updates;$("navSubmit").textContent=t.submit;$("toolsLink").textContent=t.browse;$("categoriesLink").textContent=t.cats;$("submitLink").textContent=t.submitTool;$("sectionTitle").textContent=t.section;$("sectionIntro").textContent=t.sectionIntro;$("search").placeholder=t.search;$("navTools").href=`tools.html?lang=${lang}`;$("navCategories").href=`categories.html?lang=${lang}`;$("navSubmit").href=`submit.html?lang=${lang}`;$("toolsLink").href=`tools.html?lang=${lang}`;$("categoriesLink").href=`categories.html?lang=${lang}`;$("submitLink").href=`submit.html?lang=${lang}`;history.replaceState({},"",lang==="ar"?"updates.html?lang=ar":"updates.html");renderSources();render()}
+$("lang").onclick=()=>{lang=lang==="en"?"ar":"en";apply()};$("search").oninput=e=>{query=e.target.value;render()};$("source").onchange=e=>{source=e.target.value;render()};
+fetch("data/updates.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{feed=data;apply()}).catch(()=>{$("updateList").innerHTML='<div class="empty">Unable to load updates.</div>'});
+apply();
+</script>
+</body></html>
