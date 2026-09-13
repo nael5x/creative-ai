@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {"id": "writing", "en": "Writing", "ar": "الكتابة"},
+    {"id": "research", "en": "Research", "ar": "البحث"},
+    {"id": "coding", "en": "Coding", "ar": "البرمجة"},
+    {"id": "images", "en": "Images", "ar": "الصور"},
+    {"id": "video", "en": "Video", "ar": "الفيديو"},
+    {"id": "automation", "en": "Automation", "ar": "الأتمتة"},
+    {"id": "study", "en": "Study & files", "ar": "الدراسة والملفات"},
+    {"id": "local", "en": "Local / private AI", "ar": "ذكاء اصطناعي محلي / خاص"},
+    {"id": "design", "en": "Design & presentations", "ar": "التصميم والعروض"},
+    {"id": "audio", "en": "Voice & music", "ar": "الصوت والموسيقى"}
+  ],
+  "budgets": [
+    {"id": "free", "en": "Free-friendly", "ar": "خيارات مجانية"},
+    {"id": "any", "en": "Free or paid", "ar": "مجاني أو مدفوع"},
+    {"id": "open-source", "en": "Open source only", "ar": "مفتوح المصدر فقط"}
+  ],
+  "priorities": [
+    {"id": "easy", "en": "Easy to start", "ar": "سهل للبدء"},
+    {"id": "privacy", "en": "Privacy / local control", "ar": "الخصوصية / التشغيل المحلي"},
+    {"id": "control", "en": "Advanced control", "ar": "تحكم متقدم"}
+  ],
+  "profiles": {
+    "ChatGPT": {"tasks": ["writing", "research", "study"], "traits": ["easy", "free-friendly"]},
+    "Claude": {"tasks": ["writing", "coding", "study"], "traits": ["easy", "free-friendly"]},
+    "Gemini": {"tasks": ["writing", "research", "study"], "traits": ["easy", "free-friendly"]},
+    "Perplexity": {"tasks": ["research", "study"], "traits": ["easy", "free-friendly"]},
+    "NotebookLM": {"tasks": ["research", "study"], "traits": ["easy", "free-friendly"]},
+    "Midjourney": {"tasks": ["images", "design"], "traits": ["control"]},
+    "Adobe Firefly": {"tasks": ["images", "design"], "traits": ["easy", "free-friendly"]},
+    "Canva AI": {"tasks": ["images", "video", "design"], "traits": ["easy", "free-friendly"]},
+    "Runway": {"tasks": ["video"], "traits": ["easy", "free-friendly", "control"]},
+    "Pika": {"tasks": ["video"], "traits": ["easy", "free-friendly"]},
+    "Luma Dream Machine": {"tasks": ["video"], "traits": ["easy", "free-friendly", "control"]},
+    "ElevenLabs": {"tasks": ["audio"], "traits": ["easy", "free-friendly"]},
+    "Suno": {"tasks": ["audio"], "traits": ["easy", "free-friendly"]},
+    "Cursor": {"tasks": ["coding"], "traits": ["easy", "free-friendly", "control"]},
+    "GitHub Copilot": {"tasks": ["coding"], "traits": ["easy", "free-friendly"]},
+    "Windsurf": {"tasks": ["coding"], "traits": ["easy", "free-friendly", "control"]},
+    "v0": {"tasks": ["coding", "design"], "traits": ["easy", "free-friendly"]},
+    "Lovable": {"tasks": ["coding", "design"], "traits": ["easy", "free-friendly"]},
+    "Replit": {"tasks": ["coding"], "traits": ["easy", "free-friendly"]},
+    "n8n": {"tasks": ["automation"], "traits": ["open-source", "privacy", "control"]},
+    "Make": {"tasks": ["automation"], "traits": ["easy", "free-friendly"]},
+    "Zapier": {"tasks": ["automation"], "traits": ["easy", "free-friendly"]},
+    "Ollama": {"tasks": ["writing", "research", "coding", "local"], "traits": ["open-source", "privacy", "control"]},
+    "LM Studio": {"tasks": ["writing", "research", "coding", "local"], "traits": ["easy", "free-friendly", "privacy"]},
+    "Open WebUI": {"tasks": ["writing", "research", "coding", "local"], "traits": ["open-source", "easy", "privacy"]},
+    "ComfyUI": {"tasks": ["images", "local"], "traits": ["open-source", "privacy", "control"]},
+    "Hugging Face": {"tasks": ["research", "coding", "local"], "traits": ["free-friendly", "control"]},
+    "LangChain": {"tasks": ["coding", "automation"], "traits": ["open-source", "control"]},
+    "LlamaIndex": {"tasks": ["coding", "research"], "traits": ["open-source", "control"]},
+    "Flowise": {"tasks": ["coding", "automation"], "traits": ["open-source", "easy", "control"]},
+    "Figma AI": {"tasks": ["design"], "traits": ["easy", "free-friendly"]},
+    "Gamma": {"tasks": ["design"], "traits": ["easy", "free-friendly"]},
+    "Notion AI": {"tasks": ["writing", "study"], "traits": ["easy", "free-friendly"]},
+    "Grammarly": {"tasks": ["writing"], "traits": ["easy", "free-friendly"]}
+  }
+}
