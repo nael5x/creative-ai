@@ -152,17 +152,44 @@ def build_payload(items, health, sources=SOURCES):
     }
 
 
-def main():
-    items, health = collect_sources()
-    payload = build_payload(items, health)
-    Path("data/updates.json").write_text(
+def comparable_payload(payload):
+    """Return the meaningful payload fields, excluding the run timestamp."""
+    if not isinstance(payload, dict):
+        return payload
+    return {key: value for key, value in payload.items() if key != "updatedAt"}
+
+
+def write_payload_if_changed(payload, path=Path("data/updates.json")):
+    """Write payload only when meaningful generated data changed."""
+    previous = None
+    try:
+        previous = json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+
+    if previous is not None and comparable_payload(previous) == comparable_payload(payload):
+        return False
+
+    path.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    return True
+
+
+def main():
+    items, health = collect_sources()
+    payload = build_payload(items, health)
+    changed = write_payload_if_changed(payload)
     status = payload["sourceHealth"]
-    print(
-        f"Stored {len(payload['items'])} verified signals from {status['ok']}/{status['total']} healthy sources"
-    )
+
+    if changed:
+        print(
+            f"Stored {len(payload['items'])} verified signals from {status['ok']}/{status['total']} healthy sources"
+        )
+    else:
+        print("No meaningful signal changes; kept existing data/updates.json")
+
     if status["failed"]:
         failed_sources = ", ".join(
             result["source"] for result in health if result["status"] == "error"
