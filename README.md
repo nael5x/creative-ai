@@ -10,6 +10,7 @@ The public site combines a curated tool directory with an automated source monit
 - Groups tools by purpose so users can search by task instead of brand name alone.
 - Monitors selected upstream release feeds and discovery sources.
 - Publishes fresh update data automatically through GitHub Actions.
+- Records a health result for every monitored source on each collection run.
 - Links users back to original tools and sources rather than republishing full external content.
 
 ## Live architecture
@@ -24,7 +25,7 @@ data/tools.json
 
 scripts/collect_updates.py
   └─ reads upstream Atom/RSS feeds
-      └─ writes data/updates.json
+      └─ writes items + sourceHealth to data/updates.json
 
 .github/workflows/source-monitor.yml
   └─ runs the collector every six hours
@@ -36,15 +37,39 @@ scripts/validate_tools.py
   └─ validates catalog changes on pull requests
 
 tests/test_collect_updates.py
-  └─ regression tests for Atom/RSS parsing
+  └─ regression tests for parsing, partial success and source health
 
 .github/workflows/test-feed-parsers.yml
-  └─ runs feed parser tests on relevant pull requests and main pushes
+  └─ runs collector regression tests on relevant pull requests and main pushes
 ```
 
 ## Monitored sources
 
 The current monitor includes official or project release feeds for tools such as Ollama, LangChain, Hugging Face Transformers, ComfyUI, Open WebUI, Flowise, Langflow, n8n, and LlamaIndex. Product Hunt is included as a discovery-only source and should not be treated as an official release feed.
+
+## Source health reporting
+
+Every collection run records an explicit result for each configured source in `data/updates.json` under `sourceHealth`.
+
+```json
+{
+  "sourceHealth": {
+    "total": 10,
+    "ok": 9,
+    "failed": 1,
+    "sources": [
+      {
+        "source": "Example Source",
+        "url": "https://example.com/feed",
+        "status": "ok",
+        "items": 4
+      }
+    ]
+  }
+}
+```
+
+If a source fails, its status becomes `error` with a concise single-line error summary. The collector continues processing the remaining sources, keeps successful items, writes the health summary, and prints the unhealthy source names in the workflow log. One upstream failure therefore does not discard a successful partial update.
 
 ## Run locally
 
@@ -74,13 +99,13 @@ To validate the curated tool catalog:
 python scripts/validate_tools.py
 ```
 
-To run the feed parser regression tests:
+To run the collector regression tests:
 
 ```bash
 python -m unittest discover -s tests -p "test_*.py" -v
 ```
 
-The parser tests use local fixture XML only; they do not require network access.
+The tests use local fixture XML and injected fetch behavior; they do not require network access.
 
 ## Project structure
 
@@ -123,7 +148,7 @@ Contributions are welcome. Good contribution areas include:
 - accessibility and UI improvements;
 - source-health and monitoring improvements.
 
-Before opening a pull request, read [`CONTRIBUTING.md`](CONTRIBUTING.md). For tool catalog changes, also read [`data/TOOLS_FORMAT.md`](data/TOOLS_FORMAT.md) and run `python scripts/validate_tools.py`. For feed parser changes, run `python -m unittest discover -s tests -p "test_*.py" -v`.
+Before opening a pull request, read [`CONTRIBUTING.md`](CONTRIBUTING.md). For tool catalog changes, also read [`data/TOOLS_FORMAT.md`](data/TOOLS_FORMAT.md) and run `python scripts/validate_tools.py`. For collector changes, run `python -m unittest discover -s tests -p "test_*.py" -v`.
 
 ## Maintenance approach
 
