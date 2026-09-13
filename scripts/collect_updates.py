@@ -90,30 +90,84 @@ def rss(feed, source, kind, purpose, why):
     return rows
 
 
-def main():
+def error_summary(error: Exception, limit: int = 240) -> str:
+    """Create a concise single-line error suitable for logs and generated status data."""
+    message = " ".join(str(error).split()) or "unknown error"
+    summary = f"{type(error).__name__}: {message}"
+    return summary[:limit]
+
+
+def collect_sources(sources=SOURCES, fetcher=get):
+    """Collect feed items and an explicit health result for every configured source."""
     items = []
-    for source, url, kind, purpose, why in SOURCES:
+    health = []
+
+    for source, url, kind, purpose, why in sources:
         try:
-            raw = get(url)
-            items.extend(
+            raw = fetcher(url)
+            rows = (
                 atom(raw, source, kind, purpose, why)
                 if b"<feed" in raw[:1000]
                 else rss(raw, source, kind, purpose, why)
             )
+            items.extend(rows)
+            health.append(
+                {
+                    "source": source,
+                    "url": url,
+                    "status": "ok",
+                    "items": len(rows),
+                }
+            )
+            print(f"[ok] {source}: {len(rows)} item(s)")
         except Exception as error:
-            print(f"Skipped {source}: {error}")
+            summary = error_summary(error)
+            health.append(
+                {
+                    "source": source,
+                    "url": url,
+                    "status": "error",
+                    "items": 0,
+                    "error": summary,
+                }
+            )
+            print(f"[error] {source}: {summary}")
 
+    return items, health
+
+
+def build_payload(items, health, sources=SOURCES):
     unique = {x["id"]: x for x in items if usable_record(x)}
-    payload = {
+    failed = sum(1 for result in health if result["status"] == "error")
+    return {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
         "items": list(unique.values()),
-        "sources": [x[0] for x in SOURCES],
+        "sources": [x[0] for x in sources],
+        "sourceHealth": {
+            "total": len(health),
+            "ok": len(health) - failed,
+            "failed": failed,
+            "sources": health,
+        },
     }
+
+
+def main():
+    items, health = collect_sources()
+    payload = build_payload(items, health)
     Path("data/updates.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    print(f"Stored {len(unique)} verified signals from {len(SOURCES)} sources")
+    status = payload["sourceHealth"]
+    print(
+        f"Stored {len(payload['items'])} verified signals from {status['ok']}/{status['total']} healthy sources"
+    )
+    if status["failed"]:
+        failed_sources = ", ".join(
+            result["source"] for result in health if result["status"] == "error"
+        )
+        print(f"Unhealthy sources: {failed_sources}")
 
 
 if __name__ == "__main__":
