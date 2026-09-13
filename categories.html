@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Tool Categories — Creative AI</title>
+  <meta name="description" content="Browse the Creative AI maintained catalog by category.">
+  <link rel="stylesheet" href="styles/design-system.css">
+  <link rel="stylesheet" href="styles/discovery-hub.css">
+</head>
+<body>
+<main class="wrap discovery-page">
+  <header class="top">
+    <a class="brand" href="./"><span class="brand-mark">&lt;/&gt;</span><span>Creative AI</span></a>
+    <nav class="nav" aria-label="Primary"><a href="tools.html" id="navTools">Tools</a><a href="categories.html" aria-current="page" id="navCategories">Categories</a><a href="updates.html" id="navUpdates">Updates</a><a href="submit.html" id="navSubmit">Submit</a></nav>
+    <div class="actions"><a class="btn github" href="https://github.com/nael5x/creative-ai" target="_blank" rel="noopener noreferrer">GitHub ↗</a><button class="lang" id="lang" type="button">العربية</button></div>
+  </header>
+
+  <section class="discovery-hero">
+    <div class="eyebrow" id="eyebrow">BROWSE BY CATEGORY</div>
+    <h1 id="title">Start with the kind of work you want to do.</h1>
+    <p id="intro">Every category is generated from the maintained Creative AI catalog, so counts stay tied to project data instead of marketing claims.</p>
+    <div class="discovery-nav"><a href="tools.html" id="allToolsLink">All tools</a><a href="recommend.html?lang=en" id="finderLink">Guided finder</a><a href="updates.html" id="updatesLink">Latest updates</a></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><h2 id="sectionTitle">Categories</h2><p id="sectionIntro">Choose one to open the database already filtered to that category.</p></div></div>
+    <div class="category-grid" id="categoryGrid"><div class="empty">Loading categories…</div></div>
+  </section>
+</main>
+<script>
+const copy={
+ en:{eyebrow:"BROWSE BY CATEGORY",title:"Start with the kind of work you want to do.",intro:"Every category is generated from the maintained Creative AI catalog, so counts stay tied to project data instead of marketing claims.",section:"Categories",sectionIntro:"Choose one to open the database already filtered to that category.",tools:"Tools",categories:"Categories",updates:"Updates",submit:"Submit",all:"All tools",finder:"Guided finder",latest:"Latest updates",count:n=>`${n} tool${n===1?"":"s"}`},
+ ar:{eyebrow:"تصفّح حسب التصنيف",title:"ابدأ بنوع العمل الذي تريد إنجازه.",intro:"كل تصنيف يُبنى من دليل Creative AI المصان، لذلك الأعداد مرتبطة ببيانات المشروع لا بادعاءات تسويقية.",section:"التصنيفات",sectionIntro:"اختر تصنيفًا لفتح قاعدة الأدوات وهي مفلترة عليه مباشرة.",tools:"الأدوات",categories:"التصنيفات",updates:"التحديثات",submit:"اقترح أداة",all:"كل الأدوات",finder:"مساعد الاختيار",latest:"آخر التحديثات",count:n=>`${n} أداة`}
+};
+const categoryAr={"Writing & research":"الكتابة والبحث","Writing & coding":"الكتابة والبرمجة","Research & Google":"بحث وخدمات Google","Research":"بحث","Learn from your files":"التعلم من الملفات","Images":"صور","Images & design":"صور وتصميم","Design":"تصميم","Video":"فيديو","Voice & audio":"صوت","Music":"موسيقى","Coding":"برمجة","Web UI":"واجهات ويب","Web apps":"تطبيقات ويب","Build & deploy":"بناء ونشر","Automation":"أتمتة","Local models":"نماذج محلية","Local AI UI":"واجهة AI محلية","Image workflows":"تدفقات صور","Models & datasets":"نماذج وبيانات","AI development":"تطوير AI","Visual AI builder":"بناء AI مرئي","Product design":"تصميم منتجات","Presentations":"عروض","Knowledge work":"إدارة معرفة","Writing":"كتابة"};
+let lang=new URLSearchParams(location.search).get("lang")==="ar"?"ar":"en",catalog=[];const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+function validTool(row){return Array.isArray(row)&&row.length===6&&row.every(v=>typeof v==="string"&&v.trim())&&/^https?:\/\//.test(row[5])}
+function label(cat){return lang==="ar"?(categoryAr[cat]||cat):cat}
+function render(){const t=copy[lang],counts=new Map();catalog.forEach(row=>counts.set(row[1],(counts.get(row[1])||0)+1));const rows=[...counts.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));$("categoryGrid").innerHTML=rows.length?rows.map(([cat,count])=>`<article class="category-card"><span class="category-count">${esc(t.count(count))}</span><h2>${esc(label(cat))}</h2><p>${esc(lang==="ar"?"اعرض الأدوات المصانة ضمن هذا التصنيف.":"Browse maintained tools in this category.")}</p><a href="tools.html?category=${encodeURIComponent(cat)}&lang=${lang}" aria-label="${esc(label(cat))}">${esc(label(cat))}</a></article>`).join(""):`<div class="empty">No categories found.</div>`}
+function apply(){const t=copy[lang];document.documentElement.lang=lang;document.documentElement.dir=lang==="ar"?"rtl":"ltr";document.body.classList.toggle("rtl",lang==="ar");$("lang").textContent=lang==="en"?"العربية":"English";$("eyebrow").textContent=t.eyebrow;$("title").textContent=t.title;$("intro").textContent=t.intro;$("sectionTitle").textContent=t.section;$("sectionIntro").textContent=t.sectionIntro;$("navTools").textContent=t.tools;$("navCategories").textContent=t.categories;$("navUpdates").textContent=t.updates;$("navSubmit").textContent=t.submit;$("allToolsLink").textContent=t.all;$("finderLink").textContent=t.finder;$("updatesLink").textContent=t.latest;$("navTools").href=`tools.html?lang=${lang}`;$("navUpdates").href=`updates.html?lang=${lang}`;$("navSubmit").href=`submit.html?lang=${lang}`;$("allToolsLink").href=`tools.html?lang=${lang}`;$("finderLink").href=`recommend.html?lang=${lang}`;$("updatesLink").href=`updates.html?lang=${lang}`;history.replaceState({},"",lang==="ar"?"categories.html?lang=ar":"categories.html");render()}
+$("lang").onclick=()=>{lang=lang==="en"?"ar":"en";apply()};
+fetch("data/tools.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject()).then(rows=>{catalog=rows.filter(validTool);apply()}).catch(()=>{$("categoryGrid").innerHTML='<div class="empty">Unable to load categories.</div>'});
+apply();
+</script>
+</body></html>
