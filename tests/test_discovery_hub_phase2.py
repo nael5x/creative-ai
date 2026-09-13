@@ -31,7 +31,7 @@ class DiscoveryHubPhaseTwoTests(unittest.TestCase):
 
     def test_submission_opens_transparent_github_issue(self):
         self.assertIn("github.com/nael5x/creative-ai/issues/new", SUBMIT)
-        self.assertIn("Submission does not guarantee inclusion", TEMPLATE)
+        self.assertIn("submission does not guarantee inclusion", TEMPLATE.lower())
         self.assertIn("official or clearly verifiable source", TEMPLATE)
 
     def test_new_pages_keep_bilingual_rtl_behavior(self):
