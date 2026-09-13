@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 TOOLS_PATH = ROOT / "data" / "tools.json"
 CONFIG_PATH = ROOT / "data" / "recommender.json"
+FIT_PATH = ROOT / "data" / "recommender-fit.json"
 
 
 class RecommenderConfigTests(unittest.TestCase):
@@ -13,6 +14,7 @@ class RecommenderConfigTests(unittest.TestCase):
     def setUpClass(cls):
         cls.tools = json.loads(TOOLS_PATH.read_text(encoding="utf-8"))
         cls.config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+        cls.fit = json.loads(FIT_PATH.read_text(encoding="utf-8"))
         cls.tool_by_name = {row[0]: row for row in cls.tools}
 
     def test_has_enough_task_choices_for_guided_finder(self):
@@ -56,6 +58,35 @@ class RecommenderConfigTests(unittest.TestCase):
         for task, count in counts.items():
             minimum = 2 if task == "audio" else 3
             self.assertGreaterEqual(count, minimum, f"{task} only has {count} candidates")
+
+    def test_fit_metadata_covers_every_recommender_profile(self):
+        self.assertEqual(set(self.config["profiles"]), set(self.fit))
+
+    def test_fit_weights_and_localized_reasons_are_valid(self):
+        known_tasks = {item["id"] for item in self.config["tasks"]}
+        for name, item in self.fit.items():
+            self.assertIn(name, self.tool_by_name)
+            weights = item.get("w")
+            self.assertIsInstance(weights, dict)
+            self.assertTrue(weights)
+            self.assertTrue(set(weights).issubset(known_tasks))
+            self.assertEqual(set(weights), set(self.config["profiles"][name]["tasks"]))
+            for weight in weights.values():
+                self.assertIsInstance(weight, (int, float))
+                self.assertGreater(weight, 0)
+                self.assertLessEqual(weight, 5)
+
+            fit = item.get("fit", {})
+            for language in ("en", "ar"):
+                self.assertIsInstance(fit.get(language), str)
+                self.assertTrue(fit[language].strip())
+
+    def test_coding_intent_prefers_coding_first_tools(self):
+        cursor = self.fit["Cursor"]["w"]["coding"]
+        copilot = self.fit["GitHub Copilot"]["w"]["coding"]
+        claude = self.fit["Claude"]["w"]["coding"]
+        self.assertGreater(cursor, claude)
+        self.assertGreater(copilot, claude)
 
 
 if __name__ == "__main__":
