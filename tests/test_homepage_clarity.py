@@ -36,8 +36,8 @@ class HomepageClarityTests(unittest.TestCase):
 
     def test_bilingual_copy_and_rtl_remain_supported(self):
         self.assertIn('document.documentElement.dir=language==="ar"?"rtl":"ltr"', HOME)
-        self.assertIn("اختر ما تحتاجه", HOME)
-        self.assertIn("Choose what you need", HOME)
+        self.assertIn("اختر مسارك", HOME)
+        self.assertIn("Choose your path", HOME)
 
 
 if __name__ == "__main__":
