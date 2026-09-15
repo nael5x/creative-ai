@@ -99,13 +99,14 @@ To validate the curated tool catalog:
 python scripts/validate_tools.py
 ```
 
-To run the collector regression tests:
+To run the complete regression suite (including function-based tests):
 
 ```bash
-python -m unittest discover -s tests -p "test_*.py" -v
+python -m pip install pytest
+python -m pytest -q
 ```
 
-The tests use local fixture XML and injected fetch behavior; they do not require network access.
+The suite includes catalog/UI checks as well as collector tests. Collector tests use local XML fixtures and injected fetch behavior. The existing feed-parser CI workflow uses unittest discovery, which does not run the function-based tests; run pytest locally for the full suite.
 
 ## Project structure
 
@@ -148,7 +149,7 @@ Contributions are welcome. Good contribution areas include:
 - accessibility and UI improvements;
 - source-health and monitoring improvements.
 
-Before opening a pull request, read [`CONTRIBUTING.md`](CONTRIBUTING.md). For tool catalog changes, also read [`data/TOOLS_FORMAT.md`](data/TOOLS_FORMAT.md) and run `python scripts/validate_tools.py`. For collector changes, run `python -m unittest discover -s tests -p "test_*.py" -v`.
+Before opening a pull request, read [`CONTRIBUTING.md`](CONTRIBUTING.md). For tool catalog changes, also read [`data/TOOLS_FORMAT.md`](data/TOOLS_FORMAT.md) and run `python scripts/validate_tools.py`. For collector changes, run `python -m pytest -q`.
 
 ## Maintenance approach
 
