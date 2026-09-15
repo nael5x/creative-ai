@@ -870,18 +870,7 @@
       "userValue": "Active AI-agent security and governance platform; the audit timeout was a transient bot/network access failure rather than product unavailability.",
       "decision": "accepted"
     },
-    {
-      "name": "3DFY.ai",
-      "officialUrl": "https://3dfy.ai/",
-      "evidenceUrls": [
-        "https://3dfy.ai/",
-        "https://tooldirectory.ai/tools/create-3d-models-with-3dfy-ai"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed from active discovery because the canonical product domain no longer resolves as a usable product and independent shutdown evidence corroborates the lapsed service.",
-      "decision": "rejected",
-      "reason": "Removed from active discovery because the canonical product domain no longer resolves as a usable product and independent shutdown evidence corroborates the lapsed service."
-    },
+
     {
       "name": "Booth AI",
       "officialUrl": "https://www.booth.ai/",
