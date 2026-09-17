@@ -837,6 +837,60 @@
       "decision": "accepted"
     },
     {
+      "name": "Captions",
+      "officialUrl": "https://captions.ai/",
+      "evidenceUrls": [
+        "https://captions.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI video creation and editing platform for automated full-video edits, avatars, captions, translation, generated music and prompt-directed post-production.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cartesia",
+      "officialUrl": "https://cartesia.ai/",
+      "evidenceUrls": [
+        "https://cartesia.ai/",
+        "https://docs.cartesia.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Realtime voice AI platform exposing speech generation, transcription and production voice-agent capabilities through developer APIs.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cerebras Inference",
+      "officialUrl": "https://www.cerebras.ai/inference",
+      "evidenceUrls": [
+        "https://www.cerebras.ai/inference",
+        "https://inference-docs.cerebras.ai/quickstart"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Hosted high-speed model inference service with OpenAI-compatible APIs for coding, research, agents, voice and other latency-sensitive AI applications.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Character.AI",
+      "officialUrl": "https://character.ai/",
+      "evidenceUrls": [
+        "https://character.ai/",
+        "https://blog.character.ai/creator-bundle/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI entertainment and character platform for creating, chatting, roleplaying and building interactive story worlds around customizable AI Characters.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Chatbase",
+      "officialUrl": "https://www.chatbase.co/",
+      "evidenceUrls": [
+        "https://www.chatbase.co/",
+        "https://www.chatbase.co/blog/from-chatbots-to-smart-ai-agents"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Customer-facing AI support-agent platform that grounds agents in business data and lets them answer questions and take support actions.",
+      "decision": "accepted"
+    },
+    {
       "name": "ChatGPT",
       "officialUrl": "https://chatgpt.com/",
       "evidenceUrls": [
@@ -844,6 +898,70 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "General-purpose assistant for writing, analysis, brainstorming, files and multimodal work.",
+      "decision": "accepted"
+    },
+    {
+      "name": "ChatPDF",
+      "officialUrl": "https://www.chatpdf.com/",
+      "evidenceUrls": [
+        "https://www.chatpdf.com/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI document and research workspace for summarizing, querying and citing PDFs and other uploaded or linked source material.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Chroma",
+      "officialUrl": "https://www.trychroma.com/",
+      "evidenceUrls": [
+        "https://www.trychroma.com/",
+        "https://docs.trychroma.com/cloud"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source search and retrieval database plus managed Chroma Cloud for vector, semantic, full-text and metadata search in AI applications.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Circleback",
+      "officialUrl": "https://circleback.ai/",
+      "evidenceUrls": [
+        "https://circleback.ai/",
+        "https://circleback.ai/releases/new-plans"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI meeting assistant for notes, transcripts, action items, follow-up, search and workflow automations across online and in-person meetings.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Civitai",
+      "officialUrl": "https://civitai.com/",
+      "evidenceUrls": [
+        "https://civitai.com/",
+        "https://github.com/civitai/civitai"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Community and open platform for discovering, sharing and using generative-image models, workflows and related creation resources.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Claid.ai",
+      "officialUrl": "https://claid.ai/",
+      "evidenceUrls": [
+        "https://claid.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI product-photography and image-editing platform for generating backgrounds and models, enhancing images and scaling ecommerce visual production.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Clari",
+      "officialUrl": "https://www.clari.com/",
+      "evidenceUrls": [
+        "https://www.clari.com/",
+        "https://www.clari.com/products/copilot/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Revenue-orchestration platform using AI for forecasting, pipeline inspection, conversation intelligence, buyer signals and sales execution.",
       "decision": "accepted"
     },
     {
@@ -865,6 +983,92 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Anthropic's coding agent for understanding codebases, editing files, running commands and developer workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Clay",
+      "officialUrl": "https://www.clay.com/",
+      "evidenceUrls": [
+        "https://www.clay.com/",
+        "https://www.clay.com/claygent"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "GTM data and workflow platform with Claygent AI agents for account research, qualification, personalization and scalable go-to-market automation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cleanup.pictures",
+      "officialUrl": "https://cleanup.pictures/",
+      "evidenceUrls": [
+        "https://cleanup.pictures/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Focused AI inpainting utility for removing unwanted people, objects, text and defects from images through a simple web interface and API.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cleanvoice AI",
+      "officialUrl": "https://cleanvoice.ai/",
+      "evidenceUrls": [
+        "https://cleanvoice.ai/",
+        "https://help.cleanvoice.ai/en/articles/3-what-is-cleanvoice"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI audio and video cleanup editor for automatically removing noise, filler words, mouth sounds, pauses and other speech-recording problems.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Clearscope",
+      "officialUrl": "https://www.clearscope.io/",
+      "evidenceUrls": [
+        "https://www.clearscope.io/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "SEO and AI-search content platform for topic discovery, drafting, optimization, visibility tracking and monitoring across Google and AI assistants.",
+      "decision": "accepted"
+    },
+    {
+      "name": "ClickUp Brain",
+      "officialUrl": "https://clickup.com/ai",
+      "evidenceUrls": [
+        "https://clickup.com/ai",
+        "https://help.clickup.com/hc/en-us/articles/12578085238039-What-is-ClickUp-Brain-AI"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Context-aware AI layer inside ClickUp for research, writing, project summaries, agents and workflow execution grounded in workspace tasks, docs and conversations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cline",
+      "officialUrl": "https://cline.bot/",
+      "evidenceUrls": [
+        "https://cline.bot/",
+        "https://cline.bot/blog/archive"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source coding-agent ecosystem spanning IDE, terminal, desktop and SDK workflows with repository-aware tools, model choice and extensibility.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Clipdrop",
+      "officialUrl": "https://clipdrop.co/",
+      "evidenceUrls": [
+        "https://clipdrop.co/",
+        "https://clipdrop.co/legal-notice"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Active AI image suite for generation, cleanup, background replacement, uncropping, upscaling, relighting and related creative editing tasks.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CoCounsel",
+      "officialUrl": "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+      "evidenceUrls": [
+        "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+        "https://legal.thomsonreuters.com/blog/behind-the-build-of-the-next-generation-of-cocounsel-legal/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Thomson Reuters' current CoCounsel Legal experience for agentic legal research, drafting and document analysis grounded in Westlaw, Practical Law and organizational knowledge.",
       "decision": "accepted"
     },
     {
@@ -1181,6 +1385,18 @@
       "reviewedAt": "2026-09-14",
       "userValue": "Visual automation and AI-agent platform for multi-app business workflows.",
       "decision": "accepted"
+    },
+    {
+      "name": "Manage AI",
+      "officialUrl": "https://www.clio.com/features/",
+      "evidenceUrls": [
+        "https://www.clio.com/features/",
+        "https://www.clio.com/ai-principles/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Clio Manage's native AI layer for completing legal-practice work using matter and firm context, including deadlines, drafting, summaries and workflow automation.",
+      "decision": "accepted",
+      "supersedes": "Clio Duo"
     },
     {
       "name": "Microsoft Agent Framework",
@@ -1661,6 +1877,19 @@
       "reason": "Removed because the former product domain is parked/for sale rather than serving an active AI product."
     },
     {
+      "name": "Clio Duo",
+      "officialUrl": "https://www.clio.com/duo/",
+      "evidenceUrls": [
+        "https://help.clio.com/hc/en-us/articles/41990965598491-Manage-AI-The-Evolution-of-Clio-Duo",
+        "https://www.clio.com/blog/clio-2025-year-in-review/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Clio states that Clio Duo evolved into Manage AI in 2025 and that the Duo capabilities continue inside the newer Manage AI experience.",
+      "decision": "rejected",
+      "reason": "Clio states that Clio Duo evolved into Manage AI in 2025 and that the Duo capabilities continue inside the newer Manage AI experience.",
+      "supersededBy": "Manage AI"
+    },
+    {
       "name": "Coral AI",
       "officialUrl": "https://www.getcoralai.com/",
       "evidenceUrls": [
@@ -1780,11 +2009,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-18",
-  "lastQualityReviewBatch": "legacy-a-004",
+  "lastQualityReviewBatch": "legacy-a-005",
   "lastQualityReviewBatchSummary": {
     "accepted": 17,
-    "updated": 3,
-    "superseded": 0,
+    "updated": 2,
+    "superseded": 1,
     "removed": 0
   }
 }

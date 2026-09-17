@@ -1112,10 +1112,6 @@
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "Clio Duo": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
     "EvenUp": {
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
@@ -2464,6 +2460,11 @@
       "firstTrackedAt": "2026-09-17T21:43:38Z",
       "event": "added",
       "supersedes": "AutoGen"
+    },
+    "Manage AI": {
+      "firstTrackedAt": "2026-09-17T21:47:32Z",
+      "event": "added",
+      "supersedes": "Clio Duo"
     }
   }
 }
