@@ -1,130 +1,139 @@
 {
-  "batchId": "legacy-a-004",
+  "batchId": "legacy-a-005",
   "reviewedAt": "2026-09-18",
   "accept": [
     {
-      "name": "Bearly AI",
-      "officialUrl": "https://bearly.ai/",
-      "evidenceUrls": ["https://bearly.ai/", "https://bearly.ai/changelog"],
-      "userValue": "AI productivity workspace for working with documents, models, writing and research, with an actively maintained desktop and web product."
+      "name": "Cartesia",
+      "officialUrl": "https://cartesia.ai/",
+      "evidenceUrls": ["https://cartesia.ai/", "https://docs.cartesia.ai/"],
+      "userValue": "Realtime voice AI platform exposing speech generation, transcription and production voice-agent capabilities through developer APIs."
     },
     {
-      "name": "Beatoven.ai",
-      "officialUrl": "https://www.beatoven.ai/",
-      "evidenceUrls": ["https://www.beatoven.ai/"],
-      "userValue": "AI music generator for producing original background tracks and soundtracks with creator-oriented licensing workflows."
+      "name": "Cerebras Inference",
+      "officialUrl": "https://www.cerebras.ai/inference",
+      "evidenceUrls": ["https://www.cerebras.ai/inference", "https://inference-docs.cerebras.ai/quickstart"],
+      "userValue": "Hosted high-speed model inference service with OpenAI-compatible APIs for coding, research, agents, voice and other latency-sensitive AI applications."
     },
     {
-      "name": "Beautiful.ai",
-      "officialUrl": "https://www.beautiful.ai/",
-      "evidenceUrls": ["https://www.beautiful.ai/", "https://www.beautiful.ai/product-updates"],
-      "userValue": "AI presentation platform for generating, designing and refining slide decks with automated layout and presentation workflows."
+      "name": "Character.AI",
+      "officialUrl": "https://character.ai/",
+      "evidenceUrls": ["https://character.ai/", "https://blog.character.ai/creator-bundle/"],
+      "userValue": "AI entertainment and character platform for creating, chatting, roleplaying and building interactive story worlds around customizable AI Characters."
     },
     {
-      "name": "BentoML",
-      "officialUrl": "https://www.bentoml.com/",
-      "evidenceUrls": ["https://www.bentoml.com/", "https://docs.bentoml.com/"],
-      "userValue": "Open-source and managed inference platform for packaging, deploying and scaling AI models and production inference services."
+      "name": "Chatbase",
+      "officialUrl": "https://www.chatbase.co/",
+      "evidenceUrls": ["https://www.chatbase.co/", "https://www.chatbase.co/blog/from-chatbots-to-smart-ai-agents"],
+      "userValue": "Customer-facing AI support-agent platform that grounds agents in business data and lets them answer questions and take support actions."
     },
     {
-      "name": "Bito",
-      "officialUrl": "https://bito.ai/",
-      "evidenceUrls": ["https://bito.ai/", "https://docs.bito.ai/"],
-      "userValue": "AI engineering layer for grounding coding requests in repository context, routing models and supporting code review and development workflows."
+      "name": "ChatPDF",
+      "officialUrl": "https://www.chatpdf.com/",
+      "evidenceUrls": ["https://www.chatpdf.com/"],
+      "userValue": "AI document and research workspace for summarizing, querying and citing PDFs and other uploaded or linked source material."
     },
     {
-      "name": "Blackbox AI",
-      "officialUrl": "https://www.blackbox.ai/",
-      "evidenceUrls": ["https://www.blackbox.ai/", "https://www.blackbox.ai/press"],
-      "userValue": "AI coding platform for code generation, repository work, debugging and agent-style software-development tasks."
+      "name": "Chroma",
+      "officialUrl": "https://www.trychroma.com/",
+      "evidenceUrls": ["https://www.trychroma.com/", "https://docs.trychroma.com/cloud"],
+      "userValue": "Open-source search and retrieval database plus managed Chroma Cloud for vector, semantic, full-text and metadata search in AI applications."
     },
     {
-      "name": "Bolt.new",
-      "officialUrl": "https://bolt.new/",
-      "evidenceUrls": ["https://bolt.new/", "https://bolt.new/blog"],
-      "userValue": "Browser-based AI app builder that turns prompts into editable full-stack web applications and supports iterative development and deployment."
+      "name": "Circleback",
+      "officialUrl": "https://circleback.ai/",
+      "evidenceUrls": ["https://circleback.ai/", "https://circleback.ai/releases/new-plans"],
+      "userValue": "AI meeting assistant for notes, transcripts, action items, follow-up, search and workflow automations across online and in-person meetings."
     },
     {
-      "name": "Boomy",
-      "officialUrl": "https://boomy.com/",
-      "evidenceUrls": ["https://boomy.com/", "https://support.boomy.com/hc/en-us/articles/17795213541773-How-does-Boomy-use-AI"],
-      "userValue": "Generative music platform that uses AI and music automation to create customizable original songs for users without traditional production skills."
+      "name": "Civitai",
+      "officialUrl": "https://civitai.com/",
+      "evidenceUrls": ["https://civitai.com/", "https://github.com/civitai/civitai"],
+      "userValue": "Community and open platform for discovering, sharing and using generative-image models, workflows and related creation resources."
     },
     {
-      "name": "Botpress",
-      "officialUrl": "https://botpress.com/",
-      "evidenceUrls": ["https://botpress.com/", "https://botpress.com/docs/changelog/"],
-      "userValue": "Managed AI-agent and conversational automation platform with visual Studio, knowledge bases, integrations, webchat and agent-development tooling."
+      "name": "Claid.ai",
+      "officialUrl": "https://claid.ai/",
+      "evidenceUrls": ["https://claid.ai/"],
+      "userValue": "AI product-photography and image-editing platform for generating backgrounds and models, enhancing images and scaling ecommerce visual production."
     },
     {
-      "name": "Braintrust",
-      "officialUrl": "https://www.braintrust.dev/",
-      "evidenceUrls": ["https://www.braintrust.dev/", "https://www.braintrust.dev/blog"],
-      "userValue": "AI application evaluation, observability and experimentation platform for testing prompts, agents and model behavior against production data."
+      "name": "Clari",
+      "officialUrl": "https://www.clari.com/",
+      "evidenceUrls": ["https://www.clari.com/", "https://www.clari.com/products/copilot/"],
+      "userValue": "Revenue-orchestration platform using AI for forecasting, pipeline inspection, conversation intelligence, buyer signals and sales execution."
     },
     {
-      "name": "Brisk Teaching",
-      "officialUrl": "https://www.briskteaching.com/",
-      "evidenceUrls": ["https://www.briskteaching.com/", "https://www.briskteaching.com/blog/whats-new"],
-      "userValue": "AI teaching assistant for creating instructional materials, feedback, differentiation and classroom content inside educator workflows."
+      "name": "Clay",
+      "officialUrl": "https://www.clay.com/",
+      "evidenceUrls": ["https://www.clay.com/", "https://www.clay.com/claygent"],
+      "userValue": "GTM data and workflow platform with Claygent AI agents for account research, qualification, personalization and scalable go-to-market automation."
     },
     {
-      "name": "Browse AI",
-      "officialUrl": "https://www.browse.ai/",
-      "evidenceUrls": ["https://www.browse.ai/"],
-      "userValue": "No-code AI web-scraping and monitoring platform for extracting structured data and automating recurring website data collection."
+      "name": "Cleanup.pictures",
+      "officialUrl": "https://cleanup.pictures/",
+      "evidenceUrls": ["https://cleanup.pictures/"],
+      "userValue": "Focused AI inpainting utility for removing unwanted people, objects, text and defects from images through a simple web interface and API."
     },
     {
-      "name": "Browser Use",
-      "officialUrl": "https://browser-use.com/",
-      "evidenceUrls": ["https://browser-use.com/", "https://browser-use.com/changelog"],
-      "userValue": "Open-source and cloud browser-agent platform that lets AI agents navigate websites, interact with pages and execute browser tasks programmatically."
+      "name": "Cleanvoice AI",
+      "officialUrl": "https://cleanvoice.ai/",
+      "evidenceUrls": ["https://cleanvoice.ai/", "https://help.cleanvoice.ai/en/articles/3-what-is-cleanvoice"],
+      "userValue": "AI audio and video cleanup editor for automatically removing noise, filler words, mouth sounds, pauses and other speech-recording problems."
     },
     {
-      "name": "Browserbase",
-      "officialUrl": "https://www.browserbase.com/",
-      "evidenceUrls": ["https://www.browserbase.com/", "https://www.browserbase.com/changelog"],
-      "userValue": "Cloud browser infrastructure and agent platform for reliable web automation, browser sessions and production browser-based AI agents."
+      "name": "Clearscope",
+      "officialUrl": "https://www.clearscope.io/",
+      "evidenceUrls": ["https://www.clearscope.io/"],
+      "userValue": "SEO and AI-search content platform for topic discovery, drafting, optimization, visibility tracking and monitoring across Google and AI assistants."
     },
     {
-      "name": "Buffer AI Assistant",
-      "officialUrl": "https://buffer.com/ai-assistant",
-      "evidenceUrls": ["https://buffer.com/ai-assistant", "https://support.buffer.com/article/652-using-buffers-ai-assistant"],
-      "userValue": "AI social-media writing assistant inside Buffer for generating, rewriting and adapting posts to different networks and tones."
+      "name": "ClickUp Brain",
+      "officialUrl": "https://clickup.com/ai",
+      "evidenceUrls": ["https://clickup.com/ai", "https://help.clickup.com/hc/en-us/articles/12578085238039-What-is-ClickUp-Brain-AI"],
+      "userValue": "Context-aware AI layer inside ClickUp for research, writing, project summaries, agents and workflow execution grounded in workspace tasks, docs and conversations."
     },
     {
-      "name": "CAMEL-AI",
-      "officialUrl": "https://www.camel-ai.org/",
-      "evidenceUrls": ["https://www.camel-ai.org/", "https://docs.camel-ai.org/"],
-      "userValue": "Open-source multi-agent framework and research ecosystem for building agent societies, workflows, tools and model-driven simulations."
+      "name": "Cline",
+      "officialUrl": "https://cline.bot/",
+      "evidenceUrls": ["https://cline.bot/", "https://cline.bot/blog/archive"],
+      "userValue": "Open-source coding-agent ecosystem spanning IDE, terminal, desktop and SDK workflows with repository-aware tools, model choice and extensibility."
     },
     {
-      "name": "CapCut AI",
-      "officialUrl": "https://www.capcut.com/tools/ai-video-generator",
-      "evidenceUrls": ["https://www.capcut.com/tools/ai-video-generator", "https://www.capcut.com/tools"],
-      "userValue": "AI video-generation and editing tools inside CapCut for creating video from prompts and combining generation with a full consumer editing workflow."
+      "name": "Clipdrop",
+      "officialUrl": "https://clipdrop.co/",
+      "evidenceUrls": ["https://clipdrop.co/", "https://clipdrop.co/legal-notice"],
+      "userValue": "Active AI image suite for generation, cleanup, background replacement, uncropping, upscaling, relighting and related creative editing tasks."
     }
   ],
   "update": [
     {
-      "name": "Bubble AI",
-      "url": "https://bubble.io/ai-app-builder",
-      "evidenceUrls": ["https://bubble.io/ai-app-builder", "https://bubble.io/blog/what-is-bubble-ai/"],
-      "userValue": "Bubble's AI app builder generates editable web and mobile applications from prompts, including UI, logic and database structure, with an AI Agent for continued iteration."
+      "name": "Captions",
+      "url": "https://captions.ai/",
+      "evidenceUrls": ["https://captions.ai/"],
+      "userValue": "AI video creation and editing platform for automated full-video edits, avatars, captions, translation, generated music and prompt-directed post-production."
     },
     {
-      "name": "Builder.io Visual Copilot",
-      "url": "https://www.builder.io/ai",
-      "evidenceUrls": ["https://www.builder.io/ai", "https://www.builder.io/blog/best-figma-to-code-plugin"],
-      "userValue": "Builder.io's active AI design-to-code capability for converting Figma designs into production-ready code and feeding them into Builder's broader code workflow."
-    },
-    {
-      "name": "Caktus AI",
-      "url": "https://caktus.ai/",
-      "evidenceUrls": ["https://caktus.ai/"],
-      "userValue": "AI study platform with specialized tools for academic writing, citations, math, science, research, flashcards and document-based learning tasks."
+      "name": "CoCounsel",
+      "url": "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+      "evidenceUrls": ["https://legal.thomsonreuters.com/en/products/cocounsel-legal", "https://legal.thomsonreuters.com/blog/behind-the-build-of-the-next-generation-of-cocounsel-legal/"],
+      "userValue": "Thomson Reuters' current CoCounsel Legal experience for agentic legal research, drafting and document analysis grounded in Westlaw, Practical Law and organizational knowledge."
     }
   ],
-  "supersede": [],
+  "supersede": [
+    {
+      "name": "Clio Duo",
+      "newName": "Manage AI",
+      "url": "https://www.clio.com/features/",
+      "category": "Legal",
+      "description": "Context-aware AI capabilities built into Clio Manage for legal-practice operations and matter workflows.",
+      "useCase": "For law firms using Clio that want AI to surface priorities, extract deadlines, draft content, automate practice-management tasks and act on matter context.",
+      "pricing": "Paid",
+      "firstTrackedAt": "2026-09-17T21:47:32Z",
+      "oldEvidenceUrls": ["https://help.clio.com/hc/en-us/articles/41990965598491-Manage-AI-The-Evolution-of-Clio-Duo", "https://www.clio.com/blog/clio-2025-year-in-review/"],
+      "newEvidenceUrls": ["https://www.clio.com/features/", "https://www.clio.com/ai-principles/"],
+      "reason": "Clio states that Clio Duo evolved into Manage AI in 2025 and that the Duo capabilities continue inside the newer Manage AI experience.",
+      "userValue": "Clio Manage's native AI layer for completing legal-practice work using matter and firm context, including deadlines, drafting, summaries and workflow automation."
+    }
+  ],
   "remove": []
 }
