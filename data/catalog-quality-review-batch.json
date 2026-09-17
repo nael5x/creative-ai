@@ -1,68 +1,129 @@
 {
-  "batchId": "legacy-a-001",
-  "reviewedAt": "2026-09-14",
+  "batchId": "legacy-a-002",
+  "reviewedAt": "2026-09-18",
   "accept": [
     {
-      "name": "10Web",
-      "officialUrl": "https://10web.io/ai-website-builder/",
-      "evidenceUrls": ["https://10web.io/ai-website-builder/", "https://10web.io/blog/how-10webs-ai-website-generation-works/"],
-      "userValue": "AI-native website builder for generating, editing and publishing WordPress sites from prompts."
+      "name": "AgentQL",
+      "officialUrl": "https://www.agentql.com/",
+      "evidenceUrls": ["https://docs.agentql.com/home", "https://docs.agentql.com/concepts/query-language"],
+      "userValue": "AI-powered query language and SDKs for resilient web data extraction, browser automation and testing with natural-language selectors."
     },
     {
-      "name": "11x",
-      "officialUrl": "https://www.11x.ai/",
-      "evidenceUrls": ["https://www.11x.ai/", "https://docs.11x.ai/"],
-      "userValue": "AI go-to-market platform with autonomous outbound and inbound sales workers for prospecting, qualification and meeting booking."
+      "name": "Agno",
+      "officialUrl": "https://www.agno.com/",
+      "evidenceUrls": ["https://docs.agno.com/index", "https://docs.agno.com/agent-os/multi-framework/overview"],
+      "userValue": "Agent-platform SDK and runtime for building, serving and managing agents, teams and workflows with tools, memory and integrations."
     },
     {
-      "name": "Abnormal AI",
-      "officialUrl": "https://abnormal.ai/",
-      "evidenceUrls": ["https://abnormal.ai/platform/inbound-email-security"],
-      "userValue": "Behavioral AI security platform for detecting business email compromise, phishing and account-takeover threats."
+      "name": "Ahrefs AI Content Helper",
+      "officialUrl": "https://ahrefs.com/ai-content-helper",
+      "evidenceUrls": ["https://ahrefs.com/ai-content-helper", "https://help.ahrefs.com/en/articles/9879434-about-the-new-ai-content-helper"],
+      "userValue": "AI-assisted SEO content editor that compares drafts with ranking pages, identifies topical gaps and provides in-editor AI feedback."
     },
     {
-      "name": "Abridge",
-      "officialUrl": "https://www.abridge.com/",
-      "evidenceUrls": ["https://www.abridge.com/", "https://www.abridge.com/blog/clinical-ai-specialty-models"],
-      "userValue": "Clinical AI platform that turns patient conversations and chart context into documentation, decision support and follow-up workflows."
+      "name": "AI Studios",
+      "officialUrl": "https://www.aistudios.com/",
+      "evidenceUrls": ["https://www.aistudios.com/features/text-to-video", "https://help.aistudios.com/en/articles/9402480-how-to-create-a-video-avatar"],
+      "userValue": "AI video platform for generating avatar-led and generative videos from prompts, scripts and custom avatars across many languages."
     },
     {
-      "name": "Ada",
-      "officialUrl": "https://www.ada.cx/",
-      "evidenceUrls": ["https://www.ada.cx/blog/agentic-ai-customer-service-updates-july-2026/"],
-      "userValue": "Enterprise agentic customer-service platform for automating resolutions and executing support workflows across channels."
+      "name": "AI2sql",
+      "officialUrl": "https://ai2sql.io/",
+      "evidenceUrls": ["https://ai2sql.io/"],
+      "userValue": "AI database assistant that generates, explains, fixes and optimizes SQL against real schemas and can expose governed query access to agents."
     },
     {
-      "name": "Ada Health",
-      "officialUrl": "https://ada.com/",
-      "evidenceUrls": ["https://ada.com/help/how-do-i-start-a-symptom-assessment/"],
-      "userValue": "AI symptom-assessment product that guides users through structured health questions and produces possible-cause reports."
+      "name": "Aider",
+      "officialUrl": "https://aider.chat/",
+      "evidenceUrls": ["https://aider.chat/"],
+      "userValue": "Terminal-based AI pair programmer with repository context, git integration, code editing, linting and test workflows."
     },
     {
-      "name": "AdCreative.ai",
-      "officialUrl": "https://www.adcreative.ai/",
-      "evidenceUrls": ["https://www.adcreative.ai/"],
-      "userValue": "Generative advertising platform for producing and scoring ad creatives, copy, images and videos."
+      "name": "Aidoc",
+      "officialUrl": "https://www.aidoc.com/",
+      "evidenceUrls": ["https://www.aidoc.com/", "https://www.aidoc.com/platform/aios/"],
+      "userValue": "Enterprise clinical AI platform that analyzes medical imaging and orchestrates AI-powered workflows across health systems."
     },
     {
-      "name": "Adobe Express",
-      "officialUrl": "https://www.adobe.com/express/",
-      "evidenceUrls": ["https://www.adobe.com/express/", "https://helpx.adobe.com/express/web/ai-assistant/adobe-express-ai-assistant-overview.html"],
-      "userValue": "Adobe creative editor with first-class generative AI and an AI Assistant for creating and editing designs, images and video."
+      "name": "AIVA",
+      "officialUrl": "https://www.aiva.ai/",
+      "evidenceUrls": ["https://www.aiva.ai/"],
+      "userValue": "AI music-generation assistant for composing songs in many styles with editable influences, tracks and export options."
     },
     {
-      "name": "Adobe Podcast",
-      "officialUrl": "https://podcast.adobe.com/",
-      "evidenceUrls": ["https://podcast.adobe.com/en", "https://podcast.adobe.com/en/guides/whats-new-in-adobe-podcast-march-2026"],
-      "userValue": "Adobe's active AI audio suite for speech enhancement, recording and text-like editing of podcast and video audio."
+      "name": "Akkio",
+      "officialUrl": "https://www.akkio.com/",
+      "evidenceUrls": ["https://www.akkio.com/", "https://www.akkio.com/about"],
+      "userValue": "AI workflow and analytics platform for campaign strategy, segmentation, forecasting, reporting and data-driven media operations."
     },
     {
-      "name": "AgentOps",
-      "officialUrl": "https://www.agentops.ai/",
-      "evidenceUrls": ["https://docs.agentops.ai/v2/introduction", "https://docs.agentops.ai/v2/quickstart"],
-      "userValue": "AI-agent observability platform for tracing, debugging and monitoring agent and LLM application behavior."
+      "name": "Alli AI",
+      "officialUrl": "https://www.alliai.com/",
+      "evidenceUrls": ["https://www.alliai.com/", "https://www.alliai.com/features/ai-seo-automation-software"],
+      "userValue": "SEO and AI-search visibility platform that automates and deploys large-scale on-page and crawler-accessibility improvements."
+    },
+    {
+      "name": "Alpha3D",
+      "officialUrl": "https://www.alpha3d.io/",
+      "evidenceUrls": ["https://www.alpha3d.io/", "https://www.alpha3d.io/ai-3d-tools"],
+      "userValue": "AI 3D production pipeline that generates assets from prompts or images and continues through retopology, UVs, texturing, rigging and export."
+    },
+    {
+      "name": "AlphaSense",
+      "officialUrl": "https://www.alpha-sense.com/",
+      "evidenceUrls": ["https://www.alpha-sense.com/", "https://www.alpha-sense.com/platform/"],
+      "userValue": "AI market-intelligence and research platform that searches, summarizes and reasons across premium business, financial and internal content."
+    },
+    {
+      "name": "Altered Studio",
+      "officialUrl": "https://www.altered.ai/",
+      "evidenceUrls": ["https://www.altered.ai/", "https://www.altered.ai/altered-studio/"],
+      "userValue": "Voice AI production suite for speech-to-speech voice morphing, voice editing, text-to-speech, transcription and real-time voice transformation."
+    },
+    {
+      "name": "Amazon Q Developer",
+      "officialUrl": "https://aws.amazon.com/q/developer/",
+      "evidenceUrls": ["https://aws.amazon.com/q/developer/", "https://aws.amazon.com/documentation-overview/q-developer/"],
+      "userValue": "AWS generative AI developer assistant for coding, testing, security scanning, cloud operations, modernization and agentic software-development tasks."
+    },
+    {
+      "name": "Ambience Healthcare",
+      "officialUrl": "https://www.ambiencehealthcare.com/",
+      "evidenceUrls": ["https://www.ambiencehealthcare.com/", "https://www.ambiencehealthcare.com/products"],
+      "userValue": "Clinical AI platform for ambient documentation, chart reasoning, coding and workflow support across ambulatory, emergency and inpatient care."
+    },
+    {
+      "name": "Andi",
+      "officialUrl": "https://andisearch.com/",
+      "evidenceUrls": ["https://andisearch.com/"],
+      "userValue": "Conversational AI search engine that answers web questions directly instead of returning only a conventional list of links."
+    },
+    {
+      "name": "Anyscale",
+      "officialUrl": "https://www.anyscale.com/",
+      "evidenceUrls": ["https://www.anyscale.com/", "https://www.anyscale.com/press/nscale-acquires-anyscale-enhancing-its-full-stack-ai-cloud-platform"],
+      "userValue": "Managed Ray platform for scaling distributed AI workloads including data processing, training, inference and production services; its announced Nscale acquisition explicitly preserves the Anyscale brand and customer service."
+    },
+    {
+      "name": "Anyword",
+      "officialUrl": "https://anyword.com/",
+      "evidenceUrls": ["https://www.anyword.com/", "https://www.anyword.com/copy-intelligence-platform"],
+      "userValue": "AI content and copy-performance platform for generating on-brand marketing content and using performance data to guide messaging decisions."
     }
   ],
-  "update": [],
-  "remove": []
+  "update": [
+    {
+      "name": "Airtable AI",
+      "url": "https://www.airtable.com/platform/ai",
+      "evidenceUrls": ["https://www.airtable.com/platform/ai", "https://support.airtable.com/articles/1744327578-using-omni-ai-in-airtable"],
+      "userValue": "Airtable's AI-native workflow layer, including Omni and agents for app building, web research, data analysis and automated work across structured business data."
+    }
+  ],
+  "remove": [
+    {
+      "name": "Aim Security",
+      "evidenceUrls": ["https://www.catonetworks.com/news/cato-acquires-aim-security-to-extend-sase-leadership-and-secure-enterprise-ai-transformation/", "https://www.aim.security/"],
+      "reason": "Cato Networks acquired Aim Security in September 2025 and the former Aim Security domain now redirects to Cato Networks, so it is no longer maintained as an independent active product destination."
+    }
+  ]
 }
