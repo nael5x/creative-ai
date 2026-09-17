@@ -888,12 +888,12 @@
     "https://www.taskade.com/"
   ],
   [
-    "AutoGen",
+    "Microsoft Agent Framework",
     "AI development",
-    "Open-source framework from Microsoft for building multi-agent AI applications.",
-    "For developers experimenting with agent conversations, orchestration and tool use.",
+    "Open-source Microsoft SDK and runtime for building, orchestrating and deploying AI agents and multi-agent workflows.",
+    "For developers building production agent systems with tools, workflows, multiple model providers and operational controls.",
     "Open source",
-    "https://microsoft.github.io/autogen/"
+    "https://learn.microsoft.com/en-us/agent-framework/overview/"
   ],
   [
     "Semantic Kernel",
@@ -3581,7 +3581,7 @@
     "Open-source AI observability and evaluation toolkit for tracing and debugging model applications.",
     "For teams diagnosing retrieval, agent and LLM behavior during development and production testing.",
     "Open source",
-    "https://phoenix.arize.com/"
+    "https://arize.com/phoenix/"
   ],
   [
     "Weights & Biases",

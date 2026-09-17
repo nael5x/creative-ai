@@ -357,6 +357,112 @@
       "decision": "accepted"
     },
     {
+      "name": "Apify",
+      "officialUrl": "https://apify.com/",
+      "evidenceUrls": [
+        "https://apify.com/",
+        "https://docs.apify.com/platform"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Cloud platform for web scraping, browser automation and reusable Actors that turn websites into structured data and automated workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Apollo",
+      "officialUrl": "https://www.apollo.io/",
+      "evidenceUrls": [
+        "https://www.apollo.io/",
+        "https://knowledge.apollo.io/hc/en-us/articles/31357963217933-Use-Apollo-AI"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Sales intelligence and engagement platform combining prospect data, sequencing and AI-assisted go-to-market workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Arcads",
+      "officialUrl": "https://www.arcads.ai/",
+      "evidenceUrls": [
+        "https://www.arcads.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI advertising platform for generating creator-style and UGC video ads from scripts without traditional filming.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Arize Phoenix",
+      "officialUrl": "https://arize.com/phoenix/",
+      "evidenceUrls": [
+        "https://arize.com/phoenix/",
+        "https://phoenix.arize.com/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source agent-development, tracing and evaluation platform for debugging AI applications, running experiments and measuring model or agent quality.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Artbreeder",
+      "officialUrl": "https://www.artbreeder.com/",
+      "evidenceUrls": [
+        "https://www.artbreeder.com/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Collaborative generative-image platform for creating, remixing and exploring portraits, characters and visual concepts.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Artisan",
+      "officialUrl": "https://www.artisan.co/",
+      "evidenceUrls": [
+        "https://www.artisan.co/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI sales platform centered on autonomous outbound workflows for prospect research, personalized outreach and pipeline generation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Asana AI",
+      "officialUrl": "https://asana.com/product/ai",
+      "evidenceUrls": [
+        "https://asana.com/product/ai",
+        "https://help.asana.com/s/article/asana-ai-features-and-admin-controls"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI capabilities inside Asana for planning, summarizing, status updates and workflow assistance while work stays connected to project context.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AskCodi",
+      "officialUrl": "https://www.askcodi.com/",
+      "evidenceUrls": [
+        "https://www.askcodi.com/",
+        "https://www.askcodi.com/pricing"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Developer AI workspace that has evolved into a local-first coding environment for orchestrating specialized engineering agents and code tasks.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AskYourPDF",
+      "officialUrl": "https://askyourpdf.com/",
+      "evidenceUrls": [
+        "https://askyourpdf.com/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI document workspace for chatting with PDFs, summarizing files, extracting answers and running document-focused agent workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AssemblyAI",
+      "officialUrl": "https://www.assemblyai.com/",
+      "evidenceUrls": [
+        "https://www.assemblyai.com/",
+        "https://www.assemblyai.com/docs"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Speech AI API platform for transcription, speaker-aware processing and audio understanding in developer applications.",
+      "decision": "accepted"
+    },
+    {
       "name": "Async",
       "officialUrl": "https://async.com/",
       "evidenceUrls": [
@@ -364,6 +470,102 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Current product identity of Podcastle, expanded beyond podcasting into a broader creative and voice platform.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Augment Code",
+      "officialUrl": "https://www.augmentcode.com/",
+      "evidenceUrls": [
+        "https://www.augmentcode.com/",
+        "https://www.augmentcode.com/product/context-engine"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Agentic software-development platform built around deep repository context for coding, planning and coordinated changes across large codebases.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Auphonic",
+      "officialUrl": "https://auphonic.com/",
+      "evidenceUrls": [
+        "https://auphonic.com/",
+        "https://auphonic.com/help/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI-assisted audio post-production service for automatic leveling, noise reduction, speech cleanup and podcast mastering.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AutoGPT",
+      "officialUrl": "https://github.com/Significant-Gravitas/AutoGPT",
+      "evidenceUrls": [
+        "https://github.com/Significant-Gravitas/AutoGPT"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source platform and project for building, deploying and experimenting with autonomous AI agents and multi-step task execution.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AUTOMATIC1111 Stable Diffusion WebUI",
+      "officialUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "evidenceUrls": [
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source local Stable Diffusion web interface with extensive generation controls, scripting and a large extension ecosystem.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Avoma",
+      "officialUrl": "https://www.avoma.com/",
+      "evidenceUrls": [
+        "https://www.avoma.com/",
+        "https://www.avoma.com/product"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI meeting and revenue-intelligence platform for recording, summaries, coaching, conversation analysis and customer-facing workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "B12",
+      "officialUrl": "https://www.b12.io/",
+      "evidenceUrls": [
+        "https://www.b12.io/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI-assisted site and business-platform builder aimed at quickly launching professional web experiences and client-facing workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Bardeen",
+      "officialUrl": "https://www.bardeen.ai/",
+      "evidenceUrls": [
+        "https://www.bardeen.ai/",
+        "https://www.bardeen.ai/ai"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI automation platform for browser-heavy work such as research, prospecting, data collection and repetitive operational workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Base44",
+      "officialUrl": "https://base44.com/",
+      "evidenceUrls": [
+        "https://base44.com/",
+        "https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif",
+        "https://base44.com/blog/what-is-base44"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI-native app builder that generates full-stack applications, websites and agents from natural language; Wix explicitly continues Base44 as a distinct product and business.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Baseten",
+      "officialUrl": "https://www.baseten.co/",
+      "evidenceUrls": [
+        "https://www.baseten.co/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI infrastructure platform for deploying, serving, scaling and operating production inference workloads and custom models.",
       "decision": "accepted"
     },
     {
@@ -762,6 +964,18 @@
       "reviewedAt": "2026-09-14",
       "userValue": "Visual automation and AI-agent platform for multi-app business workflows.",
       "decision": "accepted"
+    },
+    {
+      "name": "Microsoft Agent Framework",
+      "officialUrl": "https://learn.microsoft.com/en-us/agent-framework/overview/",
+      "evidenceUrls": [
+        "https://learn.microsoft.com/en-us/agent-framework/overview/",
+        "https://devblogs.microsoft.com/agent-framework/migrate-your-semantic-kernel-and-autogen-projects-to-microsoft-agent-framework-release-candidate/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Microsoft's supported open-source agent SDK and runtime for building agents and explicit multi-step workflows across Python, .NET and supported provider integrations.",
+      "decision": "accepted",
+      "supersedes": "AutoGen"
     },
     {
       "name": "Midjourney",
@@ -1206,6 +1420,19 @@
       "reason": "Cato Networks acquired Aim Security in September 2025 and the former Aim Security domain now redirects to Cato Networks, so it is no longer maintained as an independent active product destination."
     },
     {
+      "name": "AutoGen",
+      "officialUrl": "https://microsoft.github.io/autogen/",
+      "evidenceUrls": [
+        "https://github.com/microsoft/autogen",
+        "https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Microsoft states that AutoGen is in maintenance mode, will not receive new features, and that new users should start with Microsoft Agent Framework, the production-ready successor.",
+      "decision": "rejected",
+      "reason": "Microsoft states that AutoGen is in maintenance mode, will not receive new features, and that new users should start with Microsoft Agent Framework, the production-ready successor.",
+      "supersededBy": "Microsoft Agent Framework"
+    },
+    {
       "name": "Booth AI",
       "officialUrl": "https://www.booth.ai/",
       "evidenceUrls": [
@@ -1336,11 +1563,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-18",
-  "lastQualityReviewBatch": "legacy-a-002",
+  "lastQualityReviewBatch": "legacy-a-003",
   "lastQualityReviewBatchSummary": {
     "accepted": 18,
     "updated": 1,
-    "superseded": 0,
-    "removed": 1
+    "superseded": 1,
+    "removed": 0
   }
 }
