@@ -2699,6 +2699,7 @@
     "accepted": 20,
     "updated": 0,
     "superseded": 0,
+    "merged": 0,
     "removed": 0
   }
 }
