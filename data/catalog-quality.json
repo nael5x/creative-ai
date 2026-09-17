@@ -1082,6 +1082,213 @@
       "decision": "accepted"
     },
     {
+      "name": "CodeRabbit",
+      "officialUrl": "https://www.coderabbit.ai/",
+      "evidenceUrls": [
+        "https://www.coderabbit.ai/",
+        "https://www.coderabbit.ai/blog/code-search-peek-in-coderabbit-review"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI code-review and change-management platform for reviewing pull requests, prioritizing risk, explaining large diffs and looping with coding agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Colossyan",
+      "officialUrl": "https://www.colossyan.com/",
+      "evidenceUrls": [
+        "https://www.colossyan.com/",
+        "https://www.colossyan.com/posts/ai-video-generator-rebuilt/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI video creation platform for turning prompts and source documents into editable training, learning and business videos with avatars and localization.",
+      "decision": "accepted"
+    },
+    {
+      "name": "ComfyUI",
+      "officialUrl": "https://github.com/Comfy-Org/ComfyUI",
+      "evidenceUrls": [
+        "https://github.com/Comfy-Org/ComfyUI"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Actively maintained open-source node-based generative AI interface for controllable image, video and multimodal model workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Compose AI",
+      "officialUrl": "https://www.compose.ai/",
+      "evidenceUrls": [
+        "https://www.compose.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI writing assistant and browser extension for autocompleting, rewriting and accelerating everyday written communication.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Connected Papers",
+      "officialUrl": "https://www.connectedpapers.com/",
+      "evidenceUrls": [
+        "https://www.connectedpapers.com/",
+        "https://www.connectedpapers.com/about"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Research discovery tool that maps related academic papers visually to help researchers explore a field, find prior work and discover adjacent literature.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Consensus",
+      "officialUrl": "https://consensus.app/",
+      "evidenceUrls": [
+        "https://consensus.app/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI academic search engine that finds and synthesizes evidence from scientific literature while linking users back to source papers.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Constructor",
+      "officialUrl": "https://constructor.com/",
+      "evidenceUrls": [
+        "https://constructor.com/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI product-discovery platform for ecommerce search, recommendations, browse and merchandising using behavioral and catalog signals.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Content Toolkit",
+      "officialUrl": "https://www.semrush.com/features/content-marketing/",
+      "evidenceUrls": [
+        "https://www.semrush.com/features/content-marketing/",
+        "https://www.semrush.com/kb/812-content-toolkit"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Semrush's current AI-assisted content workflow for topic discovery, article generation, SEO and AI-search optimization, repurposing and publishing.",
+      "decision": "accepted",
+      "supersedes": "ContentShake AI"
+    },
+    {
+      "name": "ContentStudio",
+      "officialUrl": "https://contentstudio.io/",
+      "evidenceUrls": [
+        "https://contentstudio.io/",
+        "https://contentstudio.io/blog/contentstudio-home"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Social-media management and content platform with AI-assisted ideation, writing, image/video generation, scheduling, analytics and automation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Continue",
+      "officialUrl": "https://continue.dev/",
+      "evidenceUrls": [
+        "https://continue.dev/",
+        "https://docs.continue.dev/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source AI coding assistant and agent framework for VS Code, JetBrains and CLI workflows with custom model and context configuration.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Copy.ai",
+      "officialUrl": "https://www.copy.ai/",
+      "evidenceUrls": [
+        "https://www.copy.ai/",
+        "https://www.copy.ai/platform/copy-agents"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI-native go-to-market platform combining workflows, agents, chat, business context and integrations for sales and marketing operations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Corti",
+      "officialUrl": "https://www.corti.ai/",
+      "evidenceUrls": [
+        "https://www.corti.ai/",
+        "https://corti.ai/newsroom"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Healthcare-native AI platform and APIs for clinical speech, documentation, coding, reasoning and regulated healthcare application workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Crawl4AI",
+      "officialUrl": "https://crawl4ai.com/",
+      "evidenceUrls": [
+        "https://crawl4ai.com/",
+        "https://gate.crawl4ai.com/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source web crawler plus hosted API for turning web pages into clean Markdown, structured extraction and search data for AI agents and applications.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Creatify",
+      "officialUrl": "https://creatify.ai/",
+      "evidenceUrls": [
+        "https://creatify.ai/",
+        "https://creatify.ai/product_updates"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI advertising platform for generating and scaling video ads, avatars, creative variations and agent-driven ad production workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Creatomate",
+      "officialUrl": "https://creatomate.com/",
+      "evidenceUrls": [
+        "https://creatomate.com/",
+        "https://creatomate.com/docs/fundamentals/getting-started/get-help-from-ai"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "API-first image and video automation platform for programmatic template rendering and AI-assisted media-production workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CrewAI",
+      "officialUrl": "https://crewai.com/",
+      "evidenceUrls": [
+        "https://crewai.com/",
+        "https://blog.crewai.com/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source and managed multi-agent platform for orchestrating specialized AI agents, tools and enterprise workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Crisp AI",
+      "officialUrl": "https://crisp.chat/en/ai/",
+      "evidenceUrls": [
+        "https://crisp.chat/en/ai/",
+        "https://crisp.chat/en/blog/summer-2026-crisp-product-update/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI customer-support suite inside Crisp for trained support agents, internal copilots, workflow automation, summarization, translation and knowledge-grounded service.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CrowdStrike Charlotte AI",
+      "officialUrl": "https://www.crowdstrike.com/en-us/platform/charlotte-ai/",
+      "evidenceUrls": [
+        "https://www.crowdstrike.com/en-us/platform/charlotte-ai/",
+        "https://www.crowdstrike.com/en-us/resources/data-sheets/charlotte-ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "CrowdStrike's Falcon-native agentic cybersecurity analyst for multi-agent investigations, triage, security automation, custom agents and governed response workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Curipod",
+      "officialUrl": "https://curipod.com/",
+      "evidenceUrls": [
+        "https://curipod.com/",
+        "https://curipod.com/safe-ai-in-curipod",
+        "https://help.curipod.com/en/articles/739580-how-do-i-teach-a-lesson-in-curipod"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Teacher-controlled AI learning platform for generating interactive lessons, giving rubric-aligned student feedback and producing classroom insights.",
+      "decision": "accepted"
+    },
+    {
       "name": "Cursor",
       "officialUrl": "https://www.cursor.com/",
       "evidenceUrls": [
@@ -1089,6 +1296,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI coding agent and editor for understanding, changing, debugging and reviewing codebases.",
+      "decision": "accepted"
+    },
+    {
+      "name": "D-ID",
+      "officialUrl": "https://www.d-id.com/",
+      "evidenceUrls": [
+        "https://www.d-id.com/",
+        "https://www.d-id.com/news/agentic-videos-turning-passive-content-interactive-ai-experiences/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Enterprise AI avatar and visual-agent platform for generated presenter video, realtime digital humans and interactive agentic video experiences.",
       "decision": "accepted"
     },
     {
@@ -1890,6 +2108,18 @@
       "supersededBy": "Manage AI"
     },
     {
+      "name": "ContentShake AI",
+      "officialUrl": "https://www.semrush.com/contentshake/",
+      "evidenceUrls": [
+        "https://www.semrush.com/semrush-questions/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Semrush states that ContentShake AI was folded into the main platform in 2025 and renamed Content Toolkit.",
+      "decision": "rejected",
+      "reason": "Semrush states that ContentShake AI was folded into the main platform in 2025 and renamed Content Toolkit.",
+      "supersededBy": "Content Toolkit"
+    },
+    {
       "name": "Coral AI",
       "officialUrl": "https://www.getcoralai.com/",
       "evidenceUrls": [
@@ -2009,10 +2239,10 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-18",
-  "lastQualityReviewBatch": "legacy-a-005",
+  "lastQualityReviewBatch": "legacy-a-006",
   "lastQualityReviewBatchSummary": {
-    "accepted": 17,
-    "updated": 2,
+    "accepted": 18,
+    "updated": 1,
     "superseded": 1,
     "removed": 0
   }

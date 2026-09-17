@@ -1188,10 +1188,6 @@
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "ContentShake AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
     "Ahrefs AI Content Helper": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
@@ -2465,6 +2461,11 @@
       "firstTrackedAt": "2026-09-17T21:47:32Z",
       "event": "added",
       "supersedes": "Clio Duo"
+    },
+    "Content Toolkit": {
+      "firstTrackedAt": "2026-09-17T21:50:00Z",
+      "event": "added",
+      "supersedes": "ContentShake AI"
     }
   }
 }
