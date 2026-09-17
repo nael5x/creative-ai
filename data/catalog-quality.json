@@ -569,6 +569,49 @@
       "decision": "accepted"
     },
     {
+      "name": "Bearly AI",
+      "officialUrl": "https://bearly.ai/",
+      "evidenceUrls": [
+        "https://bearly.ai/",
+        "https://bearly.ai/changelog"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI productivity workspace for working with documents, models, writing and research, with an actively maintained desktop and web product.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Beatoven.ai",
+      "officialUrl": "https://www.beatoven.ai/",
+      "evidenceUrls": [
+        "https://www.beatoven.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI music generator for producing original background tracks and soundtracks with creator-oriented licensing workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Beautiful.ai",
+      "officialUrl": "https://www.beautiful.ai/",
+      "evidenceUrls": [
+        "https://www.beautiful.ai/",
+        "https://www.beautiful.ai/product-updates"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI presentation platform for generating, designing and refining slide decks with automated layout and presentation workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "BentoML",
+      "officialUrl": "https://www.bentoml.com/",
+      "evidenceUrls": [
+        "https://www.bentoml.com/",
+        "https://docs.bentoml.com/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source and managed inference platform for packaging, deploying and scaling AI models and production inference services.",
+      "decision": "accepted"
+    },
+    {
       "name": "Better Analyst",
       "officialUrl": "https://betteranalyst.com/",
       "evidenceUrls": [
@@ -579,6 +622,28 @@
       "decision": "accepted"
     },
     {
+      "name": "Bito",
+      "officialUrl": "https://bito.ai/",
+      "evidenceUrls": [
+        "https://bito.ai/",
+        "https://docs.bito.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI engineering layer for grounding coding requests in repository context, routing models and supporting code review and development workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Blackbox AI",
+      "officialUrl": "https://www.blackbox.ai/",
+      "evidenceUrls": [
+        "https://www.blackbox.ai/",
+        "https://www.blackbox.ai/press"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI coding platform for code generation, repository work, debugging and agent-style software-development tasks.",
+      "decision": "accepted"
+    },
+    {
       "name": "Bloomreach Loomi",
       "officialUrl": "https://www.bloomreach.com/en/products/loomi-ai",
       "evidenceUrls": [
@@ -586,6 +651,50 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Agentic personalization platform powering Bloomreach marketing, search and customer-experience workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Bolt.new",
+      "officialUrl": "https://bolt.new/",
+      "evidenceUrls": [
+        "https://bolt.new/",
+        "https://bolt.new/blog"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Browser-based AI app builder that turns prompts into editable full-stack web applications and supports iterative development and deployment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Boomy",
+      "officialUrl": "https://boomy.com/",
+      "evidenceUrls": [
+        "https://boomy.com/",
+        "https://support.boomy.com/hc/en-us/articles/17795213541773-How-does-Boomy-use-AI"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Generative music platform that uses AI and music automation to create customizable original songs for users without traditional production skills.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Botpress",
+      "officialUrl": "https://botpress.com/",
+      "evidenceUrls": [
+        "https://botpress.com/",
+        "https://botpress.com/docs/changelog/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Managed AI-agent and conversational automation platform with visual Studio, knowledge bases, integrations, webchat and agent-development tooling.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Braintrust",
+      "officialUrl": "https://www.braintrust.dev/",
+      "evidenceUrls": [
+        "https://www.braintrust.dev/",
+        "https://www.braintrust.dev/blog"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI application evaluation, observability and experimentation platform for testing prompts, agents and model behavior against production data.",
       "decision": "accepted"
     },
     {
@@ -610,6 +719,103 @@
       "decision": "accepted"
     },
     {
+      "name": "Brisk Teaching",
+      "officialUrl": "https://www.briskteaching.com/",
+      "evidenceUrls": [
+        "https://www.briskteaching.com/",
+        "https://www.briskteaching.com/blog/whats-new"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI teaching assistant for creating instructional materials, feedback, differentiation and classroom content inside educator workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Browse AI",
+      "officialUrl": "https://www.browse.ai/",
+      "evidenceUrls": [
+        "https://www.browse.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "No-code AI web-scraping and monitoring platform for extracting structured data and automating recurring website data collection.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Browser Use",
+      "officialUrl": "https://browser-use.com/",
+      "evidenceUrls": [
+        "https://browser-use.com/",
+        "https://browser-use.com/changelog"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source and cloud browser-agent platform that lets AI agents navigate websites, interact with pages and execute browser tasks programmatically.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Browserbase",
+      "officialUrl": "https://www.browserbase.com/",
+      "evidenceUrls": [
+        "https://www.browserbase.com/",
+        "https://www.browserbase.com/changelog"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Cloud browser infrastructure and agent platform for reliable web automation, browser sessions and production browser-based AI agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Bubble AI",
+      "officialUrl": "https://bubble.io/ai-app-builder",
+      "evidenceUrls": [
+        "https://bubble.io/ai-app-builder",
+        "https://bubble.io/blog/what-is-bubble-ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Bubble's AI app builder generates editable web and mobile applications from prompts, including UI, logic and database structure, with an AI Agent for continued iteration.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Buffer AI Assistant",
+      "officialUrl": "https://buffer.com/ai-assistant",
+      "evidenceUrls": [
+        "https://buffer.com/ai-assistant",
+        "https://support.buffer.com/article/652-using-buffers-ai-assistant"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI social-media writing assistant inside Buffer for generating, rewriting and adapting posts to different networks and tones.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Builder.io Visual Copilot",
+      "officialUrl": "https://www.builder.io/ai",
+      "evidenceUrls": [
+        "https://www.builder.io/ai",
+        "https://www.builder.io/blog/best-figma-to-code-plugin"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Builder.io's active AI design-to-code capability for converting Figma designs into production-ready code and feeding them into Builder's broader code workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Caktus AI",
+      "officialUrl": "https://caktus.ai/",
+      "evidenceUrls": [
+        "https://caktus.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI study platform with specialized tools for academic writing, citations, math, science, research, flashcards and document-based learning tasks.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CAMEL-AI",
+      "officialUrl": "https://www.camel-ai.org/",
+      "evidenceUrls": [
+        "https://www.camel-ai.org/",
+        "https://docs.camel-ai.org/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source multi-agent framework and research ecosystem for building agent societies, workflows, tools and model-driven simulations.",
+      "decision": "accepted"
+    },
+    {
       "name": "Canva AI",
       "officialUrl": "https://www.canva.com/ai-image-generator/",
       "evidenceUrls": [
@@ -617,6 +823,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Accessible AI-assisted design and content creation inside Canva workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CapCut AI",
+      "officialUrl": "https://www.capcut.com/tools/ai-video-generator",
+      "evidenceUrls": [
+        "https://www.capcut.com/tools/ai-video-generator",
+        "https://www.capcut.com/tools"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI video-generation and editing tools inside CapCut for creating video from prompts and combining generation with a full consumer editing workflow.",
       "decision": "accepted"
     },
     {
@@ -1563,11 +1780,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-18",
-  "lastQualityReviewBatch": "legacy-a-003",
+  "lastQualityReviewBatch": "legacy-a-004",
   "lastQualityReviewBatchSummary": {
-    "accepted": 18,
-    "updated": 1,
-    "superseded": 1,
+    "accepted": 17,
+    "updated": 3,
+    "superseded": 0,
     "removed": 0
   }
 }
