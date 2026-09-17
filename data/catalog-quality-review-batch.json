@@ -1,138 +1,137 @@
 {
-  "batchId": "legacy-a-006",
+  "batchId": "legacy-a-007",
   "reviewedAt": "2026-09-18",
   "accept": [
     {
-      "name": "CodeRabbit",
-      "officialUrl": "https://www.coderabbit.ai/",
-      "evidenceUrls": ["https://www.coderabbit.ai/", "https://www.coderabbit.ai/blog/code-search-peek-in-coderabbit-review"],
-      "userValue": "AI code-review and change-management platform for reviewing pull requests, prioritizing risk, explaining large diffs and looping with coding agents."
+      "name": "Darktrace",
+      "officialUrl": "https://www.darktrace.com/",
+      "evidenceUrls": ["https://www.darktrace.com/", "https://www.darktrace.com/news/2026/969/darktrace-launches-behavioral-defense-platform"],
+      "userValue": "Enterprise cybersecurity platform using behavioral AI for detection, investigation and response across network, cloud, email and other security surfaces."
     },
     {
-      "name": "Colossyan",
-      "officialUrl": "https://www.colossyan.com/",
-      "evidenceUrls": ["https://www.colossyan.com/", "https://www.colossyan.com/posts/ai-video-generator-rebuilt/"],
-      "userValue": "AI video creation platform for turning prompts and source documents into editable training, learning and business videos with avatars and localization."
+      "name": "Dataiku",
+      "officialUrl": "https://www.dataiku.com/",
+      "evidenceUrls": ["https://www.dataiku.com/", "https://www.dataiku.com/product/"],
+      "userValue": "Enterprise AI and analytics platform for data preparation, machine learning, generative AI, agents and governed production workflows."
     },
     {
-      "name": "ComfyUI",
-      "officialUrl": "https://github.com/Comfy-Org/ComfyUI",
-      "evidenceUrls": ["https://github.com/Comfy-Org/ComfyUI"],
-      "userValue": "Actively maintained open-source node-based generative AI interface for controllable image, video and multimodal model workflows."
+      "name": "DataRobot",
+      "officialUrl": "https://www.datarobot.com/",
+      "evidenceUrls": ["https://www.datarobot.com/", "https://www.datarobot.com/platform/agentic-ai/"],
+      "userValue": "Enterprise AI platform for building, governing, deploying and operating predictive, generative and agentic AI applications."
     },
     {
-      "name": "Compose AI",
-      "officialUrl": "https://www.compose.ai/",
-      "evidenceUrls": ["https://www.compose.ai/"],
-      "userValue": "AI writing assistant and browser extension for autocompleting, rewriting and accelerating everyday written communication."
+      "name": "Decagon",
+      "officialUrl": "https://decagon.ai/",
+      "evidenceUrls": ["https://decagon.ai/", "https://decagon.ai/product"],
+      "userValue": "Enterprise AI customer-support platform for resolving service requests and orchestrating agentic workflows across support channels."
     },
     {
-      "name": "Connected Papers",
-      "officialUrl": "https://www.connectedpapers.com/",
-      "evidenceUrls": ["https://www.connectedpapers.com/", "https://www.connectedpapers.com/about"],
-      "userValue": "Research discovery tool that maps related academic papers visually to help researchers explore a field, find prior work and discover adjacent literature."
+      "name": "Decktopus",
+      "officialUrl": "https://www.decktopus.com/",
+      "evidenceUrls": ["https://www.decktopus.com/", "https://www.decktopus.com/about-us"],
+      "userValue": "AI presentation maker for generating, structuring and polishing decks from prompts and source material with automated layout assistance."
     },
     {
-      "name": "Consensus",
-      "officialUrl": "https://consensus.app/",
-      "evidenceUrls": ["https://consensus.app/"],
-      "userValue": "AI academic search engine that finds and synthesizes evidence from scientific literature while linking users back to source papers."
+      "name": "DeepEval",
+      "officialUrl": "https://deepeval.com/",
+      "evidenceUrls": ["https://deepeval.com/", "https://deepeval.com/changelog"],
+      "userValue": "Open-source and managed evaluation framework for testing LLM applications and agents with repeatable metrics, datasets and observability workflows."
     },
     {
-      "name": "Constructor",
-      "officialUrl": "https://constructor.com/",
-      "evidenceUrls": ["https://constructor.com/"],
-      "userValue": "AI product-discovery platform for ecommerce search, recommendations, browse and merchandising using behavioral and catalog signals."
+      "name": "Deepgram",
+      "officialUrl": "https://deepgram.com/",
+      "evidenceUrls": ["https://deepgram.com/", "https://developers.deepgram.com/docs/voice-agent"],
+      "userValue": "Developer speech and voice AI platform providing transcription, text-to-speech and realtime voice-agent APIs."
     },
     {
-      "name": "ContentStudio",
-      "officialUrl": "https://contentstudio.io/",
-      "evidenceUrls": ["https://contentstudio.io/", "https://contentstudio.io/blog/contentstudio-home"],
-      "userValue": "Social-media management and content platform with AI-assisted ideation, writing, image/video generation, scheduling, analytics and automation."
+      "name": "DeepScribe",
+      "officialUrl": "https://www.deepscribe.ai/",
+      "evidenceUrls": ["https://www.deepscribe.ai/", "https://www.deepscribe.ai/smart-prep"],
+      "userValue": "Clinical ambient AI platform for documenting patient encounters, preparing chart context and supporting medical coding and workflow automation."
     },
     {
-      "name": "Continue",
-      "officialUrl": "https://continue.dev/",
-      "evidenceUrls": ["https://continue.dev/", "https://docs.continue.dev/"],
-      "userValue": "Open-source AI coding assistant and agent framework for VS Code, JetBrains and CLI workflows with custom model and context configuration."
+      "name": "DeepSeek",
+      "officialUrl": "https://www.deepseek.com/en/",
+      "evidenceUrls": ["https://www.deepseek.com/en/"],
+      "userValue": "Active general-purpose AI assistant and model provider for reasoning, coding, search, multimodal use and developer API access."
     },
     {
-      "name": "Copy.ai",
-      "officialUrl": "https://www.copy.ai/",
-      "evidenceUrls": ["https://www.copy.ai/", "https://www.copy.ai/platform/copy-agents"],
-      "userValue": "AI-native go-to-market platform combining workflows, agents, chat, business context and integrations for sales and marketing operations."
+      "name": "Defog",
+      "officialUrl": "https://defog.ai/",
+      "evidenceUrls": ["https://defog.ai/", "https://docs.defog.ai/"],
+      "userValue": "AI data-query platform centered on text-to-SQL and agentic analytics for asking natural-language questions of structured business data."
     },
     {
-      "name": "Corti",
-      "officialUrl": "https://www.corti.ai/",
-      "evidenceUrls": ["https://www.corti.ai/", "https://corti.ai/newsroom"],
-      "userValue": "Healthcare-native AI platform and APIs for clinical speech, documentation, coding, reasoning and regulated healthcare application workflows."
+      "name": "Descript",
+      "officialUrl": "https://www.descript.com/",
+      "evidenceUrls": ["https://www.descript.com/", "https://www.descript.com/changelog"],
+      "userValue": "AI-assisted audio and video editor combining transcription, text-based editing, voice tools, generative features and publishing workflows."
     },
     {
-      "name": "Crawl4AI",
-      "officialUrl": "https://crawl4ai.com/",
-      "evidenceUrls": ["https://crawl4ai.com/", "https://gate.crawl4ai.com/"],
-      "userValue": "Open-source web crawler plus hosted API for turning web pages into clean Markdown, structured extraction and search data for AI agents and applications."
+      "name": "Designs.ai",
+      "officialUrl": "https://designs.ai/",
+      "evidenceUrls": ["https://designs.ai/", "https://designs.ai/about"],
+      "userValue": "AI creative suite for generating and editing design, image, video, logo and marketing assets through specialized creative agents."
     },
     {
-      "name": "Creatify",
-      "officialUrl": "https://creatify.ai/",
-      "evidenceUrls": ["https://creatify.ai/", "https://creatify.ai/product_updates"],
-      "userValue": "AI advertising platform for generating and scaling video ads, avatars, creative variations and agent-driven ad production workflows."
+      "name": "Devin",
+      "officialUrl": "https://devin.ai/",
+      "evidenceUrls": ["https://devin.ai/", "https://devin.ai/blog/introducing-code-scans", "https://docs.devin.ai/work-with-devin/interactive-planning"],
+      "userValue": "Autonomous software-engineering agent for investigating codebases, planning changes, implementing code, testing results and running parallel engineering workflows."
     },
     {
-      "name": "Creatomate",
-      "officialUrl": "https://creatomate.com/",
-      "evidenceUrls": ["https://creatomate.com/", "https://creatomate.com/docs/fundamentals/getting-started/get-help-from-ai"],
-      "userValue": "API-first image and video automation platform for programmatic template rendering and AI-assisted media-production workflows."
+      "name": "Dext",
+      "officialUrl": "https://dext.com/",
+      "evidenceUrls": ["https://dext.com/", "https://help.dext.com/en/s/article/using-ai-assist"],
+      "userValue": "Accounting automation platform using AI to extract financial documents, categorize transactions and assist bookkeeping and finance workflows."
     },
     {
-      "name": "CrewAI",
-      "officialUrl": "https://crewai.com/",
-      "evidenceUrls": ["https://crewai.com/", "https://blog.crewai.com/"],
-      "userValue": "Open-source and managed multi-agent platform for orchestrating specialized AI agents, tools and enterprise workflows."
+      "name": "Diffbot",
+      "officialUrl": "https://www.diffbot.com/",
+      "evidenceUrls": ["https://www.diffbot.com/", "https://docs.diffbot.com/changelog"],
+      "userValue": "AI web-data platform for extracting structured information from pages and querying a large machine-built knowledge graph."
     },
     {
-      "name": "Crisp AI",
-      "officialUrl": "https://crisp.chat/en/ai/",
-      "evidenceUrls": ["https://crisp.chat/en/ai/", "https://crisp.chat/en/blog/summer-2026-crisp-product-update/"],
-      "userValue": "AI customer-support suite inside Crisp for trained support agents, internal copilots, workflow automation, summarization, translation and knowledge-grounded service."
-    },
-    {
-      "name": "Curipod",
-      "officialUrl": "https://curipod.com/",
-      "evidenceUrls": ["https://curipod.com/", "https://curipod.com/safe-ai-in-curipod", "https://help.curipod.com/en/articles/739580-how-do-i-teach-a-lesson-in-curipod"],
-      "userValue": "Teacher-controlled AI learning platform for generating interactive lessons, giving rubric-aligned student feedback and producing classroom insights."
-    },
-    {
-      "name": "D-ID",
-      "officialUrl": "https://www.d-id.com/",
-      "evidenceUrls": ["https://www.d-id.com/", "https://www.d-id.com/news/agentic-videos-turning-passive-content-interactive-ai-experiences/"],
-      "userValue": "Enterprise AI avatar and visual-agent platform for generated presenter video, realtime digital humans and interactive agentic video experiences."
+      "name": "Digits",
+      "officialUrl": "https://digits.com/",
+      "evidenceUrls": ["https://digits.com/", "https://digits.com/blog"],
+      "userValue": "AI-native accounting platform for automated bookkeeping, financial reporting and agentic general-ledger workflows for businesses and accounting teams."
     }
   ],
   "update": [
     {
-      "name": "CrowdStrike Charlotte AI",
-      "url": "https://www.crowdstrike.com/en-us/platform/charlotte-ai/",
-      "evidenceUrls": ["https://www.crowdstrike.com/en-us/platform/charlotte-ai/", "https://www.crowdstrike.com/en-us/resources/data-sheets/charlotte-ai/"],
-      "userValue": "CrowdStrike's Falcon-native agentic cybersecurity analyst for multi-agent investigations, triage, security automation, custom agents and governed response workflows."
+      "name": "DeepL",
+      "url": "https://www.deepl.com/en/translator",
+      "evidenceUrls": ["https://www.deepl.com/en/translator"],
+      "userValue": "DeepL's active Language AI translator for text, documents and speech, backed by specialized language models and business translation workflows."
+    },
+    {
+      "name": "DeepL Write",
+      "url": "https://www.deepl.com/en/write",
+      "evidenceUrls": ["https://www.deepl.com/en/write", "https://support.deepl.com/hc/en-us/articles/6318834492700-About-DeepL-Write"],
+      "userValue": "AI writing assistant for grammar correction, rephrasing and adapting style, tone and formality across supported languages and apps."
     }
   ],
   "supersede": [
     {
-      "name": "ContentShake AI",
-      "newName": "Content Toolkit",
-      "url": "https://www.semrush.com/features/content-marketing/",
-      "description": "Semrush AI-assisted content workspace for research, drafting, SEO and AI-search optimization, repurposing and publishing.",
-      "useCase": "For marketers who want one Semrush workflow for finding topics, creating articles, optimizing for search and AI visibility, and repurposing content across channels.",
-      "pricing": "Free trial / Paid",
-      "firstTrackedAt": "2026-09-17T21:50:00Z",
-      "oldEvidenceUrls": ["https://www.semrush.com/semrush-questions/"],
-      "newEvidenceUrls": ["https://www.semrush.com/features/content-marketing/", "https://www.semrush.com/kb/812-content-toolkit"],
-      "reason": "Semrush states that ContentShake AI was folded into the main platform in 2025 and renamed Content Toolkit.",
-      "userValue": "Semrush's current AI-assisted content workflow for topic discovery, article generation, SEO and AI-search optimization, repurposing and publishing."
+      "name": "Databricks Genie",
+      "newName": "Databricks Genie Agents",
+      "url": "https://www.databricks.com/product/genie/agents",
+      "description": "Domain-specific natural-language data agents in Databricks for governed conversational analytics over curated enterprise data.",
+      "useCase": "For data teams that want to configure trusted datasets, business semantics and instructions so users and applications can query enterprise data in natural language.",
+      "firstTrackedAt": "2026-09-17T21:55:00Z",
+      "oldEvidenceUrls": ["https://www.databricks.com/product/ai-bi/genie", "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026"],
+      "newEvidenceUrls": ["https://www.databricks.com/product/genie/agents", "https://docs.databricks.com/aws/en/genie-agents/"],
+      "reason": "The former Databricks Genie product URL now resolves to the current Genie Agents product, and Databricks documentation defines Genie Agents as the domain-specific conversational analytics member of the Genie family.",
+      "userValue": "Databricks' governed natural-language analytics agents for querying curated enterprise data, generating SQL and visualizations, and embedding data-question workflows in applications."
     }
   ],
-  "remove": []
+  "remove": [
+    {
+      "name": "Devika",
+      "evidenceUrls": ["https://github.com/stitionai/devika", "https://github.com/stitionai"],
+      "reason": "The official project describes Devika as an early experimental build with multiple unimplemented or broken features and points to a second iteration, Opcode, that is still announced as coming soon; under the catalog quality policy this is not currently strong enough to recommend as an active usable tool."
+    }
+  ]
 }
