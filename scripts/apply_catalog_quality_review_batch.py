@@ -67,8 +67,23 @@ def main() -> None:
                 return record
         return None
 
+    def patch_row(index: int, item: dict, *, url_key: str = "url") -> None:
+        row = list(catalog[index])
+        if "category" in item:
+            row[1] = item["category"]
+        if "description" in item:
+            row[2] = item["description"]
+        if "useCase" in item:
+            row[3] = item["useCase"]
+        if "pricing" in item:
+            row[4] = item["pricing"]
+        if url_key in item:
+            row[5] = item[url_key]
+        catalog[index] = row
+
     accepted = updated = removed = already_removed = 0
     superseded = already_superseded = 0
+    merged = already_merged = 0
 
     for item in batch.get("accept", []):
         name = item["name"]
@@ -84,6 +99,7 @@ def main() -> None:
             )
         if not item.get("evidenceUrls") or not item.get("userValue"):
             raise SystemExit(f"quality review lacks evidence/user value: {name}")
+        patch_row(index, item, url_key="officialUrl")
         upsert_quality(
             records,
             {
@@ -107,7 +123,7 @@ def main() -> None:
             raise SystemExit(f"invalid updated URL for {name}: {new_url}")
         if not item.get("evidenceUrls") or not item.get("userValue"):
             raise SystemExit(f"quality update lacks evidence/user value: {name}")
-        catalog[index][5] = new_url
+        patch_row(index, item)
         upsert_quality(
             records,
             {
@@ -121,9 +137,9 @@ def main() -> None:
         )
         updated += 1
 
-    # Use supersede when a maintained catalog identity has an explicit first-party successor.
-    # The old identity is retained only as a rejected quality-history record; the successor gets
-    # a fresh lifecycle timestamp so the catalog never pretends the new product existed earlier.
+    # Use supersede when a maintained catalog identity has an explicit first-party successor that
+    # does not already exist as its own catalog row. The new product receives a truthful new
+    # lifecycle timestamp; the old identity stays only in quality history as rejected/superseded.
     for item in batch.get("supersede", []):
         old_name = item["name"]
         new_name = item["newName"]
@@ -208,6 +224,86 @@ def main() -> None:
         )
         superseded += 1
 
+    # Use mergeInto when first-party evidence shows that an old catalog identity has become the
+    # same product/company as another row that is already active. This removes the duplicate old
+    # identity, preserves its rejected/superseded history, and refreshes the existing target row.
+    for item in batch.get("mergeInto", []):
+        old_name = item["name"]
+        target_name = item["targetName"]
+        old_index = locate(old_name)
+        target_index = locate(target_name)
+
+        if old_index is None:
+            old_review = quality_record(old_name)
+            target_review = quality_record(target_name)
+            if (
+                target_index is not None
+                and old_review
+                and old_review.get("decision") == "rejected"
+                and old_review.get("supersededBy") == target_name
+                and target_review
+                and target_review.get("decision") == "accepted"
+            ):
+                already_merged += 1
+                continue
+            raise SystemExit(
+                f"quality merge source is absent without completed merge history: {old_name} -> {target_name}"
+            )
+        if target_index is None:
+            raise SystemExit(f"quality merge target is not active: {target_name}")
+        if old_index == target_index:
+            raise SystemExit(f"quality merge source and target are identical: {old_name}")
+
+        target_url = item.get("targetUrl", catalog[target_index][5])
+        if not valid_url(target_url):
+            raise SystemExit(f"invalid merge target URL for {target_name}: {target_url}")
+        if not item.get("oldEvidenceUrls") or not item.get("targetEvidenceUrls"):
+            raise SystemExit(f"quality merge lacks first-party evidence: {old_name} -> {target_name}")
+        if not item.get("reason") or not item.get("userValue"):
+            raise SystemExit(f"quality merge lacks reason/user value: {old_name} -> {target_name}")
+
+        old_row = catalog[old_index]
+        old_url = old_row[5]
+        catalog.pop(old_index)
+        lifecycle_tools.pop(old_name, None)
+        verified.get("tools", {}).pop(old_name, None)
+        recommender.get("profiles", {}).pop(old_name, None)
+        fit.pop(old_name, None)
+
+        # The target index may shift when the old row appeared earlier in the list.
+        target_index = locate(target_name)
+        assert target_index is not None
+        target_patch = dict(item)
+        target_patch["url"] = target_url
+        patch_row(target_index, target_patch)
+
+        upsert_quality(
+            records,
+            {
+                "name": old_name,
+                "officialUrl": old_url,
+                "evidenceUrls": item["oldEvidenceUrls"],
+                "reviewedAt": reviewed_at,
+                "userValue": item["reason"],
+                "decision": "rejected",
+                "reason": item["reason"],
+                "supersededBy": target_name,
+            },
+        )
+        upsert_quality(
+            records,
+            {
+                "name": target_name,
+                "officialUrl": target_url,
+                "evidenceUrls": item["targetEvidenceUrls"],
+                "reviewedAt": reviewed_at,
+                "userValue": item["userValue"],
+                "decision": "accepted",
+                "supersedes": old_name,
+            },
+        )
+        merged += 1
+
     for item in batch.get("remove", []):
         name = item["name"]
         index = locate(name)
@@ -252,6 +348,7 @@ def main() -> None:
         "accepted": len(batch.get("accept", [])),
         "updated": len(batch.get("update", [])),
         "superseded": len(batch.get("supersede", [])),
+        "merged": len(batch.get("mergeInto", [])),
         "removed": len(batch.get("remove", [])),
     }
 
@@ -268,6 +365,7 @@ def main() -> None:
     print(
         f"Applied {batch_id}: accepted={accepted} updated={updated} "
         f"superseded={superseded} already_superseded={already_superseded} "
+        f"merged={merged} already_merged={already_merged} "
         f"removed={removed} already_removed={already_removed}; active={len(catalog)}"
     )
 
