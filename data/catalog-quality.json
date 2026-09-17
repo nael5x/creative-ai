@@ -1539,6 +1539,84 @@
       "decision": "accepted"
     },
     {
+      "name": "Docling",
+      "officialUrl": "https://docling-project.github.io/docling/",
+      "evidenceUrls": [
+        "https://docling-project.github.io/docling/",
+        "https://docling-project.github.io/docling/usage/api_server/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source document-processing toolkit for parsing PDFs and many other formats into structured representations for RAG, agents, local workflows and APIs.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Documind",
+      "officialUrl": "https://documind.chat/",
+      "evidenceUrls": [
+        "https://documind.chat/",
+        "https://www.documind.chat/blog/ai-to-answer-questions"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI document workspace for ingesting private files, semantic search, grounded Q&A, summarization and extracting structured insights from internal knowledge.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Docyt",
+      "officialUrl": "https://docyt.com/",
+      "evidenceUrls": [
+        "https://www.docyt.com/",
+        "https://www.docyt.com/accounting-firms/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI-native accounting and ERP platform for automated bookkeeping, reconciliation, payments, spend controls, reporting and business intelligence.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dreamina",
+      "officialUrl": "https://dreamina.capcut.com/",
+      "evidenceUrls": [
+        "https://dreamina.capcut.com/",
+        "https://dreamina.capcut.com/help",
+        "https://dreamina.capcut.com/ai-video"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "CapCut's dedicated AI creation platform for text-to-image, image generation, text/image-to-video and multimodal creative workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dropzone AI",
+      "officialUrl": "https://www.dropzone.ai/",
+      "evidenceUrls": [
+        "https://www.dropzone.ai/",
+        "https://www.dropzone.ai/blog/announcing-the-agentic-soc"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Agentic security-operations platform with AI SOC agents for alert investigation, threat hunting and threat-intelligence workflows across existing security stacks.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DSPy",
+      "officialUrl": "https://dspy.ai/",
+      "evidenceUrls": [
+        "https://dspy.ai/",
+        "https://github.com/stanfordnlp/dspy"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source Stanford framework for building modular AI programs and agents with typed signatures, tools, evaluation and optimizers instead of hand-maintained prompts.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dubverse",
+      "officialUrl": "https://dubverse.ai/",
+      "evidenceUrls": [
+        "https://dubverse.ai/",
+        "https://dubverse.ai/blog/dubverse-joins-exotel/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI dubbing, text-to-speech and subtitle platform for localizing video and audio across languages; its 2026 team acquisition explicitly preserves Dubverse as an independent product.",
+      "decision": "accepted"
+    },
+    {
       "name": "Durable",
       "officialUrl": "https://durable.com/",
       "evidenceUrls": [
@@ -1546,6 +1624,83 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI business and website builder on Durable's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dust",
+      "officialUrl": "https://dust.tt/",
+      "evidenceUrls": [
+        "https://dust.tt/",
+        "https://dust.tt/blog/series-b-multiplayer-ai",
+        "https://docs.dust.tt/changelog/introducing-sidekick-your-ai-assistant-for-building-better-agents"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Enterprise AI-agent workspace for building shared agents grounded in company knowledge, tools and workflows across teams.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ecrett Music",
+      "officialUrl": "https://ecrettmusic.com/",
+      "evidenceUrls": [
+        "https://ecrettmusic.com/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI-driven music-composition service for content creators to generate and customize royalty-free background music by scene, mood and genre.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Eduaide.AI",
+      "officialUrl": "https://www.eduaide.ai/",
+      "evidenceUrls": [
+        "https://www.eduaide.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Teacher-focused AI toolkit for producing standards-aligned lessons, assessments, worksheets, activities and classroom materials grounded in teacher-provided sources.",
+      "decision": "accepted"
+    },
+    {
+      "name": "eesel AI",
+      "officialUrl": "https://www.eesel.ai/",
+      "evidenceUrls": [
+        "https://www.eesel.ai/",
+        "https://www.eesel.ai/terms"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI teammate and support-agent platform trained on company knowledge to answer questions, handle tickets, create content and act across connected business apps.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Eightfold AI",
+      "officialUrl": "https://eightfold.ai/",
+      "evidenceUrls": [
+        "https://eightfold.ai/",
+        "https://eightfold.ai/products/",
+        "https://eightfold.ai/company/press/press-releases/eightfold-ai-grows-talent-agents-to-2-0/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI-native talent-intelligence platform with agentic recruiting, interviewing, workforce and talent-management capabilities for enterprise HR teams.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Elai.io",
+      "officialUrl": "https://elai.io/",
+      "evidenceUrls": [
+        "https://elai.io/",
+        "https://elai.io/blog/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI video platform for creating avatar-led training, education and multilingual business videos from text and source content.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Elephas",
+      "officialUrl": "https://elephas.app/",
+      "evidenceUrls": [
+        "https://elephas.app/",
+        "https://elephas.app/support/settings/ai-provider-configuration/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Private AI productivity assistant for Mac with local, cloud and bring-your-own-key model modes for working with documents, writing and personal knowledge.",
       "decision": "accepted"
     },
     {
@@ -1559,6 +1714,49 @@
       "decision": "accepted"
     },
     {
+      "name": "Elicit",
+      "officialUrl": "https://elicit.com/",
+      "evidenceUrls": [
+        "https://elicit.com/",
+        "https://elicit.com/blog/introducing-elicit-research-agent"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Scientific research AI for paper discovery, evidence synthesis, systematic reviews and research agents with source-level citations and structured analysis.",
+      "decision": "accepted"
+    },
+    {
+      "name": "EvenUp",
+      "officialUrl": "https://www.evenuplaw.com/",
+      "evidenceUrls": [
+        "https://www.evenuplaw.com/",
+        "https://www.evenuplaw.com/blog/introducing-pre-litigation-as-a-service-plaas/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Purpose-built legal AI platform for personal-injury firms covering claims intelligence, drafting, case preparation, document review and pre-litigation workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Exa",
+      "officialUrl": "https://exa.ai/",
+      "evidenceUrls": [
+        "https://exa.ai/",
+        "https://exa.ai/docs/reference/search-api-guide"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Search and web-content API built for AI applications, offering semantic, fast and deep search plus LLM-ready web extraction and structured outputs.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Explainpaper",
+      "officialUrl": "https://www.explainpaper.com/",
+      "evidenceUrls": [
+        "https://www.explainpaper.com/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI research-paper reader that explains highlighted technical text, answers grounded questions and generates structured insights from uploaded papers.",
+      "decision": "accepted"
+    },
+    {
       "name": "F5 AI Guardrails",
       "officialUrl": "https://www.f5.com/products/ai-guardrails",
       "evidenceUrls": [
@@ -1566,6 +1764,29 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "F5's runtime AI security product built from the acquired CalypsoAI technology.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Factory",
+      "officialUrl": "https://www.factory.ai/",
+      "evidenceUrls": [
+        "https://www.factory.ai/",
+        "https://factory.ai/product/droids",
+        "https://factory.ai/news/software-factory"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Agent-native software-development platform whose Droids plan, edit, test and ship code across IDE, terminal, browser and team workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "fal",
+      "officialUrl": "https://fal.ai/",
+      "evidenceUrls": [
+        "https://fal.ai/",
+        "https://blog.fal.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Production generative-media infrastructure for running and serving image, video, audio and other AI models through fast inference APIs and agent integrations.",
       "decision": "accepted"
     },
     {
@@ -2473,11 +2694,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-18",
-  "lastQualityReviewBatch": "legacy-a-007",
+  "lastQualityReviewBatch": "legacy-a-008",
   "lastQualityReviewBatchSummary": {
-    "accepted": 16,
-    "updated": 2,
-    "superseded": 1,
-    "removed": 1
+    "accepted": 20,
+    "updated": 0,
+    "superseded": 0,
+    "removed": 0
   }
 }
