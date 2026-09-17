@@ -53,6 +53,7 @@ def main() -> None:
     reviewed_at = batch["reviewedAt"]
     batch_id = batch["batchId"]
     records = quality.setdefault("tools", [])
+    lifecycle_tools = lifecycle.setdefault("tools", {})
 
     def locate(name: str) -> int | None:
         for index, row in enumerate(catalog):
@@ -67,6 +68,7 @@ def main() -> None:
         return None
 
     accepted = updated = removed = already_removed = 0
+    superseded = already_superseded = 0
 
     for item in batch.get("accept", []):
         name = item["name"]
@@ -103,6 +105,8 @@ def main() -> None:
         new_url = item["url"]
         if not valid_url(new_url):
             raise SystemExit(f"invalid updated URL for {name}: {new_url}")
+        if not item.get("evidenceUrls") or not item.get("userValue"):
+            raise SystemExit(f"quality update lacks evidence/user value: {name}")
         catalog[index][5] = new_url
         upsert_quality(
             records,
@@ -117,6 +121,93 @@ def main() -> None:
         )
         updated += 1
 
+    # Use supersede when a maintained catalog identity has an explicit first-party successor.
+    # The old identity is retained only as a rejected quality-history record; the successor gets
+    # a fresh lifecycle timestamp so the catalog never pretends the new product existed earlier.
+    for item in batch.get("supersede", []):
+        old_name = item["name"]
+        new_name = item["newName"]
+        old_index = locate(old_name)
+        new_index = locate(new_name)
+
+        if old_index is None:
+            old_review = quality_record(old_name)
+            new_review = quality_record(new_name)
+            if (
+                new_index is not None
+                and old_review
+                and old_review.get("decision") == "rejected"
+                and new_review
+                and new_review.get("decision") == "accepted"
+            ):
+                already_superseded += 1
+                continue
+            raise SystemExit(
+                f"quality supersede source is absent without completed successor history: {old_name}"
+            )
+
+        if new_index is not None:
+            raise SystemExit(f"quality supersede target already exists in active catalog: {new_name}")
+
+        new_url = item["url"]
+        if not valid_url(new_url):
+            raise SystemExit(f"invalid successor URL for {new_name}: {new_url}")
+        if not item.get("oldEvidenceUrls") or not item.get("newEvidenceUrls"):
+            raise SystemExit(f"quality supersede lacks first-party evidence: {old_name} -> {new_name}")
+        if not item.get("reason") or not item.get("userValue"):
+            raise SystemExit(f"quality supersede lacks reason/user value: {old_name} -> {new_name}")
+        first_tracked_at = item.get("firstTrackedAt")
+        if not isinstance(first_tracked_at, str) or not first_tracked_at.endswith("Z"):
+            raise SystemExit(f"quality supersede requires an ISO UTC firstTrackedAt: {new_name}")
+
+        old_row = list(catalog[old_index])
+        old_url = old_row[5]
+        catalog[old_index] = [
+            new_name,
+            item.get("category", old_row[1]),
+            item.get("description", old_row[2]),
+            item.get("useCase", old_row[3]),
+            item.get("pricing", old_row[4]),
+            new_url,
+        ]
+
+        lifecycle_tools.pop(old_name, None)
+        lifecycle_tools[new_name] = {
+            "firstTrackedAt": first_tracked_at,
+            "event": "added",
+            "supersedes": old_name,
+        }
+        verified.get("tools", {}).pop(old_name, None)
+        recommender.get("profiles", {}).pop(old_name, None)
+        fit.pop(old_name, None)
+
+        upsert_quality(
+            records,
+            {
+                "name": old_name,
+                "officialUrl": old_url,
+                "evidenceUrls": item["oldEvidenceUrls"],
+                "reviewedAt": reviewed_at,
+                "userValue": item["reason"],
+                "decision": "rejected",
+                "reason": item["reason"],
+                "supersededBy": new_name,
+            },
+        )
+        upsert_quality(
+            records,
+            {
+                "name": new_name,
+                "officialUrl": new_url,
+                "evidenceUrls": item["newEvidenceUrls"],
+                "reviewedAt": reviewed_at,
+                "userValue": item["userValue"],
+                "decision": "accepted",
+                "supersedes": old_name,
+            },
+        )
+        superseded += 1
+
     for item in batch.get("remove", []):
         name = item["name"]
         index = locate(name)
@@ -126,8 +217,10 @@ def main() -> None:
                 already_removed += 1
                 continue
             raise SystemExit(f"quality batch removal missing from catalog without rejected review: {name}")
+        if not item.get("evidenceUrls") or not item.get("reason"):
+            raise SystemExit(f"quality removal lacks evidence/reason: {name}")
         row = catalog.pop(index)
-        lifecycle.get("tools", {}).pop(name, None)
+        lifecycle_tools.pop(name, None)
         verified.get("tools", {}).pop(name, None)
         recommender.get("profiles", {}).pop(name, None)
         fit.pop(name, None)
@@ -158,6 +251,7 @@ def main() -> None:
     quality["lastQualityReviewBatchSummary"] = {
         "accepted": len(batch.get("accept", [])),
         "updated": len(batch.get("update", [])),
+        "superseded": len(batch.get("supersede", [])),
         "removed": len(batch.get("remove", [])),
     }
 
@@ -173,6 +267,7 @@ def main() -> None:
 
     print(
         f"Applied {batch_id}: accepted={accepted} updated={updated} "
+        f"superseded={superseded} already_superseded={already_superseded} "
         f"removed={removed} already_removed={already_removed}; active={len(catalog)}"
     )
 
