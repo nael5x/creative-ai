@@ -1340,6 +1340,7 @@
   "lastQualityReviewBatchSummary": {
     "accepted": 18,
     "updated": 1,
+    "superseded": 0,
     "removed": 1
   }
 }
