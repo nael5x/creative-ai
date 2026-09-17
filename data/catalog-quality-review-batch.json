@@ -1,129 +1,139 @@
 {
-  "batchId": "legacy-a-002",
+  "batchId": "legacy-a-003",
   "reviewedAt": "2026-09-18",
   "accept": [
     {
-      "name": "AgentQL",
-      "officialUrl": "https://www.agentql.com/",
-      "evidenceUrls": ["https://docs.agentql.com/home", "https://docs.agentql.com/concepts/query-language"],
-      "userValue": "AI-powered query language and SDKs for resilient web data extraction, browser automation and testing with natural-language selectors."
+      "name": "Apify",
+      "officialUrl": "https://apify.com/",
+      "evidenceUrls": ["https://apify.com/", "https://docs.apify.com/platform"],
+      "userValue": "Cloud platform for web scraping, browser automation and reusable Actors that turn websites into structured data and automated workflows."
     },
     {
-      "name": "Agno",
-      "officialUrl": "https://www.agno.com/",
-      "evidenceUrls": ["https://docs.agno.com/index", "https://docs.agno.com/agent-os/multi-framework/overview"],
-      "userValue": "Agent-platform SDK and runtime for building, serving and managing agents, teams and workflows with tools, memory and integrations."
+      "name": "Apollo",
+      "officialUrl": "https://www.apollo.io/",
+      "evidenceUrls": ["https://www.apollo.io/", "https://knowledge.apollo.io/hc/en-us/articles/31357963217933-Use-Apollo-AI"],
+      "userValue": "Sales intelligence and engagement platform combining prospect data, sequencing and AI-assisted go-to-market workflows."
     },
     {
-      "name": "Ahrefs AI Content Helper",
-      "officialUrl": "https://ahrefs.com/ai-content-helper",
-      "evidenceUrls": ["https://ahrefs.com/ai-content-helper", "https://help.ahrefs.com/en/articles/9879434-about-the-new-ai-content-helper"],
-      "userValue": "AI-assisted SEO content editor that compares drafts with ranking pages, identifies topical gaps and provides in-editor AI feedback."
+      "name": "Arcads",
+      "officialUrl": "https://www.arcads.ai/",
+      "evidenceUrls": ["https://www.arcads.ai/"],
+      "userValue": "AI advertising platform for generating creator-style and UGC video ads from scripts without traditional filming."
     },
     {
-      "name": "AI Studios",
-      "officialUrl": "https://www.aistudios.com/",
-      "evidenceUrls": ["https://www.aistudios.com/features/text-to-video", "https://help.aistudios.com/en/articles/9402480-how-to-create-a-video-avatar"],
-      "userValue": "AI video platform for generating avatar-led and generative videos from prompts, scripts and custom avatars across many languages."
+      "name": "Artbreeder",
+      "officialUrl": "https://www.artbreeder.com/",
+      "evidenceUrls": ["https://www.artbreeder.com/"],
+      "userValue": "Collaborative generative-image platform for creating, remixing and exploring portraits, characters and visual concepts."
     },
     {
-      "name": "AI2sql",
-      "officialUrl": "https://ai2sql.io/",
-      "evidenceUrls": ["https://ai2sql.io/"],
-      "userValue": "AI database assistant that generates, explains, fixes and optimizes SQL against real schemas and can expose governed query access to agents."
+      "name": "Artisan",
+      "officialUrl": "https://www.artisan.co/",
+      "evidenceUrls": ["https://www.artisan.co/"],
+      "userValue": "AI sales platform centered on autonomous outbound workflows for prospect research, personalized outreach and pipeline generation."
     },
     {
-      "name": "Aider",
-      "officialUrl": "https://aider.chat/",
-      "evidenceUrls": ["https://aider.chat/"],
-      "userValue": "Terminal-based AI pair programmer with repository context, git integration, code editing, linting and test workflows."
+      "name": "Asana AI",
+      "officialUrl": "https://asana.com/product/ai",
+      "evidenceUrls": ["https://asana.com/product/ai", "https://help.asana.com/s/article/asana-ai-features-and-admin-controls"],
+      "userValue": "AI capabilities inside Asana for planning, summarizing, status updates and workflow assistance while work stays connected to project context."
     },
     {
-      "name": "Aidoc",
-      "officialUrl": "https://www.aidoc.com/",
-      "evidenceUrls": ["https://www.aidoc.com/", "https://www.aidoc.com/platform/aios/"],
-      "userValue": "Enterprise clinical AI platform that analyzes medical imaging and orchestrates AI-powered workflows across health systems."
+      "name": "AskCodi",
+      "officialUrl": "https://www.askcodi.com/",
+      "evidenceUrls": ["https://www.askcodi.com/", "https://www.askcodi.com/pricing"],
+      "userValue": "Developer AI workspace that has evolved into a local-first coding environment for orchestrating specialized engineering agents and code tasks."
     },
     {
-      "name": "AIVA",
-      "officialUrl": "https://www.aiva.ai/",
-      "evidenceUrls": ["https://www.aiva.ai/"],
-      "userValue": "AI music-generation assistant for composing songs in many styles with editable influences, tracks and export options."
+      "name": "AskYourPDF",
+      "officialUrl": "https://askyourpdf.com/",
+      "evidenceUrls": ["https://askyourpdf.com/"],
+      "userValue": "AI document workspace for chatting with PDFs, summarizing files, extracting answers and running document-focused agent workflows."
     },
     {
-      "name": "Akkio",
-      "officialUrl": "https://www.akkio.com/",
-      "evidenceUrls": ["https://www.akkio.com/", "https://www.akkio.com/about"],
-      "userValue": "AI workflow and analytics platform for campaign strategy, segmentation, forecasting, reporting and data-driven media operations."
+      "name": "AssemblyAI",
+      "officialUrl": "https://www.assemblyai.com/",
+      "evidenceUrls": ["https://www.assemblyai.com/", "https://www.assemblyai.com/docs"],
+      "userValue": "Speech AI API platform for transcription, speaker-aware processing and audio understanding in developer applications."
     },
     {
-      "name": "Alli AI",
-      "officialUrl": "https://www.alliai.com/",
-      "evidenceUrls": ["https://www.alliai.com/", "https://www.alliai.com/features/ai-seo-automation-software"],
-      "userValue": "SEO and AI-search visibility platform that automates and deploys large-scale on-page and crawler-accessibility improvements."
+      "name": "Augment Code",
+      "officialUrl": "https://www.augmentcode.com/",
+      "evidenceUrls": ["https://www.augmentcode.com/", "https://www.augmentcode.com/product/context-engine"],
+      "userValue": "Agentic software-development platform built around deep repository context for coding, planning and coordinated changes across large codebases."
     },
     {
-      "name": "Alpha3D",
-      "officialUrl": "https://www.alpha3d.io/",
-      "evidenceUrls": ["https://www.alpha3d.io/", "https://www.alpha3d.io/ai-3d-tools"],
-      "userValue": "AI 3D production pipeline that generates assets from prompts or images and continues through retopology, UVs, texturing, rigging and export."
+      "name": "Auphonic",
+      "officialUrl": "https://auphonic.com/",
+      "evidenceUrls": ["https://auphonic.com/", "https://auphonic.com/help/"],
+      "userValue": "AI-assisted audio post-production service for automatic leveling, noise reduction, speech cleanup and podcast mastering."
     },
     {
-      "name": "AlphaSense",
-      "officialUrl": "https://www.alpha-sense.com/",
-      "evidenceUrls": ["https://www.alpha-sense.com/", "https://www.alpha-sense.com/platform/"],
-      "userValue": "AI market-intelligence and research platform that searches, summarizes and reasons across premium business, financial and internal content."
+      "name": "AutoGPT",
+      "officialUrl": "https://github.com/Significant-Gravitas/AutoGPT",
+      "evidenceUrls": ["https://github.com/Significant-Gravitas/AutoGPT"],
+      "userValue": "Open-source platform and project for building, deploying and experimenting with autonomous AI agents and multi-step task execution."
     },
     {
-      "name": "Altered Studio",
-      "officialUrl": "https://www.altered.ai/",
-      "evidenceUrls": ["https://www.altered.ai/", "https://www.altered.ai/altered-studio/"],
-      "userValue": "Voice AI production suite for speech-to-speech voice morphing, voice editing, text-to-speech, transcription and real-time voice transformation."
+      "name": "AUTOMATIC1111 Stable Diffusion WebUI",
+      "officialUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "evidenceUrls": ["https://github.com/AUTOMATIC1111/stable-diffusion-webui"],
+      "userValue": "Open-source local Stable Diffusion web interface with extensive generation controls, scripting and a large extension ecosystem."
     },
     {
-      "name": "Amazon Q Developer",
-      "officialUrl": "https://aws.amazon.com/q/developer/",
-      "evidenceUrls": ["https://aws.amazon.com/q/developer/", "https://aws.amazon.com/documentation-overview/q-developer/"],
-      "userValue": "AWS generative AI developer assistant for coding, testing, security scanning, cloud operations, modernization and agentic software-development tasks."
+      "name": "Avoma",
+      "officialUrl": "https://www.avoma.com/",
+      "evidenceUrls": ["https://www.avoma.com/", "https://www.avoma.com/product"],
+      "userValue": "AI meeting and revenue-intelligence platform for recording, summaries, coaching, conversation analysis and customer-facing workflows."
     },
     {
-      "name": "Ambience Healthcare",
-      "officialUrl": "https://www.ambiencehealthcare.com/",
-      "evidenceUrls": ["https://www.ambiencehealthcare.com/", "https://www.ambiencehealthcare.com/products"],
-      "userValue": "Clinical AI platform for ambient documentation, chart reasoning, coding and workflow support across ambulatory, emergency and inpatient care."
+      "name": "B12",
+      "officialUrl": "https://www.b12.io/",
+      "evidenceUrls": ["https://www.b12.io/"],
+      "userValue": "AI-assisted site and business-platform builder aimed at quickly launching professional web experiences and client-facing workflows."
     },
     {
-      "name": "Andi",
-      "officialUrl": "https://andisearch.com/",
-      "evidenceUrls": ["https://andisearch.com/"],
-      "userValue": "Conversational AI search engine that answers web questions directly instead of returning only a conventional list of links."
+      "name": "Bardeen",
+      "officialUrl": "https://www.bardeen.ai/",
+      "evidenceUrls": ["https://www.bardeen.ai/", "https://www.bardeen.ai/ai"],
+      "userValue": "AI automation platform for browser-heavy work such as research, prospecting, data collection and repetitive operational workflows."
     },
     {
-      "name": "Anyscale",
-      "officialUrl": "https://www.anyscale.com/",
-      "evidenceUrls": ["https://www.anyscale.com/", "https://www.anyscale.com/press/nscale-acquires-anyscale-enhancing-its-full-stack-ai-cloud-platform"],
-      "userValue": "Managed Ray platform for scaling distributed AI workloads including data processing, training, inference and production services; its announced Nscale acquisition explicitly preserves the Anyscale brand and customer service."
+      "name": "Base44",
+      "officialUrl": "https://base44.com/",
+      "evidenceUrls": ["https://base44.com/", "https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif", "https://base44.com/blog/what-is-base44"],
+      "userValue": "AI-native app builder that generates full-stack applications, websites and agents from natural language; Wix explicitly continues Base44 as a distinct product and business."
     },
     {
-      "name": "Anyword",
-      "officialUrl": "https://anyword.com/",
-      "evidenceUrls": ["https://www.anyword.com/", "https://www.anyword.com/copy-intelligence-platform"],
-      "userValue": "AI content and copy-performance platform for generating on-brand marketing content and using performance data to guide messaging decisions."
+      "name": "Baseten",
+      "officialUrl": "https://www.baseten.co/",
+      "evidenceUrls": ["https://www.baseten.co/"],
+      "userValue": "AI infrastructure platform for deploying, serving, scaling and operating production inference workloads and custom models."
     }
   ],
   "update": [
     {
-      "name": "Airtable AI",
-      "url": "https://www.airtable.com/platform/ai",
-      "evidenceUrls": ["https://www.airtable.com/platform/ai", "https://support.airtable.com/articles/1744327578-using-omni-ai-in-airtable"],
-      "userValue": "Airtable's AI-native workflow layer, including Omni and agents for app building, web research, data analysis and automated work across structured business data."
+      "name": "Arize Phoenix",
+      "url": "https://arize.com/phoenix/",
+      "evidenceUrls": ["https://arize.com/phoenix/", "https://phoenix.arize.com/"],
+      "userValue": "Open-source agent-development, tracing and evaluation platform for debugging AI applications, running experiments and measuring model or agent quality."
     }
   ],
-  "remove": [
+  "supersede": [
     {
-      "name": "Aim Security",
-      "evidenceUrls": ["https://www.catonetworks.com/news/cato-acquires-aim-security-to-extend-sase-leadership-and-secure-enterprise-ai-transformation/", "https://www.aim.security/"],
-      "reason": "Cato Networks acquired Aim Security in September 2025 and the former Aim Security domain now redirects to Cato Networks, so it is no longer maintained as an independent active product destination."
+      "name": "AutoGen",
+      "newName": "Microsoft Agent Framework",
+      "url": "https://learn.microsoft.com/en-us/agent-framework/overview/",
+      "category": "AI development",
+      "description": "Open-source Microsoft SDK and runtime for building, orchestrating and deploying AI agents and multi-agent workflows.",
+      "useCase": "For developers building production agent systems with tools, workflows, multiple model providers and operational controls.",
+      "pricing": "Open source",
+      "firstTrackedAt": "2026-09-17T21:43:38Z",
+      "oldEvidenceUrls": ["https://github.com/microsoft/autogen", "https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/"],
+      "newEvidenceUrls": ["https://learn.microsoft.com/en-us/agent-framework/overview/", "https://devblogs.microsoft.com/agent-framework/migrate-your-semantic-kernel-and-autogen-projects-to-microsoft-agent-framework-release-candidate/"],
+      "reason": "Microsoft states that AutoGen is in maintenance mode, will not receive new features, and that new users should start with Microsoft Agent Framework, the production-ready successor.",
+      "userValue": "Microsoft's supported open-source agent SDK and runtime for building agents and explicit multi-step workflows across Python, .NET and supported provider integrations."
     }
-  ]
+  ],
+  "remove": []
 }
