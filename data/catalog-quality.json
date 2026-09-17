@@ -131,6 +131,179 @@
       "decision": "accepted"
     },
     {
+      "name": "AgentQL",
+      "officialUrl": "https://www.agentql.com/",
+      "evidenceUrls": [
+        "https://docs.agentql.com/home",
+        "https://docs.agentql.com/concepts/query-language"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI-powered query language and SDKs for resilient web data extraction, browser automation and testing with natural-language selectors.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Agno",
+      "officialUrl": "https://www.agno.com/",
+      "evidenceUrls": [
+        "https://docs.agno.com/index",
+        "https://docs.agno.com/agent-os/multi-framework/overview"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Agent-platform SDK and runtime for building, serving and managing agents, teams and workflows with tools, memory and integrations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ahrefs AI Content Helper",
+      "officialUrl": "https://ahrefs.com/ai-content-helper",
+      "evidenceUrls": [
+        "https://ahrefs.com/ai-content-helper",
+        "https://help.ahrefs.com/en/articles/9879434-about-the-new-ai-content-helper"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI-assisted SEO content editor that compares drafts with ranking pages, identifies topical gaps and provides in-editor AI feedback.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AI Studios",
+      "officialUrl": "https://www.aistudios.com/",
+      "evidenceUrls": [
+        "https://www.aistudios.com/features/text-to-video",
+        "https://help.aistudios.com/en/articles/9402480-how-to-create-a-video-avatar"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI video platform for generating avatar-led and generative videos from prompts, scripts and custom avatars across many languages.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AI2sql",
+      "officialUrl": "https://ai2sql.io/",
+      "evidenceUrls": [
+        "https://ai2sql.io/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI database assistant that generates, explains, fixes and optimizes SQL against real schemas and can expose governed query access to agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Aider",
+      "officialUrl": "https://aider.chat/",
+      "evidenceUrls": [
+        "https://aider.chat/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Terminal-based AI pair programmer with repository context, git integration, code editing, linting and test workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Aidoc",
+      "officialUrl": "https://www.aidoc.com/",
+      "evidenceUrls": [
+        "https://www.aidoc.com/",
+        "https://www.aidoc.com/platform/aios/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Enterprise clinical AI platform that analyzes medical imaging and orchestrates AI-powered workflows across health systems.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Airtable AI",
+      "officialUrl": "https://www.airtable.com/platform/ai",
+      "evidenceUrls": [
+        "https://www.airtable.com/platform/ai",
+        "https://support.airtable.com/articles/1744327578-using-omni-ai-in-airtable"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Airtable's AI-native workflow layer, including Omni and agents for app building, web research, data analysis and automated work across structured business data.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AIVA",
+      "officialUrl": "https://www.aiva.ai/",
+      "evidenceUrls": [
+        "https://www.aiva.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI music-generation assistant for composing songs in many styles with editable influences, tracks and export options.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Akkio",
+      "officialUrl": "https://www.akkio.com/",
+      "evidenceUrls": [
+        "https://www.akkio.com/",
+        "https://www.akkio.com/about"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI workflow and analytics platform for campaign strategy, segmentation, forecasting, reporting and data-driven media operations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Alli AI",
+      "officialUrl": "https://www.alliai.com/",
+      "evidenceUrls": [
+        "https://www.alliai.com/",
+        "https://www.alliai.com/features/ai-seo-automation-software"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "SEO and AI-search visibility platform that automates and deploys large-scale on-page and crawler-accessibility improvements.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Alpha3D",
+      "officialUrl": "https://www.alpha3d.io/",
+      "evidenceUrls": [
+        "https://www.alpha3d.io/",
+        "https://www.alpha3d.io/ai-3d-tools"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI 3D production pipeline that generates assets from prompts or images and continues through retopology, UVs, texturing, rigging and export.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AlphaSense",
+      "officialUrl": "https://www.alpha-sense.com/",
+      "evidenceUrls": [
+        "https://www.alpha-sense.com/",
+        "https://www.alpha-sense.com/platform/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI market-intelligence and research platform that searches, summarizes and reasons across premium business, financial and internal content.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Altered Studio",
+      "officialUrl": "https://www.altered.ai/",
+      "evidenceUrls": [
+        "https://www.altered.ai/",
+        "https://www.altered.ai/altered-studio/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Voice AI production suite for speech-to-speech voice morphing, voice editing, text-to-speech, transcription and real-time voice transformation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Amazon Q Developer",
+      "officialUrl": "https://aws.amazon.com/q/developer/",
+      "evidenceUrls": [
+        "https://aws.amazon.com/q/developer/",
+        "https://aws.amazon.com/documentation-overview/q-developer/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AWS generative AI developer assistant for coding, testing, security scanning, cloud operations, modernization and agentic software-development tasks.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ambience Healthcare",
+      "officialUrl": "https://www.ambiencehealthcare.com/",
+      "evidenceUrls": [
+        "https://www.ambiencehealthcare.com/",
+        "https://www.ambiencehealthcare.com/products"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Clinical AI platform for ambient documentation, chart reasoning, coding and workflow support across ambulatory, emergency and inpatient care.",
+      "decision": "accepted"
+    },
+    {
       "name": "Anara",
       "officialUrl": "https://anara.com/",
       "evidenceUrls": [
@@ -142,6 +315,27 @@
       "decision": "accepted"
     },
     {
+      "name": "Andi",
+      "officialUrl": "https://andisearch.com/",
+      "evidenceUrls": [
+        "https://andisearch.com/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Conversational AI search engine that answers web questions directly instead of returning only a conventional list of links.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Anyscale",
+      "officialUrl": "https://www.anyscale.com/",
+      "evidenceUrls": [
+        "https://www.anyscale.com/",
+        "https://www.anyscale.com/press/nscale-acquires-anyscale-enhancing-its-full-stack-ai-cloud-platform"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Managed Ray platform for scaling distributed AI workloads including data processing, training, inference and production services; its announced Nscale acquisition explicitly preserves the Anyscale brand and customer service.",
+      "decision": "accepted"
+    },
+    {
       "name": "AnythingLLM",
       "officialUrl": "https://anythingllm.com/",
       "evidenceUrls": [
@@ -149,6 +343,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Local-first workspace for document chat, agents and model integrations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Anyword",
+      "officialUrl": "https://anyword.com/",
+      "evidenceUrls": [
+        "https://www.anyword.com/",
+        "https://www.anyword.com/copy-intelligence-platform"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI content and copy-performance platform for generating on-brand marketing content and using performance data to guide messaging decisions.",
       "decision": "accepted"
     },
     {
@@ -989,6 +1194,18 @@
       "reason": "Removed from active discovery because the canonical product domain no longer resolves as a usable product and independent shutdown evidence corroborates the lapsed service."
     },
     {
+      "name": "Aim Security",
+      "officialUrl": "https://www.aim.security/",
+      "evidenceUrls": [
+        "https://www.catonetworks.com/news/cato-acquires-aim-security-to-extend-sase-leadership-and-secure-enterprise-ai-transformation/",
+        "https://www.aim.security/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Cato Networks acquired Aim Security in September 2025 and the former Aim Security domain now redirects to Cato Networks, so it is no longer maintained as an independent active product destination.",
+      "decision": "rejected",
+      "reason": "Cato Networks acquired Aim Security in September 2025 and the former Aim Security domain now redirects to Cato Networks, so it is no longer maintained as an independent active product destination."
+    },
+    {
       "name": "Booth AI",
       "officialUrl": "https://www.booth.ai/",
       "evidenceUrls": [
@@ -1118,11 +1335,11 @@
     "removed": 3,
     "updated": 28
   },
-  "lastQualityReviewBatchAt": "2026-09-14",
-  "lastQualityReviewBatch": "legacy-a-001",
+  "lastQualityReviewBatchAt": "2026-09-18",
+  "lastQualityReviewBatch": "legacy-a-002",
   "lastQualityReviewBatchSummary": {
-    "accepted": 10,
-    "updated": 0,
-    "removed": 0
+    "accepted": 18,
+    "updated": 1,
+    "removed": 1
   }
 }
