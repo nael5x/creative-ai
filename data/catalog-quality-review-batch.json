@@ -1,139 +1,130 @@
 {
-  "batchId": "legacy-a-003",
+  "batchId": "legacy-a-004",
   "reviewedAt": "2026-09-18",
   "accept": [
     {
-      "name": "Apify",
-      "officialUrl": "https://apify.com/",
-      "evidenceUrls": ["https://apify.com/", "https://docs.apify.com/platform"],
-      "userValue": "Cloud platform for web scraping, browser automation and reusable Actors that turn websites into structured data and automated workflows."
+      "name": "Bearly AI",
+      "officialUrl": "https://bearly.ai/",
+      "evidenceUrls": ["https://bearly.ai/", "https://bearly.ai/changelog"],
+      "userValue": "AI productivity workspace for working with documents, models, writing and research, with an actively maintained desktop and web product."
     },
     {
-      "name": "Apollo",
-      "officialUrl": "https://www.apollo.io/",
-      "evidenceUrls": ["https://www.apollo.io/", "https://knowledge.apollo.io/hc/en-us/articles/31357963217933-Use-Apollo-AI"],
-      "userValue": "Sales intelligence and engagement platform combining prospect data, sequencing and AI-assisted go-to-market workflows."
+      "name": "Beatoven.ai",
+      "officialUrl": "https://www.beatoven.ai/",
+      "evidenceUrls": ["https://www.beatoven.ai/"],
+      "userValue": "AI music generator for producing original background tracks and soundtracks with creator-oriented licensing workflows."
     },
     {
-      "name": "Arcads",
-      "officialUrl": "https://www.arcads.ai/",
-      "evidenceUrls": ["https://www.arcads.ai/"],
-      "userValue": "AI advertising platform for generating creator-style and UGC video ads from scripts without traditional filming."
+      "name": "Beautiful.ai",
+      "officialUrl": "https://www.beautiful.ai/",
+      "evidenceUrls": ["https://www.beautiful.ai/", "https://www.beautiful.ai/product-updates"],
+      "userValue": "AI presentation platform for generating, designing and refining slide decks with automated layout and presentation workflows."
     },
     {
-      "name": "Artbreeder",
-      "officialUrl": "https://www.artbreeder.com/",
-      "evidenceUrls": ["https://www.artbreeder.com/"],
-      "userValue": "Collaborative generative-image platform for creating, remixing and exploring portraits, characters and visual concepts."
+      "name": "BentoML",
+      "officialUrl": "https://www.bentoml.com/",
+      "evidenceUrls": ["https://www.bentoml.com/", "https://docs.bentoml.com/"],
+      "userValue": "Open-source and managed inference platform for packaging, deploying and scaling AI models and production inference services."
     },
     {
-      "name": "Artisan",
-      "officialUrl": "https://www.artisan.co/",
-      "evidenceUrls": ["https://www.artisan.co/"],
-      "userValue": "AI sales platform centered on autonomous outbound workflows for prospect research, personalized outreach and pipeline generation."
+      "name": "Bito",
+      "officialUrl": "https://bito.ai/",
+      "evidenceUrls": ["https://bito.ai/", "https://docs.bito.ai/"],
+      "userValue": "AI engineering layer for grounding coding requests in repository context, routing models and supporting code review and development workflows."
     },
     {
-      "name": "Asana AI",
-      "officialUrl": "https://asana.com/product/ai",
-      "evidenceUrls": ["https://asana.com/product/ai", "https://help.asana.com/s/article/asana-ai-features-and-admin-controls"],
-      "userValue": "AI capabilities inside Asana for planning, summarizing, status updates and workflow assistance while work stays connected to project context."
+      "name": "Blackbox AI",
+      "officialUrl": "https://www.blackbox.ai/",
+      "evidenceUrls": ["https://www.blackbox.ai/", "https://www.blackbox.ai/press"],
+      "userValue": "AI coding platform for code generation, repository work, debugging and agent-style software-development tasks."
     },
     {
-      "name": "AskCodi",
-      "officialUrl": "https://www.askcodi.com/",
-      "evidenceUrls": ["https://www.askcodi.com/", "https://www.askcodi.com/pricing"],
-      "userValue": "Developer AI workspace that has evolved into a local-first coding environment for orchestrating specialized engineering agents and code tasks."
+      "name": "Bolt.new",
+      "officialUrl": "https://bolt.new/",
+      "evidenceUrls": ["https://bolt.new/", "https://bolt.new/blog"],
+      "userValue": "Browser-based AI app builder that turns prompts into editable full-stack web applications and supports iterative development and deployment."
     },
     {
-      "name": "AskYourPDF",
-      "officialUrl": "https://askyourpdf.com/",
-      "evidenceUrls": ["https://askyourpdf.com/"],
-      "userValue": "AI document workspace for chatting with PDFs, summarizing files, extracting answers and running document-focused agent workflows."
+      "name": "Boomy",
+      "officialUrl": "https://boomy.com/",
+      "evidenceUrls": ["https://boomy.com/", "https://support.boomy.com/hc/en-us/articles/17795213541773-How-does-Boomy-use-AI"],
+      "userValue": "Generative music platform that uses AI and music automation to create customizable original songs for users without traditional production skills."
     },
     {
-      "name": "AssemblyAI",
-      "officialUrl": "https://www.assemblyai.com/",
-      "evidenceUrls": ["https://www.assemblyai.com/", "https://www.assemblyai.com/docs"],
-      "userValue": "Speech AI API platform for transcription, speaker-aware processing and audio understanding in developer applications."
+      "name": "Botpress",
+      "officialUrl": "https://botpress.com/",
+      "evidenceUrls": ["https://botpress.com/", "https://botpress.com/docs/changelog/"],
+      "userValue": "Managed AI-agent and conversational automation platform with visual Studio, knowledge bases, integrations, webchat and agent-development tooling."
     },
     {
-      "name": "Augment Code",
-      "officialUrl": "https://www.augmentcode.com/",
-      "evidenceUrls": ["https://www.augmentcode.com/", "https://www.augmentcode.com/product/context-engine"],
-      "userValue": "Agentic software-development platform built around deep repository context for coding, planning and coordinated changes across large codebases."
+      "name": "Braintrust",
+      "officialUrl": "https://www.braintrust.dev/",
+      "evidenceUrls": ["https://www.braintrust.dev/", "https://www.braintrust.dev/blog"],
+      "userValue": "AI application evaluation, observability and experimentation platform for testing prompts, agents and model behavior against production data."
     },
     {
-      "name": "Auphonic",
-      "officialUrl": "https://auphonic.com/",
-      "evidenceUrls": ["https://auphonic.com/", "https://auphonic.com/help/"],
-      "userValue": "AI-assisted audio post-production service for automatic leveling, noise reduction, speech cleanup and podcast mastering."
+      "name": "Brisk Teaching",
+      "officialUrl": "https://www.briskteaching.com/",
+      "evidenceUrls": ["https://www.briskteaching.com/", "https://www.briskteaching.com/blog/whats-new"],
+      "userValue": "AI teaching assistant for creating instructional materials, feedback, differentiation and classroom content inside educator workflows."
     },
     {
-      "name": "AutoGPT",
-      "officialUrl": "https://github.com/Significant-Gravitas/AutoGPT",
-      "evidenceUrls": ["https://github.com/Significant-Gravitas/AutoGPT"],
-      "userValue": "Open-source platform and project for building, deploying and experimenting with autonomous AI agents and multi-step task execution."
+      "name": "Browse AI",
+      "officialUrl": "https://www.browse.ai/",
+      "evidenceUrls": ["https://www.browse.ai/"],
+      "userValue": "No-code AI web-scraping and monitoring platform for extracting structured data and automating recurring website data collection."
     },
     {
-      "name": "AUTOMATIC1111 Stable Diffusion WebUI",
-      "officialUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-      "evidenceUrls": ["https://github.com/AUTOMATIC1111/stable-diffusion-webui"],
-      "userValue": "Open-source local Stable Diffusion web interface with extensive generation controls, scripting and a large extension ecosystem."
+      "name": "Browser Use",
+      "officialUrl": "https://browser-use.com/",
+      "evidenceUrls": ["https://browser-use.com/", "https://browser-use.com/changelog"],
+      "userValue": "Open-source and cloud browser-agent platform that lets AI agents navigate websites, interact with pages and execute browser tasks programmatically."
     },
     {
-      "name": "Avoma",
-      "officialUrl": "https://www.avoma.com/",
-      "evidenceUrls": ["https://www.avoma.com/", "https://www.avoma.com/product"],
-      "userValue": "AI meeting and revenue-intelligence platform for recording, summaries, coaching, conversation analysis and customer-facing workflows."
+      "name": "Browserbase",
+      "officialUrl": "https://www.browserbase.com/",
+      "evidenceUrls": ["https://www.browserbase.com/", "https://www.browserbase.com/changelog"],
+      "userValue": "Cloud browser infrastructure and agent platform for reliable web automation, browser sessions and production browser-based AI agents."
     },
     {
-      "name": "B12",
-      "officialUrl": "https://www.b12.io/",
-      "evidenceUrls": ["https://www.b12.io/"],
-      "userValue": "AI-assisted site and business-platform builder aimed at quickly launching professional web experiences and client-facing workflows."
+      "name": "Buffer AI Assistant",
+      "officialUrl": "https://buffer.com/ai-assistant",
+      "evidenceUrls": ["https://buffer.com/ai-assistant", "https://support.buffer.com/article/652-using-buffers-ai-assistant"],
+      "userValue": "AI social-media writing assistant inside Buffer for generating, rewriting and adapting posts to different networks and tones."
     },
     {
-      "name": "Bardeen",
-      "officialUrl": "https://www.bardeen.ai/",
-      "evidenceUrls": ["https://www.bardeen.ai/", "https://www.bardeen.ai/ai"],
-      "userValue": "AI automation platform for browser-heavy work such as research, prospecting, data collection and repetitive operational workflows."
+      "name": "CAMEL-AI",
+      "officialUrl": "https://www.camel-ai.org/",
+      "evidenceUrls": ["https://www.camel-ai.org/", "https://docs.camel-ai.org/"],
+      "userValue": "Open-source multi-agent framework and research ecosystem for building agent societies, workflows, tools and model-driven simulations."
     },
     {
-      "name": "Base44",
-      "officialUrl": "https://base44.com/",
-      "evidenceUrls": ["https://base44.com/", "https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif", "https://base44.com/blog/what-is-base44"],
-      "userValue": "AI-native app builder that generates full-stack applications, websites and agents from natural language; Wix explicitly continues Base44 as a distinct product and business."
-    },
-    {
-      "name": "Baseten",
-      "officialUrl": "https://www.baseten.co/",
-      "evidenceUrls": ["https://www.baseten.co/"],
-      "userValue": "AI infrastructure platform for deploying, serving, scaling and operating production inference workloads and custom models."
+      "name": "CapCut AI",
+      "officialUrl": "https://www.capcut.com/tools/ai-video-generator",
+      "evidenceUrls": ["https://www.capcut.com/tools/ai-video-generator", "https://www.capcut.com/tools"],
+      "userValue": "AI video-generation and editing tools inside CapCut for creating video from prompts and combining generation with a full consumer editing workflow."
     }
   ],
   "update": [
     {
-      "name": "Arize Phoenix",
-      "url": "https://arize.com/phoenix/",
-      "evidenceUrls": ["https://arize.com/phoenix/", "https://phoenix.arize.com/"],
-      "userValue": "Open-source agent-development, tracing and evaluation platform for debugging AI applications, running experiments and measuring model or agent quality."
-    }
-  ],
-  "supersede": [
+      "name": "Bubble AI",
+      "url": "https://bubble.io/ai-app-builder",
+      "evidenceUrls": ["https://bubble.io/ai-app-builder", "https://bubble.io/blog/what-is-bubble-ai/"],
+      "userValue": "Bubble's AI app builder generates editable web and mobile applications from prompts, including UI, logic and database structure, with an AI Agent for continued iteration."
+    },
     {
-      "name": "AutoGen",
-      "newName": "Microsoft Agent Framework",
-      "url": "https://learn.microsoft.com/en-us/agent-framework/overview/",
-      "category": "AI development",
-      "description": "Open-source Microsoft SDK and runtime for building, orchestrating and deploying AI agents and multi-agent workflows.",
-      "useCase": "For developers building production agent systems with tools, workflows, multiple model providers and operational controls.",
-      "pricing": "Open source",
-      "firstTrackedAt": "2026-09-17T21:43:38Z",
-      "oldEvidenceUrls": ["https://github.com/microsoft/autogen", "https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/"],
-      "newEvidenceUrls": ["https://learn.microsoft.com/en-us/agent-framework/overview/", "https://devblogs.microsoft.com/agent-framework/migrate-your-semantic-kernel-and-autogen-projects-to-microsoft-agent-framework-release-candidate/"],
-      "reason": "Microsoft states that AutoGen is in maintenance mode, will not receive new features, and that new users should start with Microsoft Agent Framework, the production-ready successor.",
-      "userValue": "Microsoft's supported open-source agent SDK and runtime for building agents and explicit multi-step workflows across Python, .NET and supported provider integrations."
+      "name": "Builder.io Visual Copilot",
+      "url": "https://www.builder.io/ai",
+      "evidenceUrls": ["https://www.builder.io/ai", "https://www.builder.io/blog/best-figma-to-code-plugin"],
+      "userValue": "Builder.io's active AI design-to-code capability for converting Figma designs into production-ready code and feeding them into Builder's broader code workflow."
+    },
+    {
+      "name": "Caktus AI",
+      "url": "https://caktus.ai/",
+      "evidenceUrls": ["https://caktus.ai/"],
+      "userValue": "AI study platform with specialized tools for academic writing, citations, math, science, research, flashcards and document-based learning tasks."
     }
   ],
+  "supersede": [],
   "remove": []
 }
