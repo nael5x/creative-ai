@@ -1310,6 +1310,182 @@
       "decision": "accepted"
     },
     {
+      "name": "Darktrace",
+      "officialUrl": "https://www.darktrace.com/",
+      "evidenceUrls": [
+        "https://www.darktrace.com/",
+        "https://www.darktrace.com/news/2026/969/darktrace-launches-behavioral-defense-platform"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Enterprise cybersecurity platform using behavioral AI for detection, investigation and response across network, cloud, email and other security surfaces.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Databricks Genie Agents",
+      "officialUrl": "https://www.databricks.com/product/genie/agents",
+      "evidenceUrls": [
+        "https://www.databricks.com/product/genie/agents",
+        "https://docs.databricks.com/aws/en/genie-agents/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Databricks' governed natural-language analytics agents for querying curated enterprise data, generating SQL and visualizations, and embedding data-question workflows in applications.",
+      "decision": "accepted",
+      "supersedes": "Databricks Genie"
+    },
+    {
+      "name": "Dataiku",
+      "officialUrl": "https://www.dataiku.com/",
+      "evidenceUrls": [
+        "https://www.dataiku.com/",
+        "https://www.dataiku.com/product/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Enterprise AI and analytics platform for data preparation, machine learning, generative AI, agents and governed production workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DataRobot",
+      "officialUrl": "https://www.datarobot.com/",
+      "evidenceUrls": [
+        "https://www.datarobot.com/",
+        "https://www.datarobot.com/platform/agentic-ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Enterprise AI platform for building, governing, deploying and operating predictive, generative and agentic AI applications.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Decagon",
+      "officialUrl": "https://decagon.ai/",
+      "evidenceUrls": [
+        "https://decagon.ai/",
+        "https://decagon.ai/product"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Enterprise AI customer-support platform for resolving service requests and orchestrating agentic workflows across support channels.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Decktopus",
+      "officialUrl": "https://www.decktopus.com/",
+      "evidenceUrls": [
+        "https://www.decktopus.com/",
+        "https://www.decktopus.com/about-us"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI presentation maker for generating, structuring and polishing decks from prompts and source material with automated layout assistance.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepEval",
+      "officialUrl": "https://deepeval.com/",
+      "evidenceUrls": [
+        "https://deepeval.com/",
+        "https://deepeval.com/changelog"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Open-source and managed evaluation framework for testing LLM applications and agents with repeatable metrics, datasets and observability workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Deepgram",
+      "officialUrl": "https://deepgram.com/",
+      "evidenceUrls": [
+        "https://deepgram.com/",
+        "https://developers.deepgram.com/docs/voice-agent"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Developer speech and voice AI platform providing transcription, text-to-speech and realtime voice-agent APIs.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepL",
+      "officialUrl": "https://www.deepl.com/en/translator",
+      "evidenceUrls": [
+        "https://www.deepl.com/en/translator"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "DeepL's active Language AI translator for text, documents and speech, backed by specialized language models and business translation workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepL Write",
+      "officialUrl": "https://www.deepl.com/en/write",
+      "evidenceUrls": [
+        "https://www.deepl.com/en/write",
+        "https://support.deepl.com/hc/en-us/articles/6318834492700-About-DeepL-Write"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI writing assistant for grammar correction, rephrasing and adapting style, tone and formality across supported languages and apps.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepScribe",
+      "officialUrl": "https://www.deepscribe.ai/",
+      "evidenceUrls": [
+        "https://www.deepscribe.ai/",
+        "https://www.deepscribe.ai/smart-prep"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Clinical ambient AI platform for documenting patient encounters, preparing chart context and supporting medical coding and workflow automation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepSeek",
+      "officialUrl": "https://www.deepseek.com/en/",
+      "evidenceUrls": [
+        "https://www.deepseek.com/en/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Active general-purpose AI assistant and model provider for reasoning, coding, search, multimodal use and developer API access.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Defog",
+      "officialUrl": "https://defog.ai/",
+      "evidenceUrls": [
+        "https://defog.ai/",
+        "https://docs.defog.ai/"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI data-query platform centered on text-to-SQL and agentic analytics for asking natural-language questions of structured business data.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Descript",
+      "officialUrl": "https://www.descript.com/",
+      "evidenceUrls": [
+        "https://www.descript.com/",
+        "https://www.descript.com/changelog"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI-assisted audio and video editor combining transcription, text-based editing, voice tools, generative features and publishing workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Designs.ai",
+      "officialUrl": "https://designs.ai/",
+      "evidenceUrls": [
+        "https://designs.ai/",
+        "https://designs.ai/about"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI creative suite for generating and editing design, image, video, logo and marketing assets through specialized creative agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Devin",
+      "officialUrl": "https://devin.ai/",
+      "evidenceUrls": [
+        "https://devin.ai/",
+        "https://devin.ai/blog/introducing-code-scans",
+        "https://docs.devin.ai/work-with-devin/interactive-planning"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Autonomous software-engineering agent for investigating codebases, planning changes, implementing code, testing results and running parallel engineering workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Devin Desktop",
       "officialUrl": "https://devin.ai/desktop",
       "evidenceUrls": [
@@ -1320,6 +1496,28 @@
       "decision": "accepted"
     },
     {
+      "name": "Dext",
+      "officialUrl": "https://dext.com/",
+      "evidenceUrls": [
+        "https://dext.com/",
+        "https://help.dext.com/en/s/article/using-ai-assist"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "Accounting automation platform using AI to extract financial documents, categorize transactions and assist bookkeeping and finance workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Diffbot",
+      "officialUrl": "https://www.diffbot.com/",
+      "evidenceUrls": [
+        "https://www.diffbot.com/",
+        "https://docs.diffbot.com/changelog"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI web-data platform for extracting structured information from pages and querying a large machine-built knowledge graph.",
+      "decision": "accepted"
+    },
+    {
       "name": "Dify",
       "officialUrl": "https://dify.ai/",
       "evidenceUrls": [
@@ -1327,6 +1525,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Visual platform for building agents, RAG apps and AI workflows with self-hosting options.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Digits",
+      "officialUrl": "https://digits.com/",
+      "evidenceUrls": [
+        "https://digits.com/",
+        "https://digits.com/blog"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "AI-native accounting platform for automated bookkeeping, financial reporting and agentic general-ledger workflows for businesses and accounting teams.",
       "decision": "accepted"
     },
     {
@@ -2143,6 +2352,31 @@
       "reason": "Removed because the standalone Common Sense Machines product is no longer reachable after its 2026 acquisition; the catalog should not point users to a discontinued standalone service."
     },
     {
+      "name": "Databricks Genie",
+      "officialUrl": "https://www.databricks.com/product/ai-bi/genie",
+      "evidenceUrls": [
+        "https://www.databricks.com/product/ai-bi/genie",
+        "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "The former Databricks Genie product URL now resolves to the current Genie Agents product, and Databricks documentation defines Genie Agents as the domain-specific conversational analytics member of the Genie family.",
+      "decision": "rejected",
+      "reason": "The former Databricks Genie product URL now resolves to the current Genie Agents product, and Databricks documentation defines Genie Agents as the domain-specific conversational analytics member of the Genie family.",
+      "supersededBy": "Databricks Genie Agents"
+    },
+    {
+      "name": "Devika",
+      "officialUrl": "https://github.com/stitionai/devika",
+      "evidenceUrls": [
+        "https://github.com/stitionai/devika",
+        "https://github.com/stitionai"
+      ],
+      "reviewedAt": "2026-09-18",
+      "userValue": "The official project describes Devika as an early experimental build with multiple unimplemented or broken features and points to a second iteration, Opcode, that is still announced as coming soon; under the catalog quality policy this is not currently strong enough to recommend as an active usable tool.",
+      "decision": "rejected",
+      "reason": "The official project describes Devika as an early experimental build with multiple unimplemented or broken features and points to a second iteration, Opcode, that is still announced as coming soon; under the catalog quality policy this is not currently strong enough to recommend as an active usable tool."
+    },
+    {
       "name": "Dora AI",
       "officialUrl": "https://www.dora.run/ai",
       "evidenceUrls": [
@@ -2239,11 +2473,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-18",
-  "lastQualityReviewBatch": "legacy-a-006",
+  "lastQualityReviewBatch": "legacy-a-007",
   "lastQualityReviewBatchSummary": {
-    "accepted": 18,
-    "updated": 1,
+    "accepted": 16,
+    "updated": 2,
     "superseded": 1,
-    "removed": 0
+    "removed": 1
   }
 }

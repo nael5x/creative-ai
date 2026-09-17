@@ -2160,10 +2160,6 @@
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Devika": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
     "Kiro": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
@@ -2320,10 +2316,6 @@
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Databricks Genie": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
     "Snowflake Cortex": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
@@ -2466,6 +2458,11 @@
       "firstTrackedAt": "2026-09-17T21:50:00Z",
       "event": "added",
       "supersedes": "ContentShake AI"
+    },
+    "Databricks Genie Agents": {
+      "firstTrackedAt": "2026-09-17T21:55:00Z",
+      "event": "added",
+      "supersedes": "Databricks Genie"
     }
   }
 }

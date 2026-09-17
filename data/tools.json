@@ -1101,7 +1101,7 @@
     "AI translation platform for text, documents and multilingual communication.",
     "For high-quality translation workflows across business and personal documents.",
     "Free tier / Paid",
-    "https://www.deepl.com/translator"
+    "https://www.deepl.com/en/translator"
   ],
   [
     "DeepL Write",
@@ -1109,7 +1109,7 @@
     "AI writing assistant for rewriting, tone and language improvement.",
     "For refining wording and style while keeping the original meaning of a draft.",
     "Free tier / Paid",
-    "https://www.deepl.com/write"
+    "https://www.deepl.com/en/write"
   ],
   [
     "Napkin AI",
@@ -4456,14 +4456,6 @@
     "https://telex.automattic.ai/"
   ],
   [
-    "Devika",
-    "Coding",
-    "Open-source agentic software engineering project for planning and implementing coding tasks.",
-    "For developers experimenting with autonomous coding-agent workflows locally.",
-    "Open source",
-    "https://github.com/stitionai/devika"
-  ],
-  [
     "Kiro",
     "Coding",
     "Agentic IDE and software-development environment from AWS focused on structured implementation workflows.",
@@ -4784,12 +4776,12 @@
     "https://www.sigmacomputing.com/product/ai"
   ],
   [
-    "Databricks Genie",
+    "Databricks Genie Agents",
     "Data & analytics",
-    "Conversational analytics experience in Databricks for asking natural-language questions of enterprise data.",
-    "For data teams enabling business users to explore governed lakehouse data conversationally.",
+    "Domain-specific natural-language data agents in Databricks for governed conversational analytics over curated enterprise data.",
+    "For data teams that want to configure trusted datasets, business semantics and instructions so users and applications can query enterprise data in natural language.",
     "Paid",
-    "https://www.databricks.com/product/ai-bi/genie"
+    "https://www.databricks.com/product/genie/agents"
   ],
   [
     "Snowflake Cortex",
