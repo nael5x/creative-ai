@@ -1,137 +1,129 @@
 {
-  "batchId": "legacy-a-007",
+  "batchId": "legacy-a-008",
   "reviewedAt": "2026-09-18",
   "accept": [
     {
-      "name": "Darktrace",
-      "officialUrl": "https://www.darktrace.com/",
-      "evidenceUrls": ["https://www.darktrace.com/", "https://www.darktrace.com/news/2026/969/darktrace-launches-behavioral-defense-platform"],
-      "userValue": "Enterprise cybersecurity platform using behavioral AI for detection, investigation and response across network, cloud, email and other security surfaces."
+      "name": "Docling",
+      "officialUrl": "https://docling-project.github.io/docling/",
+      "evidenceUrls": ["https://docling-project.github.io/docling/", "https://docling-project.github.io/docling/usage/api_server/"],
+      "userValue": "Open-source document-processing toolkit for parsing PDFs and many other formats into structured representations for RAG, agents, local workflows and APIs."
     },
     {
-      "name": "Dataiku",
-      "officialUrl": "https://www.dataiku.com/",
-      "evidenceUrls": ["https://www.dataiku.com/", "https://www.dataiku.com/product/"],
-      "userValue": "Enterprise AI and analytics platform for data preparation, machine learning, generative AI, agents and governed production workflows."
+      "name": "Documind",
+      "officialUrl": "https://documind.chat/",
+      "evidenceUrls": ["https://documind.chat/", "https://www.documind.chat/blog/ai-to-answer-questions"],
+      "userValue": "AI document workspace for ingesting private files, semantic search, grounded Q&A, summarization and extracting structured insights from internal knowledge."
     },
     {
-      "name": "DataRobot",
-      "officialUrl": "https://www.datarobot.com/",
-      "evidenceUrls": ["https://www.datarobot.com/", "https://www.datarobot.com/platform/agentic-ai/"],
-      "userValue": "Enterprise AI platform for building, governing, deploying and operating predictive, generative and agentic AI applications."
+      "name": "Docyt",
+      "officialUrl": "https://docyt.com/",
+      "evidenceUrls": ["https://www.docyt.com/", "https://www.docyt.com/accounting-firms/"],
+      "userValue": "AI-native accounting and ERP platform for automated bookkeeping, reconciliation, payments, spend controls, reporting and business intelligence."
     },
     {
-      "name": "Decagon",
-      "officialUrl": "https://decagon.ai/",
-      "evidenceUrls": ["https://decagon.ai/", "https://decagon.ai/product"],
-      "userValue": "Enterprise AI customer-support platform for resolving service requests and orchestrating agentic workflows across support channels."
+      "name": "Dreamina",
+      "officialUrl": "https://dreamina.capcut.com/",
+      "evidenceUrls": ["https://dreamina.capcut.com/", "https://dreamina.capcut.com/help", "https://dreamina.capcut.com/ai-video"],
+      "userValue": "CapCut's dedicated AI creation platform for text-to-image, image generation, text/image-to-video and multimodal creative workflows."
     },
     {
-      "name": "Decktopus",
-      "officialUrl": "https://www.decktopus.com/",
-      "evidenceUrls": ["https://www.decktopus.com/", "https://www.decktopus.com/about-us"],
-      "userValue": "AI presentation maker for generating, structuring and polishing decks from prompts and source material with automated layout assistance."
+      "name": "Dropzone AI",
+      "officialUrl": "https://www.dropzone.ai/",
+      "evidenceUrls": ["https://www.dropzone.ai/", "https://www.dropzone.ai/blog/announcing-the-agentic-soc"],
+      "userValue": "Agentic security-operations platform with AI SOC agents for alert investigation, threat hunting and threat-intelligence workflows across existing security stacks."
     },
     {
-      "name": "DeepEval",
-      "officialUrl": "https://deepeval.com/",
-      "evidenceUrls": ["https://deepeval.com/", "https://deepeval.com/changelog"],
-      "userValue": "Open-source and managed evaluation framework for testing LLM applications and agents with repeatable metrics, datasets and observability workflows."
+      "name": "DSPy",
+      "officialUrl": "https://dspy.ai/",
+      "evidenceUrls": ["https://dspy.ai/", "https://github.com/stanfordnlp/dspy"],
+      "userValue": "Open-source Stanford framework for building modular AI programs and agents with typed signatures, tools, evaluation and optimizers instead of hand-maintained prompts."
     },
     {
-      "name": "Deepgram",
-      "officialUrl": "https://deepgram.com/",
-      "evidenceUrls": ["https://deepgram.com/", "https://developers.deepgram.com/docs/voice-agent"],
-      "userValue": "Developer speech and voice AI platform providing transcription, text-to-speech and realtime voice-agent APIs."
+      "name": "Dubverse",
+      "officialUrl": "https://dubverse.ai/",
+      "evidenceUrls": ["https://dubverse.ai/", "https://dubverse.ai/blog/dubverse-joins-exotel/"],
+      "userValue": "AI dubbing, text-to-speech and subtitle platform for localizing video and audio across languages; its 2026 team acquisition explicitly preserves Dubverse as an independent product."
     },
     {
-      "name": "DeepScribe",
-      "officialUrl": "https://www.deepscribe.ai/",
-      "evidenceUrls": ["https://www.deepscribe.ai/", "https://www.deepscribe.ai/smart-prep"],
-      "userValue": "Clinical ambient AI platform for documenting patient encounters, preparing chart context and supporting medical coding and workflow automation."
+      "name": "Dust",
+      "officialUrl": "https://dust.tt/",
+      "evidenceUrls": ["https://dust.tt/", "https://dust.tt/blog/series-b-multiplayer-ai", "https://docs.dust.tt/changelog/introducing-sidekick-your-ai-assistant-for-building-better-agents"],
+      "userValue": "Enterprise AI-agent workspace for building shared agents grounded in company knowledge, tools and workflows across teams."
     },
     {
-      "name": "DeepSeek",
-      "officialUrl": "https://www.deepseek.com/en/",
-      "evidenceUrls": ["https://www.deepseek.com/en/"],
-      "userValue": "Active general-purpose AI assistant and model provider for reasoning, coding, search, multimodal use and developer API access."
+      "name": "Ecrett Music",
+      "officialUrl": "https://ecrettmusic.com/",
+      "evidenceUrls": ["https://ecrettmusic.com/"],
+      "userValue": "AI-driven music-composition service for content creators to generate and customize royalty-free background music by scene, mood and genre."
     },
     {
-      "name": "Defog",
-      "officialUrl": "https://defog.ai/",
-      "evidenceUrls": ["https://defog.ai/", "https://docs.defog.ai/"],
-      "userValue": "AI data-query platform centered on text-to-SQL and agentic analytics for asking natural-language questions of structured business data."
+      "name": "Eduaide.AI",
+      "officialUrl": "https://www.eduaide.ai/",
+      "evidenceUrls": ["https://www.eduaide.ai/"],
+      "userValue": "Teacher-focused AI toolkit for producing standards-aligned lessons, assessments, worksheets, activities and classroom materials grounded in teacher-provided sources."
     },
     {
-      "name": "Descript",
-      "officialUrl": "https://www.descript.com/",
-      "evidenceUrls": ["https://www.descript.com/", "https://www.descript.com/changelog"],
-      "userValue": "AI-assisted audio and video editor combining transcription, text-based editing, voice tools, generative features and publishing workflows."
+      "name": "eesel AI",
+      "officialUrl": "https://www.eesel.ai/",
+      "evidenceUrls": ["https://www.eesel.ai/", "https://www.eesel.ai/terms"],
+      "userValue": "AI teammate and support-agent platform trained on company knowledge to answer questions, handle tickets, create content and act across connected business apps."
     },
     {
-      "name": "Designs.ai",
-      "officialUrl": "https://designs.ai/",
-      "evidenceUrls": ["https://designs.ai/", "https://designs.ai/about"],
-      "userValue": "AI creative suite for generating and editing design, image, video, logo and marketing assets through specialized creative agents."
+      "name": "Eightfold AI",
+      "officialUrl": "https://eightfold.ai/",
+      "evidenceUrls": ["https://eightfold.ai/", "https://eightfold.ai/products/", "https://eightfold.ai/company/press/press-releases/eightfold-ai-grows-talent-agents-to-2-0/"],
+      "userValue": "AI-native talent-intelligence platform with agentic recruiting, interviewing, workforce and talent-management capabilities for enterprise HR teams."
     },
     {
-      "name": "Devin",
-      "officialUrl": "https://devin.ai/",
-      "evidenceUrls": ["https://devin.ai/", "https://devin.ai/blog/introducing-code-scans", "https://docs.devin.ai/work-with-devin/interactive-planning"],
-      "userValue": "Autonomous software-engineering agent for investigating codebases, planning changes, implementing code, testing results and running parallel engineering workflows."
+      "name": "Elai.io",
+      "officialUrl": "https://elai.io/",
+      "evidenceUrls": ["https://elai.io/", "https://elai.io/blog/"],
+      "userValue": "AI video platform for creating avatar-led training, education and multilingual business videos from text and source content."
     },
     {
-      "name": "Dext",
-      "officialUrl": "https://dext.com/",
-      "evidenceUrls": ["https://dext.com/", "https://help.dext.com/en/s/article/using-ai-assist"],
-      "userValue": "Accounting automation platform using AI to extract financial documents, categorize transactions and assist bookkeeping and finance workflows."
+      "name": "Elephas",
+      "officialUrl": "https://elephas.app/",
+      "evidenceUrls": ["https://elephas.app/", "https://elephas.app/support/settings/ai-provider-configuration/"],
+      "userValue": "Private AI productivity assistant for Mac with local, cloud and bring-your-own-key model modes for working with documents, writing and personal knowledge."
     },
     {
-      "name": "Diffbot",
-      "officialUrl": "https://www.diffbot.com/",
-      "evidenceUrls": ["https://www.diffbot.com/", "https://docs.diffbot.com/changelog"],
-      "userValue": "AI web-data platform for extracting structured information from pages and querying a large machine-built knowledge graph."
+      "name": "Elicit",
+      "officialUrl": "https://elicit.com/",
+      "evidenceUrls": ["https://elicit.com/", "https://elicit.com/blog/introducing-elicit-research-agent"],
+      "userValue": "Scientific research AI for paper discovery, evidence synthesis, systematic reviews and research agents with source-level citations and structured analysis."
     },
     {
-      "name": "Digits",
-      "officialUrl": "https://digits.com/",
-      "evidenceUrls": ["https://digits.com/", "https://digits.com/blog"],
-      "userValue": "AI-native accounting platform for automated bookkeeping, financial reporting and agentic general-ledger workflows for businesses and accounting teams."
+      "name": "EvenUp",
+      "officialUrl": "https://www.evenuplaw.com/",
+      "evidenceUrls": ["https://www.evenuplaw.com/", "https://www.evenuplaw.com/blog/introducing-pre-litigation-as-a-service-plaas/"],
+      "userValue": "Purpose-built legal AI platform for personal-injury firms covering claims intelligence, drafting, case preparation, document review and pre-litigation workflows."
+    },
+    {
+      "name": "Exa",
+      "officialUrl": "https://exa.ai/",
+      "evidenceUrls": ["https://exa.ai/", "https://exa.ai/docs/reference/search-api-guide"],
+      "userValue": "Search and web-content API built for AI applications, offering semantic, fast and deep search plus LLM-ready web extraction and structured outputs."
+    },
+    {
+      "name": "Explainpaper",
+      "officialUrl": "https://www.explainpaper.com/",
+      "evidenceUrls": ["https://www.explainpaper.com/"],
+      "userValue": "AI research-paper reader that explains highlighted technical text, answers grounded questions and generates structured insights from uploaded papers."
+    },
+    {
+      "name": "Factory",
+      "officialUrl": "https://www.factory.ai/",
+      "evidenceUrls": ["https://www.factory.ai/", "https://factory.ai/product/droids", "https://factory.ai/news/software-factory"],
+      "userValue": "Agent-native software-development platform whose Droids plan, edit, test and ship code across IDE, terminal, browser and team workflows."
+    },
+    {
+      "name": "fal",
+      "officialUrl": "https://fal.ai/",
+      "evidenceUrls": ["https://fal.ai/", "https://blog.fal.ai/"],
+      "userValue": "Production generative-media infrastructure for running and serving image, video, audio and other AI models through fast inference APIs and agent integrations."
     }
   ],
-  "update": [
-    {
-      "name": "DeepL",
-      "url": "https://www.deepl.com/en/translator",
-      "evidenceUrls": ["https://www.deepl.com/en/translator"],
-      "userValue": "DeepL's active Language AI translator for text, documents and speech, backed by specialized language models and business translation workflows."
-    },
-    {
-      "name": "DeepL Write",
-      "url": "https://www.deepl.com/en/write",
-      "evidenceUrls": ["https://www.deepl.com/en/write", "https://support.deepl.com/hc/en-us/articles/6318834492700-About-DeepL-Write"],
-      "userValue": "AI writing assistant for grammar correction, rephrasing and adapting style, tone and formality across supported languages and apps."
-    }
-  ],
-  "supersede": [
-    {
-      "name": "Databricks Genie",
-      "newName": "Databricks Genie Agents",
-      "url": "https://www.databricks.com/product/genie/agents",
-      "description": "Domain-specific natural-language data agents in Databricks for governed conversational analytics over curated enterprise data.",
-      "useCase": "For data teams that want to configure trusted datasets, business semantics and instructions so users and applications can query enterprise data in natural language.",
-      "firstTrackedAt": "2026-09-17T21:55:00Z",
-      "oldEvidenceUrls": ["https://www.databricks.com/product/ai-bi/genie", "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026"],
-      "newEvidenceUrls": ["https://www.databricks.com/product/genie/agents", "https://docs.databricks.com/aws/en/genie-agents/"],
-      "reason": "The former Databricks Genie product URL now resolves to the current Genie Agents product, and Databricks documentation defines Genie Agents as the domain-specific conversational analytics member of the Genie family.",
-      "userValue": "Databricks' governed natural-language analytics agents for querying curated enterprise data, generating SQL and visualizations, and embedding data-question workflows in applications."
-    }
-  ],
-  "remove": [
-    {
-      "name": "Devika",
-      "evidenceUrls": ["https://github.com/stitionai/devika", "https://github.com/stitionai"],
-      "reason": "The official project describes Devika as an early experimental build with multiple unimplemented or broken features and points to a second iteration, Opcode, that is still announced as coming soon; under the catalog quality policy this is not currently strong enough to recommend as an active usable tool."
-    }
-  ]
+  "update": [],
+  "supersede": [],
+  "remove": []
 }
