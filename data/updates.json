@@ -1000,6 +1000,16 @@
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tai-chi-reset",
+      "title": "Tai Chi Reset",
+      "url": "https://taichi.silentdirectivellc.com/?utm_source=creative-ai&utm_medium=resource-directory",
+      "publishedAt": "",
+      "source": "",
+      "kind": "",
+      "purpose": "",
+      "why": ""
     }
   ],
   "sources": [
