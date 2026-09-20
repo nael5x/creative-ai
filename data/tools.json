@@ -1666,24 +1666,24 @@
   [
     "Reclaim AI",
     "Productivity",
-    "AI calendar assistant for automatically scheduling tasks, habits and focus time.",
-    "For busy calendars that need flexible time blocking around meetings and priorities.",
+    "AI calendar and scheduling platform with background agents, calendar optimization and MCP integrations.",
+    "For busy individuals and teams that want priorities, habits, focus time and meetings automatically coordinated across connected calendars and work tools.",
     "Free tier / Paid",
     "https://reclaim.ai/"
   ],
   [
-    "Superhuman",
+    "Superhuman Mail",
     "Productivity",
-    "AI-assisted email client focused on fast inbox workflows, drafting and summaries.",
-    "For high-volume email users who want speed-focused inbox management.",
+    "AI-native email application for Gmail and Outlook with inbox automation, drafting, collaboration, workflows and MCP access.",
+    "For high-volume email users and teams that want fast inbox workflows plus AI agents that can triage, draft, follow up and connect email to external assistants.",
     "Paid",
-    "https://superhuman.com/"
+    "https://superhuman.com/mail"
   ],
   [
     "Shortwave",
     "Productivity",
-    "AI email workspace with search, summaries, writing help and inbox organization.",
-    "For Gmail users who want conversational search and AI-assisted email workflows.",
+    "AI email workspace for search, summaries, drafting, inbox organization and automation.",
+    "For Gmail users and teams that want an AI assistant to search, summarize, draft and organize email while connecting inbox work to broader automations.",
     "Free tier / Paid",
     "https://www.shortwave.com/"
   ],
@@ -1729,9 +1729,9 @@
   ],
   [
     "Zendesk AI",
-    "Customer support",
-    "AI features for customer service including agents, routing, summaries and support automation.",
-    "For organizations already using Zendesk that want AI embedded in service operations.",
+    "Customer service AI",
+    "Agentic customer-service platform with specialized AI agents, agent builder, copilots and omnichannel resolution workflows.",
+    "For organizations using Zendesk that want AI agents to resolve customer and employee service work across connected systems.",
     "Paid",
     "https://www.zendesk.com/ai/"
   ],
@@ -1762,24 +1762,24 @@
   [
     "Sierra",
     "Customer support",
-    "AI agent platform for customer experience and brand-specific service workflows.",
-    "For businesses deploying conversational agents that can answer questions and take actions.",
+    "Enterprise AI-agent platform for customer experience and brand-specific service workflows.",
+    "For large organizations deploying customer-facing agents that need to reason over company knowledge and take actions across business systems.",
     "Paid",
     "https://sierra.ai/"
   ],
   [
     "PolyAI",
-    "Customer support",
-    "Conversational AI platform focused on enterprise voice assistants and customer calls.",
-    "For organizations automating phone-based customer service while supporting natural conversations.",
+    "Conversational AI",
+    "Agentic Dialog Platform for building, running and governing enterprise voice and customer-conversation agents.",
+    "For enterprises automating complex customer conversations across voice and other channels with dialog-native agents and governance.",
     "Paid",
     "https://poly.ai/"
   ],
   [
     "Parloa",
-    "Customer support",
-    "AI agent platform for automating contact-center conversations, especially voice support.",
-    "For enterprises modernizing customer-service calls with conversational AI agents.",
+    "Conversational AI",
+    "Enterprise AI Agent Management Platform for building, monitoring and improving customer-experience agents.",
+    "For enterprises deploying conversational AI agents that need production observability, evaluation, governance and continuous optimization.",
     "Paid",
     "https://www.parloa.com/"
   ],
@@ -1801,25 +1801,25 @@
   ],
   [
     "Voiceflow",
-    "Customer support",
-    "Collaborative platform for designing, testing and deploying conversational AI agents.",
-    "For product and support teams building structured chat and voice experiences.",
+    "Conversational AI",
+    "Enterprise framework for designing, deploying and managing agentic customer experiences across chat and voice.",
+    "For product and CX teams that want collaborative control over customer-facing agents from development through production measurement.",
     "Free tier / Paid",
     "https://www.voiceflow.com/"
   ],
   [
     "Landbot",
-    "Customer support",
-    "No-code conversational platform for chatbots, lead flows and automated messaging experiences.",
-    "For teams building guided customer conversations without a full custom application.",
+    "Conversational AI",
+    "No-code conversational platform for website and WhatsApp chatbots, AI agents and lead-generation workflows.",
+    "For marketing, sales and support teams building guided or AI-driven customer conversations without a custom application.",
     "Free tier / Paid",
     "https://landbot.io/"
   ],
   [
     "Gorgias AI",
     "Customer support",
-    "AI customer-support capabilities inside Gorgias for ecommerce service automation.",
-    "For online stores that want automated support tied to commerce workflows.",
+    "Ecommerce AI Agent for support, shopping assistance and actions across connected commerce tools.",
+    "For ecommerce brands that want one agent to answer questions, sell products and resolve order-related work using live store data.",
     "Paid",
     "https://www.gorgias.com/ai"
   ],
@@ -1834,16 +1834,16 @@
   [
     "Maven AGI",
     "Customer support",
-    "AI customer-support agent platform for resolving questions and assisting service teams.",
-    "For companies building automated customer-service experiences connected to business knowledge.",
+    "Enterprise AI-agent platform for autonomous customer support across chat, email, voice and web.",
+    "For organizations that want a single governed reasoning layer to resolve customer-service issues across multiple channels.",
     "Paid",
     "https://www.mavenagi.com/"
   ],
   [
     "Gong",
-    "Sales",
-    "Revenue intelligence platform using AI to analyze customer conversations, deals and sales activity.",
-    "For revenue teams that want coaching, pipeline context and searchable conversation intelligence.",
+    "Revenue AI",
+    "Revenue AI operating system with agents, conversation intelligence, enablement and governed GTM execution.",
+    "For revenue teams that want customer-conversation context, pipeline intelligence and AI agents connected to sales execution.",
     "Paid",
     "https://www.gong.io/"
   ],
@@ -1858,16 +1858,16 @@
   [
     "Lavender",
     "Sales",
-    "AI email coach for sales outreach, message improvement and personalization.",
-    "For sales reps who want feedback while writing outbound emails.",
+    "AI sales-email coach for message scoring, personalization and real-time outbound writing feedback.",
+    "For sales reps and teams that want evidence-based feedback while drafting prospecting emails.",
     "Free tier / Paid",
     "https://www.lavender.ai/"
   ],
   [
     "Regie.ai",
     "Sales",
-    "AI sales prospecting and engagement platform for research, messaging and outbound workflows.",
-    "For sales teams automating parts of prospect research and outreach execution.",
+    "AI-native prospecting and sales-engagement platform for human and agent-assisted outbound execution.",
+    "For sales teams that want AI agents to handle prospect research and repetitive outreach work while reps retain control of high-value interactions.",
     "Paid",
     "https://www.regie.ai/"
   ],
@@ -1905,9 +1905,9 @@
   ],
   [
     "Surfer",
-    "Marketing",
-    "SEO content platform with AI-assisted research, optimization and content workflows.",
-    "For content teams that want search-focused guidance while drafting and updating pages.",
+    "SEO & AI visibility",
+    "AI visibility platform for SEO, GEO, content optimization, AI-search tracking and agent workflows.",
+    "For content and growth teams optimizing pages both for search rankings and citation visibility inside AI answer engines.",
     "Paid",
     "https://surferseo.com/"
   ],
@@ -1929,9 +1929,9 @@
   ],
   [
     "MarketMuse",
-    "Marketing",
-    "AI content strategy and optimization platform for planning topical coverage and improving articles.",
-    "For content organizations working on large SEO libraries and editorial planning.",
+    "SEO & content strategy",
+    "AI content-strategy platform for topic authority, competitive analysis, planning, briefs and optimization.",
+    "For content organizations managing large libraries that need prioritized topic plans and differentiated search-focused briefs.",
     "Paid",
     "https://www.marketmuse.com/"
   ],
@@ -1946,8 +1946,8 @@
   [
     "Predis.ai",
     "Marketing",
-    "AI social-media content platform for generating posts, creatives, captions and short videos.",
-    "For small teams that need faster social content production and scheduling.",
+    "AI social-media platform for generating, scheduling and auto-publishing posts, reels, carousels and captions.",
+    "For brands and small teams that want one workflow from social-content ideation and generation through scheduling and publication.",
     "Free tier / Paid",
     "https://predis.ai/"
   ],
@@ -1985,17 +1985,17 @@
   ],
   [
     "Julius AI",
-    "Data & analytics",
-    "Conversational data-analysis workspace for files, spreadsheets, charts and statistical exploration.",
-    "For users who want to analyze datasets by asking questions in natural language.",
+    "Data & knowledge work",
+    "AI workspace for code-backed data analysis, research, reports, presentations, websites and connected data sources.",
+    "For business and research users who want to analyze data in natural language and turn findings directly into reports, decks, dashboards or web outputs.",
     "Free tier / Paid",
     "https://julius.ai/"
   ],
   [
     "Rows AI",
     "Data & analytics",
-    "AI features inside the Rows spreadsheet for formulas, enrichment, analysis and data tasks.",
-    "For spreadsheet users who want AI assistance alongside structured tabular work.",
+    "AI spreadsheet analyst for natural-language analysis, spreadsheet building and tabular data workflows.",
+    "For spreadsheet users who want conversational help analyzing data and building structured work directly inside a collaborative sheet.",
     "Free tier / Paid",
     "https://rows.com/ai"
   ],

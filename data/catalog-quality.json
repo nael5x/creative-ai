@@ -2102,6 +2102,29 @@
       "decision": "accepted"
     },
     {
+      "name": "Gong",
+      "officialUrl": "https://www.gong.io/",
+      "evidenceUrls": [
+        "https://www.gong.io/blog/mission-big-dipper-revenue-ai-os",
+        "https://www.gong.io/blog/ai-agents-for-gtm-decision-making-and-execution-how-and-when-to-use-gong-assistant-ai-theme-spotter-and-ai-builder"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Current Revenue AI OS combining revenue context, specialized and custom agents, conversation intelligence, enablement and governed execution across GTM workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gorgias AI",
+      "officialUrl": "https://www.gorgias.com/ai",
+      "evidenceUrls": [
+        "https://www.gorgias.com/ai-agent",
+        "https://docs.gorgias.com/en-US/ai-agent-explained-497772",
+        "https://docs.gorgias.com/en-US/articles/ai-agent-and-automations-135134"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Ecommerce-specific AI Agent for sales and support that uses store context and integrations to answer questions, recommend products and execute post-purchase actions.",
+      "decision": "accepted"
+    },
+    {
       "name": "GPT4All",
       "officialUrl": "https://www.nomic.ai/gpt4all",
       "evidenceUrls": [
@@ -2388,6 +2411,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Julius AI",
+      "officialUrl": "https://julius.ai/",
+      "evidenceUrls": [
+        "https://julius.ai/product",
+        "https://julius.ai/product/chat-with-your-data",
+        "https://julius.ai/product/data-connectors"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Julius has expanded from conversational data analysis into a broader AI work environment for code-backed analytics, research, reports, presentations, websites and connected business data.",
+      "decision": "accepted"
+    },
+    {
       "name": "Kagi Assistant",
       "officialUrl": "https://kagi.com/assistant",
       "evidenceUrls": [
@@ -2451,6 +2486,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Landbot",
+      "officialUrl": "https://landbot.io/",
+      "evidenceUrls": [
+        "https://landbot.io/blog",
+        "https://landbot.io/blog/how-to-build-ai-agent"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active no-code conversational and lead-generation platform for website and WhatsApp experiences, including AI-agent blocks, knowledge and workflow automation.",
+      "decision": "accepted"
+    },
+    {
       "name": "LangChain",
       "officialUrl": "https://www.langchain.com/",
       "evidenceUrls": [
@@ -2492,6 +2538,16 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Active multilingual AI editing assistant for grammar, spelling, punctuation, style, tone and paraphrasing across more than 30 languages.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lavender",
+      "officialUrl": "https://www.lavender.ai/",
+      "evidenceUrls": [
+        "https://lavender.ai/coach"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI sales-email coach that scores outbound messages, suggests improvements and personalization, and gives real-time coaching inside rep workflows.",
       "decision": "accepted"
     },
     {
@@ -2677,6 +2733,29 @@
       "userValue": "Clio Manage's native AI layer for completing legal-practice work using matter and firm context, including deadlines, drafting, summaries and workflow automation.",
       "decision": "accepted",
       "supersedes": "Clio Duo"
+    },
+    {
+      "name": "MarketMuse",
+      "officialUrl": "https://www.marketmuse.com/",
+      "evidenceUrls": [
+        "https://www.marketmuse.com/content-strategy-ai/",
+        "https://help.marketmuse.com/support/solutions/articles/80001167720-how-to-read-a-marketmuse-content-plan"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "AI-assisted content strategy and optimization platform for topic authority, competitive analysis, content planning, briefs and large-library editorial decisions.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Maven AGI",
+      "officialUrl": "https://www.mavenagi.com/",
+      "evidenceUrls": [
+        "https://www.mavenagi.com/product/agent-platform",
+        "https://www.mavenagi.com/solutions/customer-support",
+        "https://www.mavenagi.com/explore/state-of-ai-in-cx-2026"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Enterprise AI-agent platform for autonomous customer support across chat, email, voice and web with shared reasoning, governance and enterprise knowledge.",
+      "decision": "accepted"
     },
     {
       "name": "MeetGeek",
@@ -2964,6 +3043,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Parloa",
+      "officialUrl": "https://www.parloa.com/",
+      "evidenceUrls": [
+        "https://www.parloa.com/parloa-in-the-press/parloa-navigator-and-parloa-lens-launch-to-connect-building-reliable-ai-agents-and-trusting-them-at-scale/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Enterprise AI Agent Management Platform for building, operating, monitoring and improving customer-experience agents at scale.",
+      "decision": "accepted"
+    },
+    {
       "name": "Pebblely",
       "officialUrl": "https://pebblely.com/",
       "evidenceUrls": [
@@ -3060,6 +3149,30 @@
       "decision": "accepted"
     },
     {
+      "name": "PolyAI",
+      "officialUrl": "https://poly.ai/",
+      "evidenceUrls": [
+        "https://poly.ai/",
+        "https://poly.ai/blog/agentic-dialog-platform-open-to-builders",
+        "https://poly.ai/blog/wren-agent-improves-dialog-agents"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active Agentic Dialog Platform for building, operating, governing and continuously improving enterprise-grade voice and multimodal customer agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Predis.ai",
+      "officialUrl": "https://predis.ai/",
+      "evidenceUrls": [
+        "https://predis.ai/ai-for-social-media/",
+        "https://predis.ai/features/social-media-scheduler/",
+        "https://predis.ai/auto-post/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "AI social-media production and scheduling platform that generates brand-aligned posts, reels, carousels, captions and can publish them automatically across major channels.",
+      "decision": "accepted"
+    },
+    {
       "name": "Prisma AIRS",
       "officialUrl": "https://www.paloaltonetworks.com/prisma/prisma-ai-runtime-security/ai-runtime-security",
       "evidenceUrls": [
@@ -3146,6 +3259,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Reclaim AI",
+      "officialUrl": "https://reclaim.ai/",
+      "evidenceUrls": [
+        "https://help.reclaim.ai/en/articles/14846468-reclaim-ai-2-0-overview",
+        "https://help.reclaim.ai/en/articles/15265289-reclaim-2-0-claude-integration"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI calendar and scheduling platform with background scheduling agents, previewable calendar optimization, MCP access and integrations with common work tools.",
+      "decision": "accepted"
+    },
+    {
       "name": "Recraft",
       "officialUrl": "https://www.recraft.ai/",
       "evidenceUrls": [
@@ -3164,6 +3288,18 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active clinical AI diagnosis and documentation platform on Regard's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Regie.ai",
+      "officialUrl": "https://www.regie.ai/",
+      "evidenceUrls": [
+        "https://regie.ai/blog",
+        "https://regie.ai/blog/introducing-regie-one",
+        "https://regie.ai/blog/introducing-the-force-multiplier-rep-a-new-operating-model-for-modern-sales"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "AI-native prospecting and sales-engagement platform where human sellers and AI agents share research, prioritization, messaging and outbound execution.",
       "decision": "accepted"
     },
     {
@@ -3247,6 +3383,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active legal AI platform for drafting, reviewing and analyzing contracts and legal data.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Rows AI",
+      "officialUrl": "https://rows.com/ai",
+      "evidenceUrls": [
+        "https://rows.com/docs/using-the-rows-ai-analyst"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "AI Analyst embedded in the Rows spreadsheet for natural-language analysis, spreadsheet building and iterative data work with recoverable checkpoints.",
       "decision": "accepted"
     },
     {
@@ -3352,6 +3498,26 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Agentic security analyst inside SentinelOne for investigating threats and assisting SOC response.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Shortwave",
+      "officialUrl": "https://www.shortwave.com/",
+      "evidenceUrls": [
+        "https://www.shortwave.com/blog/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively maintained AI email workspace for Gmail with conversational search, summaries, drafting, inbox organization and native automation integrations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Sierra",
+      "officialUrl": "https://sierra.ai/",
+      "evidenceUrls": [
+        "https://sierra.ai/blog/better-customer-experiences-built-on-sierra"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active enterprise AI-agent platform for customer experience, enabling brand-specific agents to resolve requests and execute business actions across complex workflows.",
       "decision": "accepted"
     },
     {
@@ -3496,6 +3662,19 @@
       "decision": "accepted"
     },
     {
+      "name": "Superhuman Mail",
+      "officialUrl": "https://superhuman.com/mail",
+      "evidenceUrls": [
+        "https://superhuman.com/mail",
+        "https://help.superhuman.com/hc/en-us/articles/46005755069197-Superhuman-Suite",
+        "https://help.superhuman.com/hc/en-us/articles/47980509830157-Set-Up-the-Superhuman-Mail-MCP"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Superhuman Mail is the current identity of the AI-native email product, with automation, drafting, team collaboration and external AI/MCP workflows.",
+      "decision": "accepted",
+      "supersedes": "Superhuman"
+    },
+    {
       "name": "Supernormal",
       "officialUrl": "https://www.supernormal.com/",
       "evidenceUrls": [
@@ -3504,6 +3683,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Supernormal's current product has expanded from meeting notes into an AI-agent workspace for agencies that turns client conversations into presentations, documents, visuals and other deliverables.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Surfer",
+      "officialUrl": "https://surferseo.com/",
+      "evidenceUrls": [
+        "https://surferseo.com/blog/release-notes/",
+        "https://surferseo.com/blog/whats-new-at-surfer-august-2026-product-roundup/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Current AI visibility platform spanning SEO and generative-engine optimization with content scoring, AI-search tracking, recommendations, agent workflows and MCP access.",
       "decision": "accepted"
     },
     {
@@ -3734,6 +3924,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Voiceflow",
+      "officialUrl": "https://www.voiceflow.com/",
+      "evidenceUrls": [
+        "https://www.voiceflow.com/stories/everything-we-launched-v4"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed enterprise AI customer-experience framework for designing, testing, deploying and iterating agentic chat and voice experiences.",
+      "decision": "accepted"
+    },
+    {
       "name": "Warp",
       "officialUrl": "https://www.warp.dev/",
       "evidenceUrls": [
@@ -3868,6 +4068,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Zed's actively developed open-source agentic coding environment with parallel agents, third-party agent support and native high-performance editing.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Zendesk AI",
+      "officialUrl": "https://www.zendesk.com/ai/",
+      "evidenceUrls": [
+        "https://support.zendesk.com/hc/en-us/articles/10487730059034-Announcing-expanded-access-to-AI-agent-capabilities-for-all-Zendesk-customers",
+        "https://www.zendesk.com/newsroom/press-releases/zendesk-introduces-specialized-ai-agents-purpose-built-for-your-business/",
+        "https://www.zendesk.com/newsroom/press-releases/relate-2026/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Zendesk's current agentic service layer with specialized AI agents, agent builder, omnichannel automation, copilots and governed resolution workflows.",
       "decision": "accepted"
     },
     {
@@ -4157,6 +4369,18 @@
       "reason": "OpenAI discontinued the Sora web and app experiences on April 26, 2026 and announced that the Sora API will be discontinued on September 24, 2026, so Sora no longer meets the active-product quality gate."
     },
     {
+      "name": "Superhuman",
+      "officialUrl": "https://superhuman.com/",
+      "evidenceUrls": [
+        "https://help.superhuman.com/hc/en-us/articles/46005755069197-Superhuman-Suite"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "The former Superhuman email app is now officially named Superhuman Mail after Grammarly's parent company adopted the Superhuman corporate name. Keeping the generic Superhuman product name would confuse the email product with the broader Superhuman suite.",
+      "decision": "rejected",
+      "reason": "The former Superhuman email app is now officially named Superhuman Mail after Grammarly's parent company adopted the Superhuman corporate name. Keeping the generic Superhuman product name would confuse the email product with the broader Superhuman suite.",
+      "supersededBy": "Superhuman Mail"
+    },
+    {
       "name": "Topaz Video AI",
       "officialUrl": "https://www.topazlabs.com/topaz-video-ai",
       "evidenceUrls": [
@@ -4184,8 +4408,8 @@
     "removed": 3,
     "updated": 28
   },
-  "lastQualityReviewBatchAt": "2026-09-20",
-  "lastQualityReviewBatch": "legacy-a-016",
+  "lastQualityReviewBatchAt": "2026-09-21",
+  "lastQualityReviewBatch": "legacy-a-017",
   "lastQualityReviewBatchSummary": {
     "accepted": 18,
     "updated": 0,

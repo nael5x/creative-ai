@@ -812,10 +812,6 @@
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "Superhuman": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
     "Shortwave": {
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
@@ -2450,6 +2446,11 @@
       "firstTrackedAt": "2026-09-20T21:15:00Z",
       "event": "added",
       "supersedes": "Topaz Video AI"
+    },
+    "Superhuman Mail": {
+      "firstTrackedAt": "2026-09-21T00:00:00Z",
+      "event": "added",
+      "supersedes": "Superhuman"
     }
   }
 }
