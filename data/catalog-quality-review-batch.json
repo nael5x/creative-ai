@@ -1,129 +1,190 @@
 {
-  "batchId": "legacy-a-008",
-  "reviewedAt": "2026-09-18",
+  "batchId": "legacy-a-009",
+  "reviewedAt": "2026-09-20",
   "accept": [
     {
-      "name": "Docling",
-      "officialUrl": "https://docling-project.github.io/docling/",
-      "evidenceUrls": ["https://docling-project.github.io/docling/", "https://docling-project.github.io/docling/usage/api_server/"],
-      "userValue": "Open-source document-processing toolkit for parsing PDFs and many other formats into structured representations for RAG, agents, local workflows and APIs."
+      "name": "FeedHive",
+      "officialUrl": "https://www.feedhive.com/",
+      "evidenceUrls": [
+        "https://www.feedhive.com/",
+        "https://www.feedhive.com/features/ai"
+      ],
+      "userValue": "AI-assisted social media workspace for on-brand post generation, publishing automation, scheduling, collaboration and content reuse."
     },
     {
-      "name": "Documind",
-      "officialUrl": "https://documind.chat/",
-      "evidenceUrls": ["https://documind.chat/", "https://www.documind.chat/blog/ai-to-answer-questions"],
-      "userValue": "AI document workspace for ingesting private files, semantic search, grounded Q&A, summarization and extracting structured insights from internal knowledge."
+      "name": "Felo",
+      "officialUrl": "https://felo.ai/",
+      "evidenceUrls": [
+        "https://felo.ai/",
+        "https://felo.ai/tools/research"
+      ],
+      "userValue": "Multilingual AI research platform that searches web and academic sources, synthesizes findings and produces cited reports, presentations and mind maps."
     },
     {
-      "name": "Docyt",
-      "officialUrl": "https://docyt.com/",
-      "evidenceUrls": ["https://www.docyt.com/", "https://www.docyt.com/accounting-firms/"],
-      "userValue": "AI-native accounting and ERP platform for automated bookkeeping, reconciliation, payments, spend controls, reporting and business intelligence."
+      "name": "Filmora AI",
+      "officialUrl": "https://filmora.wondershare.com/ai-features.html",
+      "evidenceUrls": [
+        "https://filmora.wondershare.com/ai-features.html"
+      ],
+      "userValue": "Wondershare Filmora's built-in AI video, audio and editing feature set for creators who want accessible assisted production inside a full editor."
     },
     {
-      "name": "Dreamina",
-      "officialUrl": "https://dreamina.capcut.com/",
-      "evidenceUrls": ["https://dreamina.capcut.com/", "https://dreamina.capcut.com/help", "https://dreamina.capcut.com/ai-video"],
-      "userValue": "CapCut's dedicated AI creation platform for text-to-image, image generation, text/image-to-video and multimodal creative workflows."
+      "name": "Findem",
+      "officialUrl": "https://www.findem.ai/",
+      "evidenceUrls": [
+        "https://www.findem.ai/"
+      ],
+      "userValue": "AI recruiting and talent-intelligence platform for candidate discovery, sourcing, talent data enrichment and workforce planning."
     },
     {
-      "name": "Dropzone AI",
-      "officialUrl": "https://www.dropzone.ai/",
-      "evidenceUrls": ["https://www.dropzone.ai/", "https://www.dropzone.ai/blog/announcing-the-agentic-soc"],
-      "userValue": "Agentic security-operations platform with AI SOC agents for alert investigation, threat hunting and threat-intelligence workflows across existing security stacks."
+      "name": "Firecrawl",
+      "officialUrl": "https://www.firecrawl.dev/",
+      "evidenceUrls": [
+        "https://www.firecrawl.dev/",
+        "https://docs.firecrawl.dev/"
+      ],
+      "userValue": "Developer-focused web crawling and extraction platform that converts websites into structured, LLM-ready data for agents, search and RAG workflows."
     },
     {
-      "name": "DSPy",
-      "officialUrl": "https://dspy.ai/",
-      "evidenceUrls": ["https://dspy.ai/", "https://github.com/stanfordnlp/dspy"],
-      "userValue": "Open-source Stanford framework for building modular AI programs and agents with typed signatures, tools, evaluation and optimizers instead of hand-maintained prompts."
+      "name": "Fireflies.ai",
+      "officialUrl": "https://fireflies.ai/",
+      "evidenceUrls": [
+        "https://fireflies.ai/"
+      ],
+      "userValue": "AI meeting assistant for recording, transcription, summaries, searchable conversation intelligence and automated follow-up workflows."
     },
     {
-      "name": "Dubverse",
-      "officialUrl": "https://dubverse.ai/",
-      "evidenceUrls": ["https://dubverse.ai/", "https://dubverse.ai/blog/dubverse-joins-exotel/"],
-      "userValue": "AI dubbing, text-to-speech and subtitle platform for localizing video and audio across languages; its 2026 team acquisition explicitly preserves Dubverse as an independent product."
+      "name": "Fireworks AI",
+      "officialUrl": "https://fireworks.ai/",
+      "evidenceUrls": [
+        "https://fireworks.ai/",
+        "https://docs.fireworks.ai/"
+      ],
+      "userValue": "Production AI infrastructure for fast hosted inference, model deployment and training across open and custom generative models."
     },
     {
-      "name": "Dust",
-      "officialUrl": "https://dust.tt/",
-      "evidenceUrls": ["https://dust.tt/", "https://dust.tt/blog/series-b-multiplayer-ai", "https://docs.dust.tt/changelog/introducing-sidekick-your-ai-assistant-for-building-better-agents"],
-      "userValue": "Enterprise AI-agent workspace for building shared agents grounded in company knowledge, tools and workflows across teams."
+      "name": "Flair AI",
+      "officialUrl": "https://flair.ai/",
+      "evidenceUrls": [
+        "https://flair.ai/"
+      ],
+      "userValue": "AI visual-production platform for product photography, branded scenes, fashion imagery, reusable templates and ecommerce creative workflows."
     },
     {
-      "name": "Ecrett Music",
-      "officialUrl": "https://ecrettmusic.com/",
-      "evidenceUrls": ["https://ecrettmusic.com/"],
-      "userValue": "AI-driven music-composition service for content creators to generate and customize royalty-free background music by scene, mood and genre."
+      "name": "FlexClip AI",
+      "officialUrl": "https://www.flexclip.com/tools/ai-video-generator/",
+      "evidenceUrls": [
+        "https://www.flexclip.com/tools/ai-video-generator/",
+        "https://help.flexclip.com/en/articles/10341793-ai-video-generator-text-to-video"
+      ],
+      "userValue": "Browser-based AI video workflow combining generation and editing for text-to-video, image-to-video, avatars, scripting and social or marketing content."
     },
     {
-      "name": "Eduaide.AI",
-      "officialUrl": "https://www.eduaide.ai/",
-      "evidenceUrls": ["https://www.eduaide.ai/"],
-      "userValue": "Teacher-focused AI toolkit for producing standards-aligned lessons, assessments, worksheets, activities and classroom materials grounded in teacher-provided sources."
+      "name": "Flick",
+      "officialUrl": "https://www.flick.social/",
+      "evidenceUrls": [
+        "https://www.flick.social/"
+      ],
+      "userValue": "Social-media planning and marketing platform with AI-assisted ideation, writing and repeatable content workflows for creators and small teams."
     },
     {
-      "name": "eesel AI",
-      "officialUrl": "https://www.eesel.ai/",
-      "evidenceUrls": ["https://www.eesel.ai/", "https://www.eesel.ai/terms"],
-      "userValue": "AI teammate and support-agent platform trained on company knowledge to answer questions, handle tickets, create content and act across connected business apps."
+      "name": "Fliki",
+      "officialUrl": "https://fliki.ai/",
+      "evidenceUrls": [
+        "https://fliki.ai/",
+        "https://fliki.ai/text-to-video"
+      ],
+      "userValue": "AI text-to-video platform for turning scripts, articles and presentations into narrated videos with synthetic voices and generated or stock visuals."
     },
     {
-      "name": "Eightfold AI",
-      "officialUrl": "https://eightfold.ai/",
-      "evidenceUrls": ["https://eightfold.ai/", "https://eightfold.ai/products/", "https://eightfold.ai/company/press/press-releases/eightfold-ai-grows-talent-agents-to-2-0/"],
-      "userValue": "AI-native talent-intelligence platform with agentic recruiting, interviewing, workforce and talent-management capabilities for enterprise HR teams."
+      "name": "Fooocus",
+      "officialUrl": "https://github.com/lllyasviel/Fooocus",
+      "evidenceUrls": [
+        "https://github.com/lllyasviel/Fooocus"
+      ],
+      "userValue": "Free offline SDXL image-generation interface that remains useful for simplified local prompting, while the official project is now limited to bug-fix LTS rather than new-model development.",
+      "description": "Open-source SDXL image-generation interface in limited long-term support, focused on simplified local prompting and bug fixes.",
+      "useCase": "For local users who specifically want a stable, simplified SDXL workflow and understand that new model architectures are not currently planned."
     },
     {
-      "name": "Elai.io",
-      "officialUrl": "https://elai.io/",
-      "evidenceUrls": ["https://elai.io/", "https://elai.io/blog/"],
-      "userValue": "AI video platform for creating avatar-led training, education and multilingual business videos from text and source content."
+      "name": "Forethought",
+      "officialUrl": "https://forethought.ai/",
+      "evidenceUrls": [
+        "https://forethought.ai/"
+      ],
+      "userValue": "AI customer-support platform with agentic self-service, ticket classification, service insights and assistance across support channels."
     },
     {
-      "name": "Elephas",
-      "officialUrl": "https://elephas.app/",
-      "evidenceUrls": ["https://elephas.app/", "https://elephas.app/support/settings/ai-provider-configuration/"],
-      "userValue": "Private AI productivity assistant for Mac with local, cloud and bring-your-own-key model modes for working with documents, writing and personal knowledge."
+      "name": "Framer AI",
+      "officialUrl": "https://www.framer.com/ai/",
+      "evidenceUrls": [
+        "https://www.framer.com/ai/"
+      ],
+      "userValue": "Framer's AI website-building and editing layer for generating editable pages, copy, visuals, CMS content and code components while retaining canvas control."
     },
     {
-      "name": "Elicit",
-      "officialUrl": "https://elicit.com/",
-      "evidenceUrls": ["https://elicit.com/", "https://elicit.com/blog/introducing-elicit-research-agent"],
-      "userValue": "Scientific research AI for paper discovery, evidence synthesis, systematic reviews and research agents with source-level citations and structured analysis."
+      "name": "Frase",
+      "officialUrl": "https://www.frase.io/",
+      "evidenceUrls": [
+        "https://www.frase.io/"
+      ],
+      "userValue": "SEO content workflow for research, briefs, drafting and optimization with AI assistance aimed at search-focused publishing teams."
     },
     {
-      "name": "EvenUp",
-      "officialUrl": "https://www.evenuplaw.com/",
-      "evidenceUrls": ["https://www.evenuplaw.com/", "https://www.evenuplaw.com/blog/introducing-pre-litigation-as-a-service-plaas/"],
-      "userValue": "Purpose-built legal AI platform for personal-injury firms covering claims intelligence, drafting, case preparation, document review and pre-litigation workflows."
+      "name": "Freed",
+      "officialUrl": "https://www.getfreed.ai/",
+      "evidenceUrls": [
+        "https://www.getfreed.ai/"
+      ],
+      "userValue": "AI medical scribe that turns clinician-patient conversations into draft clinical notes to reduce documentation workload."
     },
     {
-      "name": "Exa",
-      "officialUrl": "https://exa.ai/",
-      "evidenceUrls": ["https://exa.ai/", "https://exa.ai/docs/reference/search-api-guide"],
-      "userValue": "Search and web-content API built for AI applications, offering semantic, fast and deep search plus LLM-ready web extraction and structured outputs."
+      "name": "Freshworks Freddy AI",
+      "officialUrl": "https://www.freshworks.com/freddy-ai/",
+      "evidenceUrls": [
+        "https://www.freshworks.com/freddy-ai/"
+      ],
+      "userValue": "Freshworks' AI layer for customer and employee service, including automation, agent assistance and service workflows inside the Freshworks suite."
     },
     {
-      "name": "Explainpaper",
-      "officialUrl": "https://www.explainpaper.com/",
-      "evidenceUrls": ["https://www.explainpaper.com/"],
-      "userValue": "AI research-paper reader that explains highlighted technical text, answers grounded questions and generates structured insights from uploaded papers."
-    },
-    {
-      "name": "Factory",
-      "officialUrl": "https://www.factory.ai/",
-      "evidenceUrls": ["https://www.factory.ai/", "https://factory.ai/product/droids", "https://factory.ai/news/software-factory"],
-      "userValue": "Agent-native software-development platform whose Droids plan, edit, test and ship code across IDE, terminal, browser and team workflows."
-    },
-    {
-      "name": "fal",
-      "officialUrl": "https://fal.ai/",
-      "evidenceUrls": ["https://fal.ai/", "https://blog.fal.ai/"],
-      "userValue": "Production generative-media infrastructure for running and serving image, video, audio and other AI models through fast inference APIs and agent integrations."
+      "name": "Gauth",
+      "officialUrl": "https://www.gauthmath.com/",
+      "evidenceUrls": [
+        "https://www.gauthmath.com/"
+      ],
+      "userValue": "AI study assistant that explains and solves homework questions across subjects for students who want step-by-step practice support."
     }
   ],
   "update": [],
   "supersede": [],
-  "remove": []
+  "mergeInto": [
+    {
+      "name": "Freepik AI",
+      "targetName": "Magnific",
+      "targetUrl": "https://www.magnific.com/",
+      "category": "Images & design",
+      "description": "Creative AI production platform for image, video, audio, 3D, upscaling, stock assets and collaborative workflows.",
+      "useCase": "For creators, agencies and teams that want generation, editing, upscaling, stock assets and multi-format AI production in one workspace.",
+      "pricing": "Free tier / Paid",
+      "oldEvidenceUrls": [
+        "https://www.magnific.com/freepik",
+        "https://www.magnific.com/blog/freepik-is-now-magnific/"
+      ],
+      "targetEvidenceUrls": [
+        "https://www.magnific.com/",
+        "https://www.magnific.com/ai/docs/freepik-is-now-magnific"
+      ],
+      "reason": "Freepik officially became Magnific in April 2026. The catalog already contains Magnific as an active identity, so retaining a separate Freepik AI row would duplicate the same company, account and platform under the former name.",
+      "userValue": "Magnific is the current unified creative AI platform formerly branded Freepik, covering image, video, audio, 3D, upscaling, stock assets and professional collaborative workflows."
+    }
+  ],
+  "remove": [
+    {
+      "name": "Flowise",
+      "evidenceUrls": [
+        "https://flowiseai.com/sunset"
+      ],
+      "reason": "Flowise announced a code freeze on July 29, 2026, repository archival on August 10, 2026 and official end of life on August 31, 2026, so it no longer meets the active-tool quality gate."
+    }
+  ]
 }
