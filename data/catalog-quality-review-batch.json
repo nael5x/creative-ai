@@ -1,116 +1,176 @@
 {
-  "batchId": "legacy-a-021",
+  "batchId": "legacy-a-022",
   "reviewedAt": "2026-09-21",
   "accept": [
     {
-      "name": "Outranking",
-      "officialUrl": "https://www.outranking.io/",
+      "name": "Ramp Intelligence",
+      "officialUrl": "https://ramp.com/intelligence",
       "evidenceUrls": [
-        "https://outranking.io/"
+        "https://ramp.com/intelligence",
+        "https://ramp.com/new-on-ramp-q2-2026",
+        "https://ramp.com/product-releases"
       ],
-      "userValue": "Active AI SEO content strategy and optimization platform for research, briefs, drafting and search-focused content workflows.",
-      "description": "AI SEO platform for content strategy, research, briefs, drafting and optimization.",
-      "useCase": "For SEO teams that want AI-assisted planning and optimization around search performance rather than a generic writing assistant."
+      "userValue": "Ramp's active AI and agent layer for finance operations across spend controls, expenses, accounts payable, procurement, policy enforcement and accounting workflows.",
+      "description": "AI and agent layer across Ramp for spend controls, expenses, AP, procurement and finance operations.",
+      "useCase": "For finance teams that want policy checks, coding, approvals and other operational finance work automated inside their spend-management stack."
     },
     {
-      "name": "Keyword Insights",
-      "officialUrl": "https://www.keywordinsights.ai/",
+      "name": "Vic.ai",
+      "officialUrl": "https://www.vic.ai/",
       "evidenceUrls": [
-        "https://www.keywordinsights.ai/features/keyword-clustering/",
-        "https://changelog.keywordinsights.ai/",
-        "https://changelog.keywordinsights.ai/custom-content-brief-support-for-ai-writer-agent-and-improvements-to-keyword/"
+        "https://www.vic.ai/",
+        "https://www.vic.ai/blog/q1-2026-product-release-expanding-autonomy-across-the-ap-lifecycle",
+        "https://www.vic.ai/blog/ap-automation-for-sap"
       ],
-      "userValue": "Actively developed SEO research platform for SERP-based keyword clustering, topical planning, content briefs and AI Writer Agent workflows.",
-      "description": "SEO research platform for keyword discovery, SERP clustering, topical planning, briefs and AI-assisted writing.",
-      "useCase": "For SEO teams turning large keyword sets into intent-aware clusters, content plans and drafts."
+      "userValue": "Active AI-first accounts-payable platform for autonomous invoice capture, coding, matching, approvals, ERP posting, expense workflows and AP analytics.",
+      "description": "AI-first accounts-payable and expense automation platform for invoice processing, approvals and ERP workflows.",
+      "useCase": "For accounting teams reducing manual invoice handling, coding, matching and approval work across high-volume AP operations."
     },
     {
-      "name": "RankIQ",
-      "officialUrl": "https://www.rankiq.com/",
+      "name": "Puzzle",
+      "officialUrl": "https://puzzle.io/",
       "evidenceUrls": [
-        "https://www.rankiq.com/",
-        "https://www.rankiq.com/home-startup-2-2-2/"
+        "https://puzzle.io/",
+        "https://puzzle.io/blog/introducing-puzzle-2-0"
       ],
-      "userValue": "RankIQ remains an active blogger-focused SEO product for keyword libraries and content optimization, now paired with the newer Aided content platform rather than fully replaced by it.",
-      "description": "SEO research and content-optimization tool for bloggers, now paired with the Aided AI content platform.",
-      "useCase": "For bloggers and publishers prioritizing low-competition keywords and optimizing posts for Google and AI-search visibility."
+      "userValue": "Puzzle 2.0 is an active AI accounting platform combining software automation with accounting service workflows to produce startup books, financial statements and operating metrics.",
+      "description": "AI accounting platform for automated books, financial statements and startup finance workflows.",
+      "useCase": "For startups that want bookkeeping software, financial visibility and accounting support in one modern workflow."
     },
     {
-      "name": "Ocoya",
-      "officialUrl": "https://www.ocoya.com/",
+      "name": "Zeni",
+      "officialUrl": "https://www.zeni.ai/",
       "evidenceUrls": [
-        "https://www.ocoya.com/",
-        "https://www.ocoya.com/features/mcp",
-        "https://help.ocoya.com/en/"
+        "https://www.zeni.ai/",
+        "https://www.zeni.ai/ai-agents/ai-accountant-agent",
+        "https://www.zeni.ai/about-us"
       ],
-      "userValue": "Active AI social-media platform for agent-assisted content creation, brand-aware campaigns, scheduling, workflows and authenticated MCP actions from external assistants.",
-      "description": "AI social-media platform for content creation, scheduling, agent workflows and MCP-connected actions.",
-      "useCase": "For creators and marketing teams that want AI to write, design and schedule multi-network campaigns from one workspace."
+      "userValue": "Active AI-native finance platform combining bookkeeping, an AI Accountant, AI CFO capabilities, bill pay, reporting and human finance support for startups.",
+      "description": "AI-native bookkeeping and finance platform with AI Accountant and AI CFO agents plus human support.",
+      "useCase": "For startups that want routine accounting and finance operations handled through a combination of AI agents and finance professionals."
     },
     {
-      "name": "Taplio",
-      "officialUrl": "https://taplio.com/",
+      "name": "Trullion",
+      "officialUrl": "https://trullion.com/",
       "evidenceUrls": [
-        "https://taplio.com/blog/ai-linkedin-content-calendar",
-        "https://taplio.com/blog/ai-tools-linkedin",
-        "https://taplio.com/blog/ai-linkedin-analytics"
+        "https://trullion.com/",
+        "https://trullion.com/products/ai-agent-trulli/",
+        "https://trullion.com/products/platform/"
       ],
-      "userValue": "Actively developed LinkedIn growth platform with AI content creation, analytics, scheduling, a LinkedIn MCP connector and agent-friendly workflows.",
-      "description": "AI-assisted LinkedIn growth platform for content, analytics, scheduling and MCP-connected agent workflows.",
-      "useCase": "For professionals and founders building a consistent LinkedIn presence with AI writing, audience insights and publishing automation."
+      "userValue": "Active auditable-AI accounting platform with source-grounded agents, document intelligence and workflows for accounting, audit and financial review.",
+      "description": "Auditable AI accounting and audit platform with source-grounded agents and financial document workflows.",
+      "useCase": "For finance and audit teams that need AI-assisted accounting work with traceable source evidence and reviewable outputs."
     },
     {
-      "name": "Typefully",
-      "officialUrl": "https://typefully.com/",
+      "name": "Numeric",
+      "officialUrl": "https://www.numeric.io/",
       "evidenceUrls": [
-        "https://typefully.com/",
-        "https://typefully.com/blog/our-ai-philosophy"
+        "https://www.numeric.io/product/ai-in-numeric",
+        "https://www.numeric.io/blog/ai-accounting-tools",
+        "https://www.numeric.io/blog/numeric-mcp-server"
       ],
-      "userValue": "Active collaborative social-writing and publishing workspace with AI that learns writing style, multi-platform scheduling, analytics, API, MCP and agent skills.",
-      "description": "Collaborative social-writing and publishing workspace with AI, analytics, API and agent integrations.",
-      "useCase": "For creators and teams that want a focused human-first writing workflow plus AI assistance and cross-platform publishing."
+      "userValue": "Active accounting-close platform with AI for reconciliations, variance analysis, flux explanations, reporting, finance Q&A and agent-connected workflows through MCP.",
+      "description": "AI close and accounting automation platform for reconciliations, variance analysis, reporting and connected agent workflows.",
+      "useCase": "For accounting teams accelerating close, reconciliations and financial analysis while keeping results inside structured finance processes."
     },
     {
-      "name": "Vista Social",
-      "officialUrl": "https://vistasocial.com/",
+      "name": "Nabla",
+      "officialUrl": "https://www.nabla.com/",
       "evidenceUrls": [
-        "https://vistasocial.com/",
-        "https://vistasocial.com/insights/artificial-intelligence/",
-        "https://vistasocial.com/insights/ai-social-media-manager/"
+        "https://www.nabla.com/",
+        "https://help.nabla.com/en/articles/781954"
       ],
-      "userValue": "Active AI-powered social-media command center with publishing, analytics, engagement, listening, AI knowledge and MCP-connected marketing workflows.",
-      "description": "AI-powered social-media command center for publishing, analytics, engagement, listening and connected agent workflows.",
-      "useCase": "For agencies and multi-brand teams that need centralized social operations with AI assistance and enterprise controls."
+      "userValue": "Active ambient clinical AI assistant for encounter capture and documentation, generating structured notes from clinical conversations across supported specialties and languages.",
+      "description": "Ambient clinical AI assistant for encounter capture, structured notes and documentation workflows.",
+      "useCase": "For clinicians who want to reduce manual documentation during patient visits while retaining clinical review of generated notes."
+    },
+    {
+      "name": "Suki",
+      "officialUrl": "https://www.suki.ai/",
+      "evidenceUrls": [
+        "https://www.suki.ai/clinicians/",
+        "https://www.suki.ai/press-releases/suki-launches-science-at-suki-to-set-a-new-standard-for-healthcare-ai/"
+      ],
+      "userValue": "Active ambient clinical intelligence platform for chart-aware assistance, documentation, dictation, clinical Q&A and EHR-integrated workflows.",
+      "description": "Ambient clinical intelligence platform for documentation, chart-aware assistance, dictation and EHR workflows.",
+      "useCase": "For clinicians who want AI assistance before, during and after encounters while keeping documentation integrated with existing clinical systems."
+    },
+    {
+      "name": "Heidi Health",
+      "officialUrl": "https://www.heidihealth.com/",
+      "evidenceUrls": [
+        "https://www.heidihealth.com/",
+        "https://support.heidihealth.com/en/articles/8885059-what-is-heidi"
+      ],
+      "userValue": "Active AI medical scribe for consultation transcription and clinician-reviewed notes, referral letters, summaries and related documentation.",
+      "description": "AI medical scribe for consultation transcription, notes, referral letters and patient summaries.",
+      "useCase": "For clinicians who want draft documentation generated from encounters while retaining responsibility for review and finalization."
+    },
+    {
+      "name": "Glass Health",
+      "officialUrl": "https://glass.health/",
+      "evidenceUrls": [
+        "https://glass.health/privacy",
+        "https://glass.health/resources/ai-diagnosis"
+      ],
+      "userValue": "Active clinician-facing clinical intelligence workspace for differential-diagnosis support, treatment-planning assistance, documentation and evidence-aware medical Q&A.",
+      "description": "Clinical intelligence workspace for clinician-facing differential-diagnosis support, treatment planning, documentation and medical Q&A.",
+      "useCase": "For clinicians using AI as decision-support and documentation assistance alongside professional judgment rather than as an autonomous diagnostic system."
+    },
+    {
+      "name": "OpenEvidence",
+      "officialUrl": "https://www.openevidence.com/",
+      "evidenceUrls": [
+        "https://takehome.openevidence.com/"
+      ],
+      "userValue": "Active medical knowledge and evidence platform for clinicians that integrates licensed journal, guideline and clinical-reference sources into search and evidence-review workflows.",
+      "description": "Medical knowledge and evidence platform for clinicians using licensed journal, guideline and clinical-reference sources.",
+      "useCase": "For healthcare professionals looking up clinical literature and evidence quickly while retaining access to underlying medical sources."
+    },
+    {
+      "name": "Notable",
+      "officialUrl": "https://www.notablehealth.com/",
+      "evidenceUrls": [
+        "https://www.notablehealth.com/",
+        "https://www.notablehealth.com/ai-platform/overview",
+        "https://www.notablehealth.com/blog/notable-names-dr-nicholas-desai-as-chief-medical-officer-to-drive-enterprise-ai-impact"
+      ],
+      "userValue": "Active healthcare AI-agent platform for patient access, revenue cycle and care operations with configurable workflows across health-system administrative processes.",
+      "description": "Healthcare AI-agent platform for patient access, revenue-cycle and care-operations workflows.",
+      "useCase": "For health systems automating administrative work such as scheduling, intake, outreach and operational coordination."
+    },
+    {
+      "name": "Hippocratic AI",
+      "officialUrl": "https://www.hippocraticai.com/",
+      "evidenceUrls": [
+        "https://hippocraticai.com/"
+      ],
+      "userValue": "Active healthcare generative-AI agent platform focused on non-diagnostic patient and operational workflows, with escalation and safety controls.",
+      "description": "Healthcare generative-AI agent platform for non-diagnostic patient and operational workflows with safety controls.",
+      "useCase": "For healthcare organizations deploying conversational agents for supported non-diagnostic tasks while maintaining escalation and clinical-safety boundaries."
+    },
+    {
+      "name": "Infermedica",
+      "officialUrl": "https://infermedica.com/",
+      "evidenceUrls": [
+        "https://infermedica.com/"
+      ],
+      "userValue": "Active clinical AI triage and care-navigation platform delivered through APIs and applications for structured symptom assessment and routing.",
+      "description": "Clinical AI triage and care-navigation platform for symptom assessment and routing through APIs and applications.",
+      "useCase": "For digital-health products and healthcare organizations adding structured symptom-intake and care-navigation workflows."
+    },
+    {
+      "name": "K Health",
+      "officialUrl": "https://khealth.com/",
+      "evidenceUrls": [
+        "https://khealth.com/"
+      ],
+      "userValue": "Active AI-supported virtual primary-care platform that combines digital symptom intake and longitudinal virtual-care workflows with licensed clinicians.",
+      "description": "AI-supported virtual primary-care platform combining digital symptom intake with clinician-led care workflows.",
+      "useCase": "For consumers using a virtual-care service where AI supports intake and care workflows rather than replacing licensed clinical judgment."
     }
   ],
-  "update": [
-    {
-      "name": "Later AI",
-      "url": "https://later.com/",
-      "category": "Social media",
-      "description": "AI-assisted social-media management inside Later for ideation, caption writing, timing, analytics and publishing.",
-      "useCase": "For creators and brands that want AI embedded directly into planning, writing, scheduling and reporting workflows.",
-      "pricing": "Free tier / Paid",
-      "evidenceUrls": [
-        "https://later.com/blog/ai-social-media-management/",
-        "https://later.com/blog/best-ai-social-media-tools-2026/"
-      ],
-      "userValue": "Later's current AI features are embedded across its social workflow for ideation, captions, timing recommendations and analytics rather than existing as a standalone AI product page."
-    },
-    {
-      "name": "Publer AI Assist",
-      "url": "https://publer.com/features/ai-assist",
-      "category": "Social media",
-      "description": "AI assistant inside Publer for brand-aware social writing, images, blog content and publishing workflows.",
-      "useCase": "For teams that want AI content creation and social scheduling inside the same publishing workspace.",
-      "pricing": "Free tier / Paid",
-      "evidenceUrls": [
-        "https://publer.com/features/ai-assist",
-        "https://publer.com/help/en/article/1n883h3/"
-      ],
-      "userValue": "Publer AI Assist remains actively supported with current text and image generation, brand-voice features and direct integration into Publer's social composer."
-    }
-  ],
+  "update": [],
   "supersede": [],
   "mergeInto": [],
   "remove": []
