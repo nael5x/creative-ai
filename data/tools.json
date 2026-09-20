@@ -3058,40 +3058,32 @@
   [
     "SWE-agent",
     "Coding",
-    "Open-source system for using language models to resolve software engineering tasks in repositories.",
-    "For researchers and developers experimenting with autonomous issue-solving agents.",
+    "Open-source software-engineering agent for resolving repository issues, evaluation and agent research.",
+    "For researchers and developers experimenting with autonomous code changes, SWE-bench-style tasks and reproducible software-agent workflows.",
     "Open source",
     "https://swe-agent.com/"
   ],
   [
     "Goose",
     "Coding",
-    "Open-source local AI agent for software development and computer-assisted workflows.",
-    "For developers who want an extensible agent that can work with tools on their machine.",
+    "Open-source local agent with desktop, CLI and API interfaces plus MCP and ACP integrations.",
+    "For developers who want a vendor-neutral local agent for coding, research, automation and tool-connected workflows.",
     "Open source",
     "https://block.github.io/goose/"
   ],
   [
     "JetBrains Junie",
     "Coding",
-    "Coding agent from JetBrains for implementing and iterating on tasks inside IDE projects.",
-    "For JetBrains users delegating multi-step code changes within their existing development environment.",
+    "JetBrains coding agent for terminal and IDE workflows with project-aware planning, debugging and review.",
+    "For JetBrains users who want to delegate multi-step implementation work while keeping the agent connected to IDE project context and tools.",
     "Paid",
     "https://www.jetbrains.com/junie/"
   ],
   [
-    "GitHub Spark",
-    "Web apps",
-    "AI-native application builder connected to GitHub for creating and publishing web apps.",
-    "For users turning ideas into small full-stack applications with a GitHub-centered workflow.",
-    "Paid",
-    "https://github.com/features/spark"
-  ],
-  [
     "IBM watsonx Code Assistant",
     "Coding",
-    "Enterprise code assistant for software development and application modernization.",
-    "For organizations generating, explaining and transforming code in governed enterprise environments.",
+    "IBM enterprise coding assistant for generation, explanation, transformation and application modernization.",
+    "For organizations that need AI coding help inside governed enterprise environments, including modernization of existing application estates.",
     "Paid",
     "https://www.ibm.com/products/watsonx-code-assistant"
   ],
@@ -3138,8 +3130,8 @@
   [
     "ScrapeGraphAI",
     "Data extraction",
-    "Open-source AI-powered web scraping library and platform for structured extraction.",
-    "For developers defining desired data in natural language instead of writing every selector manually.",
+    "AI web-data platform for scraping, structured extraction, search, crawling and monitoring.",
+    "For developers who want LLM-ready or schema-constrained web data without maintaining selectors and custom parsers for every site.",
     "Open source",
     "https://scrapegraphai.com/"
   ],
@@ -3154,8 +3146,8 @@
   [
     "Zyte",
     "Data extraction",
-    "Web scraping and extraction platform with browser automation and anti-blocking infrastructure.",
-    "For developers collecting web data at scale without managing the full scraping stack.",
+    "Web-data extraction platform with browser infrastructure, anti-blocking and AI-powered structured extraction.",
+    "For teams collecting web data at scale that want managed access, rendering and extraction instead of operating a full scraping stack.",
     "Paid",
     "https://www.zyte.com/"
   ],
@@ -3170,24 +3162,24 @@
   [
     "Stagehand",
     "AI development",
-    "Open-source AI browser automation framework built for resilient agent interactions.",
-    "For developers combining natural-language actions with browser automation code.",
+    "Open-source SDK for browser agents that combines natural-language actions with deterministic browser automation.",
+    "For developers building browser agents that need more resilience than selector-only automation while retaining code-level control.",
     "Open source",
     "https://www.stagehand.dev/"
   ],
   [
     "Jina AI Reader",
     "Data extraction",
-    "Web-to-text reader service and APIs for retrieving cleaner page content for AI systems.",
-    "For developers feeding public web pages into research, search and RAG pipelines.",
+    "Web reader and search APIs for converting public pages into LLM-friendly content and agent context.",
+    "For developers feeding cleaner web content into research, RAG, search and agent workflows with minimal retrieval plumbing.",
     "Free tier / Paid",
     "https://jina.ai/reader/"
   ],
   [
     "Unstructured",
     "Learn from your files",
-    "Document processing platform and open-source toolkit for preparing files for AI pipelines.",
-    "For developers extracting and chunking PDFs, documents and other unstructured data for RAG.",
+    "Document-processing platform for parsing and transforming complex files into structured AI-ready data.",
+    "For developers preparing PDFs, office documents and other unstructured files for RAG, search and knowledge systems.",
     "Open source",
     "https://unstructured.io/"
   ],
@@ -3218,8 +3210,8 @@
   [
     "Skyvern",
     "Automation",
-    "AI browser automation platform for completing web tasks using visual and language reasoning.",
-    "For operations teams automating repetitive browser workflows across third-party sites.",
+    "AI browser-automation platform for authenticated, visual and multi-step workflows across websites.",
+    "For operations and development teams automating portal work, extraction, form filling and browser tasks that lack reliable APIs.",
     "Open source",
     "https://www.skyvern.com/"
   ],

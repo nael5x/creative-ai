@@ -2148,6 +2148,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Goose",
+      "officialUrl": "https://block.github.io/goose/",
+      "evidenceUrls": [
+        "https://block.github.io/goose/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active open-source general-purpose local agent now governed under the Agentic AI Foundation, with desktop, CLI and API surfaces plus MCP and ACP interoperability.",
+      "decision": "accepted"
+    },
+    {
       "name": "Gorgias AI",
       "officialUrl": "https://www.gorgias.com/ai",
       "evidenceUrls": [
@@ -2469,6 +2479,17 @@
       "decision": "accepted"
     },
     {
+      "name": "IBM watsonx Code Assistant",
+      "officialUrl": "https://www.ibm.com/products/watsonx-code-assistant",
+      "evidenceUrls": [
+        "https://www.ibm.com/products/watsonx-code-assistant",
+        "https://www.ibm.com/docs/en/software-hub/5.4.x?topic=new-watsonx-code-assistant"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively maintained IBM enterprise coding assistant for code generation, explanation, transformation and modernization in governed software-development environments.",
+      "decision": "accepted"
+    },
+    {
       "name": "Ideogram",
       "officialUrl": "https://ideogram.ai/",
       "evidenceUrls": [
@@ -2564,6 +2585,27 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "JetBrains-native AI Assistant for contextual code chat, in-editor assistance and multi-step coding agents across supported IDEs.",
+      "decision": "accepted"
+    },
+    {
+      "name": "JetBrains Junie",
+      "officialUrl": "https://www.jetbrains.com/junie/",
+      "evidenceUrls": [
+        "https://blog.jetbrains.com/junie/2026/06/junie-coding-agent-out-of-beta/",
+        "https://junie.jetbrains.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "JetBrains' active coding agent for terminal and IDE workflows, with project-aware planning, debugging, review and multi-model support.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jina AI Reader",
+      "officialUrl": "https://jina.ai/reader/",
+      "evidenceUrls": [
+        "https://jina.ai/reader/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active Jina Reader and Search API service for converting public webpages into LLM-friendly content, web search results and MCP-accessible context.",
       "decision": "accepted"
     },
     {
@@ -4099,6 +4141,17 @@
       "decision": "accepted"
     },
     {
+      "name": "ScrapeGraphAI",
+      "officialUrl": "https://scrapegraphai.com/",
+      "evidenceUrls": [
+        "https://scrapegraphai.com/",
+        "https://scrapegraphai.com/blog/category/product-updates"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed AI web-data platform for scraping, natural-language structured extraction, search, crawling, monitoring and agent integrations through APIs and MCP.",
+      "decision": "accepted"
+    },
+    {
       "name": "SE Ranking Content Editor",
       "officialUrl": "https://seranking.com/content-editor.html",
       "evidenceUrls": [
@@ -4203,6 +4256,17 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Active enterprise AI-agent platform for customer experience, enabling brand-specific agents to resolve requests and execute business actions across complex workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Skyvern",
+      "officialUrl": "https://www.skyvern.com/",
+      "evidenceUrls": [
+        "https://www.skyvern.com/",
+        "https://www.skyvern.com/blog/skyvern-changelog-july-2026/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed AI browser-automation and agentic process automation platform for authenticated, visual and multi-step workflows across websites without brittle selectors.",
       "decision": "accepted"
     },
     {
@@ -4358,6 +4422,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Stagehand",
+      "officialUrl": "https://www.stagehand.dev/",
+      "evidenceUrls": [
+        "https://www.browserbase.com/blog/stagehand",
+        "https://www.browserbase.com/changelog/stagehand-v4"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed open-source SDK from Browserbase for browser agents, combining natural-language actions with deterministic automation, self-healing behavior and current v4 agent infrastructure.",
+      "decision": "accepted"
+    },
+    {
       "name": "StudyFetch",
       "officialUrl": "https://www.studyfetch.com/",
       "evidenceUrls": [
@@ -4445,6 +4520,17 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Current AI visibility platform spanning SEO and generative-engine optimization with content scoring, AI-search tracking, recommendations, agent workflows and MCP access.",
+      "decision": "accepted"
+    },
+    {
+      "name": "SWE-agent",
+      "officialUrl": "https://swe-agent.com/",
+      "evidenceUrls": [
+        "https://github.com/SWE-agent/SWE-agent/releases",
+        "https://swe-agent.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active open-source software-engineering agent and research platform for resolving repository issues, evaluating agent behavior and generating training trajectories.",
       "decision": "accepted"
     },
     {
@@ -4676,6 +4762,17 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Active AI-powered language-operations platform combining machine translation, translation quality estimation and human review for enterprise multilingual workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Unstructured",
+      "officialUrl": "https://unstructured.io/",
+      "evidenceUrls": [
+        "https://unstructured.io/",
+        "https://unstructured.io/platform-terms-of-service"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active document-processing platform and open-source ecosystem for parsing, partitioning and transforming complex files into structured inputs for retrieval and AI pipelines.",
       "decision": "accepted"
     },
     {
@@ -4985,6 +5082,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Zyte",
+      "officialUrl": "https://www.zyte.com/",
+      "evidenceUrls": [
+        "https://www.zyte.com/zyte-api/ai-extraction/",
+        "https://www.zyte.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active web-data extraction platform combining browser infrastructure, anti-blocking and AI extraction for structured page data without hand-written parsers.",
+      "decision": "accepted"
+    },
+    {
       "name": "3DFY.ai",
       "officialUrl": "https://3dfy.ai/",
       "evidenceUrls": [
@@ -5151,6 +5259,18 @@
       "decision": "rejected",
       "reason": "Freepik officially became Magnific in April 2026. The catalog already contains Magnific as an active identity, so retaining a separate Freepik AI row would duplicate the same company, account and platform under the former name.",
       "supersededBy": "Magnific"
+    },
+    {
+      "name": "GitHub Spark",
+      "officialUrl": "https://github.com/features/spark",
+      "evidenceUrls": [
+        "https://github.com/orgs/community/discussions/203602",
+        "https://docs.github.com/en/copilot/tutorials/spark/your-first-spark"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "GitHub officially deprecated Spark on August 31, 2026 after stopping new-user access and new app creation on August 4, so it no longer meets the active-product quality gate.",
+      "decision": "rejected",
+      "reason": "GitHub officially deprecated Spark on August 31, 2026 after stopping new-user access and new app creation on August 4, so it no longer meets the active-product quality gate."
     },
     {
       "name": "Hostinger Horizons",
@@ -5335,12 +5455,12 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-21",
-  "lastQualityReviewBatch": "legacy-a-025",
+  "lastQualityReviewBatch": "legacy-a-026",
   "lastQualityReviewBatchSummary": {
-    "accepted": 6,
+    "accepted": 10,
     "updated": 0,
     "superseded": 0,
     "merged": 0,
-    "removed": 0
+    "removed": 1
   }
 }
