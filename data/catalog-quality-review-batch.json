@@ -1,214 +1,161 @@
 {
-  "batchId": "legacy-a-010",
+  "batchId": "legacy-a-011",
   "reviewedAt": "2026-09-20",
   "accept": [
     {
-      "name": "Pika",
-      "officialUrl": "https://pika.art/",
+      "name": "scite",
+      "officialUrl": "https://scite.ai/",
       "evidenceUrls": [
-        "https://pika.art/"
+        "https://scite.ai/blog/may-2026-release-notes",
+        "https://scite.ai/"
       ],
-      "userValue": "AI video creation platform for short-form generation, effects, workflow automation and agent-driven media creation.",
-      "description": "AI video creation platform for generation, effects, workflow automation and agent-assisted media experiments.",
-      "useCase": "For creators who want fast generative video, effects and experimental AI-media workflows in one web app."
+      "userValue": "AI-powered research platform for literature discovery and evaluation using Smart Citations, document-aware assistant workflows and current scholarly data.",
+      "description": "AI research platform for discovering and evaluating scientific literature with Smart Citations and document-aware assistance.",
+      "useCase": "For researchers who want to see how papers are cited, organize literature and evaluate whether evidence supports or contrasts with claims."
     },
     {
-      "name": "Suno",
-      "officialUrl": "https://suno.com/",
+      "name": "Humata",
+      "officialUrl": "https://www.humata.ai/",
       "evidenceUrls": [
-        "https://suno.com/release-notes",
-        "https://suno.com/blog/introducing-v6"
+        "https://www.humata.ai/"
       ],
-      "userValue": "Active AI music platform for generating and editing songs, stems and audio ideas with current multimodal music models."
+      "userValue": "Document-grounded AI workspace for asking questions across uploaded files, generating summaries, comparing documents and returning source-linked answers.",
+      "description": "Document-grounded AI workspace for querying, summarizing and comparing uploaded files with source-linked answers.",
+      "useCase": "For teams and individuals who need fast answers from PDFs and internal documents while retaining citations back to the source material."
     },
     {
-      "name": "Lovable",
-      "officialUrl": "https://lovable.dev/",
+      "name": "Scholarcy",
+      "officialUrl": "https://www.scholarcy.com/",
       "evidenceUrls": [
-        "https://lovable.dev/build/app-builder",
-        "https://lovable.dev/blog/agent-integrations"
+        "https://www.scholarcy.com/"
       ],
-      "userValue": "AI app builder that generates working interfaces, backend logic, data and hosting from natural-language instructions, with code access and integrations.",
-      "description": "AI app builder that turns natural-language prompts into working full-stack web applications.",
-      "useCase": "For founders and teams who want to move from an idea to a functional hosted app with editable code, data, authentication and integrations."
+      "userValue": "Academic reading assistant that summarizes papers, highlights findings, supports critical reading and organizes research into reusable structured notes.",
+      "description": "AI academic reading assistant for summarizing, analyzing and organizing papers and other research documents.",
+      "useCase": "For students and researchers who want structured summaries, key findings, notes and faster comparison across dense academic sources."
     },
     {
-      "name": "LM Studio",
-      "officialUrl": "https://lmstudio.ai/",
+      "name": "QuillBot",
+      "officialUrl": "https://quillbot.com/",
       "evidenceUrls": [
-        "https://lmstudio.ai/download",
-        "https://lmstudio.ai/blog/introducing-lm-studio-bionic"
+        "https://quillbot.com/blog/inklings/quillbot-does-that/",
+        "https://quillbot.com/"
       ],
-      "userValue": "Local-first AI desktop and developer platform for running open models, serving local APIs and using agent workflows with local or controlled cloud compute.",
-      "description": "Local-first desktop and developer platform for running open models, APIs and AI agents.",
-      "useCase": "For users and developers who want private local model execution, a graphical chat interface, programmable APIs and agent workflows."
+      "userValue": "Current QuillBot creativity and writing platform for paraphrasing, rewriting, grammar, summarization, drafting and broader AI-assisted content workflows.",
+      "description": "AI writing and creativity platform for paraphrasing, rewriting, grammar, summarization and drafting.",
+      "useCase": "For users who want fast rewriting, polishing and drafting support while keeping direct control over wording and tone."
     },
     {
-      "name": "LlamaIndex",
-      "officialUrl": "https://www.llamaindex.ai/",
+      "name": "Wordtune",
+      "officialUrl": "https://www.wordtune.com/",
       "evidenceUrls": [
-        "https://www.llamaindex.ai/"
+        "https://www.wordtune.com/"
       ],
-      "userValue": "Open-source AI development ecosystem for document parsing, retrieval, workflows and agents over private or enterprise data.",
-      "description": "Open-source AI development ecosystem for document parsing, retrieval, workflows and agents.",
-      "useCase": "For developers building document-heavy AI applications, RAG systems and agents that need reliable parsing, indexing and private-data access."
+      "userValue": "AI reading and writing assistant for contextual rewriting, proofreading, tone control, translation, continuation and document or webpage summarization.",
+      "description": "AI reading and writing assistant for rewriting, proofreading, tone control, translation and summarization.",
+      "useCase": "For professionals, students and everyday writers who want to improve wording while preserving intended meaning and style."
     },
     {
-      "name": "Microsoft Copilot",
-      "officialUrl": "https://copilot.microsoft.com/",
+      "name": "Jasper",
+      "officialUrl": "https://www.jasper.ai/",
       "evidenceUrls": [
-        "https://copilot.microsoft.com/"
+        "https://www.jasper.ai/platform",
+        "https://www.jasper.ai/state-of-ai-marketing-2026"
       ],
-      "userValue": "Microsoft's general AI companion for chat, research, creation and productivity across web and Microsoft experiences."
+      "userValue": "Enterprise AI marketing platform for agent execution, governed content pipelines, brand context, AI-search visibility and repeatable campaign operations.",
+      "category": "Marketing",
+      "description": "Enterprise AI marketing platform for governed agents, content pipelines, brand context and AI-search workflows.",
+      "useCase": "For marketing teams that need repeatable, brand-governed AI workflows across research, campaign creation, optimization and AI-search visibility."
     },
     {
-      "name": "Poe",
-      "officialUrl": "https://poe.com/",
+      "name": "Writesonic",
+      "officialUrl": "https://writesonic.com/",
       "evidenceUrls": [
-        "https://poe.com/explore?category=Official"
+        "https://writesonic.com/"
       ],
-      "userValue": "Multi-model AI chat platform for using official and community bots across writing, coding, image, video and specialist workflows."
+      "userValue": "AI search growth platform that monitors brand visibility across answer engines, identifies gaps and executes content, citation and technical fixes with agents.",
+      "category": "SEO & marketing",
+      "description": "AI search growth platform for visibility tracking, GEO/AEO analysis and agent-driven content and citation work.",
+      "useCase": "For marketing and growth teams trying to improve how their brand appears across ChatGPT, Claude, Gemini, Google and other AI-search surfaces."
     },
     {
-      "name": "Ideogram",
-      "officialUrl": "https://ideogram.ai/",
+      "name": "Rytr",
+      "officialUrl": "https://rytr.me/",
       "evidenceUrls": [
-        "https://ideogram.ai/news/ideogram-4.0/",
-        "https://docs.ideogram.ai/"
+        "https://rytr.me/"
       ],
-      "userValue": "Active image-generation platform and model family focused on design, typography, controllable generation and production-oriented visual workflows."
+      "userValue": "Lightweight AI writing assistant for short-form copy, rewriting, tone matching, grammar improvement and reusable marketing or business writing workflows.",
+      "description": "AI writing assistant for short-form copy, rewriting, tone matching and everyday content tasks.",
+      "useCase": "For individuals and small teams that want inexpensive, fast support for emails, captions, marketing copy and routine rewriting."
     },
     {
-      "name": "Leonardo AI",
-      "officialUrl": "https://leonardo.ai/",
+      "name": "Tabnine",
+      "officialUrl": "https://www.tabnine.com/",
       "evidenceUrls": [
-        "https://www.leonardo.ai/",
-        "https://leonardo.ai/news/leonardo-ai-yours-to-create"
+        "https://www.tabnine.com/",
+        "https://www.tabnine.com/blog/category/product-news/"
       ],
-      "userValue": "Generative visual platform for image creation, motion, editing and scalable creative production with model and API access.",
-      "description": "Generative AI platform for image creation, motion, editing and creative asset production.",
-      "useCase": "For creators and teams producing visual concepts, branded assets, image variations and AI-driven video or motion content."
+      "userValue": "Enterprise AI coding platform and context engine for IDE and CLI workflows; it remains an active Tabnine product after its July 2026 acquisition by Tricentis.",
+      "description": "Enterprise AI coding platform and context engine for IDE, CLI and agentic software-development workflows.",
+      "useCase": "For engineering organizations that want coding assistance and enterprise context with strong controls over privacy, governance and deployment."
     },
     {
-      "name": "Krea",
-      "officialUrl": "https://www.krea.ai/",
+      "name": "Qodo",
+      "officialUrl": "https://www.qodo.ai/",
       "evidenceUrls": [
-        "https://www.krea.ai/"
+        "https://www.qodo.ai/ai-code-review-platform/",
+        "https://www.qodo.ai/blog/gpt-5-6-more-precise-and-efficient-code-review/"
       ],
-      "userValue": "Creative AI suite for image, video and 3D generation, editing, enhancement and fine-tuning across multiple current models."
+      "userValue": "Purpose-built AI code review and governance platform focused on independent, context-aware review, standards enforcement and software-quality controls.",
+      "description": "AI code review and governance platform for context-aware review, standards enforcement and software-quality workflows.",
+      "useCase": "For teams that want an independent review layer for AI- or human-written code before changes reach production."
     },
     {
-      "name": "Synthesia",
-      "officialUrl": "https://www.synthesia.io/",
+      "name": "JetBrains AI Assistant",
+      "officialUrl": "https://www.jetbrains.com/ai/",
       "evidenceUrls": [
-        "https://www.synthesia.io/features/ai-video-generator",
-        "https://help.synthesia.io/en/articles/9189319-how-do-i-generate-my-video-in-synthesia"
+        "https://www.jetbrains.com/help/ai-assistant/about-ai-assistant.html",
+        "https://www.jetbrains.com/help/ai-assistant/activation-scenarios.html"
       ],
-      "userValue": "AI video platform for presenter-led and generated business content with avatars, scene generation, localization and multilingual voice workflows."
+      "userValue": "JetBrains-native AI Assistant for contextual code chat, in-editor assistance and multi-step coding agents across supported IDEs.",
+      "description": "JetBrains-native AI assistant for contextual code chat, in-editor assistance and coding agents.",
+      "useCase": "For developers working in JetBrains IDEs who want AI chat, edits and multi-step agent workflows integrated directly with project context."
     },
     {
-      "name": "Murf",
-      "officialUrl": "https://murf.ai/",
+      "name": "Webflow AI",
+      "officialUrl": "https://webflow.com/ai",
       "evidenceUrls": [
-        "https://murf.ai/api/docs/changelog"
+        "https://webflow.com/ai",
+        "https://help.webflow.com/hc/en-us/articles/34297897805715-Webflow-AI-overview"
       ],
-      "userValue": "Voice AI platform for multilingual text-to-speech, voice generation and developer speech APIs with actively maintained models."
+      "userValue": "Webflow's AI-native site-building and optimization layer for generating sites, sections, code components, content, CMS data and SEO/AEO improvements.",
+      "description": "AI-native site-building and optimization features inside Webflow for design, content, code and SEO/AEO workflows.",
+      "useCase": "For teams that want AI help building and improving production websites while retaining visual editing, governance and Webflow's hosting stack."
     },
     {
-      "name": "Pipedream",
-      "officialUrl": "https://pipedream.com/",
+      "name": "Recraft",
+      "officialUrl": "https://www.recraft.ai/",
       "evidenceUrls": [
-        "https://pipedream.com/",
-        "https://pipedream.com/apps"
+        "https://www.recraft.ai/"
       ],
-      "userValue": "Integration infrastructure for AI agents and applications, providing managed authentication, thousands of API tools, triggers, MCP access and execution.",
-      "category": "AI infrastructure",
-      "description": "Integration layer for AI agents with managed auth, API tools, triggers, MCP access and hosted execution.",
-      "useCase": "For developers giving AI agents secure access to user-connected apps and APIs without building every OAuth flow and integration from scratch."
+      "userValue": "Current AI design and image platform with actively maintained Recraft models, studio tools and API access for designer-oriented asset generation.",
+      "description": "AI design and image platform for generated visuals, illustrations, vectors, icons and brand-ready assets.",
+      "useCase": "For designers and teams that need editable, art-directed visual assets rather than only standalone raster images."
     },
     {
-      "name": "Grok",
-      "officialUrl": "https://grok.com/",
+      "name": "Photoroom",
+      "officialUrl": "https://www.photoroom.com/",
       "evidenceUrls": [
-        "https://x.ai/news/grok-4-6",
-        "https://x.ai/news/grok-4-5"
+        "https://www.photoroom.com/",
+        "https://www.photoroom.com/inside-photoroom/new-in-photoroom-h1-2026-product-recap",
+        "https://www.photoroom.com/inside-photoroom/photoroom-launches-visual-agents-to-generate-check-and-fix-product-visuals-so-enterprises-no-longer-have-to-build-their-own-ai-stack"
       ],
-      "userValue": "General-purpose AI assistant and model family for reasoning, coding, multimodal work, research and long-running agentic tasks."
-    },
-    {
-      "name": "Meta AI",
-      "officialUrl": "https://www.meta.ai/",
-      "evidenceUrls": [
-        "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
-        "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/"
-      ],
-      "userValue": "Meta's consumer AI assistant for reasoning, research, multimodal creation and increasingly agentic tasks across Meta AI and connected Meta experiences.",
-      "description": "Meta's AI assistant for reasoning, research, multimodal creation and connected agentic tasks.",
-      "useCase": "For everyday assistance, web research, image creation and task execution inside Meta's consumer AI ecosystem."
-    },
-    {
-      "name": "You.com",
-      "officialUrl": "https://you.com/",
-      "evidenceUrls": [
-        "https://you.com/",
-        "https://you.com/docs/quickstart"
-      ],
-      "userValue": "Real-time web intelligence and research API platform for grounding agents with search, cited answers, content retrieval and multi-step research.",
-      "category": "AI infrastructure",
-      "description": "Real-time web intelligence and research APIs for AI agents and applications.",
-      "useCase": "For developers who need current web search, cited answers, content extraction and research capabilities inside AI systems."
-    },
-    {
-      "name": "SciSpace",
-      "officialUrl": "https://scispace.com/",
-      "evidenceUrls": [
-        "https://scispace.com/",
-        "https://www.scispace.com/help/en/articles/10706821-how-scispace-search-works"
-      ],
-      "userValue": "AI research workspace and agent ecosystem for literature search, reviews, PDF analysis, writing, data extraction and scientific workflows."
+      "userValue": "AI product-visual platform for ecommerce image generation, editing, batch workflows, APIs and enterprise visual agents focused on product fidelity.",
+      "description": "AI product-visual platform for ecommerce image generation, editing, batch workflows, APIs and visual agents.",
+      "useCase": "For ecommerce teams that need scalable product photography, background work, catalog image generation and automated visual production."
     }
   ],
   "update": [],
-  "supersede": [
-    {
-      "name": "Luma Dream Machine",
-      "newName": "Luma App",
-      "url": "https://app.lumalabs.ai/",
-      "category": "Images & video",
-      "description": "Luma's current consumer creative workspace for AI video and image generation using current Luma models and integrated generation tools.",
-      "useCase": "For creators who want Luma's current image and video generation workspace rather than the deprecated Dream Machine product identity.",
-      "pricing": "Free tier / Paid",
-      "firstTrackedAt": "2026-09-20T21:00:00Z",
-      "oldEvidenceUrls": [
-        "https://lumalabs.ai/llm-info"
-      ],
-      "newEvidenceUrls": [
-        "https://lumalabs.ai/llm-info",
-        "https://app.lumalabs.ai/"
-      ],
-      "reason": "Luma's official product guidance says Dream Machine is deprecated and identifies Luma App as the current consumer creative workspace.",
-      "userValue": "Luma App is the current consumer surface for Luma's image and video generation ecosystem, including current Ray and UNI model families."
-    },
-    {
-      "name": "Le Chat",
-      "newName": "Vibe",
-      "url": "https://chat.mistral.ai/",
-      "category": "Writing & coding",
-      "description": "Mistral's unified AI agent for productivity, coding and conversational work across Vibe Work, Vibe Code and Vibe Chat.",
-      "useCase": "For users who want Mistral's current assistant for multi-step productivity, coding and conversational tasks in one account.",
-      "pricing": "Free tier / Paid",
-      "firstTrackedAt": "2026-09-20T21:00:00Z",
-      "oldEvidenceUrls": [
-        "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe"
-      ],
-      "newEvidenceUrls": [
-        "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe",
-        "https://docs.mistral.ai/vibe/overview"
-      ],
-      "reason": "Mistral officially renamed Le Chat to Vibe on August 12, 2026 while preserving the same account, plan, conversations and URL.",
-      "userValue": "Vibe is Mistral's current unified agent for professional productivity, coding and conversational AI work."
-    }
-  ],
+  "supersede": [],
   "mergeInto": [],
   "remove": []
 }
