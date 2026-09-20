@@ -2221,6 +2221,17 @@
       "decision": "accepted"
     },
     {
+      "name": "H2O.ai",
+      "officialUrl": "https://h2o.ai/",
+      "evidenceUrls": [
+        "https://h2o.ai/",
+        "https://h2o.ai/blog/2026/h2oai-recognized-as-a-visionary-in-2026-gartner-magic-quadrant/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Enterprise AI platform spanning predictive modeling, generative AI, agentic workflows and sovereign on-premises or air-gapped deployment.",
+      "decision": "accepted"
+    },
+    {
       "name": "Hailuo AI",
       "officialUrl": "https://hailuoai.video/",
       "evidenceUrls": [
@@ -2258,6 +2269,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI assistance built into Help Scout for rewriting, tone changes, grammar and translation in support workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hex",
+      "officialUrl": "https://hex.tech/",
+      "evidenceUrls": [
+        "https://learn.hex.tech/docs/explore-data/notebook-view/notebook-agent",
+        "https://hex.tech/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Collaborative analytics platform with notebook agents, SQL/Python workflows, governed data context and interactive reporting for data teams.",
       "decision": "accepted"
     },
     {
@@ -2444,6 +2466,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Khanmigo",
+      "officialUrl": "https://www.khanmigo.ai/",
+      "evidenceUrls": [
+        "https://www.khanmigo.ai/",
+        "https://www.khanacademy.org/khan-labs",
+        "https://www.khanmigo.ai/teachers"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Khan Academy's active AI teaching assistant and tutor, grounded in Khan Academy content and designed around guided learning rather than direct answer delivery.",
+      "decision": "accepted"
+    },
+    {
       "name": "Kilo Code",
       "officialUrl": "https://kilo.ai/",
       "evidenceUrls": [
@@ -2463,6 +2497,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active generative video product on Kling AI's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Knowt",
+      "officialUrl": "https://knowt.com/",
+      "evidenceUrls": [
+        "https://knowt.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI study platform with lecture capture, PDF and video summarization, flashcards, quizzes, voice tutoring and standardized-exam practice.",
       "decision": "accepted"
     },
     {
@@ -2701,6 +2745,18 @@
       "supersedes": "Luma Dream Machine"
     },
     {
+      "name": "MagicSchool AI",
+      "officialUrl": "https://www.magicschool.ai/",
+      "evidenceUrls": [
+        "https://www.magicschool.ai/magicschool",
+        "https://www.magicschool.ai/magicstudent",
+        "https://www.magicschool.ai/blog-posts/ai-teaching-tools-updates-2026"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "K-12 AI operating system for teacher planning, differentiation, assessment, communication and supervised student learning with classroom guardrails.",
+      "decision": "accepted"
+    },
+    {
       "name": "Magnific",
       "officialUrl": "https://www.magnific.com/",
       "evidenceUrls": [
@@ -2820,6 +2876,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "High-quality image and video generation for creative visual work.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mindgrasp",
+      "officialUrl": "https://www.mindgrasp.ai/",
+      "evidenceUrls": [
+        "https://www.mindgrasp.ai/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI study system that transforms lectures, files and links into notes, summaries, flashcards, quizzes and a 24/7 tutor using active-learning workflows.",
       "decision": "accepted"
     },
     {
@@ -2945,6 +3011,16 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Active transcription and meeting-workflow platform for live and uploaded audio/video, multilingual notes, summaries and searchable meeting records.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Obviously AI",
+      "officialUrl": "https://www.obviously.ai/",
+      "evidenceUrls": [
+        "https://www.obviously.ai/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active no-code predictive analytics platform for training, deploying and monitoring classification, regression and time-series models from structured business data.",
       "decision": "accepted"
     },
     {
@@ -3158,6 +3234,27 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Active Agentic Dialog Platform for building, operating, governing and continuously improving enterprise-grade voice and multimodal customer agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Polymer",
+      "officialUrl": "https://www.polymersearch.com/",
+      "evidenceUrls": [
+        "https://www.polymersearch.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "AI-powered embedded analytics platform for adding white-labeled dashboards, self-service exploration and automated data storytelling directly inside products.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Powerdrill AI",
+      "officialUrl": "https://powerdrill.ai/",
+      "evidenceUrls": [
+        "https://powerdrill.ai/",
+        "https://powerdrill.ai/blog/data-insights"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Powerdrill Bloom is the current AI data-analysis workspace with memory, scheduled agents, open-data research and recurring analytical workflows.",
       "decision": "accepted"
     },
     {
@@ -3437,6 +3534,17 @@
       "decision": "accepted"
     },
     {
+      "name": "SchoolAI",
+      "officialUrl": "https://schoolai.com/",
+      "evidenceUrls": [
+        "https://schoolai.com/blog/new-features-2026-2027",
+        "https://schoolai.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active classroom AI platform with teacher-guided student spaces, district controls, learning insights and personal tutoring experiences designed for schools.",
+      "decision": "accepted"
+    },
+    {
       "name": "SciSpace",
       "officialUrl": "https://scispace.com/",
       "evidenceUrls": [
@@ -3629,6 +3737,17 @@
       "decision": "accepted"
     },
     {
+      "name": "StudyFetch",
+      "officialUrl": "https://www.studyfetch.com/",
+      "evidenceUrls": [
+        "https://www.studyfetch.com/",
+        "https://www.studyfetch.com/blog/studyfetch-the-ultimate-tool-you-need-to-succeed"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "AI study platform that converts lectures, notes, PDFs and videos into notes, flashcards, practice tests and tutoring through its Spark.E assistant.",
+      "decision": "accepted"
+    },
+    {
       "name": "Submagic",
       "officialUrl": "https://www.submagic.co/",
       "evidenceUrls": [
@@ -3805,6 +3924,17 @@
       "decision": "accepted"
     },
     {
+      "name": "ThoughtSpot",
+      "officialUrl": "https://www.thoughtspot.com/",
+      "evidenceUrls": [
+        "https://www.thoughtspot.com/product/agents",
+        "https://www.thoughtspot.com/press-releases/thoughtspot-introduces-spotter-semantics-to-bring-trust-and-context-to-enterprise-ai"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Current agentic analytics platform with Spotter and specialized analytics agents grounded in governed enterprise semantics and natural-language business intelligence.",
+      "decision": "accepted"
+    },
+    {
       "name": "tl;dv",
       "officialUrl": "https://tldv.io/",
       "evidenceUrls": [
@@ -3876,6 +4006,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI web interface and app builder on v0's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Vanna AI",
+      "officialUrl": "https://vanna.ai/",
+      "evidenceUrls": [
+        "https://vanna.ai/docs",
+        "https://vanna.ai/docs/configure"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Vanna 2.0 is a user-aware AI agent framework that connects LLMs to databases with SQL tools, charts, permissions and learned tool memory.",
       "decision": "accepted"
     },
     {
@@ -4409,11 +4550,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-21",
-  "lastQualityReviewBatch": "legacy-a-017",
+  "lastQualityReviewBatch": "legacy-a-018",
   "lastQualityReviewBatchSummary": {
-    "accepted": 18,
+    "accepted": 13,
     "updated": 0,
-    "superseded": 1,
+    "superseded": 0,
     "merged": 0,
     "removed": 0
   }

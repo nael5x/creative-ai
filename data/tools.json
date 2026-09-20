@@ -2010,24 +2010,24 @@
   [
     "Obviously AI",
     "Data & analytics",
-    "No-code predictive analytics platform for training models and exploring business outcomes.",
-    "For analysts who want fast prediction workflows from structured datasets.",
+    "No-code predictive analytics platform for building, deploying and monitoring machine-learning models.",
+    "For analysts and business teams that need predictive modeling and production scoring without writing a traditional data-science stack.",
     "Paid",
     "https://www.obviously.ai/"
   ],
   [
     "Hex",
     "Data & analytics",
-    "Collaborative analytics workspace with notebooks, data apps and AI-assisted analysis.",
-    "For data teams combining SQL, Python and interactive reporting in one workspace.",
+    "Collaborative analytics workspace with AI notebook agents, SQL, Python and interactive data apps.",
+    "For data teams combining exploratory analysis, code, governed warehouse context and shareable analytics in one workspace.",
     "Free tier / Paid",
     "https://hex.tech/"
   ],
   [
     "ThoughtSpot",
-    "Data & analytics",
-    "Analytics platform with natural-language search and AI-assisted business intelligence.",
-    "For organizations that want conversational access to governed company data.",
+    "Agentic analytics",
+    "Agentic analytics platform with governed AI analysts and specialized agents over enterprise data.",
+    "For organizations that want conversational, explainable analytics and AI agents operating on trusted business semantics.",
     "Paid",
     "https://www.thoughtspot.com/"
   ],
@@ -2049,9 +2049,9 @@
   ],
   [
     "H2O.ai",
-    "Data & analytics",
-    "AI and machine-learning platform for predictive modeling, enterprise AI and model deployment.",
-    "For technical teams building and operationalizing machine-learning applications.",
+    "Enterprise AI",
+    "Enterprise AI platform for predictive, generative and agentic workloads with sovereign deployment options.",
+    "For technical organizations building and operating predictive models, private generative AI and governed agents in cloud, on-premises or air-gapped environments.",
     "Free / Paid",
     "https://h2o.ai/"
   ],
@@ -2065,9 +2065,9 @@
   ],
   [
     "Vanna AI",
-    "Data & analytics",
-    "AI assistant framework and product for natural-language questions over SQL databases.",
-    "For teams building text-to-SQL experiences grounded in their database schema.",
+    "Data agents",
+    "User-aware AI agent framework for connecting LLMs to databases with SQL tools, permissions and learned tool memory.",
+    "For developers building conversational data agents that need secure database access, text-to-SQL behavior and reusable business logic.",
     "Open source",
     "https://vanna.ai/"
   ],
@@ -2081,17 +2081,17 @@
   ],
   [
     "Polymer",
-    "Data & analytics",
-    "AI-assisted business-intelligence platform for turning data sources into dashboards and analysis.",
-    "For business users who want visual analytics without building a custom BI stack.",
+    "Embedded analytics",
+    "AI-powered embedded analytics platform for white-labeled dashboards, self-service exploration and in-product data storytelling.",
+    "For software teams that want to add customer-facing analytics to their own product through APIs and embedded components.",
     "Paid",
     "https://www.polymersearch.com/"
   ],
   [
     "Powerdrill AI",
-    "Data & analytics",
-    "AI data-analysis workspace for asking questions across files, documents and structured datasets.",
-    "For users exploring business or research data through conversational analysis.",
+    "Data & research",
+    "AI data-analysis workspace with memory, scheduled agents and research-oriented analytical workflows.",
+    "For analysts and researchers who want conversational data exploration plus recurring agents that remember context across analyses.",
     "Free tier / Paid",
     "https://powerdrill.ai/"
   ],
@@ -2106,32 +2106,32 @@
   [
     "Khanmigo",
     "Education",
-    "Khan Academy's AI-powered tutor and teaching assistant for guided learning and educator workflows.",
-    "For learners and teachers who want education-focused AI connected to Khan Academy content.",
+    "Khan Academy AI teaching assistant and guided tutor for educators and learners.",
+    "For teachers who want planning and classroom support, and learners who want guided tutoring connected to Khan Academy content.",
     "Free tier / Paid",
     "https://www.khanmigo.ai/"
   ],
   [
     "StudyFetch",
     "Education",
-    "AI study platform that turns learning materials into notes, flashcards, quizzes and tutoring workflows.",
-    "For students converting class files into interactive study resources.",
+    "AI study platform for turning course materials into notes, flashcards, quizzes, practice tests and tutoring.",
+    "For students who want uploaded class materials converted into interactive study resources and on-demand AI tutoring.",
     "Free tier / Paid",
     "https://www.studyfetch.com/"
   ],
   [
     "Knowt",
     "Education",
-    "Study platform with AI tools for notes, flashcards, practice questions and learning workflows.",
-    "For students who want a Quizlet-style study system with AI-assisted content generation.",
+    "AI study platform for lecture notes, flashcards, quizzes, summaries, voice tutoring and exam preparation.",
+    "For students who want one study workspace for active recall, lecture capture and AI-generated practice materials.",
     "Free tier / Paid",
     "https://knowt.com/"
   ],
   [
     "Mindgrasp",
     "Education",
-    "AI learning assistant for summarizing lectures, documents and videos into study materials.",
-    "For students who want notes, questions and summaries from course content.",
+    "AI study system for notes, summaries, flashcards, quizzes and tutoring from lectures and uploaded materials.",
+    "For students and self-learners who want course materials automatically turned into structured active-recall study sessions.",
     "Paid",
     "https://www.mindgrasp.ai/"
   ],
@@ -2146,16 +2146,16 @@
   [
     "MagicSchool AI",
     "Education",
-    "AI platform for educators with lesson, planning, communication and classroom-support tools.",
-    "For teachers who want education-specific generators and workflow assistance.",
+    "K-12 AI platform for teacher workflows, supervised student learning and district-wide classroom governance.",
+    "For educators and school systems that want education-specific AI tools with teacher oversight, student safety controls and district administration.",
     "Free tier / Paid",
     "https://www.magicschool.ai/"
   ],
   [
     "SchoolAI",
     "Education",
-    "AI learning platform for classroom spaces, student activities and teacher-guided experiences.",
-    "For schools using supervised AI activities with educator controls.",
+    "Classroom AI platform with teacher-guided student spaces, district controls, learning insights and tutoring.",
+    "For K-12 schools that want supervised AI activities, teacher visibility and district-level controls around student use.",
     "Free tier / Paid",
     "https://schoolai.com/"
   ],
