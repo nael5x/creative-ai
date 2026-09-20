@@ -1,122 +1,101 @@
 {
-  "batchId": "legacy-a-023",
+  "batchId": "legacy-a-024",
   "reviewedAt": "2026-09-21",
   "accept": [
     {
-      "name": "Microsoft Security Copilot",
-      "officialUrl": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+      "name": "Lokalise AI",
+      "officialUrl": "https://lokalise.com/ai/",
       "evidenceUrls": [
-        "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
-        "https://learn.microsoft.com/en-us/copilot/security/agents-overview",
-        "https://learn.microsoft.com/en-us/copilot/security/agents-security-copilot"
+        "https://lokalise.com/ai-statement/",
+        "https://docs.lokalise.com/en/collections/17223450-ai-features",
+        "https://lokalise.com/shipped-summer-2026/"
       ],
-      "userValue": "Active Microsoft security AI and agent platform embedded across Defender, Entra, Intune and Purview for investigation, threat intelligence and repeatable security workflows.",
-      "description": "Microsoft security AI and agent platform for investigation, threat intelligence and automated security workflows.",
-      "useCase": "For Microsoft security teams that want agents and AI assistance embedded in incident investigation, identity, endpoint, data and threat-intelligence workflows."
+      "userValue": "Active AI-enabled localization platform with automated translation, AI quality scoring, contextual suggestions, custom AI profiles and MCP-connected workflows.",
+      "description": "AI localization features inside Lokalise for translation, quality scoring, contextual suggestions and agent-connected workflows.",
+      "useCase": "For product and localization teams managing multilingual software and content with AI assistance grounded in glossaries, style guides and translation memory."
     },
     {
-      "name": "Snyk AI",
-      "officialUrl": "https://snyk.io/platform/deepcode-ai/",
+      "name": "Phrase",
+      "officialUrl": "https://phrase.com/",
       "evidenceUrls": [
-        "https://snyk.io/platform/deepcode-ai/"
+        "https://phrase.com/product-launch-june-2026/"
       ],
-      "userValue": "Active AI application-security layer powered by DeepCode AI for finding, prioritizing and autofixing vulnerabilities in developer workflows.",
-      "description": "AI application-security capabilities for vulnerability detection, prioritization and developer-focused remediation.",
-      "useCase": "For development and AppSec teams that want AI-assisted security findings and fixes integrated earlier into the software-development lifecycle."
+      "userValue": "Active enterprise localization platform built for human-and-agent workflows, with AI translation, quality evaluation, APIs, MCP access and shared language assets.",
+      "description": "Enterprise localization platform for AI translation, quality evaluation, automation and human-agent workflows.",
+      "useCase": "For global product and content teams that need governed translation workflows with automation, language assets and agent integrations."
     },
     {
-      "name": "GitGuardian",
-      "officialUrl": "https://www.gitguardian.com/",
+      "name": "Smartcat",
+      "officialUrl": "https://www.smartcat.com/",
       "evidenceUrls": [
-        "https://docs.gitguardian.com/platform/ai/home",
-        "https://docs.gitguardian.com/releases/saas/2026/08/27/changelog"
+        "https://www.smartcat.com/product-localization/",
+        "https://help.smartcat.com/how-smartcat-ai-chat-automates-and-scales-your-localization-workflows/",
+        "https://www.smartcat.com/news/"
       ],
-      "userValue": "Active secrets-security platform with AI for false-positive reduction, risk prioritization, secret enrichment, remediation guidance and public-leak ownership analysis.",
-      "description": "Secrets-security platform with AI-assisted risk prioritization, enrichment, remediation and public-leak analysis.",
-      "useCase": "For engineering and security teams discovering and prioritizing exposed credentials and non-human identity risks across source code and public repositories."
+      "userValue": "Active AI global-content platform with adaptive localization agents, translation memory, expert review, integrations and multi-agent workflows for multilingual content operations.",
+      "description": "AI global-content and localization platform with adaptive agents, translation memory and expert-review workflows.",
+      "useCase": "For organizations translating product, marketing and business content at scale while combining AI automation with optional human review."
     },
     {
-      "name": "HiddenLayer",
-      "officialUrl": "https://hiddenlayer.com/",
+      "name": "Unbabel",
+      "officialUrl": "https://unbabel.com/",
       "evidenceUrls": [
-        "https://www.hiddenlayer.com/platform",
-        "https://www.hiddenlayer.com/platform/ai-runtime-security"
+        "https://unbabel.com/press-and-media/",
+        "https://insights.unbabel.com/ai-translations-from-unbabel",
+        "https://help.unbabel.com/hc/en-us/articles/29736962824343-Translator-Copilot"
       ],
-      "userValue": "Active AI security platform spanning lifecycle visibility, testing, hardening and runtime protection for models, applications, agents and agentic workflows.",
-      "description": "AI security platform for lifecycle visibility, testing, hardening and runtime protection across models and agents.",
-      "useCase": "For enterprises that need AI-specific posture and runtime controls against prompt attacks, data exposure, unsafe actions and other model or agent threats."
+      "userValue": "Active AI-powered language-operations platform combining machine translation, translation quality estimation and human review for enterprise multilingual workflows.",
+      "description": "AI language-operations platform combining translation automation, quality estimation and human review.",
+      "useCase": "For enterprise teams localizing customer, product and business communication while retaining quality-control and human-review options."
     },
     {
-      "name": "Prompt Security",
-      "officialUrl": "https://prompt.security/",
+      "name": "Rask AI",
+      "officialUrl": "https://www.rask.ai/",
       "evidenceUrls": [
-        "https://prompt.security/",
-        "https://www.sentinelone.com/press/sentinelone-announces-ai-security-integration-with-amazon-bedrock-agentcore-to-deliver-runtime-guardrails-for-ai-agents/",
-        "https://prompt.security/solutions/agentic-ai-security-and-governance"
+        "https://www.rask.ai/llm-info",
+        "https://www.rask.ai/enterprise",
+        "https://www.rask.ai/use-cases/media-and-entertainment"
       ],
-      "userValue": "Active SentinelOne AI-security offering for workforce AI governance, application guardrails, agentic AI security, MCP visibility and AI red teaming.",
-      "description": "SentinelOne AI-security platform for workforce AI governance, application guardrails, agent security and red teaming.",
-      "useCase": "For security teams governing employee AI usage and protecting homegrown AI applications, code assistants and agents at runtime."
+      "userValue": "Active video and audio localization platform for translation, AI dubbing, voice cloning, lip sync, subtitles and controlled multilingual production workflows.",
+      "description": "AI video and audio localization platform for translation, dubbing, voice cloning, lip sync and subtitles.",
+      "useCase": "For media, education and marketing teams turning one source video into controlled multilingual versions without re-recording."
     },
     {
-      "name": "Mindgard",
-      "officialUrl": "https://mindgard.ai/",
+      "name": "Maestra",
+      "officialUrl": "https://maestra.ai/",
       "evidenceUrls": [
-        "https://mindgard.ai/",
-        "https://mindgard.ai/ai-security-platform",
-        "https://mindgard.ai/blog/mindgard-unveils-first-autonomous-ai-security-platform-to-identify-and-fix-exploitable-vulnerabilities"
+        "https://maestra.ai/"
       ],
-      "userValue": "Active autonomous AI-security testing platform for discovery, reconnaissance, red teaming, assessment and runtime protection across models, agents and AI applications.",
-      "description": "Autonomous AI-security platform for discovery, red teaming, assessment and runtime protection.",
-      "useCase": "For security teams that want continuous adversarial testing and AI-specific attack-surface analysis before and after production deployment."
+      "userValue": "Active media-localization platform for on-demand and real-time transcription, translation, subtitles, dubbing, voice cloning and live multilingual audio workflows.",
+      "description": "AI media-localization platform for transcription, translation, subtitles, dubbing and live multilingual audio.",
+      "useCase": "For teams localizing recorded or live audio and video into multilingual captions, transcripts and dubbed content."
     },
     {
-      "name": "Pillar Security",
-      "officialUrl": "https://www.pillar.security/",
+      "name": "Vozo",
+      "officialUrl": "https://www.vozo.ai/",
       "evidenceUrls": [
-        "https://www.pillar.security/",
-        "https://www.pillar.security/blog/pillar-launches-red-graph-suite-version-controlled-contextual-and-continuous-ai-red-teaming"
+        "https://www.vozo.ai/",
+        "https://www.vozo.ai/about",
+        "https://www.vozo.ai/blogs/news/ai-pilot-rewrite-product-videos"
       ],
-      "userValue": "Active agentic-AI security platform for discovery, posture management, red teaming, runtime protection and governance across agents, MCP servers, skills and AI supply chains.",
-      "description": "Agentic-AI security platform for discovery, posture, red teaming, runtime protection and governance.",
-      "useCase": "For organizations that need lifecycle security and governance across AI agents, MCP integrations, models and connected toolchains."
+      "userValue": "Active AI video-localization platform for dubbing, lip sync, subtitles, voice preservation and on-screen text translation with editable production controls.",
+      "description": "AI video-localization platform for dubbing, lip sync, subtitles, voice preservation and visual text translation.",
+      "useCase": "For creators and global teams adapting existing videos across languages while retaining control over terminology, timing, voices and on-screen text."
     },
     {
-      "name": "Noma Security",
-      "officialUrl": "https://noma.security/",
+      "name": "Speechmatics",
+      "officialUrl": "https://www.speechmatics.com/",
       "evidenceUrls": [
-        "https://noma.security/",
-        "https://noma.security/platform",
-        "https://noma.security/blog/noma-launches-agentic-access-control-to-govern-ai-agents-and-mcp-servers-across-the-enterprise"
+        "https://www.speechmatics.com/",
+        "https://www.speechmatics.com/product/real-time"
       ],
-      "userValue": "Active AI and agent security platform for discovery, posture, access control, red teaming and runtime detection across endpoint, SaaS and homegrown agents.",
-      "description": "AI and agent security platform for discovery, governance, access control, red teaming and runtime detection.",
-      "useCase": "For enterprises that need one control plane to inventory AI assets, govern agent permissions and detect risky behavior across different AI environments."
+      "userValue": "Active speech-AI platform providing real-time and batch speech recognition, multilingual transcription and voice-agent speech infrastructure through APIs.",
+      "description": "Speech-AI platform for real-time and batch transcription, multilingual recognition and voice-agent infrastructure.",
+      "useCase": "For developers and enterprises adding production speech-to-text and multilingual voice understanding to applications and media workflows."
     }
   ],
   "update": [],
-  "supersede": [
-    {
-      "name": "Lakera",
-      "newName": "Check Point AI Security",
-      "url": "https://www.checkpoint.com/ai-security/",
-      "category": "Cybersecurity",
-      "description": "Check Point AI-security platform for workforce AI governance, AI application guardrails, agent discovery, risk assessment, runtime protection and red teaming.",
-      "useCase": "For enterprises that need unified discovery, governance and runtime protection across employee AI use, generative-AI applications and autonomous agents.",
-      "pricing": "Paid",
-      "firstTrackedAt": "2026-09-21T00:00:00Z",
-      "oldEvidenceUrls": [
-        "https://www.checkpoint.com/press-releases/check-point-acquires-lakera-to-deliver-end-to-end-ai-security-for-enterprises/"
-      ],
-      "newEvidenceUrls": [
-        "https://www.checkpoint.com/ai-security/",
-        "https://www.checkpoint.com/ai-security/ai-agent-security/",
-        "https://docs.lakera.ai/guard"
-      ],
-      "reason": "Check Point acquired Lakera and the current product documentation and commercial offering are now branded as Check Point AI Security, including AI Agent Security and AI Guardrails. Keeping Lakera as a separate current platform would preserve an outdated standalone identity.",
-      "userValue": "Check Point AI Security is the current platform carrying Lakera's runtime guardrail technology forward into a broader enterprise AI-security offering."
-    }
-  ],
+  "supersede": [],
   "mergeInto": [],
   "remove": []
 }
