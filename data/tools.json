@@ -954,8 +954,8 @@
   [
     "Genspark",
     "Automation",
-    "AI workspace and agent platform for research, content creation and multi-step tasks.",
-    "For delegating broader knowledge-work tasks that combine research and generated deliverables.",
+    "AI workspace for persistent memory, multi-agent collaboration and autonomous knowledge-work execution.",
+    "For individuals and teams that want agents to research, create documents, build assets and execute multi-step work with shared context.",
     "Free tier / Paid",
     "https://www.genspark.ai/"
   ],
@@ -977,18 +977,18 @@
   ],
   [
     "Tavily",
-    "Research",
-    "Search and extraction platform built for AI agents and research workflows.",
-    "For developers adding web search and retrieval to agents without building a crawler stack.",
+    "AI infrastructure",
+    "Real-time web search, extraction and research APIs designed for AI agents and LLM applications.",
+    "For developers who need current web grounding, retrieval and research in AI systems without operating their own crawler and indexing stack.",
     "Free tier / Paid",
     "https://tavily.com/"
   ],
   [
     "ResearchRabbit",
     "Research",
-    "Literature discovery tool that maps related papers and research connections.",
-    "For exploring a research field from a few seed papers and following citation neighborhoods.",
-    "Free",
+    "Literature-discovery workspace for exploring paper networks, reading lists and evolving research topics.",
+    "For researchers who want to expand from seed papers, visualize citation neighborhoods and keep track of new work in a field.",
+    "Free tier / Paid",
     "https://www.researchrabbit.ai/"
   ],
   [
@@ -1002,64 +1002,64 @@
   [
     "Litmaps",
     "Research",
-    "Literature discovery and citation mapping workspace for academic research.",
-    "For building living maps of papers and monitoring how a research topic evolves.",
+    "Literature-review platform for discovering papers, mapping citation relationships and monitoring new publications.",
+    "For researchers building living literature maps that make related work and topic evolution easier to see.",
     "Free tier / Paid",
     "https://www.litmaps.com/"
   ],
   [
     "Semantic Scholar",
     "Research",
-    "AI-powered academic search engine for scientific literature.",
-    "For finding papers, authors and citation context across a large scholarly corpus.",
+    "Free AI-powered scientific search and discovery service from Ai2.",
+    "For finding papers, authors, citations and related scientific work across a large scholarly corpus.",
     "Free",
     "https://www.semanticscholar.org/"
   ],
   [
     "Sudowrite",
     "Writing",
-    "AI writing workspace focused on fiction drafting, revision and story development.",
-    "For novelists and fiction writers who want brainstorming and prose assistance tuned to storytelling.",
+    "AI fiction-writing workspace for planning, drafting, revision and story development.",
+    "For novelists and fiction writers who want AI assistance tuned to long-form storytelling, continuity and prose experimentation.",
     "Paid",
     "https://www.sudowrite.com/"
   ],
   [
     "Jenni AI",
     "Writing",
-    "Academic writing and research workspace for reading, drafting and citation support.",
-    "For students and researchers who want writing help that stays connected to sources.",
+    "Source-grounded academic research and writing workspace for reading, drafting and citation workflows.",
+    "For students, academics and research teams that want AI writing help tied closely to verifiable sources.",
     "Free tier / Paid",
     "https://jenni.ai/"
   ],
   [
     "HyperWrite",
     "Writing",
-    "AI writing assistant with drafting, rewriting and browser-based assistance.",
-    "For everyday writing and research tasks across documents and web workflows.",
+    "AI writing and research assistant with predictive writing, citations, browser support and custom tools.",
+    "For users who want drafting, rewriting and research assistance across documents, email and browser workflows.",
     "Free tier / Paid",
     "https://www.hyperwriteai.com/"
   ],
   [
     "ProWritingAid",
     "Writing",
-    "Writing and editing assistant with analysis, revision and generative writing features.",
-    "For authors and long-form writers who want deeper editing feedback in addition to rewriting help.",
+    "AI-assisted editing platform for manuscript analysis, critique, revision and selective generative rewriting.",
+    "For authors and long-form writers who want structural and stylistic feedback beyond basic grammar correction.",
     "Free tier / Paid",
     "https://prowritingaid.com/"
   ],
   [
     "LanguageTool",
     "Writing",
-    "Multilingual grammar, style and spelling assistant with AI-powered rewriting.",
-    "For polishing writing across multiple languages in browsers, editors and documents.",
+    "Multilingual AI editing assistant for grammar, spelling, style, tone and paraphrasing.",
+    "For users who want context-aware writing correction and rewriting across browsers, desktop apps and documents in many languages.",
     "Free tier / Paid",
     "https://languagetool.org/"
   ],
   [
     "Writer",
-    "Knowledge work",
-    "Enterprise AI platform for agents, company knowledge and governed workflow automation.",
-    "For organizations that need AI work tied to internal standards, data and business processes.",
+    "Enterprise AI",
+    "Enterprise AI platform for governed agents, playbooks, memory and company-connected workflows.",
+    "For organizations that need autonomous AI work tied to internal data, brand rules, compliance and GTM processes.",
     "Paid",
     "https://writer.com/"
   ],
@@ -1082,48 +1082,48 @@
   [
     "Napkin AI",
     "Design",
-    "AI visual communication tool that turns text into editable diagrams and visual explanations.",
-    "For converting written ideas into presentation-ready visuals quickly.",
+    "AI visual-communication tool that turns text into editable diagrams, charts and presentation visuals.",
+    "For quickly converting written ideas into branded, editable visuals that can be exported to slides, PDF, PNG or SVG.",
     "Free tier / Paid",
     "https://www.napkin.ai/"
   ],
   [
     "Mem",
     "Knowledge work",
-    "AI-assisted notes and knowledge workspace for capture, retrieval and synthesis.",
-    "For people who want a searchable personal knowledge base with AI help.",
+    "AI-native knowledge workspace for note capture, semantic retrieval, meeting context and connected AI workflows.",
+    "For individuals and teams that want a searchable second brain that can proactively surface context and connect to external assistants.",
     "Free tier / Paid",
     "https://mem.ai/"
   ],
   [
     "Tana",
-    "Knowledge work",
-    "Structured knowledge workspace with AI-assisted capture, organization and workflows.",
-    "For users building connected notes, tasks and structured personal or team knowledge.",
-    "Free tier / Paid",
+    "Meetings & collaboration",
+    "Agentic meeting platform where AI agents capture context and take actions during native video calls.",
+    "For teams that want meetings to produce actions automatically across tools such as Slack, GitHub, Linear, HubSpot and coding agents.",
+    "Free trial / Paid",
     "https://tana.inc/"
   ],
   [
     "Readwise Reader",
     "Learn from your files",
-    "Reading and knowledge tool for saving, highlighting and processing articles, PDFs and newsletters.",
-    "For serious reading workflows that turn saved material into searchable notes and highlights.",
+    "Reading and knowledge workspace for saved content, highlights, library-wide AI chat and connected research workflows.",
+    "For serious readers and researchers who want articles, books, PDFs, newsletters and video notes in one searchable AI-assisted library.",
     "Paid",
     "https://readwise.io/read"
   ],
   [
     "Lex",
     "Writing",
-    "AI-powered writing workspace for drafting, revising and collaborating on documents.",
-    "For focused long-form writing with lightweight AI assistance inside the editor.",
+    "Collaborative writing workspace with focused editing, AI feedback, brainstorming and rewriting.",
+    "For writers who want a clean long-form editor with integrated AI help rather than a general-purpose chat interface.",
     "Free tier / Paid",
     "https://lex.page/"
   ],
   [
     "Paperpal",
     "Writing",
-    "Academic writing assistant for language editing, research writing and manuscript preparation.",
-    "For researchers preparing papers, theses and scholarly documents.",
+    "Academic AI writing and research platform for source-grounded drafting, language editing and manuscript preparation.",
+    "For researchers and students preparing papers, theses and scholarly documents with citation-aware assistance.",
     "Free tier / Paid",
     "https://paperpal.com/"
   ],
@@ -1138,9 +1138,9 @@
   [
     "Greptile",
     "Coding",
-    "AI code review and codebase intelligence platform for engineering teams.",
-    "For repository-aware review and questions across larger codebases.",
-    "Paid",
+    "AI code-review platform with repository context, security analysis, generated tests and CLI workflows.",
+    "For engineering teams that want automated pull-request review and codebase-aware quality checks before merge.",
+    "Free tier / Paid",
     "https://www.greptile.com/"
   ],
   [
@@ -1154,8 +1154,8 @@
   [
     "OpenHands",
     "Coding",
-    "Open-source software development agent platform for coding tasks and repository changes.",
-    "For developers experimenting with inspectable autonomous coding agents.",
+    "Open platform for coding agents with open-source agents, desktop, cloud, SDKs and control-plane tooling.",
+    "For developers and teams that want inspectable coding agents they can run, extend, integrate and control across repositories and workflows.",
     "Open source",
     "https://openhands.dev/"
   ],

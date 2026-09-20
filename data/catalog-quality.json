@@ -2037,6 +2037,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Genspark",
+      "officialUrl": "https://www.genspark.ai/",
+      "evidenceUrls": [
+        "https://www.genspark.ai/blog/genspark-ai-workspace-6",
+        "https://www.genspark.ai/helpcenter/genteam"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed AI workspace combining persistent memory, multi-agent collaboration, office/content/build suites and autonomous task execution.",
+      "decision": "accepted"
+    },
+    {
       "name": "GitHub Copilot",
       "officialUrl": "https://github.com/features/copilot",
       "evidenceUrls": [
@@ -2064,6 +2075,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI writing assistance for drafting, rewriting, tone and communication quality.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Greptile",
+      "officialUrl": "https://www.greptile.com/",
+      "evidenceUrls": [
+        "https://www.greptile.com/changelog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained AI code-review platform with repository context, parallel review agents, security review, generated tests, CLI workflows and individual free access.",
       "decision": "accepted"
     },
     {
@@ -2191,6 +2212,16 @@
       "decision": "accepted"
     },
     {
+      "name": "HyperWrite",
+      "officialUrl": "https://www.hyperwriteai.com/",
+      "evidenceUrls": [
+        "https://www.hyperwriteai.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active AI writing and research assistant with predictive writing, browser assistance, real-time research, citations, custom tools and document editing.",
+      "decision": "accepted"
+    },
+    {
       "name": "Ideogram",
       "officialUrl": "https://ideogram.ai/",
       "evidenceUrls": [
@@ -2242,6 +2273,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Enterprise AI marketing platform for agent execution, governed content pipelines, brand context, AI-search visibility and repeatable campaign operations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jenni AI",
+      "officialUrl": "https://jenni.ai/",
+      "evidenceUrls": [
+        "https://jenni.ai/",
+        "https://jenni.ai/changelog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed academic research and writing workspace with source-grounded drafting, citation support, paper discovery, source-quality checks and collaboration.",
       "decision": "accepted"
     },
     {
@@ -2330,6 +2372,17 @@
       "decision": "accepted"
     },
     {
+      "name": "LanguageTool",
+      "officialUrl": "https://languagetool.org/",
+      "evidenceUrls": [
+        "https://help.languagetool.org/hc/en-us/articles/39254472465687-Is-LanguageTool-Considered-AI-Writing",
+        "https://languagetool.org/insights/post/artificial-intelligence/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active multilingual AI editing assistant for grammar, spelling, punctuation, style, tone and paraphrasing across more than 30 languages.",
+      "decision": "accepted"
+    },
+    {
       "name": "Leonardo AI",
       "officialUrl": "https://leonardo.ai/",
       "evidenceUrls": [
@@ -2338,6 +2391,16 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Generative visual platform for image creation, motion, editing and scalable creative production with model and API access.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lex",
+      "officialUrl": "https://lex.page/",
+      "evidenceUrls": [
+        "https://lex.page/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active collaborative writing environment with focused document editing, AI feedback, brainstorming, rewriting, versioning and lightweight team collaboration.",
       "decision": "accepted"
     },
     {
@@ -2360,6 +2423,16 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Active business-agent platform for automating sales, support, operations and administrative work with configurable AI agents and cross-app workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Litmaps",
+      "officialUrl": "https://www.litmaps.com/",
+      "evidenceUrls": [
+        "https://www.litmaps.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active literature-review platform for discovering papers, visualizing citation relationships, collaborating and monitoring new publications around a topic.",
       "decision": "accepted"
     },
     {
@@ -2483,6 +2556,17 @@
       "supersedes": "Clio Duo"
     },
     {
+      "name": "Mem",
+      "officialUrl": "https://mem.ai/",
+      "evidenceUrls": [
+        "https://get.mem.ai/blog/product-update-roundup-calendar-integration-claude-connector-referral-program-plus-experimental-features-for-pro-users",
+        "https://get.mem.ai/blog/your-favorite-llms-can-now-use-your-second-brain-as-context"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed AI-native knowledge workspace for low-friction capture, semantic retrieval, meeting context, voice notes and external model connectors.",
+      "decision": "accepted"
+    },
+    {
       "name": "Meta AI",
       "officialUrl": "https://www.meta.ai/",
       "evidenceUrls": [
@@ -2578,6 +2662,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Napkin AI",
+      "officialUrl": "https://www.napkin.ai/",
+      "evidenceUrls": [
+        "https://www.napkin.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI visual-communication tool that converts text into editable diagrams, infographics, mind maps, charts and presentation-ready visual assets.",
+      "decision": "accepted"
+    },
+    {
       "name": "NotebookLM",
       "officialUrl": "https://notebook.google/",
       "evidenceUrls": [
@@ -2630,6 +2724,16 @@
       "decision": "accepted"
     },
     {
+      "name": "OpenHands",
+      "officialUrl": "https://openhands.dev/",
+      "evidenceUrls": [
+        "https://www.openhands.dev/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active open platform for coding agents spanning open-source agents, desktop, cloud, SDKs and an agent control plane for inspectable and extensible software work.",
+      "decision": "accepted"
+    },
+    {
       "name": "OpusClip",
       "officialUrl": "https://www.opus.pro/",
       "evidenceUrls": [
@@ -2647,6 +2751,16 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Conversational knowledge platform that captures meetings, transcribes speech, generates summaries and action items, searches past conversations and triggers downstream workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Paperpal",
+      "officialUrl": "https://paperpal.com/",
+      "evidenceUrls": [
+        "https://paperpal.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Academic AI writing and research platform for source-grounded drafting, language editing, citation checks, literature review, plagiarism checks and manuscript preparation.",
       "decision": "accepted"
     },
     {
@@ -2734,6 +2848,16 @@
       "decision": "accepted"
     },
     {
+      "name": "ProWritingAid",
+      "officialUrl": "https://prowritingaid.com/",
+      "evidenceUrls": [
+        "https://help.prowritingaid.com/article/297-does-prowritingaid-use-ai"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI-assisted editing platform for deep manuscript analysis, critique, revision and optional generative rewriting while preserving an author-first workflow.",
+      "decision": "accepted"
+    },
+    {
       "name": "Pydantic AI",
       "officialUrl": "https://ai.pydantic.dev/",
       "evidenceUrls": [
@@ -2764,6 +2888,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Current QuillBot creativity and writing platform for paraphrasing, rewriting, grammar, summarization, drafting and broader AI-assisted content workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Readwise Reader",
+      "officialUrl": "https://readwise.io/read",
+      "evidenceUrls": [
+        "https://docs.readwise.io/changelog",
+        "https://readwise.io/reader/update-aug2026"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed reading and knowledge workspace with global library chat, source-cited Ghostreader, MCP access, highlights, feeds, PDFs, video and mobile reading.",
       "decision": "accepted"
     },
     {
@@ -2826,6 +2961,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI app-building workspace that can generate, run and publish software from one environment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "ResearchRabbit",
+      "officialUrl": "https://www.researchrabbit.ai/",
+      "evidenceUrls": [
+        "https://www.researchrabbit.ai/releases/major-release-2026-07-09-2"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained literature-discovery workspace for exploring paper networks, maintaining reading lists, monitoring topics and evaluating connected research.",
       "decision": "accepted"
     },
     {
@@ -2919,6 +3064,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI-based content creation and optimization editor; the prior content-marketing URL was stale.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Semantic Scholar",
+      "officialUrl": "https://www.semanticscholar.org/",
+      "evidenceUrls": [
+        "https://allenai.org/ai-for-science",
+        "https://allenai.org/blog/asta-interaction-dataset"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Ai2's active free AI-powered scientific search and discovery service, backed by a large academic graph and integrated with newer Asta research tooling.",
       "decision": "accepted"
     },
     {
@@ -3018,6 +3174,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Sudowrite",
+      "officialUrl": "https://www.sudowrite.com/",
+      "evidenceUrls": [
+        "https://docs.sudowrite.com/getting-started/dQph1snuwbfMWG9wRjsNug/what-is-sudowrite/iwppfTjfffZTFaa7eBzJoQ",
+        "https://feedback.sudowrite.com/en/changelog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained fiction-writing environment for planning, drafting, rewriting, story bibles and long-form creative iteration with multiple current AI models.",
+      "decision": "accepted"
+    },
+    {
       "name": "Suno",
       "officialUrl": "https://suno.com/",
       "evidenceUrls": [
@@ -3051,6 +3218,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Tana",
+      "officialUrl": "https://tana.inc/",
+      "evidenceUrls": [
+        "https://tana.inc/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Tana's current product is an agentic meeting platform where AI agents participate in native calls, retain context and take actions across connected work systems.",
+      "decision": "accepted"
+    },
+    {
       "name": "Taskade",
       "officialUrl": "https://www.taskade.com/",
       "evidenceUrls": [
@@ -3060,6 +3237,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Actively developed AI workspace and app-building platform combining persistent agents, projects, knowledge, automations and multi-agent collaboration.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Tavily",
+      "officialUrl": "https://tavily.com/",
+      "evidenceUrls": [
+        "https://www.tavily.com/blog/tavily-on-x402",
+        "https://help.tavily.com/articles/4840311948-tavily-search-api"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Agent-focused web intelligence platform providing real-time search, extraction and research APIs designed for LLM and autonomous-agent workflows.",
       "decision": "accepted"
     },
     {
@@ -3210,6 +3398,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI recruiting agent inside Workable for sourcing, screening, outreach and top-of-funnel hiring workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Writer",
+      "officialUrl": "https://writer.com/",
+      "evidenceUrls": [
+        "https://writer.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Enterprise AI platform centered on governed agents, playbooks, memory, company knowledge and always-on workflows for marketing and revenue organizations.",
       "decision": "accepted"
     },
     {
@@ -3556,12 +3754,12 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-20",
-  "lastQualityReviewBatch": "legacy-a-013",
+  "lastQualityReviewBatch": "legacy-a-014",
   "lastQualityReviewBatchSummary": {
-    "accepted": 13,
+    "accepted": 19,
     "updated": 0,
     "superseded": 0,
-    "merged": 1,
+    "merged": 0,
     "removed": 0
   }
 }
