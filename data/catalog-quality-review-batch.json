@@ -1,127 +1,58 @@
 {
-  "batchId": "legacy-a-026",
+  "batchId": "legacy-a-027",
   "reviewedAt": "2026-09-21",
   "accept": [
     {
-      "name": "SWE-agent",
-      "officialUrl": "https://swe-agent.com/",
+      "name": "Pitch",
+      "officialUrl": "https://pitch.com/",
       "evidenceUrls": [
-        "https://github.com/SWE-agent/SWE-agent/releases",
-        "https://swe-agent.com/"
+        "https://pitch.com/use-cases/ai-presentation-maker",
+        "https://help.pitch.com/en/articles/14981091-pitch-agent",
+        "https://pitch.com/whats-new"
       ],
-      "userValue": "Active open-source software-engineering agent and research platform for resolving repository issues, evaluating agent behavior and generating training trajectories.",
-      "description": "Open-source software-engineering agent for resolving repository issues, evaluation and agent research.",
-      "useCase": "For researchers and developers experimenting with autonomous code changes, SWE-bench-style tasks and reproducible software-agent workflows."
+      "userValue": "Actively developed AI presentation workspace with Pitch Agent for generating on-brand decks from prompts and files, refining them through chat, collaborating, sharing and tracking engagement.",
+      "description": "AI presentation workspace with Pitch Agent for generating, editing, collaborating on and delivering on-brand decks.",
+      "useCase": "For teams that want AI-generated presentations to remain fully editable, brand-controlled and connected to collaborative sales or business workflows."
     },
     {
-      "name": "Goose",
-      "officialUrl": "https://block.github.io/goose/",
+      "name": "SlidesAI.io",
+      "officialUrl": "https://www.slidesai.io/",
       "evidenceUrls": [
-        "https://block.github.io/goose/"
+        "https://www.slidesai.io/",
+        "https://help.slidesai.io/what-is-slidesai-0gye5",
+        "https://help.slidesai.io/"
       ],
-      "userValue": "Active open-source general-purpose local agent now governed under the Agentic AI Foundation, with desktop, CLI and API surfaces plus MCP and ACP interoperability.",
-      "description": "Open-source local agent with desktop, CLI and API interfaces plus MCP and ACP integrations.",
-      "useCase": "For developers who want a vendor-neutral local agent for coding, research, automation and tool-connected workflows."
+      "userValue": "Active AI presentation platform that turns prompts, notes and documents into editable decks across its web app, Google Slides, PowerPoint and ChatGPT workflows.",
+      "description": "AI presentation platform for turning prompts, notes and documents into editable decks across web, Google Slides and PowerPoint.",
+      "useCase": "For students and professionals who want AI-generated first drafts while keeping presentations inside familiar slide tools and export formats."
     },
     {
-      "name": "JetBrains Junie",
-      "officialUrl": "https://www.jetbrains.com/junie/",
+      "name": "Presentations.AI",
+      "officialUrl": "https://www.presentations.ai/",
       "evidenceUrls": [
-        "https://blog.jetbrains.com/junie/2026/06/junie-coding-agent-out-of-beta/",
-        "https://junie.jetbrains.com/"
+        "https://www.presentations.ai/",
+        "https://www.presentations.ai/ai-instructions",
+        "https://www.presentations.ai/features"
       ],
-      "userValue": "JetBrains' active coding agent for terminal and IDE workflows, with project-aware planning, debugging, review and multi-model support.",
-      "description": "JetBrains coding agent for terminal and IDE workflows with project-aware planning, debugging and review.",
-      "useCase": "For JetBrains users who want to delegate multi-step implementation work while keeping the agent connected to IDE project context and tools."
+      "userValue": "Active AI-native presentation platform for turning prompts, documents, URLs and business data into branded PowerPoint decks, recurring refreshed presentations and API-generated slide workflows.",
+      "description": "AI-native presentation platform for branded deck generation, data-connected refresh and scalable PowerPoint workflows.",
+      "useCase": "For business teams that want AI to structure, design, brand and update recurring presentations or generate decks programmatically."
     },
     {
-      "name": "IBM watsonx Code Assistant",
-      "officialUrl": "https://www.ibm.com/products/watsonx-code-assistant",
+      "name": "Prezi AI",
+      "officialUrl": "https://prezi.com/ai/",
       "evidenceUrls": [
-        "https://www.ibm.com/products/watsonx-code-assistant",
-        "https://www.ibm.com/docs/en/software-hub/5.4.x?topic=new-watsonx-code-assistant"
+        "https://support.prezi.com/hc/en-us/articles/360050232633-What-s-new-in-Prezi-Product-updates",
+        "https://prezi.com/blog/whats-new-in-prezi-ai-2026-features/",
+        "https://support.prezi.com/hc/en-us/articles/22436099469847-How-to-use-Prezi-AI-to-design-your-presentation"
       ],
-      "userValue": "Actively maintained IBM enterprise coding assistant for code generation, explanation, transformation and modernization in governed software-development environments.",
-      "description": "IBM enterprise coding assistant for generation, explanation, transformation and application modernization.",
-      "useCase": "For organizations that need AI coding help inside governed enterprise environments, including modernization of existing application estates."
-    },
-    {
-      "name": "ScrapeGraphAI",
-      "officialUrl": "https://scrapegraphai.com/",
-      "evidenceUrls": [
-        "https://scrapegraphai.com/",
-        "https://scrapegraphai.com/blog/category/product-updates"
-      ],
-      "userValue": "Actively developed AI web-data platform for scraping, natural-language structured extraction, search, crawling, monitoring and agent integrations through APIs and MCP.",
-      "description": "AI web-data platform for scraping, structured extraction, search, crawling and monitoring.",
-      "useCase": "For developers who want LLM-ready or schema-constrained web data without maintaining selectors and custom parsers for every site."
-    },
-    {
-      "name": "Zyte",
-      "officialUrl": "https://www.zyte.com/",
-      "evidenceUrls": [
-        "https://www.zyte.com/zyte-api/ai-extraction/",
-        "https://www.zyte.com/"
-      ],
-      "userValue": "Active web-data extraction platform combining browser infrastructure, anti-blocking and AI extraction for structured page data without hand-written parsers.",
-      "description": "Web-data extraction platform with browser infrastructure, anti-blocking and AI-powered structured extraction.",
-      "useCase": "For teams collecting web data at scale that want managed access, rendering and extraction instead of operating a full scraping stack."
-    },
-    {
-      "name": "Stagehand",
-      "officialUrl": "https://www.stagehand.dev/",
-      "evidenceUrls": [
-        "https://www.browserbase.com/blog/stagehand",
-        "https://www.browserbase.com/changelog/stagehand-v4"
-      ],
-      "userValue": "Actively developed open-source SDK from Browserbase for browser agents, combining natural-language actions with deterministic automation, self-healing behavior and current v4 agent infrastructure.",
-      "description": "Open-source SDK for browser agents that combines natural-language actions with deterministic browser automation.",
-      "useCase": "For developers building browser agents that need more resilience than selector-only automation while retaining code-level control."
-    },
-    {
-      "name": "Jina AI Reader",
-      "officialUrl": "https://jina.ai/reader/",
-      "evidenceUrls": [
-        "https://jina.ai/reader/"
-      ],
-      "userValue": "Active Jina Reader and Search API service for converting public webpages into LLM-friendly content, web search results and MCP-accessible context.",
-      "description": "Web reader and search APIs for converting public pages into LLM-friendly content and agent context.",
-      "useCase": "For developers feeding cleaner web content into research, RAG, search and agent workflows with minimal retrieval plumbing."
-    },
-    {
-      "name": "Unstructured",
-      "officialUrl": "https://unstructured.io/",
-      "evidenceUrls": [
-        "https://unstructured.io/",
-        "https://unstructured.io/platform-terms-of-service"
-      ],
-      "userValue": "Active document-processing platform and open-source ecosystem for parsing, partitioning and transforming complex files into structured inputs for retrieval and AI pipelines.",
-      "description": "Document-processing platform for parsing and transforming complex files into structured AI-ready data.",
-      "useCase": "For developers preparing PDFs, office documents and other unstructured files for RAG, search and knowledge systems."
-    },
-    {
-      "name": "Skyvern",
-      "officialUrl": "https://www.skyvern.com/",
-      "evidenceUrls": [
-        "https://www.skyvern.com/",
-        "https://www.skyvern.com/blog/skyvern-changelog-july-2026/"
-      ],
-      "userValue": "Actively developed AI browser-automation and agentic process automation platform for authenticated, visual and multi-step workflows across websites without brittle selectors.",
-      "description": "AI browser-automation platform for authenticated, visual and multi-step workflows across websites.",
-      "useCase": "For operations and development teams automating portal work, extraction, form filling and browser tasks that lack reliable APIs."
+      "userValue": "Actively developed Prezi AI presentation experience for prompt- and file-driven deck creation, dynamic visual storytelling, audience engagement and editable PowerPoint export.",
+      "description": "AI presentation experience for dynamic visual storytelling, prompt/file generation, audience engagement and PowerPoint export.",
+      "useCase": "For presenters who want AI-assisted deck creation combined with Prezi's non-linear visual storytelling and interactive audience features."
     }
   ],
   "update": [],
   "supersede": [],
   "mergeInto": [],
-  "remove": [
-    {
-      "name": "GitHub Spark",
-      "evidenceUrls": [
-        "https://github.com/orgs/community/discussions/203602",
-        "https://docs.github.com/en/copilot/tutorials/spark/your-first-spark"
-      ],
-      "reason": "GitHub officially deprecated Spark on August 31, 2026 after stopping new-user access and new app creation on August 4, so it no longer meets the active-product quality gate."
-    }
-  ]
+  "remove": []
 }
