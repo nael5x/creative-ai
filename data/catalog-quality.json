@@ -2089,6 +2089,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Hailuo AI",
+      "officialUrl": "https://hailuoai.video/",
+      "evidenceUrls": [
+        "https://hailuoai.video/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active MiniMax consumer video-generation platform for image-to-video, text-guided video and reference-driven creative workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Hebbia",
       "officialUrl": "https://www.hebbia.com/",
       "evidenceUrls": [
@@ -2160,6 +2170,17 @@
       "decision": "accepted"
     },
     {
+      "name": "InVideo AI",
+      "officialUrl": "https://invideo.io/ai/",
+      "evidenceUrls": [
+        "https://help.invideo.io/en/articles/14717491-get-started-with-ai-filmmaking",
+        "https://invideo.io/news/introducing-invideo-editor/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Agentic AI video-creation platform that can plan, script, storyboard, generate and edit videos across a large model catalog, with a controllable browser-based editor.",
+      "decision": "accepted"
+    },
+    {
       "name": "Jacquard",
       "officialUrl": "https://www.jacquard.com/",
       "evidenceUrls": [
@@ -2220,6 +2241,16 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Creative AI suite for image, video and 3D generation, editing, enhancement and fine-tuning across multiple current models.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Krisp",
+      "officialUrl": "https://krisp.ai/",
+      "evidenceUrls": [
+        "https://krisp.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Voice AI platform for meeting audio cleanup, noise cancellation, transcription, notes and meeting assistance across communication apps.",
       "decision": "accepted"
     },
     {
@@ -2501,6 +2532,26 @@
       "decision": "accepted"
     },
     {
+      "name": "OpusClip",
+      "officialUrl": "https://www.opus.pro/",
+      "evidenceUrls": [
+        "https://www.opus.pro/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI clipping and repurposing platform for turning long-form video into social-ready shorts with automated clipping, captions, reframing and publishing.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Otter.ai",
+      "officialUrl": "https://otter.ai/",
+      "evidenceUrls": [
+        "https://otter.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Conversational knowledge platform that captures meetings, transcribes speech, generates summaries and action items, searches past conversations and triggers downstream workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Perplexity",
       "officialUrl": "https://www.perplexity.ai/",
       "evidenceUrls": [
@@ -2658,6 +2709,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Resemble AI",
+      "officialUrl": "https://www.resemble.ai/",
+      "evidenceUrls": [
+        "https://www.resemble.ai/",
+        "https://www.resemble.ai/changelog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI voice and media-authenticity platform spanning synthetic voice generation, cloning, speech workflows, watermarking and multimodal deepfake detection.",
+      "decision": "accepted"
+    },
+    {
       "name": "Riverside",
       "officialUrl": "https://riverside.com/",
       "evidenceUrls": [
@@ -2759,6 +2821,27 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI-assisted social media planning, caption/image generation and channel-specific post customization.",
+      "decision": "accepted"
+    },
+    {
+      "name": "SOUNDRAW",
+      "officialUrl": "https://soundraw.io/",
+      "evidenceUrls": [
+        "https://soundraw.io/blog/post/introducing-the-latest-updates-soundraw-release-log",
+        "https://soundraw.io/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained AI music-generation platform focused on customizable creator music, ethical training claims, commercial-use workflows and API access.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Speechify",
+      "officialUrl": "https://speechify.com/",
+      "evidenceUrls": [
+        "https://speechify.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI speech and reading platform for high-quality text-to-speech, voice typing and listening workflows across documents, webpages and apps.",
       "decision": "accepted"
     },
     {
@@ -2869,6 +2952,16 @@
       "decision": "accepted"
     },
     {
+      "name": "tl;dv",
+      "officialUrl": "https://tldv.io/",
+      "evidenceUrls": [
+        "https://tldv.io/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI meeting recorder and notetaker for Zoom, Google Meet and Teams with searchable recordings, summaries, clips and conversation insights.",
+      "decision": "accepted"
+    },
+    {
       "name": "Turbo AI",
       "officialUrl": "https://www.turbo.ai/",
       "evidenceUrls": [
@@ -2877,6 +2970,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Current identity of Turbolearn AI with the same accounts and study workflows under the Turbo AI name.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Udio",
+      "officialUrl": "https://www.udio.com/",
+      "evidenceUrls": [
+        "https://www.udio.com/",
+        "https://help.udio.com/en/articles/11386622-ios-app"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active AI music-generation platform for creating, extending and iterating on songs from prompts across web and official iOS experiences.",
       "decision": "accepted"
     },
     {
@@ -3266,6 +3370,18 @@
       "userValue": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename.",
       "decision": "rejected",
       "reason": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename."
+    },
+    {
+      "name": "Sora",
+      "officialUrl": "https://openai.com/sora/",
+      "evidenceUrls": [
+        "https://openai.com/index/sora-is-here/",
+        "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "OpenAI discontinued the Sora web and app experiences on April 26, 2026 and announced that the Sora API will be discontinued on September 24, 2026, so Sora no longer meets the active-product quality gate.",
+      "decision": "rejected",
+      "reason": "OpenAI discontinued the Sora web and app experiences on April 26, 2026 and announced that the Sora API will be discontinued on September 24, 2026, so Sora no longer meets the active-product quality gate."
     }
   ],
   "lastAuditFixesAt": "2026-09-14",
@@ -3284,12 +3400,12 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-20",
-  "lastQualityReviewBatch": "legacy-a-011",
+  "lastQualityReviewBatch": "legacy-a-012",
   "lastQualityReviewBatchSummary": {
-    "accepted": 14,
+    "accepted": 10,
     "updated": 0,
     "superseded": 0,
     "merged": 0,
-    "removed": 0
+    "removed": 1
   }
 }

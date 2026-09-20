@@ -672,14 +672,6 @@
     "https://www.magnific.com/"
   ],
   [
-    "Sora",
-    "Video",
-    "OpenAI video generation product for creating and remixing video from prompts and media.",
-    "For generative video experiments within the OpenAI creative ecosystem.",
-    "Paid",
-    "https://openai.com/sora/"
-  ],
-  [
     "Kling AI",
     "Video",
     "Generative video and image platform for text-to-video and image-to-video creation.",
@@ -690,8 +682,8 @@
   [
     "Hailuo AI",
     "Video",
-    "AI video generation platform for turning prompts and images into short video clips.",
-    "For rapid experimentation with image-to-video and text-to-video concepts.",
+    "MiniMax AI video platform for image-to-video, text-guided video and reference-driven generation.",
+    "For creators who want fast short-form video generation from prompts, images and reference subjects.",
     "Free tier / Paid",
     "https://hailuoai.video/"
   ],
@@ -714,24 +706,24 @@
   [
     "InVideo AI",
     "Video",
-    "Prompt-driven video creation platform for scripts, visuals, voice and editing.",
-    "For turning a written idea into a complete marketing or social video draft.",
+    "Agentic AI video platform for planning, scripting, generating and editing complete videos.",
+    "For creators and teams who want an AI agent to take a concept from script through generated scenes and final edit while retaining timeline control.",
     "Free tier / Paid",
     "https://invideo.io/ai/"
   ],
   [
     "OpusClip",
     "Video",
-    "AI clipping tool that repurposes longer videos into shorter social clips.",
-    "For creators who want to extract and reformat highlights from long-form video.",
+    "AI video repurposing platform for clipping, captioning, reframing and publishing long-form content as shorts.",
+    "For creators and teams that want to turn podcasts, interviews, webinars and long videos into multiple social clips quickly.",
     "Free tier / Paid",
     "https://www.opus.pro/"
   ],
   [
     "Otter.ai",
     "Voice & audio",
-    "AI meeting transcription, summaries and searchable conversation notes.",
-    "For teams and individuals who want automatic notes and transcripts from meetings.",
+    "AI conversational knowledge platform for meeting capture, transcription, summaries, search and workflow automation.",
+    "For teams that want searchable meeting knowledge, automatic notes and action items, and integrations that push conversation outcomes into business tools.",
     "Free tier / Paid",
     "https://otter.ai/"
   ],
@@ -754,32 +746,32 @@
   [
     "tl;dv",
     "Voice & audio",
-    "AI meeting recorder and notetaker for video calls, summaries and conversation insights.",
-    "For teams that need searchable recordings and summarized meetings across common conferencing tools.",
+    "AI meeting recorder and notetaker with searchable recordings, summaries, clips and conversation insights.",
+    "For teams that want a searchable record of calls plus automatic summaries and reusable meeting highlights.",
     "Free tier / Paid",
     "https://tldv.io/"
   ],
   [
     "Krisp",
     "Voice & audio",
-    "AI audio and meeting tools for noise cancellation, transcription and meeting assistance.",
-    "For clearer calls and lightweight meeting intelligence in noisy environments.",
+    "Voice AI platform for noise cancellation, transcription, meeting notes and call-quality assistance.",
+    "For people and teams that need clearer calls plus lightweight AI meeting capture and follow-up.",
     "Free tier / Paid",
     "https://krisp.ai/"
   ],
   [
     "Speechify",
     "Voice & audio",
-    "Text-to-speech platform for listening to documents, webpages and generated voice content.",
-    "For accessibility, study and turning written material into spoken audio.",
+    "AI speech and reading platform for text-to-speech, voice typing and listening workflows.",
+    "For accessibility, study and productivity when users want written content read aloud or converted into natural speech.",
     "Free tier / Paid",
     "https://speechify.com/"
   ],
   [
     "Resemble AI",
     "Voice & audio",
-    "AI voice platform for text-to-speech, voice cloning and speech applications.",
-    "For developers and teams building custom synthetic voice experiences.",
+    "AI voice and media-authenticity platform for synthetic speech, voice cloning, watermarking and deepfake detection.",
+    "For developers and enterprises building voice experiences or protecting audio, image and video workflows against synthetic-media abuse.",
     "Free tier / Paid",
     "https://www.resemble.ai/"
   ],
@@ -794,8 +786,8 @@
   [
     "Udio",
     "Music",
-    "AI music generation platform for creating and extending songs from prompts.",
-    "For musicians and creators experimenting with generated songs and musical ideas.",
+    "AI music-generation platform for creating, extending and iterating on songs from prompts.",
+    "For musicians and creators experimenting with generated songs, arrangements and musical ideas.",
     "Free tier / Paid",
     "https://www.udio.com/"
   ],
@@ -810,8 +802,8 @@
   [
     "SOUNDRAW",
     "Music",
-    "AI music generator oriented toward royalty-aware creator workflows.",
-    "For producing customizable background tracks for videos and digital content.",
+    "AI music generator for customizable creator tracks, commercial workflows and API-based music production.",
+    "For creators and developers who need adjustable background music for video, apps and commercial media.",
     "Free tier / Paid",
     "https://soundraw.io/"
   ],
