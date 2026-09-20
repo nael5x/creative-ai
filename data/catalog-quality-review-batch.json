@@ -1,177 +1,122 @@
 {
-  "batchId": "legacy-a-022",
+  "batchId": "legacy-a-023",
   "reviewedAt": "2026-09-21",
   "accept": [
     {
-      "name": "Ramp Intelligence",
-      "officialUrl": "https://ramp.com/intelligence",
+      "name": "Microsoft Security Copilot",
+      "officialUrl": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
       "evidenceUrls": [
-        "https://ramp.com/intelligence",
-        "https://ramp.com/new-on-ramp-q2-2026",
-        "https://ramp.com/product-releases"
+        "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+        "https://learn.microsoft.com/en-us/copilot/security/agents-overview",
+        "https://learn.microsoft.com/en-us/copilot/security/agents-security-copilot"
       ],
-      "userValue": "Ramp's active AI and agent layer for finance operations across spend controls, expenses, accounts payable, procurement, policy enforcement and accounting workflows.",
-      "description": "AI and agent layer across Ramp for spend controls, expenses, AP, procurement and finance operations.",
-      "useCase": "For finance teams that want policy checks, coding, approvals and other operational finance work automated inside their spend-management stack."
+      "userValue": "Active Microsoft security AI and agent platform embedded across Defender, Entra, Intune and Purview for investigation, threat intelligence and repeatable security workflows.",
+      "description": "Microsoft security AI and agent platform for investigation, threat intelligence and automated security workflows.",
+      "useCase": "For Microsoft security teams that want agents and AI assistance embedded in incident investigation, identity, endpoint, data and threat-intelligence workflows."
     },
     {
-      "name": "Vic.ai",
-      "officialUrl": "https://www.vic.ai/",
+      "name": "Snyk AI",
+      "officialUrl": "https://snyk.io/platform/deepcode-ai/",
       "evidenceUrls": [
-        "https://www.vic.ai/",
-        "https://www.vic.ai/blog/q1-2026-product-release-expanding-autonomy-across-the-ap-lifecycle",
-        "https://www.vic.ai/blog/ap-automation-for-sap"
+        "https://snyk.io/platform/deepcode-ai/"
       ],
-      "userValue": "Active AI-first accounts-payable platform for autonomous invoice capture, coding, matching, approvals, ERP posting, expense workflows and AP analytics.",
-      "description": "AI-first accounts-payable and expense automation platform for invoice processing, approvals and ERP workflows.",
-      "useCase": "For accounting teams reducing manual invoice handling, coding, matching and approval work across high-volume AP operations."
+      "userValue": "Active AI application-security layer powered by DeepCode AI for finding, prioritizing and autofixing vulnerabilities in developer workflows.",
+      "description": "AI application-security capabilities for vulnerability detection, prioritization and developer-focused remediation.",
+      "useCase": "For development and AppSec teams that want AI-assisted security findings and fixes integrated earlier into the software-development lifecycle."
     },
     {
-      "name": "Puzzle",
-      "officialUrl": "https://puzzle.io/",
+      "name": "GitGuardian",
+      "officialUrl": "https://www.gitguardian.com/",
       "evidenceUrls": [
-        "https://puzzle.io/",
-        "https://puzzle.io/blog/introducing-puzzle-2-0"
+        "https://docs.gitguardian.com/platform/ai/home",
+        "https://docs.gitguardian.com/releases/saas/2026/08/27/changelog"
       ],
-      "userValue": "Puzzle 2.0 is an active AI accounting platform combining software automation with accounting service workflows to produce startup books, financial statements and operating metrics.",
-      "description": "AI accounting platform for automated books, financial statements and startup finance workflows.",
-      "useCase": "For startups that want bookkeeping software, financial visibility and accounting support in one modern workflow."
+      "userValue": "Active secrets-security platform with AI for false-positive reduction, risk prioritization, secret enrichment, remediation guidance and public-leak ownership analysis.",
+      "description": "Secrets-security platform with AI-assisted risk prioritization, enrichment, remediation and public-leak analysis.",
+      "useCase": "For engineering and security teams discovering and prioritizing exposed credentials and non-human identity risks across source code and public repositories."
     },
     {
-      "name": "Zeni",
-      "officialUrl": "https://www.zeni.ai/",
+      "name": "HiddenLayer",
+      "officialUrl": "https://hiddenlayer.com/",
       "evidenceUrls": [
-        "https://www.zeni.ai/",
-        "https://www.zeni.ai/ai-agents/ai-accountant-agent",
-        "https://www.zeni.ai/about-us"
+        "https://www.hiddenlayer.com/platform",
+        "https://www.hiddenlayer.com/platform/ai-runtime-security"
       ],
-      "userValue": "Active AI-native finance platform combining bookkeeping, an AI Accountant, AI CFO capabilities, bill pay, reporting and human finance support for startups.",
-      "description": "AI-native bookkeeping and finance platform with AI Accountant and AI CFO agents plus human support.",
-      "useCase": "For startups that want routine accounting and finance operations handled through a combination of AI agents and finance professionals."
+      "userValue": "Active AI security platform spanning lifecycle visibility, testing, hardening and runtime protection for models, applications, agents and agentic workflows.",
+      "description": "AI security platform for lifecycle visibility, testing, hardening and runtime protection across models and agents.",
+      "useCase": "For enterprises that need AI-specific posture and runtime controls against prompt attacks, data exposure, unsafe actions and other model or agent threats."
     },
     {
-      "name": "Trullion",
-      "officialUrl": "https://trullion.com/",
+      "name": "Prompt Security",
+      "officialUrl": "https://prompt.security/",
       "evidenceUrls": [
-        "https://trullion.com/",
-        "https://trullion.com/products/ai-agent-trulli/",
-        "https://trullion.com/products/platform/"
+        "https://prompt.security/",
+        "https://www.sentinelone.com/press/sentinelone-announces-ai-security-integration-with-amazon-bedrock-agentcore-to-deliver-runtime-guardrails-for-ai-agents/",
+        "https://prompt.security/solutions/agentic-ai-security-and-governance"
       ],
-      "userValue": "Active auditable-AI accounting platform with source-grounded agents, document intelligence and workflows for accounting, audit and financial review.",
-      "description": "Auditable AI accounting and audit platform with source-grounded agents and financial document workflows.",
-      "useCase": "For finance and audit teams that need AI-assisted accounting work with traceable source evidence and reviewable outputs."
+      "userValue": "Active SentinelOne AI-security offering for workforce AI governance, application guardrails, agentic AI security, MCP visibility and AI red teaming.",
+      "description": "SentinelOne AI-security platform for workforce AI governance, application guardrails, agent security and red teaming.",
+      "useCase": "For security teams governing employee AI usage and protecting homegrown AI applications, code assistants and agents at runtime."
     },
     {
-      "name": "Numeric",
-      "officialUrl": "https://www.numeric.io/",
+      "name": "Mindgard",
+      "officialUrl": "https://mindgard.ai/",
       "evidenceUrls": [
-        "https://www.numeric.io/product/ai-in-numeric",
-        "https://www.numeric.io/blog/ai-accounting-tools",
-        "https://www.numeric.io/blog/numeric-mcp-server"
+        "https://mindgard.ai/",
+        "https://mindgard.ai/ai-security-platform",
+        "https://mindgard.ai/blog/mindgard-unveils-first-autonomous-ai-security-platform-to-identify-and-fix-exploitable-vulnerabilities"
       ],
-      "userValue": "Active accounting-close platform with AI for reconciliations, variance analysis, flux explanations, reporting, finance Q&A and agent-connected workflows through MCP.",
-      "description": "AI close and accounting automation platform for reconciliations, variance analysis, reporting and connected agent workflows.",
-      "useCase": "For accounting teams accelerating close, reconciliations and financial analysis while keeping results inside structured finance processes."
+      "userValue": "Active autonomous AI-security testing platform for discovery, reconnaissance, red teaming, assessment and runtime protection across models, agents and AI applications.",
+      "description": "Autonomous AI-security platform for discovery, red teaming, assessment and runtime protection.",
+      "useCase": "For security teams that want continuous adversarial testing and AI-specific attack-surface analysis before and after production deployment."
     },
     {
-      "name": "Nabla",
-      "officialUrl": "https://www.nabla.com/",
+      "name": "Pillar Security",
+      "officialUrl": "https://www.pillar.security/",
       "evidenceUrls": [
-        "https://www.nabla.com/",
-        "https://help.nabla.com/en/articles/781954"
+        "https://www.pillar.security/",
+        "https://www.pillar.security/blog/pillar-launches-red-graph-suite-version-controlled-contextual-and-continuous-ai-red-teaming"
       ],
-      "userValue": "Active ambient clinical AI assistant for encounter capture and documentation, generating structured notes from clinical conversations across supported specialties and languages.",
-      "description": "Ambient clinical AI assistant for encounter capture, structured notes and documentation workflows.",
-      "useCase": "For clinicians who want to reduce manual documentation during patient visits while retaining clinical review of generated notes."
+      "userValue": "Active agentic-AI security platform for discovery, posture management, red teaming, runtime protection and governance across agents, MCP servers, skills and AI supply chains.",
+      "description": "Agentic-AI security platform for discovery, posture, red teaming, runtime protection and governance.",
+      "useCase": "For organizations that need lifecycle security and governance across AI agents, MCP integrations, models and connected toolchains."
     },
     {
-      "name": "Suki",
-      "officialUrl": "https://www.suki.ai/",
+      "name": "Noma Security",
+      "officialUrl": "https://noma.security/",
       "evidenceUrls": [
-        "https://www.suki.ai/clinicians/",
-        "https://www.suki.ai/press-releases/suki-launches-science-at-suki-to-set-a-new-standard-for-healthcare-ai/"
+        "https://noma.security/",
+        "https://noma.security/platform",
+        "https://noma.security/blog/noma-launches-agentic-access-control-to-govern-ai-agents-and-mcp-servers-across-the-enterprise"
       ],
-      "userValue": "Active ambient clinical intelligence platform for chart-aware assistance, documentation, dictation, clinical Q&A and EHR-integrated workflows.",
-      "description": "Ambient clinical intelligence platform for documentation, chart-aware assistance, dictation and EHR workflows.",
-      "useCase": "For clinicians who want AI assistance before, during and after encounters while keeping documentation integrated with existing clinical systems."
-    },
-    {
-      "name": "Heidi Health",
-      "officialUrl": "https://www.heidihealth.com/",
-      "evidenceUrls": [
-        "https://www.heidihealth.com/",
-        "https://support.heidihealth.com/en/articles/8885059-what-is-heidi"
-      ],
-      "userValue": "Active AI medical scribe for consultation transcription and clinician-reviewed notes, referral letters, summaries and related documentation.",
-      "description": "AI medical scribe for consultation transcription, notes, referral letters and patient summaries.",
-      "useCase": "For clinicians who want draft documentation generated from encounters while retaining responsibility for review and finalization."
-    },
-    {
-      "name": "Glass Health",
-      "officialUrl": "https://glass.health/",
-      "evidenceUrls": [
-        "https://glass.health/privacy",
-        "https://glass.health/resources/ai-diagnosis"
-      ],
-      "userValue": "Active clinician-facing clinical intelligence workspace for differential-diagnosis support, treatment-planning assistance, documentation and evidence-aware medical Q&A.",
-      "description": "Clinical intelligence workspace for clinician-facing differential-diagnosis support, treatment planning, documentation and medical Q&A.",
-      "useCase": "For clinicians using AI as decision-support and documentation assistance alongside professional judgment rather than as an autonomous diagnostic system."
-    },
-    {
-      "name": "OpenEvidence",
-      "officialUrl": "https://www.openevidence.com/",
-      "evidenceUrls": [
-        "https://takehome.openevidence.com/"
-      ],
-      "userValue": "Active medical knowledge and evidence platform for clinicians that integrates licensed journal, guideline and clinical-reference sources into search and evidence-review workflows.",
-      "description": "Medical knowledge and evidence platform for clinicians using licensed journal, guideline and clinical-reference sources.",
-      "useCase": "For healthcare professionals looking up clinical literature and evidence quickly while retaining access to underlying medical sources."
-    },
-    {
-      "name": "Notable",
-      "officialUrl": "https://www.notablehealth.com/",
-      "evidenceUrls": [
-        "https://www.notablehealth.com/",
-        "https://www.notablehealth.com/ai-platform/overview",
-        "https://www.notablehealth.com/blog/notable-names-dr-nicholas-desai-as-chief-medical-officer-to-drive-enterprise-ai-impact"
-      ],
-      "userValue": "Active healthcare AI-agent platform for patient access, revenue cycle and care operations with configurable workflows across health-system administrative processes.",
-      "description": "Healthcare AI-agent platform for patient access, revenue-cycle and care-operations workflows.",
-      "useCase": "For health systems automating administrative work such as scheduling, intake, outreach and operational coordination."
-    },
-    {
-      "name": "Hippocratic AI",
-      "officialUrl": "https://www.hippocraticai.com/",
-      "evidenceUrls": [
-        "https://hippocraticai.com/"
-      ],
-      "userValue": "Active healthcare generative-AI agent platform focused on non-diagnostic patient and operational workflows, with escalation and safety controls.",
-      "description": "Healthcare generative-AI agent platform for non-diagnostic patient and operational workflows with safety controls.",
-      "useCase": "For healthcare organizations deploying conversational agents for supported non-diagnostic tasks while maintaining escalation and clinical-safety boundaries."
-    },
-    {
-      "name": "Infermedica",
-      "officialUrl": "https://infermedica.com/",
-      "evidenceUrls": [
-        "https://infermedica.com/"
-      ],
-      "userValue": "Active clinical AI triage and care-navigation platform delivered through APIs and applications for structured symptom assessment and routing.",
-      "description": "Clinical AI triage and care-navigation platform for symptom assessment and routing through APIs and applications.",
-      "useCase": "For digital-health products and healthcare organizations adding structured symptom-intake and care-navigation workflows."
-    },
-    {
-      "name": "K Health",
-      "officialUrl": "https://khealth.com/",
-      "evidenceUrls": [
-        "https://khealth.com/"
-      ],
-      "userValue": "Active AI-supported virtual primary-care platform that combines digital symptom intake and longitudinal virtual-care workflows with licensed clinicians.",
-      "description": "AI-supported virtual primary-care platform combining digital symptom intake with clinician-led care workflows.",
-      "useCase": "For consumers using a virtual-care service where AI supports intake and care workflows rather than replacing licensed clinical judgment."
+      "userValue": "Active AI and agent security platform for discovery, posture, access control, red teaming and runtime detection across endpoint, SaaS and homegrown agents.",
+      "description": "AI and agent security platform for discovery, governance, access control, red teaming and runtime detection.",
+      "useCase": "For enterprises that need one control plane to inventory AI assets, govern agent permissions and detect risky behavior across different AI environments."
     }
   ],
   "update": [],
-  "supersede": [],
+  "supersede": [
+    {
+      "name": "Lakera",
+      "newName": "Check Point AI Security",
+      "url": "https://www.checkpoint.com/ai-security/",
+      "category": "Cybersecurity",
+      "description": "Check Point AI-security platform for workforce AI governance, AI application guardrails, agent discovery, risk assessment, runtime protection and red teaming.",
+      "useCase": "For enterprises that need unified discovery, governance and runtime protection across employee AI use, generative-AI applications and autonomous agents.",
+      "pricing": "Paid",
+      "firstTrackedAt": "2026-09-21T00:00:00Z",
+      "oldEvidenceUrls": [
+        "https://www.checkpoint.com/press-releases/check-point-acquires-lakera-to-deliver-end-to-end-ai-security-for-enterprises/"
+      ],
+      "newEvidenceUrls": [
+        "https://www.checkpoint.com/ai-security/",
+        "https://www.checkpoint.com/ai-security/ai-agent-security/",
+        "https://docs.lakera.ai/guard"
+      ],
+      "reason": "Check Point acquired Lakera and the current product documentation and commercial offering are now branded as Check Point AI Security, including AI Agent Security and AI Guardrails. Keeping Lakera as a separate current platform would preserve an outdated standalone identity.",
+      "userValue": "Check Point AI Security is the current platform carrying Lakera's runtime guardrail technology forward into a broader enterprise AI-security offering."
+    }
+  ],
   "mergeInto": [],
   "remove": []
 }
