@@ -2922,40 +2922,40 @@
   [
     "Lokalise AI",
     "Translation",
-    "AI translation and localization features inside the Lokalise platform.",
-    "For product teams localizing apps, websites and software content across languages.",
+    "AI localization features inside Lokalise for translation, quality scoring, contextual suggestions and agent-connected workflows.",
+    "For product and localization teams managing multilingual software and content with AI assistance grounded in glossaries, style guides and translation memory.",
     "Paid",
     "https://lokalise.com/ai/"
   ],
   [
     "Phrase",
     "Translation",
-    "Localization platform with machine translation, AI and workflow automation.",
-    "For global teams managing software and content translation at scale.",
+    "Enterprise localization platform for AI translation, quality evaluation, automation and human-agent workflows.",
+    "For global product and content teams that need governed translation workflows with automation, language assets and agent integrations.",
     "Paid",
     "https://phrase.com/"
   ],
   [
     "Smartcat",
     "Translation",
-    "AI translation and localization platform with human collaboration and enterprise workflows.",
-    "For organizations translating documents, websites and business content across many languages.",
+    "AI global-content and localization platform with adaptive agents, translation memory and expert-review workflows.",
+    "For organizations translating product, marketing and business content at scale while combining AI automation with optional human review.",
     "Free tier / Paid",
     "https://www.smartcat.com/"
   ],
   [
     "Unbabel",
     "Translation",
-    "AI-powered language operations platform combining automation with human review.",
-    "For customer support and enterprise teams localizing communication at scale.",
+    "AI language-operations platform combining translation automation, quality estimation and human review.",
+    "For enterprise teams localizing customer, product and business communication while retaining quality-control and human-review options.",
     "Paid",
     "https://unbabel.com/"
   ],
   [
     "Rask AI",
     "Translation",
-    "AI video localization platform for translation, dubbing and voice adaptation.",
-    "For creators and businesses republishing video content in multiple languages.",
+    "AI video and audio localization platform for translation, dubbing, voice cloning, lip sync and subtitles.",
+    "For media, education and marketing teams turning one source video into controlled multilingual versions without re-recording.",
     "Free tier / Paid",
     "https://www.rask.ai/"
   ],
@@ -2978,24 +2978,24 @@
   [
     "Maestra",
     "Translation",
-    "AI transcription, subtitle, translation and voiceover platform.",
-    "For teams turning audio and video into multilingual captions and dubbed content.",
+    "AI media-localization platform for transcription, translation, subtitles, dubbing and live multilingual audio.",
+    "For teams localizing recorded or live audio and video into multilingual captions, transcripts and dubbed content.",
     "Free tier / Paid",
     "https://maestra.ai/"
   ],
   [
     "Vozo",
     "Translation",
-    "AI video rewriting, dubbing and localization workspace.",
-    "For marketers and creators adapting existing videos for new languages and audiences.",
+    "AI video-localization platform for dubbing, lip sync, subtitles, voice preservation and visual text translation.",
+    "For creators and global teams adapting existing videos across languages while retaining control over terminology, timing, voices and on-screen text.",
     "Free tier / Paid",
     "https://www.vozo.ai/"
   ],
   [
     "Speechmatics",
     "Voice & audio",
-    "Speech recognition and transcription platform with APIs for multiple languages and accents.",
-    "For developers and enterprises adding speech-to-text to products and media workflows.",
+    "Speech-AI platform for real-time and batch transcription, multilingual recognition and voice-agent infrastructure.",
+    "For developers and enterprises adding production speech-to-text and multilingual voice understanding to applications and media workflows.",
     "Paid",
     "https://www.speechmatics.com/"
   ],

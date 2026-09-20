@@ -2894,6 +2894,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Lokalise AI",
+      "officialUrl": "https://lokalise.com/ai/",
+      "evidenceUrls": [
+        "https://lokalise.com/ai-statement/",
+        "https://docs.lokalise.com/en/collections/17223450-ai-features",
+        "https://lokalise.com/shipped-summer-2026/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI-enabled localization platform with automated translation, AI quality scoring, contextual suggestions, custom AI profiles and MCP-connected workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Loudly",
       "officialUrl": "https://www.loudly.com/",
       "evidenceUrls": [
@@ -2947,6 +2959,16 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Active Legal-Grade enterprise contract AI with institutional memory across drafting, negotiation, review, compliance and contract intelligence.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Maestra",
+      "officialUrl": "https://maestra.ai/",
+      "evidenceUrls": [
+        "https://maestra.ai/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active media-localization platform for on-demand and real-time transcription, translation, subtitles, dubbing, voice cloning and live multilingual audio workflows.",
       "decision": "accepted"
     },
     {
@@ -3527,6 +3549,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Phrase",
+      "officialUrl": "https://phrase.com/",
+      "evidenceUrls": [
+        "https://phrase.com/product-launch-june-2026/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active enterprise localization platform built for human-and-agent workflows, with AI translation, quality evaluation, APIs, MCP access and shared language assets.",
+      "decision": "accepted"
+    },
+    {
       "name": "Pika",
       "officialUrl": "https://pika.art/",
       "evidenceUrls": [
@@ -3753,6 +3785,18 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "RankIQ remains an active blogger-focused SEO product for keyword libraries and content optimization, now paired with the newer Aided content platform rather than fully replaced by it.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Rask AI",
+      "officialUrl": "https://www.rask.ai/",
+      "evidenceUrls": [
+        "https://www.rask.ai/llm-info",
+        "https://www.rask.ai/enterprise",
+        "https://www.rask.ai/use-cases/media-and-entertainment"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active video and audio localization platform for translation, AI dubbing, voice cloning, lip sync, subtitles and controlled multilingual production workflows.",
       "decision": "accepted"
     },
     {
@@ -4118,6 +4162,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Smartcat",
+      "officialUrl": "https://www.smartcat.com/",
+      "evidenceUrls": [
+        "https://www.smartcat.com/product-localization/",
+        "https://help.smartcat.com/how-smartcat-ai-chat-automates-and-scales-your-localization-workflows/",
+        "https://www.smartcat.com/news/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI global-content platform with adaptive localization agents, translation memory, expert review, integrations and multi-agent workflows for multilingual content operations.",
+      "decision": "accepted"
+    },
+    {
       "name": "Snyk AI",
       "officialUrl": "https://snyk.io/platform/deepcode-ai/",
       "evidenceUrls": [
@@ -4180,6 +4236,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "AI speech and reading platform for high-quality text-to-speech, voice typing and listening workflows across documents, webpages and apps.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Speechmatics",
+      "officialUrl": "https://www.speechmatics.com/",
+      "evidenceUrls": [
+        "https://www.speechmatics.com/",
+        "https://www.speechmatics.com/product/real-time"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active speech-AI platform providing real-time and batch speech recognition, multilingual transcription and voice-agent speech infrastructure through APIs.",
       "decision": "accepted"
     },
     {
@@ -4533,6 +4600,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Unbabel",
+      "officialUrl": "https://unbabel.com/",
+      "evidenceUrls": [
+        "https://unbabel.com/press-and-media/",
+        "https://insights.unbabel.com/ai-translations-from-unbabel",
+        "https://help.unbabel.com/hc/en-us/articles/29736962824343-Translator-Copilot"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI-powered language-operations platform combining machine translation, translation quality estimation and human review for enterprise multilingual workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "UPDF AI",
       "officialUrl": "https://updf.com/ai-tools/",
       "evidenceUrls": [
@@ -4651,6 +4730,18 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Actively developed enterprise AI customer-experience framework for designing, testing, deploying and iterating agentic chat and voice experiences.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Vozo",
+      "officialUrl": "https://www.vozo.ai/",
+      "evidenceUrls": [
+        "https://www.vozo.ai/",
+        "https://www.vozo.ai/about",
+        "https://www.vozo.ai/blogs/news/ai-pilot-rewrite-product-videos"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI video-localization platform for dubbing, lip sync, subtitles, voice preservation and on-screen text translation with editable production controls.",
       "decision": "accepted"
     },
     {
@@ -5177,11 +5268,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-21",
-  "lastQualityReviewBatch": "legacy-a-023",
+  "lastQualityReviewBatch": "legacy-a-024",
   "lastQualityReviewBatchSummary": {
     "accepted": 8,
     "updated": 0,
-    "superseded": 1,
+    "superseded": 0,
     "merged": 0,
     "removed": 0
   }
