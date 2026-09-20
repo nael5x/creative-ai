@@ -3677,6 +3677,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Pitch",
+      "officialUrl": "https://pitch.com/",
+      "evidenceUrls": [
+        "https://pitch.com/use-cases/ai-presentation-maker",
+        "https://help.pitch.com/en/articles/14981091-pitch-agent",
+        "https://pitch.com/whats-new"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed AI presentation workspace with Pitch Agent for generating on-brand decks from prompts and files, refining them through chat, collaborating, sharing and tracking engagement.",
+      "decision": "accepted"
+    },
+    {
       "name": "PixVerse",
       "officialUrl": "https://pixverse.ai/",
       "evidenceUrls": [
@@ -3761,6 +3773,30 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "AI social-media production and scheduling platform that generates brand-aligned posts, reels, carousels, captions and can publish them automatically across major channels.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Presentations.AI",
+      "officialUrl": "https://www.presentations.ai/",
+      "evidenceUrls": [
+        "https://www.presentations.ai/",
+        "https://www.presentations.ai/ai-instructions",
+        "https://www.presentations.ai/features"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI-native presentation platform for turning prompts, documents, URLs and business data into branded PowerPoint decks, recurring refreshed presentations and API-generated slide workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Prezi AI",
+      "officialUrl": "https://prezi.com/ai/",
+      "evidenceUrls": [
+        "https://support.prezi.com/hc/en-us/articles/360050232633-What-s-new-in-Prezi-Product-updates",
+        "https://prezi.com/blog/whats-new-in-prezi-ai-2026-features/",
+        "https://support.prezi.com/hc/en-us/articles/22436099469847-How-to-use-Prezi-AI-to-design-your-presentation"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed Prezi AI presentation experience for prompt- and file-driven deck creation, dynamic visual storytelling, audience engagement and editable PowerPoint export.",
       "decision": "accepted"
     },
     {
@@ -4267,6 +4303,18 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Actively developed AI browser-automation and agentic process automation platform for authenticated, visual and multi-step workflows across websites without brittle selectors.",
+      "decision": "accepted"
+    },
+    {
+      "name": "SlidesAI.io",
+      "officialUrl": "https://www.slidesai.io/",
+      "evidenceUrls": [
+        "https://www.slidesai.io/",
+        "https://help.slidesai.io/what-is-slidesai-0gye5",
+        "https://help.slidesai.io/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI presentation platform that turns prompts, notes and documents into editable decks across its web app, Google Slides, PowerPoint and ChatGPT workflows.",
       "decision": "accepted"
     },
     {
@@ -5455,12 +5503,12 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-21",
-  "lastQualityReviewBatch": "legacy-a-026",
+  "lastQualityReviewBatch": "legacy-a-027",
   "lastQualityReviewBatchSummary": {
-    "accepted": 10,
+    "accepted": 4,
     "updated": 0,
     "superseded": 0,
     "merged": 0,
-    "removed": 1
+    "removed": 0
   }
 }
