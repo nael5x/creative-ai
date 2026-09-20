@@ -1800,6 +1800,17 @@
       "decision": "accepted"
     },
     {
+      "name": "FeedHive",
+      "officialUrl": "https://www.feedhive.com/",
+      "evidenceUrls": [
+        "https://www.feedhive.com/",
+        "https://www.feedhive.com/features/ai"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI-assisted social media workspace for on-brand post generation, publishing automation, scheduling, collaboration and content reuse.",
+      "decision": "accepted"
+    },
+    {
       "name": "Fellow",
       "officialUrl": "https://fellow.ai/",
       "evidenceUrls": [
@@ -1810,6 +1821,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Felo",
+      "officialUrl": "https://felo.ai/",
+      "evidenceUrls": [
+        "https://felo.ai/",
+        "https://felo.ai/tools/research"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Multilingual AI research platform that searches web and academic sources, synthesizes findings and produces cited reports, presentations and mind maps.",
+      "decision": "accepted"
+    },
+    {
       "name": "Figma AI",
       "officialUrl": "https://www.figma.com/",
       "evidenceUrls": [
@@ -1817,6 +1839,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI-assisted design, prototyping and product-design workflows inside Figma.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Filmora AI",
+      "officialUrl": "https://filmora.wondershare.com/ai-features.html",
+      "evidenceUrls": [
+        "https://filmora.wondershare.com/ai-features.html"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Wondershare Filmora's built-in AI video, audio and editing feature set for creators who want accessible assisted production inside a full editor.",
       "decision": "accepted"
     },
     {
@@ -1831,6 +1863,150 @@
       "decision": "accepted"
     },
     {
+      "name": "Findem",
+      "officialUrl": "https://www.findem.ai/",
+      "evidenceUrls": [
+        "https://www.findem.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI recruiting and talent-intelligence platform for candidate discovery, sourcing, talent data enrichment and workforce planning.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Firecrawl",
+      "officialUrl": "https://www.firecrawl.dev/",
+      "evidenceUrls": [
+        "https://www.firecrawl.dev/",
+        "https://docs.firecrawl.dev/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Developer-focused web crawling and extraction platform that converts websites into structured, LLM-ready data for agents, search and RAG workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fireflies.ai",
+      "officialUrl": "https://fireflies.ai/",
+      "evidenceUrls": [
+        "https://fireflies.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI meeting assistant for recording, transcription, summaries, searchable conversation intelligence and automated follow-up workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fireworks AI",
+      "officialUrl": "https://fireworks.ai/",
+      "evidenceUrls": [
+        "https://fireworks.ai/",
+        "https://docs.fireworks.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Production AI infrastructure for fast hosted inference, model deployment and training across open and custom generative models.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Flair AI",
+      "officialUrl": "https://flair.ai/",
+      "evidenceUrls": [
+        "https://flair.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI visual-production platform for product photography, branded scenes, fashion imagery, reusable templates and ecommerce creative workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "FlexClip AI",
+      "officialUrl": "https://www.flexclip.com/tools/ai-video-generator/",
+      "evidenceUrls": [
+        "https://www.flexclip.com/tools/ai-video-generator/",
+        "https://help.flexclip.com/en/articles/10341793-ai-video-generator-text-to-video"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Browser-based AI video workflow combining generation and editing for text-to-video, image-to-video, avatars, scripting and social or marketing content.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Flick",
+      "officialUrl": "https://www.flick.social/",
+      "evidenceUrls": [
+        "https://www.flick.social/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Social-media planning and marketing platform with AI-assisted ideation, writing and repeatable content workflows for creators and small teams.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fliki",
+      "officialUrl": "https://fliki.ai/",
+      "evidenceUrls": [
+        "https://fliki.ai/",
+        "https://fliki.ai/text-to-video"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI text-to-video platform for turning scripts, articles and presentations into narrated videos with synthetic voices and generated or stock visuals.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fooocus",
+      "officialUrl": "https://github.com/lllyasviel/Fooocus",
+      "evidenceUrls": [
+        "https://github.com/lllyasviel/Fooocus"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Free offline SDXL image-generation interface that remains useful for simplified local prompting, while the official project is now limited to bug-fix LTS rather than new-model development.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Forethought",
+      "officialUrl": "https://forethought.ai/",
+      "evidenceUrls": [
+        "https://forethought.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI customer-support platform with agentic self-service, ticket classification, service insights and assistance across support channels.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Framer AI",
+      "officialUrl": "https://www.framer.com/ai/",
+      "evidenceUrls": [
+        "https://www.framer.com/ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Framer's AI website-building and editing layer for generating editable pages, copy, visuals, CMS content and code components while retaining canvas control.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Frase",
+      "officialUrl": "https://www.frase.io/",
+      "evidenceUrls": [
+        "https://www.frase.io/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "SEO content workflow for research, briefs, drafting and optimization with AI assistance aimed at search-focused publishing teams.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Freed",
+      "officialUrl": "https://www.getfreed.ai/",
+      "evidenceUrls": [
+        "https://www.getfreed.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI medical scribe that turns clinician-patient conversations into draft clinical notes to reduce documentation workload.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Freshworks Freddy AI",
+      "officialUrl": "https://www.freshworks.com/freddy-ai/",
+      "evidenceUrls": [
+        "https://www.freshworks.com/freddy-ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Freshworks' AI layer for customer and employee service, including automation, agent assistance and service workflows inside the Freshworks suite.",
+      "decision": "accepted"
+    },
+    {
       "name": "Gamma",
       "officialUrl": "https://gamma.app/",
       "evidenceUrls": [
@@ -1838,6 +2014,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI-assisted presentations and visual documents generated from outlines or prompts.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gauth",
+      "officialUrl": "https://www.gauthmath.com/",
+      "evidenceUrls": [
+        "https://www.gauthmath.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI study assistant that explains and solves homework questions across subjects for students who want step-by-step practice support.",
       "decision": "accepted"
     },
     {
@@ -2018,11 +2204,13 @@
       "name": "Magnific",
       "officialUrl": "https://www.magnific.com/",
       "evidenceUrls": [
-        "https://www.magnific.com/"
+        "https://www.magnific.com/",
+        "https://www.magnific.com/ai/docs/freepik-is-now-magnific"
       ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Active AI image enhancement product on Magnific's current canonical domain.",
-      "decision": "accepted"
+      "reviewedAt": "2026-09-20",
+      "userValue": "Magnific is the current unified creative AI platform formerly branded Freepik, covering image, video, audio, 3D, upscaling, stock assets and professional collaborative workflows.",
+      "decision": "accepted",
+      "supersedes": "Freepik AI"
     },
     {
       "name": "Make",
@@ -2621,6 +2809,30 @@
       "reason": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity."
     },
     {
+      "name": "Flowise",
+      "officialUrl": "https://flowiseai.com/",
+      "evidenceUrls": [
+        "https://flowiseai.com/sunset"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Flowise announced a code freeze on July 29, 2026, repository archival on August 10, 2026 and official end of life on August 31, 2026, so it no longer meets the active-tool quality gate.",
+      "decision": "rejected",
+      "reason": "Flowise announced a code freeze on July 29, 2026, repository archival on August 10, 2026 and official end of life on August 31, 2026, so it no longer meets the active-tool quality gate."
+    },
+    {
+      "name": "Freepik AI",
+      "officialUrl": "https://www.freepik.com/ai",
+      "evidenceUrls": [
+        "https://www.magnific.com/freepik",
+        "https://www.magnific.com/blog/freepik-is-now-magnific/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Freepik officially became Magnific in April 2026. The catalog already contains Magnific as an active identity, so retaining a separate Freepik AI row would duplicate the same company, account and platform under the former name.",
+      "decision": "rejected",
+      "reason": "Freepik officially became Magnific in April 2026. The catalog already contains Magnific as an active identity, so retaining a separate Freepik AI row would duplicate the same company, account and platform under the former name.",
+      "supersededBy": "Magnific"
+    },
+    {
       "name": "Hour One",
       "officialUrl": "https://hourone.ai/",
       "evidenceUrls": [
@@ -2693,13 +2905,13 @@
     "removed": 3,
     "updated": 28
   },
-  "lastQualityReviewBatchAt": "2026-09-18",
-  "lastQualityReviewBatch": "legacy-a-008",
+  "lastQualityReviewBatchAt": "2026-09-20",
+  "lastQualityReviewBatch": "legacy-a-009",
   "lastQualityReviewBatchSummary": {
-    "accepted": 20,
+    "accepted": 18,
     "updated": 0,
     "superseded": 0,
-    "merged": 0,
-    "removed": 0
+    "merged": 1,
+    "removed": 1
   }
 }

@@ -279,16 +279,6 @@
       "ar": "مناسب لتدفقات التطوير التي تربط البيانات والمستندات الخاصة بتطبيقات النماذج اللغوية."
     }
   },
-  "Flowise": {
-    "w": {
-      "coding": 3.7,
-      "automation": 4.3
-    },
-    "fit": {
-      "en": "A visual way to assemble LLM and RAG workflows without hand-coding every component.",
-      "ar": "طريقة مرئية لبناء تدفقات LLM وRAG دون برمجة كل مكوّن يدويًا."
-    }
-  },
   "Figma AI": {
     "w": {
       "design": 4.7

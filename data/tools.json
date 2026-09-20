@@ -232,14 +232,6 @@
     "https://www.llamaindex.ai/"
   ],
   [
-    "Flowise",
-    "Visual AI builder",
-    "Visual builder for LLM apps and chatflows.",
-    "For assembling an AI chatbot or RAG workflow without writing every component from scratch.",
-    "Open source",
-    "https://flowiseai.com/"
-  ],
-  [
     "Figma AI",
     "Product design",
     "Collaborative interface design with emerging AI features.",
@@ -656,14 +648,6 @@
     "https://www.recraft.ai/"
   ],
   [
-    "Freepik AI",
-    "Images & design",
-    "Creative AI suite for image, video and design generation inside Freepik.",
-    "For creators who want several generative media tools in one asset-focused workspace.",
-    "Free tier / Paid",
-    "https://www.freepik.com/ai"
-  ],
-  [
     "Photoroom",
     "Images & design",
     "AI photo editor for backgrounds, product images and commercial visual cleanup.",
@@ -681,10 +665,10 @@
   ],
   [
     "Magnific",
-    "Images",
-    "AI image enhancement and upscaling tool for adding detail and increasing resolution.",
-    "For creators who need to refine or enlarge generated and photographed visuals.",
-    "Paid",
+    "Images & design",
+    "Creative AI production platform for image, video, audio, 3D, upscaling, stock assets and collaborative workflows.",
+    "For creators, agencies and teams that want generation, editing, upscaling, stock assets and multi-format AI production in one workspace.",
+    "Free tier / Paid",
     "https://www.magnific.com/"
   ],
   [
@@ -4154,8 +4138,8 @@
   [
     "Fooocus",
     "Image generation",
-    "Open-source image generation interface focused on simplified Stable Diffusion workflows.",
-    "For local users who want high-quality image generation without configuring every model parameter manually.",
+    "Open-source SDXL image-generation interface in limited long-term support, focused on simplified local prompting and bug fixes.",
+    "For local users who specifically want a stable, simplified SDXL workflow and understand that new model architectures are not currently planned.",
     "Open source",
     "https://github.com/lllyasviel/Fooocus"
   ],

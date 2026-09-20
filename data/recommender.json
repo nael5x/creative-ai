@@ -373,17 +373,6 @@
         "control"
       ]
     },
-    "Flowise": {
-      "tasks": [
-        "coding",
-        "automation"
-      ],
-      "traits": [
-        "open-source",
-        "easy",
-        "control"
-      ]
-    },
     "Figma AI": {
       "tasks": [
         "design"
