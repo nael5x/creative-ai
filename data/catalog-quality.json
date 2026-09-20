@@ -2242,6 +2242,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Harvey",
+      "officialUrl": "https://www.harvey.ai/",
+      "evidenceUrls": [
+        "https://www.harvey.ai/blog/agentic-platform-updates",
+        "https://www.harvey.ai/blog/introducing-harvey-ii",
+        "https://www.harvey.ai/blog/introducing-agent-builder"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed agentic legal and professional-services platform for research, drafting, review and matter-aware workflows with lawyer-tested agents and custom agent building.",
+      "decision": "accepted"
+    },
+    {
       "name": "Haystack",
       "officialUrl": "https://haystack.deepset.ai/",
       "evidenceUrls": [
@@ -2293,6 +2305,16 @@
       "decision": "accepted"
     },
     {
+      "name": "HireVue",
+      "officialUrl": "https://www.hirevue.com/",
+      "evidenceUrls": [
+        "https://www.hirevue.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI-powered hiring platform for skill validation, assessments, interviewing, candidate engagement and workflow automation at enterprise scale.",
+      "decision": "accepted"
+    },
+    {
       "name": "Hootsuite Wisdom",
       "officialUrl": "https://www.hootsuite.com/platform/ai",
       "evidenceUrls": [
@@ -2310,6 +2332,18 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Major hub for models, datasets, demos and inference workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Humanly",
+      "officialUrl": "https://www.humanly.io/",
+      "evidenceUrls": [
+        "https://www.humanly.io/",
+        "https://www.humanly.io/blog/humanly-workflows-automate-candidate-progression",
+        "https://www.humanly.io/blog/24-7-candidate-screening-that-actually-prioritizes-the-high-volume-hiring-playbook"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active high-volume AI recruiting platform with AI Recruiter, AI Interviewer, ATS workflows, screening, scheduling and candidate progression automation.",
       "decision": "accepted"
     },
     {
@@ -2430,6 +2464,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "JetBrains-native AI Assistant for contextual code chat, in-editor assistance and multi-step coding agents across supported IDEs.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Juicebox",
+      "officialUrl": "https://juicebox.ai/",
+      "evidenceUrls": [
+        "https://juicebox.ai/blog/introducing-the-next-generation-of-juicebox-agents",
+        "https://juicebox.ai/blog/introducing-hiring-manager-workflows",
+        "https://juicebox.ai/agents"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI recruiting platform combining conversational people search, recruiting CRM and long-horizon sourcing agents that can continuously build candidate pipelines.",
       "decision": "accepted"
     },
     {
@@ -2616,6 +2662,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Lexis+ with Protégé",
+      "officialUrl": "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+      "evidenceUrls": [
+        "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+        "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Lexis+ with Protégé is the current LexisNexis legal AI workflow for research, drafting and analysis grounded in authoritative legal content.",
+      "decision": "accepted",
+      "supersedes": "Lexis+ AI"
+    },
+    {
       "name": "LibreChat",
       "officialUrl": "https://www.librechat.ai/",
       "evidenceUrls": [
@@ -2745,6 +2803,18 @@
       "supersedes": "Luma Dream Machine"
     },
     {
+      "name": "Luminance",
+      "officialUrl": "https://www.luminance.com/",
+      "evidenceUrls": [
+        "https://www.luminance.com/luminance-legal-ai/",
+        "https://www.luminance.com/solutions/legal/",
+        "https://www.luminance.com/press/luminance-launches-new-legal-ai-with-institutional-memory-addressing-enterprise-amnesia-and-giving-legal-teams-30-of-their-time-back"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active Legal-Grade enterprise contract AI with institutional memory across drafting, negotiation, review, compliance and contract intelligence.",
+      "decision": "accepted"
+    },
+    {
       "name": "MagicSchool AI",
       "officialUrl": "https://www.magicschool.ai/",
       "evidenceUrls": [
@@ -2844,6 +2914,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Meta's consumer AI assistant for reasoning, research, multimodal creation and increasingly agentic tasks across Meta AI and connected Meta experiences.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Metaview",
+      "officialUrl": "https://www.metaview.ai/",
+      "evidenceUrls": [
+        "https://www.metaview.ai/resources/blog/agentic-recruiting-platform",
+        "https://www.metaview.ai/resources/blog/ai-recruiting-agents",
+        "https://www.metaview.ai/resources/blog/ai-voice-agent-recruiting"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed agentic recruiting platform that turns interview signal into shared intelligence and supports sourcing, screening, notes, reports and automated recruiting workflows.",
       "decision": "accepted"
     },
     {
@@ -3119,6 +3201,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Paradox",
+      "officialUrl": "https://www.paradox.ai/",
+      "evidenceUrls": [
+        "https://www.paradox.ai/",
+        "https://www.paradox.ai/why-paradox"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active conversational hiring platform centered on Olivia for job discovery, application, screening, scheduling, candidate communication, offers and onboarding.",
+      "decision": "accepted"
+    },
+    {
       "name": "Parloa",
       "officialUrl": "https://www.parloa.com/",
       "evidenceUrls": [
@@ -3126,6 +3219,17 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Enterprise AI Agent Management Platform for building, operating, monitoring and improving customer-experience agents at scale.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Paxton AI",
+      "officialUrl": "https://www.paxton.ai/",
+      "evidenceUrls": [
+        "https://www.paxton.ai/",
+        "https://www.paxton.ai/post/introducing-drafting-and-answering-with-legal-research-in-assistant"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active legal AI assistant that combines verified legal research, citations, analysis and document drafting inside one professional workflow.",
       "decision": "accepted"
     },
     {
@@ -3574,6 +3678,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI-based content creation and optimization editor; the prior content-marketing URL was stale.",
+      "decision": "accepted"
+    },
+    {
+      "name": "SeekOut",
+      "officialUrl": "https://www.seekout.com/",
+      "evidenceUrls": [
+        "https://www.seekout.com/blog/agentic-ai-recruiting-leveled-up-with-seekout/",
+        "https://support.seekout.com/en/articles/13719568-ai-features-in-seekout"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active agentic recruiting platform for sourcing, screening, outreach, talent intelligence and recruiting workflows across specialized candidate pools.",
       "decision": "accepted"
     },
     {
@@ -4054,6 +4169,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Vincent AI",
+      "officialUrl": "https://vlex.com/vincent-ai",
+      "evidenceUrls": [
+        "https://vlex.com/vincent-ai"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Vincent by vLex, part of Clio, is an active legal AI platform for global research, litigation, transactional analysis and custom firm workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Visily",
       "officialUrl": "https://www.visily.ai/",
       "evidenceUrls": [
@@ -4428,6 +4553,18 @@
       "supersededBy": "Vibe"
     },
     {
+      "name": "Lexis+ AI",
+      "officialUrl": "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page",
+      "evidenceUrls": [
+        "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "LexisNexis officially renamed Lexis+ AI to Lexis+ with Protégé in February 2026. Keeping the former name would present an outdated product identity.",
+      "decision": "rejected",
+      "reason": "LexisNexis officially renamed Lexis+ AI to Lexis+ with Protégé in February 2026. Keeping the former name would present an outdated product identity.",
+      "supersededBy": "Lexis+ with Protégé"
+    },
+    {
       "name": "Luma Dream Machine",
       "officialUrl": "https://lumalabs.ai/dream-machine",
       "evidenceUrls": [
@@ -4550,11 +4687,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-21",
-  "lastQualityReviewBatch": "legacy-a-018",
+  "lastQualityReviewBatch": "legacy-a-019",
   "lastQualityReviewBatchSummary": {
-    "accepted": 13,
+    "accepted": 10,
     "updated": 0,
-    "superseded": 0,
+    "superseded": 1,
     "merged": 0,
     "removed": 0
   }

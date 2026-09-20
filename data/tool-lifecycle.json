@@ -1056,10 +1056,6 @@
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "Lexis+ AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
     "Spellbook": {
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
@@ -2451,6 +2447,11 @@
       "firstTrackedAt": "2026-09-21T00:00:00Z",
       "event": "added",
       "supersedes": "Superhuman"
+    },
+    "Lexis+ with Protégé": {
+      "firstTrackedAt": "2026-09-21T00:00:00Z",
+      "event": "added",
+      "supersedes": "Lexis+ AI"
     }
   }
 }

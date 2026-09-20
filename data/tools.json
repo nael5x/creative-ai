@@ -2186,8 +2186,8 @@
   [
     "Harvey",
     "Legal",
-    "Generative AI platform for legal and professional-services research, drafting and workflow assistance.",
-    "For law firms and legal teams using AI across complex document and research work.",
+    "Agentic legal and professional-services platform for research, drafting, review and matter-aware workflows.",
+    "For law firms and legal teams that want governed AI agents working across complex research, drafting, review and matter context.",
     "Paid",
     "https://www.harvey.ai/"
   ],
@@ -2200,12 +2200,12 @@
     "https://legal.thomsonreuters.com/en/products/cocounsel-legal"
   ],
   [
-    "Lexis+ AI",
+    "Lexis+ with Protégé",
     "Legal",
-    "Generative AI legal research and drafting capabilities inside the LexisNexis platform.",
-    "For legal teams that want conversational research tied to LexisNexis content.",
+    "LexisNexis legal AI workflow solution for drafting, research and analysis with Protégé grounded in authoritative legal content.",
+    "For legal teams that want conversational research, drafting and analysis tied directly to LexisNexis legal sources and workflow tools.",
     "Paid",
-    "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page"
+    "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page"
   ],
   [
     "Spellbook",
@@ -2218,8 +2218,8 @@
   [
     "Luminance",
     "Legal",
-    "AI legal platform for contract generation, review, negotiation and due-diligence workflows.",
-    "For legal teams working with large volumes of contracts and transaction documents.",
+    "Legal-Grade enterprise contract AI with institutional memory across drafting, negotiation, review and contract intelligence.",
+    "For in-house and law-firm teams managing contract lifecycles that need negotiation context, review automation and institutional legal memory.",
     "Paid",
     "https://www.luminance.com/"
   ],
@@ -2234,16 +2234,16 @@
   [
     "Paxton AI",
     "Legal",
-    "AI legal research and drafting assistant focused on professional legal workflows.",
-    "For lawyers who want conversational support for research, documents and case preparation.",
+    "Legal AI assistant for verified legal research, citations, analysis and drafting.",
+    "For lawyers who want research-grounded answers and drafting support tied to legal sources rather than a general-purpose chatbot.",
     "Paid",
     "https://www.paxton.ai/"
   ],
   [
     "Vincent AI",
     "Legal",
-    "vLex AI legal research assistant for multi-jurisdiction research, analysis and document work.",
-    "For legal researchers who want AI connected to vLex's legal information platform.",
+    "Vincent by vLex legal AI for global research, litigation, transactional analysis and custom firm workflows.",
+    "For legal professionals who need AI-assisted multi-jurisdiction research and analysis connected to vLex's legal information platform.",
     "Paid",
     "https://vlex.com/vincent-ai"
   ],
@@ -2274,32 +2274,32 @@
   [
     "SeekOut",
     "HR & recruiting",
-    "AI talent platform for candidate search, recruiting intelligence and workforce workflows.",
-    "For recruiting teams sourcing specialized candidates and analyzing talent pools.",
+    "Agentic recruiting platform for sourcing, screening, outreach and talent intelligence.",
+    "For recruiting teams that want AI agents to identify, evaluate and engage specialized candidates across large talent pools.",
     "Paid",
     "https://www.seekout.com/"
   ],
   [
     "HireVue",
     "HR & recruiting",
-    "Hiring platform with AI-assisted assessments, interviewing and candidate-evaluation workflows.",
-    "For larger recruiting organizations standardizing screening and interview processes.",
+    "AI-powered hiring platform for skill validation, assessments, interviewing and recruiting workflow automation.",
+    "For larger hiring organizations that need standardized screening, structured interviews and skills-based candidate evaluation.",
     "Paid",
     "https://www.hirevue.com/"
   ],
   [
     "Paradox",
     "HR & recruiting",
-    "Conversational recruiting platform with AI assistants for candidate communication and scheduling.",
-    "For high-volume hiring teams automating candidate interactions and interview logistics.",
+    "Conversational AI hiring platform for screening, scheduling, candidate communication, offers and onboarding.",
+    "For high-volume hiring teams that want to automate repetitive candidate interactions while keeping recruiters focused on higher-value work.",
     "Paid",
     "https://www.paradox.ai/"
   ],
   [
     "Metaview",
-    "HR & recruiting",
-    "AI recruiting assistant for interview notes, summaries and hiring-team workflow intelligence.",
-    "For recruiters who want structured interview documentation without manual note taking.",
+    "Recruiting AI",
+    "Agentic recruiting platform for interview intelligence, sourcing, screening and automated recruiting workflows.",
+    "For recruiting teams that want structured interview signal and AI agents shared across sourcing, screening and hiring decisions.",
     "Paid",
     "https://www.metaview.ai/"
   ],
@@ -2313,17 +2313,17 @@
   ],
   [
     "Juicebox",
-    "HR & recruiting",
-    "AI recruiting platform for people search, talent sourcing, CRM and outreach workflows.",
-    "For recruiters using natural-language search and agents to build candidate pipelines.",
+    "Recruiting AI",
+    "AI recruiting platform combining conversational people search, CRM and autonomous sourcing agents.",
+    "For recruiters and hiring managers who want natural-language talent search plus agents that maintain and grow candidate pipelines over time.",
     "Free tier / Paid",
     "https://juicebox.ai/"
   ],
   [
     "Humanly",
     "HR & recruiting",
-    "Conversational AI recruiting platform for screening, scheduling and candidate engagement.",
-    "For hiring teams automating early-stage recruiting conversations and coordination.",
+    "High-volume AI recruiting platform for screening, interviewing, scheduling and candidate progression.",
+    "For hiring teams that need 24/7 candidate screening and structured recruiting automation across early-stage hiring workflows.",
     "Paid",
     "https://www.humanly.io/"
   ],
