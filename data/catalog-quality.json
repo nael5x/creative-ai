@@ -2112,6 +2112,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Grain",
+      "officialUrl": "https://grain.com/",
+      "evidenceUrls": [
+        "https://grain.com/release-notes",
+        "https://grain.com/release-note/chatgpt-smart-notes-and-mcp-tools",
+        "https://support.grain.com/en/articles/14811968-grain-mcp"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed meeting-intelligence platform with bot and desktop capture, AI notes, clips, API access, MCP and direct ChatGPT-connected meeting workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Grammarly",
       "officialUrl": "https://www.grammarly.com/",
       "evidenceUrls": [
@@ -2119,6 +2131,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI writing assistance for drafting, rewriting, tone and communication quality.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Granola",
+      "officialUrl": "https://www.granola.ai/",
+      "evidenceUrls": [
+        "https://www.granola.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active bot-free AI meeting notepad for capturing online and in-person conversations, polishing notes and exposing meeting context through an MCP connector.",
       "decision": "accepted"
     },
     {
@@ -2256,6 +2278,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Hume AI",
+      "officialUrl": "https://www.hume.ai/",
+      "evidenceUrls": [
+        "https://www.hume.ai/blog/introducing-the-hume-voice-replication-leaderboard",
+        "https://www.hume.ai/blog/introducing-the-hume-voice-controllability-leaderboard",
+        "https://www.hume.ai/blog/opensource-tada"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed voice-AI company and platform for expressive speech, voice design, replication, evaluation and conversational voice applications.",
+      "decision": "accepted"
+    },
+    {
       "name": "HyperWrite",
       "officialUrl": "https://www.hyperwriteai.com/",
       "evidenceUrls": [
@@ -2296,6 +2330,18 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Current identity of Phrasee's enterprise generative-AI marketing platform.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jamie",
+      "officialUrl": "https://www.meetjamie.ai/",
+      "evidenceUrls": [
+        "https://www.meetjamie.ai/",
+        "https://www.meetjamie.ai/blog/llm-info",
+        "https://www.meetjamie.ai/blog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained bot-free AI meeting-notes product for online and in-person conversations with summaries, transcripts and action items.",
       "decision": "accepted"
     },
     {
@@ -2350,6 +2396,16 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Actively maintained privacy-focused multi-model assistant with optional Kagi Search grounding, custom assistants, files, voice input and native mobile apps.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kaiber",
+      "officialUrl": "https://kaiber.ai/",
+      "evidenceUrls": [
+        "https://kaiber.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active creative video product focused on music-synced visual generation, canvas workflows, beat synchronization and stylized editing.",
       "decision": "accepted"
     },
     {
@@ -2545,6 +2601,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Loudly",
+      "officialUrl": "https://www.loudly.com/",
+      "evidenceUrls": [
+        "https://www.loudly.com/",
+        "https://www.loudly.com/blog/vega-2-is-live-loudly-launched-its-most-advanced-ai-music-generator"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active rights-focused AI music platform with proprietary and partner models for generation, remixing, mastering and creator workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Lovable",
       "officialUrl": "https://lovable.dev/",
       "evidenceUrls": [
@@ -2610,6 +2677,17 @@
       "userValue": "Clio Manage's native AI layer for completing legal-practice work using matter and firm context, including deadlines, drafting, summaries and workflow automation.",
       "decision": "accepted",
       "supersedes": "Clio Duo"
+    },
+    {
+      "name": "MeetGeek",
+      "officialUrl": "https://meetgeek.ai/",
+      "evidenceUrls": [
+        "https://meetgeek.ai/",
+        "https://meetgeek.ai/blog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active meeting-intelligence and agent platform combining bot and bot-free capture, transcription, voice agents, workflow skills, analytics and downstream automation.",
+      "decision": "accepted"
     },
     {
       "name": "Mem",
@@ -2688,6 +2766,27 @@
       "decision": "accepted"
     },
     {
+      "name": "Motion",
+      "officialUrl": "https://www.usemotion.com/",
+      "evidenceUrls": [
+        "https://www.usemotion.com/",
+        "https://www.usemotion.com/blog/ai"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Motion's current product is a broad AI productivity platform combining project management, task prioritization, calendar scheduling, meeting notes, docs, workflows and search.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mubert",
+      "officialUrl": "https://mubert.com/",
+      "evidenceUrls": [
+        "https://mubert.com/blog/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained AI music platform for creator soundtracks, streaming, commercial licensing and developer music integrations through an API.",
+      "decision": "accepted"
+    },
+    {
       "name": "Munch Studio",
       "officialUrl": "https://www.munchstudio.com/",
       "evidenceUrls": [
@@ -2755,6 +2854,18 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active Notion AI product page on Notion's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Notta",
+      "officialUrl": "https://www.notta.ai/",
+      "evidenceUrls": [
+        "https://www.notta.ai/",
+        "https://www.notta.ai/en/blog",
+        "https://www.notta.ai/en/blog/category/product"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active transcription and meeting-workflow platform for live and uploaded audio/video, multilingual notes, summaries and searchable meeting records.",
       "decision": "accepted"
     },
     {
@@ -2907,6 +3018,17 @@
       "decision": "accepted"
     },
     {
+      "name": "PixVerse",
+      "officialUrl": "https://pixverse.ai/",
+      "evidenceUrls": [
+        "https://pixverse.ai/en/blog",
+        "https://pixverse.ai/en/blog/pixverse-updates-r1-real-time-world-model"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed AI video and interactive-world platform with current video models, native audio, agent/developer workflows and real-time generative environments.",
+      "decision": "accepted"
+    },
+    {
       "name": "Playground AI",
       "officialUrl": "https://playgroundai.com/",
       "evidenceUrls": [
@@ -2988,6 +3110,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Current QuillBot creativity and writing platform for paraphrasing, rewriting, grammar, summarization, drafting and broader AI-assisted content workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Read AI",
+      "officialUrl": "https://www.read.ai/",
+      "evidenceUrls": [
+        "https://www.read.ai/",
+        "https://support.read.ai/hc/en-us/articles/49436447541907-Get-started-with-Ada-Read-AI-s-Executive-Assistant",
+        "https://support.read.ai/hc/en-us/articles/55017498280595-What-can-you-do-with-Read-AI-s-MCP-server"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active meeting and work-intelligence platform spanning meeting capture, cross-workspace search, executive-assistant workflows, email/calendar actions and MCP access.",
       "decision": "accepted"
     },
     {
@@ -3200,6 +3334,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Sembly AI",
+      "officialUrl": "https://www.sembly.ai/",
+      "evidenceUrls": [
+        "https://www.sembly.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active agentic meeting-intelligence platform that converts conversations into professional deliverables, client documents, CRM updates and structured organizational memory.",
+      "decision": "accepted"
+    },
+    {
       "name": "SentinelOne Purple AI",
       "officialUrl": "https://www.sentinelone.com/platform/purple/",
       "evidenceUrls": [
@@ -3319,6 +3463,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Submagic",
+      "officialUrl": "https://www.submagic.co/",
+      "evidenceUrls": [
+        "https://www.submagic.co/",
+        "https://www.submagic.co/ai-video-editor"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active AI short-form video editor for automatic clipping, captions, cuts, b-roll, effects and direct publishing across social channels.",
+      "decision": "accepted"
+    },
+    {
       "name": "Sudowrite",
       "officialUrl": "https://www.sudowrite.com/",
       "evidenceUrls": [
@@ -3338,6 +3493,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Active AI music platform for generating and editing songs, stems and audio ideas with current multimodal music models.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Supernormal",
+      "officialUrl": "https://www.supernormal.com/",
+      "evidenceUrls": [
+        "https://www.supernormal.com/",
+        "https://www.supernormal.com/blog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Supernormal's current product has expanded from meeting notes into an AI-agent workspace for agencies that turns client conversations into presentations, documents, visuals and other deliverables.",
       "decision": "accepted"
     },
     {
@@ -3371,6 +3537,16 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Enterprise AI coding platform and context engine for IDE and CLI workflows; it remains an active Tabnine product after its July 2026 acquisition by Tricentis.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Tactiq",
+      "officialUrl": "https://tactiq.io/",
+      "evidenceUrls": [
+        "https://tactiq.io/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active AI note-taking and transcription product for Google Meet, Zoom and Teams, focused on live transcripts, summaries and lightweight post-meeting actions.",
       "decision": "accepted"
     },
     {
@@ -3449,6 +3625,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Topaz Video",
+      "officialUrl": "https://www.topazlabs.com/topaz-video",
+      "evidenceUrls": [
+        "https://www.topazlabs.com/topaz-video"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Topaz Video is the current Topaz Labs product for AI-assisted video enhancement, restoration and upscaling.",
+      "decision": "accepted",
+      "supersedes": "Topaz Video AI"
+    },
+    {
       "name": "Turbo AI",
       "officialUrl": "https://www.turbo.ai/",
       "evidenceUrls": [
@@ -3525,6 +3712,17 @@
       "supersedes": "Le Chat"
     },
     {
+      "name": "Vidu",
+      "officialUrl": "https://www.vidu.com/",
+      "evidenceUrls": [
+        "https://www.vidu.com/blog",
+        "https://www.vidu.com/blog/categories/ai-video-creation"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active generative-video platform for text, image and reference-driven creation with current creator workflows for social, marketing and stylized video.",
+      "decision": "accepted"
+    },
+    {
       "name": "Visily",
       "officialUrl": "https://www.visily.ai/",
       "evidenceUrls": [
@@ -3576,6 +3774,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Wix's current AI website builder inside Harmony, combining conversational site generation, Aria agent assistance, visual editing and integrated business tooling.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Wondercraft",
+      "officialUrl": "https://www.wondercraft.ai/",
+      "evidenceUrls": [
+        "https://www.wondercraft.ai/",
+        "https://support.wondercraft.ai/articles/8680441283"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active AI audio-production studio for spoken content, ads, podcasts and narration with custom voice design and cloning workflows.",
       "decision": "accepted"
     },
     {
@@ -3946,6 +4155,18 @@
       "userValue": "OpenAI discontinued the Sora web and app experiences on April 26, 2026 and announced that the Sora API will be discontinued on September 24, 2026, so Sora no longer meets the active-product quality gate.",
       "decision": "rejected",
       "reason": "OpenAI discontinued the Sora web and app experiences on April 26, 2026 and announced that the Sora API will be discontinued on September 24, 2026, so Sora no longer meets the active-product quality gate."
+    },
+    {
+      "name": "Topaz Video AI",
+      "officialUrl": "https://www.topazlabs.com/topaz-video-ai",
+      "evidenceUrls": [
+        "https://www.topazlabs.com/topaz-video-ai"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Topaz Labs now presents the product as Topaz Video and the former Topaz Video AI URL redirects to the current Topaz Video product page.",
+      "decision": "rejected",
+      "reason": "Topaz Labs now presents the product as Topaz Video and the former Topaz Video AI URL redirects to the current Topaz Video product page.",
+      "supersededBy": "Topaz Video"
     }
   ],
   "lastAuditFixesAt": "2026-09-14",
@@ -3964,11 +4185,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-20",
-  "lastQualityReviewBatch": "legacy-a-015",
+  "lastQualityReviewBatch": "legacy-a-016",
   "lastQualityReviewBatchSummary": {
-    "accepted": 19,
+    "accepted": 18,
     "updated": 0,
-    "superseded": 0,
+    "superseded": 1,
     "merged": 0,
     "removed": 0
   }

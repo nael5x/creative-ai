@@ -1410,24 +1410,24 @@
   [
     "PixVerse",
     "Video",
-    "AI video generation platform for text-to-video, image-to-video and visual effects.",
-    "For producing short stylized clips and motion experiments from prompts or images.",
+    "AI video and interactive-world platform for prompt, image, effects and agent-driven generation.",
+    "For creators and developers who want short-form video generation, native-audio workflows and experimental real-time generative worlds.",
     "Free tier / Paid",
     "https://pixverse.ai/"
   ],
   [
     "Vidu",
     "Video",
-    "Generative video platform for text, image and reference-driven video creation.",
-    "For creators experimenting with controlled motion and generated video concepts.",
+    "Generative-video platform for text, image and reference-driven video creation.",
+    "For creators producing controlled short-form video from prompts, still images and reference subjects.",
     "Free tier / Paid",
     "https://www.vidu.com/"
   ],
   [
     "Kaiber",
     "Video",
-    "AI creative video platform for transforming prompts, images and audio into stylized motion.",
-    "For music visuals and artistic video treatments rather than conventional editing alone.",
+    "AI creative-video platform for music-synced visuals, canvas workflows and stylized motion.",
+    "For musicians and visual creators making artistic, beat-aware videos rather than conventional timeline-only edits.",
     "Free tier / Paid",
     "https://kaiber.ai/"
   ],
@@ -1466,18 +1466,18 @@
   [
     "Submagic",
     "Video",
-    "AI editing tool for captions, cuts and short-form social video workflows.",
-    "For rapidly polishing talking-head and social clips with automated edits and subtitles.",
+    "AI short-form video editor for clipping, captions, automated edits and social publishing.",
+    "For creators and agencies that need to turn raw or long-form footage into polished social shorts quickly.",
     "Free tier / Paid",
     "https://www.submagic.co/"
   ],
   [
-    "Topaz Video AI",
-    "Video",
-    "AI video enhancement software for upscaling, denoising, stabilization and frame work.",
-    "For improving footage quality rather than generating an entirely new video.",
+    "Topaz Video",
+    "Video enhancement",
+    "AI video-enhancement application for local and cloud upscaling, denoising, stabilization, interpolation and restoration workflows.",
+    "For filmmakers and editors improving existing footage quality with specialized enhancement models rather than generating entirely new scenes.",
     "Paid",
-    "https://www.topazlabs.com/topaz-video-ai"
+    "https://www.topazlabs.com/topaz-video"
   ],
   [
     "AssemblyAI",
@@ -1498,16 +1498,16 @@
   [
     "Hume AI",
     "Voice & audio",
-    "Voice and emotion AI platform for expressive conversational interfaces.",
-    "For developers building voice agents where prosody and emotional expression matter.",
+    "Voice-AI platform for expressive speech, voice design, replication and conversational interfaces.",
+    "For developers building voice agents and speech experiences where natural prosody, identity and controllability matter.",
     "Free tier / Paid",
     "https://www.hume.ai/"
   ],
   [
     "Wondercraft",
     "Voice & audio",
-    "AI audio studio for podcasts, narration, ads and spoken-content production.",
-    "For turning written scripts into polished multi-speaker audio projects.",
+    "AI audio-production studio for narration, podcasts, ads and custom synthetic voices.",
+    "For teams turning scripts into polished multi-speaker audio projects without a traditional recording workflow.",
     "Free tier / Paid",
     "https://www.wondercraft.ai/"
   ],
@@ -1546,32 +1546,32 @@
   [
     "Mubert",
     "Music",
-    "AI music generation platform for creator soundtracks and developer music integrations.",
-    "For generating background music for videos, apps and digital experiences.",
+    "AI music platform for creator soundtracks, continuous streams and developer integrations.",
+    "For creators, brands and developers that need generated background music with licensing and API workflows.",
     "Free tier / Paid",
     "https://mubert.com/"
   ],
   [
     "Loudly",
     "Music",
-    "AI music generation and creator platform for producing customizable tracks and sound ideas.",
-    "For video creators and marketers who need fast music variations for content.",
+    "Rights-focused AI music platform for generating, remixing and mastering creator tracks.",
+    "For video creators, marketers and music users who need customizable tracks with production and licensing workflows.",
     "Free tier / Paid",
     "https://www.loudly.com/"
   ],
   [
     "Granola",
     "Meetings",
-    "AI notepad that transcribes meetings and turns notes plus conversation context into structured summaries.",
-    "For professionals who want searchable meeting notes without a visible meeting bot.",
+    "Bot-free AI meeting notepad for capturing conversations, structuring notes and reusing meeting context.",
+    "For professionals who want private meeting notes and searchable context without adding a visible meeting bot.",
     "Free tier / Paid",
     "https://www.granola.ai/"
   ],
   [
     "Read AI",
     "Meetings",
-    "AI meeting assistant for transcripts, summaries, action items and conversation analytics.",
-    "For teams that want searchable meeting records and follow-up context across calls.",
+    "AI meeting and work-intelligence platform for capture, search, executive assistance and connected workflows.",
+    "For knowledge workers who want meeting context, summaries and actions connected to email, calendar, files and other workplace systems.",
     "Free tier / Paid",
     "https://www.read.ai/"
   ],
@@ -1593,25 +1593,25 @@
   ],
   [
     "MeetGeek",
-    "Meetings",
-    "AI meeting recorder and assistant for transcripts, summaries and workflow automation.",
-    "For teams that want automated notes and searchable meeting history.",
+    "Meetings & agents",
+    "Meeting-intelligence and agent platform for capture, transcription, voice agents and automated post-call workflows.",
+    "For teams that want meeting data to trigger CRM updates, follow-ups, risk detection and other automated business actions.",
     "Free tier / Paid",
     "https://meetgeek.ai/"
   ],
   [
     "Sembly AI",
-    "Meetings",
-    "AI meeting assistant for transcription, summaries, tasks and conversation insights.",
-    "For teams that need structured notes and reusable meeting intelligence.",
+    "Meetings & client work",
+    "Agentic meeting-intelligence platform for turning conversations into deliverables, documents and business actions.",
+    "For professional-services and client-facing teams that want meeting content converted into proposals, briefs, reports, CRM updates and other outputs.",
     "Free tier / Paid",
     "https://www.sembly.ai/"
   ],
   [
     "Grain",
     "Meetings",
-    "AI meeting recording and highlight platform for customer conversations and team knowledge.",
-    "For sales and product teams that want clips, summaries and searchable call context.",
+    "Meeting-intelligence platform for capture, AI notes, clips, searchable context and connected AI workflows.",
+    "For sales, product and research teams that want reusable customer-conversation context inside downstream AI and business workflows.",
     "Free tier / Paid",
     "https://grain.com/"
   ],
@@ -1626,40 +1626,40 @@
   [
     "Jamie",
     "Meetings",
-    "AI meeting note taker designed to create summaries across online and in-person conversations.",
-    "For professionals who want cross-platform meeting notes without relying on a meeting bot.",
+    "Bot-free AI meeting-notes product for transcripts, summaries and action items across online and in-person conversations.",
+    "For professionals who want meeting notes across platforms without adding a visible recording bot to calls.",
     "Free tier / Paid",
     "https://www.meetjamie.ai/"
   ],
   [
     "Notta",
     "Meetings",
-    "AI transcription and meeting-notes platform for audio, video and live conversations.",
-    "For multilingual transcription, summaries and searchable meeting records.",
+    "AI transcription and meeting platform for multilingual notes, summaries and searchable conversation records.",
+    "For teams that need cross-language transcription and structured meeting documentation from live calls or uploaded media.",
     "Free tier / Paid",
     "https://www.notta.ai/"
   ],
   [
     "Supernormal",
-    "Meetings",
-    "AI meeting assistant that creates notes, summaries and action items from calls.",
-    "For teams that want automatic documentation with lightweight collaboration.",
+    "Agency workflows",
+    "AI-agent workspace for agencies that turns meeting context into client-ready documents, slides and other deliverables.",
+    "For agencies that want client calls and meeting notes transformed directly into briefs, proposals, decks, visuals and follow-up work.",
     "Free tier / Paid",
     "https://www.supernormal.com/"
   ],
   [
     "Tactiq",
     "Meetings",
-    "AI meeting transcription and notes extension for common video-conferencing workflows.",
-    "For users who want live transcripts and quick summaries inside browser-based meetings.",
+    "AI meeting note taker for live transcripts, summaries and post-call workflows in common conferencing tools.",
+    "For users who want browser-based live transcription and fast AI summaries without a complex meeting-intelligence platform.",
     "Free tier / Paid",
     "https://tactiq.io/"
   ],
   [
     "Motion",
     "Productivity",
-    "AI work-management app for scheduling tasks, projects and calendar time automatically.",
-    "For people who want priorities converted into a dynamic daily schedule.",
+    "AI productivity platform for projects, tasks, calendar scheduling, meeting notes, docs and workflows.",
+    "For individuals and teams that want priorities, projects and calendars continuously planned and coordinated by one AI-assisted work system.",
     "Paid",
     "https://www.usemotion.com/"
   ],

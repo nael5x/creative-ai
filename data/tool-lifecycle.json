@@ -720,10 +720,6 @@
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Topaz Video AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
     "AssemblyAI": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
@@ -2449,6 +2445,11 @@
       "firstTrackedAt": "2026-09-20T21:00:00Z",
       "event": "added",
       "supersedes": "Le Chat"
+    },
+    "Topaz Video": {
+      "firstTrackedAt": "2026-09-20T21:15:00Z",
+      "event": "added",
+      "supersedes": "Topaz Video AI"
     }
   }
 }
