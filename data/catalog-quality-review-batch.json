@@ -1,161 +1,123 @@
 {
-  "batchId": "legacy-a-011",
+  "batchId": "legacy-a-012",
   "reviewedAt": "2026-09-20",
   "accept": [
     {
-      "name": "scite",
-      "officialUrl": "https://scite.ai/",
+      "name": "Hailuo AI",
+      "officialUrl": "https://hailuoai.video/",
       "evidenceUrls": [
-        "https://scite.ai/blog/may-2026-release-notes",
-        "https://scite.ai/"
+        "https://hailuoai.video/"
       ],
-      "userValue": "AI-powered research platform for literature discovery and evaluation using Smart Citations, document-aware assistant workflows and current scholarly data.",
-      "description": "AI research platform for discovering and evaluating scientific literature with Smart Citations and document-aware assistance.",
-      "useCase": "For researchers who want to see how papers are cited, organize literature and evaluate whether evidence supports or contrasts with claims."
+      "userValue": "Active MiniMax consumer video-generation platform for image-to-video, text-guided video and reference-driven creative workflows.",
+      "description": "MiniMax AI video platform for image-to-video, text-guided video and reference-driven generation.",
+      "useCase": "For creators who want fast short-form video generation from prompts, images and reference subjects."
     },
     {
-      "name": "Humata",
-      "officialUrl": "https://www.humata.ai/",
+      "name": "InVideo AI",
+      "officialUrl": "https://invideo.io/ai/",
       "evidenceUrls": [
-        "https://www.humata.ai/"
+        "https://help.invideo.io/en/articles/14717491-get-started-with-ai-filmmaking",
+        "https://invideo.io/news/introducing-invideo-editor/"
       ],
-      "userValue": "Document-grounded AI workspace for asking questions across uploaded files, generating summaries, comparing documents and returning source-linked answers.",
-      "description": "Document-grounded AI workspace for querying, summarizing and comparing uploaded files with source-linked answers.",
-      "useCase": "For teams and individuals who need fast answers from PDFs and internal documents while retaining citations back to the source material."
+      "userValue": "Agentic AI video-creation platform that can plan, script, storyboard, generate and edit videos across a large model catalog, with a controllable browser-based editor.",
+      "description": "Agentic AI video platform for planning, scripting, generating and editing complete videos.",
+      "useCase": "For creators and teams who want an AI agent to take a concept from script through generated scenes and final edit while retaining timeline control."
     },
     {
-      "name": "Scholarcy",
-      "officialUrl": "https://www.scholarcy.com/",
+      "name": "OpusClip",
+      "officialUrl": "https://www.opus.pro/",
       "evidenceUrls": [
-        "https://www.scholarcy.com/"
+        "https://www.opus.pro/"
       ],
-      "userValue": "Academic reading assistant that summarizes papers, highlights findings, supports critical reading and organizes research into reusable structured notes.",
-      "description": "AI academic reading assistant for summarizing, analyzing and organizing papers and other research documents.",
-      "useCase": "For students and researchers who want structured summaries, key findings, notes and faster comparison across dense academic sources."
+      "userValue": "AI clipping and repurposing platform for turning long-form video into social-ready shorts with automated clipping, captions, reframing and publishing.",
+      "description": "AI video repurposing platform for clipping, captioning, reframing and publishing long-form content as shorts.",
+      "useCase": "For creators and teams that want to turn podcasts, interviews, webinars and long videos into multiple social clips quickly."
     },
     {
-      "name": "QuillBot",
-      "officialUrl": "https://quillbot.com/",
+      "name": "Otter.ai",
+      "officialUrl": "https://otter.ai/",
       "evidenceUrls": [
-        "https://quillbot.com/blog/inklings/quillbot-does-that/",
-        "https://quillbot.com/"
+        "https://otter.ai/"
       ],
-      "userValue": "Current QuillBot creativity and writing platform for paraphrasing, rewriting, grammar, summarization, drafting and broader AI-assisted content workflows.",
-      "description": "AI writing and creativity platform for paraphrasing, rewriting, grammar, summarization and drafting.",
-      "useCase": "For users who want fast rewriting, polishing and drafting support while keeping direct control over wording and tone."
+      "userValue": "Conversational knowledge platform that captures meetings, transcribes speech, generates summaries and action items, searches past conversations and triggers downstream workflows.",
+      "description": "AI conversational knowledge platform for meeting capture, transcription, summaries, search and workflow automation.",
+      "useCase": "For teams that want searchable meeting knowledge, automatic notes and action items, and integrations that push conversation outcomes into business tools."
     },
     {
-      "name": "Wordtune",
-      "officialUrl": "https://www.wordtune.com/",
+      "name": "tl;dv",
+      "officialUrl": "https://tldv.io/",
       "evidenceUrls": [
-        "https://www.wordtune.com/"
+        "https://tldv.io/"
       ],
-      "userValue": "AI reading and writing assistant for contextual rewriting, proofreading, tone control, translation, continuation and document or webpage summarization.",
-      "description": "AI reading and writing assistant for rewriting, proofreading, tone control, translation and summarization.",
-      "useCase": "For professionals, students and everyday writers who want to improve wording while preserving intended meaning and style."
+      "userValue": "AI meeting recorder and notetaker for Zoom, Google Meet and Teams with searchable recordings, summaries, clips and conversation insights.",
+      "description": "AI meeting recorder and notetaker with searchable recordings, summaries, clips and conversation insights.",
+      "useCase": "For teams that want a searchable record of calls plus automatic summaries and reusable meeting highlights."
     },
     {
-      "name": "Jasper",
-      "officialUrl": "https://www.jasper.ai/",
+      "name": "Krisp",
+      "officialUrl": "https://krisp.ai/",
       "evidenceUrls": [
-        "https://www.jasper.ai/platform",
-        "https://www.jasper.ai/state-of-ai-marketing-2026"
+        "https://krisp.ai/"
       ],
-      "userValue": "Enterprise AI marketing platform for agent execution, governed content pipelines, brand context, AI-search visibility and repeatable campaign operations.",
-      "category": "Marketing",
-      "description": "Enterprise AI marketing platform for governed agents, content pipelines, brand context and AI-search workflows.",
-      "useCase": "For marketing teams that need repeatable, brand-governed AI workflows across research, campaign creation, optimization and AI-search visibility."
+      "userValue": "Voice AI platform for meeting audio cleanup, noise cancellation, transcription, notes and meeting assistance across communication apps.",
+      "description": "Voice AI platform for noise cancellation, transcription, meeting notes and call-quality assistance.",
+      "useCase": "For people and teams that need clearer calls plus lightweight AI meeting capture and follow-up."
     },
     {
-      "name": "Writesonic",
-      "officialUrl": "https://writesonic.com/",
+      "name": "Speechify",
+      "officialUrl": "https://speechify.com/",
       "evidenceUrls": [
-        "https://writesonic.com/"
+        "https://speechify.com/"
       ],
-      "userValue": "AI search growth platform that monitors brand visibility across answer engines, identifies gaps and executes content, citation and technical fixes with agents.",
-      "category": "SEO & marketing",
-      "description": "AI search growth platform for visibility tracking, GEO/AEO analysis and agent-driven content and citation work.",
-      "useCase": "For marketing and growth teams trying to improve how their brand appears across ChatGPT, Claude, Gemini, Google and other AI-search surfaces."
+      "userValue": "AI speech and reading platform for high-quality text-to-speech, voice typing and listening workflows across documents, webpages and apps.",
+      "description": "AI speech and reading platform for text-to-speech, voice typing and listening workflows.",
+      "useCase": "For accessibility, study and productivity when users want written content read aloud or converted into natural speech."
     },
     {
-      "name": "Rytr",
-      "officialUrl": "https://rytr.me/",
+      "name": "Resemble AI",
+      "officialUrl": "https://www.resemble.ai/",
       "evidenceUrls": [
-        "https://rytr.me/"
+        "https://www.resemble.ai/",
+        "https://www.resemble.ai/changelog"
       ],
-      "userValue": "Lightweight AI writing assistant for short-form copy, rewriting, tone matching, grammar improvement and reusable marketing or business writing workflows.",
-      "description": "AI writing assistant for short-form copy, rewriting, tone matching and everyday content tasks.",
-      "useCase": "For individuals and small teams that want inexpensive, fast support for emails, captions, marketing copy and routine rewriting."
+      "userValue": "AI voice and media-authenticity platform spanning synthetic voice generation, cloning, speech workflows, watermarking and multimodal deepfake detection.",
+      "description": "AI voice and media-authenticity platform for synthetic speech, voice cloning, watermarking and deepfake detection.",
+      "useCase": "For developers and enterprises building voice experiences or protecting audio, image and video workflows against synthetic-media abuse."
     },
     {
-      "name": "Tabnine",
-      "officialUrl": "https://www.tabnine.com/",
+      "name": "Udio",
+      "officialUrl": "https://www.udio.com/",
       "evidenceUrls": [
-        "https://www.tabnine.com/",
-        "https://www.tabnine.com/blog/category/product-news/"
+        "https://www.udio.com/",
+        "https://help.udio.com/en/articles/11386622-ios-app"
       ],
-      "userValue": "Enterprise AI coding platform and context engine for IDE and CLI workflows; it remains an active Tabnine product after its July 2026 acquisition by Tricentis.",
-      "description": "Enterprise AI coding platform and context engine for IDE, CLI and agentic software-development workflows.",
-      "useCase": "For engineering organizations that want coding assistance and enterprise context with strong controls over privacy, governance and deployment."
+      "userValue": "Active AI music-generation platform for creating, extending and iterating on songs from prompts across web and official iOS experiences.",
+      "description": "AI music-generation platform for creating, extending and iterating on songs from prompts.",
+      "useCase": "For musicians and creators experimenting with generated songs, arrangements and musical ideas."
     },
     {
-      "name": "Qodo",
-      "officialUrl": "https://www.qodo.ai/",
+      "name": "SOUNDRAW",
+      "officialUrl": "https://soundraw.io/",
       "evidenceUrls": [
-        "https://www.qodo.ai/ai-code-review-platform/",
-        "https://www.qodo.ai/blog/gpt-5-6-more-precise-and-efficient-code-review/"
+        "https://soundraw.io/blog/post/introducing-the-latest-updates-soundraw-release-log",
+        "https://soundraw.io/"
       ],
-      "userValue": "Purpose-built AI code review and governance platform focused on independent, context-aware review, standards enforcement and software-quality controls.",
-      "description": "AI code review and governance platform for context-aware review, standards enforcement and software-quality workflows.",
-      "useCase": "For teams that want an independent review layer for AI- or human-written code before changes reach production."
-    },
-    {
-      "name": "JetBrains AI Assistant",
-      "officialUrl": "https://www.jetbrains.com/ai/",
-      "evidenceUrls": [
-        "https://www.jetbrains.com/help/ai-assistant/about-ai-assistant.html",
-        "https://www.jetbrains.com/help/ai-assistant/activation-scenarios.html"
-      ],
-      "userValue": "JetBrains-native AI Assistant for contextual code chat, in-editor assistance and multi-step coding agents across supported IDEs.",
-      "description": "JetBrains-native AI assistant for contextual code chat, in-editor assistance and coding agents.",
-      "useCase": "For developers working in JetBrains IDEs who want AI chat, edits and multi-step agent workflows integrated directly with project context."
-    },
-    {
-      "name": "Webflow AI",
-      "officialUrl": "https://webflow.com/ai",
-      "evidenceUrls": [
-        "https://webflow.com/ai",
-        "https://help.webflow.com/hc/en-us/articles/34297897805715-Webflow-AI-overview"
-      ],
-      "userValue": "Webflow's AI-native site-building and optimization layer for generating sites, sections, code components, content, CMS data and SEO/AEO improvements.",
-      "description": "AI-native site-building and optimization features inside Webflow for design, content, code and SEO/AEO workflows.",
-      "useCase": "For teams that want AI help building and improving production websites while retaining visual editing, governance and Webflow's hosting stack."
-    },
-    {
-      "name": "Recraft",
-      "officialUrl": "https://www.recraft.ai/",
-      "evidenceUrls": [
-        "https://www.recraft.ai/"
-      ],
-      "userValue": "Current AI design and image platform with actively maintained Recraft models, studio tools and API access for designer-oriented asset generation.",
-      "description": "AI design and image platform for generated visuals, illustrations, vectors, icons and brand-ready assets.",
-      "useCase": "For designers and teams that need editable, art-directed visual assets rather than only standalone raster images."
-    },
-    {
-      "name": "Photoroom",
-      "officialUrl": "https://www.photoroom.com/",
-      "evidenceUrls": [
-        "https://www.photoroom.com/",
-        "https://www.photoroom.com/inside-photoroom/new-in-photoroom-h1-2026-product-recap",
-        "https://www.photoroom.com/inside-photoroom/photoroom-launches-visual-agents-to-generate-check-and-fix-product-visuals-so-enterprises-no-longer-have-to-build-their-own-ai-stack"
-      ],
-      "userValue": "AI product-visual platform for ecommerce image generation, editing, batch workflows, APIs and enterprise visual agents focused on product fidelity.",
-      "description": "AI product-visual platform for ecommerce image generation, editing, batch workflows, APIs and visual agents.",
-      "useCase": "For ecommerce teams that need scalable product photography, background work, catalog image generation and automated visual production."
+      "userValue": "Actively maintained AI music-generation platform focused on customizable creator music, ethical training claims, commercial-use workflows and API access.",
+      "description": "AI music generator for customizable creator tracks, commercial workflows and API-based music production.",
+      "useCase": "For creators and developers who need adjustable background music for video, apps and commercial media."
     }
   ],
   "update": [],
   "supersede": [],
   "mergeInto": [],
-  "remove": []
+  "remove": [
+    {
+      "name": "Sora",
+      "evidenceUrls": [
+        "https://openai.com/index/sora-is-here/",
+        "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+      ],
+      "reason": "OpenAI discontinued the Sora web and app experiences on April 26, 2026 and announced that the Sora API will be discontinued on September 24, 2026, so Sora no longer meets the active-product quality gate."
+    }
+  ]
 }
