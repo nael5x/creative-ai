@@ -1,226 +1,231 @@
 {
-  "batchId": "legacy-a-015",
+  "batchId": "legacy-a-016",
   "reviewedAt": "2026-09-20",
   "accept": [
     {
-      "name": "Kilo Code",
-      "officialUrl": "https://kilo.ai/",
+      "name": "PixVerse",
+      "officialUrl": "https://pixverse.ai/",
       "evidenceUrls": [
-        "https://kilo.ai/docs/getting-started",
-        "https://kilo.ai/docs/code-with-ai",
-        "https://blog.kilo.ai/p/were-back-on-product-hunt-new-vs-code"
+        "https://pixverse.ai/en/blog",
+        "https://pixverse.ai/en/blog/pixverse-updates-r1-real-time-world-model"
       ],
-      "userValue": "Actively developed open-source agentic engineering platform spanning IDE, CLI, cloud agents, mobile and collaboration workflows with broad model choice.",
-      "description": "Open-source agentic engineering platform across IDE, CLI, cloud and collaborative coding workflows.",
-      "useCase": "For developers who want multi-surface coding agents, broad model choice and open-source control over agentic development."
+      "userValue": "Actively developed AI video and interactive-world platform with current video models, native audio, agent/developer workflows and real-time generative environments.",
+      "description": "AI video and interactive-world platform for prompt, image, effects and agent-driven generation.",
+      "useCase": "For creators and developers who want short-form video generation, native-audio workflows and experimental real-time generative worlds."
     },
     {
-      "name": "GitLab Duo",
-      "officialUrl": "https://about.gitlab.com/gitlab-duo/",
+      "name": "Vidu",
+      "officialUrl": "https://www.vidu.com/",
       "evidenceUrls": [
-        "https://about.gitlab.com/press/releases/2026-01-15-gitlab-announces-duo-agent-platform-general-availability/",
-        "https://about.gitlab.com/press/releases/2026-08-20-gitlab-scales-agentic-ai-across-trusted-software-delivery-workflows/"
+        "https://www.vidu.com/blog",
+        "https://www.vidu.com/blog/categories/ai-video-creation"
       ],
-      "userValue": "GitLab's active agentic AI layer for the software lifecycle, including coding, review, security, flow creation and enterprise-controlled agent workflows.",
-      "description": "GitLab's agentic AI platform for coding, review, security and software-delivery workflows.",
-      "useCase": "For teams already using GitLab that want AI agents and assistance embedded across the DevSecOps lifecycle."
+      "userValue": "Active generative-video platform for text, image and reference-driven creation with current creator workflows for social, marketing and stylized video.",
+      "description": "Generative-video platform for text, image and reference-driven video creation.",
+      "useCase": "For creators producing controlled short-form video from prompts, still images and reference subjects."
     },
     {
-      "name": "Gemini Code Assist",
-      "officialUrl": "https://codeassist.google/",
+      "name": "Kaiber",
+      "officialUrl": "https://kaiber.ai/",
       "evidenceUrls": [
-        "https://docs.cloud.google.com/gemini/docs/codeassist/overview",
-        "https://docs.cloud.google.com/gemini/docs/codeassist/agent-mode"
+        "https://kaiber.ai/"
       ],
-      "userValue": "Google's currently supported Standard and Enterprise coding assistant for IDE-based code generation, chat and agent mode; individual consumer tiers migrated to Antigravity in June 2026.",
-      "description": "Google enterprise coding assistant for IDE chat, code generation and agentic development workflows.",
-      "useCase": "For organizations using Google Cloud that want Gemini-powered coding assistance and agent mode in supported IDEs.",
-      "pricing": "Paid"
+      "userValue": "Active creative video product focused on music-synced visual generation, canvas workflows, beat synchronization and stylized editing.",
+      "description": "AI creative-video platform for music-synced visuals, canvas workflows and stylized motion.",
+      "useCase": "For musicians and visual creators making artistic, beat-aware videos rather than conventional timeline-only edits."
     },
     {
-      "name": "Warp",
-      "officialUrl": "https://www.warp.dev/",
+      "name": "Submagic",
+      "officialUrl": "https://www.submagic.co/",
       "evidenceUrls": [
-        "https://www.warp.dev/blog",
-        "https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent"
+        "https://www.submagic.co/",
+        "https://www.submagic.co/ai-video-editor"
       ],
-      "userValue": "Actively developed terminal and agent platform with a standalone coding-agent CLI, multi-agent orchestration, cloud agents and software-factory infrastructure.",
-      "description": "Agentic terminal and coding platform with CLI agents, multi-agent orchestration and cloud execution.",
-      "useCase": "For developers who want agent workflows deeply integrated with terminal work, local shells and cloud software-engineering tasks."
+      "userValue": "Active AI short-form video editor for automatic clipping, captions, cuts, b-roll, effects and direct publishing across social channels.",
+      "description": "AI short-form video editor for clipping, captions, automated edits and social publishing.",
+      "useCase": "For creators and agencies that need to turn raw or long-form footage into polished social shorts quickly."
     },
     {
-      "name": "Zed AI",
-      "officialUrl": "https://zed.dev/ai",
+      "name": "Hume AI",
+      "officialUrl": "https://www.hume.ai/",
       "evidenceUrls": [
-        "https://zed.dev/blog/parallel-agents",
-        "https://zed.dev/blog"
+        "https://www.hume.ai/blog/introducing-the-hume-voice-replication-leaderboard",
+        "https://www.hume.ai/blog/introducing-the-hume-voice-controllability-leaderboard",
+        "https://www.hume.ai/blog/opensource-tada"
       ],
-      "userValue": "Zed's actively developed open-source agentic coding environment with parallel agents, third-party agent support and native high-performance editing.",
-      "description": "AI-assisted coding inside Zed with parallel agents, third-party agent support and native collaborative editing.",
-      "useCase": "For developers who want a fast code editor that can coordinate multiple coding agents while keeping human review close to the work."
+      "userValue": "Actively developed voice-AI company and platform for expressive speech, voice design, replication, evaluation and conversational voice applications.",
+      "description": "Voice-AI platform for expressive speech, voice design, replication and conversational interfaces.",
+      "useCase": "For developers building voice agents and speech experiences where natural prosody, identity and controllability matter."
     },
     {
-      "name": "Sourcegraph Cody",
-      "officialUrl": "https://sourcegraph.com/cody",
+      "name": "Wondercraft",
+      "officialUrl": "https://www.wondercraft.ai/",
       "evidenceUrls": [
-        "https://sourcegraph.com/docs/cody",
-        "https://sourcegraph.com/changelog/2026-08-10",
-        "https://sourcegraph.com/blog/changes-to-cody-free-pro-and-enterprise-starter-plans"
+        "https://www.wondercraft.ai/",
+        "https://support.wondercraft.ai/articles/8680441283"
       ],
-      "userValue": "Sourcegraph's active enterprise AI coding assistant for large-codebase context, chat and code assistance; Free and Pro consumer plans were retired while Enterprise remains supported.",
-      "description": "Enterprise AI coding assistant grounded in Sourcegraph code search and large-repository context.",
-      "useCase": "For enterprise engineering teams that need AI assistance across large or multi-repository codebases with Sourcegraph context.",
-      "pricing": "Paid"
+      "userValue": "Active AI audio-production studio for spoken content, ads, podcasts and narration with custom voice design and cloning workflows.",
+      "description": "AI audio-production studio for narration, podcasts, ads and custom synthetic voices.",
+      "useCase": "For teams turning scripts into polished multi-speaker audio projects without a traditional recording workflow."
     },
     {
-      "name": "Tabby",
-      "officialUrl": "https://www.tabbyml.com/",
+      "name": "Mubert",
+      "officialUrl": "https://mubert.com/",
       "evidenceUrls": [
-        "https://github.com/TabbyML/tabby",
-        "https://github.com/TabbyML/tabby/commits"
+        "https://mubert.com/blog/"
       ],
-      "userValue": "Actively maintained open-source self-hosted AI coding assistant for code completion, chat and repository-aware developer workflows with on-premises deployment.",
-      "description": "Open-source self-hosted AI coding assistant for completion, chat and repository-aware workflows.",
-      "useCase": "For teams that want an on-premises or self-hosted coding assistant instead of depending entirely on a hosted vendor."
+      "userValue": "Actively maintained AI music platform for creator soundtracks, streaming, commercial licensing and developer music integrations through an API.",
+      "description": "AI music platform for creator soundtracks, continuous streams and developer integrations.",
+      "useCase": "For creators, brands and developers that need generated background music with licensing and API workflows."
     },
     {
-      "name": "Open Interpreter",
-      "officialUrl": "https://www.openinterpreter.com/",
+      "name": "Loudly",
+      "officialUrl": "https://www.loudly.com/",
       "evidenceUrls": [
-        "https://github.com/openinterpreter/openinterpreter/releases",
-        "https://github.com/openinterpreter/openinterpreter/blob/main/docs/install.md"
+        "https://www.loudly.com/",
+        "https://www.loudly.com/blog/vega-2-is-live-loudly-launched-its-most-advanced-ai-music-generator"
       ],
-      "userValue": "Actively released open-source computer and terminal agent that can run commands, edit files and operate local workspaces with configurable models.",
-      "description": "Open-source terminal and computer agent for running commands, editing files and operating local workspaces.",
-      "useCase": "For advanced users who want an inspectable agent with direct access to a computer environment and local or hosted models."
+      "userValue": "Active rights-focused AI music platform with proprietary and partner models for generation, remixing, mastering and creator workflows.",
+      "description": "Rights-focused AI music platform for generating, remixing and mastering creator tracks.",
+      "useCase": "For video creators, marketers and music users who need customizable tracks with production and licensing workflows."
     },
     {
-      "name": "Glide",
-      "officialUrl": "https://www.glideapps.com/ai",
+      "name": "Granola",
+      "officialUrl": "https://www.granola.ai/",
       "evidenceUrls": [
-        "https://www.glideapps.com/blog/glide-mcp",
-        "https://www.glideapps.com/blog/category/ai"
+        "https://www.granola.ai/"
       ],
-      "userValue": "Actively developed AI-assisted business-app platform with agent/MCP access, data connectors and production workflows for internal and operational software.",
-      "description": "AI-assisted business-app platform with agent access, data connectors and no-code production workflows.",
-      "useCase": "For teams building internal tools and operational apps from business data without maintaining a traditional custom-code stack."
+      "userValue": "Active bot-free AI meeting notepad for capturing online and in-person conversations, polishing notes and exposing meeting context through an MCP connector.",
+      "description": "Bot-free AI meeting notepad for capturing conversations, structuring notes and reusing meeting context.",
+      "useCase": "For professionals who want private meeting notes and searchable context without adding a visible meeting bot."
     },
     {
-      "name": "Softr AI",
-      "officialUrl": "https://www.softr.io/ai",
+      "name": "Read AI",
+      "officialUrl": "https://www.read.ai/",
       "evidenceUrls": [
-        "https://www.softr.io/blog/introducing-softr-ai",
-        "https://www.softr.io/blog/ai-generated-apps"
+        "https://www.read.ai/",
+        "https://support.read.ai/hc/en-us/articles/49436447541907-Get-started-with-Ada-Read-AI-s-Executive-Assistant",
+        "https://support.read.ai/hc/en-us/articles/55017498280595-What-can-you-do-with-Read-AI-s-MCP-server"
       ],
-      "userValue": "AI-native no-code business-app platform that generates database, application logic, permissions and editable interfaces from natural-language requirements.",
-      "description": "AI-native no-code platform for generating complete business apps, databases and workflows.",
-      "useCase": "For business teams that want production-ready portals, CRMs, internal tools and operational apps without writing code."
+      "userValue": "Active meeting and work-intelligence platform spanning meeting capture, cross-workspace search, executive-assistant workflows, email/calendar actions and MCP access.",
+      "description": "AI meeting and work-intelligence platform for capture, search, executive assistance and connected workflows.",
+      "useCase": "For knowledge workers who want meeting context, summaries and actions connected to email, calendar, files and other workplace systems."
     },
     {
-      "name": "Retool AI",
-      "officialUrl": "https://retool.com/ai",
+      "name": "MeetGeek",
+      "officialUrl": "https://meetgeek.ai/",
       "evidenceUrls": [
-        "https://retool.com/ai",
-        "https://retool.com/blog"
+        "https://meetgeek.ai/",
+        "https://meetgeek.ai/blog"
       ],
-      "userValue": "Retool's active AI and agent tooling for building governed internal applications, workflows and multi-agent systems on business data.",
-      "description": "AI and agent tooling for building governed internal applications, workflows and business automations.",
-      "useCase": "For engineering and operations teams adding AI agents and model-powered features to internal software and data workflows."
+      "userValue": "Active meeting-intelligence and agent platform combining bot and bot-free capture, transcription, voice agents, workflow skills, analytics and downstream automation.",
+      "category": "Meetings & agents",
+      "description": "Meeting-intelligence and agent platform for capture, transcription, voice agents and automated post-call workflows.",
+      "useCase": "For teams that want meeting data to trigger CRM updates, follow-ups, risk detection and other automated business actions."
     },
     {
-      "name": "Uizard",
-      "officialUrl": "https://uizard.io/",
+      "name": "Sembly AI",
+      "officialUrl": "https://www.sembly.ai/",
       "evidenceUrls": [
-        "https://uizard.io/"
+        "https://www.sembly.ai/"
       ],
-      "userValue": "Active AI-assisted UI design and prototyping product for generating editable multi-screen interfaces, themes and mockups from text, screenshots and sketches.",
-      "description": "AI-assisted UI design and prototyping tool for generating editable interfaces from text, screenshots and sketches.",
-      "useCase": "For product teams and non-designers who want to turn rough concepts into editable wireframes and prototypes quickly."
+      "userValue": "Active agentic meeting-intelligence platform that converts conversations into professional deliverables, client documents, CRM updates and structured organizational memory.",
+      "category": "Meetings & client work",
+      "description": "Agentic meeting-intelligence platform for turning conversations into deliverables, documents and business actions.",
+      "useCase": "For professional-services and client-facing teams that want meeting content converted into proposals, briefs, reports, CRM updates and other outputs."
     },
     {
-      "name": "Visily",
-      "officialUrl": "https://www.visily.ai/",
+      "name": "Grain",
+      "officialUrl": "https://grain.com/",
       "evidenceUrls": [
-        "https://www.visily.ai/blog/announcing-design-instructions-and-deep-design",
-        "https://www.visily.ai/blog/announcing-visily-mcp"
+        "https://grain.com/release-notes",
+        "https://grain.com/release-note/chatgpt-smart-notes-and-mcp-tools",
+        "https://support.grain.com/en/articles/14811968-grain-mcp"
       ],
-      "userValue": "Actively developed AI UI design workspace with controllable generation, deep-design mode, editable canvases and MCP handoff to coding agents.",
-      "description": "AI UI design workspace with editable prototypes, design instructions and MCP handoff to coding agents.",
-      "useCase": "For product teams that want AI-generated interface concepts while keeping visual control and a direct bridge to implementation agents."
+      "userValue": "Actively developed meeting-intelligence platform with bot and desktop capture, AI notes, clips, API access, MCP and direct ChatGPT-connected meeting workflows.",
+      "description": "Meeting-intelligence platform for capture, AI notes, clips, searchable context and connected AI workflows.",
+      "useCase": "For sales, product and research teams that want reusable customer-conversation context inside downstream AI and business workflows."
     },
     {
-      "name": "Wix AI Website Builder",
-      "officialUrl": "https://www.wix.com/ai-website-builder",
+      "name": "Jamie",
+      "officialUrl": "https://www.meetjamie.ai/",
       "evidenceUrls": [
-        "https://www.wix.com/ai-website-builder",
-        "https://support.wix.com/en/article/wix-harmony-editor-creating-a-site-with-ai"
+        "https://www.meetjamie.ai/",
+        "https://www.meetjamie.ai/blog/llm-info",
+        "https://www.meetjamie.ai/blog"
       ],
-      "userValue": "Wix's current AI website builder inside Harmony, combining conversational site generation, Aria agent assistance, visual editing and integrated business tooling.",
-      "description": "Wix's AI website builder with conversational generation, Aria agent assistance and visual editing.",
-      "useCase": "For small businesses and individuals who want a generated production website they can continue refining visually."
+      "userValue": "Actively maintained bot-free AI meeting-notes product for online and in-person conversations with summaries, transcripts and action items.",
+      "description": "Bot-free AI meeting-notes product for transcripts, summaries and action items across online and in-person conversations.",
+      "useCase": "For professionals who want meeting notes across platforms without adding a visible recording bot to calls."
     },
     {
-      "name": "OpenArt",
-      "officialUrl": "https://openart.ai/",
+      "name": "Notta",
+      "officialUrl": "https://www.notta.ai/",
       "evidenceUrls": [
-        "https://openart.ai/blog/what-is-openart/",
-        "https://openart.ai/blog/openart-director-press-release/",
-        "https://openart.ai/blog/category/updates/"
+        "https://www.notta.ai/",
+        "https://www.notta.ai/en/blog",
+        "https://www.notta.ai/en/blog/category/product"
       ],
-      "userValue": "Actively developed all-in-one creative AI platform spanning image, video, audio, editing, character workflows, persistent worlds and agent-like directing.",
-      "category": "Images & video",
-      "description": "All-in-one creative AI platform for image, video, audio, editing and agentic visual storytelling.",
-      "useCase": "For creators who want multiple generative-media workflows, editing tools and visual storytelling features in one workspace.",
-      "pricing": "Free trial / Paid"
+      "userValue": "Active transcription and meeting-workflow platform for live and uploaded audio/video, multilingual notes, summaries and searchable meeting records.",
+      "description": "AI transcription and meeting platform for multilingual notes, summaries and searchable conversation records.",
+      "useCase": "For teams that need cross-language transcription and structured meeting documentation from live calls or uploaded media."
     },
     {
-      "name": "getimg.ai",
-      "officialUrl": "https://getimg.ai/",
+      "name": "Supernormal",
+      "officialUrl": "https://www.supernormal.com/",
       "evidenceUrls": [
-        "https://getimg.ai/blog",
-        "https://getimg.ai/blog/categories/news"
+        "https://www.supernormal.com/",
+        "https://www.supernormal.com/blog"
       ],
-      "userValue": "Actively maintained multi-model creative platform spanning image, video, speech and music generation with editing and reusable creative workflows.",
-      "category": "Creative AI",
-      "description": "Multi-model creative platform for image, video, speech and music generation and editing.",
-      "useCase": "For creators who want several current generative-media models and workflows under one account rather than separate specialist tools."
+      "userValue": "Supernormal's current product has expanded from meeting notes into an AI-agent workspace for agencies that turns client conversations into presentations, documents, visuals and other deliverables.",
+      "category": "Agency workflows",
+      "description": "AI-agent workspace for agencies that turns meeting context into client-ready documents, slides and other deliverables.",
+      "useCase": "For agencies that want client calls and meeting notes transformed directly into briefs, proposals, decks, visuals and follow-up work."
     },
     {
-      "name": "Scenario",
-      "officialUrl": "https://www.scenario.com/",
+      "name": "Tactiq",
+      "officialUrl": "https://tactiq.io/",
       "evidenceUrls": [
-        "https://www.scenario.com/blog/Scenario-Is-Now-Available-Directly-in-Your-AI-Agent",
-        "https://www.scenario.com/blog"
+        "https://tactiq.io/"
       ],
-      "userValue": "Actively developed creative-generation platform for images, video, 3D and audio with custom models, production assets and MCP access from AI agents.",
-      "category": "Creative AI",
-      "description": "Creative-generation platform for images, video, 3D and audio with custom models and agent integrations.",
-      "useCase": "For game and creative-production teams that need repeatable styles, custom models and multimodal asset generation."
+      "userValue": "Active AI note-taking and transcription product for Google Meet, Zoom and Teams, focused on live transcripts, summaries and lightweight post-meeting actions.",
+      "description": "AI meeting note taker for live transcripts, summaries and post-call workflows in common conferencing tools.",
+      "useCase": "For users who want browser-based live transcription and fast AI summaries without a complex meeting-intelligence platform."
     },
     {
-      "name": "NightCafe",
-      "officialUrl": "https://creator.nightcafe.studio/",
+      "name": "Motion",
+      "officialUrl": "https://www.usemotion.com/",
       "evidenceUrls": [
-        "https://creator.nightcafe.studio/"
+        "https://www.usemotion.com/",
+        "https://www.usemotion.com/blog/ai"
       ],
-      "userValue": "Active community-oriented AI art platform offering multiple image-generation model families, challenges and creator workflows in one service.",
-      "description": "Community-oriented AI art platform with multiple image models, challenges and creator workflows.",
-      "useCase": "For casual and creative users who want broad model choice and a community-centered image-generation experience."
-    },
-    {
-      "name": "Pebblely",
-      "officialUrl": "https://pebblely.com/",
-      "evidenceUrls": [
-        "https://pebblely.com/blog/introducing-new-pebblely/",
-        "https://pebblely.com/blog/"
-      ],
-      "userValue": "Actively maintained AI product-photography tool rebuilt in 2026 for fast product-preserving scene generation directly from uploaded source photos.",
-      "description": "AI product-photography tool for generating product-preserving commercial scenes from source photos.",
-      "useCase": "For ecommerce teams and small brands that need marketing-ready product imagery without repeated studio shoots."
+      "userValue": "Motion's current product is a broad AI productivity platform combining project management, task prioritization, calendar scheduling, meeting notes, docs, workflows and search.",
+      "category": "Productivity",
+      "description": "AI productivity platform for projects, tasks, calendar scheduling, meeting notes, docs and workflows.",
+      "useCase": "For individuals and teams that want priorities, projects and calendars continuously planned and coordinated by one AI-assisted work system."
     }
   ],
   "update": [],
-  "supersede": [],
+  "supersede": [
+    {
+      "name": "Topaz Video AI",
+      "newName": "Topaz Video",
+      "url": "https://www.topazlabs.com/topaz-video",
+      "category": "Video enhancement",
+      "description": "AI video-enhancement application for local and cloud upscaling, denoising, stabilization, interpolation and restoration workflows.",
+      "useCase": "For filmmakers and editors improving existing footage quality with specialized enhancement models rather than generating entirely new scenes.",
+      "pricing": "Paid",
+      "firstTrackedAt": "2026-09-20T21:15:00Z",
+      "oldEvidenceUrls": [
+        "https://www.topazlabs.com/topaz-video-ai"
+      ],
+      "newEvidenceUrls": [
+        "https://www.topazlabs.com/topaz-video"
+      ],
+      "reason": "Topaz Labs now presents the product as Topaz Video and the former Topaz Video AI URL redirects to the current Topaz Video product page.",
+      "userValue": "Topaz Video is the current Topaz Labs product for AI-assisted video enhancement, restoration and upscaling."
+    }
+  ],
   "mergeInto": [],
   "remove": []
 }
