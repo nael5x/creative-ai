@@ -1,77 +1,127 @@
 {
-  "batchId": "legacy-a-025",
+  "batchId": "legacy-a-026",
   "reviewedAt": "2026-09-21",
   "accept": [
     {
-      "name": "Meshy",
-      "officialUrl": "https://www.meshy.ai/",
+      "name": "SWE-agent",
+      "officialUrl": "https://swe-agent.com/",
       "evidenceUrls": [
-        "https://www.meshy.ai/",
-        "https://docs.meshy.ai/en",
-        "https://docs.meshy.ai/en/webapp/changelog"
+        "https://github.com/SWE-agent/SWE-agent/releases",
+        "https://swe-agent.com/"
       ],
-      "userValue": "Actively developed end-to-end AI 3D creation platform for text, image and conversational generation, production-ready meshes, texturing, topology, rigging, animation, 3D printing and API workflows.",
-      "description": "End-to-end AI 3D creation platform for generation, texturing, topology, animation, printing and API workflows.",
-      "useCase": "For game, product, maker and 3D teams that want to move from references or prompts to editable production assets quickly."
+      "userValue": "Active open-source software-engineering agent and research platform for resolving repository issues, evaluating agent behavior and generating training trajectories.",
+      "description": "Open-source software-engineering agent for resolving repository issues, evaluation and agent research.",
+      "useCase": "For researchers and developers experimenting with autonomous code changes, SWE-bench-style tasks and reproducible software-agent workflows."
     },
     {
-      "name": "Tripo AI",
-      "officialUrl": "https://www.tripo3d.ai/",
+      "name": "Goose",
+      "officialUrl": "https://block.github.io/goose/",
       "evidenceUrls": [
-        "https://www.tripo3d.ai/",
-        "https://www.tripo3d.ai/help/getting-started/what-features-does-tripo-have",
-        "https://developers.tripo3d.ai/en/models/v3-1"
+        "https://block.github.io/goose/"
       ],
-      "userValue": "Active AI 3D modeling platform for text, single-image and multiview generation with high-detail or smart-mesh outputs, texturing, segmentation, retopology, rigging and animation.",
-      "description": "AI 3D platform for text/image generation, smart meshes, texturing, retopology, rigging and animation.",
-      "useCase": "For creators and studios that want production-oriented 3D assets for games, VFX, printing, ecommerce and interactive applications."
+      "userValue": "Active open-source general-purpose local agent now governed under the Agentic AI Foundation, with desktop, CLI and API surfaces plus MCP and ACP interoperability.",
+      "description": "Open-source local agent with desktop, CLI and API interfaces plus MCP and ACP integrations.",
+      "useCase": "For developers who want a vendor-neutral local agent for coding, research, automation and tool-connected workflows."
     },
     {
-      "name": "Spline AI",
-      "officialUrl": "https://spline.design/ai",
+      "name": "JetBrains Junie",
+      "officialUrl": "https://www.jetbrains.com/junie/",
       "evidenceUrls": [
-        "https://docs.spline.design/generate/ai-3d-generation",
-        "https://spline.design/ai"
+        "https://blog.jetbrains.com/junie/2026/06/junie-coding-agent-out-of-beta/",
+        "https://junie.jetbrains.com/"
       ],
-      "userValue": "Active AI generation inside Spline for turning text and images into 3D assets that can be dropped directly into Spline's collaborative interactive design environment.",
-      "description": "AI-assisted 3D generation inside Spline's collaborative interactive design environment.",
-      "useCase": "For web and product designers who want generated 3D assets to remain editable inside an interactive scene and prototyping workflow."
+      "userValue": "JetBrains' active coding agent for terminal and IDE workflows, with project-aware planning, debugging, review and multi-model support.",
+      "description": "JetBrains coding agent for terminal and IDE workflows with project-aware planning, debugging and review.",
+      "useCase": "For JetBrains users who want to delegate multi-step implementation work while keeping the agent connected to IDE project context and tools."
     },
     {
-      "name": "Kaedim",
-      "officialUrl": "https://www.kaedim3d.com/",
+      "name": "IBM watsonx Code Assistant",
+      "officialUrl": "https://www.ibm.com/products/watsonx-code-assistant",
       "evidenceUrls": [
-        "https://www.kaedim3d.com/"
+        "https://www.ibm.com/products/watsonx-code-assistant",
+        "https://www.ibm.com/docs/en/software-hub/5.4.x?topic=new-watsonx-code-assistant"
       ],
-      "userValue": "Active managed 3D production platform that turns briefs, sketches, references and product photos into inspectable studio-quality assets for games, product design and commercial CGI.",
-      "description": "Managed AI-assisted 3D production platform for converting briefs and references into studio-ready assets.",
-      "useCase": "For studios and brands that need scalable 3D asset production with quality control and human-in-the-loop refinement."
+      "userValue": "Actively maintained IBM enterprise coding assistant for code generation, explanation, transformation and modernization in governed software-development environments.",
+      "description": "IBM enterprise coding assistant for generation, explanation, transformation and application modernization.",
+      "useCase": "For organizations that need AI coding help inside governed enterprise environments, including modernization of existing application estates."
     },
     {
-      "name": "Masterpiece X",
-      "officialUrl": "https://www.masterpiecex.com/",
+      "name": "ScrapeGraphAI",
+      "officialUrl": "https://scrapegraphai.com/",
       "evidenceUrls": [
-        "https://masterpiecex.com/pricing",
-        "https://app.masterpiecex.com/",
-        "https://masterpiecex.com/blog/generate-your-own-3d-asset-packs-with-masterpiece-x-generate-api"
+        "https://scrapegraphai.com/",
+        "https://scrapegraphai.com/blog/category/product-updates"
       ],
-      "userValue": "Active generative 3D playground and API for rapid text- and image-driven asset prototyping, remixing and export to common 3D pipelines.",
-      "description": "Generative 3D platform for rapid asset prototyping, remixing and developer API workflows.",
-      "useCase": "For creators who want a low-friction way to explore and prototype 3D assets before deeper work in Blender, Unity, Unreal or other production tools."
+      "userValue": "Actively developed AI web-data platform for scraping, natural-language structured extraction, search, crawling, monitoring and agent integrations through APIs and MCP.",
+      "description": "AI web-data platform for scraping, structured extraction, search, crawling and monitoring.",
+      "useCase": "For developers who want LLM-ready or schema-constrained web data without maintaining selectors and custom parsers for every site."
     },
     {
-      "name": "Hyper3D Rodin",
-      "officialUrl": "https://hyper3d.ai/",
+      "name": "Zyte",
+      "officialUrl": "https://www.zyte.com/",
       "evidenceUrls": [
-        "https://docs.hyper3d.ai/en/get-started/changelog"
+        "https://www.zyte.com/zyte-api/ai-extraction/",
+        "https://www.zyte.com/"
       ],
-      "userValue": "Actively maintained Hyper3D Rodin model and API family for high-fidelity 3D generation, texturing and production-oriented geometry with current Gen-2.5 capabilities.",
-      "description": "High-fidelity AI 3D generation and texturing platform built around the Rodin model and API family.",
-      "useCase": "For developers and 3D teams that need high-quality generated geometry and textures through a web product or production API."
+      "userValue": "Active web-data extraction platform combining browser infrastructure, anti-blocking and AI extraction for structured page data without hand-written parsers.",
+      "description": "Web-data extraction platform with browser infrastructure, anti-blocking and AI-powered structured extraction.",
+      "useCase": "For teams collecting web data at scale that want managed access, rendering and extraction instead of operating a full scraping stack."
+    },
+    {
+      "name": "Stagehand",
+      "officialUrl": "https://www.stagehand.dev/",
+      "evidenceUrls": [
+        "https://www.browserbase.com/blog/stagehand",
+        "https://www.browserbase.com/changelog/stagehand-v4"
+      ],
+      "userValue": "Actively developed open-source SDK from Browserbase for browser agents, combining natural-language actions with deterministic automation, self-healing behavior and current v4 agent infrastructure.",
+      "description": "Open-source SDK for browser agents that combines natural-language actions with deterministic browser automation.",
+      "useCase": "For developers building browser agents that need more resilience than selector-only automation while retaining code-level control."
+    },
+    {
+      "name": "Jina AI Reader",
+      "officialUrl": "https://jina.ai/reader/",
+      "evidenceUrls": [
+        "https://jina.ai/reader/"
+      ],
+      "userValue": "Active Jina Reader and Search API service for converting public webpages into LLM-friendly content, web search results and MCP-accessible context.",
+      "description": "Web reader and search APIs for converting public pages into LLM-friendly content and agent context.",
+      "useCase": "For developers feeding cleaner web content into research, RAG, search and agent workflows with minimal retrieval plumbing."
+    },
+    {
+      "name": "Unstructured",
+      "officialUrl": "https://unstructured.io/",
+      "evidenceUrls": [
+        "https://unstructured.io/",
+        "https://unstructured.io/platform-terms-of-service"
+      ],
+      "userValue": "Active document-processing platform and open-source ecosystem for parsing, partitioning and transforming complex files into structured inputs for retrieval and AI pipelines.",
+      "description": "Document-processing platform for parsing and transforming complex files into structured AI-ready data.",
+      "useCase": "For developers preparing PDFs, office documents and other unstructured files for RAG, search and knowledge systems."
+    },
+    {
+      "name": "Skyvern",
+      "officialUrl": "https://www.skyvern.com/",
+      "evidenceUrls": [
+        "https://www.skyvern.com/",
+        "https://www.skyvern.com/blog/skyvern-changelog-july-2026/"
+      ],
+      "userValue": "Actively developed AI browser-automation and agentic process automation platform for authenticated, visual and multi-step workflows across websites without brittle selectors.",
+      "description": "AI browser-automation platform for authenticated, visual and multi-step workflows across websites.",
+      "useCase": "For operations and development teams automating portal work, extraction, form filling and browser tasks that lack reliable APIs."
     }
   ],
   "update": [],
   "supersede": [],
   "mergeInto": [],
-  "remove": []
+  "remove": [
+    {
+      "name": "GitHub Spark",
+      "evidenceUrls": [
+        "https://github.com/orgs/community/discussions/203602",
+        "https://docs.github.com/en/copilot/tutorials/spark/your-first-spark"
+      ],
+      "reason": "GitHub officially deprecated Spark on August 31, 2026 after stopping new-user access and new app creation on August 4, so it no longer meets the active-product quality gate."
+    }
+  ]
 }
