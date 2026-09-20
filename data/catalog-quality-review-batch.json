@@ -1,123 +1,173 @@
 {
-  "batchId": "legacy-a-012",
+  "batchId": "legacy-a-013",
   "reviewedAt": "2026-09-20",
   "accept": [
     {
-      "name": "Hailuo AI",
-      "officialUrl": "https://hailuoai.video/",
+      "name": "Stable Audio",
+      "officialUrl": "https://www.stableaudio.com/",
       "evidenceUrls": [
-        "https://hailuoai.video/"
+        "https://stability.ai/stable-audio",
+        "https://www.stableaudio.com/"
       ],
-      "userValue": "Active MiniMax consumer video-generation platform for image-to-video, text-guided video and reference-driven creative workflows.",
-      "description": "MiniMax AI video platform for image-to-video, text-guided video and reference-driven generation.",
-      "useCase": "For creators who want fast short-form video generation from prompts, images and reference subjects."
+      "userValue": "Stability AI's actively maintained generative-audio product and model family for music and sound effects, with web-app, API, enterprise and open-weight access paths.",
+      "description": "Stability AI generative-audio platform and model family for music and sound effects.",
+      "useCase": "For creators and developers generating or editing music and sound effects through a web app, API or open-weight Stable Audio models."
     },
     {
-      "name": "InVideo AI",
-      "officialUrl": "https://invideo.io/ai/",
+      "name": "Gumloop",
+      "officialUrl": "https://www.gumloop.com/",
       "evidenceUrls": [
-        "https://help.invideo.io/en/articles/14717491-get-started-with-ai-filmmaking",
-        "https://invideo.io/news/introducing-invideo-editor/"
+        "https://www.gumloop.com/",
+        "https://www.gumloop.com/blog/introducing-agent-tasks",
+        "https://www.gumloop.com/blog/gumloop-model-router"
       ],
-      "userValue": "Agentic AI video-creation platform that can plan, script, storyboard, generate and edit videos across a large model catalog, with a controllable browser-based editor.",
-      "description": "Agentic AI video platform for planning, scripting, generating and editing complete videos.",
-      "useCase": "For creators and teams who want an AI agent to take a concept from script through generated scenes and final edit while retaining timeline control."
+      "userValue": "Active AI-agent automation platform for building specialized agents, recurring tasks and multi-agent workflows connected to workplace data and apps.",
+      "description": "AI-agent automation platform for specialized agents, recurring tasks and multi-agent workflows.",
+      "useCase": "For teams that want to automate operational work with configurable agents connected to internal data and business applications."
     },
     {
-      "name": "OpusClip",
-      "officialUrl": "https://www.opus.pro/",
+      "name": "Lindy",
+      "officialUrl": "https://www.lindy.ai/",
       "evidenceUrls": [
-        "https://www.opus.pro/"
+        "https://www.lindy.ai/",
+        "https://www.lindy.ai/blog/best-ai-agents"
       ],
-      "userValue": "AI clipping and repurposing platform for turning long-form video into social-ready shorts with automated clipping, captions, reframing and publishing.",
-      "description": "AI video repurposing platform for clipping, captioning, reframing and publishing long-form content as shorts.",
-      "useCase": "For creators and teams that want to turn podcasts, interviews, webinars and long videos into multiple social clips quickly."
+      "userValue": "Active business-agent platform for automating sales, support, operations and administrative work with configurable AI agents and cross-app workflows.",
+      "description": "Business AI-agent platform for sales, support, operations and administrative automation.",
+      "useCase": "For teams that want to delegate repeatable communication and operations work to configurable agents connected to business tools."
     },
     {
-      "name": "Otter.ai",
-      "officialUrl": "https://otter.ai/",
+      "name": "Relevance AI",
+      "officialUrl": "https://relevanceai.com/",
       "evidenceUrls": [
-        "https://otter.ai/"
+        "https://relevanceai.com/workforce",
+        "https://community.relevanceai.com/x/announcements"
       ],
-      "userValue": "Conversational knowledge platform that captures meetings, transcribes speech, generates summaries and action items, searches past conversations and triggers downstream workflows.",
-      "description": "AI conversational knowledge platform for meeting capture, transcription, summaries, search and workflow automation.",
-      "useCase": "For teams that want searchable meeting knowledge, automatic notes and action items, and integrations that push conversation outcomes into business tools."
+      "userValue": "No-code AI workforce platform for building agents, tools and collaborative multi-agent systems that execute business workflows across connected systems.",
+      "description": "No-code AI workforce platform for agents, tools and collaborative multi-agent systems.",
+      "useCase": "For organizations building coordinated AI teams that automate business processes across sales, support, finance and operations."
     },
     {
-      "name": "tl;dv",
-      "officialUrl": "https://tldv.io/",
+      "name": "Taskade",
+      "officialUrl": "https://www.taskade.com/",
       "evidenceUrls": [
-        "https://tldv.io/"
+        "https://www.taskade.com/wiki/taskade/ai-agents",
+        "https://www.taskade.com/wiki/autonomous/autonomous-agents",
+        "https://www.taskade.com/blog/updates"
       ],
-      "userValue": "AI meeting recorder and notetaker for Zoom, Google Meet and Teams with searchable recordings, summaries, clips and conversation insights.",
-      "description": "AI meeting recorder and notetaker with searchable recordings, summaries, clips and conversation insights.",
-      "useCase": "For teams that want a searchable record of calls plus automatic summaries and reusable meeting highlights."
+      "userValue": "Actively developed AI workspace and app-building platform combining persistent agents, projects, knowledge, automations and multi-agent collaboration.",
+      "description": "AI workspace and app-building platform combining projects, persistent agents, knowledge and automations.",
+      "useCase": "For individuals and teams that want planning, collaboration, AI agents and workflow automation in one shared workspace."
     },
     {
-      "name": "Krisp",
-      "officialUrl": "https://krisp.ai/",
+      "name": "Haystack",
+      "officialUrl": "https://haystack.deepset.ai/",
       "evidenceUrls": [
-        "https://krisp.ai/"
+        "https://haystack.deepset.ai/"
       ],
-      "userValue": "Voice AI platform for meeting audio cleanup, noise cancellation, transcription, notes and meeting assistance across communication apps.",
-      "description": "Voice AI platform for noise cancellation, transcription, meeting notes and call-quality assistance.",
-      "useCase": "For people and teams that need clearer calls plus lightweight AI meeting capture and follow-up."
+      "userValue": "Actively developed open-source orchestration framework for production-grade agents, retrieval, multimodal AI and composable LLM applications.",
+      "description": "Open-source AI orchestration framework for production-grade agents, retrieval and multimodal applications.",
+      "useCase": "For developers building transparent, composable production AI systems with control over retrieval, reasoning, memory, tools and deployment."
     },
     {
-      "name": "Speechify",
-      "officialUrl": "https://speechify.com/",
+      "name": "LangGraph",
+      "officialUrl": "https://www.langchain.com/langgraph",
       "evidenceUrls": [
-        "https://speechify.com/"
+        "https://www.langchain.com/blog/march-2026-langchain-newsletter",
+        "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph"
       ],
-      "userValue": "AI speech and reading platform for high-quality text-to-speech, voice typing and listening workflows across documents, webpages and apps.",
-      "description": "AI speech and reading platform for text-to-speech, voice typing and listening workflows.",
-      "useCase": "For accessibility, study and productivity when users want written content read aloud or converted into natural speech."
+      "userValue": "Actively maintained graph-based agent runtime from LangChain for stateful, controllable agent workflows that need explicit orchestration and durable execution.",
+      "description": "Graph-based runtime for building controllable, stateful and durable AI agent workflows.",
+      "useCase": "For developers who need low-level control over long-running or multi-step agent state, branching, persistence and human intervention."
     },
     {
-      "name": "Resemble AI",
-      "officialUrl": "https://www.resemble.ai/",
+      "name": "Pydantic AI",
+      "officialUrl": "https://ai.pydantic.dev/",
       "evidenceUrls": [
-        "https://www.resemble.ai/",
-        "https://www.resemble.ai/changelog"
+        "https://ai.pydantic.dev/",
+        "https://pydantic.dev/articles"
       ],
-      "userValue": "AI voice and media-authenticity platform spanning synthetic voice generation, cloning, speech workflows, watermarking and multimodal deepfake detection.",
-      "description": "AI voice and media-authenticity platform for synthetic speech, voice cloning, watermarking and deepfake detection.",
-      "useCase": "For developers and enterprises building voice experiences or protecting audio, image and video workflows against synthetic-media abuse."
+      "userValue": "Actively developed typed Python agent framework from the Pydantic team with tools, multi-agent patterns, durable execution, MCP, evaluation and observability integrations.",
+      "description": "Typed Python agent framework with tools, durable execution, multi-agent patterns, MCP and evaluation support.",
+      "useCase": "For Python developers who want strongly typed, testable AI agents with structured outputs, provider flexibility and production-oriented tooling."
     },
     {
-      "name": "Udio",
-      "officialUrl": "https://www.udio.com/",
+      "name": "Langflow",
+      "officialUrl": "https://www.langflow.org/",
       "evidenceUrls": [
-        "https://www.udio.com/",
-        "https://help.udio.com/en/articles/11386622-ios-app"
+        "https://www.langflow.org/blog/langflow-1-12/",
+        "https://www.langflow.org/blog/langflow-1-11/"
       ],
-      "userValue": "Active AI music-generation platform for creating, extending and iterating on songs from prompts across web and official iOS experiences.",
-      "description": "AI music-generation platform for creating, extending and iterating on songs from prompts.",
-      "useCase": "For musicians and creators experimenting with generated songs, arrangements and musical ideas."
+      "userValue": "Actively maintained open-source low-code builder for agentic and RAG workflows with human-in-the-loop, A2A, AG-UI, observability and deployable APIs.",
+      "description": "Open-source low-code builder for agentic, RAG and multi-system AI workflows.",
+      "useCase": "For developers and technical teams that want to visually assemble, test and deploy agent workflows while retaining access to code and APIs."
     },
     {
-      "name": "SOUNDRAW",
-      "officialUrl": "https://soundraw.io/",
+      "name": "GPT4All",
+      "officialUrl": "https://www.nomic.ai/gpt4all",
       "evidenceUrls": [
-        "https://soundraw.io/blog/post/introducing-the-latest-updates-soundraw-release-log",
-        "https://soundraw.io/"
+        "https://www.nomic.ai/gpt4all"
       ],
-      "userValue": "Actively maintained AI music-generation platform focused on customizable creator music, ethical training claims, commercial-use workflows and API access.",
-      "description": "AI music generator for customizable creator tracks, commercial workflows and API-based music production.",
-      "useCase": "For creators and developers who need adjustable background music for video, apps and commercial media."
+      "userValue": "Nomic's actively available private local AI desktop application for running open language models and document chat on-device without sending data to a cloud service.",
+      "description": "Private local AI desktop app for running open language models and document chat on-device.",
+      "useCase": "For users who want local model chat and document workflows on Windows, macOS or Linux without sending prompts and files to a hosted provider."
+    },
+    {
+      "name": "llama.cpp",
+      "officialUrl": "https://github.com/ggml-org/llama.cpp",
+      "evidenceUrls": [
+        "https://github.com/ggml-org/llama.cpp/releases",
+        "https://github.com/ggml-org/llama.cpp/discussions/23875"
+      ],
+      "userValue": "Very actively maintained open-source inference runtime and tooling stack for efficient local and server execution of GGUF language models across many hardware targets.",
+      "description": "Open-source inference runtime and tooling stack for efficient local and server execution of GGUF models.",
+      "useCase": "For developers and advanced users who need efficient, portable local-model inference across desktop, server, mobile and edge hardware."
+    },
+    {
+      "name": "LibreChat",
+      "officialUrl": "https://www.librechat.ai/",
+      "evidenceUrls": [
+        "https://github.com/danny-avila/LibreChat/releases",
+        "https://www.librechat.ai/"
+      ],
+      "userValue": "Actively maintained self-hosted multi-provider AI interface with agents, skills, MCP, projects, search and enterprise-oriented authentication and observability features.",
+      "description": "Self-hosted multi-provider AI interface with agents, skills, MCP, projects and enterprise controls.",
+      "useCase": "For users and organizations that want one self-hosted interface across cloud and local model providers with configurable agent tooling."
+    },
+    {
+      "name": "Kagi Assistant",
+      "officialUrl": "https://kagi.com/assistant",
+      "evidenceUrls": [
+        "https://help.kagi.com/kagi/ai/assistant.html",
+        "https://kagi.com/changelog"
+      ],
+      "userValue": "Actively maintained privacy-focused multi-model assistant with optional Kagi Search grounding, custom assistants, files, voice input and native mobile apps.",
+      "description": "Privacy-focused multi-model assistant with optional Kagi Search grounding, custom assistants and file context.",
+      "useCase": "For Kagi members who want model choice, web-grounded research and private assistant workflows within one subscription."
     }
   ],
   "update": [],
   "supersede": [],
-  "mergeInto": [],
-  "remove": [
+  "mergeInto": [
     {
-      "name": "Sora",
-      "evidenceUrls": [
-        "https://openai.com/index/sora-is-here/",
-        "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+      "name": "Semantic Kernel",
+      "targetName": "Microsoft Agent Framework",
+      "targetUrl": "https://learn.microsoft.com/en-us/agent-framework/overview/",
+      "category": "AI development",
+      "description": "Open-source Microsoft SDK and runtime for building, orchestrating and deploying production AI agents and multi-agent workflows.",
+      "useCase": "For developers starting new Microsoft-oriented agent systems with tools, workflows, multiple model providers and operational controls.",
+      "pricing": "Open source",
+      "oldEvidenceUrls": [
+        "https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-semantic-kernel/",
+        "https://microsoft.github.io/Microsoft-AI-Decision-Framework/docs/technologies.html"
       ],
-      "reason": "OpenAI discontinued the Sora web and app experiences on April 26, 2026 and announced that the Sora API will be discontinued on September 24, 2026, so Sora no longer meets the active-product quality gate."
+      "targetEvidenceUrls": [
+        "https://learn.microsoft.com/en-us/agent-framework/overview/",
+        "https://microsoft.github.io/Microsoft-AI-Decision-Framework/docs/technologies.html"
+      ],
+      "reason": "Microsoft identifies Agent Framework as the direct successor to Semantic Kernel and provides a current Semantic Kernel migration guide. Keeping Semantic Kernel as a separate recommended active framework would duplicate a superseded maintenance-line identity for new projects.",
+      "userValue": "Microsoft Agent Framework is the current Microsoft framework for new production agent development, unifying the lineage of Semantic Kernel and AutoGen."
     }
-  ]
+  ],
+  "remove": []
 }
