@@ -2325,6 +2325,19 @@
       "decision": "accepted"
     },
     {
+      "name": "Hostinger AI Builder",
+      "officialUrl": "https://www.hostinger.com/ai-builder",
+      "evidenceUrls": [
+        "https://www.hostinger.com/ai-builder",
+        "https://www.hostinger.com/legal/special-terms",
+        "https://www.hostinger.com/blog/product-updates-2026"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Hostinger AI Builder is the current unified Hostinger product for AI-assisted website and web-app creation, editing and publishing.",
+      "decision": "accepted",
+      "supersedes": "Hostinger Horizons"
+    },
+    {
       "name": "Hugging Face",
       "officialUrl": "https://huggingface.co/",
       "evidenceUrls": [
@@ -2553,6 +2566,18 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Active AI study platform with lecture capture, PDF and video summarization, flashcards, quizzes, voice tutoring and standardized-exam practice.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Koala AI",
+      "officialUrl": "https://koala.sh/",
+      "evidenceUrls": [
+        "https://koala.sh/blog/meet-brand-dna-growth-agent-koalawriter-v2",
+        "https://koala.sh/changelog",
+        "https://koala.sh/pages/api-docs/koalawriter-v2"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed AI SEO content platform with Brand DNA, an SEO agent, KoalaWriter v2, real-time research, AI-search optimization and API workflows.",
       "decision": "accepted"
     },
     {
@@ -2982,6 +3007,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Mixo",
+      "officialUrl": "https://www.mixo.io/",
+      "evidenceUrls": [
+        "https://www.mixo.io/features/ai-website-builder",
+        "https://app.mixo.io/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI website builder focused on rapidly generating editable, mobile-ready small-business and startup sites from a plain-language description.",
+      "decision": "accepted"
+    },
+    {
       "name": "monday AI",
       "officialUrl": "https://monday.com/",
       "evidenceUrls": [
@@ -3051,6 +3087,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "AI visual-communication tool that converts text into editable diagrams, infographics, mind maps, charts and presentation-ready visual assets.",
+      "decision": "accepted"
+    },
+    {
+      "name": "NeuronWriter",
+      "officialUrl": "https://neuronwriter.com/",
+      "evidenceUrls": [
+        "https://neuronwriter.com/ai-score-in-neuronwriter-how-to-dominate-seo-and-geo-in-2026-guide/",
+        "https://neuronwriter.com/ai-tracking-in-neuronwriter-how-to-measure-your-visibility-in-google-sge-and-perplexity/",
+        "https://neuronwriter.com/ai-search-changes-for-seo/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active content-optimization and AI-visibility platform combining semantic SEO guidance, AI scoring, content assistance and tracking across AI answer engines.",
       "decision": "accepted"
     },
     {
@@ -3617,6 +3665,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Scalenut",
+      "officialUrl": "https://www.scalenut.com/",
+      "evidenceUrls": [
+        "https://www.scalenut.com/helpdoc/scalenut-platform-overview-the-all-in-one-geo-content-growth-engine",
+        "https://www.scalenut.com/helpdoc/ai-visibility-your-guide-to-generative-engine-optimization-geo"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active GEO and content-growth platform for tracking AI-search visibility, generating optimized content and turning visibility insights into search and content actions.",
+      "decision": "accepted"
+    },
+    {
       "name": "Scenario",
       "officialUrl": "https://www.scenario.com/",
       "evidenceUrls": [
@@ -3681,6 +3740,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Search Atlas",
+      "officialUrl": "https://searchatlas.com/",
+      "evidenceUrls": [
+        "https://searchatlas.com/blog/",
+        "https://searchatlas.com/blog/building-agentic-seo-workflow/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active agentic marketing and SEO platform centered on OTTO and Atlas Agent for technical SEO, content, AI visibility and automated optimization execution.",
+      "decision": "accepted"
+    },
+    {
       "name": "SeekOut",
       "officialUrl": "https://www.seekout.com/",
       "evidenceUrls": [
@@ -3721,6 +3791,29 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Agentic security analyst inside SentinelOne for investigating threats and assisting SOC response.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Shopify Magic",
+      "officialUrl": "https://www.shopify.com/magic",
+      "evidenceUrls": [
+        "https://help.shopify.com/en/manual/ai-powered-tools/shopify-magic",
+        "https://help.shopify.com/en/manual/ai-powered-tools"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Shopify's active suite of built-in AI features for store building, copy, media generation, theme work and merchant operations across Shopify.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Shopify Sidekick",
+      "officialUrl": "https://www.shopify.com/sidekick",
+      "evidenceUrls": [
+        "https://www.shopify.com/sidekick",
+        "https://help.shopify.com/en/manual/ai-powered-tools/sidekick",
+        "https://www.shopify.com/editions/winter2026"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Shopify's active context-aware commerce assistant for analyzing store data, completing admin tasks, creating content, editing themes and generating custom apps with merchant review.",
       "decision": "accepted"
     },
     {
@@ -4529,6 +4622,18 @@
       "supersededBy": "Magnific"
     },
     {
+      "name": "Hostinger Horizons",
+      "officialUrl": "https://www.hostinger.com/horizons",
+      "evidenceUrls": [
+        "https://www.hostinger.com/legal/special-terms"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Hostinger states that Hostinger AI Builder is the current unified product and that services previously offered as Hostinger Horizons and Hostinger Website Builder are now part of Hostinger AI Builder.",
+      "decision": "rejected",
+      "reason": "Hostinger states that Hostinger AI Builder is the current unified product and that services previously offered as Hostinger Horizons and Hostinger Website Builder are now part of Hostinger AI Builder.",
+      "supersededBy": "Hostinger AI Builder"
+    },
+    {
       "name": "Hour One",
       "officialUrl": "https://hourone.ai/",
       "evidenceUrls": [
@@ -4687,9 +4792,9 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-21",
-  "lastQualityReviewBatch": "legacy-a-019",
+  "lastQualityReviewBatch": "legacy-a-020",
   "lastQualityReviewBatchSummary": {
-    "accepted": 10,
+    "accepted": 7,
     "updated": 0,
     "superseded": 1,
     "merged": 0,

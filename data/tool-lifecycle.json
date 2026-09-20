@@ -1132,10 +1132,6 @@
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Hostinger Horizons": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
     "B12": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
@@ -2452,6 +2448,11 @@
       "firstTrackedAt": "2026-09-21T00:00:00Z",
       "event": "added",
       "supersedes": "Lexis+ AI"
+    },
+    "Hostinger AI Builder": {
+      "firstTrackedAt": "2026-09-21T00:00:00Z",
+      "event": "added",
+      "supersedes": "Hostinger Horizons"
     }
   }
 }

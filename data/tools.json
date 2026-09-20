@@ -2346,16 +2346,16 @@
   [
     "Shopify Magic",
     "Ecommerce",
-    "AI features across Shopify for writing, media and merchant workflows.",
-    "For merchants who want AI assistance inside the storefront and commerce admin they already use.",
+    "Built-in Shopify AI features for store building, copy, media generation, themes and merchant workflows.",
+    "For Shopify merchants who want AI assistance embedded directly in the commerce admin and storefront workflow.",
     "Free tier / Paid",
     "https://www.shopify.com/magic"
   ],
   [
     "Shopify Sidekick",
     "Ecommerce",
-    "Conversational commerce assistant built into Shopify for merchant tasks and store questions.",
-    "For store operators who want guided help with analysis, setup and day-to-day commerce work.",
+    "Context-aware Shopify commerce assistant for analysis, content, store tasks, theme work and custom app generation.",
+    "For Shopify operators who want an assistant that understands store context and can propose or execute commerce tasks inside the admin.",
     "Paid",
     "https://www.shopify.com/sidekick"
   ],
@@ -2368,12 +2368,12 @@
     "https://www.squarespace.com/design-intelligence"
   ],
   [
-    "Hostinger Horizons",
+    "Hostinger AI Builder",
     "Web apps",
-    "AI app and website builder connected to Hostinger deployment.",
-    "For users who want to describe and publish lightweight web products without a traditional coding setup.",
+    "Hostinger's unified AI website and web-app builder with manual and agentic modes, integrated hosting, ecommerce, code editing and AI capabilities.",
+    "For users who want to build and publish websites or web apps through natural-language agentic workflows while keeping hosting and deployment in the same platform.",
     "Paid",
-    "https://www.hostinger.com/horizons"
+    "https://www.hostinger.com/ai-builder"
   ],
   [
     "B12",
@@ -2386,24 +2386,24 @@
   [
     "Mixo",
     "Web apps",
-    "AI startup website generator for quickly producing landing pages and validation sites.",
-    "For founders testing an idea before investing in a larger product build.",
+    "AI website builder for quickly generating editable small-business and startup sites.",
+    "For founders and small businesses that want to validate an idea or launch a lead-generating site without starting from a blank canvas.",
     "Free tier / Paid",
     "https://www.mixo.io/"
   ],
   [
     "Scalenut",
     "SEO & marketing",
-    "AI SEO platform for keyword planning, content creation and optimization.",
-    "For marketing teams producing search-focused content at scale.",
+    "GEO and content-growth platform for AI-search visibility, content creation and search optimization.",
+    "For marketing teams that want one workflow for traditional SEO plus brand visibility across ChatGPT, Perplexity and AI Overviews.",
     "Free tier / Paid",
     "https://www.scalenut.com/"
   ],
   [
     "NeuronWriter",
     "SEO & marketing",
-    "Content editor with NLP-driven SEO recommendations and AI writing assistance.",
-    "For writers optimizing drafts against competing search results and related concepts.",
+    "Content-optimization and AI-visibility platform for semantic SEO, AI scoring and answer-engine tracking.",
+    "For writers and SEO teams optimizing content for both search rankings and citation or visibility in AI-generated answers.",
     "Paid",
     "https://neuronwriter.com/"
   ],
@@ -2433,17 +2433,17 @@
   ],
   [
     "Search Atlas",
-    "SEO & marketing",
-    "SEO platform combining content, search data and automation features.",
-    "For agencies and site owners managing research, optimization and reporting workflows.",
+    "SEO & AI visibility",
+    "Agentic SEO and marketing platform for technical optimization, content, AI visibility and automated execution.",
+    "For agencies and site owners that want AI agents to move from SEO analysis to concrete site and content actions.",
     "Paid",
     "https://searchatlas.com/"
   ],
   [
     "Koala AI",
     "SEO & marketing",
-    "AI writing platform aimed at long-form content and search-focused publishing.",
-    "For publishers producing structured articles and marketing content efficiently.",
+    "AI SEO content platform with Brand DNA, an SEO agent, KoalaWriter v2 and AI-search optimization.",
+    "For publishers and marketing teams producing brand-aware long-form content and service pages optimized for Google and AI answer engines.",
     "Paid",
     "https://koala.sh/"
   ],
