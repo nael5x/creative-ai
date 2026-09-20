@@ -1,190 +1,214 @@
 {
-  "batchId": "legacy-a-009",
+  "batchId": "legacy-a-010",
   "reviewedAt": "2026-09-20",
   "accept": [
     {
-      "name": "FeedHive",
-      "officialUrl": "https://www.feedhive.com/",
+      "name": "Pika",
+      "officialUrl": "https://pika.art/",
       "evidenceUrls": [
-        "https://www.feedhive.com/",
-        "https://www.feedhive.com/features/ai"
+        "https://pika.art/"
       ],
-      "userValue": "AI-assisted social media workspace for on-brand post generation, publishing automation, scheduling, collaboration and content reuse."
+      "userValue": "AI video creation platform for short-form generation, effects, workflow automation and agent-driven media creation.",
+      "description": "AI video creation platform for generation, effects, workflow automation and agent-assisted media experiments.",
+      "useCase": "For creators who want fast generative video, effects and experimental AI-media workflows in one web app."
     },
     {
-      "name": "Felo",
-      "officialUrl": "https://felo.ai/",
+      "name": "Suno",
+      "officialUrl": "https://suno.com/",
       "evidenceUrls": [
-        "https://felo.ai/",
-        "https://felo.ai/tools/research"
+        "https://suno.com/release-notes",
+        "https://suno.com/blog/introducing-v6"
       ],
-      "userValue": "Multilingual AI research platform that searches web and academic sources, synthesizes findings and produces cited reports, presentations and mind maps."
+      "userValue": "Active AI music platform for generating and editing songs, stems and audio ideas with current multimodal music models."
     },
     {
-      "name": "Filmora AI",
-      "officialUrl": "https://filmora.wondershare.com/ai-features.html",
+      "name": "Lovable",
+      "officialUrl": "https://lovable.dev/",
       "evidenceUrls": [
-        "https://filmora.wondershare.com/ai-features.html"
+        "https://lovable.dev/build/app-builder",
+        "https://lovable.dev/blog/agent-integrations"
       ],
-      "userValue": "Wondershare Filmora's built-in AI video, audio and editing feature set for creators who want accessible assisted production inside a full editor."
+      "userValue": "AI app builder that generates working interfaces, backend logic, data and hosting from natural-language instructions, with code access and integrations.",
+      "description": "AI app builder that turns natural-language prompts into working full-stack web applications.",
+      "useCase": "For founders and teams who want to move from an idea to a functional hosted app with editable code, data, authentication and integrations."
     },
     {
-      "name": "Findem",
-      "officialUrl": "https://www.findem.ai/",
+      "name": "LM Studio",
+      "officialUrl": "https://lmstudio.ai/",
       "evidenceUrls": [
-        "https://www.findem.ai/"
+        "https://lmstudio.ai/download",
+        "https://lmstudio.ai/blog/introducing-lm-studio-bionic"
       ],
-      "userValue": "AI recruiting and talent-intelligence platform for candidate discovery, sourcing, talent data enrichment and workforce planning."
+      "userValue": "Local-first AI desktop and developer platform for running open models, serving local APIs and using agent workflows with local or controlled cloud compute.",
+      "description": "Local-first desktop and developer platform for running open models, APIs and AI agents.",
+      "useCase": "For users and developers who want private local model execution, a graphical chat interface, programmable APIs and agent workflows."
     },
     {
-      "name": "Firecrawl",
-      "officialUrl": "https://www.firecrawl.dev/",
+      "name": "LlamaIndex",
+      "officialUrl": "https://www.llamaindex.ai/",
       "evidenceUrls": [
-        "https://www.firecrawl.dev/",
-        "https://docs.firecrawl.dev/"
+        "https://www.llamaindex.ai/"
       ],
-      "userValue": "Developer-focused web crawling and extraction platform that converts websites into structured, LLM-ready data for agents, search and RAG workflows."
+      "userValue": "Open-source AI development ecosystem for document parsing, retrieval, workflows and agents over private or enterprise data.",
+      "description": "Open-source AI development ecosystem for document parsing, retrieval, workflows and agents.",
+      "useCase": "For developers building document-heavy AI applications, RAG systems and agents that need reliable parsing, indexing and private-data access."
     },
     {
-      "name": "Fireflies.ai",
-      "officialUrl": "https://fireflies.ai/",
+      "name": "Microsoft Copilot",
+      "officialUrl": "https://copilot.microsoft.com/",
       "evidenceUrls": [
-        "https://fireflies.ai/"
+        "https://copilot.microsoft.com/"
       ],
-      "userValue": "AI meeting assistant for recording, transcription, summaries, searchable conversation intelligence and automated follow-up workflows."
+      "userValue": "Microsoft's general AI companion for chat, research, creation and productivity across web and Microsoft experiences."
     },
     {
-      "name": "Fireworks AI",
-      "officialUrl": "https://fireworks.ai/",
+      "name": "Poe",
+      "officialUrl": "https://poe.com/",
       "evidenceUrls": [
-        "https://fireworks.ai/",
-        "https://docs.fireworks.ai/"
+        "https://poe.com/explore?category=Official"
       ],
-      "userValue": "Production AI infrastructure for fast hosted inference, model deployment and training across open and custom generative models."
+      "userValue": "Multi-model AI chat platform for using official and community bots across writing, coding, image, video and specialist workflows."
     },
     {
-      "name": "Flair AI",
-      "officialUrl": "https://flair.ai/",
+      "name": "Ideogram",
+      "officialUrl": "https://ideogram.ai/",
       "evidenceUrls": [
-        "https://flair.ai/"
+        "https://ideogram.ai/news/ideogram-4.0/",
+        "https://docs.ideogram.ai/"
       ],
-      "userValue": "AI visual-production platform for product photography, branded scenes, fashion imagery, reusable templates and ecommerce creative workflows."
+      "userValue": "Active image-generation platform and model family focused on design, typography, controllable generation and production-oriented visual workflows."
     },
     {
-      "name": "FlexClip AI",
-      "officialUrl": "https://www.flexclip.com/tools/ai-video-generator/",
+      "name": "Leonardo AI",
+      "officialUrl": "https://leonardo.ai/",
       "evidenceUrls": [
-        "https://www.flexclip.com/tools/ai-video-generator/",
-        "https://help.flexclip.com/en/articles/10341793-ai-video-generator-text-to-video"
+        "https://www.leonardo.ai/",
+        "https://leonardo.ai/news/leonardo-ai-yours-to-create"
       ],
-      "userValue": "Browser-based AI video workflow combining generation and editing for text-to-video, image-to-video, avatars, scripting and social or marketing content."
+      "userValue": "Generative visual platform for image creation, motion, editing and scalable creative production with model and API access.",
+      "description": "Generative AI platform for image creation, motion, editing and creative asset production.",
+      "useCase": "For creators and teams producing visual concepts, branded assets, image variations and AI-driven video or motion content."
     },
     {
-      "name": "Flick",
-      "officialUrl": "https://www.flick.social/",
+      "name": "Krea",
+      "officialUrl": "https://www.krea.ai/",
       "evidenceUrls": [
-        "https://www.flick.social/"
+        "https://www.krea.ai/"
       ],
-      "userValue": "Social-media planning and marketing platform with AI-assisted ideation, writing and repeatable content workflows for creators and small teams."
+      "userValue": "Creative AI suite for image, video and 3D generation, editing, enhancement and fine-tuning across multiple current models."
     },
     {
-      "name": "Fliki",
-      "officialUrl": "https://fliki.ai/",
+      "name": "Synthesia",
+      "officialUrl": "https://www.synthesia.io/",
       "evidenceUrls": [
-        "https://fliki.ai/",
-        "https://fliki.ai/text-to-video"
+        "https://www.synthesia.io/features/ai-video-generator",
+        "https://help.synthesia.io/en/articles/9189319-how-do-i-generate-my-video-in-synthesia"
       ],
-      "userValue": "AI text-to-video platform for turning scripts, articles and presentations into narrated videos with synthetic voices and generated or stock visuals."
+      "userValue": "AI video platform for presenter-led and generated business content with avatars, scene generation, localization and multilingual voice workflows."
     },
     {
-      "name": "Fooocus",
-      "officialUrl": "https://github.com/lllyasviel/Fooocus",
+      "name": "Murf",
+      "officialUrl": "https://murf.ai/",
       "evidenceUrls": [
-        "https://github.com/lllyasviel/Fooocus"
+        "https://murf.ai/api/docs/changelog"
       ],
-      "userValue": "Free offline SDXL image-generation interface that remains useful for simplified local prompting, while the official project is now limited to bug-fix LTS rather than new-model development.",
-      "description": "Open-source SDXL image-generation interface in limited long-term support, focused on simplified local prompting and bug fixes.",
-      "useCase": "For local users who specifically want a stable, simplified SDXL workflow and understand that new model architectures are not currently planned."
+      "userValue": "Voice AI platform for multilingual text-to-speech, voice generation and developer speech APIs with actively maintained models."
     },
     {
-      "name": "Forethought",
-      "officialUrl": "https://forethought.ai/",
+      "name": "Pipedream",
+      "officialUrl": "https://pipedream.com/",
       "evidenceUrls": [
-        "https://forethought.ai/"
+        "https://pipedream.com/",
+        "https://pipedream.com/apps"
       ],
-      "userValue": "AI customer-support platform with agentic self-service, ticket classification, service insights and assistance across support channels."
+      "userValue": "Integration infrastructure for AI agents and applications, providing managed authentication, thousands of API tools, triggers, MCP access and execution.",
+      "category": "AI infrastructure",
+      "description": "Integration layer for AI agents with managed auth, API tools, triggers, MCP access and hosted execution.",
+      "useCase": "For developers giving AI agents secure access to user-connected apps and APIs without building every OAuth flow and integration from scratch."
     },
     {
-      "name": "Framer AI",
-      "officialUrl": "https://www.framer.com/ai/",
+      "name": "Grok",
+      "officialUrl": "https://grok.com/",
       "evidenceUrls": [
-        "https://www.framer.com/ai/"
+        "https://x.ai/news/grok-4-6",
+        "https://x.ai/news/grok-4-5"
       ],
-      "userValue": "Framer's AI website-building and editing layer for generating editable pages, copy, visuals, CMS content and code components while retaining canvas control."
+      "userValue": "General-purpose AI assistant and model family for reasoning, coding, multimodal work, research and long-running agentic tasks."
     },
     {
-      "name": "Frase",
-      "officialUrl": "https://www.frase.io/",
+      "name": "Meta AI",
+      "officialUrl": "https://www.meta.ai/",
       "evidenceUrls": [
-        "https://www.frase.io/"
+        "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
+        "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/"
       ],
-      "userValue": "SEO content workflow for research, briefs, drafting and optimization with AI assistance aimed at search-focused publishing teams."
+      "userValue": "Meta's consumer AI assistant for reasoning, research, multimodal creation and increasingly agentic tasks across Meta AI and connected Meta experiences.",
+      "description": "Meta's AI assistant for reasoning, research, multimodal creation and connected agentic tasks.",
+      "useCase": "For everyday assistance, web research, image creation and task execution inside Meta's consumer AI ecosystem."
     },
     {
-      "name": "Freed",
-      "officialUrl": "https://www.getfreed.ai/",
+      "name": "You.com",
+      "officialUrl": "https://you.com/",
       "evidenceUrls": [
-        "https://www.getfreed.ai/"
+        "https://you.com/",
+        "https://you.com/docs/quickstart"
       ],
-      "userValue": "AI medical scribe that turns clinician-patient conversations into draft clinical notes to reduce documentation workload."
+      "userValue": "Real-time web intelligence and research API platform for grounding agents with search, cited answers, content retrieval and multi-step research.",
+      "category": "AI infrastructure",
+      "description": "Real-time web intelligence and research APIs for AI agents and applications.",
+      "useCase": "For developers who need current web search, cited answers, content extraction and research capabilities inside AI systems."
     },
     {
-      "name": "Freshworks Freddy AI",
-      "officialUrl": "https://www.freshworks.com/freddy-ai/",
+      "name": "SciSpace",
+      "officialUrl": "https://scispace.com/",
       "evidenceUrls": [
-        "https://www.freshworks.com/freddy-ai/"
+        "https://scispace.com/",
+        "https://www.scispace.com/help/en/articles/10706821-how-scispace-search-works"
       ],
-      "userValue": "Freshworks' AI layer for customer and employee service, including automation, agent assistance and service workflows inside the Freshworks suite."
-    },
-    {
-      "name": "Gauth",
-      "officialUrl": "https://www.gauthmath.com/",
-      "evidenceUrls": [
-        "https://www.gauthmath.com/"
-      ],
-      "userValue": "AI study assistant that explains and solves homework questions across subjects for students who want step-by-step practice support."
+      "userValue": "AI research workspace and agent ecosystem for literature search, reviews, PDF analysis, writing, data extraction and scientific workflows."
     }
   ],
   "update": [],
-  "supersede": [],
-  "mergeInto": [
+  "supersede": [
     {
-      "name": "Freepik AI",
-      "targetName": "Magnific",
-      "targetUrl": "https://www.magnific.com/",
-      "category": "Images & design",
-      "description": "Creative AI production platform for image, video, audio, 3D, upscaling, stock assets and collaborative workflows.",
-      "useCase": "For creators, agencies and teams that want generation, editing, upscaling, stock assets and multi-format AI production in one workspace.",
+      "name": "Luma Dream Machine",
+      "newName": "Luma App",
+      "url": "https://app.lumalabs.ai/",
+      "category": "Images & video",
+      "description": "Luma's current consumer creative workspace for AI video and image generation using current Luma models and integrated generation tools.",
+      "useCase": "For creators who want Luma's current image and video generation workspace rather than the deprecated Dream Machine product identity.",
       "pricing": "Free tier / Paid",
+      "firstTrackedAt": "2026-09-20T21:00:00Z",
       "oldEvidenceUrls": [
-        "https://www.magnific.com/freepik",
-        "https://www.magnific.com/blog/freepik-is-now-magnific/"
+        "https://lumalabs.ai/llm-info"
       ],
-      "targetEvidenceUrls": [
-        "https://www.magnific.com/",
-        "https://www.magnific.com/ai/docs/freepik-is-now-magnific"
+      "newEvidenceUrls": [
+        "https://lumalabs.ai/llm-info",
+        "https://app.lumalabs.ai/"
       ],
-      "reason": "Freepik officially became Magnific in April 2026. The catalog already contains Magnific as an active identity, so retaining a separate Freepik AI row would duplicate the same company, account and platform under the former name.",
-      "userValue": "Magnific is the current unified creative AI platform formerly branded Freepik, covering image, video, audio, 3D, upscaling, stock assets and professional collaborative workflows."
+      "reason": "Luma's official product guidance says Dream Machine is deprecated and identifies Luma App as the current consumer creative workspace.",
+      "userValue": "Luma App is the current consumer surface for Luma's image and video generation ecosystem, including current Ray and UNI model families."
+    },
+    {
+      "name": "Le Chat",
+      "newName": "Vibe",
+      "url": "https://chat.mistral.ai/",
+      "category": "Writing & coding",
+      "description": "Mistral's unified AI agent for productivity, coding and conversational work across Vibe Work, Vibe Code and Vibe Chat.",
+      "useCase": "For users who want Mistral's current assistant for multi-step productivity, coding and conversational tasks in one account.",
+      "pricing": "Free tier / Paid",
+      "firstTrackedAt": "2026-09-20T21:00:00Z",
+      "oldEvidenceUrls": [
+        "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe"
+      ],
+      "newEvidenceUrls": [
+        "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe",
+        "https://docs.mistral.ai/vibe/overview"
+      ],
+      "reason": "Mistral officially renamed Le Chat to Vibe on August 12, 2026 while preserving the same account, plan, conversations and URL.",
+      "userValue": "Vibe is Mistral's current unified agent for professional productivity, coding and conversational AI work."
     }
   ],
-  "remove": [
-    {
-      "name": "Flowise",
-      "evidenceUrls": [
-        "https://flowiseai.com/sunset"
-      ],
-      "reason": "Flowise announced a code freeze on July 29, 2026, repository archival on August 10, 2026 and official end of life on August 31, 2026, so it no longer meets the active-tool quality gate."
-    }
-  ]
+  "mergeInto": [],
+  "remove": []
 }
