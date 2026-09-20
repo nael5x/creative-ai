@@ -1,157 +1,145 @@
 {
-  "batchId": "legacy-a-018",
+  "batchId": "legacy-a-019",
   "reviewedAt": "2026-09-21",
   "accept": [
     {
-      "name": "Obviously AI",
-      "officialUrl": "https://www.obviously.ai/",
+      "name": "Harvey",
+      "officialUrl": "https://www.harvey.ai/",
       "evidenceUrls": [
-        "https://www.obviously.ai/"
+        "https://www.harvey.ai/blog/agentic-platform-updates",
+        "https://www.harvey.ai/blog/introducing-harvey-ii",
+        "https://www.harvey.ai/blog/introducing-agent-builder"
       ],
-      "userValue": "Active no-code predictive analytics platform for training, deploying and monitoring classification, regression and time-series models from structured business data.",
-      "description": "No-code predictive analytics platform for building, deploying and monitoring machine-learning models.",
-      "useCase": "For analysts and business teams that need predictive modeling and production scoring without writing a traditional data-science stack."
+      "userValue": "Actively developed agentic legal and professional-services platform for research, drafting, review and matter-aware workflows with lawyer-tested agents and custom agent building.",
+      "description": "Agentic legal and professional-services platform for research, drafting, review and matter-aware workflows.",
+      "useCase": "For law firms and legal teams that want governed AI agents working across complex research, drafting, review and matter context."
     },
     {
-      "name": "Hex",
-      "officialUrl": "https://hex.tech/",
+      "name": "Luminance",
+      "officialUrl": "https://www.luminance.com/",
       "evidenceUrls": [
-        "https://learn.hex.tech/docs/explore-data/notebook-view/notebook-agent",
-        "https://hex.tech/"
+        "https://www.luminance.com/luminance-legal-ai/",
+        "https://www.luminance.com/solutions/legal/",
+        "https://www.luminance.com/press/luminance-launches-new-legal-ai-with-institutional-memory-addressing-enterprise-amnesia-and-giving-legal-teams-30-of-their-time-back"
       ],
-      "userValue": "Collaborative analytics platform with notebook agents, SQL/Python workflows, governed data context and interactive reporting for data teams.",
-      "description": "Collaborative analytics workspace with AI notebook agents, SQL, Python and interactive data apps.",
-      "useCase": "For data teams combining exploratory analysis, code, governed warehouse context and shareable analytics in one workspace."
+      "userValue": "Active Legal-Grade enterprise contract AI with institutional memory across drafting, negotiation, review, compliance and contract intelligence.",
+      "description": "Legal-Grade enterprise contract AI with institutional memory across drafting, negotiation, review and contract intelligence.",
+      "useCase": "For in-house and law-firm teams managing contract lifecycles that need negotiation context, review automation and institutional legal memory."
     },
     {
-      "name": "ThoughtSpot",
-      "officialUrl": "https://www.thoughtspot.com/",
+      "name": "Paxton AI",
+      "officialUrl": "https://www.paxton.ai/",
       "evidenceUrls": [
-        "https://www.thoughtspot.com/product/agents",
-        "https://www.thoughtspot.com/press-releases/thoughtspot-introduces-spotter-semantics-to-bring-trust-and-context-to-enterprise-ai"
+        "https://www.paxton.ai/",
+        "https://www.paxton.ai/post/introducing-drafting-and-answering-with-legal-research-in-assistant"
       ],
-      "userValue": "Current agentic analytics platform with Spotter and specialized analytics agents grounded in governed enterprise semantics and natural-language business intelligence.",
-      "category": "Agentic analytics",
-      "description": "Agentic analytics platform with governed AI analysts and specialized agents over enterprise data.",
-      "useCase": "For organizations that want conversational, explainable analytics and AI agents operating on trusted business semantics."
+      "userValue": "Active legal AI assistant that combines verified legal research, citations, analysis and document drafting inside one professional workflow.",
+      "description": "Legal AI assistant for verified legal research, citations, analysis and drafting.",
+      "useCase": "For lawyers who want research-grounded answers and drafting support tied to legal sources rather than a general-purpose chatbot."
     },
     {
-      "name": "H2O.ai",
-      "officialUrl": "https://h2o.ai/",
+      "name": "Vincent AI",
+      "officialUrl": "https://vlex.com/vincent-ai",
       "evidenceUrls": [
-        "https://h2o.ai/",
-        "https://h2o.ai/blog/2026/h2oai-recognized-as-a-visionary-in-2026-gartner-magic-quadrant/"
+        "https://vlex.com/vincent-ai"
       ],
-      "userValue": "Enterprise AI platform spanning predictive modeling, generative AI, agentic workflows and sovereign on-premises or air-gapped deployment.",
-      "category": "Enterprise AI",
-      "description": "Enterprise AI platform for predictive, generative and agentic workloads with sovereign deployment options.",
-      "useCase": "For technical organizations building and operating predictive models, private generative AI and governed agents in cloud, on-premises or air-gapped environments."
+      "userValue": "Vincent by vLex, part of Clio, is an active legal AI platform for global research, litigation, transactional analysis and custom firm workflows.",
+      "description": "Vincent by vLex legal AI for global research, litigation, transactional analysis and custom firm workflows.",
+      "useCase": "For legal professionals who need AI-assisted multi-jurisdiction research and analysis connected to vLex's legal information platform."
     },
     {
-      "name": "Vanna AI",
-      "officialUrl": "https://vanna.ai/",
+      "name": "SeekOut",
+      "officialUrl": "https://www.seekout.com/",
       "evidenceUrls": [
-        "https://vanna.ai/docs",
-        "https://vanna.ai/docs/configure"
+        "https://www.seekout.com/blog/agentic-ai-recruiting-leveled-up-with-seekout/",
+        "https://support.seekout.com/en/articles/13719568-ai-features-in-seekout"
       ],
-      "userValue": "Vanna 2.0 is a user-aware AI agent framework that connects LLMs to databases with SQL tools, charts, permissions and learned tool memory.",
-      "category": "Data agents",
-      "description": "User-aware AI agent framework for connecting LLMs to databases with SQL tools, permissions and learned tool memory.",
-      "useCase": "For developers building conversational data agents that need secure database access, text-to-SQL behavior and reusable business logic."
+      "userValue": "Active agentic recruiting platform for sourcing, screening, outreach, talent intelligence and recruiting workflows across specialized candidate pools.",
+      "description": "Agentic recruiting platform for sourcing, screening, outreach and talent intelligence.",
+      "useCase": "For recruiting teams that want AI agents to identify, evaluate and engage specialized candidates across large talent pools."
     },
     {
-      "name": "Polymer",
-      "officialUrl": "https://www.polymersearch.com/",
+      "name": "HireVue",
+      "officialUrl": "https://www.hirevue.com/",
       "evidenceUrls": [
-        "https://www.polymersearch.com/"
+        "https://www.hirevue.com/"
       ],
-      "userValue": "AI-powered embedded analytics platform for adding white-labeled dashboards, self-service exploration and automated data storytelling directly inside products.",
-      "category": "Embedded analytics",
-      "description": "AI-powered embedded analytics platform for white-labeled dashboards, self-service exploration and in-product data storytelling.",
-      "useCase": "For software teams that want to add customer-facing analytics to their own product through APIs and embedded components."
+      "userValue": "Active AI-powered hiring platform for skill validation, assessments, interviewing, candidate engagement and workflow automation at enterprise scale.",
+      "description": "AI-powered hiring platform for skill validation, assessments, interviewing and recruiting workflow automation.",
+      "useCase": "For larger hiring organizations that need standardized screening, structured interviews and skills-based candidate evaluation."
     },
     {
-      "name": "Powerdrill AI",
-      "officialUrl": "https://powerdrill.ai/",
+      "name": "Paradox",
+      "officialUrl": "https://www.paradox.ai/",
       "evidenceUrls": [
-        "https://powerdrill.ai/",
-        "https://powerdrill.ai/blog/data-insights"
+        "https://www.paradox.ai/",
+        "https://www.paradox.ai/why-paradox"
       ],
-      "userValue": "Powerdrill Bloom is the current AI data-analysis workspace with memory, scheduled agents, open-data research and recurring analytical workflows.",
-      "category": "Data & research",
-      "description": "AI data-analysis workspace with memory, scheduled agents and research-oriented analytical workflows.",
-      "useCase": "For analysts and researchers who want conversational data exploration plus recurring agents that remember context across analyses."
+      "userValue": "Active conversational hiring platform centered on Olivia for job discovery, application, screening, scheduling, candidate communication, offers and onboarding.",
+      "description": "Conversational AI hiring platform for screening, scheduling, candidate communication, offers and onboarding.",
+      "useCase": "For high-volume hiring teams that want to automate repetitive candidate interactions while keeping recruiters focused on higher-value work."
     },
     {
-      "name": "Khanmigo",
-      "officialUrl": "https://www.khanmigo.ai/",
+      "name": "Metaview",
+      "officialUrl": "https://www.metaview.ai/",
       "evidenceUrls": [
-        "https://www.khanmigo.ai/",
-        "https://www.khanacademy.org/khan-labs",
-        "https://www.khanmigo.ai/teachers"
+        "https://www.metaview.ai/resources/blog/agentic-recruiting-platform",
+        "https://www.metaview.ai/resources/blog/ai-recruiting-agents",
+        "https://www.metaview.ai/resources/blog/ai-voice-agent-recruiting"
       ],
-      "userValue": "Khan Academy's active AI teaching assistant and tutor, grounded in Khan Academy content and designed around guided learning rather than direct answer delivery.",
-      "description": "Khan Academy AI teaching assistant and guided tutor for educators and learners.",
-      "useCase": "For teachers who want planning and classroom support, and learners who want guided tutoring connected to Khan Academy content."
+      "userValue": "Actively developed agentic recruiting platform that turns interview signal into shared intelligence and supports sourcing, screening, notes, reports and automated recruiting workflows.",
+      "category": "Recruiting AI",
+      "description": "Agentic recruiting platform for interview intelligence, sourcing, screening and automated recruiting workflows.",
+      "useCase": "For recruiting teams that want structured interview signal and AI agents shared across sourcing, screening and hiring decisions."
     },
     {
-      "name": "StudyFetch",
-      "officialUrl": "https://www.studyfetch.com/",
+      "name": "Juicebox",
+      "officialUrl": "https://juicebox.ai/",
       "evidenceUrls": [
-        "https://www.studyfetch.com/",
-        "https://www.studyfetch.com/blog/studyfetch-the-ultimate-tool-you-need-to-succeed"
+        "https://juicebox.ai/blog/introducing-the-next-generation-of-juicebox-agents",
+        "https://juicebox.ai/blog/introducing-hiring-manager-workflows",
+        "https://juicebox.ai/agents"
       ],
-      "userValue": "AI study platform that converts lectures, notes, PDFs and videos into notes, flashcards, practice tests and tutoring through its Spark.E assistant.",
-      "description": "AI study platform for turning course materials into notes, flashcards, quizzes, practice tests and tutoring.",
-      "useCase": "For students who want uploaded class materials converted into interactive study resources and on-demand AI tutoring."
+      "userValue": "Active AI recruiting platform combining conversational people search, recruiting CRM and long-horizon sourcing agents that can continuously build candidate pipelines.",
+      "category": "Recruiting AI",
+      "description": "AI recruiting platform combining conversational people search, CRM and autonomous sourcing agents.",
+      "useCase": "For recruiters and hiring managers who want natural-language talent search plus agents that maintain and grow candidate pipelines over time."
     },
     {
-      "name": "Knowt",
-      "officialUrl": "https://knowt.com/",
+      "name": "Humanly",
+      "officialUrl": "https://www.humanly.io/",
       "evidenceUrls": [
-        "https://knowt.com/"
+        "https://www.humanly.io/",
+        "https://www.humanly.io/blog/humanly-workflows-automate-candidate-progression",
+        "https://www.humanly.io/blog/24-7-candidate-screening-that-actually-prioritizes-the-high-volume-hiring-playbook"
       ],
-      "userValue": "Active AI study platform with lecture capture, PDF and video summarization, flashcards, quizzes, voice tutoring and standardized-exam practice.",
-      "description": "AI study platform for lecture notes, flashcards, quizzes, summaries, voice tutoring and exam preparation.",
-      "useCase": "For students who want one study workspace for active recall, lecture capture and AI-generated practice materials."
-    },
-    {
-      "name": "Mindgrasp",
-      "officialUrl": "https://www.mindgrasp.ai/",
-      "evidenceUrls": [
-        "https://www.mindgrasp.ai/"
-      ],
-      "userValue": "Active AI study system that transforms lectures, files and links into notes, summaries, flashcards, quizzes and a 24/7 tutor using active-learning workflows.",
-      "description": "AI study system for notes, summaries, flashcards, quizzes and tutoring from lectures and uploaded materials.",
-      "useCase": "For students and self-learners who want course materials automatically turned into structured active-recall study sessions."
-    },
-    {
-      "name": "MagicSchool AI",
-      "officialUrl": "https://www.magicschool.ai/",
-      "evidenceUrls": [
-        "https://www.magicschool.ai/magicschool",
-        "https://www.magicschool.ai/magicstudent",
-        "https://www.magicschool.ai/blog-posts/ai-teaching-tools-updates-2026"
-      ],
-      "userValue": "K-12 AI operating system for teacher planning, differentiation, assessment, communication and supervised student learning with classroom guardrails.",
-      "category": "Education",
-      "description": "K-12 AI platform for teacher workflows, supervised student learning and district-wide classroom governance.",
-      "useCase": "For educators and school systems that want education-specific AI tools with teacher oversight, student safety controls and district administration."
-    },
-    {
-      "name": "SchoolAI",
-      "officialUrl": "https://schoolai.com/",
-      "evidenceUrls": [
-        "https://schoolai.com/blog/new-features-2026-2027",
-        "https://schoolai.com/"
-      ],
-      "userValue": "Active classroom AI platform with teacher-guided student spaces, district controls, learning insights and personal tutoring experiences designed for schools.",
-      "description": "Classroom AI platform with teacher-guided student spaces, district controls, learning insights and tutoring.",
-      "useCase": "For K-12 schools that want supervised AI activities, teacher visibility and district-level controls around student use."
+      "userValue": "Active high-volume AI recruiting platform with AI Recruiter, AI Interviewer, ATS workflows, screening, scheduling and candidate progression automation.",
+      "description": "High-volume AI recruiting platform for screening, interviewing, scheduling and candidate progression.",
+      "useCase": "For hiring teams that need 24/7 candidate screening and structured recruiting automation across early-stage hiring workflows."
     }
   ],
   "update": [],
-  "supersede": [],
+  "supersede": [
+    {
+      "name": "Lexis+ AI",
+      "newName": "Lexis+ with Protégé",
+      "url": "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+      "category": "Legal",
+      "description": "LexisNexis legal AI workflow solution for drafting, research and analysis with Protégé grounded in authoritative legal content.",
+      "useCase": "For legal teams that want conversational research, drafting and analysis tied directly to LexisNexis legal sources and workflow tools.",
+      "pricing": "Paid",
+      "firstTrackedAt": "2026-09-21T00:00:00Z",
+      "oldEvidenceUrls": [
+        "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page"
+      ],
+      "newEvidenceUrls": [
+        "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+        "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page"
+      ],
+      "reason": "LexisNexis officially renamed Lexis+ AI to Lexis+ with Protégé in February 2026. Keeping the former name would present an outdated product identity.",
+      "userValue": "Lexis+ with Protégé is the current LexisNexis legal AI workflow for research, drafting and analysis grounded in authoritative legal content."
+    }
+  ],
   "mergeInto": [],
   "remove": []
 }
