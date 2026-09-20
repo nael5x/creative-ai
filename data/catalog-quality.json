@@ -2091,6 +2091,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Glass Health",
+      "officialUrl": "https://glass.health/",
+      "evidenceUrls": [
+        "https://glass.health/privacy",
+        "https://glass.health/resources/ai-diagnosis"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active clinician-facing clinical intelligence workspace for differential-diagnosis support, treatment-planning assistance, documentation and evidence-aware medical Q&A.",
+      "decision": "accepted"
+    },
+    {
       "name": "Glide",
       "officialUrl": "https://www.glideapps.com/ai",
       "evidenceUrls": [
@@ -2274,6 +2285,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Heidi Health",
+      "officialUrl": "https://www.heidihealth.com/",
+      "evidenceUrls": [
+        "https://www.heidihealth.com/",
+        "https://support.heidihealth.com/en/articles/8885059-what-is-heidi"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI medical scribe for consultation transcription and clinician-reviewed notes, referral letters, summaries and related documentation.",
+      "decision": "accepted"
+    },
+    {
       "name": "Help Scout AI",
       "officialUrl": "https://docs.helpscout.com/article/1513-use-ai-assist",
       "evidenceUrls": [
@@ -2302,6 +2324,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI avatar video, voice and localization platform for presenter-style content.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hippocratic AI",
+      "officialUrl": "https://www.hippocraticai.com/",
+      "evidenceUrls": [
+        "https://hippocraticai.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active healthcare generative-AI agent platform focused on non-diagnostic patient and operational workflows, with escalation and safety controls.",
       "decision": "accepted"
     },
     {
@@ -2403,6 +2435,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Infermedica",
+      "officialUrl": "https://infermedica.com/",
+      "evidenceUrls": [
+        "https://infermedica.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active clinical AI triage and care-navigation platform delivered through APIs and applications for structured symptom assessment and routing.",
+      "decision": "accepted"
+    },
+    {
       "name": "InVideo AI",
       "officialUrl": "https://invideo.io/ai/",
       "evidenceUrls": [
@@ -2501,6 +2543,16 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Julius has expanded from conversational data analysis into a broader AI work environment for code-backed analytics, research, reports, presentations, websites and connected business data.",
+      "decision": "accepted"
+    },
+    {
+      "name": "K Health",
+      "officialUrl": "https://khealth.com/",
+      "evidenceUrls": [
+        "https://khealth.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI-supported virtual primary-care platform that combines digital symptom intake and longitudinal virtual-care workflows with licensed clinicians.",
       "decision": "accepted"
     },
     {
@@ -3103,6 +3155,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Nabla",
+      "officialUrl": "https://www.nabla.com/",
+      "evidenceUrls": [
+        "https://www.nabla.com/",
+        "https://help.nabla.com/en/articles/781954"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active ambient clinical AI assistant for encounter capture and documentation, generating structured notes from clinical conversations across supported specialties and languages.",
+      "decision": "accepted"
+    },
+    {
       "name": "Napkin AI",
       "officialUrl": "https://www.napkin.ai/",
       "evidenceUrls": [
@@ -3135,6 +3198,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Notable",
+      "officialUrl": "https://www.notablehealth.com/",
+      "evidenceUrls": [
+        "https://www.notablehealth.com/",
+        "https://www.notablehealth.com/ai-platform/overview",
+        "https://www.notablehealth.com/blog/notable-names-dr-nicholas-desai-as-chief-medical-officer-to-drive-enterprise-ai-impact"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active healthcare AI-agent platform for patient access, revenue cycle and care operations with configurable workflows across health-system administrative processes.",
+      "decision": "accepted"
+    },
+    {
       "name": "NotebookLM",
       "officialUrl": "https://notebook.google/",
       "evidenceUrls": [
@@ -3164,6 +3239,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Active transcription and meeting-workflow platform for live and uploaded audio/video, multilingual notes, summaries and searchable meeting records.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Numeric",
+      "officialUrl": "https://www.numeric.io/",
+      "evidenceUrls": [
+        "https://www.numeric.io/product/ai-in-numeric",
+        "https://www.numeric.io/blog/ai-accounting-tools",
+        "https://www.numeric.io/blog/numeric-mcp-server"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active accounting-close platform with AI for reconciliations, variance analysis, flux explanations, reporting, finance Q&A and agent-connected workflows through MCP.",
       "decision": "accepted"
     },
     {
@@ -3241,6 +3328,16 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Actively developed all-in-one creative AI platform spanning image, video, audio, editing, character workflows, persistent worlds and agent-like directing.",
+      "decision": "accepted"
+    },
+    {
+      "name": "OpenEvidence",
+      "officialUrl": "https://www.openevidence.com/",
+      "evidenceUrls": [
+        "https://takehome.openevidence.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active medical knowledge and evidence platform for clinicians that integrates licensed journal, guideline and clinical-reference sources into search and evidence-review workflows.",
       "decision": "accepted"
     },
     {
@@ -3498,6 +3595,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Puzzle",
+      "officialUrl": "https://puzzle.io/",
+      "evidenceUrls": [
+        "https://puzzle.io/",
+        "https://puzzle.io/blog/introducing-puzzle-2-0"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Puzzle 2.0 is an active AI accounting platform combining software automation with accounting service workflows to produce startup books, financial statements and operating metrics.",
+      "decision": "accepted"
+    },
+    {
       "name": "Pydantic AI",
       "officialUrl": "https://ai.pydantic.dev/",
       "evidenceUrls": [
@@ -3528,6 +3636,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Current QuillBot creativity and writing platform for paraphrasing, rewriting, grammar, summarization, drafting and broader AI-assisted content workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ramp Intelligence",
+      "officialUrl": "https://ramp.com/intelligence",
+      "evidenceUrls": [
+        "https://ramp.com/intelligence",
+        "https://ramp.com/new-on-ramp-q2-2026",
+        "https://ramp.com/product-releases"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Ramp's active AI and agent layer for finance operations across spend controls, expenses, accounts payable, procurement, policy enforcement and accounting workflows.",
       "decision": "accepted"
     },
     {
@@ -4045,6 +4165,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Suki",
+      "officialUrl": "https://www.suki.ai/",
+      "evidenceUrls": [
+        "https://www.suki.ai/clinicians/",
+        "https://www.suki.ai/press-releases/suki-launches-science-at-suki-to-set-a-new-standard-for-healthcare-ai/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active ambient clinical intelligence platform for chart-aware assistance, documentation, dictation, clinical Q&A and EHR-integrated workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Suno",
       "officialUrl": "https://suno.com/",
       "evidenceUrls": [
@@ -4243,6 +4374,18 @@
       "supersedes": "Topaz Video AI"
     },
     {
+      "name": "Trullion",
+      "officialUrl": "https://trullion.com/",
+      "evidenceUrls": [
+        "https://trullion.com/",
+        "https://trullion.com/products/ai-agent-trulli/",
+        "https://trullion.com/products/platform/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active auditable-AI accounting platform with source-grounded agents, document intelligence and workflows for accounting, audit and financial review.",
+      "decision": "accepted"
+    },
+    {
       "name": "Turbo AI",
       "officialUrl": "https://www.turbo.ai/",
       "evidenceUrls": [
@@ -4339,6 +4482,18 @@
       "userValue": "Vibe is Mistral's current unified agent for professional productivity, coding and conversational AI work.",
       "decision": "accepted",
       "supersedes": "Le Chat"
+    },
+    {
+      "name": "Vic.ai",
+      "officialUrl": "https://www.vic.ai/",
+      "evidenceUrls": [
+        "https://www.vic.ai/",
+        "https://www.vic.ai/blog/q1-2026-product-release-expanding-autonomy-across-the-ap-lifecycle",
+        "https://www.vic.ai/blog/ap-automation-for-sap"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI-first accounts-payable platform for autonomous invoice capture, coding, matching, approvals, ERP posting, expense workflows and AP analytics.",
+      "decision": "accepted"
     },
     {
       "name": "Vidu",
@@ -4541,6 +4696,18 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Zendesk's current agentic service layer with specialized AI agents, agent builder, omnichannel automation, copilots and governed resolution workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Zeni",
+      "officialUrl": "https://www.zeni.ai/",
+      "evidenceUrls": [
+        "https://www.zeni.ai/",
+        "https://www.zeni.ai/ai-agents/ai-accountant-agent",
+        "https://www.zeni.ai/about-us"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI-native finance platform combining bookkeeping, an AI Accountant, AI CFO capabilities, bill pay, reporting and human finance support for startups.",
       "decision": "accepted"
     },
     {
@@ -4894,10 +5061,10 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-21",
-  "lastQualityReviewBatch": "legacy-a-021",
+  "lastQualityReviewBatch": "legacy-a-022",
   "lastQualityReviewBatchSummary": {
-    "accepted": 7,
-    "updated": 2,
+    "accepted": 15,
+    "updated": 0,
     "superseded": 0,
     "merged": 0,
     "removed": 0

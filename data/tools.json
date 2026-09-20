@@ -2602,8 +2602,8 @@
   [
     "Ramp Intelligence",
     "Finance & accounting",
-    "AI and automation features across Ramp's spend management and finance workflows.",
-    "For finance teams automating expense review, procurement and operational analysis.",
+    "AI and agent layer across Ramp for spend controls, expenses, AP, procurement and finance operations.",
+    "For finance teams that want policy checks, coding, approvals and other operational finance work automated inside their spend-management stack.",
     "Paid",
     "https://ramp.com/intelligence"
   ],
@@ -2618,8 +2618,8 @@
   [
     "Vic.ai",
     "Finance & accounting",
-    "AI accounts-payable automation for invoice processing and finance operations.",
-    "For accounting teams reducing manual invoice coding, review and approval work.",
+    "AI-first accounts-payable and expense automation platform for invoice processing, approvals and ERP workflows.",
+    "For accounting teams reducing manual invoice handling, coding, matching and approval work across high-volume AP operations.",
     "Paid",
     "https://www.vic.ai/"
   ],
@@ -2642,16 +2642,16 @@
   [
     "Puzzle",
     "Finance & accounting",
-    "Modern accounting platform with automation and financial intelligence for startups.",
-    "For startups that want books, metrics and finance workflows connected in one product.",
+    "AI accounting platform for automated books, financial statements and startup finance workflows.",
+    "For startups that want bookkeeping software, financial visibility and accounting support in one modern workflow.",
     "Paid",
     "https://puzzle.io/"
   ],
   [
     "Zeni",
     "Finance & accounting",
-    "AI-assisted bookkeeping and finance operations platform for startups.",
-    "For founders outsourcing routine finance work while retaining real-time financial visibility.",
+    "AI-native bookkeeping and finance platform with AI Accountant and AI CFO agents plus human support.",
+    "For startups that want routine accounting and finance operations handled through a combination of AI agents and finance professionals.",
     "Paid",
     "https://www.zeni.ai/"
   ],
@@ -2666,24 +2666,24 @@
   [
     "Trullion",
     "Finance & accounting",
-    "AI accounting platform for audit, lease accounting and financial workflows.",
-    "For finance and audit teams automating document-heavy accounting processes.",
+    "Auditable AI accounting and audit platform with source-grounded agents and financial document workflows.",
+    "For finance and audit teams that need AI-assisted accounting work with traceable source evidence and reviewable outputs.",
     "Paid",
     "https://trullion.com/"
   ],
   [
     "Numeric",
     "Finance & accounting",
-    "AI-assisted close management and accounting workflow platform.",
-    "For accounting teams accelerating reconciliations, close tasks and variance analysis.",
+    "AI close and accounting automation platform for reconciliations, variance analysis, reporting and connected agent workflows.",
+    "For accounting teams accelerating close, reconciliations and financial analysis while keeping results inside structured finance processes.",
     "Paid",
     "https://www.numeric.io/"
   ],
   [
     "Nabla",
     "Healthcare",
-    "Clinical AI assistant for ambient documentation and healthcare workflows.",
-    "For clinicians reducing note-taking and administrative work during patient visits.",
+    "Ambient clinical AI assistant for encounter capture, structured notes and documentation workflows.",
+    "For clinicians who want to reduce manual documentation during patient visits while retaining clinical review of generated notes.",
     "Paid",
     "https://www.nabla.com/"
   ],
@@ -2698,8 +2698,8 @@
   [
     "Suki",
     "Healthcare",
-    "AI assistant for clinical documentation, dictation and healthcare workflows.",
-    "For clinicians creating notes and completing documentation with less manual typing.",
+    "Ambient clinical intelligence platform for documentation, chart-aware assistance, dictation and EHR workflows.",
+    "For clinicians who want AI assistance before, during and after encounters while keeping documentation integrated with existing clinical systems.",
     "Paid",
     "https://www.suki.ai/"
   ],
@@ -2722,8 +2722,8 @@
   [
     "Heidi Health",
     "Healthcare",
-    "AI medical scribe and clinical documentation assistant.",
-    "For clinicians generating notes, letters and summaries from patient encounters.",
+    "AI medical scribe for consultation transcription, notes, referral letters and patient summaries.",
+    "For clinicians who want draft documentation generated from encounters while retaining responsibility for review and finalization.",
     "Free tier / Paid",
     "https://www.heidihealth.com/"
   ],
@@ -2746,16 +2746,16 @@
   [
     "Glass Health",
     "Healthcare",
-    "AI clinical decision support and medical reasoning workspace.",
-    "For clinicians organizing differential diagnoses and care planning with AI assistance.",
+    "Clinical intelligence workspace for clinician-facing differential-diagnosis support, treatment planning, documentation and medical Q&A.",
+    "For clinicians using AI as decision-support and documentation assistance alongside professional judgment rather than as an autonomous diagnostic system.",
     "Paid",
     "https://glass.health/"
   ],
   [
     "OpenEvidence",
     "Healthcare",
-    "Medical information and evidence search platform built for clinicians.",
-    "For healthcare professionals looking up medical evidence and clinical references quickly.",
+    "Medical knowledge and evidence platform for clinicians using licensed journal, guideline and clinical-reference sources.",
+    "For healthcare professionals looking up clinical literature and evidence quickly while retaining access to underlying medical sources.",
     "Free",
     "https://www.openevidence.com/"
   ],
@@ -2770,24 +2770,24 @@
   [
     "Notable",
     "Healthcare",
-    "Healthcare automation platform for patient access and administrative workflows.",
-    "For health systems automating scheduling, intake, outreach and operational tasks.",
+    "Healthcare AI-agent platform for patient access, revenue-cycle and care-operations workflows.",
+    "For health systems automating administrative work such as scheduling, intake, outreach and operational coordination.",
     "Paid",
     "https://www.notablehealth.com/"
   ],
   [
     "Hippocratic AI",
     "Healthcare",
-    "Safety-focused generative AI platform for healthcare agents and patient-facing workflows.",
-    "For healthcare organizations deploying conversational AI in non-diagnostic operational roles.",
+    "Healthcare generative-AI agent platform for non-diagnostic patient and operational workflows with safety controls.",
+    "For healthcare organizations deploying conversational agents for supported non-diagnostic tasks while maintaining escalation and clinical-safety boundaries.",
     "Paid",
     "https://www.hippocraticai.com/"
   ],
   [
     "Infermedica",
     "Healthcare",
-    "Clinical decision support and symptom assessment platform delivered through APIs and applications.",
-    "For digital health products adding structured symptom-checking and triage workflows.",
+    "Clinical AI triage and care-navigation platform for symptom assessment and routing through APIs and applications.",
+    "For digital-health products and healthcare organizations adding structured symptom-intake and care-navigation workflows.",
     "Paid",
     "https://infermedica.com/"
   ],
@@ -2802,8 +2802,8 @@
   [
     "K Health",
     "Healthcare",
-    "AI-supported virtual care platform combining symptom intake with clinician access.",
-    "For consumers seeking digital primary-care and medical guidance workflows.",
+    "AI-supported virtual primary-care platform combining digital symptom intake with clinician-led care workflows.",
+    "For consumers using a virtual-care service where AI supports intake and care workflows rather than replacing licensed clinical judgment.",
     "Paid",
     "https://khealth.com/"
   ],
