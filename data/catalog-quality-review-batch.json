@@ -1,143 +1,110 @@
 {
-  "batchId": "legacy-a-019",
+  "batchId": "legacy-a-020",
   "reviewedAt": "2026-09-21",
   "accept": [
     {
-      "name": "Harvey",
-      "officialUrl": "https://www.harvey.ai/",
+      "name": "Shopify Magic",
+      "officialUrl": "https://www.shopify.com/magic",
       "evidenceUrls": [
-        "https://www.harvey.ai/blog/agentic-platform-updates",
-        "https://www.harvey.ai/blog/introducing-harvey-ii",
-        "https://www.harvey.ai/blog/introducing-agent-builder"
+        "https://help.shopify.com/en/manual/ai-powered-tools/shopify-magic",
+        "https://help.shopify.com/en/manual/ai-powered-tools"
       ],
-      "userValue": "Actively developed agentic legal and professional-services platform for research, drafting, review and matter-aware workflows with lawyer-tested agents and custom agent building.",
-      "description": "Agentic legal and professional-services platform for research, drafting, review and matter-aware workflows.",
-      "useCase": "For law firms and legal teams that want governed AI agents working across complex research, drafting, review and matter context."
+      "userValue": "Shopify's active suite of built-in AI features for store building, copy, media generation, theme work and merchant operations across Shopify.",
+      "description": "Built-in Shopify AI features for store building, copy, media generation, themes and merchant workflows.",
+      "useCase": "For Shopify merchants who want AI assistance embedded directly in the commerce admin and storefront workflow."
     },
     {
-      "name": "Luminance",
-      "officialUrl": "https://www.luminance.com/",
+      "name": "Shopify Sidekick",
+      "officialUrl": "https://www.shopify.com/sidekick",
       "evidenceUrls": [
-        "https://www.luminance.com/luminance-legal-ai/",
-        "https://www.luminance.com/solutions/legal/",
-        "https://www.luminance.com/press/luminance-launches-new-legal-ai-with-institutional-memory-addressing-enterprise-amnesia-and-giving-legal-teams-30-of-their-time-back"
+        "https://www.shopify.com/sidekick",
+        "https://help.shopify.com/en/manual/ai-powered-tools/sidekick",
+        "https://www.shopify.com/editions/winter2026"
       ],
-      "userValue": "Active Legal-Grade enterprise contract AI with institutional memory across drafting, negotiation, review, compliance and contract intelligence.",
-      "description": "Legal-Grade enterprise contract AI with institutional memory across drafting, negotiation, review and contract intelligence.",
-      "useCase": "For in-house and law-firm teams managing contract lifecycles that need negotiation context, review automation and institutional legal memory."
+      "userValue": "Shopify's active context-aware commerce assistant for analyzing store data, completing admin tasks, creating content, editing themes and generating custom apps with merchant review.",
+      "description": "Context-aware Shopify commerce assistant for analysis, content, store tasks, theme work and custom app generation.",
+      "useCase": "For Shopify operators who want an assistant that understands store context and can propose or execute commerce tasks inside the admin."
     },
     {
-      "name": "Paxton AI",
-      "officialUrl": "https://www.paxton.ai/",
+      "name": "Mixo",
+      "officialUrl": "https://www.mixo.io/",
       "evidenceUrls": [
-        "https://www.paxton.ai/",
-        "https://www.paxton.ai/post/introducing-drafting-and-answering-with-legal-research-in-assistant"
+        "https://www.mixo.io/features/ai-website-builder",
+        "https://app.mixo.io/"
       ],
-      "userValue": "Active legal AI assistant that combines verified legal research, citations, analysis and document drafting inside one professional workflow.",
-      "description": "Legal AI assistant for verified legal research, citations, analysis and drafting.",
-      "useCase": "For lawyers who want research-grounded answers and drafting support tied to legal sources rather than a general-purpose chatbot."
+      "userValue": "Active AI website builder focused on rapidly generating editable, mobile-ready small-business and startup sites from a plain-language description.",
+      "description": "AI website builder for quickly generating editable small-business and startup sites.",
+      "useCase": "For founders and small businesses that want to validate an idea or launch a lead-generating site without starting from a blank canvas."
     },
     {
-      "name": "Vincent AI",
-      "officialUrl": "https://vlex.com/vincent-ai",
+      "name": "Scalenut",
+      "officialUrl": "https://www.scalenut.com/",
       "evidenceUrls": [
-        "https://vlex.com/vincent-ai"
+        "https://www.scalenut.com/helpdoc/scalenut-platform-overview-the-all-in-one-geo-content-growth-engine",
+        "https://www.scalenut.com/helpdoc/ai-visibility-your-guide-to-generative-engine-optimization-geo"
       ],
-      "userValue": "Vincent by vLex, part of Clio, is an active legal AI platform for global research, litigation, transactional analysis and custom firm workflows.",
-      "description": "Vincent by vLex legal AI for global research, litigation, transactional analysis and custom firm workflows.",
-      "useCase": "For legal professionals who need AI-assisted multi-jurisdiction research and analysis connected to vLex's legal information platform."
+      "userValue": "Active GEO and content-growth platform for tracking AI-search visibility, generating optimized content and turning visibility insights into search and content actions.",
+      "description": "GEO and content-growth platform for AI-search visibility, content creation and search optimization.",
+      "useCase": "For marketing teams that want one workflow for traditional SEO plus brand visibility across ChatGPT, Perplexity and AI Overviews."
     },
     {
-      "name": "SeekOut",
-      "officialUrl": "https://www.seekout.com/",
+      "name": "NeuronWriter",
+      "officialUrl": "https://neuronwriter.com/",
       "evidenceUrls": [
-        "https://www.seekout.com/blog/agentic-ai-recruiting-leveled-up-with-seekout/",
-        "https://support.seekout.com/en/articles/13719568-ai-features-in-seekout"
+        "https://neuronwriter.com/ai-score-in-neuronwriter-how-to-dominate-seo-and-geo-in-2026-guide/",
+        "https://neuronwriter.com/ai-tracking-in-neuronwriter-how-to-measure-your-visibility-in-google-sge-and-perplexity/",
+        "https://neuronwriter.com/ai-search-changes-for-seo/"
       ],
-      "userValue": "Active agentic recruiting platform for sourcing, screening, outreach, talent intelligence and recruiting workflows across specialized candidate pools.",
-      "description": "Agentic recruiting platform for sourcing, screening, outreach and talent intelligence.",
-      "useCase": "For recruiting teams that want AI agents to identify, evaluate and engage specialized candidates across large talent pools."
+      "userValue": "Active content-optimization and AI-visibility platform combining semantic SEO guidance, AI scoring, content assistance and tracking across AI answer engines.",
+      "description": "Content-optimization and AI-visibility platform for semantic SEO, AI scoring and answer-engine tracking.",
+      "useCase": "For writers and SEO teams optimizing content for both search rankings and citation or visibility in AI-generated answers."
     },
     {
-      "name": "HireVue",
-      "officialUrl": "https://www.hirevue.com/",
+      "name": "Search Atlas",
+      "officialUrl": "https://searchatlas.com/",
       "evidenceUrls": [
-        "https://www.hirevue.com/"
+        "https://searchatlas.com/blog/",
+        "https://searchatlas.com/blog/building-agentic-seo-workflow/"
       ],
-      "userValue": "Active AI-powered hiring platform for skill validation, assessments, interviewing, candidate engagement and workflow automation at enterprise scale.",
-      "description": "AI-powered hiring platform for skill validation, assessments, interviewing and recruiting workflow automation.",
-      "useCase": "For larger hiring organizations that need standardized screening, structured interviews and skills-based candidate evaluation."
+      "userValue": "Active agentic marketing and SEO platform centered on OTTO and Atlas Agent for technical SEO, content, AI visibility and automated optimization execution.",
+      "category": "SEO & AI visibility",
+      "description": "Agentic SEO and marketing platform for technical optimization, content, AI visibility and automated execution.",
+      "useCase": "For agencies and site owners that want AI agents to move from SEO analysis to concrete site and content actions."
     },
     {
-      "name": "Paradox",
-      "officialUrl": "https://www.paradox.ai/",
+      "name": "Koala AI",
+      "officialUrl": "https://koala.sh/",
       "evidenceUrls": [
-        "https://www.paradox.ai/",
-        "https://www.paradox.ai/why-paradox"
+        "https://koala.sh/blog/meet-brand-dna-growth-agent-koalawriter-v2",
+        "https://koala.sh/changelog",
+        "https://koala.sh/pages/api-docs/koalawriter-v2"
       ],
-      "userValue": "Active conversational hiring platform centered on Olivia for job discovery, application, screening, scheduling, candidate communication, offers and onboarding.",
-      "description": "Conversational AI hiring platform for screening, scheduling, candidate communication, offers and onboarding.",
-      "useCase": "For high-volume hiring teams that want to automate repetitive candidate interactions while keeping recruiters focused on higher-value work."
-    },
-    {
-      "name": "Metaview",
-      "officialUrl": "https://www.metaview.ai/",
-      "evidenceUrls": [
-        "https://www.metaview.ai/resources/blog/agentic-recruiting-platform",
-        "https://www.metaview.ai/resources/blog/ai-recruiting-agents",
-        "https://www.metaview.ai/resources/blog/ai-voice-agent-recruiting"
-      ],
-      "userValue": "Actively developed agentic recruiting platform that turns interview signal into shared intelligence and supports sourcing, screening, notes, reports and automated recruiting workflows.",
-      "category": "Recruiting AI",
-      "description": "Agentic recruiting platform for interview intelligence, sourcing, screening and automated recruiting workflows.",
-      "useCase": "For recruiting teams that want structured interview signal and AI agents shared across sourcing, screening and hiring decisions."
-    },
-    {
-      "name": "Juicebox",
-      "officialUrl": "https://juicebox.ai/",
-      "evidenceUrls": [
-        "https://juicebox.ai/blog/introducing-the-next-generation-of-juicebox-agents",
-        "https://juicebox.ai/blog/introducing-hiring-manager-workflows",
-        "https://juicebox.ai/agents"
-      ],
-      "userValue": "Active AI recruiting platform combining conversational people search, recruiting CRM and long-horizon sourcing agents that can continuously build candidate pipelines.",
-      "category": "Recruiting AI",
-      "description": "AI recruiting platform combining conversational people search, CRM and autonomous sourcing agents.",
-      "useCase": "For recruiters and hiring managers who want natural-language talent search plus agents that maintain and grow candidate pipelines over time."
-    },
-    {
-      "name": "Humanly",
-      "officialUrl": "https://www.humanly.io/",
-      "evidenceUrls": [
-        "https://www.humanly.io/",
-        "https://www.humanly.io/blog/humanly-workflows-automate-candidate-progression",
-        "https://www.humanly.io/blog/24-7-candidate-screening-that-actually-prioritizes-the-high-volume-hiring-playbook"
-      ],
-      "userValue": "Active high-volume AI recruiting platform with AI Recruiter, AI Interviewer, ATS workflows, screening, scheduling and candidate progression automation.",
-      "description": "High-volume AI recruiting platform for screening, interviewing, scheduling and candidate progression.",
-      "useCase": "For hiring teams that need 24/7 candidate screening and structured recruiting automation across early-stage hiring workflows."
+      "userValue": "Actively developed AI SEO content platform with Brand DNA, an SEO agent, KoalaWriter v2, real-time research, AI-search optimization and API workflows.",
+      "description": "AI SEO content platform with Brand DNA, an SEO agent, KoalaWriter v2 and AI-search optimization.",
+      "useCase": "For publishers and marketing teams producing brand-aware long-form content and service pages optimized for Google and AI answer engines."
     }
   ],
   "update": [],
   "supersede": [
     {
-      "name": "Lexis+ AI",
-      "newName": "Lexis+ with Protégé",
-      "url": "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
-      "category": "Legal",
-      "description": "LexisNexis legal AI workflow solution for drafting, research and analysis with Protégé grounded in authoritative legal content.",
-      "useCase": "For legal teams that want conversational research, drafting and analysis tied directly to LexisNexis legal sources and workflow tools.",
+      "name": "Hostinger Horizons",
+      "newName": "Hostinger AI Builder",
+      "url": "https://www.hostinger.com/ai-builder",
+      "category": "Web apps",
+      "description": "Hostinger's unified AI website and web-app builder with manual and agentic modes, integrated hosting, ecommerce, code editing and AI capabilities.",
+      "useCase": "For users who want to build and publish websites or web apps through natural-language agentic workflows while keeping hosting and deployment in the same platform.",
       "pricing": "Paid",
       "firstTrackedAt": "2026-09-21T00:00:00Z",
       "oldEvidenceUrls": [
-        "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page"
+        "https://www.hostinger.com/legal/special-terms"
       ],
       "newEvidenceUrls": [
-        "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
-        "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page"
+        "https://www.hostinger.com/ai-builder",
+        "https://www.hostinger.com/legal/special-terms",
+        "https://www.hostinger.com/blog/product-updates-2026"
       ],
-      "reason": "LexisNexis officially renamed Lexis+ AI to Lexis+ with Protégé in February 2026. Keeping the former name would present an outdated product identity.",
-      "userValue": "Lexis+ with Protégé is the current LexisNexis legal AI workflow for research, drafting and analysis grounded in authoritative legal content."
+      "reason": "Hostinger states that Hostinger AI Builder is the current unified product and that services previously offered as Hostinger Horizons and Hostinger Website Builder are now part of Hostinger AI Builder.",
+      "userValue": "Hostinger AI Builder is the current unified Hostinger product for AI-assisted website and web-app creation, editing and publishing."
     }
   ],
   "mergeInto": [],
