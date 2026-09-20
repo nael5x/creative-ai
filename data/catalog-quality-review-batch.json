@@ -1,173 +1,214 @@
 {
-  "batchId": "legacy-a-013",
+  "batchId": "legacy-a-014",
   "reviewedAt": "2026-09-20",
   "accept": [
     {
-      "name": "Stable Audio",
-      "officialUrl": "https://www.stableaudio.com/",
+      "name": "Genspark",
+      "officialUrl": "https://www.genspark.ai/",
       "evidenceUrls": [
-        "https://stability.ai/stable-audio",
-        "https://www.stableaudio.com/"
+        "https://www.genspark.ai/blog/genspark-ai-workspace-6",
+        "https://www.genspark.ai/helpcenter/genteam"
       ],
-      "userValue": "Stability AI's actively maintained generative-audio product and model family for music and sound effects, with web-app, API, enterprise and open-weight access paths.",
-      "description": "Stability AI generative-audio platform and model family for music and sound effects.",
-      "useCase": "For creators and developers generating or editing music and sound effects through a web app, API or open-weight Stable Audio models."
+      "userValue": "Actively developed AI workspace combining persistent memory, multi-agent collaboration, office/content/build suites and autonomous task execution.",
+      "description": "AI workspace for persistent memory, multi-agent collaboration and autonomous knowledge-work execution.",
+      "useCase": "For individuals and teams that want agents to research, create documents, build assets and execute multi-step work with shared context."
     },
     {
-      "name": "Gumloop",
-      "officialUrl": "https://www.gumloop.com/",
+      "name": "Tavily",
+      "officialUrl": "https://tavily.com/",
       "evidenceUrls": [
-        "https://www.gumloop.com/",
-        "https://www.gumloop.com/blog/introducing-agent-tasks",
-        "https://www.gumloop.com/blog/gumloop-model-router"
+        "https://www.tavily.com/blog/tavily-on-x402",
+        "https://help.tavily.com/articles/4840311948-tavily-search-api"
       ],
-      "userValue": "Active AI-agent automation platform for building specialized agents, recurring tasks and multi-agent workflows connected to workplace data and apps.",
-      "description": "AI-agent automation platform for specialized agents, recurring tasks and multi-agent workflows.",
-      "useCase": "For teams that want to automate operational work with configurable agents connected to internal data and business applications."
+      "userValue": "Agent-focused web intelligence platform providing real-time search, extraction and research APIs designed for LLM and autonomous-agent workflows.",
+      "category": "AI infrastructure",
+      "description": "Real-time web search, extraction and research APIs designed for AI agents and LLM applications.",
+      "useCase": "For developers who need current web grounding, retrieval and research in AI systems without operating their own crawler and indexing stack."
     },
     {
-      "name": "Lindy",
-      "officialUrl": "https://www.lindy.ai/",
+      "name": "ResearchRabbit",
+      "officialUrl": "https://www.researchrabbit.ai/",
       "evidenceUrls": [
-        "https://www.lindy.ai/",
-        "https://www.lindy.ai/blog/best-ai-agents"
+        "https://www.researchrabbit.ai/releases/major-release-2026-07-09-2"
       ],
-      "userValue": "Active business-agent platform for automating sales, support, operations and administrative work with configurable AI agents and cross-app workflows.",
-      "description": "Business AI-agent platform for sales, support, operations and administrative automation.",
-      "useCase": "For teams that want to delegate repeatable communication and operations work to configurable agents connected to business tools."
+      "userValue": "Actively maintained literature-discovery workspace for exploring paper networks, maintaining reading lists, monitoring topics and evaluating connected research.",
+      "description": "Literature-discovery workspace for exploring paper networks, reading lists and evolving research topics.",
+      "useCase": "For researchers who want to expand from seed papers, visualize citation neighborhoods and keep track of new work in a field.",
+      "pricing": "Free tier / Paid"
     },
     {
-      "name": "Relevance AI",
-      "officialUrl": "https://relevanceai.com/",
+      "name": "Litmaps",
+      "officialUrl": "https://www.litmaps.com/",
       "evidenceUrls": [
-        "https://relevanceai.com/workforce",
-        "https://community.relevanceai.com/x/announcements"
+        "https://www.litmaps.com/"
       ],
-      "userValue": "No-code AI workforce platform for building agents, tools and collaborative multi-agent systems that execute business workflows across connected systems.",
-      "description": "No-code AI workforce platform for agents, tools and collaborative multi-agent systems.",
-      "useCase": "For organizations building coordinated AI teams that automate business processes across sales, support, finance and operations."
+      "userValue": "Active literature-review platform for discovering papers, visualizing citation relationships, collaborating and monitoring new publications around a topic.",
+      "description": "Literature-review platform for discovering papers, mapping citation relationships and monitoring new publications.",
+      "useCase": "For researchers building living literature maps that make related work and topic evolution easier to see."
     },
     {
-      "name": "Taskade",
-      "officialUrl": "https://www.taskade.com/",
+      "name": "Semantic Scholar",
+      "officialUrl": "https://www.semanticscholar.org/",
       "evidenceUrls": [
-        "https://www.taskade.com/wiki/taskade/ai-agents",
-        "https://www.taskade.com/wiki/autonomous/autonomous-agents",
-        "https://www.taskade.com/blog/updates"
+        "https://allenai.org/ai-for-science",
+        "https://allenai.org/blog/asta-interaction-dataset"
       ],
-      "userValue": "Actively developed AI workspace and app-building platform combining persistent agents, projects, knowledge, automations and multi-agent collaboration.",
-      "description": "AI workspace and app-building platform combining projects, persistent agents, knowledge and automations.",
-      "useCase": "For individuals and teams that want planning, collaboration, AI agents and workflow automation in one shared workspace."
+      "userValue": "Ai2's active free AI-powered scientific search and discovery service, backed by a large academic graph and integrated with newer Asta research tooling.",
+      "description": "Free AI-powered scientific search and discovery service from Ai2.",
+      "useCase": "For finding papers, authors, citations and related scientific work across a large scholarly corpus."
     },
     {
-      "name": "Haystack",
-      "officialUrl": "https://haystack.deepset.ai/",
+      "name": "Sudowrite",
+      "officialUrl": "https://www.sudowrite.com/",
       "evidenceUrls": [
-        "https://haystack.deepset.ai/"
+        "https://docs.sudowrite.com/getting-started/dQph1snuwbfMWG9wRjsNug/what-is-sudowrite/iwppfTjfffZTFaa7eBzJoQ",
+        "https://feedback.sudowrite.com/en/changelog"
       ],
-      "userValue": "Actively developed open-source orchestration framework for production-grade agents, retrieval, multimodal AI and composable LLM applications.",
-      "description": "Open-source AI orchestration framework for production-grade agents, retrieval and multimodal applications.",
-      "useCase": "For developers building transparent, composable production AI systems with control over retrieval, reasoning, memory, tools and deployment."
+      "userValue": "Actively maintained fiction-writing environment for planning, drafting, rewriting, story bibles and long-form creative iteration with multiple current AI models.",
+      "description": "AI fiction-writing workspace for planning, drafting, revision and story development.",
+      "useCase": "For novelists and fiction writers who want AI assistance tuned to long-form storytelling, continuity and prose experimentation."
     },
     {
-      "name": "LangGraph",
-      "officialUrl": "https://www.langchain.com/langgraph",
+      "name": "Jenni AI",
+      "officialUrl": "https://jenni.ai/",
       "evidenceUrls": [
-        "https://www.langchain.com/blog/march-2026-langchain-newsletter",
-        "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph"
+        "https://jenni.ai/",
+        "https://jenni.ai/changelog"
       ],
-      "userValue": "Actively maintained graph-based agent runtime from LangChain for stateful, controllable agent workflows that need explicit orchestration and durable execution.",
-      "description": "Graph-based runtime for building controllable, stateful and durable AI agent workflows.",
-      "useCase": "For developers who need low-level control over long-running or multi-step agent state, branching, persistence and human intervention."
+      "userValue": "Actively developed academic research and writing workspace with source-grounded drafting, citation support, paper discovery, source-quality checks and collaboration.",
+      "description": "Source-grounded academic research and writing workspace for reading, drafting and citation workflows.",
+      "useCase": "For students, academics and research teams that want AI writing help tied closely to verifiable sources."
     },
     {
-      "name": "Pydantic AI",
-      "officialUrl": "https://ai.pydantic.dev/",
+      "name": "HyperWrite",
+      "officialUrl": "https://www.hyperwriteai.com/",
       "evidenceUrls": [
-        "https://ai.pydantic.dev/",
-        "https://pydantic.dev/articles"
+        "https://www.hyperwriteai.com/"
       ],
-      "userValue": "Actively developed typed Python agent framework from the Pydantic team with tools, multi-agent patterns, durable execution, MCP, evaluation and observability integrations.",
-      "description": "Typed Python agent framework with tools, durable execution, multi-agent patterns, MCP and evaluation support.",
-      "useCase": "For Python developers who want strongly typed, testable AI agents with structured outputs, provider flexibility and production-oriented tooling."
+      "userValue": "Active AI writing and research assistant with predictive writing, browser assistance, real-time research, citations, custom tools and document editing.",
+      "description": "AI writing and research assistant with predictive writing, citations, browser support and custom tools.",
+      "useCase": "For users who want drafting, rewriting and research assistance across documents, email and browser workflows."
     },
     {
-      "name": "Langflow",
-      "officialUrl": "https://www.langflow.org/",
+      "name": "ProWritingAid",
+      "officialUrl": "https://prowritingaid.com/",
       "evidenceUrls": [
-        "https://www.langflow.org/blog/langflow-1-12/",
-        "https://www.langflow.org/blog/langflow-1-11/"
+        "https://help.prowritingaid.com/article/297-does-prowritingaid-use-ai"
       ],
-      "userValue": "Actively maintained open-source low-code builder for agentic and RAG workflows with human-in-the-loop, A2A, AG-UI, observability and deployable APIs.",
-      "description": "Open-source low-code builder for agentic, RAG and multi-system AI workflows.",
-      "useCase": "For developers and technical teams that want to visually assemble, test and deploy agent workflows while retaining access to code and APIs."
+      "userValue": "AI-assisted editing platform for deep manuscript analysis, critique, revision and optional generative rewriting while preserving an author-first workflow.",
+      "description": "AI-assisted editing platform for manuscript analysis, critique, revision and selective generative rewriting.",
+      "useCase": "For authors and long-form writers who want structural and stylistic feedback beyond basic grammar correction."
     },
     {
-      "name": "GPT4All",
-      "officialUrl": "https://www.nomic.ai/gpt4all",
+      "name": "LanguageTool",
+      "officialUrl": "https://languagetool.org/",
       "evidenceUrls": [
-        "https://www.nomic.ai/gpt4all"
+        "https://help.languagetool.org/hc/en-us/articles/39254472465687-Is-LanguageTool-Considered-AI-Writing",
+        "https://languagetool.org/insights/post/artificial-intelligence/"
       ],
-      "userValue": "Nomic's actively available private local AI desktop application for running open language models and document chat on-device without sending data to a cloud service.",
-      "description": "Private local AI desktop app for running open language models and document chat on-device.",
-      "useCase": "For users who want local model chat and document workflows on Windows, macOS or Linux without sending prompts and files to a hosted provider."
+      "userValue": "Active multilingual AI editing assistant for grammar, spelling, punctuation, style, tone and paraphrasing across more than 30 languages.",
+      "description": "Multilingual AI editing assistant for grammar, spelling, style, tone and paraphrasing.",
+      "useCase": "For users who want context-aware writing correction and rewriting across browsers, desktop apps and documents in many languages."
     },
     {
-      "name": "llama.cpp",
-      "officialUrl": "https://github.com/ggml-org/llama.cpp",
+      "name": "Writer",
+      "officialUrl": "https://writer.com/",
       "evidenceUrls": [
-        "https://github.com/ggml-org/llama.cpp/releases",
-        "https://github.com/ggml-org/llama.cpp/discussions/23875"
+        "https://writer.com/"
       ],
-      "userValue": "Very actively maintained open-source inference runtime and tooling stack for efficient local and server execution of GGUF language models across many hardware targets.",
-      "description": "Open-source inference runtime and tooling stack for efficient local and server execution of GGUF models.",
-      "useCase": "For developers and advanced users who need efficient, portable local-model inference across desktop, server, mobile and edge hardware."
+      "userValue": "Enterprise AI platform centered on governed agents, playbooks, memory, company knowledge and always-on workflows for marketing and revenue organizations.",
+      "category": "Enterprise AI",
+      "description": "Enterprise AI platform for governed agents, playbooks, memory and company-connected workflows.",
+      "useCase": "For organizations that need autonomous AI work tied to internal data, brand rules, compliance and GTM processes."
     },
     {
-      "name": "LibreChat",
-      "officialUrl": "https://www.librechat.ai/",
+      "name": "Napkin AI",
+      "officialUrl": "https://www.napkin.ai/",
       "evidenceUrls": [
-        "https://github.com/danny-avila/LibreChat/releases",
-        "https://www.librechat.ai/"
+        "https://www.napkin.ai/"
       ],
-      "userValue": "Actively maintained self-hosted multi-provider AI interface with agents, skills, MCP, projects, search and enterprise-oriented authentication and observability features.",
-      "description": "Self-hosted multi-provider AI interface with agents, skills, MCP, projects and enterprise controls.",
-      "useCase": "For users and organizations that want one self-hosted interface across cloud and local model providers with configurable agent tooling."
+      "userValue": "AI visual-communication tool that converts text into editable diagrams, infographics, mind maps, charts and presentation-ready visual assets.",
+      "description": "AI visual-communication tool that turns text into editable diagrams, charts and presentation visuals.",
+      "useCase": "For quickly converting written ideas into branded, editable visuals that can be exported to slides, PDF, PNG or SVG."
     },
     {
-      "name": "Kagi Assistant",
-      "officialUrl": "https://kagi.com/assistant",
+      "name": "Mem",
+      "officialUrl": "https://mem.ai/",
       "evidenceUrls": [
-        "https://help.kagi.com/kagi/ai/assistant.html",
-        "https://kagi.com/changelog"
+        "https://get.mem.ai/blog/product-update-roundup-calendar-integration-claude-connector-referral-program-plus-experimental-features-for-pro-users",
+        "https://get.mem.ai/blog/your-favorite-llms-can-now-use-your-second-brain-as-context"
       ],
-      "userValue": "Actively maintained privacy-focused multi-model assistant with optional Kagi Search grounding, custom assistants, files, voice input and native mobile apps.",
-      "description": "Privacy-focused multi-model assistant with optional Kagi Search grounding, custom assistants and file context.",
-      "useCase": "For Kagi members who want model choice, web-grounded research and private assistant workflows within one subscription."
+      "userValue": "Actively developed AI-native knowledge workspace for low-friction capture, semantic retrieval, meeting context, voice notes and external model connectors.",
+      "description": "AI-native knowledge workspace for note capture, semantic retrieval, meeting context and connected AI workflows.",
+      "useCase": "For individuals and teams that want a searchable second brain that can proactively surface context and connect to external assistants."
+    },
+    {
+      "name": "Tana",
+      "officialUrl": "https://tana.inc/",
+      "evidenceUrls": [
+        "https://tana.inc/"
+      ],
+      "userValue": "Tana's current product is an agentic meeting platform where AI agents participate in native calls, retain context and take actions across connected work systems.",
+      "category": "Meetings & collaboration",
+      "description": "Agentic meeting platform where AI agents capture context and take actions during native video calls.",
+      "useCase": "For teams that want meetings to produce actions automatically across tools such as Slack, GitHub, Linear, HubSpot and coding agents.",
+      "pricing": "Free trial / Paid"
+    },
+    {
+      "name": "Readwise Reader",
+      "officialUrl": "https://readwise.io/read",
+      "evidenceUrls": [
+        "https://docs.readwise.io/changelog",
+        "https://readwise.io/reader/update-aug2026"
+      ],
+      "userValue": "Actively developed reading and knowledge workspace with global library chat, source-cited Ghostreader, MCP access, highlights, feeds, PDFs, video and mobile reading.",
+      "description": "Reading and knowledge workspace for saved content, highlights, library-wide AI chat and connected research workflows.",
+      "useCase": "For serious readers and researchers who want articles, books, PDFs, newsletters and video notes in one searchable AI-assisted library."
+    },
+    {
+      "name": "Lex",
+      "officialUrl": "https://lex.page/",
+      "evidenceUrls": [
+        "https://lex.page/"
+      ],
+      "userValue": "Active collaborative writing environment with focused document editing, AI feedback, brainstorming, rewriting, versioning and lightweight team collaboration.",
+      "description": "Collaborative writing workspace with focused editing, AI feedback, brainstorming and rewriting.",
+      "useCase": "For writers who want a clean long-form editor with integrated AI help rather than a general-purpose chat interface."
+    },
+    {
+      "name": "Paperpal",
+      "officialUrl": "https://paperpal.com/",
+      "evidenceUrls": [
+        "https://paperpal.com/"
+      ],
+      "userValue": "Academic AI writing and research platform for source-grounded drafting, language editing, citation checks, literature review, plagiarism checks and manuscript preparation.",
+      "description": "Academic AI writing and research platform for source-grounded drafting, language editing and manuscript preparation.",
+      "useCase": "For researchers and students preparing papers, theses and scholarly documents with citation-aware assistance."
+    },
+    {
+      "name": "Greptile",
+      "officialUrl": "https://www.greptile.com/",
+      "evidenceUrls": [
+        "https://www.greptile.com/changelog"
+      ],
+      "userValue": "Actively maintained AI code-review platform with repository context, parallel review agents, security review, generated tests, CLI workflows and individual free access.",
+      "description": "AI code-review platform with repository context, security analysis, generated tests and CLI workflows.",
+      "useCase": "For engineering teams that want automated pull-request review and codebase-aware quality checks before merge.",
+      "pricing": "Free tier / Paid"
+    },
+    {
+      "name": "OpenHands",
+      "officialUrl": "https://openhands.dev/",
+      "evidenceUrls": [
+        "https://www.openhands.dev/"
+      ],
+      "userValue": "Active open platform for coding agents spanning open-source agents, desktop, cloud, SDKs and an agent control plane for inspectable and extensible software work.",
+      "description": "Open platform for coding agents with open-source agents, desktop, cloud, SDKs and control-plane tooling.",
+      "useCase": "For developers and teams that want inspectable coding agents they can run, extend, integrate and control across repositories and workflows."
     }
   ],
   "update": [],
   "supersede": [],
-  "mergeInto": [
-    {
-      "name": "Semantic Kernel",
-      "targetName": "Microsoft Agent Framework",
-      "targetUrl": "https://learn.microsoft.com/en-us/agent-framework/overview/",
-      "category": "AI development",
-      "description": "Open-source Microsoft SDK and runtime for building, orchestrating and deploying production AI agents and multi-agent workflows.",
-      "useCase": "For developers starting new Microsoft-oriented agent systems with tools, workflows, multiple model providers and operational controls.",
-      "pricing": "Open source",
-      "oldEvidenceUrls": [
-        "https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-semantic-kernel/",
-        "https://microsoft.github.io/Microsoft-AI-Decision-Framework/docs/technologies.html"
-      ],
-      "targetEvidenceUrls": [
-        "https://learn.microsoft.com/en-us/agent-framework/overview/",
-        "https://microsoft.github.io/Microsoft-AI-Decision-Framework/docs/technologies.html"
-      ],
-      "reason": "Microsoft identifies Agent Framework as the direct successor to Semantic Kernel and provides a current Semantic Kernel migration guide. Keeping Semantic Kernel as a separate recommended active framework would duplicate a superseded maintenance-line identity for new projects.",
-      "userValue": "Microsoft Agent Framework is the current Microsoft framework for new production agent development, unifying the lineage of Semantic Kernel and AutoGen."
-    }
-  ],
+  "mergeInto": [],
   "remove": []
 }
