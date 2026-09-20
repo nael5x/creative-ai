@@ -3002,48 +3002,48 @@
   [
     "Meshy",
     "3D",
-    "AI 3D generation platform for creating models, textures and assets from prompts or images.",
-    "For game, design and 3D teams producing draft assets quickly.",
+    "End-to-end AI 3D creation platform for generation, texturing, topology, animation, printing and API workflows.",
+    "For game, product, maker and 3D teams that want to move from references or prompts to editable production assets quickly.",
     "Free tier / Paid",
     "https://www.meshy.ai/"
   ],
   [
     "Tripo AI",
     "3D",
-    "AI platform for generating 3D models from text or images.",
-    "For creators producing editable 3D assets from simple prompts and references.",
+    "AI 3D platform for text/image generation, smart meshes, texturing, retopology, rigging and animation.",
+    "For creators and studios that want production-oriented 3D assets for games, VFX, printing, ecommerce and interactive applications.",
     "Free tier / Paid",
     "https://www.tripo3d.ai/"
   ],
   [
     "Spline AI",
     "3D",
-    "AI-assisted 3D design features inside the Spline collaborative design tool.",
-    "For web and product designers creating interactive 3D scenes without a traditional 3D pipeline.",
+    "AI-assisted 3D generation inside Spline's collaborative interactive design environment.",
+    "For web and product designers who want generated 3D assets to remain editable inside an interactive scene and prototyping workflow.",
     "Free tier / Paid",
     "https://spline.design/ai"
   ],
   [
     "Kaedim",
     "3D",
-    "AI-assisted 3D asset production platform for converting concepts into production-ready models.",
-    "For studios accelerating game and product asset creation with human-in-the-loop workflows.",
+    "Managed AI-assisted 3D production platform for converting briefs and references into studio-ready assets.",
+    "For studios and brands that need scalable 3D asset production with quality control and human-in-the-loop refinement.",
     "Paid",
     "https://www.kaedim3d.com/"
   ],
   [
     "Masterpiece X",
     "3D",
-    "Generative 3D creation platform for producing models from prompts and references.",
-    "For creators experimenting with text-to-3D and rapid asset prototyping.",
+    "Generative 3D platform for rapid asset prototyping, remixing and developer API workflows.",
+    "For creators who want a low-friction way to explore and prototype 3D assets before deeper work in Blender, Unity, Unreal or other production tools.",
     "Free tier / Paid",
     "https://www.masterpiecex.com/"
   ],
   [
     "Hyper3D Rodin",
     "3D",
-    "Generative 3D model creation platform for turning images or text into 3D assets.",
-    "For designers and developers producing 3D content for games, commerce and visualization.",
+    "High-fidelity AI 3D generation and texturing platform built around the Rodin model and API family.",
+    "For developers and 3D teams that need high-quality generated geometry and textures through a web product or production API.",
     "Free tier / Paid",
     "https://hyper3d.ai/"
   ],

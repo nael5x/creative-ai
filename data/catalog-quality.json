@@ -2449,6 +2449,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Hyper3D Rodin",
+      "officialUrl": "https://hyper3d.ai/",
+      "evidenceUrls": [
+        "https://docs.hyper3d.ai/en/get-started/changelog"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively maintained Hyper3D Rodin model and API family for high-fidelity 3D generation, texturing and production-oriented geometry with current Gen-2.5 capabilities.",
+      "decision": "accepted"
+    },
+    {
       "name": "HyperWrite",
       "officialUrl": "https://www.hyperwriteai.com/",
       "evidenceUrls": [
@@ -2588,6 +2598,16 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Active AI-supported virtual primary-care platform that combines digital symptom intake and longitudinal virtual-care workflows with licensed clinicians.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kaedim",
+      "officialUrl": "https://www.kaedim3d.com/",
+      "evidenceUrls": [
+        "https://www.kaedim3d.com/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active managed 3D production platform that turns briefs, sketches, references and product photos into inspectable studio-quality assets for games, product design and commercial CGI.",
       "decision": "accepted"
     },
     {
@@ -3029,6 +3049,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Masterpiece X",
+      "officialUrl": "https://www.masterpiecex.com/",
+      "evidenceUrls": [
+        "https://masterpiecex.com/pricing",
+        "https://app.masterpiecex.com/",
+        "https://masterpiecex.com/blog/generate-your-own-3d-asset-packs-with-masterpiece-x-generate-api"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active generative 3D playground and API for rapid text- and image-driven asset prototyping, remixing and export to common 3D pipelines.",
+      "decision": "accepted"
+    },
+    {
       "name": "Maven AGI",
       "officialUrl": "https://www.mavenagi.com/",
       "evidenceUrls": [
@@ -3060,6 +3092,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Actively developed AI-native knowledge workspace for low-friction capture, semantic retrieval, meeting context, voice notes and external model connectors.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Meshy",
+      "officialUrl": "https://www.meshy.ai/",
+      "evidenceUrls": [
+        "https://www.meshy.ai/",
+        "https://docs.meshy.ai/en",
+        "https://docs.meshy.ai/en/webapp/changelog"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed end-to-end AI 3D creation platform for text, image and conversational generation, production-ready meshes, texturing, topology, rigging, animation, 3D printing and API workflows.",
       "decision": "accepted"
     },
     {
@@ -4261,6 +4305,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Spline AI",
+      "officialUrl": "https://spline.design/ai",
+      "evidenceUrls": [
+        "https://docs.spline.design/generate/ai-3d-generation",
+        "https://spline.design/ai"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI generation inside Spline for turning text and images into 3D assets that can be dropped directly into Spline's collaborative interactive design environment.",
+      "decision": "accepted"
+    },
+    {
       "name": "Sprout Social AI",
       "officialUrl": "https://sproutsocial.com/ai/",
       "evidenceUrls": [
@@ -4543,6 +4598,18 @@
       "userValue": "Topaz Video is the current Topaz Labs product for AI-assisted video enhancement, restoration and upscaling.",
       "decision": "accepted",
       "supersedes": "Topaz Video AI"
+    },
+    {
+      "name": "Tripo AI",
+      "officialUrl": "https://www.tripo3d.ai/",
+      "evidenceUrls": [
+        "https://www.tripo3d.ai/",
+        "https://www.tripo3d.ai/help/getting-started/what-features-does-tripo-have",
+        "https://developers.tripo3d.ai/en/models/v3-1"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI 3D modeling platform for text, single-image and multiview generation with high-detail or smart-mesh outputs, texturing, segmentation, retopology, rigging and animation.",
+      "decision": "accepted"
     },
     {
       "name": "Trullion",
@@ -5268,9 +5335,9 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-21",
-  "lastQualityReviewBatch": "legacy-a-024",
+  "lastQualityReviewBatch": "legacy-a-025",
   "lastQualityReviewBatchSummary": {
-    "accepted": 8,
+    "accepted": 6,
     "updated": 0,
     "superseded": 0,
     "merged": 0,
