@@ -1,210 +1,222 @@
 {
-  "batchId": "legacy-a-014",
+  "batchId": "legacy-a-015",
   "reviewedAt": "2026-09-20",
   "accept": [
     {
-      "name": "Genspark",
-      "officialUrl": "https://www.genspark.ai/",
+      "name": "Kilo Code",
+      "officialUrl": "https://kilo.ai/",
       "evidenceUrls": [
-        "https://www.genspark.ai/blog/genspark-ai-workspace-6",
-        "https://www.genspark.ai/helpcenter/genteam"
+        "https://kilo.ai/docs/getting-started",
+        "https://kilo.ai/docs/code-with-ai",
+        "https://blog.kilo.ai/p/were-back-on-product-hunt-new-vs-code"
       ],
-      "userValue": "Actively developed AI workspace combining persistent memory, multi-agent collaboration, office/content/build suites and autonomous task execution.",
-      "description": "AI workspace for persistent memory, multi-agent collaboration and autonomous knowledge-work execution.",
-      "useCase": "For individuals and teams that want agents to research, create documents, build assets and execute multi-step work with shared context."
+      "userValue": "Actively developed open-source agentic engineering platform spanning IDE, CLI, cloud agents, mobile and collaboration workflows with broad model choice.",
+      "description": "Open-source agentic engineering platform across IDE, CLI, cloud and collaborative coding workflows.",
+      "useCase": "For developers who want multi-surface coding agents, broad model choice and open-source control over agentic development."
     },
     {
-      "name": "Tavily",
-      "officialUrl": "https://tavily.com/",
+      "name": "GitLab Duo",
+      "officialUrl": "https://about.gitlab.com/gitlab-duo/",
       "evidenceUrls": [
-        "https://www.tavily.com/blog/tavily-on-x402",
-        "https://help.tavily.com/articles/4840311948-tavily-search-api"
+        "https://about.gitlab.com/press/releases/2026-01-15-gitlab-announces-duo-agent-platform-general-availability/",
+        "https://about.gitlab.com/press/releases/2026-08-20-gitlab-scales-agentic-ai-across-trusted-software-delivery-workflows/"
       ],
-      "userValue": "Agent-focused web intelligence platform providing real-time search, extraction and research APIs designed for LLM and autonomous-agent workflows.",
-      "category": "AI infrastructure",
-      "description": "Real-time web search, extraction and research APIs designed for AI agents and LLM applications.",
-      "useCase": "For developers who need current web grounding, retrieval and research in AI systems without operating their own crawler and indexing stack."
+      "userValue": "GitLab's active agentic AI layer for the software lifecycle, including coding, review, security, flow creation and enterprise-controlled agent workflows.",
+      "description": "GitLab's agentic AI platform for coding, review, security and software-delivery workflows.",
+      "useCase": "For teams already using GitLab that want AI agents and assistance embedded across the DevSecOps lifecycle."
     },
     {
-      "name": "ResearchRabbit",
-      "officialUrl": "https://www.researchrabbit.ai/",
+      "name": "Gemini Code Assist",
+      "officialUrl": "https://codeassist.google/",
       "evidenceUrls": [
-        "https://www.researchrabbit.ai/releases/major-release-2026-07-09-2"
+        "https://docs.cloud.google.com/gemini/docs/codeassist/overview",
+        "https://docs.cloud.google.com/gemini/docs/codeassist/agent-mode"
       ],
-      "userValue": "Actively maintained literature-discovery workspace for exploring paper networks, maintaining reading lists, monitoring topics and evaluating connected research.",
-      "description": "Literature-discovery workspace for exploring paper networks, reading lists and evolving research topics.",
-      "useCase": "For researchers who want to expand from seed papers, visualize citation neighborhoods and keep track of new work in a field.",
-      "pricing": "Free tier / Paid"
+      "userValue": "Google's currently supported Standard and Enterprise coding assistant for IDE-based code generation, chat and agent mode; individual consumer tiers migrated to Antigravity in June 2026.",
+      "description": "Google enterprise coding assistant for IDE chat, code generation and agentic development workflows.",
+      "useCase": "For organizations using Google Cloud that want Gemini-powered coding assistance and agent mode in supported IDEs.",
+      "pricing": "Paid"
     },
     {
-      "name": "Litmaps",
-      "officialUrl": "https://www.litmaps.com/",
+      "name": "Warp",
+      "officialUrl": "https://www.warp.dev/",
       "evidenceUrls": [
-        "https://www.litmaps.com/"
+        "https://www.warp.dev/blog",
+        "https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent"
       ],
-      "userValue": "Active literature-review platform for discovering papers, visualizing citation relationships, collaborating and monitoring new publications around a topic.",
-      "description": "Literature-review platform for discovering papers, mapping citation relationships and monitoring new publications.",
-      "useCase": "For researchers building living literature maps that make related work and topic evolution easier to see."
+      "userValue": "Actively developed terminal and agent platform with a standalone coding-agent CLI, multi-agent orchestration, cloud agents and software-factory infrastructure.",
+      "description": "Agentic terminal and coding platform with CLI agents, multi-agent orchestration and cloud execution.",
+      "useCase": "For developers who want agent workflows deeply integrated with terminal work, local shells and cloud software-engineering tasks."
     },
     {
-      "name": "Semantic Scholar",
-      "officialUrl": "https://www.semanticscholar.org/",
+      "name": "Zed AI",
+      "officialUrl": "https://zed.dev/ai",
       "evidenceUrls": [
-        "https://allenai.org/ai-for-science",
-        "https://allenai.org/blog/asta-interaction-dataset"
+        "https://zed.dev/blog/parallel-agents",
+        "https://zed.dev/blog"
       ],
-      "userValue": "Ai2's active free AI-powered scientific search and discovery service, backed by a large academic graph and integrated with newer Asta research tooling.",
-      "description": "Free AI-powered scientific search and discovery service from Ai2.",
-      "useCase": "For finding papers, authors, citations and related scientific work across a large scholarly corpus."
+      "userValue": "Zed's actively developed open-source agentic coding environment with parallel agents, third-party agent support and native high-performance editing.",
+      "description": "AI-assisted coding inside Zed with parallel agents, third-party agent support and native collaborative editing.",
+      "useCase": "For developers who want a fast code editor that can coordinate multiple coding agents while keeping human review close to the work."
     },
     {
-      "name": "Sudowrite",
-      "officialUrl": "https://www.sudowrite.com/",
+      "name": "Sourcegraph Cody",
+      "officialUrl": "https://sourcegraph.com/cody",
       "evidenceUrls": [
-        "https://docs.sudowrite.com/getting-started/dQph1snuwbfMWG9wRjsNug/what-is-sudowrite/iwppfTjfffZTFaa7eBzJoQ",
-        "https://feedback.sudowrite.com/en/changelog"
+        "https://sourcegraph.com/docs/cody",
+        "https://sourcegraph.com/changelog/2026-08-10",
+        "https://sourcegraph.com/blog/changes-to-cody-free-pro-and-enterprise-starter-plans"
       ],
-      "userValue": "Actively maintained fiction-writing environment for planning, drafting, rewriting, story bibles and long-form creative iteration with multiple current AI models.",
-      "description": "AI fiction-writing workspace for planning, drafting, revision and story development.",
-      "useCase": "For novelists and fiction writers who want AI assistance tuned to long-form storytelling, continuity and prose experimentation."
+      "userValue": "Sourcegraph's active enterprise AI coding assistant for large-codebase context, chat and code assistance; Free and Pro consumer plans were retired while Enterprise remains supported.",
+      "description": "Enterprise AI coding assistant grounded in Sourcegraph code search and large-repository context.",
+      "useCase": "For enterprise engineering teams that need AI assistance across large or multi-repository codebases with Sourcegraph context.",
+      "pricing": "Paid"
     },
     {
-      "name": "Jenni AI",
-      "officialUrl": "https://jenni.ai/",
+      "name": "Tabby",
+      "officialUrl": "https://www.tabbyml.com/",
       "evidenceUrls": [
-        "https://jenni.ai/",
-        "https://jenni.ai/changelog"
+        "https://github.com/TabbyML/tabby",
+        "https://github.com/TabbyML/tabby/commits"
       ],
-      "userValue": "Actively developed academic research and writing workspace with source-grounded drafting, citation support, paper discovery, source-quality checks and collaboration.",
-      "description": "Source-grounded academic research and writing workspace for reading, drafting and citation workflows.",
-      "useCase": "For students, academics and research teams that want AI writing help tied closely to verifiable sources."
+      "userValue": "Actively maintained open-source self-hosted AI coding assistant for code completion, chat and repository-aware developer workflows with on-premises deployment.",
+      "description": "Open-source self-hosted AI coding assistant for completion, chat and repository-aware workflows.",
+      "useCase": "For teams that want an on-premises or self-hosted coding assistant instead of depending entirely on a hosted vendor."
     },
     {
-      "name": "HyperWrite",
-      "officialUrl": "https://www.hyperwriteai.com/",
+      "name": "Open Interpreter",
+      "officialUrl": "https://www.openinterpreter.com/",
       "evidenceUrls": [
-        "https://www.hyperwriteai.com/"
+        "https://github.com/openinterpreter/openinterpreter/releases",
+        "https://github.com/openinterpreter/openinterpreter/blob/main/docs/install.md"
       ],
-      "userValue": "Active AI writing and research assistant with predictive writing, browser assistance, real-time research, citations, custom tools and document editing.",
-      "description": "AI writing and research assistant with predictive writing, citations, browser support and custom tools.",
-      "useCase": "For users who want drafting, rewriting and research assistance across documents, email and browser workflows."
+      "userValue": "Actively released open-source computer and terminal agent that can run commands, edit files and operate local workspaces with configurable models.",
+      "description": "Open-source terminal and computer agent for running commands, editing files and operating local workspaces.",
+      "useCase": "For advanced users who want an inspectable agent with direct access to a computer environment and local or hosted models."
     },
     {
-      "name": "ProWritingAid",
-      "officialUrl": "https://prowritingaid.com/",
+      "name": "Glide",
+      "officialUrl": "https://www.glideapps.com/ai",
       "evidenceUrls": [
-        "https://help.prowritingaid.com/article/297-does-prowritingaid-use-ai"
+        "https://www.glideapps.com/blog/glide-mcp",
+        "https://www.glideapps.com/blog/category/ai"
       ],
-      "userValue": "AI-assisted editing platform for deep manuscript analysis, critique, revision and optional generative rewriting while preserving an author-first workflow.",
-      "description": "AI-assisted editing platform for manuscript analysis, critique, revision and selective generative rewriting.",
-      "useCase": "For authors and long-form writers who want structural and stylistic feedback beyond basic grammar correction."
+      "userValue": "Actively developed AI-assisted business-app platform with agent/MCP access, data connectors and production workflows for internal and operational software.",
+      "description": "AI-assisted business-app platform with agent access, data connectors and no-code production workflows.",
+      "useCase": "For teams building internal tools and operational apps from business data without maintaining a traditional custom-code stack."
     },
     {
-      "name": "LanguageTool",
-      "officialUrl": "https://languagetool.org/",
+      "name": "Softr AI",
+      "officialUrl": "https://www.softr.io/ai",
       "evidenceUrls": [
-        "https://help.languagetool.org/hc/en-us/articles/39254472465687-Is-LanguageTool-Considered-AI-Writing",
-        "https://languagetool.org/insights/post/artificial-intelligence/"
+        "https://www.softr.io/blog/introducing-softr-ai",
+        "https://www.softr.io/blog/ai-generated-apps"
       ],
-      "userValue": "Active multilingual AI editing assistant for grammar, spelling, punctuation, style, tone and paraphrasing across more than 30 languages.",
-      "description": "Multilingual AI editing assistant for grammar, spelling, style, tone and paraphrasing.",
-      "useCase": "For users who want context-aware writing correction and rewriting across browsers, desktop apps and documents in many languages."
+      "userValue": "AI-native no-code business-app platform that generates database, application logic, permissions and editable interfaces from natural-language requirements.",
+      "description": "AI-native no-code platform for generating complete business apps, databases and workflows.",
+      "useCase": "For business teams that want production-ready portals, CRMs, internal tools and operational apps without writing code."
     },
     {
-      "name": "Writer",
-      "officialUrl": "https://writer.com/",
+      "name": "Retool AI",
+      "officialUrl": "https://retool.com/ai",
       "evidenceUrls": [
-        "https://writer.com/"
+        "https://retool.com/ai",
+        "https://retool.com/blog"
       ],
-      "userValue": "Enterprise AI platform centered on governed agents, playbooks, memory, company knowledge and always-on workflows for marketing and revenue organizations.",
-      "category": "Enterprise AI",
-      "description": "Enterprise AI platform for governed agents, playbooks, memory and company-connected workflows.",
-      "useCase": "For organizations that need autonomous AI work tied to internal data, brand rules, compliance and GTM processes."
+      "userValue": "Retool's active AI and agent tooling for building governed internal applications, workflows and multi-agent systems on business data.",
+      "description": "AI and agent tooling for building governed internal applications, workflows and business automations.",
+      "useCase": "For engineering and operations teams adding AI agents and model-powered features to internal software and data workflows."
     },
     {
-      "name": "Napkin AI",
-      "officialUrl": "https://www.napkin.ai/",
+      "name": "Uizard",
+      "officialUrl": "https://uizard.io/",
       "evidenceUrls": [
-        "https://www.napkin.ai/"
+        "https://uizard.io/"
       ],
-      "userValue": "AI visual-communication tool that converts text into editable diagrams, infographics, mind maps, charts and presentation-ready visual assets.",
-      "description": "AI visual-communication tool that turns text into editable diagrams, charts and presentation visuals.",
-      "useCase": "For quickly converting written ideas into branded, editable visuals that can be exported to slides, PDF, PNG or SVG."
+      "userValue": "Active AI-assisted UI design and prototyping product for generating editable multi-screen interfaces, themes and mockups from text, screenshots and sketches.",
+      "description": "AI-assisted UI design and prototyping tool for generating editable interfaces from text, screenshots and sketches.",
+      "useCase": "For product teams and non-designers who want to turn rough concepts into editable wireframes and prototypes quickly."
     },
     {
-      "name": "Mem",
-      "officialUrl": "https://mem.ai/",
+      "name": "Visily",
+      "officialUrl": "https://www.visily.ai/",
       "evidenceUrls": [
-        "https://get.mem.ai/blog/product-update-roundup-calendar-integration-claude-connector-referral-program-plus-experimental-features-for-pro-users",
-        "https://get.mem.ai/blog/your-favorite-llms-can-now-use-your-second-brain-as-context"
+        "https://www.visily.ai/blog/announcing-design-instructions-and-deep-design",
+        "https://www.visily.ai/blog/announcing-visily-mcp"
       ],
-      "userValue": "Actively developed AI-native knowledge workspace for low-friction capture, semantic retrieval, meeting context, voice notes and external model connectors.",
-      "description": "AI-native knowledge workspace for note capture, semantic retrieval, meeting context and connected AI workflows.",
-      "useCase": "For individuals and teams that want a searchable second brain that can proactively surface context and connect to external assistants."
+      "userValue": "Actively developed AI UI design workspace with controllable generation, deep-design mode, editable canvases and MCP handoff to coding agents.",
+      "description": "AI UI design workspace with editable prototypes, design instructions and MCP handoff to coding agents.",
+      "useCase": "For product teams that want AI-generated interface concepts while keeping visual control and a direct bridge to implementation agents."
     },
     {
-      "name": "Tana",
-      "officialUrl": "https://tana.inc/",
+      "name": "Wix AI Website Builder",
+      "officialUrl": "https://www.wix.com/ai-website-builder",
       "evidenceUrls": [
-        "https://tana.inc/"
+        "https://www.wix.com/ai-website-builder",
+        "https://support.wix.com/en/article/wix-harmony-editor-creating-a-site-with-ai"
       ],
-      "userValue": "Tana's current product is an agentic meeting platform where AI agents participate in native calls, retain context and take actions across connected work systems.",
-      "category": "Meetings & collaboration",
-      "description": "Agentic meeting platform where AI agents capture context and take actions during native video calls.",
-      "useCase": "For teams that want meetings to produce actions automatically across tools such as Slack, GitHub, Linear, HubSpot and coding agents.",
+      "userValue": "Wix's current AI website builder inside Harmony, combining conversational site generation, Aria agent assistance, visual editing and integrated business tooling.",
+      "description": "Wix's AI website builder with conversational generation, Aria agent assistance and visual editing.",
+      "useCase": "For small businesses and individuals who want a generated production website they can continue refining visually."
+    },
+    {
+      "name": "OpenArt",
+      "officialUrl": "https://openart.ai/",
+      "evidenceUrls": [
+        "https://openart.ai/blog/what-is-openart/",
+        "https://openart.ai/blog/openart-director-press-release/",
+        "https://openart.ai/blog/category/updates/"
+      ],
+      "userValue": "Actively developed all-in-one creative AI platform spanning image, video, audio, editing, character workflows, persistent worlds and agent-like directing.",
+      "category": "Images & video",
+      "description": "All-in-one creative AI platform for image, video, audio, editing and agentic visual storytelling.",
+      "useCase": "For creators who want multiple generative-media workflows, editing tools and visual storytelling features in one workspace.",
       "pricing": "Free trial / Paid"
     },
     {
-      "name": "Readwise Reader",
-      "officialUrl": "https://readwise.io/read",
+      "name": "getimg.ai",
+      "officialUrl": "https://getimg.ai/",
       "evidenceUrls": [
-        "https://docs.readwise.io/changelog",
-        "https://readwise.io/reader/update-aug2026"
+        "https://getimg.ai/blog",
+        "https://getimg.ai/blog/categories/news"
       ],
-      "userValue": "Actively developed reading and knowledge workspace with global library chat, source-cited Ghostreader, MCP access, highlights, feeds, PDFs, video and mobile reading.",
-      "description": "Reading and knowledge workspace for saved content, highlights, library-wide AI chat and connected research workflows.",
-      "useCase": "For serious readers and researchers who want articles, books, PDFs, newsletters and video notes in one searchable AI-assisted library."
+      "userValue": "Actively maintained multi-model creative platform spanning image, video, speech and music generation with editing and reusable creative workflows.",
+      "category": "Creative AI",
+      "description": "Multi-model creative platform for image, video, speech and music generation and editing.",
+      "useCase": "For creators who want several current generative-media models and workflows under one account rather than separate specialist tools."
     },
     {
-      "name": "Lex",
-      "officialUrl": "https://lex.page/",
+      "name": "Scenario",
+      "officialUrl": "https://www.scenario.com/",
       "evidenceUrls": [
-        "https://lex.page/"
+        "https://www.scenario.com/blog/Scenario-Is-Now-Available-Directly-in-Your-AI-Agent",
+        "https://www.scenario.com/blog"
       ],
-      "userValue": "Active collaborative writing environment with focused document editing, AI feedback, brainstorming, rewriting, versioning and lightweight team collaboration.",
-      "description": "Collaborative writing workspace with focused editing, AI feedback, brainstorming and rewriting.",
-      "useCase": "For writers who want a clean long-form editor with integrated AI help rather than a general-purpose chat interface."
+      "userValue": "Actively developed creative-generation platform for images, video, 3D and audio with custom models, production assets and MCP access from AI agents.",
+      "category": "Creative AI",
+      "description": "Creative-generation platform for images, video, 3D and audio with custom models and agent integrations.",
+      "useCase": "For game and creative-production teams that need repeatable styles, custom models and multimodal asset generation."
     },
     {
-      "name": "Paperpal",
-      "officialUrl": "https://paperpal.com/",
+      "name": "NightCafe",
+      "officialUrl": "https://creator.nightcafe.studio/",
       "evidenceUrls": [
-        "https://paperpal.com/"
+        "https://creator.nightcafe.studio/"
       ],
-      "userValue": "Academic AI writing and research platform for source-grounded drafting, language editing, citation checks, literature review, plagiarism checks and manuscript preparation.",
-      "description": "Academic AI writing and research platform for source-grounded drafting, language editing and manuscript preparation.",
-      "useCase": "For researchers and students preparing papers, theses and scholarly documents with citation-aware assistance."
+      "userValue": "Active community-oriented AI art platform offering multiple image-generation model families, challenges and creator workflows in one service.",
+      "description": "Community-oriented AI art platform with multiple image models, challenges and creator workflows.",
+      "useCase": "For casual and creative users who want broad model choice and a community-centered image-generation experience."
     },
     {
-      "name": "Greptile",
-      "officialUrl": "https://www.greptile.com/",
+      "name": "Pebblely",
+      "officialUrl": "https://pebblely.com/",
       "evidenceUrls": [
-        "https://www.greptile.com/changelog"
+        "https://pebblely.com/blog/introducing-new-pebblely/",
+        "https://pebblely.com/blog/"
       ],
-      "userValue": "Actively maintained AI code-review platform with repository context, parallel review agents, security review, generated tests, CLI workflows and individual free access.",
-      "description": "AI code-review platform with repository context, security analysis, generated tests and CLI workflows.",
-      "useCase": "For engineering teams that want automated pull-request review and codebase-aware quality checks before merge.",
-      "pricing": "Free tier / Paid"
-    },
-    {
-      "name": "OpenHands",
-      "officialUrl": "https://openhands.dev/",
-      "evidenceUrls": [
-        "https://www.openhands.dev/"
-      ],
-      "userValue": "Active open platform for coding agents spanning open-source agents, desktop, cloud, SDKs and an agent control plane for inspectable and extensible software work.",
-      "description": "Open platform for coding agents with open-source agents, desktop, cloud, SDKs and control-plane tooling.",
-      "useCase": "For developers and teams that want inspectable coding agents they can run, extend, integrate and control across repositories and workflows."
+      "userValue": "Actively maintained AI product-photography tool rebuilt in 2026 for fast product-preserving scene generation directly from uploaded source photos.",
+      "description": "AI product-photography tool for generating product-preserving commercial scenes from source photos.",
+      "useCase": "For ecommerce teams and small brands that need marketing-ready product imagery without repeated studio shoots."
     }
   ],
   "update": [],
