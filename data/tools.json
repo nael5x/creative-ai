@@ -1162,32 +1162,32 @@
   [
     "Kilo Code",
     "Coding",
-    "Open-source agentic engineering platform across IDE, CLI and cloud workflows.",
-    "For developers who want broad model choice and open-source coding-agent control.",
+    "Open-source agentic engineering platform across IDE, CLI, cloud and collaborative coding workflows.",
+    "For developers who want multi-surface coding agents, broad model choice and open-source control over agentic development.",
     "Open source",
     "https://kilo.ai/"
   ],
   [
     "GitLab Duo",
     "Coding",
-    "GitLab's AI features for code, review, security and software delivery workflows.",
-    "For teams already using GitLab who want AI assistance integrated into the DevSecOps lifecycle.",
+    "GitLab's agentic AI platform for coding, review, security and software-delivery workflows.",
+    "For teams already using GitLab that want AI agents and assistance embedded across the DevSecOps lifecycle.",
     "Paid",
     "https://about.gitlab.com/gitlab-duo/"
   ],
   [
     "Gemini Code Assist",
     "Coding",
-    "Google coding assistant for IDE chat, code generation and development workflows.",
-    "For developers who want Gemini-based coding help inside supported editors and Google Cloud workflows.",
-    "Free tier / Paid",
+    "Google enterprise coding assistant for IDE chat, code generation and agentic development workflows.",
+    "For organizations using Google Cloud that want Gemini-powered coding assistance and agent mode in supported IDEs.",
+    "Paid",
     "https://codeassist.google/"
   ],
   [
     "Warp",
     "Coding",
-    "AI-powered terminal and agent workspace for command-line development.",
-    "For developers who want natural-language help and agents directly inside a modern terminal.",
+    "Agentic terminal and coding platform with CLI agents, multi-agent orchestration and cloud execution.",
+    "For developers who want agent workflows deeply integrated with terminal work, local shells and cloud software-engineering tasks.",
     "Free tier / Paid",
     "https://www.warp.dev/"
   ],
@@ -1202,32 +1202,32 @@
   [
     "Zed AI",
     "Coding",
-    "AI-assisted coding features built into the Zed collaborative code editor.",
-    "For developers who want fast native editing with model-assisted coding in the same environment.",
+    "AI-assisted coding inside Zed with parallel agents, third-party agent support and native collaborative editing.",
+    "For developers who want a fast code editor that can coordinate multiple coding agents while keeping human review close to the work.",
     "Free tier / Paid",
     "https://zed.dev/ai"
   ],
   [
     "Sourcegraph Cody",
     "Coding",
-    "AI coding assistant connected to code search and repository context.",
-    "For developers exploring or modifying codebases with Sourcegraph-backed context.",
-    "Free tier / Paid",
+    "Enterprise AI coding assistant grounded in Sourcegraph code search and large-repository context.",
+    "For enterprise engineering teams that need AI assistance across large or multi-repository codebases with Sourcegraph context.",
+    "Paid",
     "https://sourcegraph.com/cody"
   ],
   [
     "Tabby",
     "Coding",
-    "Open-source self-hosted AI coding assistant for code completion and developer workflows.",
-    "For teams that want an on-premises alternative to hosted coding assistants.",
+    "Open-source self-hosted AI coding assistant for completion, chat and repository-aware workflows.",
+    "For teams that want an on-premises or self-hosted coding assistant instead of depending entirely on a hosted vendor.",
     "Open source",
     "https://www.tabbyml.com/"
   ],
   [
     "Open Interpreter",
     "Coding",
-    "Open-source terminal agent that can edit files, run commands and use local or hosted models.",
-    "For users who want an inspectable agent operating directly on a computer workspace.",
+    "Open-source terminal and computer agent for running commands, editing files and operating local workspaces.",
+    "For advanced users who want an inspectable agent with direct access to a computer environment and local or hosted models.",
     "Open source",
     "https://www.openinterpreter.com/"
   ],
@@ -1242,24 +1242,24 @@
   [
     "Glide",
     "Web apps",
-    "AI-assisted no-code platform for building business apps from data and workflows.",
-    "For internal tools and lightweight apps connected to spreadsheets and business data.",
+    "AI-assisted business-app platform with agent access, data connectors and no-code production workflows.",
+    "For teams building internal tools and operational apps from business data without maintaining a traditional custom-code stack.",
     "Free tier / Paid",
     "https://www.glideapps.com/ai"
   ],
   [
     "Softr AI",
     "Web apps",
-    "AI-assisted no-code platform for portals, internal tools and business applications.",
-    "For turning structured data into client portals and operational apps quickly.",
+    "AI-native no-code platform for generating complete business apps, databases and workflows.",
+    "For business teams that want production-ready portals, CRMs, internal tools and operational apps without writing code.",
     "Free tier / Paid",
     "https://www.softr.io/ai"
   ],
   [
     "Retool AI",
     "Web apps",
-    "AI features for building internal tools, workflows and business applications in Retool.",
-    "For engineering and operations teams adding AI to internal software and data workflows.",
+    "AI and agent tooling for building governed internal applications, workflows and business automations.",
+    "For engineering and operations teams adding AI agents and model-powered features to internal software and data workflows.",
     "Paid",
     "https://retool.com/ai"
   ],
@@ -1274,16 +1274,16 @@
   [
     "Uizard",
     "Product design",
-    "AI-assisted product design tool for wireframes, mockups and UI concepts.",
-    "For quickly turning text or sketches into editable interface designs.",
+    "AI-assisted UI design and prototyping tool for generating editable interfaces from text, screenshots and sketches.",
+    "For product teams and non-designers who want to turn rough concepts into editable wireframes and prototypes quickly.",
     "Free tier / Paid",
     "https://uizard.io/"
   ],
   [
     "Visily",
     "Product design",
-    "AI-powered UI design and prototyping workspace aimed at non-designers and product teams.",
-    "For turning screenshots, text prompts and rough concepts into editable interface mockups.",
+    "AI UI design workspace with editable prototypes, design instructions and MCP handoff to coding agents.",
+    "For product teams that want AI-generated interface concepts while keeping visual control and a direct bridge to implementation agents.",
     "Free tier / Paid",
     "https://www.visily.ai/"
   ],
@@ -1298,8 +1298,8 @@
   [
     "Wix AI Website Builder",
     "Web UI",
-    "AI-guided website creation inside the Wix site-building platform.",
-    "For small businesses that want a generated site they can continue editing visually.",
+    "Wix's AI website builder with conversational generation, Aria agent assistance and visual editing.",
+    "For small businesses and individuals who want a generated production website they can continue refining visually.",
     "Free tier / Paid",
     "https://www.wix.com/ai-website-builder"
   ],
@@ -1329,25 +1329,25 @@
   ],
   [
     "OpenArt",
-    "Images",
-    "AI image generation and creative workflow platform with models, editing and training tools.",
-    "For creators who want several image-generation workflows and model choices in one place.",
-    "Free tier / Paid",
+    "Images & video",
+    "All-in-one creative AI platform for image, video, audio, editing and agentic visual storytelling.",
+    "For creators who want multiple generative-media workflows, editing tools and visual storytelling features in one workspace.",
+    "Free trial / Paid",
     "https://openart.ai/"
   ],
   [
     "getimg.ai",
-    "Images",
-    "AI image generation and editing suite with multiple models and visual tools.",
-    "For generating, editing and expanding images through a single web interface.",
+    "Creative AI",
+    "Multi-model creative platform for image, video, speech and music generation and editing.",
+    "For creators who want several current generative-media models and workflows under one account rather than separate specialist tools.",
     "Free tier / Paid",
     "https://getimg.ai/"
   ],
   [
     "Scenario",
-    "Images",
-    "AI asset generation platform oriented toward consistent game and creative production assets.",
-    "For teams that need repeatable visual styles across game art and production assets.",
+    "Creative AI",
+    "Creative-generation platform for images, video, 3D and audio with custom models and agent integrations.",
+    "For game and creative-production teams that need repeatable styles, custom models and multimodal asset generation.",
     "Free tier / Paid",
     "https://www.scenario.com/"
   ],
@@ -1362,8 +1362,8 @@
   [
     "NightCafe",
     "Images",
-    "AI art creation platform with multiple generation methods and community features.",
-    "For casual and creative image generation with a large community around prompts and styles.",
+    "Community-oriented AI art platform with multiple image models, challenges and creator workflows.",
+    "For casual and creative users who want broad model choice and a community-centered image-generation experience.",
     "Free tier / Paid",
     "https://creator.nightcafe.studio/"
   ],
@@ -1386,8 +1386,8 @@
   [
     "Pebblely",
     "Images & design",
-    "AI product photography tool for generating backgrounds and marketing-ready product scenes.",
-    "For small ecommerce teams creating product visuals from simple source photos.",
+    "AI product-photography tool for generating product-preserving commercial scenes from source photos.",
+    "For ecommerce teams and small brands that need marketing-ready product imagery without repeated studio shoots.",
     "Free tier / Paid",
     "https://pebblely.com/"
   ],

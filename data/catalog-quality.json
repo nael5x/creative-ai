@@ -2037,6 +2037,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Gemini Code Assist",
+      "officialUrl": "https://codeassist.google/",
+      "evidenceUrls": [
+        "https://docs.cloud.google.com/gemini/docs/codeassist/overview",
+        "https://docs.cloud.google.com/gemini/docs/codeassist/agent-mode"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Google's currently supported Standard and Enterprise coding assistant for IDE-based code generation, chat and agent mode; individual consumer tiers migrated to Antigravity in June 2026.",
+      "decision": "accepted"
+    },
+    {
       "name": "Genspark",
       "officialUrl": "https://www.genspark.ai/",
       "evidenceUrls": [
@@ -2048,6 +2059,17 @@
       "decision": "accepted"
     },
     {
+      "name": "getimg.ai",
+      "officialUrl": "https://getimg.ai/",
+      "evidenceUrls": [
+        "https://getimg.ai/blog",
+        "https://getimg.ai/blog/categories/news"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained multi-model creative platform spanning image, video, speech and music generation with editing and reusable creative workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "GitHub Copilot",
       "officialUrl": "https://github.com/features/copilot",
       "evidenceUrls": [
@@ -2055,6 +2077,28 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI coding assistant and agent integrated into GitHub and developer workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "GitLab Duo",
+      "officialUrl": "https://about.gitlab.com/gitlab-duo/",
+      "evidenceUrls": [
+        "https://about.gitlab.com/press/releases/2026-01-15-gitlab-announces-duo-agent-platform-general-availability/",
+        "https://about.gitlab.com/press/releases/2026-08-20-gitlab-scales-agentic-ai-across-trusted-software-delivery-workflows/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "GitLab's active agentic AI layer for the software lifecycle, including coding, review, security, flow creation and enterprise-controlled agent workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Glide",
+      "officialUrl": "https://www.glideapps.com/ai",
+      "evidenceUrls": [
+        "https://www.glideapps.com/blog/glide-mcp",
+        "https://www.glideapps.com/blog/category/ai"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed AI-assisted business-app platform with agent/MCP access, data connectors and production workflows for internal and operational software.",
       "decision": "accepted"
     },
     {
@@ -2306,6 +2350,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Actively maintained privacy-focused multi-model assistant with optional Kagi Search grounding, custom assistants, files, voice input and native mobile apps.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kilo Code",
+      "officialUrl": "https://kilo.ai/",
+      "evidenceUrls": [
+        "https://kilo.ai/docs/getting-started",
+        "https://kilo.ai/docs/code-with-ai",
+        "https://blog.kilo.ai/p/were-back-on-product-hunt-new-vs-code"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed open-source agentic engineering platform spanning IDE, CLI, cloud agents, mobile and collaboration workflows with broad model choice.",
       "decision": "accepted"
     },
     {
@@ -2672,6 +2728,16 @@
       "decision": "accepted"
     },
     {
+      "name": "NightCafe",
+      "officialUrl": "https://creator.nightcafe.studio/",
+      "evidenceUrls": [
+        "https://creator.nightcafe.studio/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active community-oriented AI art platform offering multiple image-generation model families, challenges and creator workflows in one service.",
+      "decision": "accepted"
+    },
+    {
       "name": "NotebookLM",
       "officialUrl": "https://notebook.google/",
       "evidenceUrls": [
@@ -2703,6 +2769,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Open Interpreter",
+      "officialUrl": "https://www.openinterpreter.com/",
+      "evidenceUrls": [
+        "https://github.com/openinterpreter/openinterpreter/releases",
+        "https://github.com/openinterpreter/openinterpreter/blob/main/docs/install.md"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively released open-source computer and terminal agent that can run commands, edit files and operate local workspaces with configurable models.",
+      "decision": "accepted"
+    },
+    {
       "name": "Open WebUI",
       "officialUrl": "https://openwebui.com/",
       "evidenceUrls": [
@@ -2721,6 +2798,18 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "OpenAI's active coding agent for writing, reviewing and shipping code, now presented as Codex in ChatGPT.",
+      "decision": "accepted"
+    },
+    {
+      "name": "OpenArt",
+      "officialUrl": "https://openart.ai/",
+      "evidenceUrls": [
+        "https://openart.ai/blog/what-is-openart/",
+        "https://openart.ai/blog/openart-director-press-release/",
+        "https://openart.ai/blog/category/updates/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed all-in-one creative AI platform spanning image, video, audio, editing, character workflows, persistent worlds and agent-like directing.",
       "decision": "accepted"
     },
     {
@@ -2761,6 +2850,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Academic AI writing and research platform for source-grounded drafting, language editing, citation checks, literature review, plagiarism checks and manuscript preparation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Pebblely",
+      "officialUrl": "https://pebblely.com/",
+      "evidenceUrls": [
+        "https://pebblely.com/blog/introducing-new-pebblely/",
+        "https://pebblely.com/blog/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained AI product-photography tool rebuilt in 2026 for fast product-preserving scene generation directly from uploaded source photos.",
       "decision": "accepted"
     },
     {
@@ -2985,6 +3085,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Retool AI",
+      "officialUrl": "https://retool.com/ai",
+      "evidenceUrls": [
+        "https://retool.com/ai",
+        "https://retool.com/blog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Retool's active AI and agent tooling for building governed internal applications, workflows and multi-agent systems on business data.",
+      "decision": "accepted"
+    },
+    {
       "name": "Riverside",
       "officialUrl": "https://riverside.com/",
       "evidenceUrls": [
@@ -3022,6 +3133,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Lightweight AI writing assistant for short-form copy, rewriting, tone matching, grammar improvement and reusable marketing or business writing workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Scenario",
+      "officialUrl": "https://www.scenario.com/",
+      "evidenceUrls": [
+        "https://www.scenario.com/blog/Scenario-Is-Now-Available-Directly-in-Your-AI-Agent",
+        "https://www.scenario.com/blog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed creative-generation platform for images, video, 3D and audio with custom models, production assets and MCP access from AI agents.",
       "decision": "accepted"
     },
     {
@@ -3100,6 +3222,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Softr AI",
+      "officialUrl": "https://www.softr.io/ai",
+      "evidenceUrls": [
+        "https://www.softr.io/blog/introducing-softr-ai",
+        "https://www.softr.io/blog/ai-generated-apps"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI-native no-code business-app platform that generates database, application logic, permissions and editable interfaces from natural-language requirements.",
+      "decision": "accepted"
+    },
+    {
       "name": "SOUNDRAW",
       "officialUrl": "https://soundraw.io/",
       "evidenceUrls": [
@@ -3108,6 +3241,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Actively maintained AI music-generation platform focused on customizable creator music, ethical training claims, commercial-use workflows and API access.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Sourcegraph Cody",
+      "officialUrl": "https://sourcegraph.com/cody",
+      "evidenceUrls": [
+        "https://sourcegraph.com/docs/cody",
+        "https://sourcegraph.com/changelog/2026-08-10",
+        "https://sourcegraph.com/blog/changes-to-cody-free-pro-and-enterprise-starter-plans"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Sourcegraph's active enterprise AI coding assistant for large-codebase context, chat and code assistance; Free and Pro consumer plans were retired while Enterprise remains supported.",
       "decision": "accepted"
     },
     {
@@ -3204,6 +3349,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "AI video platform for presenter-led and generated business content with avatars, scene generation, localization and multilingual voice workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Tabby",
+      "officialUrl": "https://www.tabbyml.com/",
+      "evidenceUrls": [
+        "https://github.com/TabbyML/tabby",
+        "https://github.com/TabbyML/tabby/commits"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained open-source self-hosted AI coding assistant for code completion, chat and repository-aware developer workflows with on-premises deployment.",
       "decision": "accepted"
     },
     {
@@ -3315,6 +3471,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Uizard",
+      "officialUrl": "https://uizard.io/",
+      "evidenceUrls": [
+        "https://uizard.io/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active AI-assisted UI design and prototyping product for generating editable multi-screen interfaces, themes and mockups from text, screenshots and sketches.",
+      "decision": "accepted"
+    },
+    {
       "name": "UPDF AI",
       "officialUrl": "https://updf.com/ai-tools/",
       "evidenceUrls": [
@@ -3359,6 +3525,28 @@
       "supersedes": "Le Chat"
     },
     {
+      "name": "Visily",
+      "officialUrl": "https://www.visily.ai/",
+      "evidenceUrls": [
+        "https://www.visily.ai/blog/announcing-design-instructions-and-deep-design",
+        "https://www.visily.ai/blog/announcing-visily-mcp"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed AI UI design workspace with controllable generation, deep-design mode, editable canvases and MCP handoff to coding agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Warp",
+      "officialUrl": "https://www.warp.dev/",
+      "evidenceUrls": [
+        "https://www.warp.dev/blog",
+        "https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed terminal and agent platform with a standalone coding-agent CLI, multi-agent orchestration, cloud agents and software-factory infrastructure.",
+      "decision": "accepted"
+    },
+    {
       "name": "Webflow AI",
       "officialUrl": "https://webflow.com/ai",
       "evidenceUrls": [
@@ -3377,6 +3565,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI voice platform on WellSaid's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Wix AI Website Builder",
+      "officialUrl": "https://www.wix.com/ai-website-builder",
+      "evidenceUrls": [
+        "https://www.wix.com/ai-website-builder",
+        "https://support.wix.com/en/article/wix-harmony-editor-creating-a-site-with-ai"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Wix's current AI website builder inside Harmony, combining conversational site generation, Aria agent assistance, visual editing and integrated business tooling.",
       "decision": "accepted"
     },
     {
@@ -3449,6 +3648,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI-powered automation platform for connecting apps, data and business processes.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Zed AI",
+      "officialUrl": "https://zed.dev/ai",
+      "evidenceUrls": [
+        "https://zed.dev/blog/parallel-agents",
+        "https://zed.dev/blog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Zed's actively developed open-source agentic coding environment with parallel agents, third-party agent support and native high-performance editing.",
       "decision": "accepted"
     },
     {
@@ -3754,7 +3964,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-20",
-  "lastQualityReviewBatch": "legacy-a-014",
+  "lastQualityReviewBatch": "legacy-a-015",
   "lastQualityReviewBatchSummary": {
     "accepted": 19,
     "updated": 0,
