@@ -818,8 +818,8 @@
   [
     "Stable Audio",
     "Music",
-    "Generative audio and music platform from Stability AI.",
-    "For experimenting with prompt-driven music and sound generation.",
+    "Stability AI generative-audio platform and model family for music and sound effects.",
+    "For creators and developers generating or editing music and sound effects through a web app, API or open-weight Stable Audio models.",
     "Free tier / Paid",
     "https://www.stableaudio.com/"
   ],
@@ -834,64 +834,56 @@
   [
     "Gumloop",
     "Automation",
-    "Visual AI automation platform for connecting models, data and business workflows.",
-    "For building multi-step AI automations without writing every integration manually.",
+    "AI-agent automation platform for specialized agents, recurring tasks and multi-agent workflows.",
+    "For teams that want to automate operational work with configurable agents connected to internal data and business applications.",
     "Free tier / Paid",
     "https://www.gumloop.com/"
   ],
   [
     "Lindy",
     "Automation",
-    "AI assistant and agent platform for automating communication and business workflows.",
-    "For delegating repeatable operations such as email, scheduling and support tasks.",
+    "Business AI-agent platform for sales, support, operations and administrative automation.",
+    "For teams that want to delegate repeatable communication and operations work to configurable agents connected to business tools.",
     "Free tier / Paid",
     "https://www.lindy.ai/"
   ],
   [
     "Relevance AI",
     "Automation",
-    "Platform for building AI agents, tools and multi-step workforce automations.",
-    "For teams creating specialized agents connected to business data and actions.",
+    "No-code AI workforce platform for agents, tools and collaborative multi-agent systems.",
+    "For organizations building coordinated AI teams that automate business processes across sales, support, finance and operations.",
     "Free tier / Paid",
     "https://relevanceai.com/"
   ],
   [
     "Taskade",
     "Knowledge work",
-    "AI productivity workspace combining projects, notes, agents and team collaboration.",
-    "For users who want planning and AI assistance inside one collaborative workspace.",
+    "AI workspace and app-building platform combining projects, persistent agents, knowledge and automations.",
+    "For individuals and teams that want planning, collaboration, AI agents and workflow automation in one shared workspace.",
     "Free tier / Paid",
     "https://www.taskade.com/"
   ],
   [
     "Microsoft Agent Framework",
     "AI development",
-    "Open-source Microsoft SDK and runtime for building, orchestrating and deploying AI agents and multi-agent workflows.",
-    "For developers building production agent systems with tools, workflows, multiple model providers and operational controls.",
+    "Open-source Microsoft SDK and runtime for building, orchestrating and deploying production AI agents and multi-agent workflows.",
+    "For developers starting new Microsoft-oriented agent systems with tools, workflows, multiple model providers and operational controls.",
     "Open source",
     "https://learn.microsoft.com/en-us/agent-framework/overview/"
   ],
   [
-    "Semantic Kernel",
-    "AI development",
-    "Open-source SDK for integrating AI models, plugins and orchestration into applications.",
-    "For developers building model-powered features in Microsoft-friendly application stacks.",
-    "Open source",
-    "https://learn.microsoft.com/semantic-kernel/"
-  ],
-  [
     "Haystack",
     "AI development",
-    "Open-source framework for production AI pipelines, RAG and agentic applications.",
-    "For developers building retrieval and generative AI systems with modular pipelines.",
+    "Open-source AI orchestration framework for production-grade agents, retrieval and multimodal applications.",
+    "For developers building transparent, composable production AI systems with control over retrieval, reasoning, memory, tools and deployment.",
     "Open source",
     "https://haystack.deepset.ai/"
   ],
   [
     "LangGraph",
     "AI development",
-    "Open-source framework for building controllable stateful agents and agent workflows.",
-    "For developers who need explicit orchestration around long-running or multi-step agents.",
+    "Graph-based runtime for building controllable, stateful and durable AI agent workflows.",
+    "For developers who need low-level control over long-running or multi-step agent state, branching, persistence and human intervention.",
     "Open source",
     "https://www.langchain.com/langgraph"
   ],
@@ -906,40 +898,40 @@
   [
     "Pydantic AI",
     "AI development",
-    "Open-source Python agent framework from the Pydantic team.",
-    "For Python developers building typed, testable model and agent applications.",
+    "Typed Python agent framework with tools, durable execution, multi-agent patterns, MCP and evaluation support.",
+    "For Python developers who want strongly typed, testable AI agents with structured outputs, provider flexibility and production-oriented tooling.",
     "Open source",
     "https://ai.pydantic.dev/"
   ],
   [
     "Langflow",
     "Visual AI builder",
-    "Open-source visual builder for AI agents, RAG pipelines and model workflows.",
-    "For assembling and testing AI workflows through a node-based interface.",
+    "Open-source low-code builder for agentic, RAG and multi-system AI workflows.",
+    "For developers and technical teams that want to visually assemble, test and deploy agent workflows while retaining access to code and APIs.",
     "Open source",
     "https://www.langflow.org/"
   ],
   [
     "GPT4All",
     "Local models",
-    "Open-source local AI ecosystem for running language models on desktop hardware.",
-    "For private on-device chat and experimentation without depending on a hosted model provider.",
+    "Private local AI desktop app for running open language models and document chat on-device.",
+    "For users who want local model chat and document workflows on Windows, macOS or Linux without sending prompts and files to a hosted provider.",
     "Open source",
     "https://www.nomic.ai/gpt4all"
   ],
   [
     "llama.cpp",
     "Local models",
-    "Open-source inference runtime for running Llama-family and other compatible models locally.",
-    "For developers who want efficient local model execution across desktops, servers and edge hardware.",
+    "Open-source inference runtime and tooling stack for efficient local and server execution of GGUF models.",
+    "For developers and advanced users who need efficient, portable local-model inference across desktop, server, mobile and edge hardware.",
     "Open source",
     "https://github.com/ggml-org/llama.cpp"
   ],
   [
     "LibreChat",
     "Local AI UI",
-    "Open-source multi-provider AI chat interface with self-hosting support.",
-    "For users and teams that want one self-hosted interface across multiple model providers and local backends.",
+    "Self-hosted multi-provider AI interface with agents, skills, MCP, projects and enterprise controls.",
+    "For users and organizations that want one self-hosted interface across cloud and local model providers with configurable agent tooling.",
     "Open source",
     "https://www.librechat.ai/"
   ],
@@ -954,8 +946,8 @@
   [
     "Kagi Assistant",
     "Writing & research",
-    "Multi-model AI assistant integrated with Kagi Search and optional web grounding.",
-    "For privacy-conscious users who want model choice and search-backed assistance in one subscription.",
+    "Privacy-focused multi-model assistant with optional Kagi Search grounding, custom assistants and file context.",
+    "For Kagi members who want model choice, web-grounded research and private assistant workflows within one subscription.",
     "Paid",
     "https://kagi.com/assistant"
   ],

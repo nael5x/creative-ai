@@ -2047,6 +2047,16 @@
       "decision": "accepted"
     },
     {
+      "name": "GPT4All",
+      "officialUrl": "https://www.nomic.ai/gpt4all",
+      "evidenceUrls": [
+        "https://www.nomic.ai/gpt4all"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Nomic's actively available private local AI desktop application for running open language models and document chat on-device without sending data to a cloud service.",
+      "decision": "accepted"
+    },
+    {
       "name": "Grammarly",
       "officialUrl": "https://www.grammarly.com/",
       "evidenceUrls": [
@@ -2078,6 +2088,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Gumloop",
+      "officialUrl": "https://www.gumloop.com/",
+      "evidenceUrls": [
+        "https://www.gumloop.com/",
+        "https://www.gumloop.com/blog/introducing-agent-tasks",
+        "https://www.gumloop.com/blog/gumloop-model-router"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active AI-agent automation platform for building specialized agents, recurring tasks and multi-agent workflows connected to workplace data and apps.",
+      "decision": "accepted"
+    },
+    {
       "name": "Guru",
       "officialUrl": "https://www.getguru.com/",
       "evidenceUrls": [
@@ -2096,6 +2118,16 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Active MiniMax consumer video-generation platform for image-to-video, text-guided video and reference-driven creative workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Haystack",
+      "officialUrl": "https://haystack.deepset.ai/",
+      "evidenceUrls": [
+        "https://haystack.deepset.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed open-source orchestration framework for production-grade agents, retrieval, multimodal AI and composable LLM applications.",
       "decision": "accepted"
     },
     {
@@ -2224,6 +2256,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Kagi Assistant",
+      "officialUrl": "https://kagi.com/assistant",
+      "evidenceUrls": [
+        "https://help.kagi.com/kagi/ai/assistant.html",
+        "https://kagi.com/changelog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained privacy-focused multi-model assistant with optional Kagi Search grounding, custom assistants, files, voice input and native mobile apps.",
+      "decision": "accepted"
+    },
+    {
       "name": "Kling AI",
       "officialUrl": "https://kling.ai/",
       "evidenceUrls": [
@@ -2265,6 +2308,28 @@
       "decision": "accepted"
     },
     {
+      "name": "Langflow",
+      "officialUrl": "https://www.langflow.org/",
+      "evidenceUrls": [
+        "https://www.langflow.org/blog/langflow-1-12/",
+        "https://www.langflow.org/blog/langflow-1-11/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained open-source low-code builder for agentic and RAG workflows with human-in-the-loop, A2A, AG-UI, observability and deployable APIs.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LangGraph",
+      "officialUrl": "https://www.langchain.com/langgraph",
+      "evidenceUrls": [
+        "https://www.langchain.com/blog/march-2026-langchain-newsletter",
+        "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained graph-based agent runtime from LangChain for stateful, controllable agent workflows that need explicit orchestration and durable execution.",
+      "decision": "accepted"
+    },
+    {
       "name": "Leonardo AI",
       "officialUrl": "https://leonardo.ai/",
       "evidenceUrls": [
@@ -2273,6 +2338,39 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Generative visual platform for image creation, motion, editing and scalable creative production with model and API access.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LibreChat",
+      "officialUrl": "https://www.librechat.ai/",
+      "evidenceUrls": [
+        "https://github.com/danny-avila/LibreChat/releases",
+        "https://www.librechat.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively maintained self-hosted multi-provider AI interface with agents, skills, MCP, projects, search and enterprise-oriented authentication and observability features.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lindy",
+      "officialUrl": "https://www.lindy.ai/",
+      "evidenceUrls": [
+        "https://www.lindy.ai/",
+        "https://www.lindy.ai/blog/best-ai-agents"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active business-agent platform for automating sales, support, operations and administrative work with configurable AI agents and cross-app workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "llama.cpp",
+      "officialUrl": "https://github.com/ggml-org/llama.cpp",
+      "evidenceUrls": [
+        "https://github.com/ggml-org/llama.cpp/releases",
+        "https://github.com/ggml-org/llama.cpp/discussions/23875"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Very actively maintained open-source inference runtime and tooling stack for efficient local and server execution of GGUF language models across many hardware targets.",
       "decision": "accepted"
     },
     {
@@ -2400,12 +2498,12 @@
       "officialUrl": "https://learn.microsoft.com/en-us/agent-framework/overview/",
       "evidenceUrls": [
         "https://learn.microsoft.com/en-us/agent-framework/overview/",
-        "https://devblogs.microsoft.com/agent-framework/migrate-your-semantic-kernel-and-autogen-projects-to-microsoft-agent-framework-release-candidate/"
+        "https://microsoft.github.io/Microsoft-AI-Decision-Framework/docs/technologies.html"
       ],
-      "reviewedAt": "2026-09-18",
-      "userValue": "Microsoft's supported open-source agent SDK and runtime for building agents and explicit multi-step workflows across Python, .NET and supported provider integrations.",
+      "reviewedAt": "2026-09-20",
+      "userValue": "Microsoft Agent Framework is the current Microsoft framework for new production agent development, unifying the lineage of Semantic Kernel and AutoGen.",
       "decision": "accepted",
-      "supersedes": "AutoGen"
+      "supersedes": "Semantic Kernel"
     },
     {
       "name": "Microsoft Copilot",
@@ -2636,6 +2734,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Pydantic AI",
+      "officialUrl": "https://ai.pydantic.dev/",
+      "evidenceUrls": [
+        "https://ai.pydantic.dev/",
+        "https://pydantic.dev/articles"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed typed Python agent framework from the Pydantic team with tools, multi-agent patterns, durable execution, MCP, evaluation and observability integrations.",
+      "decision": "accepted"
+    },
+    {
       "name": "Qodo",
       "officialUrl": "https://www.qodo.ai/",
       "evidenceUrls": [
@@ -2686,6 +2795,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active clinical AI diagnosis and documentation platform on Regard's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Relevance AI",
+      "officialUrl": "https://relevanceai.com/",
+      "evidenceUrls": [
+        "https://relevanceai.com/workforce",
+        "https://community.relevanceai.com/x/announcements"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "No-code AI workforce platform for building agents, tools and collaborative multi-agent systems that execute business workflows across connected systems.",
       "decision": "accepted"
     },
     {
@@ -2877,6 +2997,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Stable Audio",
+      "officialUrl": "https://www.stableaudio.com/",
+      "evidenceUrls": [
+        "https://stability.ai/stable-audio",
+        "https://www.stableaudio.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Stability AI's actively maintained generative-audio product and model family for music and sound effects, with web-app, API, enterprise and open-weight access paths.",
+      "decision": "accepted"
+    },
+    {
       "name": "Stack AI",
       "officialUrl": "https://www.stackai.com/",
       "evidenceUrls": [
@@ -2917,6 +3048,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Enterprise AI coding platform and context engine for IDE and CLI workflows; it remains an active Tabnine product after its July 2026 acquisition by Tricentis.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Taskade",
+      "officialUrl": "https://www.taskade.com/",
+      "evidenceUrls": [
+        "https://www.taskade.com/wiki/taskade/ai-agents",
+        "https://www.taskade.com/wiki/autonomous/autonomous-agents",
+        "https://www.taskade.com/blog/updates"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Actively developed AI workspace and app-building platform combining persistent agents, projects, knowledge, automations and multi-agent collaboration.",
       "decision": "accepted"
     },
     {
@@ -3372,6 +3515,19 @@
       "reason": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename."
     },
     {
+      "name": "Semantic Kernel",
+      "officialUrl": "https://learn.microsoft.com/semantic-kernel/",
+      "evidenceUrls": [
+        "https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-semantic-kernel/",
+        "https://microsoft.github.io/Microsoft-AI-Decision-Framework/docs/technologies.html"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Microsoft identifies Agent Framework as the direct successor to Semantic Kernel and provides a current Semantic Kernel migration guide. Keeping Semantic Kernel as a separate recommended active framework would duplicate a superseded maintenance-line identity for new projects.",
+      "decision": "rejected",
+      "reason": "Microsoft identifies Agent Framework as the direct successor to Semantic Kernel and provides a current Semantic Kernel migration guide. Keeping Semantic Kernel as a separate recommended active framework would duplicate a superseded maintenance-line identity for new projects.",
+      "supersededBy": "Microsoft Agent Framework"
+    },
+    {
       "name": "Sora",
       "officialUrl": "https://openai.com/sora/",
       "evidenceUrls": [
@@ -3400,12 +3556,12 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-20",
-  "lastQualityReviewBatch": "legacy-a-012",
+  "lastQualityReviewBatch": "legacy-a-013",
   "lastQualityReviewBatchSummary": {
-    "accepted": 10,
+    "accepted": 13,
     "updated": 0,
     "superseded": 0,
-    "merged": 0,
-    "removed": 1
+    "merged": 1,
+    "removed": 0
   }
 }
