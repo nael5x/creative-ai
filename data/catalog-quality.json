@@ -911,6 +911,19 @@
       "decision": "accepted"
     },
     {
+      "name": "Check Point AI Security",
+      "officialUrl": "https://www.checkpoint.com/ai-security/",
+      "evidenceUrls": [
+        "https://www.checkpoint.com/ai-security/",
+        "https://www.checkpoint.com/ai-security/ai-agent-security/",
+        "https://docs.lakera.ai/guard"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Check Point AI Security is the current platform carrying Lakera's runtime guardrail technology forward into a broader enterprise AI-security offering.",
+      "decision": "accepted",
+      "supersedes": "Lakera"
+    },
+    {
       "name": "Chroma",
       "officialUrl": "https://www.trychroma.com/",
       "evidenceUrls": [
@@ -2070,6 +2083,17 @@
       "decision": "accepted"
     },
     {
+      "name": "GitGuardian",
+      "officialUrl": "https://www.gitguardian.com/",
+      "evidenceUrls": [
+        "https://docs.gitguardian.com/platform/ai/home",
+        "https://docs.gitguardian.com/releases/saas/2026/08/27/changelog"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active secrets-security platform with AI for false-positive reduction, risk prioritization, secret enrichment, remediation guidance and public-leak ownership analysis.",
+      "decision": "accepted"
+    },
+    {
       "name": "GitHub Copilot",
       "officialUrl": "https://github.com/features/copilot",
       "evidenceUrls": [
@@ -2324,6 +2348,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI avatar video, voice and localization platform for presenter-style content.",
+      "decision": "accepted"
+    },
+    {
+      "name": "HiddenLayer",
+      "officialUrl": "https://hiddenlayer.com/",
+      "evidenceUrls": [
+        "https://www.hiddenlayer.com/platform",
+        "https://www.hiddenlayer.com/platform/ai-runtime-security"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI security platform spanning lifecycle visibility, testing, hardening and runtime protection for models, applications, agents and agentic workflows.",
       "decision": "accepted"
     },
     {
@@ -3051,6 +3086,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Microsoft Security Copilot",
+      "officialUrl": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+      "evidenceUrls": [
+        "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+        "https://learn.microsoft.com/en-us/copilot/security/agents-overview",
+        "https://learn.microsoft.com/en-us/copilot/security/agents-security-copilot"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active Microsoft security AI and agent platform embedded across Defender, Entra, Intune and Purview for investigation, threat intelligence and repeatable security workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Midjourney",
       "officialUrl": "https://www.midjourney.com/",
       "evidenceUrls": [
@@ -3058,6 +3105,18 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "High-quality image and video generation for creative visual work.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mindgard",
+      "officialUrl": "https://mindgard.ai/",
+      "evidenceUrls": [
+        "https://mindgard.ai/",
+        "https://mindgard.ai/ai-security-platform",
+        "https://mindgard.ai/blog/mindgard-unveils-first-autonomous-ai-security-platform-to-identify-and-fix-exploitable-vulnerabilities"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active autonomous AI-security testing platform for discovery, reconnaissance, red teaming, assessment and runtime protection across models, agents and AI applications.",
       "decision": "accepted"
     },
     {
@@ -3195,6 +3254,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Active community-oriented AI art platform offering multiple image-generation model families, challenges and creator workflows in one service.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Noma Security",
+      "officialUrl": "https://noma.security/",
+      "evidenceUrls": [
+        "https://noma.security/",
+        "https://noma.security/platform",
+        "https://noma.security/blog/noma-launches-agentic-access-control-to-govern-ai-agents-and-mcp-servers-across-the-enterprise"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI and agent security platform for discovery, posture, access control, red teaming and runtime detection across endpoint, SaaS and homegrown agents.",
       "decision": "accepted"
     },
     {
@@ -3466,6 +3537,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Pillar Security",
+      "officialUrl": "https://www.pillar.security/",
+      "evidenceUrls": [
+        "https://www.pillar.security/",
+        "https://www.pillar.security/blog/pillar-launches-red-graph-suite-version-controlled-contextual-and-continuous-ai-red-teaming"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active agentic-AI security platform for discovery, posture management, red teaming, runtime protection and governance across agents, MCP servers, skills and AI supply chains.",
+      "decision": "accepted"
+    },
+    {
       "name": "Pipedream",
       "officialUrl": "https://pipedream.com/",
       "evidenceUrls": [
@@ -3571,6 +3653,18 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Palo Alto Networks' current AI security platform integrating Protect AI technology.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Prompt Security",
+      "officialUrl": "https://prompt.security/",
+      "evidenceUrls": [
+        "https://prompt.security/",
+        "https://www.sentinelone.com/press/sentinelone-announces-ai-security-integration-with-amazon-bedrock-agentcore-to-deliver-runtime-guardrails-for-ai-agents/",
+        "https://prompt.security/solutions/agentic-ai-security-and-governance"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active SentinelOne AI-security offering for workforce AI governance, application guardrails, agentic AI security, MCP visibility and AI red teaming.",
       "decision": "accepted"
     },
     {
@@ -4021,6 +4115,16 @@
       ],
       "reviewedAt": "2026-09-21",
       "userValue": "Active enterprise AI-agent platform for customer experience, enabling brand-specific agents to resolve requests and execute business actions across complex workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Snyk AI",
+      "officialUrl": "https://snyk.io/platform/deepcode-ai/",
+      "evidenceUrls": [
+        "https://snyk.io/platform/deepcode-ai/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI application-security layer powered by DeepCode AI for finding, prioritizing and autofixing vulnerabilities in developer workflows.",
       "decision": "accepted"
     },
     {
@@ -4915,6 +5019,18 @@
       "reason": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist."
     },
     {
+      "name": "Lakera",
+      "officialUrl": "https://www.lakera.ai/",
+      "evidenceUrls": [
+        "https://www.checkpoint.com/press-releases/check-point-acquires-lakera-to-deliver-end-to-end-ai-security-for-enterprises/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Check Point acquired Lakera and the current product documentation and commercial offering are now branded as Check Point AI Security, including AI Agent Security and AI Guardrails. Keeping Lakera as a separate current platform would preserve an outdated standalone identity.",
+      "decision": "rejected",
+      "reason": "Check Point acquired Lakera and the current product documentation and commercial offering are now branded as Check Point AI Security, including AI Agent Security and AI Guardrails. Keeping Lakera as a separate current platform would preserve an outdated standalone identity.",
+      "supersededBy": "Check Point AI Security"
+    },
+    {
       "name": "Le Chat",
       "officialUrl": "https://chat.mistral.ai/",
       "evidenceUrls": [
@@ -5061,11 +5177,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-21",
-  "lastQualityReviewBatch": "legacy-a-022",
+  "lastQualityReviewBatch": "legacy-a-023",
   "lastQualityReviewBatchSummary": {
-    "accepted": 15,
+    "accepted": 8,
     "updated": 0,
-    "superseded": 0,
+    "superseded": 1,
     "merged": 0,
     "removed": 0
   }

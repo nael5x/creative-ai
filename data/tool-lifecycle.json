@@ -1364,10 +1364,6 @@
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Lakera": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
     "Prompt Security": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
@@ -2453,6 +2449,11 @@
       "firstTrackedAt": "2026-09-21T00:00:00Z",
       "event": "added",
       "supersedes": "Hostinger Horizons"
+    },
+    "Check Point AI Security": {
+      "firstTrackedAt": "2026-09-21T00:00:00Z",
+      "event": "added",
+      "supersedes": "Lakera"
     }
   }
 }

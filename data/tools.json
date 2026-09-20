@@ -2810,8 +2810,8 @@
   [
     "Microsoft Security Copilot",
     "Cybersecurity",
-    "Generative AI assistant for security investigation, threat analysis and response.",
-    "For security teams working across Microsoft security products and incident workflows.",
+    "Microsoft security AI and agent platform for investigation, threat intelligence and automated security workflows.",
+    "For Microsoft security teams that want agents and AI assistance embedded in incident investigation, identity, endpoint, data and threat-intelligence workflows.",
     "Paid",
     "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot"
   ],
@@ -2834,16 +2834,16 @@
   [
     "Snyk AI",
     "Cybersecurity",
-    "AI-assisted application security capabilities for finding and fixing code vulnerabilities.",
-    "For developers and security teams addressing issues earlier in the software lifecycle.",
+    "AI application-security capabilities for vulnerability detection, prioritization and developer-focused remediation.",
+    "For development and AppSec teams that want AI-assisted security findings and fixes integrated earlier into the software-development lifecycle.",
     "Free tier / Paid",
     "https://snyk.io/platform/deepcode-ai/"
   ],
   [
     "GitGuardian",
     "Cybersecurity",
-    "Developer security platform for detecting exposed secrets and code security risks.",
-    "For engineering teams preventing credentials and sensitive tokens from leaking through repositories.",
+    "Secrets-security platform with AI-assisted risk prioritization, enrichment, remediation and public-leak analysis.",
+    "For engineering and security teams discovering and prioritizing exposed credentials and non-human identity risks across source code and public repositories.",
     "Free tier / Paid",
     "https://www.gitguardian.com/"
   ],
@@ -2858,24 +2858,24 @@
   [
     "HiddenLayer",
     "Cybersecurity",
-    "Security platform for protecting machine-learning models and AI systems.",
-    "For enterprises monitoring model threats and AI-specific attack surfaces.",
+    "AI security platform for lifecycle visibility, testing, hardening and runtime protection across models and agents.",
+    "For enterprises that need AI-specific posture and runtime controls against prompt attacks, data exposure, unsafe actions and other model or agent threats.",
     "Paid",
     "https://hiddenlayer.com/"
   ],
   [
-    "Lakera",
+    "Check Point AI Security",
     "Cybersecurity",
-    "AI security platform focused on prompt injection, unsafe inputs and LLM application protection.",
-    "For teams adding guardrails and runtime protection around generative AI apps.",
-    "Free tier / Paid",
-    "https://www.lakera.ai/"
+    "Check Point AI-security platform for workforce AI governance, AI application guardrails, agent discovery, risk assessment, runtime protection and red teaming.",
+    "For enterprises that need unified discovery, governance and runtime protection across employee AI use, generative-AI applications and autonomous agents.",
+    "Paid",
+    "https://www.checkpoint.com/ai-security/"
   ],
   [
     "Prompt Security",
     "Cybersecurity",
-    "Enterprise security platform for discovering and protecting generative AI usage.",
-    "For security teams governing employee AI use and protecting AI applications from risky interactions.",
+    "SentinelOne AI-security platform for workforce AI governance, application guardrails, agent security and red teaming.",
+    "For security teams governing employee AI usage and protecting homegrown AI applications, code assistants and agents at runtime.",
     "Paid",
     "https://prompt.security/"
   ],
@@ -2890,24 +2890,24 @@
   [
     "Mindgard",
     "Cybersecurity",
-    "AI red-teaming and security testing platform for models and AI applications.",
-    "For security teams evaluating adversarial weaknesses before production deployment.",
+    "Autonomous AI-security platform for discovery, red teaming, assessment and runtime protection.",
+    "For security teams that want continuous adversarial testing and AI-specific attack-surface analysis before and after production deployment.",
     "Paid",
     "https://mindgard.ai/"
   ],
   [
     "Pillar Security",
     "Cybersecurity",
-    "Security platform for AI applications, models and agentic systems.",
-    "For organizations discovering and mitigating risks in generative AI deployments.",
+    "Agentic-AI security platform for discovery, posture, red teaming, runtime protection and governance.",
+    "For organizations that need lifecycle security and governance across AI agents, MCP integrations, models and connected toolchains.",
     "Paid",
     "https://www.pillar.security/"
   ],
   [
     "Noma Security",
     "Cybersecurity",
-    "AI and data security platform for securing AI development and deployment lifecycles.",
-    "For enterprises managing AI assets, risks and governance across teams.",
+    "AI and agent security platform for discovery, governance, access control, red teaming and runtime detection.",
+    "For enterprises that need one control plane to inventory AI assets, govern agent permissions and detect risky behavior across different AI environments.",
     "Paid",
     "https://noma.security/"
   ],
