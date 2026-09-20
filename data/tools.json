@@ -74,18 +74,18 @@
   [
     "Pika",
     "Video",
-    "Prompt-based short video generation and effects.",
-    "For experimenting with eye-catching clips and social video ideas.",
+    "AI video creation platform for generation, effects, workflow automation and agent-assisted media experiments.",
+    "For creators who want fast generative video, effects and experimental AI-media workflows in one web app.",
     "Free tier / Paid",
     "https://pika.art/"
   ],
   [
-    "Luma Dream Machine",
-    "Video",
-    "Image-to-video and text-to-video generation.",
-    "For cinematic motion from a still image or a written shot idea.",
+    "Luma App",
+    "Images & video",
+    "Luma's current consumer creative workspace for AI video and image generation using current Luma models and integrated generation tools.",
+    "For creators who want Luma's current image and video generation workspace rather than the deprecated Dream Machine product identity.",
     "Free tier / Paid",
-    "https://lumalabs.ai/dream-machine"
+    "https://app.lumalabs.ai/"
   ],
   [
     "ElevenLabs",
@@ -138,8 +138,8 @@
   [
     "Lovable",
     "Web apps",
-    "Build web app prototypes with AI and natural language.",
-    "For turning a product idea into a working web app starting point.",
+    "AI app builder that turns natural-language prompts into working full-stack web applications.",
+    "For founders and teams who want to move from an idea to a functional hosted app with editable code, data, authentication and integrations.",
     "Free tier / Paid",
     "https://lovable.dev/"
   ],
@@ -186,8 +186,8 @@
   [
     "LM Studio",
     "Local models",
-    "Desktop app to download and run local language models.",
-    "For chatting with local models through an easy graphical interface.",
+    "Local-first desktop and developer platform for running open models, APIs and AI agents.",
+    "For users and developers who want private local model execution, a graphical chat interface, programmable APIs and agent workflows.",
     "Free",
     "https://lmstudio.ai/"
   ],
@@ -226,8 +226,8 @@
   [
     "LlamaIndex",
     "AI development",
-    "Framework for connecting private data to LLM applications.",
-    "For search and question-answer systems over documents and databases.",
+    "Open-source AI development ecosystem for document parsing, retrieval, workflows and agents.",
+    "For developers building document-heavy AI applications, RAG systems and agents that need reliable parsing, indexing and private-data access.",
     "Open source",
     "https://www.llamaindex.ai/"
   ],
@@ -298,8 +298,8 @@
   [
     "Leonardo AI",
     "Images",
-    "Image generation and creative production tools for assets, concepts and design work.",
-    "For producing visual variations and creative assets with both free and paid workflows.",
+    "Generative AI platform for image creation, motion, editing and creative asset production.",
+    "For creators and teams producing visual concepts, branded assets, image variations and AI-driven video or motion content.",
     "Free tier / Paid",
     "https://leonardo.ai/"
   ],
@@ -353,9 +353,9 @@
   ],
   [
     "Pipedream",
-    "Automation",
-    "Developer-focused integrations and workflows for APIs, apps and AI agents.",
-    "For connecting services quickly with code-friendly automation and a large integration catalog.",
+    "AI infrastructure",
+    "Integration layer for AI agents with managed auth, API tools, triggers, MCP access and hosted execution.",
+    "For developers giving AI agents secure access to user-connected apps and APIs without building every OAuth flow and integration from scratch.",
     "Free tier / Paid",
     "https://pipedream.com/"
   ],
@@ -424,26 +424,26 @@
     "https://grok.com/"
   ],
   [
-    "Le Chat",
-    "Writing & research",
-    "Mistral's assistant for chat, writing, research and model-powered productivity.",
-    "For users who want a fast general assistant from the Mistral ecosystem.",
+    "Vibe",
+    "Writing & coding",
+    "Mistral's unified AI agent for productivity, coding and conversational work across Vibe Work, Vibe Code and Vibe Chat.",
+    "For users who want Mistral's current assistant for multi-step productivity, coding and conversational tasks in one account.",
     "Free tier / Paid",
     "https://chat.mistral.ai/"
   ],
   [
     "Meta AI",
     "Writing & research",
-    "Meta's general AI assistant for chat, ideas, image generation and connected experiences.",
-    "For everyday assistance inside Meta's consumer AI ecosystem.",
+    "Meta's AI assistant for reasoning, research, multimodal creation and connected agentic tasks.",
+    "For everyday assistance, web research, image creation and task execution inside Meta's consumer AI ecosystem.",
     "Free",
     "https://www.meta.ai/"
   ],
   [
     "You.com",
-    "Research",
-    "AI search and assistant platform combining web research, agents and model access.",
-    "For research workflows that mix search results with generated answers and agent-style tasks.",
+    "AI infrastructure",
+    "Real-time web intelligence and research APIs for AI agents and applications.",
+    "For developers who need current web search, cited answers, content extraction and research capabilities inside AI systems.",
     "Free tier / Paid",
     "https://you.com/"
   ],

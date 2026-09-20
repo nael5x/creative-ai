@@ -2057,6 +2057,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Grok",
+      "officialUrl": "https://grok.com/",
+      "evidenceUrls": [
+        "https://x.ai/news/grok-4-6",
+        "https://x.ai/news/grok-4-5"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "General-purpose AI assistant and model family for reasoning, coding, multimodal work, research and long-running agentic tasks.",
+      "decision": "accepted"
+    },
+    {
       "name": "GrowthBar",
       "officialUrl": "https://www.seoptimer.com/growthbar/",
       "evidenceUrls": [
@@ -2128,6 +2139,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Ideogram",
+      "officialUrl": "https://ideogram.ai/",
+      "evidenceUrls": [
+        "https://ideogram.ai/news/ideogram-4.0/",
+        "https://docs.ideogram.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active image-generation platform and model family focused on design, typography, controllable generation and production-oriented visual workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Jacquard",
       "officialUrl": "https://www.jacquard.com/",
       "evidenceUrls": [
@@ -2159,6 +2181,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Krea",
+      "officialUrl": "https://www.krea.ai/",
+      "evidenceUrls": [
+        "https://www.krea.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Creative AI suite for image, video and 3D generation, editing, enhancement and fine-tuning across multiple current models.",
+      "decision": "accepted"
+    },
+    {
       "name": "LangChain",
       "officialUrl": "https://www.langchain.com/",
       "evidenceUrls": [
@@ -2167,6 +2199,38 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Open-source framework for building agents and LLM applications across models and tools.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Leonardo AI",
+      "officialUrl": "https://leonardo.ai/",
+      "evidenceUrls": [
+        "https://www.leonardo.ai/",
+        "https://leonardo.ai/news/leonardo-ai-yours-to-create"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Generative visual platform for image creation, motion, editing and scalable creative production with model and API access.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LlamaIndex",
+      "officialUrl": "https://www.llamaindex.ai/",
+      "evidenceUrls": [
+        "https://www.llamaindex.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Open-source AI development ecosystem for document parsing, retrieval, workflows and agents over private or enterprise data.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LM Studio",
+      "officialUrl": "https://lmstudio.ai/",
+      "evidenceUrls": [
+        "https://lmstudio.ai/download",
+        "https://lmstudio.ai/blog/introducing-lm-studio-bionic"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Local-first AI desktop and developer platform for running open models, serving local APIs and using agent workflows with local or controlled cloud compute.",
       "decision": "accepted"
     },
     {
@@ -2191,6 +2255,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Lovable",
+      "officialUrl": "https://lovable.dev/",
+      "evidenceUrls": [
+        "https://lovable.dev/build/app-builder",
+        "https://lovable.dev/blog/agent-integrations"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI app builder that generates working interfaces, backend logic, data and hosting from natural-language instructions, with code access and integrations.",
+      "decision": "accepted"
+    },
+    {
       "name": "LTX Studio",
       "officialUrl": "https://ltx.io/studio",
       "evidenceUrls": [
@@ -2199,6 +2274,18 @@
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI video creation studio on LTX's current first-party product domain.",
       "decision": "accepted"
+    },
+    {
+      "name": "Luma App",
+      "officialUrl": "https://app.lumalabs.ai/",
+      "evidenceUrls": [
+        "https://lumalabs.ai/llm-info",
+        "https://app.lumalabs.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Luma App is the current consumer surface for Luma's image and video generation ecosystem, including current Ray and UNI model families.",
+      "decision": "accepted",
+      "supersedes": "Luma Dream Machine"
     },
     {
       "name": "Magnific",
@@ -2235,6 +2322,17 @@
       "supersedes": "Clio Duo"
     },
     {
+      "name": "Meta AI",
+      "officialUrl": "https://www.meta.ai/",
+      "evidenceUrls": [
+        "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
+        "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Meta's consumer AI assistant for reasoning, research, multimodal creation and increasingly agentic tasks across Meta AI and connected Meta experiences.",
+      "decision": "accepted"
+    },
+    {
       "name": "Microsoft Agent Framework",
       "officialUrl": "https://learn.microsoft.com/en-us/agent-framework/overview/",
       "evidenceUrls": [
@@ -2245,6 +2343,16 @@
       "userValue": "Microsoft's supported open-source agent SDK and runtime for building agents and explicit multi-step workflows across Python, .NET and supported provider integrations.",
       "decision": "accepted",
       "supersedes": "AutoGen"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "officialUrl": "https://copilot.microsoft.com/",
+      "evidenceUrls": [
+        "https://copilot.microsoft.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Microsoft's general AI companion for chat, research, creation and productivity across web and Microsoft experiences.",
+      "decision": "accepted"
     },
     {
       "name": "Midjourney",
@@ -2286,6 +2394,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI social media marketing platform under the Munch Studio identity.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Murf",
+      "officialUrl": "https://murf.ai/",
+      "evidenceUrls": [
+        "https://murf.ai/api/docs/changelog"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Voice AI platform for multilingual text-to-speech, voice generation and developer speech APIs with actively maintained models.",
       "decision": "accepted"
     },
     {
@@ -2361,6 +2479,27 @@
       "decision": "accepted"
     },
     {
+      "name": "Pika",
+      "officialUrl": "https://pika.art/",
+      "evidenceUrls": [
+        "https://pika.art/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI video creation platform for short-form generation, effects, workflow automation and agent-driven media creation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Pipedream",
+      "officialUrl": "https://pipedream.com/",
+      "evidenceUrls": [
+        "https://pipedream.com/",
+        "https://pipedream.com/apps"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Integration infrastructure for AI agents and applications, providing managed authentication, thousands of API tools, triggers, MCP access and execution.",
+      "decision": "accepted"
+    },
+    {
       "name": "Playground AI",
       "officialUrl": "https://playgroundai.com/",
       "evidenceUrls": [
@@ -2379,6 +2518,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI presentation assistant on Plus AI's current canonical product domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Poe",
+      "officialUrl": "https://poe.com/",
+      "evidenceUrls": [
+        "https://poe.com/explore?category=Official"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Multi-model AI chat platform for using official and community bots across writing, coding, image, video and specialist workflows.",
       "decision": "accepted"
     },
     {
@@ -2463,6 +2612,17 @@
       "decision": "accepted"
     },
     {
+      "name": "SciSpace",
+      "officialUrl": "https://scispace.com/",
+      "evidenceUrls": [
+        "https://scispace.com/",
+        "https://www.scispace.com/help/en/articles/10706821-how-scispace-search-works"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI research workspace and agent ecosystem for literature search, reviews, PDF analysis, writing, data extraction and scientific workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "SE Ranking Content Editor",
       "officialUrl": "https://seranking.com/content-editor.html",
       "evidenceUrls": [
@@ -2534,6 +2694,28 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active enterprise AI workflow platform on Stack AI's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Suno",
+      "officialUrl": "https://suno.com/",
+      "evidenceUrls": [
+        "https://suno.com/release-notes",
+        "https://suno.com/blog/introducing-v6"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Active AI music platform for generating and editing songs, stems and audio ideas with current multimodal music models.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Synthesia",
+      "officialUrl": "https://www.synthesia.io/",
+      "evidenceUrls": [
+        "https://www.synthesia.io/features/ai-video-generator",
+        "https://help.synthesia.io/en/articles/9189319-how-do-i-generate-my-video-in-synthesia"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI video platform for presenter-led and generated business content with avatars, scene generation, localization and multilingual voice workflows.",
       "decision": "accepted"
     },
     {
@@ -2612,6 +2794,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Vibe",
+      "officialUrl": "https://chat.mistral.ai/",
+      "evidenceUrls": [
+        "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe",
+        "https://docs.mistral.ai/vibe/overview"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Vibe is Mistral's current unified agent for professional productivity, coding and conversational AI work.",
+      "decision": "accepted",
+      "supersedes": "Le Chat"
+    },
+    {
       "name": "WellSaid Labs",
       "officialUrl": "https://www.wellsaid.io/",
       "evidenceUrls": [
@@ -2640,6 +2834,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active SEO research, clustering and AI-assisted content platform; the prior shutdown flag was a false positive from page text, not a product shutdown notice.",
+      "decision": "accepted"
+    },
+    {
+      "name": "You.com",
+      "officialUrl": "https://you.com/",
+      "evidenceUrls": [
+        "https://you.com/",
+        "https://you.com/docs/quickstart"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Real-time web intelligence and research API platform for grounding agents with search, cited answers, content retrieval and multi-step research.",
       "decision": "accepted"
     },
     {
@@ -2845,6 +3050,30 @@
       "reason": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist."
     },
     {
+      "name": "Le Chat",
+      "officialUrl": "https://chat.mistral.ai/",
+      "evidenceUrls": [
+        "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Mistral officially renamed Le Chat to Vibe on August 12, 2026 while preserving the same account, plan, conversations and URL.",
+      "decision": "rejected",
+      "reason": "Mistral officially renamed Le Chat to Vibe on August 12, 2026 while preserving the same account, plan, conversations and URL.",
+      "supersededBy": "Vibe"
+    },
+    {
+      "name": "Luma Dream Machine",
+      "officialUrl": "https://lumalabs.ai/dream-machine",
+      "evidenceUrls": [
+        "https://lumalabs.ai/llm-info"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Luma's official product guidance says Dream Machine is deprecated and identifies Luma App as the current consumer creative workspace.",
+      "decision": "rejected",
+      "reason": "Luma's official product guidance says Dream Machine is deprecated and identifies Luma App as the current consumer creative workspace.",
+      "supersededBy": "Luma App"
+    },
+    {
       "name": "PlayHT",
       "officialUrl": "https://play.ht/",
       "evidenceUrls": [
@@ -2906,12 +3135,12 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-20",
-  "lastQualityReviewBatch": "legacy-a-009",
+  "lastQualityReviewBatch": "legacy-a-010",
   "lastQualityReviewBatchSummary": {
-    "accepted": 18,
+    "accepted": 17,
     "updated": 0,
-    "superseded": 0,
-    "merged": 1,
-    "removed": 1
+    "superseded": 2,
+    "merged": 0,
+    "removed": 0
   }
 }

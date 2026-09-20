@@ -101,15 +101,6 @@
       "ar": "نقطة بداية سهلة لتجارب الفيديو القصير بالبرومبت والمقاطع المناسبة للسوشيال."
     }
   },
-  "Luma Dream Machine": {
-    "w": {
-      "video": 4.6
-    },
-    "fit": {
-      "en": "Useful when the goal is cinematic motion from text or a still image with relatively direct controls.",
-      "ar": "مفيد عندما يكون الهدف حركة سينمائية من نص أو صورة ثابتة مع تحكم مباشر نسبيًا."
-    }
-  },
   "ElevenLabs": {
     "w": {
       "audio": 5.0

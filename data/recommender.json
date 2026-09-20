@@ -188,16 +188,6 @@
         "free-friendly"
       ]
     },
-    "Luma Dream Machine": {
-      "tasks": [
-        "video"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly",
-        "control"
-      ]
-    },
     "ElevenLabs": {
       "tasks": [
         "audio"
