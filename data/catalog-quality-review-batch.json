@@ -1,229 +1,238 @@
 {
-  "batchId": "legacy-a-016",
-  "reviewedAt": "2026-09-20",
+  "batchId": "legacy-a-017",
+  "reviewedAt": "2026-09-21",
   "accept": [
     {
-      "name": "PixVerse",
-      "officialUrl": "https://pixverse.ai/",
+      "name": "Reclaim AI",
+      "officialUrl": "https://reclaim.ai/",
       "evidenceUrls": [
-        "https://pixverse.ai/en/blog",
-        "https://pixverse.ai/en/blog/pixverse-updates-r1-real-time-world-model"
+        "https://help.reclaim.ai/en/articles/14846468-reclaim-ai-2-0-overview",
+        "https://help.reclaim.ai/en/articles/15265289-reclaim-2-0-claude-integration"
       ],
-      "userValue": "Actively developed AI video and interactive-world platform with current video models, native audio, agent/developer workflows and real-time generative environments.",
-      "description": "AI video and interactive-world platform for prompt, image, effects and agent-driven generation.",
-      "useCase": "For creators and developers who want short-form video generation, native-audio workflows and experimental real-time generative worlds."
+      "userValue": "Active AI calendar and scheduling platform with background scheduling agents, previewable calendar optimization, MCP access and integrations with common work tools.",
+      "description": "AI calendar and scheduling platform with background agents, calendar optimization and MCP integrations.",
+      "useCase": "For busy individuals and teams that want priorities, habits, focus time and meetings automatically coordinated across connected calendars and work tools."
     },
     {
-      "name": "Vidu",
-      "officialUrl": "https://www.vidu.com/",
+      "name": "Shortwave",
+      "officialUrl": "https://www.shortwave.com/",
       "evidenceUrls": [
-        "https://www.vidu.com/blog",
-        "https://www.vidu.com/blog/categories/ai-video-creation"
+        "https://www.shortwave.com/blog/"
       ],
-      "userValue": "Active generative-video platform for text, image and reference-driven creation with current creator workflows for social, marketing and stylized video.",
-      "description": "Generative-video platform for text, image and reference-driven video creation.",
-      "useCase": "For creators producing controlled short-form video from prompts, still images and reference subjects."
+      "userValue": "Actively maintained AI email workspace for Gmail with conversational search, summaries, drafting, inbox organization and native automation integrations.",
+      "description": "AI email workspace for search, summaries, drafting, inbox organization and automation.",
+      "useCase": "For Gmail users and teams that want an AI assistant to search, summarize, draft and organize email while connecting inbox work to broader automations."
     },
     {
-      "name": "Kaiber",
-      "officialUrl": "https://kaiber.ai/",
+      "name": "Zendesk AI",
+      "officialUrl": "https://www.zendesk.com/ai/",
       "evidenceUrls": [
-        "https://kaiber.ai/"
+        "https://support.zendesk.com/hc/en-us/articles/10487730059034-Announcing-expanded-access-to-AI-agent-capabilities-for-all-Zendesk-customers",
+        "https://www.zendesk.com/newsroom/press-releases/zendesk-introduces-specialized-ai-agents-purpose-built-for-your-business/",
+        "https://www.zendesk.com/newsroom/press-releases/relate-2026/"
       ],
-      "userValue": "Active creative video product focused on music-synced visual generation, canvas workflows, beat synchronization and stylized editing.",
-      "description": "AI creative-video platform for music-synced visuals, canvas workflows and stylized motion.",
-      "useCase": "For musicians and visual creators making artistic, beat-aware videos rather than conventional timeline-only edits."
+      "userValue": "Zendesk's current agentic service layer with specialized AI agents, agent builder, omnichannel automation, copilots and governed resolution workflows.",
+      "category": "Customer service AI",
+      "description": "Agentic customer-service platform with specialized AI agents, agent builder, copilots and omnichannel resolution workflows.",
+      "useCase": "For organizations using Zendesk that want AI agents to resolve customer and employee service work across connected systems."
     },
     {
-      "name": "Submagic",
-      "officialUrl": "https://www.submagic.co/",
+      "name": "Sierra",
+      "officialUrl": "https://sierra.ai/",
       "evidenceUrls": [
-        "https://www.submagic.co/",
-        "https://www.submagic.co/ai-video-editor"
+        "https://sierra.ai/blog/better-customer-experiences-built-on-sierra"
       ],
-      "userValue": "Active AI short-form video editor for automatic clipping, captions, cuts, b-roll, effects and direct publishing across social channels.",
-      "description": "AI short-form video editor for clipping, captions, automated edits and social publishing.",
-      "useCase": "For creators and agencies that need to turn raw or long-form footage into polished social shorts quickly."
+      "userValue": "Active enterprise AI-agent platform for customer experience, enabling brand-specific agents to resolve requests and execute business actions across complex workflows.",
+      "description": "Enterprise AI-agent platform for customer experience and brand-specific service workflows.",
+      "useCase": "For large organizations deploying customer-facing agents that need to reason over company knowledge and take actions across business systems."
     },
     {
-      "name": "Hume AI",
-      "officialUrl": "https://www.hume.ai/",
+      "name": "PolyAI",
+      "officialUrl": "https://poly.ai/",
       "evidenceUrls": [
-        "https://www.hume.ai/blog/introducing-the-hume-voice-replication-leaderboard",
-        "https://www.hume.ai/blog/introducing-the-hume-voice-controllability-leaderboard",
-        "https://www.hume.ai/blog/opensource-tada"
+        "https://poly.ai/",
+        "https://poly.ai/blog/agentic-dialog-platform-open-to-builders",
+        "https://poly.ai/blog/wren-agent-improves-dialog-agents"
       ],
-      "userValue": "Actively developed voice-AI company and platform for expressive speech, voice design, replication, evaluation and conversational voice applications.",
-      "description": "Voice-AI platform for expressive speech, voice design, replication and conversational interfaces.",
-      "useCase": "For developers building voice agents and speech experiences where natural prosody, identity and controllability matter."
+      "userValue": "Active Agentic Dialog Platform for building, operating, governing and continuously improving enterprise-grade voice and multimodal customer agents.",
+      "category": "Conversational AI",
+      "description": "Agentic Dialog Platform for building, running and governing enterprise voice and customer-conversation agents.",
+      "useCase": "For enterprises automating complex customer conversations across voice and other channels with dialog-native agents and governance."
     },
     {
-      "name": "Wondercraft",
-      "officialUrl": "https://www.wondercraft.ai/",
+      "name": "Parloa",
+      "officialUrl": "https://www.parloa.com/",
       "evidenceUrls": [
-        "https://www.wondercraft.ai/",
-        "https://support.wondercraft.ai/articles/8680441283"
+        "https://www.parloa.com/parloa-in-the-press/parloa-navigator-and-parloa-lens-launch-to-connect-building-reliable-ai-agents-and-trusting-them-at-scale/"
       ],
-      "userValue": "Active AI audio-production studio for spoken content, ads, podcasts and narration with custom voice design and cloning workflows.",
-      "description": "AI audio-production studio for narration, podcasts, ads and custom synthetic voices.",
-      "useCase": "For teams turning scripts into polished multi-speaker audio projects without a traditional recording workflow."
+      "userValue": "Enterprise AI Agent Management Platform for building, operating, monitoring and improving customer-experience agents at scale.",
+      "category": "Conversational AI",
+      "description": "Enterprise AI Agent Management Platform for building, monitoring and improving customer-experience agents.",
+      "useCase": "For enterprises deploying conversational AI agents that need production observability, evaluation, governance and continuous optimization."
     },
     {
-      "name": "Mubert",
-      "officialUrl": "https://mubert.com/",
+      "name": "Voiceflow",
+      "officialUrl": "https://www.voiceflow.com/",
       "evidenceUrls": [
-        "https://mubert.com/blog/"
+        "https://www.voiceflow.com/stories/everything-we-launched-v4"
       ],
-      "userValue": "Actively maintained AI music platform for creator soundtracks, streaming, commercial licensing and developer music integrations through an API.",
-      "description": "AI music platform for creator soundtracks, continuous streams and developer integrations.",
-      "useCase": "For creators, brands and developers that need generated background music with licensing and API workflows."
+      "userValue": "Actively developed enterprise AI customer-experience framework for designing, testing, deploying and iterating agentic chat and voice experiences.",
+      "category": "Conversational AI",
+      "description": "Enterprise framework for designing, deploying and managing agentic customer experiences across chat and voice.",
+      "useCase": "For product and CX teams that want collaborative control over customer-facing agents from development through production measurement."
     },
     {
-      "name": "Loudly",
-      "officialUrl": "https://www.loudly.com/",
+      "name": "Landbot",
+      "officialUrl": "https://landbot.io/",
       "evidenceUrls": [
-        "https://www.loudly.com/",
-        "https://www.loudly.com/blog/vega-2-is-live-loudly-launched-its-most-advanced-ai-music-generator"
+        "https://landbot.io/blog",
+        "https://landbot.io/blog/how-to-build-ai-agent"
       ],
-      "userValue": "Active rights-focused AI music platform with proprietary and partner models for generation, remixing, mastering and creator workflows.",
-      "description": "Rights-focused AI music platform for generating, remixing and mastering creator tracks.",
-      "useCase": "For video creators, marketers and music users who need customizable tracks with production and licensing workflows."
+      "userValue": "Active no-code conversational and lead-generation platform for website and WhatsApp experiences, including AI-agent blocks, knowledge and workflow automation.",
+      "category": "Conversational AI",
+      "description": "No-code conversational platform for website and WhatsApp chatbots, AI agents and lead-generation workflows.",
+      "useCase": "For marketing, sales and support teams building guided or AI-driven customer conversations without a custom application."
     },
     {
-      "name": "Granola",
-      "officialUrl": "https://www.granola.ai/",
+      "name": "Gorgias AI",
+      "officialUrl": "https://www.gorgias.com/ai",
       "evidenceUrls": [
-        "https://www.granola.ai/"
+        "https://www.gorgias.com/ai-agent",
+        "https://docs.gorgias.com/en-US/ai-agent-explained-497772",
+        "https://docs.gorgias.com/en-US/articles/ai-agent-and-automations-135134"
       ],
-      "userValue": "Active bot-free AI meeting notepad for capturing online and in-person conversations, polishing notes and exposing meeting context through an MCP connector.",
-      "description": "Bot-free AI meeting notepad for capturing conversations, structuring notes and reusing meeting context.",
-      "useCase": "For professionals who want private meeting notes and searchable context without adding a visible meeting bot."
+      "userValue": "Ecommerce-specific AI Agent for sales and support that uses store context and integrations to answer questions, recommend products and execute post-purchase actions.",
+      "description": "Ecommerce AI Agent for support, shopping assistance and actions across connected commerce tools.",
+      "useCase": "For ecommerce brands that want one agent to answer questions, sell products and resolve order-related work using live store data."
     },
     {
-      "name": "Read AI",
-      "officialUrl": "https://www.read.ai/",
+      "name": "Maven AGI",
+      "officialUrl": "https://www.mavenagi.com/",
       "evidenceUrls": [
-        "https://www.read.ai/",
-        "https://support.read.ai/hc/en-us/articles/49436447541907-Get-started-with-Ada-Read-AI-s-Executive-Assistant",
-        "https://support.read.ai/hc/en-us/articles/55017498280595-What-can-you-do-with-Read-AI-s-MCP-server"
+        "https://www.mavenagi.com/product/agent-platform",
+        "https://www.mavenagi.com/solutions/customer-support",
+        "https://www.mavenagi.com/explore/state-of-ai-in-cx-2026"
       ],
-      "userValue": "Active meeting and work-intelligence platform spanning meeting capture, cross-workspace search, executive-assistant workflows, email/calendar actions and MCP access.",
-      "description": "AI meeting and work-intelligence platform for capture, search, executive assistance and connected workflows.",
-      "useCase": "For knowledge workers who want meeting context, summaries and actions connected to email, calendar, files and other workplace systems."
+      "userValue": "Enterprise AI-agent platform for autonomous customer support across chat, email, voice and web with shared reasoning, governance and enterprise knowledge.",
+      "description": "Enterprise AI-agent platform for autonomous customer support across chat, email, voice and web.",
+      "useCase": "For organizations that want a single governed reasoning layer to resolve customer-service issues across multiple channels."
     },
     {
-      "name": "MeetGeek",
-      "officialUrl": "https://meetgeek.ai/",
+      "name": "Gong",
+      "officialUrl": "https://www.gong.io/",
       "evidenceUrls": [
-        "https://meetgeek.ai/",
-        "https://meetgeek.ai/blog"
+        "https://www.gong.io/blog/mission-big-dipper-revenue-ai-os",
+        "https://www.gong.io/blog/ai-agents-for-gtm-decision-making-and-execution-how-and-when-to-use-gong-assistant-ai-theme-spotter-and-ai-builder"
       ],
-      "userValue": "Active meeting-intelligence and agent platform combining bot and bot-free capture, transcription, voice agents, workflow skills, analytics and downstream automation.",
-      "category": "Meetings & agents",
-      "description": "Meeting-intelligence and agent platform for capture, transcription, voice agents and automated post-call workflows.",
-      "useCase": "For teams that want meeting data to trigger CRM updates, follow-ups, risk detection and other automated business actions."
+      "userValue": "Current Revenue AI OS combining revenue context, specialized and custom agents, conversation intelligence, enablement and governed execution across GTM workflows.",
+      "category": "Revenue AI",
+      "description": "Revenue AI operating system with agents, conversation intelligence, enablement and governed GTM execution.",
+      "useCase": "For revenue teams that want customer-conversation context, pipeline intelligence and AI agents connected to sales execution."
     },
     {
-      "name": "Sembly AI",
-      "officialUrl": "https://www.sembly.ai/",
+      "name": "Lavender",
+      "officialUrl": "https://www.lavender.ai/",
       "evidenceUrls": [
-        "https://www.sembly.ai/"
+        "https://lavender.ai/coach"
       ],
-      "userValue": "Active agentic meeting-intelligence platform that converts conversations into professional deliverables, client documents, CRM updates and structured organizational memory.",
-      "category": "Meetings & client work",
-      "description": "Agentic meeting-intelligence platform for turning conversations into deliverables, documents and business actions.",
-      "useCase": "For professional-services and client-facing teams that want meeting content converted into proposals, briefs, reports, CRM updates and other outputs."
+      "userValue": "Active AI sales-email coach that scores outbound messages, suggests improvements and personalization, and gives real-time coaching inside rep workflows.",
+      "description": "AI sales-email coach for message scoring, personalization and real-time outbound writing feedback.",
+      "useCase": "For sales reps and teams that want evidence-based feedback while drafting prospecting emails."
     },
     {
-      "name": "Grain",
-      "officialUrl": "https://grain.com/",
+      "name": "Regie.ai",
+      "officialUrl": "https://www.regie.ai/",
       "evidenceUrls": [
-        "https://grain.com/release-notes",
-        "https://grain.com/release-note/chatgpt-smart-notes-and-mcp-tools",
-        "https://support.grain.com/en/articles/14811968-grain-mcp"
+        "https://regie.ai/blog",
+        "https://regie.ai/blog/introducing-regie-one",
+        "https://regie.ai/blog/introducing-the-force-multiplier-rep-a-new-operating-model-for-modern-sales"
       ],
-      "userValue": "Actively developed meeting-intelligence platform with bot and desktop capture, AI notes, clips, API access, MCP and direct ChatGPT-connected meeting workflows.",
-      "description": "Meeting-intelligence platform for capture, AI notes, clips, searchable context and connected AI workflows.",
-      "useCase": "For sales, product and research teams that want reusable customer-conversation context inside downstream AI and business workflows."
+      "userValue": "AI-native prospecting and sales-engagement platform where human sellers and AI agents share research, prioritization, messaging and outbound execution.",
+      "category": "Sales",
+      "description": "AI-native prospecting and sales-engagement platform for human and agent-assisted outbound execution.",
+      "useCase": "For sales teams that want AI agents to handle prospect research and repetitive outreach work while reps retain control of high-value interactions."
     },
     {
-      "name": "Jamie",
-      "officialUrl": "https://www.meetjamie.ai/",
+      "name": "Surfer",
+      "officialUrl": "https://surferseo.com/",
       "evidenceUrls": [
-        "https://www.meetjamie.ai/",
-        "https://www.meetjamie.ai/blog/llm-info",
-        "https://www.meetjamie.ai/blog"
+        "https://surferseo.com/blog/release-notes/",
+        "https://surferseo.com/blog/whats-new-at-surfer-august-2026-product-roundup/"
       ],
-      "userValue": "Actively maintained bot-free AI meeting-notes product for online and in-person conversations with summaries, transcripts and action items.",
-      "description": "Bot-free AI meeting-notes product for transcripts, summaries and action items across online and in-person conversations.",
-      "useCase": "For professionals who want meeting notes across platforms without adding a visible recording bot to calls."
+      "userValue": "Current AI visibility platform spanning SEO and generative-engine optimization with content scoring, AI-search tracking, recommendations, agent workflows and MCP access.",
+      "category": "SEO & AI visibility",
+      "description": "AI visibility platform for SEO, GEO, content optimization, AI-search tracking and agent workflows.",
+      "useCase": "For content and growth teams optimizing pages both for search rankings and citation visibility inside AI answer engines."
     },
     {
-      "name": "Notta",
-      "officialUrl": "https://www.notta.ai/",
+      "name": "MarketMuse",
+      "officialUrl": "https://www.marketmuse.com/",
       "evidenceUrls": [
-        "https://www.notta.ai/",
-        "https://www.notta.ai/en/blog",
-        "https://www.notta.ai/en/blog/category/product"
+        "https://www.marketmuse.com/content-strategy-ai/",
+        "https://help.marketmuse.com/support/solutions/articles/80001167720-how-to-read-a-marketmuse-content-plan"
       ],
-      "userValue": "Active transcription and meeting-workflow platform for live and uploaded audio/video, multilingual notes, summaries and searchable meeting records.",
-      "description": "AI transcription and meeting platform for multilingual notes, summaries and searchable conversation records.",
-      "useCase": "For teams that need cross-language transcription and structured meeting documentation from live calls or uploaded media."
+      "userValue": "AI-assisted content strategy and optimization platform for topic authority, competitive analysis, content planning, briefs and large-library editorial decisions.",
+      "category": "SEO & content strategy",
+      "description": "AI content-strategy platform for topic authority, competitive analysis, planning, briefs and optimization.",
+      "useCase": "For content organizations managing large libraries that need prioritized topic plans and differentiated search-focused briefs."
     },
     {
-      "name": "Supernormal",
-      "officialUrl": "https://www.supernormal.com/",
+      "name": "Predis.ai",
+      "officialUrl": "https://predis.ai/",
       "evidenceUrls": [
-        "https://www.supernormal.com/",
-        "https://www.supernormal.com/blog"
+        "https://predis.ai/ai-for-social-media/",
+        "https://predis.ai/features/social-media-scheduler/",
+        "https://predis.ai/auto-post/"
       ],
-      "userValue": "Supernormal's current product has expanded from meeting notes into an AI-agent workspace for agencies that turns client conversations into presentations, documents, visuals and other deliverables.",
-      "category": "Agency workflows",
-      "description": "AI-agent workspace for agencies that turns meeting context into client-ready documents, slides and other deliverables.",
-      "useCase": "For agencies that want client calls and meeting notes transformed directly into briefs, proposals, decks, visuals and follow-up work."
+      "userValue": "AI social-media production and scheduling platform that generates brand-aligned posts, reels, carousels, captions and can publish them automatically across major channels.",
+      "description": "AI social-media platform for generating, scheduling and auto-publishing posts, reels, carousels and captions.",
+      "useCase": "For brands and small teams that want one workflow from social-content ideation and generation through scheduling and publication."
     },
     {
-      "name": "Tactiq",
-      "officialUrl": "https://tactiq.io/",
+      "name": "Julius AI",
+      "officialUrl": "https://julius.ai/",
       "evidenceUrls": [
-        "https://tactiq.io/"
+        "https://julius.ai/product",
+        "https://julius.ai/product/chat-with-your-data",
+        "https://julius.ai/product/data-connectors"
       ],
-      "userValue": "Active AI note-taking and transcription product for Google Meet, Zoom and Teams, focused on live transcripts, summaries and lightweight post-meeting actions.",
-      "description": "AI meeting note taker for live transcripts, summaries and post-call workflows in common conferencing tools.",
-      "useCase": "For users who want browser-based live transcription and fast AI summaries without a complex meeting-intelligence platform."
+      "userValue": "Julius has expanded from conversational data analysis into a broader AI work environment for code-backed analytics, research, reports, presentations, websites and connected business data.",
+      "category": "Data & knowledge work",
+      "description": "AI workspace for code-backed data analysis, research, reports, presentations, websites and connected data sources.",
+      "useCase": "For business and research users who want to analyze data in natural language and turn findings directly into reports, decks, dashboards or web outputs."
     },
     {
-      "name": "Motion",
-      "officialUrl": "https://www.usemotion.com/",
+      "name": "Rows AI",
+      "officialUrl": "https://rows.com/ai",
       "evidenceUrls": [
-        "https://www.usemotion.com/",
-        "https://www.usemotion.com/blog/ai"
+        "https://rows.com/docs/using-the-rows-ai-analyst"
       ],
-      "userValue": "Motion's current product is a broad AI productivity platform combining project management, task prioritization, calendar scheduling, meeting notes, docs, workflows and search.",
-      "category": "Productivity",
-      "description": "AI productivity platform for projects, tasks, calendar scheduling, meeting notes, docs and workflows.",
-      "useCase": "For individuals and teams that want priorities, projects and calendars continuously planned and coordinated by one AI-assisted work system."
+      "userValue": "AI Analyst embedded in the Rows spreadsheet for natural-language analysis, spreadsheet building and iterative data work with recoverable checkpoints.",
+      "description": "AI spreadsheet analyst for natural-language analysis, spreadsheet building and tabular data workflows.",
+      "useCase": "For spreadsheet users who want conversational help analyzing data and building structured work directly inside a collaborative sheet."
     }
   ],
   "update": [],
   "supersede": [
     {
-      "name": "Topaz Video AI",
-      "newName": "Topaz Video",
-      "url": "https://www.topazlabs.com/topaz-video",
-      "category": "Video enhancement",
-      "description": "AI video-enhancement application for local and cloud upscaling, denoising, stabilization, interpolation and restoration workflows.",
-      "useCase": "For filmmakers and editors improving existing footage quality with specialized enhancement models rather than generating entirely new scenes.",
+      "name": "Superhuman",
+      "newName": "Superhuman Mail",
+      "url": "https://superhuman.com/mail",
+      "category": "Productivity",
+      "description": "AI-native email application for Gmail and Outlook with inbox automation, drafting, collaboration, workflows and MCP access.",
+      "useCase": "For high-volume email users and teams that want fast inbox workflows plus AI agents that can triage, draft, follow up and connect email to external assistants.",
       "pricing": "Paid",
-      "firstTrackedAt": "2026-09-20T21:15:00Z",
+      "firstTrackedAt": "2026-09-21T00:00:00Z",
       "oldEvidenceUrls": [
-        "https://www.topazlabs.com/topaz-video-ai"
+        "https://help.superhuman.com/hc/en-us/articles/46005755069197-Superhuman-Suite"
       ],
       "newEvidenceUrls": [
-        "https://www.topazlabs.com/topaz-video"
+        "https://superhuman.com/mail",
+        "https://help.superhuman.com/hc/en-us/articles/46005755069197-Superhuman-Suite",
+        "https://help.superhuman.com/hc/en-us/articles/47980509830157-Set-Up-the-Superhuman-Mail-MCP"
       ],
-      "reason": "Topaz Labs now presents the product as Topaz Video and the former Topaz Video AI URL redirects to the current Topaz Video product page.",
-      "userValue": "Topaz Video is the current Topaz Labs product for AI-assisted video enhancement, restoration and upscaling."
+      "reason": "The former Superhuman email app is now officially named Superhuman Mail after Grammarly's parent company adopted the Superhuman corporate name. Keeping the generic Superhuman product name would confuse the email product with the broader Superhuman suite.",
+      "userValue": "Superhuman Mail is the current identity of the AI-native email product, with automation, drafting, team collaboration and external AI/MCP workflows."
     }
   ],
   "mergeInto": [],
