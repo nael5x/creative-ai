@@ -2525,6 +2525,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Keyword Insights",
+      "officialUrl": "https://www.keywordinsights.ai/",
+      "evidenceUrls": [
+        "https://www.keywordinsights.ai/features/keyword-clustering/",
+        "https://changelog.keywordinsights.ai/",
+        "https://changelog.keywordinsights.ai/custom-content-brief-support-for-ai-writer-agent-and-improvements-to-keyword/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed SEO research platform for SERP-based keyword clustering, topical planning, content briefs and AI Writer Agent workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Khanmigo",
       "officialUrl": "https://www.khanmigo.ai/",
       "evidenceUrls": [
@@ -2653,6 +2665,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Active multilingual AI editing assistant for grammar, spelling, punctuation, style, tone and paraphrasing across more than 30 languages.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Later AI",
+      "officialUrl": "https://later.com/",
+      "evidenceUrls": [
+        "https://later.com/blog/ai-social-media-management/",
+        "https://later.com/blog/best-ai-social-media-tools-2026/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Later's current AI features are embedded across its social workflow for ideation, captions, timing recommendations and analytics rather than existing as a standalone AI product page.",
       "decision": "accepted"
     },
     {
@@ -3154,6 +3177,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Ocoya",
+      "officialUrl": "https://www.ocoya.com/",
+      "evidenceUrls": [
+        "https://www.ocoya.com/",
+        "https://www.ocoya.com/features/mcp",
+        "https://help.ocoya.com/en/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI social-media platform for agent-assisted content creation, brand-aware campaigns, scheduling, workflows and authenticated MCP actions from external assistants.",
+      "decision": "accepted"
+    },
+    {
       "name": "Ollama",
       "officialUrl": "https://ollama.com/",
       "evidenceUrls": [
@@ -3236,6 +3271,16 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Conversational knowledge platform that captures meetings, transcribes speech, generates summaries and action items, searches past conversations and triggers downstream workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Outranking",
+      "officialUrl": "https://www.outranking.io/",
+      "evidenceUrls": [
+        "https://outranking.io/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI SEO content strategy and optimization platform for research, briefs, drafting and search-focused content workflows.",
       "decision": "accepted"
     },
     {
@@ -3442,6 +3487,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Publer AI Assist",
+      "officialUrl": "https://publer.com/features/ai-assist",
+      "evidenceUrls": [
+        "https://publer.com/features/ai-assist",
+        "https://publer.com/help/en/article/1n883h3/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Publer AI Assist remains actively supported with current text and image generation, brand-voice features and direct integration into Publer's social composer.",
+      "decision": "accepted"
+    },
+    {
       "name": "Pydantic AI",
       "officialUrl": "https://ai.pydantic.dev/",
       "evidenceUrls": [
@@ -3472,6 +3528,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Current QuillBot creativity and writing platform for paraphrasing, rewriting, grammar, summarization, drafting and broader AI-assisted content workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "RankIQ",
+      "officialUrl": "https://www.rankiq.com/",
+      "evidenceUrls": [
+        "https://www.rankiq.com/",
+        "https://www.rankiq.com/home-startup-2-2-2/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "RankIQ remains an active blogger-focused SEO product for keyword libraries and content optimization, now paired with the newer Aided content platform rather than fully replaced by it.",
       "decision": "accepted"
     },
     {
@@ -4077,6 +4144,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Taplio",
+      "officialUrl": "https://taplio.com/",
+      "evidenceUrls": [
+        "https://taplio.com/blog/ai-linkedin-content-calendar",
+        "https://taplio.com/blog/ai-tools-linkedin",
+        "https://taplio.com/blog/ai-linkedin-analytics"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Actively developed LinkedIn growth platform with AI content creation, analytics, scheduling, a LinkedIn MCP connector and agent-friendly workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Taskade",
       "officialUrl": "https://www.taskade.com/",
       "evidenceUrls": [
@@ -4172,6 +4251,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Current identity of Turbolearn AI with the same accounts and study workflows under the Turbo AI name.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Typefully",
+      "officialUrl": "https://typefully.com/",
+      "evidenceUrls": [
+        "https://typefully.com/",
+        "https://typefully.com/blog/our-ai-philosophy"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active collaborative social-writing and publishing workspace with AI that learns writing style, multi-platform scheduling, analytics, API, MCP and agent skills.",
       "decision": "accepted"
     },
     {
@@ -4280,6 +4370,18 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "Actively developed AI UI design workspace with controllable generation, deep-design mode, editable canvases and MCP handoff to coding agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Vista Social",
+      "officialUrl": "https://vistasocial.com/",
+      "evidenceUrls": [
+        "https://vistasocial.com/",
+        "https://vistasocial.com/insights/artificial-intelligence/",
+        "https://vistasocial.com/insights/ai-social-media-manager/"
+      ],
+      "reviewedAt": "2026-09-21",
+      "userValue": "Active AI-powered social-media command center with publishing, analytics, engagement, listening, AI knowledge and MCP-connected marketing workflows.",
       "decision": "accepted"
     },
     {
@@ -4792,11 +4894,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-21",
-  "lastQualityReviewBatch": "legacy-a-020",
+  "lastQualityReviewBatch": "legacy-a-021",
   "lastQualityReviewBatchSummary": {
     "accepted": 7,
-    "updated": 0,
-    "superseded": 1,
+    "updated": 2,
+    "superseded": 0,
     "merged": 0,
     "removed": 0
   }
