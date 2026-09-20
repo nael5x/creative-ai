@@ -1,240 +1,157 @@
 {
-  "batchId": "legacy-a-017",
+  "batchId": "legacy-a-018",
   "reviewedAt": "2026-09-21",
   "accept": [
     {
-      "name": "Reclaim AI",
-      "officialUrl": "https://reclaim.ai/",
+      "name": "Obviously AI",
+      "officialUrl": "https://www.obviously.ai/",
       "evidenceUrls": [
-        "https://help.reclaim.ai/en/articles/14846468-reclaim-ai-2-0-overview",
-        "https://help.reclaim.ai/en/articles/15265289-reclaim-2-0-claude-integration"
+        "https://www.obviously.ai/"
       ],
-      "userValue": "Active AI calendar and scheduling platform with background scheduling agents, previewable calendar optimization, MCP access and integrations with common work tools.",
-      "description": "AI calendar and scheduling platform with background agents, calendar optimization and MCP integrations.",
-      "useCase": "For busy individuals and teams that want priorities, habits, focus time and meetings automatically coordinated across connected calendars and work tools."
+      "userValue": "Active no-code predictive analytics platform for training, deploying and monitoring classification, regression and time-series models from structured business data.",
+      "description": "No-code predictive analytics platform for building, deploying and monitoring machine-learning models.",
+      "useCase": "For analysts and business teams that need predictive modeling and production scoring without writing a traditional data-science stack."
     },
     {
-      "name": "Shortwave",
-      "officialUrl": "https://www.shortwave.com/",
+      "name": "Hex",
+      "officialUrl": "https://hex.tech/",
       "evidenceUrls": [
-        "https://www.shortwave.com/blog/"
+        "https://learn.hex.tech/docs/explore-data/notebook-view/notebook-agent",
+        "https://hex.tech/"
       ],
-      "userValue": "Actively maintained AI email workspace for Gmail with conversational search, summaries, drafting, inbox organization and native automation integrations.",
-      "description": "AI email workspace for search, summaries, drafting, inbox organization and automation.",
-      "useCase": "For Gmail users and teams that want an AI assistant to search, summarize, draft and organize email while connecting inbox work to broader automations."
+      "userValue": "Collaborative analytics platform with notebook agents, SQL/Python workflows, governed data context and interactive reporting for data teams.",
+      "description": "Collaborative analytics workspace with AI notebook agents, SQL, Python and interactive data apps.",
+      "useCase": "For data teams combining exploratory analysis, code, governed warehouse context and shareable analytics in one workspace."
     },
     {
-      "name": "Zendesk AI",
-      "officialUrl": "https://www.zendesk.com/ai/",
+      "name": "ThoughtSpot",
+      "officialUrl": "https://www.thoughtspot.com/",
       "evidenceUrls": [
-        "https://support.zendesk.com/hc/en-us/articles/10487730059034-Announcing-expanded-access-to-AI-agent-capabilities-for-all-Zendesk-customers",
-        "https://www.zendesk.com/newsroom/press-releases/zendesk-introduces-specialized-ai-agents-purpose-built-for-your-business/",
-        "https://www.zendesk.com/newsroom/press-releases/relate-2026/"
+        "https://www.thoughtspot.com/product/agents",
+        "https://www.thoughtspot.com/press-releases/thoughtspot-introduces-spotter-semantics-to-bring-trust-and-context-to-enterprise-ai"
       ],
-      "userValue": "Zendesk's current agentic service layer with specialized AI agents, agent builder, omnichannel automation, copilots and governed resolution workflows.",
-      "category": "Customer service AI",
-      "description": "Agentic customer-service platform with specialized AI agents, agent builder, copilots and omnichannel resolution workflows.",
-      "useCase": "For organizations using Zendesk that want AI agents to resolve customer and employee service work across connected systems."
+      "userValue": "Current agentic analytics platform with Spotter and specialized analytics agents grounded in governed enterprise semantics and natural-language business intelligence.",
+      "category": "Agentic analytics",
+      "description": "Agentic analytics platform with governed AI analysts and specialized agents over enterprise data.",
+      "useCase": "For organizations that want conversational, explainable analytics and AI agents operating on trusted business semantics."
     },
     {
-      "name": "Sierra",
-      "officialUrl": "https://sierra.ai/",
+      "name": "H2O.ai",
+      "officialUrl": "https://h2o.ai/",
       "evidenceUrls": [
-        "https://sierra.ai/blog/better-customer-experiences-built-on-sierra"
+        "https://h2o.ai/",
+        "https://h2o.ai/blog/2026/h2oai-recognized-as-a-visionary-in-2026-gartner-magic-quadrant/"
       ],
-      "userValue": "Active enterprise AI-agent platform for customer experience, enabling brand-specific agents to resolve requests and execute business actions across complex workflows.",
-      "description": "Enterprise AI-agent platform for customer experience and brand-specific service workflows.",
-      "useCase": "For large organizations deploying customer-facing agents that need to reason over company knowledge and take actions across business systems."
+      "userValue": "Enterprise AI platform spanning predictive modeling, generative AI, agentic workflows and sovereign on-premises or air-gapped deployment.",
+      "category": "Enterprise AI",
+      "description": "Enterprise AI platform for predictive, generative and agentic workloads with sovereign deployment options.",
+      "useCase": "For technical organizations building and operating predictive models, private generative AI and governed agents in cloud, on-premises or air-gapped environments."
     },
     {
-      "name": "PolyAI",
-      "officialUrl": "https://poly.ai/",
+      "name": "Vanna AI",
+      "officialUrl": "https://vanna.ai/",
       "evidenceUrls": [
-        "https://poly.ai/",
-        "https://poly.ai/blog/agentic-dialog-platform-open-to-builders",
-        "https://poly.ai/blog/wren-agent-improves-dialog-agents"
+        "https://vanna.ai/docs",
+        "https://vanna.ai/docs/configure"
       ],
-      "userValue": "Active Agentic Dialog Platform for building, operating, governing and continuously improving enterprise-grade voice and multimodal customer agents.",
-      "category": "Conversational AI",
-      "description": "Agentic Dialog Platform for building, running and governing enterprise voice and customer-conversation agents.",
-      "useCase": "For enterprises automating complex customer conversations across voice and other channels with dialog-native agents and governance."
+      "userValue": "Vanna 2.0 is a user-aware AI agent framework that connects LLMs to databases with SQL tools, charts, permissions and learned tool memory.",
+      "category": "Data agents",
+      "description": "User-aware AI agent framework for connecting LLMs to databases with SQL tools, permissions and learned tool memory.",
+      "useCase": "For developers building conversational data agents that need secure database access, text-to-SQL behavior and reusable business logic."
     },
     {
-      "name": "Parloa",
-      "officialUrl": "https://www.parloa.com/",
+      "name": "Polymer",
+      "officialUrl": "https://www.polymersearch.com/",
       "evidenceUrls": [
-        "https://www.parloa.com/parloa-in-the-press/parloa-navigator-and-parloa-lens-launch-to-connect-building-reliable-ai-agents-and-trusting-them-at-scale/"
+        "https://www.polymersearch.com/"
       ],
-      "userValue": "Enterprise AI Agent Management Platform for building, operating, monitoring and improving customer-experience agents at scale.",
-      "category": "Conversational AI",
-      "description": "Enterprise AI Agent Management Platform for building, monitoring and improving customer-experience agents.",
-      "useCase": "For enterprises deploying conversational AI agents that need production observability, evaluation, governance and continuous optimization."
+      "userValue": "AI-powered embedded analytics platform for adding white-labeled dashboards, self-service exploration and automated data storytelling directly inside products.",
+      "category": "Embedded analytics",
+      "description": "AI-powered embedded analytics platform for white-labeled dashboards, self-service exploration and in-product data storytelling.",
+      "useCase": "For software teams that want to add customer-facing analytics to their own product through APIs and embedded components."
     },
     {
-      "name": "Voiceflow",
-      "officialUrl": "https://www.voiceflow.com/",
+      "name": "Powerdrill AI",
+      "officialUrl": "https://powerdrill.ai/",
       "evidenceUrls": [
-        "https://www.voiceflow.com/stories/everything-we-launched-v4"
+        "https://powerdrill.ai/",
+        "https://powerdrill.ai/blog/data-insights"
       ],
-      "userValue": "Actively developed enterprise AI customer-experience framework for designing, testing, deploying and iterating agentic chat and voice experiences.",
-      "category": "Conversational AI",
-      "description": "Enterprise framework for designing, deploying and managing agentic customer experiences across chat and voice.",
-      "useCase": "For product and CX teams that want collaborative control over customer-facing agents from development through production measurement."
+      "userValue": "Powerdrill Bloom is the current AI data-analysis workspace with memory, scheduled agents, open-data research and recurring analytical workflows.",
+      "category": "Data & research",
+      "description": "AI data-analysis workspace with memory, scheduled agents and research-oriented analytical workflows.",
+      "useCase": "For analysts and researchers who want conversational data exploration plus recurring agents that remember context across analyses."
     },
     {
-      "name": "Landbot",
-      "officialUrl": "https://landbot.io/",
+      "name": "Khanmigo",
+      "officialUrl": "https://www.khanmigo.ai/",
       "evidenceUrls": [
-        "https://landbot.io/blog",
-        "https://landbot.io/blog/how-to-build-ai-agent"
+        "https://www.khanmigo.ai/",
+        "https://www.khanacademy.org/khan-labs",
+        "https://www.khanmigo.ai/teachers"
       ],
-      "userValue": "Active no-code conversational and lead-generation platform for website and WhatsApp experiences, including AI-agent blocks, knowledge and workflow automation.",
-      "category": "Conversational AI",
-      "description": "No-code conversational platform for website and WhatsApp chatbots, AI agents and lead-generation workflows.",
-      "useCase": "For marketing, sales and support teams building guided or AI-driven customer conversations without a custom application."
+      "userValue": "Khan Academy's active AI teaching assistant and tutor, grounded in Khan Academy content and designed around guided learning rather than direct answer delivery.",
+      "description": "Khan Academy AI teaching assistant and guided tutor for educators and learners.",
+      "useCase": "For teachers who want planning and classroom support, and learners who want guided tutoring connected to Khan Academy content."
     },
     {
-      "name": "Gorgias AI",
-      "officialUrl": "https://www.gorgias.com/ai",
+      "name": "StudyFetch",
+      "officialUrl": "https://www.studyfetch.com/",
       "evidenceUrls": [
-        "https://www.gorgias.com/ai-agent",
-        "https://docs.gorgias.com/en-US/ai-agent-explained-497772",
-        "https://docs.gorgias.com/en-US/articles/ai-agent-and-automations-135134"
+        "https://www.studyfetch.com/",
+        "https://www.studyfetch.com/blog/studyfetch-the-ultimate-tool-you-need-to-succeed"
       ],
-      "userValue": "Ecommerce-specific AI Agent for sales and support that uses store context and integrations to answer questions, recommend products and execute post-purchase actions.",
-      "description": "Ecommerce AI Agent for support, shopping assistance and actions across connected commerce tools.",
-      "useCase": "For ecommerce brands that want one agent to answer questions, sell products and resolve order-related work using live store data."
+      "userValue": "AI study platform that converts lectures, notes, PDFs and videos into notes, flashcards, practice tests and tutoring through its Spark.E assistant.",
+      "description": "AI study platform for turning course materials into notes, flashcards, quizzes, practice tests and tutoring.",
+      "useCase": "For students who want uploaded class materials converted into interactive study resources and on-demand AI tutoring."
     },
     {
-      "name": "Maven AGI",
-      "officialUrl": "https://www.mavenagi.com/",
+      "name": "Knowt",
+      "officialUrl": "https://knowt.com/",
       "evidenceUrls": [
-        "https://www.mavenagi.com/product/agent-platform",
-        "https://www.mavenagi.com/solutions/customer-support",
-        "https://www.mavenagi.com/explore/state-of-ai-in-cx-2026"
+        "https://knowt.com/"
       ],
-      "userValue": "Enterprise AI-agent platform for autonomous customer support across chat, email, voice and web with shared reasoning, governance and enterprise knowledge.",
-      "description": "Enterprise AI-agent platform for autonomous customer support across chat, email, voice and web.",
-      "useCase": "For organizations that want a single governed reasoning layer to resolve customer-service issues across multiple channels."
+      "userValue": "Active AI study platform with lecture capture, PDF and video summarization, flashcards, quizzes, voice tutoring and standardized-exam practice.",
+      "description": "AI study platform for lecture notes, flashcards, quizzes, summaries, voice tutoring and exam preparation.",
+      "useCase": "For students who want one study workspace for active recall, lecture capture and AI-generated practice materials."
     },
     {
-      "name": "Gong",
-      "officialUrl": "https://www.gong.io/",
+      "name": "Mindgrasp",
+      "officialUrl": "https://www.mindgrasp.ai/",
       "evidenceUrls": [
-        "https://www.gong.io/blog/mission-big-dipper-revenue-ai-os",
-        "https://www.gong.io/blog/ai-agents-for-gtm-decision-making-and-execution-how-and-when-to-use-gong-assistant-ai-theme-spotter-and-ai-builder"
+        "https://www.mindgrasp.ai/"
       ],
-      "userValue": "Current Revenue AI OS combining revenue context, specialized and custom agents, conversation intelligence, enablement and governed execution across GTM workflows.",
-      "category": "Revenue AI",
-      "description": "Revenue AI operating system with agents, conversation intelligence, enablement and governed GTM execution.",
-      "useCase": "For revenue teams that want customer-conversation context, pipeline intelligence and AI agents connected to sales execution."
+      "userValue": "Active AI study system that transforms lectures, files and links into notes, summaries, flashcards, quizzes and a 24/7 tutor using active-learning workflows.",
+      "description": "AI study system for notes, summaries, flashcards, quizzes and tutoring from lectures and uploaded materials.",
+      "useCase": "For students and self-learners who want course materials automatically turned into structured active-recall study sessions."
     },
     {
-      "name": "Lavender",
-      "officialUrl": "https://www.lavender.ai/",
+      "name": "MagicSchool AI",
+      "officialUrl": "https://www.magicschool.ai/",
       "evidenceUrls": [
-        "https://lavender.ai/coach"
+        "https://www.magicschool.ai/magicschool",
+        "https://www.magicschool.ai/magicstudent",
+        "https://www.magicschool.ai/blog-posts/ai-teaching-tools-updates-2026"
       ],
-      "userValue": "Active AI sales-email coach that scores outbound messages, suggests improvements and personalization, and gives real-time coaching inside rep workflows.",
-      "description": "AI sales-email coach for message scoring, personalization and real-time outbound writing feedback.",
-      "useCase": "For sales reps and teams that want evidence-based feedback while drafting prospecting emails."
+      "userValue": "K-12 AI operating system for teacher planning, differentiation, assessment, communication and supervised student learning with classroom guardrails.",
+      "category": "Education",
+      "description": "K-12 AI platform for teacher workflows, supervised student learning and district-wide classroom governance.",
+      "useCase": "For educators and school systems that want education-specific AI tools with teacher oversight, student safety controls and district administration."
     },
     {
-      "name": "Regie.ai",
-      "officialUrl": "https://www.regie.ai/",
+      "name": "SchoolAI",
+      "officialUrl": "https://schoolai.com/",
       "evidenceUrls": [
-        "https://regie.ai/blog",
-        "https://regie.ai/blog/introducing-regie-one",
-        "https://regie.ai/blog/introducing-the-force-multiplier-rep-a-new-operating-model-for-modern-sales"
+        "https://schoolai.com/blog/new-features-2026-2027",
+        "https://schoolai.com/"
       ],
-      "userValue": "AI-native prospecting and sales-engagement platform where human sellers and AI agents share research, prioritization, messaging and outbound execution.",
-      "category": "Sales",
-      "description": "AI-native prospecting and sales-engagement platform for human and agent-assisted outbound execution.",
-      "useCase": "For sales teams that want AI agents to handle prospect research and repetitive outreach work while reps retain control of high-value interactions."
-    },
-    {
-      "name": "Surfer",
-      "officialUrl": "https://surferseo.com/",
-      "evidenceUrls": [
-        "https://surferseo.com/blog/release-notes/",
-        "https://surferseo.com/blog/whats-new-at-surfer-august-2026-product-roundup/"
-      ],
-      "userValue": "Current AI visibility platform spanning SEO and generative-engine optimization with content scoring, AI-search tracking, recommendations, agent workflows and MCP access.",
-      "category": "SEO & AI visibility",
-      "description": "AI visibility platform for SEO, GEO, content optimization, AI-search tracking and agent workflows.",
-      "useCase": "For content and growth teams optimizing pages both for search rankings and citation visibility inside AI answer engines."
-    },
-    {
-      "name": "MarketMuse",
-      "officialUrl": "https://www.marketmuse.com/",
-      "evidenceUrls": [
-        "https://www.marketmuse.com/content-strategy-ai/",
-        "https://help.marketmuse.com/support/solutions/articles/80001167720-how-to-read-a-marketmuse-content-plan"
-      ],
-      "userValue": "AI-assisted content strategy and optimization platform for topic authority, competitive analysis, content planning, briefs and large-library editorial decisions.",
-      "category": "SEO & content strategy",
-      "description": "AI content-strategy platform for topic authority, competitive analysis, planning, briefs and optimization.",
-      "useCase": "For content organizations managing large libraries that need prioritized topic plans and differentiated search-focused briefs."
-    },
-    {
-      "name": "Predis.ai",
-      "officialUrl": "https://predis.ai/",
-      "evidenceUrls": [
-        "https://predis.ai/ai-for-social-media/",
-        "https://predis.ai/features/social-media-scheduler/",
-        "https://predis.ai/auto-post/"
-      ],
-      "userValue": "AI social-media production and scheduling platform that generates brand-aligned posts, reels, carousels, captions and can publish them automatically across major channels.",
-      "description": "AI social-media platform for generating, scheduling and auto-publishing posts, reels, carousels and captions.",
-      "useCase": "For brands and small teams that want one workflow from social-content ideation and generation through scheduling and publication."
-    },
-    {
-      "name": "Julius AI",
-      "officialUrl": "https://julius.ai/",
-      "evidenceUrls": [
-        "https://julius.ai/product",
-        "https://julius.ai/product/chat-with-your-data",
-        "https://julius.ai/product/data-connectors"
-      ],
-      "userValue": "Julius has expanded from conversational data analysis into a broader AI work environment for code-backed analytics, research, reports, presentations, websites and connected business data.",
-      "category": "Data & knowledge work",
-      "description": "AI workspace for code-backed data analysis, research, reports, presentations, websites and connected data sources.",
-      "useCase": "For business and research users who want to analyze data in natural language and turn findings directly into reports, decks, dashboards or web outputs."
-    },
-    {
-      "name": "Rows AI",
-      "officialUrl": "https://rows.com/ai",
-      "evidenceUrls": [
-        "https://rows.com/docs/using-the-rows-ai-analyst"
-      ],
-      "userValue": "AI Analyst embedded in the Rows spreadsheet for natural-language analysis, spreadsheet building and iterative data work with recoverable checkpoints.",
-      "description": "AI spreadsheet analyst for natural-language analysis, spreadsheet building and tabular data workflows.",
-      "useCase": "For spreadsheet users who want conversational help analyzing data and building structured work directly inside a collaborative sheet."
+      "userValue": "Active classroom AI platform with teacher-guided student spaces, district controls, learning insights and personal tutoring experiences designed for schools.",
+      "description": "Classroom AI platform with teacher-guided student spaces, district controls, learning insights and tutoring.",
+      "useCase": "For K-12 schools that want supervised AI activities, teacher visibility and district-level controls around student use."
     }
   ],
   "update": [],
-  "supersede": [
-    {
-      "name": "Superhuman",
-      "newName": "Superhuman Mail",
-      "url": "https://superhuman.com/mail",
-      "category": "Productivity",
-      "description": "AI-native email application for Gmail and Outlook with inbox automation, drafting, collaboration, workflows and MCP access.",
-      "useCase": "For high-volume email users and teams that want fast inbox workflows plus AI agents that can triage, draft, follow up and connect email to external assistants.",
-      "pricing": "Paid",
-      "firstTrackedAt": "2026-09-21T00:00:00Z",
-      "oldEvidenceUrls": [
-        "https://help.superhuman.com/hc/en-us/articles/46005755069197-Superhuman-Suite"
-      ],
-      "newEvidenceUrls": [
-        "https://superhuman.com/mail",
-        "https://help.superhuman.com/hc/en-us/articles/46005755069197-Superhuman-Suite",
-        "https://help.superhuman.com/hc/en-us/articles/47980509830157-Set-Up-the-Superhuman-Mail-MCP"
-      ],
-      "reason": "The former Superhuman email app is now officially named Superhuman Mail after Grammarly's parent company adopted the Superhuman corporate name. Keeping the generic Superhuman product name would confuse the email product with the broader Superhuman suite.",
-      "userValue": "Superhuman Mail is the current identity of the AI-native email product, with automation, drafting, team collaboration and external AI/MCP workflows."
-    }
-  ],
+  "supersede": [],
   "mergeInto": [],
   "remove": []
 }
