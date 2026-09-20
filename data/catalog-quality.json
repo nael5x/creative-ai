@@ -2139,6 +2139,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Humata",
+      "officialUrl": "https://www.humata.ai/",
+      "evidenceUrls": [
+        "https://www.humata.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Document-grounded AI workspace for asking questions across uploaded files, generating summaries, comparing documents and returning source-linked answers.",
+      "decision": "accepted"
+    },
+    {
       "name": "Ideogram",
       "officialUrl": "https://ideogram.ai/",
       "evidenceUrls": [
@@ -2168,6 +2178,28 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Open-source local-first desktop AI assistant for running models under user control.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jasper",
+      "officialUrl": "https://www.jasper.ai/",
+      "evidenceUrls": [
+        "https://www.jasper.ai/platform",
+        "https://www.jasper.ai/state-of-ai-marketing-2026"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Enterprise AI marketing platform for agent execution, governed content pipelines, brand context, AI-search visibility and repeatable campaign operations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "JetBrains AI Assistant",
+      "officialUrl": "https://www.jetbrains.com/ai/",
+      "evidenceUrls": [
+        "https://www.jetbrains.com/help/ai-assistant/about-ai-assistant.html",
+        "https://www.jetbrains.com/help/ai-assistant/activation-scenarios.html"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "JetBrains-native AI Assistant for contextual code chat, in-editor assistance and multi-step coding agents across supported IDEs.",
       "decision": "accepted"
     },
     {
@@ -2479,6 +2511,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Photoroom",
+      "officialUrl": "https://www.photoroom.com/",
+      "evidenceUrls": [
+        "https://www.photoroom.com/",
+        "https://www.photoroom.com/inside-photoroom/new-in-photoroom-h1-2026-product-recap",
+        "https://www.photoroom.com/inside-photoroom/photoroom-launches-visual-agents-to-generate-check-and-fix-product-visuals-so-enterprises-no-longer-have-to-build-their-own-ai-stack"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI product-visual platform for ecommerce image generation, editing, batch workflows, APIs and enterprise visual agents focused on product fidelity.",
+      "decision": "accepted"
+    },
+    {
       "name": "Pika",
       "officialUrl": "https://pika.art/",
       "evidenceUrls": [
@@ -2541,6 +2585,28 @@
       "decision": "accepted"
     },
     {
+      "name": "Qodo",
+      "officialUrl": "https://www.qodo.ai/",
+      "evidenceUrls": [
+        "https://www.qodo.ai/ai-code-review-platform/",
+        "https://www.qodo.ai/blog/gpt-5-6-more-precise-and-efficient-code-review/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Purpose-built AI code review and governance platform focused on independent, context-aware review, standards enforcement and software-quality controls.",
+      "decision": "accepted"
+    },
+    {
+      "name": "QuillBot",
+      "officialUrl": "https://quillbot.com/",
+      "evidenceUrls": [
+        "https://quillbot.com/blog/inklings/quillbot-does-that/",
+        "https://quillbot.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Current QuillBot creativity and writing platform for paraphrasing, rewriting, grammar, summarization, drafting and broader AI-assisted content workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Recall",
       "officialUrl": "https://www.recall.it/",
       "evidenceUrls": [
@@ -2548,6 +2614,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active personal knowledge and summarization product on Recall's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Recraft",
+      "officialUrl": "https://www.recraft.ai/",
+      "evidenceUrls": [
+        "https://www.recraft.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Current AI design and image platform with actively maintained Recraft models, studio tools and API access for designer-oriented asset generation.",
       "decision": "accepted"
     },
     {
@@ -2612,6 +2688,26 @@
       "decision": "accepted"
     },
     {
+      "name": "Rytr",
+      "officialUrl": "https://rytr.me/",
+      "evidenceUrls": [
+        "https://rytr.me/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Lightweight AI writing assistant for short-form copy, rewriting, tone matching, grammar improvement and reusable marketing or business writing workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Scholarcy",
+      "officialUrl": "https://www.scholarcy.com/",
+      "evidenceUrls": [
+        "https://www.scholarcy.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Academic reading assistant that summarizes papers, highlights findings, supports critical reading and organizes research into reusable structured notes.",
+      "decision": "accepted"
+    },
+    {
       "name": "SciSpace",
       "officialUrl": "https://scispace.com/",
       "evidenceUrls": [
@@ -2620,6 +2716,17 @@
       ],
       "reviewedAt": "2026-09-20",
       "userValue": "AI research workspace and agent ecosystem for literature search, reviews, PDF analysis, writing, data extraction and scientific workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "scite",
+      "officialUrl": "https://scite.ai/",
+      "evidenceUrls": [
+        "https://scite.ai/blog/may-2026-release-notes",
+        "https://scite.ai/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI-powered research platform for literature discovery and evaluation using Smart Citations, document-aware assistant workflows and current scholarly data.",
       "decision": "accepted"
     },
     {
@@ -2719,6 +2826,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Tabnine",
+      "officialUrl": "https://www.tabnine.com/",
+      "evidenceUrls": [
+        "https://www.tabnine.com/",
+        "https://www.tabnine.com/blog/category/product-news/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Enterprise AI coding platform and context engine for IDE and CLI workflows; it remains an active Tabnine product after its July 2026 acquisition by Tricentis.",
+      "decision": "accepted"
+    },
+    {
       "name": "Telex",
       "officialUrl": "https://telex.automattic.ai/",
       "evidenceUrls": [
@@ -2806,6 +2924,17 @@
       "supersedes": "Le Chat"
     },
     {
+      "name": "Webflow AI",
+      "officialUrl": "https://webflow.com/ai",
+      "evidenceUrls": [
+        "https://webflow.com/ai",
+        "https://help.webflow.com/hc/en-us/articles/34297897805715-Webflow-AI-overview"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "Webflow's AI-native site-building and optimization layer for generating sites, sections, code components, content, CMS data and SEO/AEO improvements.",
+      "decision": "accepted"
+    },
+    {
       "name": "WellSaid Labs",
       "officialUrl": "https://www.wellsaid.io/",
       "evidenceUrls": [
@@ -2813,6 +2942,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI voice platform on WellSaid's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Wordtune",
+      "officialUrl": "https://www.wordtune.com/",
+      "evidenceUrls": [
+        "https://www.wordtune.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI reading and writing assistant for contextual rewriting, proofreading, tone control, translation, continuation and document or webpage summarization.",
       "decision": "accepted"
     },
     {
@@ -2834,6 +2973,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active SEO research, clustering and AI-assisted content platform; the prior shutdown flag was a false positive from page text, not a product shutdown notice.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Writesonic",
+      "officialUrl": "https://writesonic.com/",
+      "evidenceUrls": [
+        "https://writesonic.com/"
+      ],
+      "reviewedAt": "2026-09-20",
+      "userValue": "AI search growth platform that monitors brand visibility across answer engines, identifies gaps and executes content, citation and technical fixes with agents.",
       "decision": "accepted"
     },
     {
@@ -3135,11 +3284,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-09-20",
-  "lastQualityReviewBatch": "legacy-a-010",
+  "lastQualityReviewBatch": "legacy-a-011",
   "lastQualityReviewBatchSummary": {
-    "accepted": 17,
+    "accepted": 14,
     "updated": 0,
-    "superseded": 2,
+    "superseded": 0,
     "merged": 0,
     "removed": 0
   }

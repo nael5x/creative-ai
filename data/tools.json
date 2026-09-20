@@ -482,48 +482,48 @@
   [
     "scite",
     "Research",
-    "Research platform centered on Smart Citations and scientific literature evaluation.",
-    "For checking how papers are cited and evaluating support or contrast around research claims.",
+    "AI research platform for discovering and evaluating scientific literature with Smart Citations and document-aware assistance.",
+    "For researchers who want to see how papers are cited, organize literature and evaluate whether evidence supports or contrasts with claims.",
     "Paid",
     "https://scite.ai/"
   ],
   [
     "Humata",
     "Learn from your files",
-    "AI workspace for asking questions about documents and summarizing uploaded files.",
-    "For quickly extracting answers and summaries from PDFs and other documents.",
+    "Document-grounded AI workspace for querying, summarizing and comparing uploaded files with source-linked answers.",
+    "For teams and individuals who need fast answers from PDFs and internal documents while retaining citations back to the source material.",
     "Free tier / Paid",
     "https://www.humata.ai/"
   ],
   [
     "Scholarcy",
     "Learn from your files",
-    "AI reading assistant that summarizes papers, articles and documents into structured highlights.",
-    "For turning dense academic or professional reading into faster review notes.",
+    "AI academic reading assistant for summarizing, analyzing and organizing papers and other research documents.",
+    "For students and researchers who want structured summaries, key findings, notes and faster comparison across dense academic sources.",
     "Free tier / Paid",
     "https://www.scholarcy.com/"
   ],
   [
     "QuillBot",
     "Writing",
-    "AI writing suite for paraphrasing, grammar, summarization and rewriting.",
-    "For revising drafts and quickly changing wording or tone.",
+    "AI writing and creativity platform for paraphrasing, rewriting, grammar, summarization and drafting.",
+    "For users who want fast rewriting, polishing and drafting support while keeping direct control over wording and tone.",
     "Free tier / Paid",
     "https://quillbot.com/"
   ],
   [
     "Wordtune",
     "Writing",
-    "AI writing assistant for rewriting, tone changes and drafting support.",
-    "For polishing everyday writing while preserving the user's intended meaning.",
+    "AI reading and writing assistant for rewriting, proofreading, tone control, translation and summarization.",
+    "For professionals, students and everyday writers who want to improve wording while preserving intended meaning and style.",
     "Free tier / Paid",
     "https://www.wordtune.com/"
   ],
   [
     "Jasper",
-    "Writing",
-    "AI content platform for marketing teams, brand workflows and campaign production.",
-    "For businesses producing repeatable marketing content with brand controls.",
+    "Marketing",
+    "Enterprise AI marketing platform for governed agents, content pipelines, brand context and AI-search workflows.",
+    "For marketing teams that need repeatable, brand-governed AI workflows across research, campaign creation, optimization and AI-search visibility.",
     "Paid",
     "https://www.jasper.ai/"
   ],
@@ -537,17 +537,17 @@
   ],
   [
     "Writesonic",
-    "Writing",
-    "AI content and marketing platform with writing, search and optimization tools.",
-    "For marketers producing articles, campaign copy and search-focused content.",
+    "SEO & marketing",
+    "AI search growth platform for visibility tracking, GEO/AEO analysis and agent-driven content and citation work.",
+    "For marketing and growth teams trying to improve how their brand appears across ChatGPT, Claude, Gemini, Google and other AI-search surfaces.",
     "Free tier / Paid",
     "https://writesonic.com/"
   ],
   [
     "Rytr",
     "Writing",
-    "AI writing assistant for short-form copy, drafts and rewriting.",
-    "For quickly producing lightweight marketing or everyday written content.",
+    "AI writing assistant for short-form copy, rewriting, tone matching and everyday content tasks.",
+    "For individuals and small teams that want inexpensive, fast support for emails, captions, marketing copy and routine rewriting.",
     "Free tier / Paid",
     "https://rytr.me/"
   ],
@@ -570,16 +570,16 @@
   [
     "Tabnine",
     "Coding",
-    "AI coding assistant for code completion, chat and enterprise development workflows.",
-    "For teams that want AI help inside existing IDEs with enterprise controls.",
+    "Enterprise AI coding platform and context engine for IDE, CLI and agentic software-development workflows.",
+    "For engineering organizations that want coding assistance and enterprise context with strong controls over privacy, governance and deployment.",
     "Free tier / Paid",
     "https://www.tabnine.com/"
   ],
   [
     "Qodo",
     "Coding",
-    "AI coding platform focused on code generation, review, testing and software quality.",
-    "For developers who want assistance across writing, testing and reviewing code.",
+    "AI code review and governance platform for context-aware review, standards enforcement and software-quality workflows.",
+    "For teams that want an independent review layer for AI- or human-written code before changes reach production.",
     "Free tier / Paid",
     "https://www.qodo.ai/"
   ],
@@ -594,8 +594,8 @@
   [
     "JetBrains AI Assistant",
     "Coding",
-    "AI assistant integrated into JetBrains IDEs for code, explanations and development tasks.",
-    "For developers who already work primarily inside JetBrains editors.",
+    "JetBrains-native AI assistant for contextual code chat, in-editor assistance and coding agents.",
+    "For developers working in JetBrains IDEs who want AI chat, edits and multi-step agent workflows integrated directly with project context.",
     "Free tier / Paid",
     "https://www.jetbrains.com/ai/"
   ],
@@ -634,24 +634,24 @@
   [
     "Webflow AI",
     "Web UI",
-    "AI features for generating and refining websites inside Webflow.",
-    "For teams that want AI assistance within a visual production website workflow.",
+    "AI-native site-building and optimization features inside Webflow for design, content, code and SEO/AEO workflows.",
+    "For teams that want AI help building and improving production websites while retaining visual editing, governance and Webflow's hosting stack.",
     "Free tier / Paid",
     "https://webflow.com/ai"
   ],
   [
     "Recraft",
     "Images & design",
-    "AI design and image generation platform for illustrations, vectors, icons and brand assets.",
-    "For designers who need editable visual assets rather than only standalone images.",
+    "AI design and image platform for generated visuals, illustrations, vectors, icons and brand-ready assets.",
+    "For designers and teams that need editable, art-directed visual assets rather than only standalone raster images.",
     "Free tier / Paid",
     "https://www.recraft.ai/"
   ],
   [
     "Photoroom",
     "Images & design",
-    "AI photo editor for backgrounds, product images and commercial visual cleanup.",
-    "For ecommerce and product photography workflows that need fast background and scene editing.",
+    "AI product-visual platform for ecommerce image generation, editing, batch workflows, APIs and visual agents.",
+    "For ecommerce teams that need scalable product photography, background work, catalog image generation and automated visual production.",
     "Free tier / Paid",
     "https://www.photoroom.com/"
   ],
