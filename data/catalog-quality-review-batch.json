@@ -1,97 +1,73 @@
 {
-  "batchId": "legacy-a-024",
+  "batchId": "legacy-a-025",
   "reviewedAt": "2026-09-21",
   "accept": [
     {
-      "name": "Lokalise AI",
-      "officialUrl": "https://lokalise.com/ai/",
+      "name": "Meshy",
+      "officialUrl": "https://www.meshy.ai/",
       "evidenceUrls": [
-        "https://lokalise.com/ai-statement/",
-        "https://docs.lokalise.com/en/collections/17223450-ai-features",
-        "https://lokalise.com/shipped-summer-2026/"
+        "https://www.meshy.ai/",
+        "https://docs.meshy.ai/en",
+        "https://docs.meshy.ai/en/webapp/changelog"
       ],
-      "userValue": "Active AI-enabled localization platform with automated translation, AI quality scoring, contextual suggestions, custom AI profiles and MCP-connected workflows.",
-      "description": "AI localization features inside Lokalise for translation, quality scoring, contextual suggestions and agent-connected workflows.",
-      "useCase": "For product and localization teams managing multilingual software and content with AI assistance grounded in glossaries, style guides and translation memory."
+      "userValue": "Actively developed end-to-end AI 3D creation platform for text, image and conversational generation, production-ready meshes, texturing, topology, rigging, animation, 3D printing and API workflows.",
+      "description": "End-to-end AI 3D creation platform for generation, texturing, topology, animation, printing and API workflows.",
+      "useCase": "For game, product, maker and 3D teams that want to move from references or prompts to editable production assets quickly."
     },
     {
-      "name": "Phrase",
-      "officialUrl": "https://phrase.com/",
+      "name": "Tripo AI",
+      "officialUrl": "https://www.tripo3d.ai/",
       "evidenceUrls": [
-        "https://phrase.com/product-launch-june-2026/"
+        "https://www.tripo3d.ai/",
+        "https://www.tripo3d.ai/help/getting-started/what-features-does-tripo-have",
+        "https://developers.tripo3d.ai/en/models/v3-1"
       ],
-      "userValue": "Active enterprise localization platform built for human-and-agent workflows, with AI translation, quality evaluation, APIs, MCP access and shared language assets.",
-      "description": "Enterprise localization platform for AI translation, quality evaluation, automation and human-agent workflows.",
-      "useCase": "For global product and content teams that need governed translation workflows with automation, language assets and agent integrations."
+      "userValue": "Active AI 3D modeling platform for text, single-image and multiview generation with high-detail or smart-mesh outputs, texturing, segmentation, retopology, rigging and animation.",
+      "description": "AI 3D platform for text/image generation, smart meshes, texturing, retopology, rigging and animation.",
+      "useCase": "For creators and studios that want production-oriented 3D assets for games, VFX, printing, ecommerce and interactive applications."
     },
     {
-      "name": "Smartcat",
-      "officialUrl": "https://www.smartcat.com/",
+      "name": "Spline AI",
+      "officialUrl": "https://spline.design/ai",
       "evidenceUrls": [
-        "https://www.smartcat.com/product-localization/",
-        "https://help.smartcat.com/how-smartcat-ai-chat-automates-and-scales-your-localization-workflows/",
-        "https://www.smartcat.com/news/"
+        "https://docs.spline.design/generate/ai-3d-generation",
+        "https://spline.design/ai"
       ],
-      "userValue": "Active AI global-content platform with adaptive localization agents, translation memory, expert review, integrations and multi-agent workflows for multilingual content operations.",
-      "description": "AI global-content and localization platform with adaptive agents, translation memory and expert-review workflows.",
-      "useCase": "For organizations translating product, marketing and business content at scale while combining AI automation with optional human review."
+      "userValue": "Active AI generation inside Spline for turning text and images into 3D assets that can be dropped directly into Spline's collaborative interactive design environment.",
+      "description": "AI-assisted 3D generation inside Spline's collaborative interactive design environment.",
+      "useCase": "For web and product designers who want generated 3D assets to remain editable inside an interactive scene and prototyping workflow."
     },
     {
-      "name": "Unbabel",
-      "officialUrl": "https://unbabel.com/",
+      "name": "Kaedim",
+      "officialUrl": "https://www.kaedim3d.com/",
       "evidenceUrls": [
-        "https://unbabel.com/press-and-media/",
-        "https://insights.unbabel.com/ai-translations-from-unbabel",
-        "https://help.unbabel.com/hc/en-us/articles/29736962824343-Translator-Copilot"
+        "https://www.kaedim3d.com/"
       ],
-      "userValue": "Active AI-powered language-operations platform combining machine translation, translation quality estimation and human review for enterprise multilingual workflows.",
-      "description": "AI language-operations platform combining translation automation, quality estimation and human review.",
-      "useCase": "For enterprise teams localizing customer, product and business communication while retaining quality-control and human-review options."
+      "userValue": "Active managed 3D production platform that turns briefs, sketches, references and product photos into inspectable studio-quality assets for games, product design and commercial CGI.",
+      "description": "Managed AI-assisted 3D production platform for converting briefs and references into studio-ready assets.",
+      "useCase": "For studios and brands that need scalable 3D asset production with quality control and human-in-the-loop refinement."
     },
     {
-      "name": "Rask AI",
-      "officialUrl": "https://www.rask.ai/",
+      "name": "Masterpiece X",
+      "officialUrl": "https://www.masterpiecex.com/",
       "evidenceUrls": [
-        "https://www.rask.ai/llm-info",
-        "https://www.rask.ai/enterprise",
-        "https://www.rask.ai/use-cases/media-and-entertainment"
+        "https://masterpiecex.com/pricing",
+        "https://app.masterpiecex.com/",
+        "https://masterpiecex.com/blog/generate-your-own-3d-asset-packs-with-masterpiece-x-generate-api"
       ],
-      "userValue": "Active video and audio localization platform for translation, AI dubbing, voice cloning, lip sync, subtitles and controlled multilingual production workflows.",
-      "description": "AI video and audio localization platform for translation, dubbing, voice cloning, lip sync and subtitles.",
-      "useCase": "For media, education and marketing teams turning one source video into controlled multilingual versions without re-recording."
+      "userValue": "Active generative 3D playground and API for rapid text- and image-driven asset prototyping, remixing and export to common 3D pipelines.",
+      "description": "Generative 3D platform for rapid asset prototyping, remixing and developer API workflows.",
+      "useCase": "For creators who want a low-friction way to explore and prototype 3D assets before deeper work in Blender, Unity, Unreal or other production tools."
     },
     {
-      "name": "Maestra",
-      "officialUrl": "https://maestra.ai/",
+      "name": "Hyper3D Rodin",
+      "officialUrl": "https://hyper3d.ai/",
       "evidenceUrls": [
-        "https://maestra.ai/"
+        "https://docs.hyper3d.ai/en/get-started/changelog"
       ],
-      "userValue": "Active media-localization platform for on-demand and real-time transcription, translation, subtitles, dubbing, voice cloning and live multilingual audio workflows.",
-      "description": "AI media-localization platform for transcription, translation, subtitles, dubbing and live multilingual audio.",
-      "useCase": "For teams localizing recorded or live audio and video into multilingual captions, transcripts and dubbed content."
-    },
-    {
-      "name": "Vozo",
-      "officialUrl": "https://www.vozo.ai/",
-      "evidenceUrls": [
-        "https://www.vozo.ai/",
-        "https://www.vozo.ai/about",
-        "https://www.vozo.ai/blogs/news/ai-pilot-rewrite-product-videos"
-      ],
-      "userValue": "Active AI video-localization platform for dubbing, lip sync, subtitles, voice preservation and on-screen text translation with editable production controls.",
-      "description": "AI video-localization platform for dubbing, lip sync, subtitles, voice preservation and visual text translation.",
-      "useCase": "For creators and global teams adapting existing videos across languages while retaining control over terminology, timing, voices and on-screen text."
-    },
-    {
-      "name": "Speechmatics",
-      "officialUrl": "https://www.speechmatics.com/",
-      "evidenceUrls": [
-        "https://www.speechmatics.com/",
-        "https://www.speechmatics.com/product/real-time"
-      ],
-      "userValue": "Active speech-AI platform providing real-time and batch speech recognition, multilingual transcription and voice-agent speech infrastructure through APIs.",
-      "description": "Speech-AI platform for real-time and batch transcription, multilingual recognition and voice-agent infrastructure.",
-      "useCase": "For developers and enterprises adding production speech-to-text and multilingual voice understanding to applications and media workflows."
+      "userValue": "Actively maintained Hyper3D Rodin model and API family for high-fidelity 3D generation, texturing and production-oriented geometry with current Gen-2.5 capabilities.",
+      "description": "High-fidelity AI 3D generation and texturing platform built around the Rodin model and API family.",
+      "useCase": "For developers and 3D teams that need high-quality generated geometry and textures through a web product or production API."
     }
   ],
   "update": [],
