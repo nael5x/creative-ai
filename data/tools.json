@@ -4926,5 +4926,13 @@
     "For SOC teams reducing repetitive triage and investigation work around security alerts.",
     "Paid",
     "https://www.dropzone.ai/"
+  ],
+  [
+    "PhotoGenerAI",
+    "Image generation",
+    "Browser-based AI photo generator and editor for text-to-image creation and editing of uploaded reference photos.",
+    "For users who want quick portrait styles, product photo concepts, and background or lighting changes without installing a desktop editor.",
+    "Free tier / Paid",
+    "https://photogenerai.com/"
   ]
 ]

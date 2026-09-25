@@ -870,7 +870,6 @@
       "userValue": "Active AI-agent security and governance platform; the audit timeout was a transient bot/network access failure rather than product unavailability.",
       "decision": "accepted"
     },
-
     {
       "name": "Booth AI",
       "officialUrl": "https://www.booth.ai/",
@@ -984,6 +983,18 @@
       "userValue": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename.",
       "decision": "rejected",
       "reason": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename."
+    },
+    {
+      "name": "PhotoGenerAI",
+      "officialUrl": "https://photogenerai.com/",
+      "evidenceUrls": [
+        "https://photogenerai.com/",
+        "https://photogenerai.com/privacy",
+        "https://photogenerai.com/terms"
+      ],
+      "reviewedAt": "2026-09-25",
+      "userValue": "Browser-based AI photo generator and editor: text-to-image creation plus editing of uploaded reference photos, with a free tier usable without an account.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-09-14",
