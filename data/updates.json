@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T12:44:34.158111+00:00",
+  "updatedAt": "2026-09-30T22:21:52.410840+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.35.1-rc0",
@@ -102,6 +102,16 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.6.7",
+      "title": "langchain-openai==1.6.7",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7",
+      "publishedAt": "2026-09-30T15:12:19Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.6.6",
       "title": "langchain-core==1.6.6",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6",
@@ -192,14 +202,14 @@
       "why": "Useful for developers building AI products."
     },
     {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-openrouter==0.2.9",
-      "title": "langchain-openrouter==0.2.9",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9",
-      "publishedAt": "2026-09-22T04:16:13Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
+      "id": "tag:github.com,2008:Repository/155220641/v5.18.0",
+      "title": "Release 5.18.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.18.0",
+      "publishedAt": "2026-09-30T16:46:27Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
     },
     {
       "id": "tag:github.com,2008:Repository/155220641/v5.17.0",
@@ -292,14 +302,14 @@
       "why": "Useful for anyone working with open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/155220641/v5.12.1",
-      "title": "Patch release v5.12.1",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
-      "publishedAt": "2026-06-15T17:29:59Z",
-      "source": "Hugging Face",
-      "kind": "Models & datasets",
-      "purpose": "Use and follow open AI model tooling.",
-      "why": "Useful for anyone working with open models."
+      "id": "tag:github.com,2008:Repository/589831718/v0.38.1",
+      "title": "v0.38.1",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.1",
+      "publishedAt": "2026-09-30T20:19:00Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
     },
     {
       "id": "tag:github.com,2008:Repository/589831718/v0.38.0",
@@ -386,16 +396,6 @@
       "title": "v0.35.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.1",
       "publishedAt": "2026-09-10T21:14:03Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.35.0",
-      "title": "v0.35.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.0",
-      "publishedAt": "2026-09-09T19:55:08Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -902,80 +902,30 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1263493",
-      "title": "Flocker Agent Profiles",
-      "url": "https://www.producthunt.com/products/flocker-agent-profiles",
-      "publishedAt": "2026-09-30T05:43:37-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1265223",
+      "title": "Cyluma",
+      "url": "https://www.producthunt.com/products/cyluma",
+      "publishedAt": "2026-09-30T14:10:23-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1258149",
-      "title": "Macaly Cloud",
-      "url": "https://www.producthunt.com/products/macaly",
-      "publishedAt": "2026-09-30T05:41:17-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1246347",
+      "title": "WhisperBrain",
+      "url": "https://www.producthunt.com/products/whisperbrain",
+      "publishedAt": "2026-09-30T12:08:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1265054",
-      "title": "Upsolve Data Models",
-      "url": "https://www.producthunt.com/products/upsolve-ai",
-      "publishedAt": "2026-09-30T05:03:34-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1263425",
-      "title": "RxFilmStudio",
-      "url": "https://www.producthunt.com/products/rxfilmstudio",
-      "publishedAt": "2026-09-30T05:41:16-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1244102",
-      "title": "Autonomyware",
-      "url": "https://www.producthunt.com/products/autonomyware",
-      "publishedAt": "2026-09-30T05:41:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1263355",
-      "title": "GitBot",
-      "url": "https://www.producthunt.com/products/gitbot-2",
-      "publishedAt": "2026-09-30T05:43:11-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1220299",
-      "title": "OpenShip",
-      "url": "https://www.producthunt.com/products/openship-2",
-      "publishedAt": "2026-09-30T05:42:07-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1264504",
-      "title": "Aktar",
-      "url": "https://www.producthunt.com/products/aktar",
-      "publishedAt": "2026-09-30T05:33:29-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1264046",
+      "title": "m’kay",
+      "url": "https://www.producthunt.com/products/m-kay",
+      "publishedAt": "2026-09-30T15:02:37-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,7 +935,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1264672",
       "title": "Evlat",
       "url": "https://www.producthunt.com/products/evlat",
-      "publishedAt": "2026-09-30T05:03:34-07:00",
+      "publishedAt": "2026-09-30T15:12:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1264017",
+      "title": "Dental Scope",
+      "url": "https://www.producthunt.com/products/dental-scope",
+      "publishedAt": "2026-09-30T15:02:38-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1263158",
+      "title": "Zumbo",
+      "url": "https://www.producthunt.com/products/zumbo",
+      "publishedAt": "2026-09-30T14:10:19-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1263425",
+      "title": "RxFilmStudio",
+      "url": "https://www.producthunt.com/products/rxfilmstudio",
+      "publishedAt": "2026-09-30T14:31:08-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1263104",
+      "title": "Voice Memo",
+      "url": "https://www.producthunt.com/products/voice-memo",
+      "publishedAt": "2026-09-30T14:31:26-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1263915",
       "title": "Agent Identity",
       "url": "https://www.producthunt.com/products/agent-identity",
-      "publishedAt": "2026-09-30T05:34:13-07:00",
+      "publishedAt": "2026-09-30T14:10:17-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1260695",
+      "title": "Rinkata",
+      "url": "https://www.producthunt.com/products/rinkata",
+      "publishedAt": "2026-09-30T14:59:53-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
