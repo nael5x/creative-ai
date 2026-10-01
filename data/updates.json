@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T22:21:52.410840+00:00",
+  "updatedAt": "2026-10-01T06:05:55.127362+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.35.1-rc0",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev29",
+      "title": "v1.13.0.dev29",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev29",
+      "publishedAt": "2026-10-01T00:47:56Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev28",
       "title": "v1.13.0.dev28",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev28",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev21",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev21",
       "publishedAt": "2026-09-23T03:39:57Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev20",
-      "title": "v1.13.0.dev20",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev20",
-      "publishedAt": "2026-09-22T00:39:00Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,90 +902,40 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1265223",
-      "title": "Cyluma",
-      "url": "https://www.producthunt.com/products/cyluma",
-      "publishedAt": "2026-09-30T14:10:23-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1265200",
+      "title": "Campfire",
+      "url": "https://www.producthunt.com/products/campfire-12",
+      "publishedAt": "2026-09-30T23:02:25-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1246347",
-      "title": "WhisperBrain",
-      "url": "https://www.producthunt.com/products/whisperbrain",
-      "publishedAt": "2026-09-30T12:08:48-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1258149",
+      "title": "Macaly Cloud",
+      "url": "https://www.producthunt.com/products/macaly",
+      "publishedAt": "2026-09-30T22:40:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1264046",
-      "title": "m’kay",
-      "url": "https://www.producthunt.com/products/m-kay",
-      "publishedAt": "2026-09-30T15:02:37-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1220299",
+      "title": "OpenShip",
+      "url": "https://www.producthunt.com/products/openship-2",
+      "publishedAt": "2026-09-30T22:09:50-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1264672",
-      "title": "Evlat",
-      "url": "https://www.producthunt.com/products/evlat",
-      "publishedAt": "2026-09-30T15:12:29-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1264017",
-      "title": "Dental Scope",
-      "url": "https://www.producthunt.com/products/dental-scope",
-      "publishedAt": "2026-09-30T15:02:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1263158",
-      "title": "Zumbo",
-      "url": "https://www.producthunt.com/products/zumbo",
-      "publishedAt": "2026-09-30T14:10:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1263425",
-      "title": "RxFilmStudio",
-      "url": "https://www.producthunt.com/products/rxfilmstudio",
-      "publishedAt": "2026-09-30T14:31:08-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1263104",
-      "title": "Voice Memo",
-      "url": "https://www.producthunt.com/products/voice-memo",
-      "publishedAt": "2026-09-30T14:31:26-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1263915",
-      "title": "Agent Identity",
-      "url": "https://www.producthunt.com/products/agent-identity",
-      "publishedAt": "2026-09-30T14:10:17-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1261028",
+      "title": "Bruto",
+      "url": "https://www.producthunt.com/products/bruto",
+      "publishedAt": "2026-09-30T23:02:26-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +945,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1260695",
       "title": "Rinkata",
       "url": "https://www.producthunt.com/products/rinkata",
-      "publishedAt": "2026-09-30T14:59:53-07:00",
+      "publishedAt": "2026-09-30T23:02:26-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1254743",
+      "title": "Pexo",
+      "url": "https://www.producthunt.com/products/pexo-2",
+      "publishedAt": "2026-09-30T23:04:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1265054",
+      "title": "Upsolve Data Models",
+      "url": "https://www.producthunt.com/products/upsolve-ai",
+      "publishedAt": "2026-09-30T23:02:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1264504",
+      "title": "Aktar",
+      "url": "https://www.producthunt.com/products/aktar",
+      "publishedAt": "2026-09-30T23:00:23-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1265183",
+      "title": "CoIsland",
+      "url": "https://www.producthunt.com/products/coisland",
+      "publishedAt": "2026-09-30T23:02:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1260993",
+      "title": "Styx",
+      "url": "https://www.producthunt.com/products/styx-2",
+      "publishedAt": "2026-09-30T14:30:56-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
