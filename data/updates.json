@@ -1,11 +1,31 @@
 {
-  "updatedAt": "2026-10-01T22:45:33.624209+00:00",
+  "updatedAt": "2026-10-02T05:49:00.169515+00:00",
   "items": [
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.35.1-rc0",
+      "id": "tag:github.com,2008:Repository/658928958/v0.35.1-rc2",
       "title": "v0.35.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2",
+      "publishedAt": "2026-10-02T03:23:32Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.35.1-rc1",
+      "title": "v0.35.1-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc1",
+      "publishedAt": "2026-10-01T22:52:04Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.35.1-rc0",
+      "title": "v0.35.1-rc0: create: support explicit model capabilities (#18708)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0",
-      "publishedAt": "2026-09-29T20:14:22Z",
+      "publishedAt": "2026-09-29T18:10:25Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -76,26 +96,6 @@
       "title": "v0.34.4-rc0: mlx: speed up Qwen 3.8 prompt processing (#18550)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
       "publishedAt": "2026-09-23T00:53:23Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.3",
-      "title": "v0.34.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
-      "publishedAt": "2026-09-22T20:42:48Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.3-rc1",
-      "title": "v0.34.3-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
-      "publishedAt": "2026-09-19T00:15:35Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.38.2",
+      "title": "v0.38.2",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.2",
+      "publishedAt": "2026-10-02T01:49:30Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.38.1",
       "title": "v0.38.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.1",
@@ -386,16 +396,6 @@
       "title": "v0.35.2",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.2",
       "publishedAt": "2026-09-14T22:21:06Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.35.1",
-      "title": "v0.35.1",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.1",
-      "publishedAt": "2026-09-10T21:14:03Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev30",
+      "title": "v1.13.0.dev30",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev30",
+      "publishedAt": "2026-10-02T01:23:57Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev29",
       "title": "v1.13.0.dev29",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev29",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev22",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev22",
       "publishedAt": "2026-09-24T00:38:38Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev21",
-      "title": "v1.13.0.dev21",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev21",
-      "publishedAt": "2026-09-23T03:39:57Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,30 +902,40 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1266002",
-      "title": "Helo",
-      "url": "https://www.producthunt.com/products/helo-2",
-      "publishedAt": "2026-10-01T15:45:01-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1265646",
+      "title": "Clarity",
+      "url": "https://www.producthunt.com/products/kugelaudio",
+      "publishedAt": "2026-10-01T22:02:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1265400",
-      "title": "StayLokal",
-      "url": "https://www.producthunt.com/products/staylokal",
-      "publishedAt": "2026-10-01T15:44:58-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1264547",
+      "title": "NotchMind",
+      "url": "https://www.producthunt.com/products/notchmind",
+      "publishedAt": "2026-10-01T22:06:12-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1235021",
-      "title": "Starlie",
-      "url": "https://www.producthunt.com/products/starlie",
-      "publishedAt": "2026-10-01T15:02:31-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1265262",
+      "title": "Lume",
+      "url": "https://www.producthunt.com/products/lume-floating-notes-for-windows",
+      "publishedAt": "2026-10-01T21:15:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1266003",
+      "title": "Stardrift for iOS",
+      "url": "https://www.producthunt.com/products/stardrift-for-ios",
+      "publishedAt": "2026-10-01T22:02:37-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -935,57 +945,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1251614",
       "title": "Monospace from Directus",
       "url": "https://www.producthunt.com/products/directus",
-      "publishedAt": "2026-10-01T15:42:22-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1263672",
-      "title": "Omnia Agent",
-      "url": "https://www.producthunt.com/products/omnia-2",
-      "publishedAt": "2026-10-01T15:43:45-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1264932",
-      "title": "Dots by OpenAI",
-      "url": "https://www.producthunt.com/products/dots-by-openai",
-      "publishedAt": "2026-10-01T15:43:44-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1254798",
-      "title": "Yedric.ai",
-      "url": "https://www.producthunt.com/products/yedric-ai",
-      "publishedAt": "2026-10-01T15:43:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1264962",
-      "title": "Basedash chat dashboard preview",
-      "url": "https://www.producthunt.com/products/basedash",
-      "publishedAt": "2026-10-01T13:46:47-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1265983",
-      "title": "Vitra.ai",
-      "url": "https://www.producthunt.com/products/vitra-ai-agentic-content-platform",
-      "publishedAt": "2026-10-01T15:02:31-07:00",
+      "publishedAt": "2026-10-01T22:44:57-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +955,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1264611",
       "title": "Phare C1®",
       "url": "https://www.producthunt.com/products/phare-c1",
-      "publishedAt": "2026-10-01T15:02:31-07:00",
+      "publishedAt": "2026-10-01T21:03:23-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1235021",
+      "title": "Starlie",
+      "url": "https://www.producthunt.com/products/starlie",
+      "publishedAt": "2026-10-01T22:06:13-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1263606",
+      "title": "Semitexa",
+      "url": "https://www.producthunt.com/products/semitexa",
+      "publishedAt": "2026-10-01T14:03:44-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1206657",
+      "title": "AuthMonster",
+      "url": "https://www.producthunt.com/products/authmonster",
+      "publishedAt": "2026-10-01T22:02:37-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1265983",
+      "title": "Vitra.ai",
+      "url": "https://www.producthunt.com/products/vitra-ai-agentic-content-platform",
+      "publishedAt": "2026-10-01T21:13:45-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
