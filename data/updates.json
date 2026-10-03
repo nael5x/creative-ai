@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T16:28:30.029689+00:00",
+  "updatedAt": "2026-10-03T21:24:48.328499+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.35.1",
@@ -902,90 +902,30 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1257580",
-      "title": "SCMD",
-      "url": "https://www.producthunt.com/products/scmd",
-      "publishedAt": "2026-10-03T09:27:40-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1264362",
+      "title": "OTPfill",
+      "url": "https://www.producthunt.com/products/otpfill",
+      "publishedAt": "2026-10-03T14:12:31-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1264987",
-      "title": "Cubicle",
-      "url": "https://www.producthunt.com/products/cubicle-2",
-      "publishedAt": "2026-10-03T09:27:25-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1259794",
+      "title": "ZooWork",
+      "url": "https://www.producthunt.com/products/zoowork",
+      "publishedAt": "2026-10-03T14:21:10-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1268160",
-      "title": "Muse Gadgets",
-      "url": "https://www.producthunt.com/products/muse-22",
-      "publishedAt": "2026-10-03T09:22:52-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1266483",
-      "title": "FoundrRadio",
-      "url": "https://www.producthunt.com/products/foundrradio",
-      "publishedAt": "2026-10-03T09:17:06-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1264658",
-      "title": "Prefer",
-      "url": "https://www.producthunt.com/products/prefer-2",
-      "publishedAt": "2026-10-03T09:25:26-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1254817",
-      "title": "miso.com",
-      "url": "https://www.producthunt.com/products/miso-com",
-      "publishedAt": "2026-10-03T09:23:12-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1267705",
-      "title": "eu/jev",
-      "url": "https://www.producthunt.com/products/bevel-software",
-      "publishedAt": "2026-10-03T09:03:23-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1265885",
-      "title": "Agent Activity",
-      "url": "https://www.producthunt.com/products/agent-activity",
-      "publishedAt": "2026-10-03T09:05:44-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1263873",
-      "title": "FeelMyMac",
-      "url": "https://www.producthunt.com/products/feelmymac",
-      "publishedAt": "2026-10-03T09:03:23-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1260956",
+      "title": "WattMate",
+      "url": "https://www.producthunt.com/products/wattmate",
+      "publishedAt": "2026-10-03T14:03:09-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +935,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1266098",
       "title": "Thanor AI",
       "url": "https://www.producthunt.com/products/thanor-ai",
-      "publishedAt": "2026-10-03T08:26:43-07:00",
+      "publishedAt": "2026-10-03T14:23:40-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1198913",
+      "title": "Deskcord.chat",
+      "url": "https://www.producthunt.com/products/deskcord-chat",
+      "publishedAt": "2026-10-03T13:02:22-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1265885",
+      "title": "Agent Activity",
+      "url": "https://www.producthunt.com/products/agent-activity",
+      "publishedAt": "2026-10-03T14:03:09-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1266609",
+      "title": "bmux",
+      "url": "https://www.producthunt.com/products/bmux",
+      "publishedAt": "2026-10-03T14:13:32-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1267705",
+      "title": "eu/jev",
+      "url": "https://www.producthunt.com/products/bevel-software",
+      "publishedAt": "2026-10-03T14:03:08-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1262324",
+      "title": "una mano",
+      "url": "https://www.producthunt.com/products/una-mano",
+      "publishedAt": "2026-10-03T14:03:08-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1263873",
+      "title": "FeelMyMac",
+      "url": "https://www.producthunt.com/products/feelmymac",
+      "publishedAt": "2026-10-03T14:14:01-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
