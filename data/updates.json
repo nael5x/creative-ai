@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T22:19:30.924650+00:00",
+  "updatedAt": "2026-10-03T05:25:31.372638+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.35.1",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev31",
+      "title": "v1.13.0.dev31",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev31",
+      "publishedAt": "2026-10-03T02:53:59Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev30",
       "title": "v1.13.0.dev30",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev30",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev23",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev23",
       "publishedAt": "2026-09-25T00:39:22Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev22",
-      "title": "v1.13.0.dev22",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev22",
-      "publishedAt": "2026-09-24T00:38:38Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,10 +902,30 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1251693",
-      "title": "Teachoo",
-      "url": "https://www.producthunt.com/products/teachoo-2",
-      "publishedAt": "2026-10-02T15:06:57-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1253670",
+      "title": "Veltrix AI for E-commerce",
+      "url": "https://www.producthunt.com/products/veltrix-ai",
+      "publishedAt": "2026-10-02T22:24:28-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1267170",
+      "title": "Earlyn",
+      "url": "https://www.producthunt.com/products/earlyn",
+      "publishedAt": "2026-10-02T22:14:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1266380",
+      "title": "Communicate",
+      "url": "https://www.producthunt.com/products/communicate",
+      "publishedAt": "2026-10-02T20:33:45-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -922,60 +942,30 @@
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1267264",
-      "title": "Codync",
-      "url": "https://www.producthunt.com/products/codync",
-      "publishedAt": "2026-10-02T14:38:52-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1266859",
+      "title": "ShipHQ",
+      "url": "https://www.producthunt.com/products/shiphq",
+      "publishedAt": "2026-10-02T21:34:10-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1253670",
-      "title": "Veltrix AI for E-commerce",
-      "url": "https://www.producthunt.com/products/veltrix-ai",
-      "publishedAt": "2026-10-02T15:09:10-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1263902",
+      "title": "Cue by Manus",
+      "url": "https://www.producthunt.com/products/cue-by-manus",
+      "publishedAt": "2026-10-02T15:02:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1265835",
-      "title": "esigna",
-      "url": "https://www.producthunt.com/products/esigna",
-      "publishedAt": "2026-10-02T14:03:51-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1264587",
-      "title": "Gauth Unlimited Digital Canvas",
-      "url": "https://www.producthunt.com/products/gauth-ai-course",
-      "publishedAt": "2026-10-02T15:15:33-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1266544",
-      "title": "Never Boring AI",
-      "url": "https://www.producthunt.com/products/never-boring-ai",
-      "publishedAt": "2026-10-02T15:15:39-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1253097",
-      "title": "Syllaby AI Avatar 2.0",
-      "url": "https://www.producthunt.com/products/syllaby-ai-avatar-2-0",
-      "publishedAt": "2026-10-02T15:04:41-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1267041",
+      "title": "Clef",
+      "url": "https://www.producthunt.com/products/cloudflare-clef",
+      "publishedAt": "2026-10-02T21:06:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +975,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1265120",
       "title": "Mintlify Desktop",
       "url": "https://www.producthunt.com/products/mintlify",
-      "publishedAt": "2026-10-02T15:11:59-07:00",
+      "publishedAt": "2026-10-02T22:20:32-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1266380",
-      "title": "Communicate",
-      "url": "https://www.producthunt.com/products/communicate",
-      "publishedAt": "2026-10-02T13:03:30-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1264308",
+      "title": "Globestudio",
+      "url": "https://www.producthunt.com/products/globestudio",
+      "publishedAt": "2026-10-02T22:21:26-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1264836",
+      "title": "Audryo",
+      "url": "https://www.producthunt.com/products/audryo",
+      "publishedAt": "2026-10-02T11:13:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
