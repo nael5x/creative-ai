@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-04T12:30:17.945355+00:00",
+  "updatedAt": "2026-10-04T21:35:52.609631+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.0-rc2",
+      "title": "v0.40.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
+      "publishedAt": "2026-10-04T16:37:17Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.0-rc1",
+      "title": "v0.40.0-rc1: mlx: match publisher tokenizer semantics (#18779)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc1",
+      "publishedAt": "2026-10-04T14:45:15Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.35.1",
       "title": "v0.35.1",
@@ -73,29 +93,9 @@
     },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.0-rc0",
-      "title": "v0.40.0",
+      "title": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
-      "publishedAt": "2026-09-25T15:22:00Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.4",
-      "title": "v0.34.4",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
-      "publishedAt": "2026-09-24T04:45:43Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.4-rc1",
-      "title": "v0.34.4-rc1: mlxrunner: Update XGrammar to 0.2.7 for structured outputs",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc1",
-      "publishedAt": "2026-09-23T23:36:46Z",
+      "publishedAt": "2026-09-25T02:25:52Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -612,6 +612,16 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.5",
+      "title": "v1.12.5: fix(mcp): replace a pooled session whose server died (#15469)",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.5",
+      "publishedAt": "2026-10-04T20:37:55Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev31",
       "title": "v1.13.0.dev31",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev31",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev25",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev25",
       "publishedAt": "2026-09-27T00:45:03Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev24",
-      "title": "v1.13.0.dev24",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev24",
-      "publishedAt": "2026-09-26T00:39:09Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,40 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1264350",
-      "title": "JOGAK",
-      "url": "https://www.producthunt.com/products/jogak",
-      "publishedAt": "2026-10-04T05:03:48-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1217369",
+      "title": "WikiFix for Confluence",
+      "url": "https://www.producthunt.com/products/wikifix",
+      "publishedAt": "2026-10-04T14:10:28-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1263814",
-      "title": "Control My Mac",
-      "url": "https://www.producthunt.com/products/control-my-mac",
-      "publishedAt": "2026-10-04T05:03:48-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1262155",
-      "title": "Translate Like Me",
-      "url": "https://www.producthunt.com/products/translate-like-me",
-      "publishedAt": "2026-10-04T05:03:48-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1269060",
-      "title": "Poddle",
-      "url": "https://www.producthunt.com/products/poddle-3",
-      "publishedAt": "2026-10-04T05:03:48-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1266069",
+      "title": "Clair",
+      "url": "https://www.producthunt.com/products/clair-3",
+      "publishedAt": "2026-10-04T13:32:18-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,27 +925,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1262134",
       "title": "Rival Workshop",
       "url": "https://www.producthunt.com/products/rival-workshop",
-      "publishedAt": "2026-10-04T05:26:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1259946",
-      "title": "CoreSpeed",
-      "url": "https://www.producthunt.com/products/corespeed",
-      "publishedAt": "2026-10-04T05:29:49-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1268802",
-      "title": "Smooth Recorder",
-      "url": "https://www.producthunt.com/products/smooth-recorder",
-      "publishedAt": "2026-10-04T05:26:16-07:00",
+      "publishedAt": "2026-10-04T14:03:47-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,17 +935,37 @@
       "id": "tag:www.producthunt.com,2005:Post/1257247",
       "title": "Octri.dev",
       "url": "https://www.producthunt.com/products/octri",
-      "publishedAt": "2026-10-04T05:25:51-07:00",
+      "publishedAt": "2026-10-04T14:11:43-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1251848",
-      "title": "Sente",
-      "url": "https://www.producthunt.com/products/sente-2",
-      "publishedAt": "2026-10-04T05:03:48-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1263814",
+      "title": "Control My Mac",
+      "url": "https://www.producthunt.com/products/control-my-mac",
+      "publishedAt": "2026-10-04T14:03:48-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1268802",
+      "title": "Smooth Recorder",
+      "url": "https://www.producthunt.com/products/smooth-recorder",
+      "publishedAt": "2026-10-04T14:25:23-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1268362",
+      "title": "Eat Train Feel",
+      "url": "https://www.producthunt.com/products/eat-train-feel",
+      "publishedAt": "2026-10-04T14:03:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +975,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1266015",
       "title": "Gemini 4 Argon",
       "url": "https://www.producthunt.com/products/gemini-4-argon",
-      "publishedAt": "2026-10-04T05:29:45-07:00",
+      "publishedAt": "2026-10-04T14:35:15-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1268906",
+      "title": "LaunchReel",
+      "url": "https://www.producthunt.com/products/launchreel-2",
+      "publishedAt": "2026-10-04T12:03:28-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1264719",
+      "title": "DocsAlot MCP Connector",
+      "url": "https://www.producthunt.com/products/docsalot-2",
+      "publishedAt": "2026-10-04T14:33:26-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
