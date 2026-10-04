@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T21:24:48.328499+00:00",
+  "updatedAt": "2026-10-04T06:01:03.280297+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.35.1",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev32",
+      "title": "v1.13.0.dev32",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev32",
+      "publishedAt": "2026-10-04T03:21:57Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev31",
       "title": "v1.13.0.dev31",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev31",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev24",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev24",
       "publishedAt": "2026-09-26T00:39:09Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev23",
-      "title": "v1.13.0.dev23",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev23",
-      "publishedAt": "2026-09-25T00:39:22Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -905,67 +905,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1264362",
       "title": "OTPfill",
       "url": "https://www.producthunt.com/products/otpfill",
-      "publishedAt": "2026-10-03T14:12:31-07:00",
+      "publishedAt": "2026-10-03T20:11:07-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1259794",
-      "title": "ZooWork",
-      "url": "https://www.producthunt.com/products/zoowork",
-      "publishedAt": "2026-10-03T14:21:10-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1260956",
-      "title": "WattMate",
-      "url": "https://www.producthunt.com/products/wattmate",
-      "publishedAt": "2026-10-03T14:03:09-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1266098",
-      "title": "Thanor AI",
-      "url": "https://www.producthunt.com/products/thanor-ai",
-      "publishedAt": "2026-10-03T14:23:40-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1198913",
-      "title": "Deskcord.chat",
-      "url": "https://www.producthunt.com/products/deskcord-chat",
-      "publishedAt": "2026-10-03T13:02:22-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1265885",
-      "title": "Agent Activity",
-      "url": "https://www.producthunt.com/products/agent-activity",
-      "publishedAt": "2026-10-03T14:03:09-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1266609",
-      "title": "bmux",
-      "url": "https://www.producthunt.com/products/bmux",
-      "publishedAt": "2026-10-03T14:13:32-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1266692",
+      "title": "Singularity",
+      "url": "https://www.producthunt.com/products/singularity-2",
+      "publishedAt": "2026-10-03T21:08:10-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,27 +925,77 @@
       "id": "tag:www.producthunt.com,2005:Post/1267705",
       "title": "eu/jev",
       "url": "https://www.producthunt.com/products/bevel-software",
-      "publishedAt": "2026-10-03T14:03:08-07:00",
+      "publishedAt": "2026-10-03T22:03:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1262324",
-      "title": "una mano",
-      "url": "https://www.producthunt.com/products/una-mano",
-      "publishedAt": "2026-10-03T14:03:08-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1266347",
+      "title": "Crowny!",
+      "url": "https://www.producthunt.com/products/crowny-2",
+      "publishedAt": "2026-10-03T21:33:09-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1263873",
-      "title": "FeelMyMac",
-      "url": "https://www.producthunt.com/products/feelmymac",
-      "publishedAt": "2026-10-03T14:14:01-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1198913",
+      "title": "Deskcord.chat",
+      "url": "https://www.producthunt.com/products/deskcord-chat",
+      "publishedAt": "2026-10-03T20:04:20-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1265885",
+      "title": "Agent Activity",
+      "url": "https://www.producthunt.com/products/agent-activity",
+      "publishedAt": "2026-10-03T22:50:23-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1257664",
+      "title": "Kilo",
+      "url": "https://www.producthunt.com/products/kilo",
+      "publishedAt": "2026-10-03T19:47:30-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1268165",
+      "title": "Sapien",
+      "url": "https://www.producthunt.com/products/sapien-4",
+      "publishedAt": "2026-10-03T19:47:32-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1264763",
+      "title": "bawkterm",
+      "url": "https://www.producthunt.com/products/bawkterm-an-open-source-ssh-sftp-client",
+      "publishedAt": "2026-10-03T22:03:15-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1266098",
+      "title": "Thanor AI",
+      "url": "https://www.producthunt.com/products/thanor-ai",
+      "publishedAt": "2026-10-03T22:03:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
