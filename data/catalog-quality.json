@@ -984,6 +984,18 @@
       "userValue": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename.",
       "decision": "rejected",
       "reason": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename."
+    },
+    {
+      "name": "AI Fruit Video",
+      "officialUrl": "https://aifruitvideo.com/",
+      "evidenceUrls": [
+        "https://aifruitvideo.com/",
+        "https://aifruitvideo.com/privacy",
+        "https://aifruitvideo.com/terms"
+      ],
+      "reviewedAt": "2026-09-26",
+      "userValue": "Focused AI video generator that turns a short fruit-story idea into a shareable talking-fruit clip, with a free tier for creators making TikTok, Reels, and Shorts content.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-09-14",
