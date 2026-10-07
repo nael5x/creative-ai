@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-06T18:27:28.509127+00:00",
+  "updatedAt": "2026-10-07T06:08:50.265189+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.0",
       "title": "v0.40.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
-      "publishedAt": "2026-10-06T17:46:39Z",
+      "publishedAt": "2026-10-06T18:47:10Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -13,9 +13,9 @@
     },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.0-rc6",
-      "title": "v0.40.0",
+      "title": "v0.40.0-rc6: model: add multimodal embeddings (#18820)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6",
-      "publishedAt": "2026-10-06T15:50:13Z",
+      "publishedAt": "2026-10-06T15:08:38Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.39.1",
+      "title": "v0.39.1",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.1",
+      "publishedAt": "2026-10-06T18:49:02Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.39.0",
       "title": "v0.39.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0",
@@ -386,16 +396,6 @@
       "title": "v0.37.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.0",
       "publishedAt": "2026-09-21T07:35:01Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.36.0",
-      "title": "v0.36.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.36.0",
-      "publishedAt": "2026-09-15T22:26:17Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev35",
+      "title": "v1.13.0.dev35",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev35",
+      "publishedAt": "2026-10-07T02:20:22Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev34",
       "title": "v1.13.0.dev34",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev34",
@@ -612,20 +622,20 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev33",
-      "title": "v1.13.0.dev33",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev33",
-      "publishedAt": "2026-10-05T02:02:48Z",
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.5",
+      "title": "1.12.5",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.5",
+      "publishedAt": "2026-10-06T20:09:22Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.5",
-      "title": "v1.12.5: fix(mcp): resolve tool arguments from configured values (#15565)",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.5",
-      "publishedAt": "2026-10-05T20:51:55Z",
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev33",
+      "title": "v1.13.0.dev33",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev33",
+      "publishedAt": "2026-10-05T02:02:48Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev27",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev27",
       "publishedAt": "2026-09-29T00:41:37Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.4",
-      "title": "1.12.4",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.4",
-      "publishedAt": "2026-09-29T20:14:36Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,30 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1270653",
-      "title": "Cosmic AI Support Agent",
-      "url": "https://www.producthunt.com/products/cosmic",
-      "publishedAt": "2026-10-06T11:02:33-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1270752",
-      "title": "ruOS",
-      "url": "https://www.producthunt.com/products/ruos",
-      "publishedAt": "2026-10-06T11:12:41-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1270976",
-      "title": "Scumble",
-      "url": "https://www.producthunt.com/products/scumble",
-      "publishedAt": "2026-10-06T11:18:34-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1270972",
+      "title": "Review",
+      "url": "https://www.producthunt.com/products/review-2",
+      "publishedAt": "2026-10-06T23:08:25-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -935,57 +915,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1263693",
       "title": "NoteWorthy",
       "url": "https://www.producthunt.com/products/noteworthy",
-      "publishedAt": "2026-10-06T11:12:27-07:00",
+      "publishedAt": "2026-10-06T23:08:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1270871",
-      "title": "StayCharted",
-      "url": "https://www.producthunt.com/products/staycharted",
-      "publishedAt": "2026-10-06T11:02:33-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1270095",
+      "title": "Rill Browser",
+      "url": "https://www.producthunt.com/products/rill-3",
+      "publishedAt": "2026-10-06T23:08:18-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1264151",
-      "title": "Incredible",
-      "url": "https://www.producthunt.com/products/incredible",
-      "publishedAt": "2026-10-06T11:15:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1245696",
-      "title": "Coddy",
-      "url": "https://www.producthunt.com/products/coddy",
-      "publishedAt": "2026-10-06T11:18:48-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1264594",
-      "title": "OpenBot",
-      "url": "https://www.producthunt.com/products/openbot-3",
-      "publishedAt": "2026-10-06T11:26:16-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1270741",
-      "title": "Willow Knowledge",
-      "url": "https://www.producthunt.com/products/willow-voice",
-      "publishedAt": "2026-10-06T11:25:49-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1262537",
+      "title": "AUDR by Chargebee",
+      "url": "https://www.producthunt.com/products/chargebee",
+      "publishedAt": "2026-10-06T23:08:01-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +945,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1264891",
       "title": "Ghostifier",
       "url": "https://www.producthunt.com/products/ghostifier",
-      "publishedAt": "2026-10-06T11:12:27-07:00",
+      "publishedAt": "2026-10-06T22:31:51-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1259498",
+      "title": "mcpgawk",
+      "url": "https://www.producthunt.com/products/mcpgawk",
+      "publishedAt": "2026-10-06T23:08:23-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1270986",
+      "title": "Customer Service AI for Etsy",
+      "url": "https://www.producthunt.com/products/customer-service-ai-for-etsy",
+      "publishedAt": "2026-10-06T14:58:30-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1258535",
+      "title": "Ari Helper 7",
+      "url": "https://www.producthunt.com/products/ari-helper",
+      "publishedAt": "2026-10-06T20:20:13-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1269859",
+      "title": "Patchcord",
+      "url": "https://www.producthunt.com/products/patchcord-2",
+      "publishedAt": "2026-10-06T17:02:40-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1269498",
+      "title": "The Sentient World",
+      "url": "https://www.producthunt.com/products/the-sentient-world",
+      "publishedAt": "2026-10-06T21:58:08-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
