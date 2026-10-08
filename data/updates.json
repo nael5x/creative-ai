@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-07T23:10:13.926202+00:00",
+  "updatedAt": "2026-10-08T06:15:24.675195+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.1",
+      "title": "v0.40.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
+      "publishedAt": "2026-10-08T02:09:43Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.1-rc0",
       "title": "v0.40.1-rc0",
@@ -86,16 +96,6 @@
       "title": "v0.35.1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
       "publishedAt": "2026-10-02T18:28:37Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.35.1-rc2",
-      "title": "v0.35.1-rc2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc2",
-      "publishedAt": "2026-10-02T01:05:01Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev36",
+      "title": "v1.13.0.dev36",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev36",
+      "publishedAt": "2026-10-08T01:38:40Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev35",
       "title": "v1.13.0.dev35",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev35",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev28",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev28",
       "publishedAt": "2026-09-30T00:44:57Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev27",
-      "title": "v1.13.0.dev27",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev27",
-      "publishedAt": "2026-09-29T00:41:37Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,80 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1264718",
-      "title": "ImageFlow",
-      "url": "https://www.producthunt.com/products/imageflow-6",
-      "publishedAt": "2026-10-07T16:02:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1264605",
-      "title": "Pegasus 1.6 by TwelveLabs",
-      "url": "https://www.producthunt.com/products/twelvelabs",
-      "publishedAt": "2026-10-07T16:09:58-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1266583",
-      "title": "Unprompt",
-      "url": "https://www.producthunt.com/products/unprompt-2",
-      "publishedAt": "2026-10-07T16:02:52-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1253567",
-      "title": "Databench by Alkera",
-      "url": "https://www.producthunt.com/products/alkera",
-      "publishedAt": "2026-10-07T16:09:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1268692",
-      "title": "Thalia",
-      "url": "https://www.producthunt.com/products/thalia",
-      "publishedAt": "2026-10-07T15:03:01-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1267507",
-      "title": "Takweem AI",
-      "url": "https://www.producthunt.com/products/takweem-ai",
-      "publishedAt": "2026-10-07T14:14:00-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1271340",
-      "title": "SunSed",
-      "url": "https://www.producthunt.com/products/sunsed",
-      "publishedAt": "2026-10-07T14:26:53-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1272248",
-      "title": "Reika",
-      "url": "https://www.producthunt.com/products/reika",
-      "publishedAt": "2026-10-07T16:02:38-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1264851",
+      "title": "Wabi",
+      "url": "https://www.producthunt.com/products/wabi-2",
+      "publishedAt": "2026-10-07T21:10:58-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +915,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1254767",
       "title": "Velozity",
       "url": "https://www.producthunt.com/products/velozity-2",
-      "publishedAt": "2026-10-07T15:59:26-07:00",
+      "publishedAt": "2026-10-07T23:14:17-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1271032",
-      "title": "Vresk",
-      "url": "https://www.producthunt.com/products/vresk",
-      "publishedAt": "2026-10-07T15:03:01-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1270725",
+      "title": "DevAlly AI Agent",
+      "url": "https://www.producthunt.com/products/devally",
+      "publishedAt": "2026-10-07T22:47:14-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1265939",
+      "title": "GenPage 3.0",
+      "url": "https://www.producthunt.com/products/genpage",
+      "publishedAt": "2026-10-07T23:14:00-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1267345",
+      "title": "ParakeetAI 2.0",
+      "url": "https://www.producthunt.com/products/parakeetai",
+      "publishedAt": "2026-10-07T23:13:59-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1270664",
+      "title": "Plugins Radar",
+      "url": "https://www.producthunt.com/products/plugins-radar",
+      "publishedAt": "2026-10-07T21:12:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1271340",
+      "title": "SunSed",
+      "url": "https://www.producthunt.com/products/sunsed",
+      "publishedAt": "2026-10-07T18:02:14-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1272248",
+      "title": "Reika",
+      "url": "https://www.producthunt.com/products/reika",
+      "publishedAt": "2026-10-07T22:02:08-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1264718",
+      "title": "ImageFlow",
+      "url": "https://www.producthunt.com/products/imageflow-6",
+      "publishedAt": "2026-10-07T21:02:27-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1270428",
+      "title": "Vanoor",
+      "url": "https://www.producthunt.com/products/vanoor-running-pacer-map",
+      "publishedAt": "2026-10-07T17:02:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
