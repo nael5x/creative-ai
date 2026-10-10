@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T12:41:21.249709+00:00",
+  "updatedAt": "2026-10-10T21:50:26.113953+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.2",
@@ -402,6 +402,16 @@
       "why": "Useful for advanced Stable Diffusion users."
     },
     {
+      "id": "tag:github.com,2008:Repository/701547123/v0.12.0",
+      "title": "v0.12.0",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.0",
+      "publishedAt": "2026-10-10T21:17:46Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/701547123/v0.11.4",
       "title": "v0.11.4",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.4",
@@ -486,16 +496,6 @@
       "title": "v0.9.6",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.9.6",
       "publishedAt": "2026-06-02T02:22:06Z",
-      "source": "Open WebUI",
-      "kind": "Local AI UI",
-      "purpose": "Use local or remote AI models in a browser interface.",
-      "why": "Useful for people who use Ollama or self-hosted models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/701547123/v0.9.5",
-      "title": "v0.9.5",
-      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.9.5",
-      "publishedAt": "2026-05-10T18:14:07Z",
       "source": "Open WebUI",
       "kind": "Local AI UI",
       "purpose": "Use local or remote AI models in a browser interface.",
@@ -902,30 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1274432",
-      "title": "New Windows Search",
-      "url": "https://www.producthunt.com/products/new-windows-search",
-      "publishedAt": "2026-10-10T05:41:04-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1275017",
+      "title": "Claude Dashboards & Motion",
+      "url": "https://www.producthunt.com/products/claude-dashboards-motion",
+      "publishedAt": "2026-10-10T14:49:49-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1257662",
-      "title": "Onepin",
-      "url": "https://www.producthunt.com/products/onepin",
-      "publishedAt": "2026-10-10T05:41:01-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1275117",
-      "title": "History Monk",
-      "url": "https://www.producthunt.com/products/history-monk-better-history-search",
-      "publishedAt": "2026-10-10T05:38:23-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1275490",
+      "title": "Lune",
+      "url": "https://www.producthunt.com/products/lune-research",
+      "publishedAt": "2026-10-10T14:03:38-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -935,27 +925,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1245921",
       "title": "ReSO AI",
       "url": "https://www.producthunt.com/products/reso",
-      "publishedAt": "2026-10-10T05:39:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1273350",
-      "title": "Cue",
-      "url": "https://www.producthunt.com/products/cue-26",
-      "publishedAt": "2026-10-10T05:34:01-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1275017",
-      "title": "Claude Dashboards & Motion",
-      "url": "https://www.producthunt.com/products/claude-dashboards-motion",
-      "publishedAt": "2026-10-10T05:37:44-07:00",
+      "publishedAt": "2026-10-10T14:49:46-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,17 +935,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1275415",
       "title": "Maildun for Mac",
       "url": "https://www.producthunt.com/products/maildun-for-mac",
-      "publishedAt": "2026-10-10T05:35:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1270088",
-      "title": "Pawse",
-      "url": "https://www.producthunt.com/products/pawse-2",
-      "publishedAt": "2026-10-10T05:36:19-07:00",
+      "publishedAt": "2026-10-10T14:38:34-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +945,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1273865",
       "title": "Kitbar",
       "url": "https://www.producthunt.com/products/kitbar",
-      "publishedAt": "2026-10-10T05:35:28-07:00",
+      "publishedAt": "2026-10-10T14:04:26-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1275319",
-      "title": "PixRater",
-      "url": "https://www.producthunt.com/products/pixrater",
-      "publishedAt": "2026-10-10T05:38:23-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1273350",
+      "title": "Cue",
+      "url": "https://www.producthunt.com/products/cue-26",
+      "publishedAt": "2026-10-10T14:09:00-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1275196",
+      "title": "Microsoft-Decision-1",
+      "url": "https://www.producthunt.com/products/microsoft-decision-1",
+      "publishedAt": "2026-10-10T14:48:48-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1275218",
+      "title": "Letra",
+      "url": "https://www.producthunt.com/products/letra-3",
+      "publishedAt": "2026-10-10T13:02:51-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1274592",
+      "title": "TapNoise",
+      "url": "https://www.producthunt.com/products/tapnoise",
+      "publishedAt": "2026-10-10T14:03:38-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1264254",
+      "title": "Skreno",
+      "url": "https://www.producthunt.com/products/skreno",
+      "publishedAt": "2026-10-10T14:13:27-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
