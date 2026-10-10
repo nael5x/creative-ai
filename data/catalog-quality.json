@@ -984,6 +984,16 @@
       "userValue": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename.",
       "decision": "rejected",
       "reason": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename."
+    },
+    {
+      "name": "StudyArena",
+      "officialUrl": "https://studyarena.com",
+      "evidenceUrls": [
+        "https://studyarena.com"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Students compare three anonymous explanations of a study question and vote before revealing the models; the core comparison is free.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-09-14",
