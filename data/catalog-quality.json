@@ -984,6 +984,18 @@
       "userValue": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename.",
       "decision": "rejected",
       "reason": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename."
+    },
+    {
+      "name": "RemoveMate",
+      "officialUrl": "https://removemate.com/",
+      "evidenceUrls": [
+        "https://removemate.com/",
+        "https://removemate.com/about",
+        "https://removemate.com/pricing"
+      ],
+      "reviewedAt": "2026-09-29",
+      "userValue": "Free-tier AI background removal and image cleanup for product, portrait and pet photos; no sign-up required for the free tier, useful for sellers and creators preparing clean listing and social visuals.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-09-14",
