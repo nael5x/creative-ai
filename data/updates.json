@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T22:05:30.528432+00:00",
+  "updatedAt": "2026-10-12T06:08:04.723043+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.3",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev40",
+      "title": "v1.13.0.dev40",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev40",
+      "publishedAt": "2026-10-12T00:47:42Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev39",
       "title": "v1.13.0.dev39",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev39",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev32",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev32",
       "publishedAt": "2026-10-04T03:21:57Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev31",
-      "title": "v1.13.0.dev31",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev31",
-      "publishedAt": "2026-10-03T02:53:59Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,50 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1267423",
-      "title": "HireKey",
-      "url": "https://www.producthunt.com/products/hirekey",
-      "publishedAt": "2026-10-11T14:20:48-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1274334",
       "title": "SimpleSpread",
       "url": "https://www.producthunt.com/products/simplespread",
-      "publishedAt": "2026-10-11T15:03:17-07:00",
+      "publishedAt": "2026-10-11T23:03:07-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1270608",
-      "title": "Tori",
-      "url": "https://www.producthunt.com/products/tori-japanese-listening-srs",
-      "publishedAt": "2026-10-11T15:03:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1275891",
-      "title": "Agibot",
-      "url": "https://www.producthunt.com/products/agibot",
-      "publishedAt": "2026-10-11T14:58:22-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1273545",
-      "title": "Edgee Mod for Claude Code",
-      "url": "https://www.producthunt.com/products/edgee",
-      "publishedAt": "2026-10-11T12:15:13-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1270791",
+      "title": "Ghost Core",
+      "url": "https://www.producthunt.com/products/ghost-core",
+      "publishedAt": "2026-10-11T23:06:31-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,27 +925,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1276371",
       "title": "Gboard Kurukuru Version",
       "url": "https://www.producthunt.com/products/google",
-      "publishedAt": "2026-10-11T15:01:51-07:00",
+      "publishedAt": "2026-10-11T22:03:52-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1270101",
-      "title": "Foley",
-      "url": "https://www.producthunt.com/products/foley",
-      "publishedAt": "2026-10-11T15:03:17-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1274214",
+      "title": "KarmaBoard",
+      "url": "https://www.producthunt.com/products/karmaboard",
+      "publishedAt": "2026-10-11T23:03:08-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1246034",
-      "title": "Ayven",
-      "url": "https://www.producthunt.com/products/ayven",
-      "publishedAt": "2026-10-11T15:03:16-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1275628",
+      "title": "FocusWrite",
+      "url": "https://www.producthunt.com/products/focuswrite",
+      "publishedAt": "2026-10-11T23:05:45-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +955,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1251151",
       "title": "MePersona",
       "url": "https://www.producthunt.com/products/mepersona",
-      "publishedAt": "2026-10-11T15:03:16-07:00",
+      "publishedAt": "2026-10-11T23:06:58-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1263181",
-      "title": "OpenScreen 2",
-      "url": "https://www.producthunt.com/products/openscreen-2",
-      "publishedAt": "2026-10-11T14:56:18-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1264842",
+      "title": "Automations in Perplexity Computer",
+      "url": "https://www.producthunt.com/products/perplexity-ai",
+      "publishedAt": "2026-10-11T23:06:31-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1272499",
+      "title": "kōdlo",
+      "url": "https://www.producthunt.com/products/kodlo",
+      "publishedAt": "2026-10-11T23:06:31-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1267423",
+      "title": "HireKey",
+      "url": "https://www.producthunt.com/products/hirekey",
+      "publishedAt": "2026-10-11T23:06:31-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1275794",
+      "title": "Farol",
+      "url": "https://www.producthunt.com/products/farol-3",
+      "publishedAt": "2026-10-11T22:20:34-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
