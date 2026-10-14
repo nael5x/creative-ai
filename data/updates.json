@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-14T17:18:59.960755+00:00",
+  "updatedAt": "2026-10-14T21:46:49.708845+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.5-rc0",
+      "title": "v0.40.5",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0",
+      "publishedAt": "2026-10-14T19:45:22Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.4",
       "title": "v0.40.4",
@@ -92,20 +102,20 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.1-rc0",
-      "title": "v0.40.1-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0",
-      "publishedAt": "2026-10-07T22:22:54Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.7.2",
       "title": "langchain-openai==1.7.2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2",
       "publishedAt": "2026-10-14T13:51:18Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain==1.4.6",
+      "title": "langchain==1.4.6",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.6",
+      "publishedAt": "2026-10-14T17:28:08Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -186,16 +196,6 @@
       "title": "langchain==1.4.4",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.4",
       "publishedAt": "2026-10-08T22:14:24Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-huggingface==1.2.3",
-      "title": "langchain-huggingface==1.2.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.3",
-      "publishedAt": "2026-10-07T20:10:10Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -402,6 +402,16 @@
       "why": "Useful for advanced Stable Diffusion users."
     },
     {
+      "id": "tag:github.com,2008:Repository/701547123/v0.12.2",
+      "title": "v0.12.2",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.2",
+      "publishedAt": "2026-10-14T21:07:29Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/701547123/v0.12.1",
       "title": "v0.12.1",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.1",
@@ -486,16 +496,6 @@
       "title": "v0.10.1",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.10.1",
       "publishedAt": "2026-06-29T19:38:44Z",
-      "source": "Open WebUI",
-      "kind": "Local AI UI",
-      "purpose": "Use local or remote AI models in a browser interface.",
-      "why": "Useful for people who use Ollama or self-hosted models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/701547123/v0.10.0",
-      "title": "v0.10.0",
-      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.10.0",
-      "publishedAt": "2026-06-29T19:17:48Z",
       "source": "Open WebUI",
       "kind": "Local AI UI",
       "purpose": "Use local or remote AI models in a browser interface.",
@@ -905,7 +905,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1277882",
       "title": "Confidence by Spotify",
       "url": "https://www.producthunt.com/products/spotify",
-      "publishedAt": "2026-10-14T10:17:42-07:00",
+      "publishedAt": "2026-10-14T14:20:45-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1226825",
+      "title": "CSuite",
+      "url": "https://www.producthunt.com/products/csuite",
+      "publishedAt": "2026-10-14T14:18:26-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1279319",
+      "title": "AURORA Lifeline",
+      "url": "https://www.producthunt.com/products/aurora-lifeline",
+      "publishedAt": "2026-10-14T14:18:26-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1275267",
+      "title": "Acyclic",
+      "url": "https://www.producthunt.com/products/acyclic",
+      "publishedAt": "2026-10-14T14:28:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1270975",
+      "title": "Spinachi AI",
+      "url": "https://www.producthunt.com/products/spinachi-ai",
+      "publishedAt": "2026-10-14T13:03:13-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1271795",
+      "title": "Keysi",
+      "url": "https://www.producthunt.com/products/keysi",
+      "publishedAt": "2026-10-14T13:03:13-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -915,87 +965,37 @@
       "id": "tag:www.producthunt.com,2005:Post/1221402",
       "title": "Pancake",
       "url": "https://www.producthunt.com/products/pancake-6",
-      "publishedAt": "2026-10-14T10:18:36-07:00",
+      "publishedAt": "2026-10-14T14:46:39-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1278154",
-      "title": "daily.dev",
-      "url": "https://www.producthunt.com/products/daily-dev",
-      "publishedAt": "2026-10-14T10:17:53-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1279309",
+      "title": "Nimble",
+      "url": "https://www.producthunt.com/products/nimble-5",
+      "publishedAt": "2026-10-14T14:32:08-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1278698",
-      "title": "AdAnt 2.0",
-      "url": "https://www.producthunt.com/products/adant-ai",
-      "publishedAt": "2026-10-14T10:18:42-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1272957",
+      "title": "Table Canon",
+      "url": "https://www.producthunt.com/products/table-canon-ttrpg-campaign-memory",
+      "publishedAt": "2026-10-14T14:02:38-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1273690",
-      "title": "Retriever AI",
-      "url": "https://www.producthunt.com/products/rtrvr-ai",
-      "publishedAt": "2026-10-14T10:17:33-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1275120",
-      "title": "Tiden",
-      "url": "https://www.producthunt.com/products/tiden",
-      "publishedAt": "2026-10-14T10:16:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1279402",
-      "title": "Hindsight 1.0 + Memlake",
-      "url": "https://www.producthunt.com/products/vectorize",
-      "publishedAt": "2026-10-14T10:09:24-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1278797",
-      "title": "SlashDocs by Razorpay",
-      "url": "https://www.producthunt.com/products/razorpay",
-      "publishedAt": "2026-10-14T10:09:24-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1276998",
-      "title": "Orbora",
-      "url": "https://www.producthunt.com/products/orbora",
-      "publishedAt": "2026-10-14T10:09:24-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1279777",
-      "title": "RoleFit",
-      "url": "https://www.producthunt.com/products/rolefit",
-      "publishedAt": "2026-10-14T10:09:24-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1274767",
+      "title": "Rambox",
+      "url": "https://www.producthunt.com/products/rambox",
+      "publishedAt": "2026-10-14T14:06:47-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
