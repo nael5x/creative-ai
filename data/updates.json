@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T21:46:49.708845+00:00",
+  "updatedAt": "2026-10-15T04:50:05.511514+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.5-rc0",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev43",
+      "title": "v1.13.0.dev43",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev43",
+      "publishedAt": "2026-10-15T00:35:25Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev42",
       "title": "v1.13.0.dev42",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev42",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev36",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev36",
       "publishedAt": "2026-10-08T01:38:40Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev35",
-      "title": "v1.13.0.dev35",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev35",
-      "publishedAt": "2026-10-07T02:20:22Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -905,17 +905,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1277882",
       "title": "Confidence by Spotify",
       "url": "https://www.producthunt.com/products/spotify",
-      "publishedAt": "2026-10-14T14:20:45-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1226825",
-      "title": "CSuite",
-      "url": "https://www.producthunt.com/products/csuite",
-      "publishedAt": "2026-10-14T14:18:26-07:00",
+      "publishedAt": "2026-10-14T21:46:57-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,17 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1279319",
       "title": "AURORA Lifeline",
       "url": "https://www.producthunt.com/products/aurora-lifeline",
-      "publishedAt": "2026-10-14T14:18:26-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1275267",
-      "title": "Acyclic",
-      "url": "https://www.producthunt.com/products/acyclic",
-      "publishedAt": "2026-10-14T14:28:56-07:00",
+      "publishedAt": "2026-10-14T15:02:54-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,7 +925,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1270975",
       "title": "Spinachi AI",
       "url": "https://www.producthunt.com/products/spinachi-ai",
-      "publishedAt": "2026-10-14T13:03:13-07:00",
+      "publishedAt": "2026-10-14T21:46:07-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1273797",
+      "title": "Etchv",
+      "url": "https://www.producthunt.com/products/etchv",
+      "publishedAt": "2026-10-14T15:57:09-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1275575",
+      "title": "T-Scriptor",
+      "url": "https://www.producthunt.com/products/t-scriptor",
+      "publishedAt": "2026-10-14T21:10:24-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1275986",
+      "title": "Screenwell.ai",
+      "url": "https://www.producthunt.com/products/screenwell-ai",
+      "publishedAt": "2026-10-14T14:02:38-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1275927",
+      "title": "Elocuenti",
+      "url": "https://www.producthunt.com/products/elocuenti",
+      "publishedAt": "2026-10-14T16:02:35-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1275267",
+      "title": "Acyclic",
+      "url": "https://www.producthunt.com/products/acyclic",
+      "publishedAt": "2026-10-14T20:02:05-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1277094",
+      "title": "Mira Tours",
+      "url": "https://www.producthunt.com/products/mira-tours",
+      "publishedAt": "2026-10-14T20:02:05-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,47 +995,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1271795",
       "title": "Keysi",
       "url": "https://www.producthunt.com/products/keysi",
-      "publishedAt": "2026-10-14T13:03:13-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1221402",
-      "title": "Pancake",
-      "url": "https://www.producthunt.com/products/pancake-6",
-      "publishedAt": "2026-10-14T14:46:39-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1279309",
-      "title": "Nimble",
-      "url": "https://www.producthunt.com/products/nimble-5",
-      "publishedAt": "2026-10-14T14:32:08-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1272957",
-      "title": "Table Canon",
-      "url": "https://www.producthunt.com/products/table-canon-ttrpg-campaign-memory",
-      "publishedAt": "2026-10-14T14:02:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1274767",
-      "title": "Rambox",
-      "url": "https://www.producthunt.com/products/rambox",
-      "publishedAt": "2026-10-14T14:06:47-07:00",
+      "publishedAt": "2026-10-14T21:42:26-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
