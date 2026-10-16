@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T11:33:55.713843+00:00",
+  "updatedAt": "2026-10-16T16:45:04.264833+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.5",
@@ -202,6 +202,16 @@
       "why": "Useful for developers building AI products."
     },
     {
+      "id": "tag:github.com,2008:Repository/155220641/v5.20.1",
+      "title": "Release v5.20.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
+      "publishedAt": "2026-10-16T13:02:29Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/155220641/v5.20.0",
       "title": "Release v5.20.0",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0",
@@ -286,16 +296,6 @@
       "title": "Patch release: v5.14.1",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.1",
       "publishedAt": "2026-07-16T09:41:36Z",
-      "source": "Hugging Face",
-      "kind": "Models & datasets",
-      "purpose": "Use and follow open AI model tooling.",
-      "why": "Useful for anyone working with open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/155220641/v5.14.0",
-      "title": "Release v5.14.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.0",
-      "publishedAt": "2026-07-15T19:02:19Z",
       "source": "Hugging Face",
       "kind": "Models & datasets",
       "purpose": "Use and follow open AI model tooling.",
@@ -402,6 +402,16 @@
       "why": "Useful for advanced Stable Diffusion users."
     },
     {
+      "id": "tag:github.com,2008:Repository/701547123/v0.12.3",
+      "title": "v0.12.3",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.3",
+      "publishedAt": "2026-10-16T11:46:21Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/701547123/v0.12.2",
       "title": "v0.12.2",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.2",
@@ -486,16 +496,6 @@
       "title": "v0.10.2",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.10.2",
       "publishedAt": "2026-07-01T08:41:29Z",
-      "source": "Open WebUI",
-      "kind": "Local AI UI",
-      "purpose": "Use local or remote AI models in a browser interface.",
-      "why": "Useful for people who use Ollama or self-hosted models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/701547123/v0.10.1",
-      "title": "v0.10.1",
-      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.10.1",
-      "publishedAt": "2026-06-29T19:38:44Z",
       "source": "Open WebUI",
       "kind": "Local AI UI",
       "purpose": "Use local or remote AI models in a browser interface.",
@@ -902,60 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1274680",
-      "title": "Jockey by TwelveLabs",
-      "url": "https://www.producthunt.com/products/twelvelabs",
-      "publishedAt": "2026-10-16T04:32:57-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1281483",
-      "title": "Harness by Autonomous",
-      "url": "https://www.producthunt.com/products/harness-by-autonomous",
-      "publishedAt": "2026-10-16T04:32:39-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1282035",
-      "title": "Tesla Roadster",
-      "url": "https://www.producthunt.com/products/tesla-roadster",
-      "publishedAt": "2026-10-16T04:32:47-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1278687",
-      "title": "Firefox Enterprise",
-      "url": "https://www.producthunt.com/products/mozilla",
-      "publishedAt": "2026-10-16T04:25:50-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1281822",
-      "title": "Parallax",
-      "url": "https://www.producthunt.com/products/parallax-5",
-      "publishedAt": "2026-10-16T04:24:51-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1280573",
-      "title": "Memory Chess",
-      "url": "https://www.producthunt.com/products/memory-chess",
-      "publishedAt": "2026-10-16T04:24:36-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1273049",
+      "title": "Taim",
+      "url": "https://www.producthunt.com/products/taim-4",
+      "publishedAt": "2026-10-16T09:44:11-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,37 +915,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1277534",
       "title": "Pomerado",
       "url": "https://www.producthunt.com/products/pomerado",
-      "publishedAt": "2026-10-16T04:27:42-07:00",
+      "publishedAt": "2026-10-16T09:42:59-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1279617",
-      "title": "Fish Audio Drama 3",
-      "url": "https://www.producthunt.com/products/fish-speech",
-      "publishedAt": "2026-10-16T04:32:16-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1281483",
+      "title": "Harness by Autonomous",
+      "url": "https://www.producthunt.com/products/harness-by-autonomous",
+      "publishedAt": "2026-10-16T09:42:47-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1274688",
-      "title": "Hintly for Google Meet™",
-      "url": "https://www.producthunt.com/products/hintly-for-google-meet",
-      "publishedAt": "2026-10-16T04:31:17-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1281191",
+      "title": "Skisso",
+      "url": "https://www.producthunt.com/products/skisso-design-on-the-live-product",
+      "publishedAt": "2026-10-16T09:18:16-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1278526",
-      "title": "Backdrop",
-      "url": "https://www.producthunt.com/products/backdrop",
-      "publishedAt": "2026-10-16T04:24:19-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1281375",
+      "title": "Grablo Spot",
+      "url": "https://www.producthunt.com/products/grablo-spot",
+      "publishedAt": "2026-10-16T07:03:33-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1278654",
+      "title": "Calenteri",
+      "url": "https://www.producthunt.com/products/calenteri",
+      "publishedAt": "2026-10-16T09:22:36-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1280573",
+      "title": "Memory Chess",
+      "url": "https://www.producthunt.com/products/memory-chess",
+      "publishedAt": "2026-10-16T09:31:57-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1281075",
+      "title": "DOYT",
+      "url": "https://www.producthunt.com/products/doyt",
+      "publishedAt": "2026-10-16T09:34:15-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1280754",
+      "title": "Mermaid",
+      "url": "https://www.producthunt.com/products/mermaid",
+      "publishedAt": "2026-10-16T09:06:24-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1280285",
+      "title": "Lovable Growth Tools",
+      "url": "https://www.producthunt.com/products/lovable",
+      "publishedAt": "2026-10-16T09:39:57-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
