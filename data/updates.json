@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T21:29:49.445873+00:00",
+  "updatedAt": "2026-10-16T04:40:11.031141+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.5",
@@ -315,7 +315,7 @@
       "id": "tag:github.com,2008:Repository/589831718/v0.41.0",
       "title": "v0.41.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.0",
-      "publishedAt": "2026-10-15T15:56:50Z",
+      "publishedAt": "2026-10-15T22:57:45Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev44",
+      "title": "v1.13.0.dev44",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev44",
+      "publishedAt": "2026-10-16T02:18:00Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev43",
       "title": "v1.13.0.dev43",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev43",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev37",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev37",
       "publishedAt": "2026-10-09T02:38:08Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev36",
-      "title": "v1.13.0.dev36",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev36",
-      "publishedAt": "2026-10-08T01:38:40Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,90 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1279668",
-      "title": "Reelbird",
-      "url": "https://www.producthunt.com/products/reelbird",
-      "publishedAt": "2026-10-15T14:03:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1280213",
-      "title": "AI Sandboxes by Buddy",
-      "url": "https://www.producthunt.com/products/buddy",
-      "publishedAt": "2026-10-15T13:58:18-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1278526",
-      "title": "Backdrop",
-      "url": "https://www.producthunt.com/products/backdrop",
-      "publishedAt": "2026-10-15T14:03:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1279394",
-      "title": "Nostaliga",
-      "url": "https://www.producthunt.com/products/nostaliga",
-      "publishedAt": "2026-10-15T14:03:06-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1277820",
-      "title": "Kerno 1.0",
-      "url": "https://www.producthunt.com/products/kerno",
-      "publishedAt": "2026-10-15T14:03:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1280449",
-      "title": "siliXon",
-      "url": "https://www.producthunt.com/products/silixon",
-      "publishedAt": "2026-10-15T14:21:00-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1280514",
-      "title": "Ubuntu 26.10 (Stonking Stingray)",
-      "url": "https://www.producthunt.com/products/ubuntu",
-      "publishedAt": "2026-10-15T14:03:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1280174",
-      "title": "Chatway MCP",
-      "url": "https://www.producthunt.com/products/chatway",
-      "publishedAt": "2026-10-15T14:10:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1280444",
-      "title": "withHuman",
-      "url": "https://www.producthunt.com/products/withhuman",
-      "publishedAt": "2026-10-15T14:03:42-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1274337",
+      "title": "Fwrd",
+      "url": "https://www.producthunt.com/products/fwrd",
+      "publishedAt": "2026-10-15T19:46:53-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +915,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1279416",
       "title": "Polylane Impact Analysis",
       "url": "https://www.producthunt.com/products/polylane",
-      "publishedAt": "2026-10-15T13:40:38-07:00",
+      "publishedAt": "2026-10-15T21:27:35-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1280174",
+      "title": "Chatway MCP",
+      "url": "https://www.producthunt.com/products/chatway",
+      "publishedAt": "2026-10-15T21:03:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1267030",
+      "title": "Talanoa",
+      "url": "https://www.producthunt.com/products/talanoa-2",
+      "publishedAt": "2026-10-15T21:27:28-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1280688",
+      "title": "Atticus",
+      "url": "https://www.producthunt.com/products/atticus",
+      "publishedAt": "2026-10-15T20:24:32-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1279449",
+      "title": "SuperLocalMemory",
+      "url": "https://www.producthunt.com/products/superlocalmemory-v2",
+      "publishedAt": "2026-10-15T19:46:54-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1279394",
+      "title": "Nostaliga",
+      "url": "https://www.producthunt.com/products/nostaliga",
+      "publishedAt": "2026-10-15T21:27:50-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1259376",
+      "title": "OpenMuse",
+      "url": "https://www.producthunt.com/products/copilotkit",
+      "publishedAt": "2026-10-15T21:27:40-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1277361",
+      "title": "Audimate",
+      "url": "https://www.producthunt.com/products/audimate",
+      "publishedAt": "2026-10-15T21:03:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1280444",
+      "title": "withHuman",
+      "url": "https://www.producthunt.com/products/withhuman",
+      "publishedAt": "2026-10-15T21:25:39-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
