@@ -4926,5 +4926,13 @@
     "For SOC teams reducing repetitive triage and investigation work around security alerts.",
     "Paid",
     "https://www.dropzone.ai/"
+  ],
+  [
+    "Hyperconsciousness",
+    "AI development",
+    "Developer-alpha Rust knowledge store with encrypted, append-only records and CLI/MCP access.",
+    "For developers giving AI agents scoped, expiring access to persistent knowledge across sessions.",
+    "Open source",
+    "https://github.com/louis030195/hyperconsciousness"
   ]
 ]
