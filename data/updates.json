@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T15:41:56.338358+00:00",
+  "updatedAt": "2026-10-17T20:42:16.590749+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.6",
@@ -902,80 +902,50 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
+      "id": "tag:www.producthunt.com,2005:Post/1273909",
+      "title": "Earnote",
+      "url": "https://www.producthunt.com/products/earnote",
+      "publishedAt": "2026-10-17T13:28:27-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1283017",
+      "title": "GPU Terminal by Context.dev",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "publishedAt": "2026-10-17T13:31:32-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1283097",
+      "title": "Salience",
+      "url": "https://www.producthunt.com/products/salience",
+      "publishedAt": "2026-10-17T13:32:20-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
       "id": "tag:www.producthunt.com,2005:Post/1282082",
       "title": "Draper",
       "url": "https://www.producthunt.com/products/draper",
-      "publishedAt": "2026-10-17T08:03:40-07:00",
+      "publishedAt": "2026-10-17T13:33:12-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1278738",
-      "title": "Spiralens",
-      "url": "https://www.producthunt.com/products/spiralens",
-      "publishedAt": "2026-10-17T08:39:44-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1282248",
-      "title": "Emochi",
-      "url": "https://www.producthunt.com/products/emochi-2",
-      "publishedAt": "2026-10-17T08:39:49-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1278278",
-      "title": "Ultracite v8",
-      "url": "https://www.producthunt.com/products/ultracite",
-      "publishedAt": "2026-10-17T08:03:39-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1273961",
-      "title": "NitroStack",
-      "url": "https://www.producthunt.com/products/nitrostack",
-      "publishedAt": "2026-10-17T08:39:47-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1280962",
-      "title": "Craft Agents",
-      "url": "https://www.producthunt.com/products/craft-agents",
-      "publishedAt": "2026-10-17T08:39:34-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1279890",
-      "title": "Notion: Context for your agents",
-      "url": "https://www.producthunt.com/products/notion",
-      "publishedAt": "2026-10-17T08:39:32-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1279257",
-      "title": "Train with Pasta",
-      "url": "https://www.producthunt.com/products/train-with-pasta",
-      "publishedAt": "2026-10-17T08:17:15-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1276945",
+      "title": "Korinotch",
+      "url": "https://www.producthunt.com/products/korinotch",
+      "publishedAt": "2026-10-17T13:05:19-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,7 +955,37 @@
       "id": "tag:www.producthunt.com,2005:Post/1280692",
       "title": "CrewTower Mod for Claude Code",
       "url": "https://www.producthunt.com/products/crew-tower",
-      "publishedAt": "2026-10-17T07:59:51-07:00",
+      "publishedAt": "2026-10-17T13:02:49-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1278219",
+      "title": "Caldera",
+      "url": "https://www.producthunt.com/products/caldera",
+      "publishedAt": "2026-10-17T13:34:41-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1273961",
+      "title": "NitroStack",
+      "url": "https://www.producthunt.com/products/nitrostack",
+      "publishedAt": "2026-10-17T13:39:50-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1279510",
+      "title": "Unfenced",
+      "url": "https://www.producthunt.com/products/unfenced",
+      "publishedAt": "2026-10-17T13:13:26-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +995,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1260394",
       "title": "Parrot",
       "url": "https://www.producthunt.com/products/parrot-10",
-      "publishedAt": "2026-10-17T08:35:37-07:00",
+      "publishedAt": "2026-10-17T13:37:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
