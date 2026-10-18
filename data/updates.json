@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T15:57:17.174148+00:00",
+  "updatedAt": "2026-10-18T20:52:10.462058+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.7-rc0",
@@ -902,20 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1281975",
-      "title": "Krea 3",
-      "url": "https://www.producthunt.com/products/krea",
-      "publishedAt": "2026-10-18T08:56:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1276094",
-      "title": "Gravity Notes",
-      "url": "https://www.producthunt.com/products/gravity-notes-for-mac",
-      "publishedAt": "2026-10-18T08:56:19-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1282872",
+      "title": "SpeechFast",
+      "url": "https://www.producthunt.com/products/speechfast",
+      "publishedAt": "2026-10-18T13:51:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,47 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1278100",
       "title": "Openbroca",
       "url": "https://www.producthunt.com/products/openbroca",
-      "publishedAt": "2026-10-18T08:56:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1283989",
-      "title": "Vampire Crawlers™",
-      "url": "https://www.producthunt.com/products/vampire-crawlers",
-      "publishedAt": "2026-10-18T08:56:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1281580",
-      "title": "Bee Frontier and Bee Eclipse",
-      "url": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse",
-      "publishedAt": "2026-10-18T08:56:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1282905",
-      "title": "MyLens",
-      "url": "https://www.producthunt.com/products/mylens-ai",
-      "publishedAt": "2026-10-18T08:56:14-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1282872",
-      "title": "SpeechFast",
-      "url": "https://www.producthunt.com/products/speechfast",
-      "publishedAt": "2026-10-18T08:56:19-07:00",
+      "publishedAt": "2026-10-18T13:51:06-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,27 +925,77 @@
       "id": "tag:www.producthunt.com,2005:Post/1276034",
       "title": "Inbox Zero",
       "url": "https://www.producthunt.com/products/inbox-zero-2",
-      "publishedAt": "2026-10-18T08:46:03-07:00",
+      "publishedAt": "2026-10-18T13:50:37-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1278287",
-      "title": "Tower 18 for Mac",
-      "url": "https://www.producthunt.com/products/tower",
-      "publishedAt": "2026-10-18T08:52:18-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1276094",
+      "title": "Gravity Notes",
+      "url": "https://www.producthunt.com/products/gravity-notes-for-mac",
+      "publishedAt": "2026-10-18T13:38:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1282576",
-      "title": "3AM Super Intelligence",
-      "url": "https://www.producthunt.com/products/3am-super-intelligence",
-      "publishedAt": "2026-10-18T08:51:59-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1281580",
+      "title": "Bee Frontier and Bee Eclipse",
+      "url": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse",
+      "publishedAt": "2026-10-18T13:50:40-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1277759",
+      "title": "shim-cli",
+      "url": "https://www.producthunt.com/products/shim-cli",
+      "publishedAt": "2026-10-18T13:50:07-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1282905",
+      "title": "MyLens",
+      "url": "https://www.producthunt.com/products/mylens-ai",
+      "publishedAt": "2026-10-18T13:50:07-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1281975",
+      "title": "Krea 3",
+      "url": "https://www.producthunt.com/products/krea",
+      "publishedAt": "2026-10-18T13:45:10-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1281805",
+      "title": "MeetPaw",
+      "url": "https://www.producthunt.com/products/meetpaw",
+      "publishedAt": "2026-10-18T13:38:28-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1283110",
+      "title": "XBOX Nano Controller",
+      "url": "https://www.producthunt.com/products/microsoft-xbox-series-s",
+      "publishedAt": "2026-10-18T13:38:19-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
