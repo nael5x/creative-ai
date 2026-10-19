@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T20:52:10.462058+00:00",
+  "updatedAt": "2026-10-19T04:51:01.967990+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.7-rc0",
@@ -302,6 +302,26 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.42.1",
+      "title": "v0.42.1",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1",
+      "publishedAt": "2026-10-19T01:33:54Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/589831718/v0.42.0",
+      "title": "v0.42.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0",
+      "publishedAt": "2026-10-18T22:10:38Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.41.3",
       "title": "v0.41.3",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.3",
@@ -376,26 +396,6 @@
       "title": "v0.39.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0",
       "publishedAt": "2026-10-05T22:49:43Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.38.2",
-      "title": "v0.38.2",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.2",
-      "publishedAt": "2026-10-02T01:49:30Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.38.1",
-      "title": "v0.38.1",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.1",
-      "publishedAt": "2026-09-30T20:19:00Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev47",
+      "title": "v1.13.0.dev47",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev47",
+      "publishedAt": "2026-10-19T00:39:14Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev46",
       "title": "v1.13.0.dev46",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev46",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev40",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev40",
       "publishedAt": "2026-10-12T00:47:42Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev39",
-      "title": "v1.13.0.dev39",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev39",
-      "publishedAt": "2026-10-11T00:46:51Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,40 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1282872",
-      "title": "SpeechFast",
-      "url": "https://www.producthunt.com/products/speechfast",
-      "publishedAt": "2026-10-18T13:51:21-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1278100",
-      "title": "Openbroca",
-      "url": "https://www.producthunt.com/products/openbroca",
-      "publishedAt": "2026-10-18T13:51:06-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1276034",
-      "title": "Inbox Zero",
-      "url": "https://www.producthunt.com/products/inbox-zero-2",
-      "publishedAt": "2026-10-18T13:50:37-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1276094",
-      "title": "Gravity Notes",
-      "url": "https://www.producthunt.com/products/gravity-notes-for-mac",
-      "publishedAt": "2026-10-18T13:38:20-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1283558",
+      "title": "Latch",
+      "url": "https://www.producthunt.com/products/latch-7",
+      "publishedAt": "2026-10-18T21:03:19-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,17 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1281580",
       "title": "Bee Frontier and Bee Eclipse",
       "url": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse",
-      "publishedAt": "2026-10-18T13:50:40-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1277759",
-      "title": "shim-cli",
-      "url": "https://www.producthunt.com/products/shim-cli",
-      "publishedAt": "2026-10-18T13:50:07-07:00",
+      "publishedAt": "2026-10-18T21:09:14-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,27 +925,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1282905",
       "title": "MyLens",
       "url": "https://www.producthunt.com/products/mylens-ai",
-      "publishedAt": "2026-10-18T13:50:07-07:00",
+      "publishedAt": "2026-10-18T21:48:30-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1281975",
-      "title": "Krea 3",
-      "url": "https://www.producthunt.com/products/krea",
-      "publishedAt": "2026-10-18T13:45:10-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1264339",
+      "title": "Popcraft",
+      "url": "https://www.producthunt.com/products/popcraft",
+      "publishedAt": "2026-10-18T21:22:13-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1281805",
-      "title": "MeetPaw",
-      "url": "https://www.producthunt.com/products/meetpaw",
-      "publishedAt": "2026-10-18T13:38:28-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1278287",
+      "title": "Tower 18 for Mac",
+      "url": "https://www.producthunt.com/products/tower",
+      "publishedAt": "2026-10-18T21:46:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1283989",
+      "title": "Vampire Crawlers™",
+      "url": "https://www.producthunt.com/products/vampire-crawlers",
+      "publishedAt": "2026-10-18T21:03:18-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1277759",
+      "title": "shim-cli",
+      "url": "https://www.producthunt.com/products/shim-cli",
+      "publishedAt": "2026-10-18T21:42:42-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1282872",
+      "title": "SpeechFast",
+      "url": "https://www.producthunt.com/products/speechfast",
+      "publishedAt": "2026-10-18T21:48:29-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1283110",
       "title": "XBOX Nano Controller",
       "url": "https://www.producthunt.com/products/microsoft-xbox-series-s",
-      "publishedAt": "2026-10-18T13:38:19-07:00",
+      "publishedAt": "2026-10-18T21:49:04-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1276094",
+      "title": "Gravity Notes",
+      "url": "https://www.producthunt.com/products/gravity-notes-for-mac",
+      "publishedAt": "2026-10-18T21:48:29-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
