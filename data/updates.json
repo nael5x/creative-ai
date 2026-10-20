@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-20T17:17:02.064979+00:00",
+  "updatedAt": "2026-10-20T21:42:16.329841+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.7-rc1",
+      "title": "v0.40.7-rc1: mlx: deduplicate CUDA runtime payloads (#17956)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
+      "publishedAt": "2026-10-20T21:15:15Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.7-rc0",
       "title": "v0.40.7",
@@ -86,16 +96,6 @@
       "title": "v0.40.4",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
       "publishedAt": "2026-10-14T02:23:26Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.4-rc2",
-      "title": "v0.40.4-rc2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
-      "publishedAt": "2026-10-13T21:23:05Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.42.2",
+      "title": "v0.42.2",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.2",
+      "publishedAt": "2026-10-20T20:34:13Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.42.1",
       "title": "v0.42.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1",
@@ -386,16 +396,6 @@
       "title": "v0.39.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.1",
       "publishedAt": "2026-10-06T18:49:02Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.39.0",
-      "title": "v0.39.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.39.0",
-      "publishedAt": "2026-10-05T22:49:43Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -612,6 +612,16 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.7",
+      "title": "v1.12.7: fix(deps): preserve Opik LiteLLM compatibility bounds on 1.12.7",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.7",
+      "publishedAt": "2026-10-20T19:30:41Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0",
       "title": "v1.13.0",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev41",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev41",
       "publishedAt": "2026-10-13T00:44:37Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.6",
-      "title": "1.12.6",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.6",
-      "publishedAt": "2026-10-13T16:29:16Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,80 +902,80 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
+      "id": "tag:www.producthunt.com,2005:Post/1285678",
+      "title": "reception",
+      "url": "https://www.producthunt.com/products/reception",
+      "publishedAt": "2026-10-20T14:38:53-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1285072",
+      "title": "xtty",
+      "url": "https://www.producthunt.com/products/xtty",
+      "publishedAt": "2026-10-20T13:09:37-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1285729",
+      "title": "Kling 4.0",
+      "url": "https://www.producthunt.com/products/kling-4-0-4",
+      "publishedAt": "2026-10-20T13:16:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1281979",
+      "title": "ToDo.is",
+      "url": "https://www.producthunt.com/products/todo-is",
+      "publishedAt": "2026-10-20T13:52:50-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1277773",
+      "title": "Jotform App Builder for ChatGPT & Claude",
+      "url": "https://www.producthunt.com/products/jotform",
+      "publishedAt": "2026-10-20T14:37:07-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
       "id": "tag:www.producthunt.com,2005:Post/1282966",
       "title": "Inflight",
       "url": "https://www.producthunt.com/products/inflight-2",
-      "publishedAt": "2026-10-20T10:13:11-07:00",
+      "publishedAt": "2026-10-20T14:38:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1285745",
-      "title": "The New Beings",
-      "url": "https://www.producthunt.com/products/the-new-beings",
-      "publishedAt": "2026-10-20T09:40:20-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1283650",
+      "title": "bonds",
+      "url": "https://www.producthunt.com/products/bonds-2",
+      "publishedAt": "2026-10-20T14:15:40-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1286120",
-      "title": "Lugh Xtudio",
-      "url": "https://www.producthunt.com/products/lugh-xtudio",
-      "publishedAt": "2026-10-20T10:15:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1284142",
-      "title": "Portlivo",
-      "url": "https://www.producthunt.com/products/portlivo",
-      "publishedAt": "2026-10-20T09:40:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1285925",
-      "title": "Stage",
-      "url": "https://www.producthunt.com/products/stage-9",
-      "publishedAt": "2026-10-20T09:39:44-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1286101",
-      "title": "Intel® GPU D-series",
-      "url": "https://www.producthunt.com/products/intel",
-      "publishedAt": "2026-10-20T10:15:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1285764",
-      "title": "call4me",
-      "url": "https://www.producthunt.com/products/call4me",
-      "publishedAt": "2026-10-20T10:15:49-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1283713",
-      "title": "Glance for Mac",
-      "url": "https://www.producthunt.com/products/glance-for-mac",
-      "publishedAt": "2026-10-20T09:39:42-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1250829",
+      "title": "ESP-Mosaico",
+      "url": "https://www.producthunt.com/products/esp-mosaico",
+      "publishedAt": "2026-10-20T13:50:41-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1285391",
       "title": "/dev/null",
       "url": "https://www.producthunt.com/products/dev-null",
-      "publishedAt": "2026-10-20T10:16:06-07:00",
+      "publishedAt": "2026-10-20T14:39:50-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1265727",
-      "title": "Composio Instant",
-      "url": "https://www.producthunt.com/products/composio",
-      "publishedAt": "2026-10-20T10:15:57-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1285840",
+      "title": "Harness²",
+      "url": "https://www.producthunt.com/products/harness-104",
+      "publishedAt": "2026-10-20T14:37:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
