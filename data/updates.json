@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T22:26:46.252236+00:00",
+  "updatedAt": "2026-10-20T04:59:07.592583+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.7-rc0",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev0",
+      "title": "v1.14.0.dev0",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev0",
+      "publishedAt": "2026-10-20T01:16:52Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0",
       "title": "v1.13.0",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0",
@@ -686,16 +696,6 @@
       "title": "1.12.6",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.6",
       "publishedAt": "2026-10-13T16:29:16Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev40",
-      "title": "v1.13.0.dev40",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev40",
-      "publishedAt": "2026-10-12T00:47:42Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -905,67 +905,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1283000",
       "title": "Lookout (for Slack)",
       "url": "https://www.producthunt.com/products/lookout-for-slack",
-      "publishedAt": "2026-10-19T11:43:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1278782",
-      "title": "readywhen",
-      "url": "https://www.producthunt.com/products/readywhen",
-      "publishedAt": "2026-10-19T15:07:18-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1282211",
-      "title": "DoOne",
-      "url": "https://www.producthunt.com/products/doone-focus-tasks-with-integration",
-      "publishedAt": "2026-10-19T14:21:20-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1284942",
-      "title": "croft",
-      "url": "https://www.producthunt.com/products/croft-2",
-      "publishedAt": "2026-10-19T13:58:46-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1284342",
-      "title": "Triwarden",
-      "url": "https://www.producthunt.com/products/triwarden",
-      "publishedAt": "2026-10-19T15:01:52-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1277161",
-      "title": "CrawlForge MCP",
-      "url": "https://www.producthunt.com/products/crawlforge-mcp",
-      "publishedAt": "2026-10-19T15:10:11-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1283227",
-      "title": "Starkomand",
-      "url": "https://www.producthunt.com/products/starkomand",
-      "publishedAt": "2026-10-19T15:01:52-07:00",
+      "publishedAt": "2026-10-19T20:01:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,7 +915,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1284138",
       "title": "Own 1",
       "url": "https://www.producthunt.com/products/own-1-a-powerful-personal-ai-computer",
-      "publishedAt": "2026-10-19T12:23:58-07:00",
+      "publishedAt": "2026-10-19T19:28:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1282904",
+      "title": "Wally by Willow",
+      "url": "https://www.producthunt.com/products/willow-voice",
+      "publishedAt": "2026-10-19T21:53:24-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1284611",
+      "title": "Beam.win",
+      "url": "https://www.producthunt.com/products/beam-win",
+      "publishedAt": "2026-10-19T21:56:22-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1283818",
+      "title": "walkai-talkai",
+      "url": "https://www.producthunt.com/products/walkai-talkai",
+      "publishedAt": "2026-10-19T21:57:15-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1283227",
+      "title": "Starkomand",
+      "url": "https://www.producthunt.com/products/starkomand",
+      "publishedAt": "2026-10-19T21:48:55-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +965,37 @@
       "id": "tag:www.producthunt.com,2005:Post/1254725",
       "title": "Lancetta",
       "url": "https://www.producthunt.com/products/lancetta",
-      "publishedAt": "2026-10-19T13:52:31-07:00",
+      "publishedAt": "2026-10-19T18:01:49-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1284331",
-      "title": "Planet-X",
-      "url": "https://www.producthunt.com/products/planet-x",
-      "publishedAt": "2026-10-19T14:41:57-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1277161",
+      "title": "CrawlForge MCP",
+      "url": "https://www.producthunt.com/products/crawlforge-mcp",
+      "publishedAt": "2026-10-19T21:49:48-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1284342",
+      "title": "Triwarden",
+      "url": "https://www.producthunt.com/products/triwarden",
+      "publishedAt": "2026-10-19T17:23:26-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1284942",
+      "title": "croft",
+      "url": "https://www.producthunt.com/products/croft-2",
+      "publishedAt": "2026-10-19T21:25:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
