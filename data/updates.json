@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-10-22T17:17:22.027374+00:00",
+  "updatedAt": "2026-10-22T21:43:08.598298+00:00",
   "items": [
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.9-rc1",
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.9-rc2",
       "title": "v0.40.9",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
+      "publishedAt": "2026-10-22T19:39:48Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.9-rc1",
+      "title": "v0.40.9-rc1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
-      "publishedAt": "2026-10-22T01:33:10Z",
+      "publishedAt": "2026-10-22T00:13:25Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -92,14 +102,14 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.6-rc0",
-      "title": "v0.40.6-rc0: Merge pull request #19041 from ollama/jberg/clef-question-ids",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0",
-      "publishedAt": "2026-10-16T01:09:41Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.7.0",
+      "title": "langchain-core==1.7.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0",
+      "publishedAt": "2026-10-22T17:48:17Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
     },
     {
       "id": "tag:github.com,2008:Repository/552661142/langchain-perplexity==1.4.2",
@@ -186,16 +196,6 @@
       "title": "langchain-core==1.6.10",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.10",
       "publishedAt": "2026-10-12T14:14:05Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.7.6",
-      "title": "langchain-anthropic==1.7.6",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.6",
-      "publishedAt": "2026-10-12T14:40:17Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -612,20 +612,20 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev1",
-      "title": "v1.14.0.dev1",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev1",
-      "publishedAt": "2026-10-21T01:46:49Z",
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0",
+      "title": "1.13.0",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0",
+      "publishedAt": "2026-10-22T21:20:33Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0",
-      "title": "v1.13.0: docs: cut 1.13.0 release (#15829)",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0",
-      "publishedAt": "2026-10-21T21:20:37Z",
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev1",
+      "title": "v1.14.0.dev1",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev1",
+      "publishedAt": "2026-10-21T01:46:49Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,90 +902,80 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1287993",
-      "title": "Kugel Ear",
-      "url": "https://www.producthunt.com/products/kugelaudio",
-      "publishedAt": "2026-10-22T10:10:20-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1288711",
-      "title": "Resend Inboxes",
-      "url": "https://www.producthunt.com/products/resend",
-      "publishedAt": "2026-10-22T10:16:46-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1288748",
-      "title": "Tetriz Engg Intelligence + Connectors",
-      "url": "https://www.producthunt.com/products/tetriz-engg-intelligence-connectors",
-      "publishedAt": "2026-10-22T09:35:01-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1280966",
-      "title": "Fastlane 2.0",
-      "url": "https://www.producthunt.com/products/fastlane-3",
-      "publishedAt": "2026-10-22T10:15:46-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1288350",
-      "title": "Claude Duet",
-      "url": "https://www.producthunt.com/products/claude",
-      "publishedAt": "2026-10-22T10:16:22-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1274632",
-      "title": "Doneas",
-      "url": "https://www.producthunt.com/products/doneas",
-      "publishedAt": "2026-10-22T10:14:48-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1266852",
       "title": "heal.dev",
       "url": "https://www.producthunt.com/products/heal-dev",
-      "publishedAt": "2026-10-22T10:16:18-07:00",
+      "publishedAt": "2026-10-22T14:31:35-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1286573",
-      "title": "Dadan",
-      "url": "https://www.producthunt.com/products/dadan",
-      "publishedAt": "2026-10-22T10:13:54-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1286858",
+      "title": "Mistral Voxtral 3",
+      "url": "https://www.producthunt.com/products/mistral-7b",
+      "publishedAt": "2026-10-22T14:30:42-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1286749",
-      "title": "DeepCell",
-      "url": "https://www.producthunt.com/products/deepcell",
-      "publishedAt": "2026-10-22T10:16:03-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1288764",
+      "title": "Agentic CleanSlop",
+      "url": "https://www.producthunt.com/products/cleanslop",
+      "publishedAt": "2026-10-22T11:28:51-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1280076",
+      "title": "Kalender Sync",
+      "url": "https://www.producthunt.com/products/kalender-sync",
+      "publishedAt": "2026-10-22T13:03:16-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1276592",
+      "title": "Concierge by Juniors AI",
+      "url": "https://www.producthunt.com/products/concierge-by-juniors-ai",
+      "publishedAt": "2026-10-22T13:34:08-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1288519",
+      "title": "Sponkly",
+      "url": "https://www.producthunt.com/products/sponkly",
+      "publishedAt": "2026-10-22T14:07:19-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1288429",
+      "title": "Teclo",
+      "url": "https://www.producthunt.com/products/teclo",
+      "publishedAt": "2026-10-22T14:10:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1288330",
+      "title": "Archivist",
+      "url": "https://www.producthunt.com/products/archivist",
+      "publishedAt": "2026-10-22T12:03:18-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1287254",
       "title": "Notif",
       "url": "https://www.producthunt.com/products/notif-2",
-      "publishedAt": "2026-10-22T10:10:21-07:00",
+      "publishedAt": "2026-10-22T14:10:06-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1277666",
+      "title": "Playad",
+      "url": "https://www.producthunt.com/products/playad",
+      "publishedAt": "2026-10-22T14:05:32-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
