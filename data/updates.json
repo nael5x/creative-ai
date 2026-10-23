@@ -1,11 +1,31 @@
 {
-  "updatedAt": "2026-10-22T21:43:08.598298+00:00",
+  "updatedAt": "2026-10-23T05:00:51.020395+00:00",
   "items": [
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.9-rc2",
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.9",
       "title": "v0.40.9",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
+      "publishedAt": "2026-10-23T02:12:47Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.9-rc3",
+      "title": "v0.40.9-rc3: Support GA Gradium Phonon checkpoints (#19227)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3",
+      "publishedAt": "2026-10-22T22:51:43Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.9-rc2",
+      "title": "v0.40.9-rc2: flint: fix replies with thinking disabled (#19216)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
-      "publishedAt": "2026-10-22T19:39:48Z",
+      "publishedAt": "2026-10-22T18:38:27Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -76,26 +96,6 @@
       "title": "v0.40.7-rc0: mlx: add PPLX Decider v1.2 support (#19072)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0",
       "publishedAt": "2026-10-17T21:45:55Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.6",
-      "title": "v0.40.6",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
-      "publishedAt": "2026-10-17T15:29:04Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.6-rc1",
-      "title": "v0.40.6-rc1: transfer: support proxies on registry redirect targets (#19065)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1",
-      "publishedAt": "2026-10-16T22:00:17Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.42.5",
+      "title": "v0.42.5",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.5",
+      "publishedAt": "2026-10-23T00:07:14Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.42.4",
       "title": "v0.42.4",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.4",
@@ -386,16 +396,6 @@
       "title": "v0.41.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.0",
       "publishedAt": "2026-10-15T22:57:45Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.40.0",
-      "title": "v0.40.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.40.0",
-      "publishedAt": "2026-10-13T21:29:16Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev3",
+      "title": "v1.14.0.dev3",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev3",
+      "publishedAt": "2026-10-23T00:38:41Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev2",
       "title": "v1.14.0.dev2",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev2",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev45",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev45",
       "publishedAt": "2026-10-17T00:36:10Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev44",
-      "title": "v1.13.0.dev44",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev44",
-      "publishedAt": "2026-10-16T02:18:00Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,60 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1266852",
-      "title": "heal.dev",
-      "url": "https://www.producthunt.com/products/heal-dev",
-      "publishedAt": "2026-10-22T14:31:35-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1286858",
-      "title": "Mistral Voxtral 3",
-      "url": "https://www.producthunt.com/products/mistral-7b",
-      "publishedAt": "2026-10-22T14:30:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1288764",
-      "title": "Agentic CleanSlop",
-      "url": "https://www.producthunt.com/products/cleanslop",
-      "publishedAt": "2026-10-22T11:28:51-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1280076",
-      "title": "Kalender Sync",
-      "url": "https://www.producthunt.com/products/kalender-sync",
-      "publishedAt": "2026-10-22T13:03:16-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1276592",
-      "title": "Concierge by Juniors AI",
-      "url": "https://www.producthunt.com/products/concierge-by-juniors-ai",
-      "publishedAt": "2026-10-22T13:34:08-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1288519",
-      "title": "Sponkly",
-      "url": "https://www.producthunt.com/products/sponkly",
-      "publishedAt": "2026-10-22T14:07:19-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1279533",
+      "title": "Claire Mail",
+      "url": "https://www.producthunt.com/products/claire-mail",
+      "publishedAt": "2026-10-22T17:30:23-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,7 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1288429",
       "title": "Teclo",
       "url": "https://www.producthunt.com/products/teclo",
-      "publishedAt": "2026-10-22T14:10:25-07:00",
+      "publishedAt": "2026-10-22T16:34:29-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,7 +925,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1288330",
       "title": "Archivist",
       "url": "https://www.producthunt.com/products/archivist",
-      "publishedAt": "2026-10-22T12:03:18-07:00",
+      "publishedAt": "2026-10-22T19:48:46-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1276592",
+      "title": "Concierge by Juniors AI",
+      "url": "https://www.producthunt.com/products/concierge-by-juniors-ai",
+      "publishedAt": "2026-10-22T19:48:55-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1288519",
+      "title": "Sponkly",
+      "url": "https://www.producthunt.com/products/sponkly",
+      "publishedAt": "2026-10-22T21:37:05-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,7 +955,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1287254",
       "title": "Notif",
       "url": "https://www.producthunt.com/products/notif-2",
-      "publishedAt": "2026-10-22T14:10:06-07:00",
+      "publishedAt": "2026-10-22T19:52:19-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1288711",
+      "title": "Resend Inboxes",
+      "url": "https://www.producthunt.com/products/resend",
+      "publishedAt": "2026-10-22T20:49:09-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1288430",
+      "title": "Bits",
+      "url": "https://www.producthunt.com/products/bits-4",
+      "publishedAt": "2026-10-22T19:13:49-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1277666",
       "title": "Playad",
       "url": "https://www.producthunt.com/products/playad",
-      "publishedAt": "2026-10-22T14:05:32-07:00",
+      "publishedAt": "2026-10-22T19:48:42-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1280966",
+      "title": "Fastlane 2.0",
+      "url": "https://www.producthunt.com/products/fastlane-3",
+      "publishedAt": "2026-10-22T21:59:11-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
