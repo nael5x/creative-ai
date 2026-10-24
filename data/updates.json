@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-23T21:29:20.865826+00:00",
+  "updatedAt": "2026-10-24T04:45:45.986828+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.11-rc0",
+      "title": "v0.40.11",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
+      "publishedAt": "2026-10-24T00:30:13Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.10",
       "title": "v0.40.10",
@@ -86,16 +96,6 @@
       "title": "v0.40.8-rc0: mlx: add Flint model support (#19181)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
       "publishedAt": "2026-10-21T14:45:50Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.7",
-      "title": "v0.40.7",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7",
-      "publishedAt": "2026-10-21T04:01:19Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev4",
+      "title": "v1.14.0.dev4",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev4",
+      "publishedAt": "2026-10-24T00:35:48Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev3",
       "title": "v1.14.0.dev3",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev3",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev46",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev46",
       "publishedAt": "2026-10-18T00:39:37Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev45",
-      "title": "v1.13.0.dev45",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev45",
-      "publishedAt": "2026-10-17T00:36:10Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,20 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1255211",
-      "title": "MOVO AI",
-      "url": "https://www.producthunt.com/products/movo-ai",
-      "publishedAt": "2026-10-23T14:22:14-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1289897",
-      "title": "Product Hunt Visual Launch Editor",
-      "url": "https://www.producthunt.com/products/producthunt",
-      "publishedAt": "2026-10-23T14:27:59-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1285865",
+      "title": "FLUX 3 Max",
+      "url": "https://www.producthunt.com/products/fal-ai",
+      "publishedAt": "2026-10-23T21:14:50-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,7 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1286735",
       "title": "ElevenLabs Realtime",
       "url": "https://www.producthunt.com/products/realtime-max-mini",
-      "publishedAt": "2026-10-23T14:28:26-07:00",
+      "publishedAt": "2026-10-23T21:07:25-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -935,7 +925,37 @@
       "id": "tag:www.producthunt.com,2005:Post/1273697",
       "title": "Ovren Live Preview",
       "url": "https://www.producthunt.com/products/ovren",
-      "publishedAt": "2026-10-23T14:09:56-07:00",
+      "publishedAt": "2026-10-23T21:40:07-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1255211",
+      "title": "MOVO AI",
+      "url": "https://www.producthunt.com/products/movo-ai",
+      "publishedAt": "2026-10-23T21:38:46-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1289897",
+      "title": "Product Hunt Visual Launch Editor",
+      "url": "https://www.producthunt.com/products/producthunt",
+      "publishedAt": "2026-10-23T21:37:28-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1287249",
+      "title": "Dots Phone",
+      "url": "https://www.producthunt.com/products/dots-phone",
+      "publishedAt": "2026-10-23T21:12:00-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,7 +965,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1286974",
       "title": "DotMD",
       "url": "https://www.producthunt.com/products/dotmd-3",
-      "publishedAt": "2026-10-23T14:03:30-07:00",
+      "publishedAt": "2026-10-23T21:13:59-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1289207",
+      "title": "Gerty",
+      "url": "https://www.producthunt.com/products/gerty",
+      "publishedAt": "2026-10-23T20:38:56-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,7 +985,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1289607",
       "title": "Peras",
       "url": "https://www.producthunt.com/products/peras",
-      "publishedAt": "2026-10-23T14:03:30-07:00",
+      "publishedAt": "2026-10-23T21:34:19-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,37 +995,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1289823",
       "title": "Termi Protocol",
       "url": "https://www.producthunt.com/products/termi-protocol",
-      "publishedAt": "2026-10-23T13:48:13-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1287301",
-      "title": "Cloudflare Clairic",
-      "url": "https://www.producthunt.com/products/cloudflare",
-      "publishedAt": "2026-10-23T14:03:29-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1289162",
-      "title": "Dots",
-      "url": "https://www.producthunt.com/products/dots-7",
-      "publishedAt": "2026-10-23T14:22:39-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1288923",
-      "title": "Bloblings",
-      "url": "https://www.producthunt.com/products/bloblings",
-      "publishedAt": "2026-10-23T14:03:30-07:00",
+      "publishedAt": "2026-10-23T21:36:47-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
