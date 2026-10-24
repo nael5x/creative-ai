@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-24T11:13:29.165602+00:00",
+  "updatedAt": "2026-10-24T16:02:57.926636+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.11",
+      "title": "v0.40.11: voice: add voice catalog for Phonon (#19242)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
+      "publishedAt": "2026-10-23T23:15:08Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.11-rc0",
       "title": "v0.40.11",
@@ -86,16 +96,6 @@
       "title": "v0.40.8",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
       "publishedAt": "2026-10-21T21:46:35Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.8-rc0",
-      "title": "v0.40.8-rc0: mlx: add Flint model support (#19181)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
-      "publishedAt": "2026-10-21T14:45:50Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -902,70 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1283491",
-      "title": "How It Went",
-      "url": "https://www.producthunt.com/products/how-it-went",
-      "publishedAt": "2026-10-24T04:12:29-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1281583",
-      "title": "zCAD AI",
-      "url": "https://www.producthunt.com/products/zcad-ai",
-      "publishedAt": "2026-10-24T04:11:45-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1290354",
-      "title": "sideOS.ai",
-      "url": "https://www.producthunt.com/products/sideos-ai",
-      "publishedAt": "2026-10-24T04:10:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1289449",
-      "title": "1Password for Agents",
-      "url": "https://www.producthunt.com/products/1password",
-      "publishedAt": "2026-10-24T04:11:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1288672",
-      "title": "Penta",
-      "url": "https://www.producthunt.com/products/penta-cd-player-changer",
-      "publishedAt": "2026-10-24T04:10:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1286641",
-      "title": "AgentValley",
-      "url": "https://www.producthunt.com/products/agentvalley",
-      "publishedAt": "2026-10-24T04:09:59-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1289401",
-      "title": "River Writer",
-      "url": "https://www.producthunt.com/products/river-writer",
-      "publishedAt": "2026-10-24T04:08:15-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1290612",
+      "title": "Basedash Scheduled CSV Exports",
+      "url": "https://www.producthunt.com/products/basedash",
+      "publishedAt": "2026-10-24T08:32:33-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,17 +915,37 @@
       "id": "tag:www.producthunt.com,2005:Post/1290061",
       "title": "Canva Craft",
       "url": "https://www.producthunt.com/products/canva",
-      "publishedAt": "2026-10-24T04:10:27-07:00",
+      "publishedAt": "2026-10-24T09:02:11-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1290612",
-      "title": "Basedash Scheduled CSV Exports",
-      "url": "https://www.producthunt.com/products/basedash",
-      "publishedAt": "2026-10-24T04:08:14-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1290354",
+      "title": "sideOS.ai",
+      "url": "https://www.producthunt.com/products/sideos-ai",
+      "publishedAt": "2026-10-24T08:32:33-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1288200",
+      "title": "Byter",
+      "url": "https://www.producthunt.com/products/byter",
+      "publishedAt": "2026-10-24T08:32:33-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1288672",
+      "title": "Penta",
+      "url": "https://www.producthunt.com/products/penta-cd-player-changer",
+      "publishedAt": "2026-10-24T08:59:46-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +955,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1280293",
       "title": "Many Displays",
       "url": "https://www.producthunt.com/products/many-displays",
-      "publishedAt": "2026-10-24T04:08:13-07:00",
+      "publishedAt": "2026-10-24T08:51:47-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1286641",
+      "title": "AgentValley",
+      "url": "https://www.producthunt.com/products/agentvalley",
+      "publishedAt": "2026-10-24T09:01:20-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1281583",
+      "title": "zCAD AI",
+      "url": "https://www.producthunt.com/products/zcad-ai",
+      "publishedAt": "2026-10-24T08:54:39-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1289401",
+      "title": "River Writer",
+      "url": "https://www.producthunt.com/products/river-writer",
+      "publishedAt": "2026-10-24T08:46:34-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1283491",
+      "title": "How It Went",
+      "url": "https://www.producthunt.com/products/how-it-went",
+      "publishedAt": "2026-10-24T08:46:19-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
