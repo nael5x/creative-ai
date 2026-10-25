@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T11:42:58.960260+00:00",
+  "updatedAt": "2026-10-25T16:31:54.095526+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.11",
@@ -612,6 +612,16 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.1",
+      "title": "v1.13.1",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.1",
+      "publishedAt": "2026-10-25T15:50:28Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev4",
       "title": "v1.14.0.dev4",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev4",
@@ -686,16 +696,6 @@
       "title": "1.12.7",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.7",
       "publishedAt": "2026-10-21T01:17:41Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev47",
-      "title": "v1.13.0.dev47",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev47",
-      "publishedAt": "2026-10-19T00:39:14Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,20 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1285452",
-      "title": "git-flow-next",
-      "url": "https://www.producthunt.com/products/tower",
-      "publishedAt": "2026-10-25T04:38:51-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1287264",
-      "title": "pawl",
-      "url": "https://www.producthunt.com/products/pawl",
-      "publishedAt": "2026-10-25T04:36:24-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1283538",
+      "title": "Openstatus Incident Management",
+      "url": "https://www.producthunt.com/products/openstatus-2",
+      "publishedAt": "2026-10-25T09:14:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,27 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1278600",
       "title": "Moli by Lexmount",
       "url": "https://www.producthunt.com/products/lexmount-browser",
-      "publishedAt": "2026-10-25T04:41:58-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1283538",
-      "title": "Openstatus Incident Management",
-      "url": "https://www.producthunt.com/products/openstatus-2",
-      "publishedAt": "2026-10-25T04:41:45-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1286064",
-      "title": "How It Spread",
-      "url": "https://www.producthunt.com/products/how-it-spread",
-      "publishedAt": "2026-10-25T04:23:22-07:00",
+      "publishedAt": "2026-10-25T09:26:04-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,37 +925,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1283600",
       "title": "Clips by Plastic",
       "url": "https://www.producthunt.com/products/clips-by-plastic",
-      "publishedAt": "2026-10-25T04:23:58-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1273641",
-      "title": "Badgey",
-      "url": "https://www.producthunt.com/products/badgey",
-      "publishedAt": "2026-10-25T04:38:50-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1284558",
-      "title": "Specsight",
-      "url": "https://www.producthunt.com/products/specsight",
-      "publishedAt": "2026-10-25T04:22:59-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1290875",
-      "title": "Llama Windows",
-      "url": "https://www.producthunt.com/products/llama-windows",
-      "publishedAt": "2026-10-25T04:27:17-07:00",
+      "publishedAt": "2026-10-25T09:03:27-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +935,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1291438",
       "title": "Yourcast 2.0",
       "url": "https://www.producthunt.com/products/yourcast",
-      "publishedAt": "2026-10-25T04:23:50-07:00",
+      "publishedAt": "2026-10-25T09:20:07-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1285452",
+      "title": "git-flow-next",
+      "url": "https://www.producthunt.com/products/tower",
+      "publishedAt": "2026-10-25T09:14:21-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1290875",
+      "title": "Llama Windows",
+      "url": "https://www.producthunt.com/products/llama-windows",
+      "publishedAt": "2026-10-25T09:03:27-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1284558",
+      "title": "Specsight",
+      "url": "https://www.producthunt.com/products/specsight",
+      "publishedAt": "2026-10-25T09:08:27-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1291620",
+      "title": "Papermark Data Rooms",
+      "url": "https://www.producthunt.com/products/papermark-2",
+      "publishedAt": "2026-10-25T09:30:48-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1291942",
+      "title": "AgentGrid.io",
+      "url": "https://www.producthunt.com/products/agentgrid-io",
+      "publishedAt": "2026-10-25T09:26:19-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1289061",
+      "title": "MRRaudit",
+      "url": "https://www.producthunt.com/products/mrraudit",
+      "publishedAt": "2026-10-25T09:26:34-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
