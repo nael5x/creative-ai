@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T13:16:38.775892+00:00",
+  "updatedAt": "2026-10-26T22:44:47.582576+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.11",
@@ -202,6 +202,16 @@
       "why": "Useful for developers building AI products."
     },
     {
+      "id": "tag:github.com,2008:Repository/155220641/v5.21",
+      "title": "Release: v5.21.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.21",
+      "publishedAt": "2026-10-26T18:21:30Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/155220641/v5.20.2",
       "title": "Patch release v5.20.2",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2",
@@ -286,16 +296,6 @@
       "title": "Patch release: v5.15.1",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
       "publishedAt": "2026-08-19T10:50:47Z",
-      "source": "Hugging Face",
-      "kind": "Models & datasets",
-      "purpose": "Use and follow open AI model tooling.",
-      "why": "Useful for anyone working with open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/155220641/v5.15.0",
-      "title": "Release: v5.15.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
-      "publishedAt": "2026-08-10T10:28:13Z",
       "source": "Hugging Face",
       "kind": "Models & datasets",
       "purpose": "Use and follow open AI model tooling.",
@@ -902,10 +902,30 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
+      "id": "tag:www.producthunt.com,2005:Post/1288735",
+      "title": "PDF Accessibility Checker by WebYes",
+      "url": "https://www.producthunt.com/products/pdf-accessibility-checker",
+      "publishedAt": "2026-10-26T15:44:06-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1273287",
+      "title": "N8N Chat UI",
+      "url": "https://www.producthunt.com/products/n8n-chat-ui-2",
+      "publishedAt": "2026-10-26T15:21:10-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
       "id": "tag:www.producthunt.com,2005:Post/1278009",
       "title": "Strawberry 1.0",
       "url": "https://www.producthunt.com/products/strawberry",
-      "publishedAt": "2026-10-26T06:15:54-07:00",
+      "publishedAt": "2026-10-26T15:35:10-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -915,57 +935,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1292068",
       "title": "tabsh",
       "url": "https://www.producthunt.com/products/tabsh",
-      "publishedAt": "2026-10-26T06:12:20-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1291654",
-      "title": "2G",
-      "url": "https://www.producthunt.com/products/2g",
-      "publishedAt": "2026-10-26T05:58:03-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1292894",
-      "title": "AllModels",
-      "url": "https://www.producthunt.com/products/allmodels-io",
-      "publishedAt": "2026-10-26T06:12:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1292792",
-      "title": "Standfast",
-      "url": "https://www.producthunt.com/products/standfast",
-      "publishedAt": "2026-10-26T06:08:52-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1288735",
-      "title": "PDF Accessibility Checker by WebYes",
-      "url": "https://www.producthunt.com/products/pdf-accessibility-checker",
-      "publishedAt": "2026-10-26T06:10:48-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1292687",
-      "title": "Jobmate AI",
-      "url": "https://www.producthunt.com/products/jobmate-ai-3",
-      "publishedAt": "2026-10-26T06:08:45-07:00",
+      "publishedAt": "2026-10-26T15:23:48-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,27 +945,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1284985",
       "title": "Helio",
       "url": "https://www.producthunt.com/products/helio-7",
-      "publishedAt": "2026-10-26T06:08:31-07:00",
+      "publishedAt": "2026-10-26T15:19:22-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1292685",
-      "title": "AVP",
-      "url": "https://www.producthunt.com/products/avp",
-      "publishedAt": "2026-10-26T06:06:30-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1287693",
+      "title": "AI Bridge",
+      "url": "https://www.producthunt.com/products/ai-bridge",
+      "publishedAt": "2026-10-26T15:22:37-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1292433",
-      "title": "Mozy",
-      "url": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
-      "publishedAt": "2026-10-26T06:11:57-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1291790",
+      "title": "Kiwi",
+      "url": "https://www.producthunt.com/products/kiwi-7",
+      "publishedAt": "2026-10-26T15:30:02-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1275386",
+      "title": "Flipcorder",
+      "url": "https://www.producthunt.com/products/flipcorder",
+      "publishedAt": "2026-10-26T15:35:02-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1285416",
+      "title": "MiniMax M3.1 Flash",
+      "url": "https://www.producthunt.com/products/minimax-4",
+      "publishedAt": "2026-10-26T15:35:13-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1292572",
+      "title": "desigma",
+      "url": "https://www.producthunt.com/products/desigma",
+      "publishedAt": "2026-10-26T15:06:50-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
