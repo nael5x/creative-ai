@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-28T13:08:46.788238+00:00",
+  "updatedAt": "2026-10-28T22:40:31.627541+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.13-rc1",
+      "title": "v0.40.13-rc1: llama.cpp: workaround Metal unary crash (#19372)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1",
+      "publishedAt": "2026-10-28T22:20:04Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.13-rc0",
+      "title": "v0.40.13",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
+      "publishedAt": "2026-10-28T19:55:04Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.12",
       "title": "v0.40.12",
@@ -82,24 +102,14 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.9-rc3",
-      "title": "v0.40.9-rc3: Support GA Gradium Phonon checkpoints (#19227)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3",
-      "publishedAt": "2026-10-22T22:51:43Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.9-rc2",
-      "title": "v0.40.9-rc2: flint: fix replies with thinking disabled (#19216)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
-      "publishedAt": "2026-10-22T18:38:27Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.7.1",
+      "title": "langchain-core==1.7.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1",
+      "publishedAt": "2026-10-28T15:00:04Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
     },
     {
       "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.7.7",
@@ -186,16 +196,6 @@
       "title": "langchain-openai==1.7.2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2",
       "publishedAt": "2026-10-14T13:51:18Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain==1.4.6",
-      "title": "langchain==1.4.6",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.6",
-      "publishedAt": "2026-10-14T17:28:08Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -612,6 +612,16 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.1",
+      "title": "v1.13.1",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.1",
+      "publishedAt": "2026-10-28T20:12:43Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev7",
       "title": "v1.14.0.dev7",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev7",
@@ -636,16 +646,6 @@
       "title": "v1.14.0.dev5",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev5",
       "publishedAt": "2026-10-25T00:40:10Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.1",
-      "title": "v1.13.1",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.1",
-      "publishedAt": "2026-10-25T18:13:26Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,50 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1295513",
-      "title": "WebAI by Opera",
-      "url": "https://www.producthunt.com/products/opera",
-      "publishedAt": "2026-10-28T05:58:12-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1294903",
-      "title": "LFM3 by Liquid AI",
-      "url": "https://www.producthunt.com/products/lfm2",
-      "publishedAt": "2026-10-28T06:07:49-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1293747",
-      "title": "throxy (yc p25)",
-      "url": "https://www.producthunt.com/products/throxy-yc-p25",
-      "publishedAt": "2026-10-28T06:07:57-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1293579",
-      "title": "Hob",
-      "url": "https://www.producthunt.com/products/hob-3",
-      "publishedAt": "2026-10-28T06:07:55-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1287824",
-      "title": "bytemail",
-      "url": "https://www.producthunt.com/products/bytemail",
-      "publishedAt": "2026-10-28T06:07:54-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1293426",
+      "title": "Dotverse",
+      "url": "https://www.producthunt.com/products/dotverse",
+      "publishedAt": "2026-10-28T14:21:19-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,7 +915,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1200683",
       "title": "Tulu",
       "url": "https://www.producthunt.com/products/tulu",
-      "publishedAt": "2026-10-28T06:07:49-07:00",
+      "publishedAt": "2026-10-28T15:16:37-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1295295",
+      "title": "licenseal",
+      "url": "https://www.producthunt.com/products/licenseal",
+      "publishedAt": "2026-10-28T13:57:28-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1294823",
+      "title": "Genie 4",
+      "url": "https://www.producthunt.com/products/gemini-1-5-pro",
+      "publishedAt": "2026-10-28T15:06:54-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1294779",
+      "title": "Open For sales",
+      "url": "https://www.producthunt.com/products/open-for-sales",
+      "publishedAt": "2026-10-28T13:27:42-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1291493",
+      "title": "AirPosture",
+      "url": "https://www.producthunt.com/products/airposture-2",
+      "publishedAt": "2026-10-28T14:30:33-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,37 +965,37 @@
       "id": "tag:www.producthunt.com,2005:Post/1290434",
       "title": "Fraud Blocker",
       "url": "https://www.producthunt.com/products/fraud-blocker",
-      "publishedAt": "2026-10-28T06:07:49-07:00",
+      "publishedAt": "2026-10-28T15:27:08-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1295250",
-      "title": "Dedica",
-      "url": "https://www.producthunt.com/products/dedica",
-      "publishedAt": "2026-10-28T06:07:49-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1293747",
+      "title": "throxy",
+      "url": "https://www.producthunt.com/products/throxy-yc-p25",
+      "publishedAt": "2026-10-28T15:38:27-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1281746",
-      "title": "BotGauge",
-      "url": "https://www.producthunt.com/products/botgauge-2",
-      "publishedAt": "2026-10-28T06:07:49-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1269164",
+      "title": "App Store Screenshots",
+      "url": "https://www.producthunt.com/products/app-store-screenshots",
+      "publishedAt": "2026-10-28T14:03:41-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1294984",
-      "title": "Boltbar",
-      "url": "https://www.producthunt.com/products/boltbar",
-      "publishedAt": "2026-10-28T05:40:46-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1294326",
+      "title": "Yardlet",
+      "url": "https://www.producthunt.com/products/yardlet-2",
+      "publishedAt": "2026-10-28T15:36:22-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
