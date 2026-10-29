@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T13:15:24.964960+00:00",
+  "updatedAt": "2026-10-29T22:50:16.000848+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.13",
@@ -102,6 +102,26 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.7.3",
+      "title": "langchain-core==1.7.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.3",
+      "publishedAt": "2026-10-29T20:56:14Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.7.2",
+      "title": "langchain-core==1.7.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.2",
+      "publishedAt": "2026-10-29T19:04:31Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.7.1",
       "title": "langchain-core==1.7.1",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1",
@@ -182,24 +202,14 @@
       "why": "Useful for developers building AI products."
     },
     {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.6.11",
-      "title": "langchain-core==1.6.11",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.11",
-      "publishedAt": "2026-10-15T18:32:37Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.7.2",
-      "title": "langchain-openai==1.7.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2",
-      "publishedAt": "2026-10-14T13:51:18Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
+      "id": "tag:github.com,2008:Repository/155220641/v5.22.0",
+      "title": "v5.22.0: Mistral Large 4 (Le Chonk)",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
+      "publishedAt": "2026-10-29T14:16:58Z",
+      "source": "Hugging Face",
+      "kind": "Models & datasets",
+      "purpose": "Use and follow open AI model tooling.",
+      "why": "Useful for anyone working with open models."
     },
     {
       "id": "tag:github.com,2008:Repository/155220641/v5.21.1",
@@ -286,16 +296,6 @@
       "title": "Release v5.16.1",
       "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
       "publishedAt": "2026-08-26T14:50:01Z",
-      "source": "Hugging Face",
-      "kind": "Models & datasets",
-      "purpose": "Use and follow open AI model tooling.",
-      "why": "Useful for anyone working with open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/155220641/v5.16.0",
-      "title": "Release: v5.16.0",
-      "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
-      "publishedAt": "2026-08-26T15:03:33Z",
       "source": "Hugging Face",
       "kind": "Models & datasets",
       "purpose": "Use and follow open AI model tooling.",
@@ -902,20 +902,40 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1296361",
-      "title": "Floot in ChatGPT",
-      "url": "https://www.producthunt.com/products/floot",
-      "publishedAt": "2026-10-29T06:00:47-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1285850",
+      "title": "Viggle JST-2",
+      "url": "https://www.producthunt.com/products/viggle-ai",
+      "publishedAt": "2026-10-29T15:49:03-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1296195",
-      "title": "Gemini 4 Carbon",
-      "url": "https://www.producthunt.com/products/gemini-4-carbon",
-      "publishedAt": "2026-10-29T06:14:52-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1294880",
+      "title": "Voxel51 Multimodal",
+      "url": "https://www.producthunt.com/products/voxel51",
+      "publishedAt": "2026-10-29T15:48:47-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1293404",
+      "title": "Intrascope 2.0",
+      "url": "https://www.producthunt.com/products/intrascope-app",
+      "publishedAt": "2026-10-29T15:47:18-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1285420",
+      "title": "TopAgent",
+      "url": "https://www.producthunt.com/products/topmessage",
+      "publishedAt": "2026-10-29T15:47:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,77 +945,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1295807",
       "title": "MAO",
       "url": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool",
-      "publishedAt": "2026-10-29T05:58:51-07:00",
+      "publishedAt": "2026-10-29T15:20:41-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1294677",
-      "title": "Empacer",
-      "url": "https://www.producthunt.com/products/empacer",
-      "publishedAt": "2026-10-29T06:14:46-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1296248",
+      "title": "IFTTT.ai",
+      "url": "https://www.producthunt.com/products/ifttt",
+      "publishedAt": "2026-10-29T15:34:58-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1288102",
-      "title": "Scape",
-      "url": "https://www.producthunt.com/products/scape-4",
-      "publishedAt": "2026-10-29T06:14:46-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1241773",
+      "title": "ChatInbox",
+      "url": "https://www.producthunt.com/products/chatinbox-2",
+      "publishedAt": "2026-10-29T14:39:17-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1296456",
-      "title": "AssemblyAI",
-      "url": "https://www.producthunt.com/products/assemblyai",
-      "publishedAt": "2026-10-29T05:16:51-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1296450",
+      "title": "AutoShelf 2.6",
+      "url": "https://www.producthunt.com/products/autoshelf",
+      "publishedAt": "2026-10-29T14:46:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1295697",
-      "title": "Notch Metrics",
-      "url": "https://www.producthunt.com/products/notch-metrics",
-      "publishedAt": "2026-10-29T06:12:03-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1295725",
+      "title": "Kin",
+      "url": "https://www.producthunt.com/products/kin-6",
+      "publishedAt": "2026-10-29T14:39:19-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1294798",
-      "title": "Enclave",
-      "url": "https://www.producthunt.com/products/enclave-2",
-      "publishedAt": "2026-10-29T06:12:57-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1296260",
-      "title": "Suno MCP",
-      "url": "https://www.producthunt.com/products/suno",
-      "publishedAt": "2026-10-29T05:48:01-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1296440",
-      "title": "Polylane for ChatGPT",
-      "url": "https://www.producthunt.com/products/polylane",
-      "publishedAt": "2026-10-29T05:49:46-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1295075",
+      "title": "Reset Alerts",
+      "url": "https://www.producthunt.com/products/reset-alerts",
+      "publishedAt": "2026-10-29T14:39:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
