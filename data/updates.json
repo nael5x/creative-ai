@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T22:50:16.000848+00:00",
+  "updatedAt": "2026-10-30T05:58:14.708815+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.13",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.43.2",
+      "title": "v0.43.2",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.2",
+      "publishedAt": "2026-10-30T01:24:06Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.43.1",
       "title": "v0.43.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.1",
@@ -386,16 +396,6 @@
       "title": "v0.41.3",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.3",
       "publishedAt": "2026-10-17T04:26:50Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.41.2",
-      "title": "v0.41.2",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.2",
-      "publishedAt": "2026-10-16T04:58:24Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev10",
+      "title": "v1.14.0.dev10",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev10",
+      "publishedAt": "2026-10-30T01:59:44Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev9",
       "title": "v1.14.0.dev9",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev9",
@@ -686,16 +696,6 @@
       "title": "v1.14.0.dev2",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev2",
       "publishedAt": "2026-10-22T00:36:47Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0",
-      "title": "1.13.0",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0",
-      "publishedAt": "2026-10-22T21:20:33Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,30 +902,60 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1285850",
-      "title": "Viggle JST-2",
-      "url": "https://www.producthunt.com/products/viggle-ai",
-      "publishedAt": "2026-10-29T15:49:03-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1296440",
+      "title": "Polylane for ChatGPT",
+      "url": "https://www.producthunt.com/products/polylane",
+      "publishedAt": "2026-10-29T20:29:10-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1294880",
-      "title": "Voxel51 Multimodal",
-      "url": "https://www.producthunt.com/products/voxel51",
-      "publishedAt": "2026-10-29T15:48:47-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1296492",
+      "title": "Flatbread",
+      "url": "https://www.producthunt.com/products/flatbread",
+      "publishedAt": "2026-10-29T22:11:28-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1293404",
-      "title": "Intrascope 2.0",
-      "url": "https://www.producthunt.com/products/intrascope-app",
-      "publishedAt": "2026-10-29T15:47:18-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1296725",
+      "title": "Arco",
+      "url": "https://www.producthunt.com/products/arco-4",
+      "publishedAt": "2026-10-29T20:29:07-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1281723",
+      "title": "AfterLid",
+      "url": "https://www.producthunt.com/products/afterlid",
+      "publishedAt": "2026-10-29T22:31:14-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1296456",
+      "title": "AssemblyAI",
+      "url": "https://www.producthunt.com/products/assemblyai",
+      "publishedAt": "2026-10-29T21:11:33-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1291921",
+      "title": "JIMMY",
+      "url": "https://www.producthunt.com/products/jimmy",
+      "publishedAt": "2026-10-29T22:30:58-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -935,17 +965,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1285420",
       "title": "TopAgent",
       "url": "https://www.producthunt.com/products/topmessage",
-      "publishedAt": "2026-10-29T15:47:15-07:00",
+      "publishedAt": "2026-10-29T22:48:09-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1295807",
-      "title": "MAO",
-      "url": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool",
-      "publishedAt": "2026-10-29T15:20:41-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1288102",
+      "title": "Scape",
+      "url": "https://www.producthunt.com/products/scape-4",
+      "publishedAt": "2026-10-29T22:49:48-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1296260",
+      "title": "Suno MCP",
+      "url": "https://www.producthunt.com/products/suno",
+      "publishedAt": "2026-10-29T21:59:53-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,47 +995,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1296248",
       "title": "IFTTT.ai",
       "url": "https://www.producthunt.com/products/ifttt",
-      "publishedAt": "2026-10-29T15:34:58-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1241773",
-      "title": "ChatInbox",
-      "url": "https://www.producthunt.com/products/chatinbox-2",
-      "publishedAt": "2026-10-29T14:39:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1296450",
-      "title": "AutoShelf 2.6",
-      "url": "https://www.producthunt.com/products/autoshelf",
-      "publishedAt": "2026-10-29T14:46:20-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1295725",
-      "title": "Kin",
-      "url": "https://www.producthunt.com/products/kin-6",
-      "publishedAt": "2026-10-29T14:39:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1295075",
-      "title": "Reset Alerts",
-      "url": "https://www.producthunt.com/products/reset-alerts",
-      "publishedAt": "2026-10-29T14:39:21-07:00",
+      "publishedAt": "2026-10-29T21:46:47-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
