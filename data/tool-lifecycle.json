@@ -4,311 +4,215 @@
   "sourceCommit": "cdfeddc3253e2e521dc278c39166c0f76c672b06",
   "note": "firstTrackedAt means the first verified appearance in the maintained data/tools.json catalog. baseline_import marks tools present when lifecycle tracking was established; future tools should use event=added with their real catalog addition timestamp.",
   "tools": {
-    "ChatGPT": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Claude": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Gemini": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Perplexity": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "NotebookLM": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Midjourney": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Adobe Firefly": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Canva AI": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Runway": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Pika": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Luma Dream Machine": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "ElevenLabs": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Suno": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Cursor": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "GitHub Copilot": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "v0": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Lovable": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Replit": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "n8n": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Make": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Zapier": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Ollama": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "LM Studio": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Open WebUI": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "ComfyUI": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Hugging Face": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "LangChain": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "LlamaIndex": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Flowise": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Figma AI": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Gamma": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Notion AI": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Grammarly": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
-    "Microsoft Copilot": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "10Web": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "DeepSeek": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "11x": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "Poe": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "Abnormal AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Ideogram": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
-      "event": "added"
-    },
-    "Leonardo AI": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
-      "event": "added"
-    },
-    "Krea": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
-      "event": "added"
-    },
-    "HeyGen": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
-      "event": "added"
-    },
-    "Synthesia": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
-      "event": "added"
-    },
-    "Descript": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
-      "event": "added"
-    },
-    "Murf": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "Abridge": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
     "Activepieces": {
       "firstTrackedAt": "2026-09-13T14:15:07Z",
       "event": "added"
     },
-    "Pipedream": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "Ada": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "Dify": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "Ada Health": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Jan": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "AdCreative.ai": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "AnythingLLM": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "Adobe Express": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "LocalAI": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "Adobe Firefly": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Adobe Podcast": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Cline": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "AgentOps": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "Continue": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "AgentQL": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "CrewAI": {
-      "firstTrackedAt": "2026-09-13T14:15:07Z",
+    "Agno": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "Grok": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
+    "Ahrefs AI Content Helper": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Le Chat": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
+    "AI Studios": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Meta AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "You.com": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Phind": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Elicit": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Consensus": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "SciSpace": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "scite": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Humata": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Scholarcy": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "QuillBot": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Wordtune": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Jasper": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Copy.ai": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Writesonic": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Rytr": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Character.AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Devin": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Tabnine": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Qodo": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Amazon Q Developer": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "JetBrains AI Assistant": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
+    "AI2sql": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
     "Aider": {
       "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
-    "Bolt.new": {
+    "Aidoc": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Aim Security": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Airtable AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "AIVA": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Akkio": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Alli AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Alpha3D": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "AlphaSense": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Altered Studio": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Amazon Q Developer": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Ambience Healthcare": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Anara": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Andi": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Anyscale": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "AnythingLLM": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Anyword": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Apify": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Apollo": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Arcads": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Arize Phoenix": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Artbreeder": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Artisan": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Asana AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "AskCodi": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "AskYourPDF": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "AssemblyAI": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Async": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Augment Code": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Auphonic": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "AutoGen": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "AutoGPT": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "AUTOMATIC1111 Stable Diffusion WebUI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Avoma": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "B12": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Bardeen": {
       "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
@@ -316,236 +220,316 @@
       "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
-    "Framer AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
+    "Baseten": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "Webflow AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Recraft": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Freepik AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Photoroom": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Clipdrop": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Magnific": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Sora": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Kling AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Hailuo AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "VEED AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "CapCut AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "InVideo AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "OpusClip": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Otter.ai": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Fireflies.ai": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Fathom": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "tl;dv": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Krisp": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Speechify": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Resemble AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Deepgram": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Udio": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "AIVA": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "SOUNDRAW": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
+    "Bearly AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
     "Beatoven.ai": {
       "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
-    "Stable Audio": {
+    "Beautiful.ai": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "BentoML": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Better Analyst": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Bito": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Blackbox AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Bloomreach Loomi": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Bolt.new": {
       "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
-    "Bardeen": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
+    "Boomy": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "Gumloop": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
+    "Botpress": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "Lindy": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
+    "Braintrust": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "Relevance AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Taskade": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "AutoGen": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Semantic Kernel": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Haystack": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "LangGraph": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "DSPy": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Pydantic AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Langflow": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "GPT4All": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "llama.cpp": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "LibreChat": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
-    "Andi": {
+    "Brand Studio": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Kagi Assistant": {
+    "Brex AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Brisk Teaching": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Browse AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Browser Use": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Browserbase": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Bubble AI": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Genspark": {
+    "Buffer AI Assistant": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Builder.io Visual Copilot": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Felo": {
+    "Caktus AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "CAMEL-AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Canva AI": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "CapCut AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Captions": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Exa": {
+    "Cartesia": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Tavily": {
+    "Cerebras Inference": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Character.AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Chatbase": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "ChatGPT": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "ChatPDF": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Chroma": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Circleback": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Civitai": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "ResearchRabbit": {
+    "Claid.ai": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Claude": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Claude Code": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Clay": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Cleanup.pictures": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Cleanvoice AI": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Clearscope": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "ClickUp Brain": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Cline": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Clio Duo": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Clipdrop": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "CoCounsel": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "CodeGeeX": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "CodeRabbit": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Colossyan": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "ComfyUI": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Compose AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
     "Connected Papers": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Litmaps": {
+    "Consensus": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Constructor": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "ContentShake AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "ContentStudio": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Continue": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Copy.ai": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Corti": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Crawl4AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Creatify": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Creatomate": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "CrewAI": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Crisp AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "CrowdStrike Charlotte AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Curipod": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Cursor": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "D-ID": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Semantic Scholar": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
+    "Darktrace": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Sudowrite": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
+    "Databricks Genie": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Jenni AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
+    "Dataiku": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "HyperWrite": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
+    "DataRobot": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "ProWritingAid": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
+    "Decagon": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "LanguageTool": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
+    "Decktopus": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Writer": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
+    "DeepEval": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Deepgram": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "DeepL": {
@@ -556,1003 +540,39 @@
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Napkin AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Mem": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Tana": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Readwise Reader": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Lex": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Paperpal": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "CodeRabbit": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Greptile": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Factory": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "OpenHands": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Kilo Code": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "GitLab Duo": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Gemini Code Assist": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Warp": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Augment Code": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Zed AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Sourcegraph Cody": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Tabby": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Open Interpreter": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Bubble AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Glide": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Softr AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Retool AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Relume": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Uizard": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Visily": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Builder.io Visual Copilot": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Wix AI Website Builder": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Durable": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "10Web": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Playground AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "OpenArt": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "getimg.ai": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Scenario": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Civitai": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "NightCafe": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Artbreeder": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Flair AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Pebblely": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "LTX Studio": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "PixVerse": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Vidu": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Kaiber": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "D-ID": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Colossyan": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Elai.io": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Captions": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Submagic": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Topaz Video AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "AssemblyAI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Cartesia": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Hume AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Wondercraft": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Cleanvoice AI": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Auphonic": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Adobe Podcast": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Mubert": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Loudly": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Granola": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Read AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Avoma": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Fellow": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "MeetGeek": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Sembly AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Grain": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Circleback": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Jamie": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Notta": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Supernormal": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Tactiq": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Motion": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Reclaim AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Superhuman": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Shortwave": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "ClickUp Brain": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Asana AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "monday AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Airtable AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Zendesk AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Ada": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Forethought": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Decagon": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Sierra": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "PolyAI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Parloa": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Chatbase": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Botpress": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Voiceflow": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Landbot": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Gorgias AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "eesel AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Maven AGI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Gong": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Clari": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Lavender": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Regie.ai": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Clay": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Artisan": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "11x": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Apollo": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Surfer": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Frase": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Clearscope": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "MarketMuse": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Anyword": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Predis.ai": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "AdCreative.ai": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Creatify": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Arcads": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Julius AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Rows AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Akkio": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Obviously AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Hex": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "ThoughtSpot": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "DataRobot": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Dataiku": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "H2O.ai": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Vanna AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "AI2sql": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Polymer": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Powerdrill AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Khanmigo": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "StudyFetch": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Knowt": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Mindgrasp": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Caktus AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "MagicSchool AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "SchoolAI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Brisk Teaching": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Curipod": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Eduaide.AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Harvey": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "CoCounsel": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Lexis+ AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Spellbook": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Luminance": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Robin AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Paxton AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Vincent AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Clio Duo": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "EvenUp": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Eightfold AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "SeekOut": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "HireVue": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Paradox": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Metaview": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Tezi": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Juicebox": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Humanly": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Findem": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Workable AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Shopify Magic": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Shopify Sidekick": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Squarespace Blueprint AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Hostinger Horizons": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "B12": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Mixo": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Scalenut": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "NeuronWriter": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "ContentShake AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Ahrefs AI Content Helper": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Alli AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Search Atlas": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Koala AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Outranking": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "WriterZen": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Keyword Insights": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "SE Ranking Content Editor": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "RankIQ": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "GrowthBar": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Buffer AI Assistant": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Later AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Ocoya": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Publer AI Assist": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "SocialBee AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Flick": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Taplio": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Typefully": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "FeedHive": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "ContentStudio": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Vista Social": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Sprout Social AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Ramp Intelligence": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Brex AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Vic.ai": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Dext": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Digits": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Puzzle": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Zeni": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Docyt": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Trullion": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Numeric": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Nabla": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Abridge": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Suki": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Freed": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
     "DeepScribe": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Heidi Health": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
+    "DeepSeek": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
       "event": "added"
     },
-    "Ambience Healthcare": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
+    "Defog": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Corti": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
+    "Descript": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
       "event": "added"
     },
-    "Glass Health": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
+    "Designs.ai": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "OpenEvidence": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
+    "Devika": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Regard": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
+    "Devin": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
-    "Notable": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
+    "Devin Desktop": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
     },
-    "Hippocratic AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Infermedica": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Ada Health": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "K Health": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Microsoft Security Copilot": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "CrowdStrike Charlotte AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "SentinelOne Purple AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Snyk AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "GitGuardian": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "HiddenLayer": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Lakera": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Prompt Security": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Mindgard": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Pillar Security": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Noma Security": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Aim Security": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Zenity": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Lokalise AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Phrase": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Smartcat": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Unbabel": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Rask AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Papercup": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Dubverse": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Maestra": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Vozo": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Speechmatics": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Meshy": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Tripo AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Spline AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Kaedim": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Masterpiece X": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Hyper3D Rodin": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Alpha3D": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "SWE-agent": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Goose": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "JetBrains Junie": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "GitHub Spark": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "IBM watsonx Code Assistant": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Blackbox AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Bito": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Browse AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Apify": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Firecrawl": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "ScrapeGraphAI": {
+    "Dext": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
@@ -1560,23 +580,11 @@
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Zyte": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
+    "Dify": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
       "event": "added"
     },
-    "Browserbase": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Stagehand": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Jina AI Reader": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Unstructured": {
+    "Digits": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
@@ -1584,40 +592,1104 @@
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Crawl4AI": {
+    "Documind": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Docyt": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "AgentQL": {
+    "Dreamina": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Dropzone AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "DSPy": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Dubverse": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Skyvern": {
+    "Durable": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Dust": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Ecrett Music": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Eduaide.AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "eesel AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Eightfold AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Elai.io": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Elephas": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "ElevenLabs": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Elicit": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "EvenUp": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Exa": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Explainpaper": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "F5 AI Guardrails": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Browser Use": {
+    "Factory": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "fal": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Fathom": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "FeedHive": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Beautiful.ai": {
+    "Fellow": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Felo": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Figma AI": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Filmora AI": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Fin": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Findem": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Firecrawl": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Fireflies.ai": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Fireworks AI": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Flair AI": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "FlexClip AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Flick": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Fliki": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Flowise": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Fooocus": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Forethought": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Framer AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Frase": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Freed": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Freepik AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Freshworks Freddy AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Gamma": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Gauth": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Gemini": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Gemini CLI": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Gemini Code Assist": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Genspark": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "getimg.ai": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Giskard": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "GitGuardian": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "GitHub Copilot": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "GitHub Spark": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "GitLab Duo": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Glass Health": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Glean": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Glide": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Gong": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Goose": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Gorgias AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "GPT4All": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Grain": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Grammarly": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Granola": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Greptile": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Grok": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Groq": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "GrowthBar": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Gumloop": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Guru": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "H2O.ai": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Hailuo AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "HARPA AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Harvey": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Haystack": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "HeadshotPro": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Hebbia": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Heidi Health": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Helicone": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Help Scout AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Hex": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "HeyGen": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "HiddenLayer": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Higgsfield": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Hippocratic AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "HireVue": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Hootsuite Wisdom": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Hostinger Horizons": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "HubSpot Breeze": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Hugging Face": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Humanly": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Humata": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Hume AI": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Hyper3D Rodin": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "HyperWrite": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "IBM watsonx Code Assistant": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Ideogram": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Infermedica": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "insMind": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Instantly": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "InVideo AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Invoke": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Ironclad AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Jacquard": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Jamie": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Jan": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Jasper": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Jenni AI": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "JetBrains AI Assistant": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "JetBrains Junie": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Jina AI Reader": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Juicebox": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Julius AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "K Health": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Kaedim": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Kagi Assistant": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Kaiber": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Kapwing AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Keyword Insights": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Khanmigo": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Kilo Code": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Kiro": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Kits AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Kittl": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Klap": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Klaviyo AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Kling AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Knowt": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Koala AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Kommunicate": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Krea": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Krisp": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Lakera": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "LALAL.AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "LanceDB": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Landbot": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "LangChain": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Langflow": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Langfuse": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "LangGraph": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Langroid": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "LangSmith": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "LanguageTool": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Later AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Lavender": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Le Chat": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "LegalOn": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "lemlist": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Leonardo AI": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Let's Enhance": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Letta": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Lex": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Lexis+ AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "LibreChat": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Lightning AI": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Lily AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Lindy": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Litmaps": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "llama.cpp": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "LlamaIndex": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "LM Studio": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "LocalAI": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Logically": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Lokalise AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Loudly": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Lovable": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "LOVO": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "LTX Studio": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Luma Dream Machine": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Luminance": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Maestra": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Mage": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "MagicSchool AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Magnific": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Make": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "MarketMuse": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "MarsCode": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Masterpiece X": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Mastra": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Maven AGI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "MaxAI.me": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "MeetGeek": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Mem": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Merlin": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Meshy": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Meta AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "MetaGPT": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Metaview": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Microsoft Copilot": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Microsoft Designer": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Microsoft Security Copilot": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Midjourney": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Mindgard": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Mindgrasp": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "MindMac": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "MindsHub": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Mixo": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Modal": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Moises": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Mokker AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "monday AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Monica": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Motion": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Mubert": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Munch Studio": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Murf": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Mutiny": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "n8n": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Nabla": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Nanonets": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Napkin AI": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Nebius AI Studio": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "NeuronWriter": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "NightCafe": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Noma Security": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Nosto": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Notable": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "NotebookLM": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "NoteGPT": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Notion AI": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Notta": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "NovelAI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Numeric": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Obviously AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Ocoya": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Ocrolus": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Ollama": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Omneky": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Open Interpreter": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Open WebUI": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "OpenAI Codex": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "OpenArt": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "OpenEvidence": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "OpenHands": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "OpenRouter": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "OpusClip": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Otio": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Otter.ai": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Outranking": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Papercup": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Paperguide": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Paperpal": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Paradox": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Parloa": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "PathAI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Patronus AI": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Paxton AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "PDF.ai": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Pebblely": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Perplexity": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Persado": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Phind": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Photo AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Photoroom": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Phrase": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Pictory": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Pieces": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Pika": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Pillar Security": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Pinecone": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Pipedream": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
       "event": "added"
     },
     "Pitch": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
+    "Pixelcut": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "PixVerse": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Playground AI": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
     "Plus AI": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "SlidesAI.io": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
+    "Poe": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
       "event": "added"
     },
-    "Decktopus": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
+    "PolyAI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Polymer": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Portkey": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Powerdrill AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Predis.ai": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
     "Presentations.AI": {
@@ -1628,647 +1700,187 @@
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Riverside": {
+    "Prisma AIRS": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Klap": {
+    "Prompt Security": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Quso.ai": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Wisecut": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Filmora AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Topaz Photo AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Respeecher": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "WellSaid Labs": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "LOVO": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Typecast": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Kits AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "LALAL.AI": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Moises": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Together AI": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Fireworks AI": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Groq": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Replicate": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Baseten": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Modal": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "BentoML": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Unsloth": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Lightning AI": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Anyscale": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Cerebras Inference": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "SambaNova": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Nebius AI Studio": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "fal": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "OpenRouter": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Portkey": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Helicone": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Langfuse": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Arize Phoenix": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Weights & Biases": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Braintrust": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
     "PromptLayer": {
       "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "LangSmith": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
+    "ProWritingAid": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Pinecone": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
+    "Publer AI Assist": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Weaviate": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
+    "Puzzle": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Pydantic AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "Qdrant": {
       "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "Zilliz Cloud": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
+    "Qlik Answers": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Chroma": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
+    "Qodo": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
-    "LanceDB": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
+    "QuillBot": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
-    "Giskard": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
+    "Qure.ai": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Quso.ai": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
     "Ragas": {
       "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "DeepEval": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
+    "Ramp Intelligence": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Patronus AI": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
+    "RankIQ": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "TruLens": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Smartling": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Stack AI": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "VectorShift": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Dust": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Glean": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Saner.AI": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Reflect": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Otio": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Recall": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Paperguide": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Undermind": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Explainpaper": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Higgsfield": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Dreamina": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Boomy": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Tidio Lyro": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Yuma AI": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Kommunicate": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Tray.ai": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "AgentOps": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Vercel AI SDK": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Mastra": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Agno": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Pieces": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Zencoder": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Claude Code": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "Gemini CLI": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "OpenAI Codex": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "NovelAI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "TextCortex": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Bearly AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Elephas": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Voila": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Merlin": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Monica": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "HARPA AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Sider": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "MaxAI.me": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "TypingMind": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "MindMac": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Rask AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
     "Raycast AI": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Compose AI": {
+    "Read AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Readwise Reader": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Rebuy": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "ChatPDF": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Recall": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "PDF.ai": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Reclaim AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "AskYourPDF": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Sharly AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Documind": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "UPDF AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Gauth": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "NoteGPT": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Tensor.Art": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Mage": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Invoke": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Fooocus": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "AUTOMATIC1111 Stable Diffusion WebUI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Kittl": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Microsoft Designer": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Adobe Express": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Designs.ai": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "remove.bg": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Cleanup.pictures": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Let's Enhance": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Upscayl": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "insMind": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Pixelcut": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Mokker AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Claid.ai": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Photo AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "HeadshotPro": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Pictory": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Kapwing AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Fliki": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "AI Studios": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Vidnoz AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Yepic AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Creatomate": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Revid AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Steve.AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "FlexClip AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Altered Studio": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Voice.ai": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Voicemod": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Soundful": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Ecrett Music": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Soundverse": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "AskCodi": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "CodeGeeX": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "MarsCode": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Recraft": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "Refact.ai": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Sourcery": {
+    "Reflect": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Regard": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Regie.ai": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Relevance AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Relume": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "remove.bg": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Devika": {
+    "Replicate": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Replit": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Reply.io": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Kiro": {
+    "ResearchRabbit": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Resemble AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Respeecher": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Retool AI": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Revid AI": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "AutoGPT": {
+    "Rezolve AI Visual Search (formerly ViSenze)": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "SuperAGI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Riverside": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "MetaGPT": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Robin AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "CAMEL-AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Rows AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "smolagents": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
+    "Runway": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
     },
-    "Letta": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Langroid": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Freshworks Freddy AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "HubSpot Breeze": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Rytr": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "Salesforce Agentforce": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Zoho Zia": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Help Scout AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Crisp AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Guru": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Persado": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Omneky": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Typeface": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Mutiny": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Instantly": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Smartlead": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "lemlist": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Reply.io": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
@@ -2276,67 +1888,127 @@
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Klaviyo AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Salesloft (formerly Clari)": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "Nosto": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "SambaNova": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "Rebuy": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Saner.AI": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "Constructor": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Scalenut": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Bloomreach Loomi": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Scenario": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Lily AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Scholarcy": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
-    "Syte": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "SchoolAI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "ViSenze": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "SciSpace": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "scite": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "ScrapeGraphAI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "SE Ranking Content Editor": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Search Atlas": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
     "Seek AI": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "TextQL": {
+    "SeekOut": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Semantic Kernel": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Semantic Scholar": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Sembly AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "SentinelOne Purple AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Sharly AI": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Defog": {
+    "Shopify Magic": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Shopify Sidekick": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Shortwave": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Sider": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Wren AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Tableau Pulse": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Qlik Answers": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
+    "Sierra": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
     "Sigma AI": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Databricks Genie": {
+    "Skyvern": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "SlidesAI.io": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Smartcat": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Smartlead": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Smartling": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "smolagents": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
@@ -2344,27 +2016,167 @@
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "AlphaSense": {
+    "Snyk AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "SocialBee AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Softr AI": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Sora": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Soundful": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Hebbia": {
+    "SOUNDRAW": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Soundverse": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Ocrolus": {
+    "Sourcegraph Cody": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Sourcery": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Nanonets": {
+    "Speechify": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Speechmatics": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Spellbook": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Spline AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Sprout Social AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Squarespace Blueprint AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Stable Audio": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Stack AI": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Stagehand": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Steve.AI": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "LegalOn": {
+    "StudyFetch": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Submagic": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Sudowrite": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Suki": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Suno": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "SuperAGI": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Ironclad AI": {
+    "Superhuman": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Supernormal": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Surfer": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "SWE-agent": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Synthesia": {
+      "firstTrackedAt": "2026-09-13T14:15:07Z",
+      "event": "added"
+    },
+    "Syte": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Tabby": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Tableau Pulse": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Tactiq": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Tana": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Taplio": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Taskade": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Tavily": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Telex": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Tensor.Art": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "TextCortex": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
@@ -2372,47 +2184,7 @@
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "PathAI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Aidoc": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Viz.ai": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Qure.ai": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Darktrace": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Vectra AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Abnormal AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Dropzone AI": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Logically": {
-      "firstTrackedAt": "2026-09-14T00:29:30Z",
-      "event": "added"
-    },
-    "F5 AI Guardrails": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Telex": {
+    "TextQL": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
@@ -2420,39 +2192,43 @@
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "Brand Studio": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Better Analyst": {
+    "ThoughtSpot": {
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "Fin": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
+    "Tidio Lyro": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "MindsHub": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
+    "tl;dv": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
-    "Munch Studio": {
+    "Together AI": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Topaz Photo AI": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Hootsuite Wisdom": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Jacquard": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Async": {
+    "Topaz Video AI": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Prisma AIRS": {
+    "Tray.ai": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Tripo AI": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "TruLens": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Trullion": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
@@ -2460,13 +2236,229 @@
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Anara": {
+    "Typecast": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Typeface": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Typefully": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "TypingMind": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Udio": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Uizard": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Unbabel": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Undermind": {
       "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
     },
-    "Devin Desktop": {
+    "Unsloth": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Unstructured": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "UPDF AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Upscayl": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "v0": {
       "firstTrackedAt": "2026-09-12T22:54:28Z",
       "event": "baseline_import"
+    },
+    "Vanna AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "VectorShift": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Vectra AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "VEED AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Vercel AI SDK": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Vic.ai": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Vidnoz AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Vidu": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Vincent AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Visily": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Vista Social": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Viz.ai": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Voice.ai": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Voiceflow": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Voicemod": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Voila": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Vozo": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Warp": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Weaviate": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Webflow AI": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Weights & Biases": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "WellSaid Labs": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Wisecut": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Wix AI Website Builder": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Wondercraft": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Wordtune": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Workable AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Wren AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Writer": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "WriterZen": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Writesonic": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Yepic AI": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "You.com": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Yuma AI": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Zapier": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
+    "Zed AI": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
+      "event": "added"
+    },
+    "Zencoder": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Zendesk AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Zeni": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Zenity": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
+    "Zilliz Cloud": {
+      "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Zoho Zia": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Zyte": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
     }
   }
 }
