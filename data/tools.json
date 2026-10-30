@@ -3970,8 +3970,8 @@
   [
     "Bearly AI",
     "Productivity",
-    "Desktop AI workspace for reading, writing, summarizing and working with documents.",
-    "For users who want a multi-model assistant accessible from one desktop app.",
+    "Multi-model AI workspace for web and document research, content creation, coding, routines and supervised browser/computer tasks.",
+    "For users who want to switch models, work with files and run assisted workflows from one desktop and browser workspace.",
     "Free tier / Paid",
     "https://bearly.ai/"
   ],
@@ -3986,8 +3986,8 @@
   [
     "Voila",
     "Productivity",
-    "Browser and desktop AI assistant for writing, summarizing and web tasks.",
-    "For people who want quick AI actions while working across websites and documents.",
+    "Cross-platform AI assistant for writing, research, webpage/document/image chat, summaries, translation and saved prompts.",
+    "For people who want quick AI actions across websites, files and apps, with reusable prompts and cross-device access.",
     "Free tier / Paid",
     "https://www.getvoila.ai/"
   ],
@@ -4002,24 +4002,24 @@
   [
     "Monica",
     "Productivity",
-    "All-in-one AI assistant for chat, writing, translation and browser workflows.",
-    "For users who want access to multiple AI capabilities from a browser-side workspace.",
+    "Multi-model assistant for chat, search, writing, translation, image creation and page/video summaries across browser and desktop/mobile.",
+    "For users who want several AI capabilities in a browser-side workspace and quick actions on selected text or web pages.",
     "Free tier / Paid",
     "https://monica.im/"
   ],
   [
     "HARPA AI",
     "Productivity",
-    "Browser automation and AI assistant for page extraction, writing and repetitive web tasks.",
-    "For power users combining language models with browser-based automation.",
+    "Browser extension combining multiple AI models with web automation, data extraction, page summarization and price/SEO monitoring.",
+    "For power users who need AI to read and act on page content, monitor websites and automate repetitive browser tasks.",
     "Free tier / Paid",
     "https://harpa.ai/"
   ],
   [
     "Sider",
     "Productivity",
-    "Browser AI sidebar for chat, page summaries, translation and writing support.",
-    "For users who want AI assistance without leaving the page they are viewing.",
+    "Browser AI agent for multi-model chat, page/document/video summaries, web tasks and website customization.",
+    "For people who want to understand content, automate visible browser tasks and customize pages without switching context.",
     "Free tier / Paid",
     "https://sider.ai/"
   ],
@@ -4034,9 +4034,9 @@
   [
     "TypingMind",
     "AI chat",
-    "Customizable chat interface for working with multiple language-model providers and API keys.",
-    "For advanced users who want more control over model selection, prompts and chat organization.",
-    "Paid",
+    "Customizable multi-model chat workspace with provider API keys, prompt libraries, plugins, agents and knowledge bases.",
+    "For advanced users who want one organized interface for multiple models and control over provider choice and usage billing.",
+    "Free tier / Paid",
     "https://www.typingmind.com/"
   ],
   [
@@ -4050,8 +4050,8 @@
   [
     "Raycast AI",
     "Productivity",
-    "AI features inside Raycast for chat, commands, writing and automation on macOS.",
-    "For Mac users who want AI embedded into a keyboard-driven productivity launcher.",
+    "AI inside the macOS launcher, with projects, screen-aware context, custom agents, automations and extensions.",
+    "For Mac users who want keyboard-first AI actions alongside the apps and workflows they already use.",
     "Free tier / Paid",
     "https://www.raycast.com/ai"
   ],
@@ -4066,32 +4066,32 @@
   [
     "ChatPDF",
     "Documents",
-    "AI chat interface for asking questions about PDF documents.",
-    "For users who want a simple way to understand, summarize and query PDFs.",
+    "PDF chat with cited source passages, summaries, translation and multi-file conversations.",
+    "For users who need quick answers grounded in long PDFs rather than manually searching every page.",
     "Free tier / Paid",
     "https://www.chatpdf.com/"
   ],
   [
     "PDF.ai",
     "Documents",
-    "AI document chat tool for summaries, questions and information extraction from PDFs.",
-    "For users who need fast conversational access to document content.",
+    "PDF knowledge workspace that answers questions across documents and helps locate relevant source files and passages.",
+    "For people who need to query, summarize and retrieve information from a growing set of PDF documents.",
     "Free tier / Paid",
     "https://pdf.ai/"
   ],
   [
     "AskYourPDF",
     "Documents",
-    "AI assistant for chatting with, summarizing and organizing PDF documents.",
-    "For users who work with many documents and want answers without reading each file linearly.",
+    "Document AI for chat, summaries, citations, research discovery, website-embedded agents and PDF form filling.",
+    "For users who need conversational access to documents and want to reuse their knowledge in research or website support workflows.",
     "Free tier / Paid",
     "https://askyourpdf.com/"
   ],
   [
     "Sharly AI",
     "Documents",
-    "AI assistant for querying, summarizing and analyzing long documents.",
-    "For professionals who need to extract decisions and insights from large files quickly.",
+    "Document research workspace for summarizing, comparing, citing and collaborating across PDFs, Office files and URLs.",
+    "For professionals who need to compare information across multiple documents and trace answers back to source material.",
     "Free tier / Paid",
     "https://sharly.ai/"
   ],
@@ -4154,16 +4154,16 @@
   [
     "Invoke",
     "Image generation",
-    "Generative image platform and creative engine for controlled professional workflows.",
-    "For teams that need reproducible image generation and deeper workflow control.",
-    "Free tier / Paid",
+    "Open-source image-generation and editing workspace for local and custom diffusion workflows; the former hosted service has shut down while the community edition remains available.",
+    "For creators who want self-hosted control over image generation and editing rather than relying on a hosted generation service.",
+    "Open source",
     "https://invoke.ai/"
   ],
   [
     "Fooocus",
     "Image generation",
-    "Open-source image generation interface focused on simplified Stable Diffusion workflows.",
-    "For local users who want high-quality image generation without configuring every model parameter manually.",
+    "Local open-source Stable Diffusion XL image-generation interface focused on simplified prompting, image prompting and inpainting/outpainting; currently in limited long-term support.",
+    "For users who want a simpler local SDXL workflow without tuning every generation parameter manually.",
     "Open source",
     "https://github.com/lllyasviel/Fooocus"
   ],
@@ -4178,32 +4178,32 @@
   [
     "Kittl",
     "Design",
-    "AI-first design platform with image, vector, mockup and layout generation tools.",
-    "For designers who want generative features inside a broader visual editing workflow.",
+    "AI-assisted design platform for brand graphics, typography, product mockups, image/video generation and editable visual templates.",
+    "For designers and small businesses who want generative features inside a broader design and mockup workflow.",
     "Free tier / Paid",
     "https://www.kittl.com/"
   ],
   [
     "Microsoft Designer",
     "Design",
-    "AI-assisted graphic design application for creating social posts, visuals and layouts.",
-    "For users who want prompt-driven design generation with an approachable editor.",
+    "AI-assisted design and image editor for cards, invitations, stickers, collages, social visuals and photo edits.",
+    "For users who want prompt-driven visual creation and quick image edits in an approachable editor.",
     "Free tier / Paid",
     "https://designer.microsoft.com/"
   ],
   [
     "Adobe Express",
     "Design",
-    "Creative editor with AI-assisted image, text, template and content generation features.",
-    "For creators who want quick branded assets inside the Adobe ecosystem.",
+    "Template-based creative editor with generative image tools and a conversational AI Assistant in beta for design and layout edits.",
+    "For creators who want to make branded social, marketing and visual assets with AI-assisted editing and familiar design controls.",
     "Free tier / Paid",
     "https://www.adobe.com/express/"
   ],
   [
     "Designs.ai",
     "Design",
-    "AI creative suite for logos, graphics, video, copy and brand assets.",
-    "For small teams producing multiple types of marketing creative from one service.",
+    "AI creative workspace with agent-guided brand-consistent images, video, audio, logos, slides and marketing assets.",
+    "For teams that need multiple kinds of campaign creative from one brief while keeping outputs aligned with brand guidance.",
     "Paid",
     "https://designs.ai/"
   ],
@@ -4250,8 +4250,8 @@
   [
     "Pixelcut",
     "Image editing",
-    "AI image editor for product photos, background changes and marketing visuals.",
-    "For ecommerce sellers and creators generating clean product assets quickly.",
+    "AI photo and video workspace focused on product visuals, background removal, upscaling, retouching, batch edits, ads and UGC.",
+    "For ecommerce sellers and creators who need repeatable product imagery and marketing assets across web and mobile.",
     "Free tier / Paid",
     "https://www.pixelcut.ai/"
   ],
@@ -4290,8 +4290,8 @@
   [
     "Pictory",
     "Video",
-    "AI video creation platform that turns scripts, articles, presentations and prompts into editable videos.",
-    "For marketers and educators repurposing existing content into publishable video.",
+    "AI video workflow that turns text, URLs, scripts, presentations, images and audio into editable videos with scenes, voices and captions.",
+    "For marketers and educators who repurpose existing material into videos without building every scene manually.",
     "Free trial / Paid",
     "https://pictory.ai/"
   ],

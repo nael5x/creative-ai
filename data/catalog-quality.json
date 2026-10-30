@@ -15,6 +15,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Adobe Express",
+      "officialUrl": "https://www.adobe.com/express/",
+      "evidenceUrls": [
+        "https://www.adobe.com/express/",
+        "https://helpx.adobe.com/express/web/ai-assistant/adobe-express-ai-assistant-overview.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Accessible creative editor with templates, generative image features and an AI design assistant currently described by Adobe as beta.",
+      "decision": "accepted"
+    },
+    {
       "name": "Adobe Firefly",
       "officialUrl": "https://firefly.adobe.com/",
       "evidenceUrls": [
@@ -46,6 +57,17 @@
       "decision": "accepted"
     },
     {
+      "name": "AskYourPDF",
+      "officialUrl": "https://askyourpdf.com/",
+      "evidenceUrls": [
+        "https://askyourpdf.com/",
+        "https://beta.askyourpdf.com/about-us"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Document chat and research tools, plus embedded website agents and PDF form-filling workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Async",
       "officialUrl": "https://async.com/",
       "evidenceUrls": [
@@ -53,6 +75,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Current product identity of Podcastle, expanded beyond podcasting into a broader creative and voice platform.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Bearly AI",
+      "officialUrl": "https://bearly.ai/",
+      "evidenceUrls": [
+        "https://bearly.ai/",
+        "https://bearly.ai/product"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Multi-model AI workspace that combines document/web research, creation, coding and supervised browser/computer workflows in one product.",
       "decision": "accepted"
     },
     {
@@ -74,6 +107,17 @@
       "reviewedAt": "2026-09-14",
       "userValue": "Agentic personalization platform powering Bloomreach marketing, search and customer-experience workflows.",
       "decision": "accepted"
+    },
+    {
+      "name": "Booth AI",
+      "officialUrl": "https://www.booth.ai/",
+      "evidenceUrls": [
+        "https://booth.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because the former product domain is parked/for sale rather than serving an active AI product.",
+      "decision": "rejected",
+      "reason": "Removed because the former product domain is parked/for sale rather than serving an active AI product."
     },
     {
       "name": "Brand Studio",
@@ -117,6 +161,16 @@
       "decision": "accepted"
     },
     {
+      "name": "ChatPDF",
+      "officialUrl": "https://www.chatpdf.com/",
+      "evidenceUrls": [
+        "https://www.chatpdf.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "PDF question-answering with source-linked answers, document summaries, translation and multi-file chat.",
+      "decision": "accepted"
+    },
+    {
       "name": "Claude",
       "officialUrl": "https://claude.ai/",
       "evidenceUrls": [
@@ -148,6 +202,29 @@
       "decision": "accepted"
     },
     {
+      "name": "Coral AI",
+      "officialUrl": "https://www.getcoralai.com/",
+      "evidenceUrls": [
+        "https://getcoralai.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed from the trusted active catalog because the maintained canonical source is currently not reliably reachable and no first-party product source could be verified during this audit.",
+      "decision": "rejected",
+      "reason": "Removed from the trusted active catalog because the maintained canonical source is currently not reliably reachable and no first-party product source could be verified during this audit."
+    },
+    {
+      "name": "CSM AI",
+      "officialUrl": "https://www.csm.ai/",
+      "evidenceUrls": [
+        "https://csm.ai/",
+        "https://www.alpha3d.io/csm-alternative"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because the standalone Common Sense Machines product is no longer reachable after its 2026 acquisition; the catalog should not point users to a discontinued standalone service.",
+      "decision": "rejected",
+      "reason": "Removed because the standalone Common Sense Machines product is no longer reachable after its 2026 acquisition; the catalog should not point users to a discontinued standalone service."
+    },
+    {
       "name": "Cursor",
       "officialUrl": "https://www.cursor.com/",
       "evidenceUrls": [
@@ -155,6 +232,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI coding agent and editor for understanding, changing, debugging and reviewing codebases.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Designs.ai",
+      "officialUrl": "https://designs.ai/",
+      "evidenceUrls": [
+        "https://designs.ai/en",
+        "https://designs.ai/en/about"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Multi-format creative production for brand-aligned designs, images, video, audio, logos and slides from a shared brief.",
       "decision": "accepted"
     },
     {
@@ -176,6 +264,17 @@
       "reviewedAt": "2026-09-14",
       "userValue": "Visual platform for building agents, RAG apps and AI workflows with self-hosting options.",
       "decision": "accepted"
+    },
+    {
+      "name": "Dora AI",
+      "officialUrl": "https://www.dora.run/ai",
+      "evidenceUrls": [
+        "https://www.dora.run/signup/ai/waitlist"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed from active discovery because Dora's first-party shutdown page states that Dora shut down on May 1, 2026.",
+      "decision": "rejected",
+      "reason": "Removed from active discovery because Dora's first-party shutdown page states that Dora shut down on May 1, 2026."
     },
     {
       "name": "Durable",
@@ -249,6 +348,28 @@
       "decision": "accepted"
     },
     {
+      "name": "Firebase Studio",
+      "officialUrl": "https://firebase.studio/",
+      "evidenceUrls": [
+        "https://firebase.google.com/docs/studio/get-started",
+        "https://firebase.google.com/docs/studio/migrating-project"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity.",
+      "decision": "rejected",
+      "reason": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity."
+    },
+    {
+      "name": "Fooocus",
+      "officialUrl": "https://github.com/lllyasviel/Fooocus",
+      "evidenceUrls": [
+        "https://github.com/lllyasviel/Fooocus"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Local SDXL image generation with a simplified interface; the official repository says the project is in limited long-term support focused on bug fixes.",
+      "decision": "accepted"
+    },
+    {
       "name": "Gamma",
       "officialUrl": "https://gamma.app/",
       "evidenceUrls": [
@@ -310,6 +431,17 @@
       "decision": "accepted"
     },
     {
+      "name": "HARPA AI",
+      "officialUrl": "https://harpa.ai/",
+      "evidenceUrls": [
+        "https://harpa.ai/",
+        "https://harpa.ai/welcome"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Browser automation layer that pairs language models with page reading, extraction, monitoring and repeatable web commands.",
+      "decision": "accepted"
+    },
+    {
       "name": "Hebbia",
       "officialUrl": "https://www.hebbia.com/",
       "evidenceUrls": [
@@ -350,6 +482,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Hour One",
+      "officialUrl": "https://hourone.ai/",
+      "evidenceUrls": [
+        "https://www.wix.com/press-room/home/post/wix-acquires-hour-one-to-expand-generative-ai-capabilities-and-accelerate-product-innovation",
+        "https://hourone.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist.",
+      "decision": "rejected",
+      "reason": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist."
+    },
+    {
       "name": "Hugging Face",
       "officialUrl": "https://huggingface.co/",
       "evidenceUrls": [
@@ -357,6 +501,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Major hub for models, datasets, demos and inference workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Invoke",
+      "officialUrl": "https://invoke.ai/",
+      "evidenceUrls": [
+        "https://invoke.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Self-hostable open-source image generation and editing; the official site distinguishes the discontinued hosted offering from the maintained community edition.",
       "decision": "accepted"
     },
     {
@@ -378,6 +532,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Open-source local-first desktop AI assistant for running models under user control.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kittl",
+      "officialUrl": "https://www.kittl.com/",
+      "evidenceUrls": [
+        "https://www.kittl.com/",
+        "https://www.kittl.com/mcp"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Design workspace for typography, branding, product mockups and AI-generated visual assets.",
       "decision": "accepted"
     },
     {
@@ -453,6 +618,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Microsoft Designer",
+      "officialUrl": "https://designer.microsoft.com/",
+      "evidenceUrls": [
+        "https://designer.microsoft.com/",
+        "https://support.microsoft.com/en-us/designer/frequently-asked-questions-about-microsoft-designer"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "AI-assisted creation and editing of social graphics, invitations, stickers, collages and other personal visuals.",
+      "decision": "accepted"
+    },
+    {
       "name": "Midjourney",
       "officialUrl": "https://www.midjourney.com/",
       "evidenceUrls": [
@@ -482,6 +658,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "monday.com is now positioned as an AI work platform with AI assistants, workflows and app-building capabilities; the old /ai URL was stale.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Monica",
+      "officialUrl": "https://monica.im/",
+      "evidenceUrls": [
+        "https://monica.im/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Multi-model browser-side assistant for writing, search, translation and summaries of web pages and videos.",
       "decision": "accepted"
     },
     {
@@ -557,6 +743,17 @@
       "decision": "accepted"
     },
     {
+      "name": "PDF.ai",
+      "officialUrl": "https://pdf.ai/",
+      "evidenceUrls": [
+        "https://pdf.ai/",
+        "https://pdf.ai/resources/chat-with-all-of-your-pdf-documents"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Conversational access to PDFs and multi-document knowledge, including source-aware answers across a document library.",
+      "decision": "accepted"
+    },
+    {
       "name": "Perplexity",
       "officialUrl": "https://www.perplexity.ai/",
       "evidenceUrls": [
@@ -564,6 +761,27 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Web research and answer engine with source citations for checking claims quickly.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Pictory",
+      "officialUrl": "https://pictory.ai/",
+      "evidenceUrls": [
+        "https://pictory.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Turns scripts, articles, URLs, presentations and media into editable video scenes with voice and caption workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Pixelcut",
+      "officialUrl": "https://www.pixelcut.ai/",
+      "evidenceUrls": [
+        "https://www.pixelcut.ai/",
+        "https://www.pixelcut.ai/about-us"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Product-focused AI photo/video editing with background removal, upscaling, retouching, batch editing and marketing asset creation.",
       "decision": "accepted"
     },
     {
@@ -576,6 +794,17 @@
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI design and image creation product with current 2026 product updates.",
       "decision": "accepted"
+    },
+    {
+      "name": "PlayHT",
+      "officialUrl": "https://play.ht/",
+      "evidenceUrls": [
+        "https://play.ht/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because the maintained product domain no longer resolves as a usable service during the full source-health audit and a current first-party product surface could not be verified.",
+      "decision": "rejected",
+      "reason": "Removed because the maintained product domain no longer resolves as a usable service during the full source-health audit and a current first-party product surface could not be verified."
     },
     {
       "name": "Plus AI",
@@ -595,6 +824,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Palo Alto Networks' current AI security platform integrating Protect AI technology.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Raycast AI",
+      "officialUrl": "https://www.raycast.com/ai",
+      "evidenceUrls": [
+        "https://www.raycast.com/ai",
+        "https://www.raycast.com/core-features/ai"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Keyboard-first AI features for macOS, including project context, screen awareness, custom agents and automations.",
       "decision": "accepted"
     },
     {
@@ -619,6 +859,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Relay.app",
+      "officialUrl": "https://www.relay.app/",
+      "evidenceUrls": [
+        "https://relay.app/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because Relay.app officially announced shutdown for free users on 2026-08-15 and paying users on 2026-09-14.",
+      "decision": "rejected",
+      "reason": "Removed because Relay.app officially announced shutdown for free users on 2026-08-15 and paying users on 2026-09-14."
+    },
+    {
       "name": "Relume",
       "officialUrl": "https://www.relume.ai/",
       "evidenceUrls": [
@@ -627,6 +878,17 @@
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI website design and publishing platform on Relume's current canonical domain.",
       "decision": "accepted"
+    },
+    {
+      "name": "Replica Studios",
+      "officialUrl": "https://replicastudios.com/",
+      "evidenceUrls": [
+        "https://www.replicastudios.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because the official site states that Replica Studios has signed off and is no longer an active product.",
+      "decision": "rejected",
+      "reason": "Removed because the official site states that Replica Studios has signed off and is no longer an active product."
     },
     {
       "name": "Replit",
@@ -659,6 +921,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Roo Code",
+      "officialUrl": "https://roocode.com/",
+      "evidenceUrls": [
+        "https://github.com/RooCodeInc/Roo-Code",
+        "https://github.com/RooCodeInc/Roo-Code/commits"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename.",
+      "decision": "rejected",
+      "reason": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename."
+    },
+    {
       "name": "Runway",
       "officialUrl": "https://runway.com/",
       "evidenceUrls": [
@@ -687,6 +961,28 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Agentic security analyst inside SentinelOne for investigating threats and assisting SOC response.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Sharly AI",
+      "officialUrl": "https://sharly.ai/",
+      "evidenceUrls": [
+        "https://sharly.ai/",
+        "https://sharly.ai/product"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Multi-document research that summarizes, compares and cites content across common document formats and URLs.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Sider",
+      "officialUrl": "https://sider.ai/",
+      "evidenceUrls": [
+        "https://sider.ai/",
+        "https://sider.ai/extensions"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Browser assistant that combines multi-model chat with page understanding, multi-step browser tasks and website customization.",
       "decision": "accepted"
     },
     {
@@ -786,6 +1082,17 @@
       "decision": "accepted"
     },
     {
+      "name": "TypingMind",
+      "officialUrl": "https://www.typingmind.com/",
+      "evidenceUrls": [
+        "https://www.typingmind.com/",
+        "https://www.typingmind.io/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Customizable multi-provider chat client with prompt organization, plugins, agents and knowledge bases; model usage is tied to the user's provider setup.",
+      "decision": "accepted"
+    },
+    {
       "name": "UPDF AI",
       "officialUrl": "https://updf.com/ai-tools/",
       "evidenceUrls": [
@@ -815,6 +1122,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI video creation and editing toolkit with generation, avatars, voice, subtitles and production workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Voila",
+      "officialUrl": "https://www.getvoila.ai/",
+      "evidenceUrls": [
+        "https://www.getvoila.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Cross-platform assistant for webpage/document/image chat, writing, research, translation and reusable prompts.",
       "decision": "accepted"
     },
     {
@@ -869,133 +1186,15 @@
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI-agent security and governance platform; the audit timeout was a transient bot/network access failure rather than product unavailability.",
       "decision": "accepted"
-    },
-
-    {
-      "name": "Booth AI",
-      "officialUrl": "https://www.booth.ai/",
-      "evidenceUrls": [
-        "https://booth.ai/"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed because the former product domain is parked/for sale rather than serving an active AI product.",
-      "decision": "rejected",
-      "reason": "Removed because the former product domain is parked/for sale rather than serving an active AI product."
-    },
-    {
-      "name": "Coral AI",
-      "officialUrl": "https://www.getcoralai.com/",
-      "evidenceUrls": [
-        "https://getcoralai.com/"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed from the trusted active catalog because the maintained canonical source is currently not reliably reachable and no first-party product source could be verified during this audit.",
-      "decision": "rejected",
-      "reason": "Removed from the trusted active catalog because the maintained canonical source is currently not reliably reachable and no first-party product source could be verified during this audit."
-    },
-    {
-      "name": "CSM AI",
-      "officialUrl": "https://www.csm.ai/",
-      "evidenceUrls": [
-        "https://csm.ai/",
-        "https://www.alpha3d.io/csm-alternative"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed because the standalone Common Sense Machines product is no longer reachable after its 2026 acquisition; the catalog should not point users to a discontinued standalone service.",
-      "decision": "rejected",
-      "reason": "Removed because the standalone Common Sense Machines product is no longer reachable after its 2026 acquisition; the catalog should not point users to a discontinued standalone service."
-    },
-    {
-      "name": "Dora AI",
-      "officialUrl": "https://www.dora.run/ai",
-      "evidenceUrls": [
-        "https://www.dora.run/signup/ai/waitlist"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed from active discovery because Dora's first-party shutdown page states that Dora shut down on May 1, 2026.",
-      "decision": "rejected",
-      "reason": "Removed from active discovery because Dora's first-party shutdown page states that Dora shut down on May 1, 2026."
-    },
-    {
-      "name": "Firebase Studio",
-      "officialUrl": "https://firebase.studio/",
-      "evidenceUrls": [
-        "https://firebase.google.com/docs/studio/get-started",
-        "https://firebase.google.com/docs/studio/migrating-project"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity.",
-      "decision": "rejected",
-      "reason": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity."
-    },
-    {
-      "name": "Hour One",
-      "officialUrl": "https://hourone.ai/",
-      "evidenceUrls": [
-        "https://www.wix.com/press-room/home/post/wix-acquires-hour-one-to-expand-generative-ai-capabilities-and-accelerate-product-innovation",
-        "https://hourone.ai/"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist.",
-      "decision": "rejected",
-      "reason": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist."
-    },
-    {
-      "name": "PlayHT",
-      "officialUrl": "https://play.ht/",
-      "evidenceUrls": [
-        "https://play.ht/"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed because the maintained product domain no longer resolves as a usable service during the full source-health audit and a current first-party product surface could not be verified.",
-      "decision": "rejected",
-      "reason": "Removed because the maintained product domain no longer resolves as a usable service during the full source-health audit and a current first-party product surface could not be verified."
-    },
-    {
-      "name": "Relay.app",
-      "officialUrl": "https://www.relay.app/",
-      "evidenceUrls": [
-        "https://relay.app/"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed because Relay.app officially announced shutdown for free users on 2026-08-15 and paying users on 2026-09-14.",
-      "decision": "rejected",
-      "reason": "Removed because Relay.app officially announced shutdown for free users on 2026-08-15 and paying users on 2026-09-14."
-    },
-    {
-      "name": "Replica Studios",
-      "officialUrl": "https://replicastudios.com/",
-      "evidenceUrls": [
-        "https://www.replicastudios.com/"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed because the official site states that Replica Studios has signed off and is no longer an active product.",
-      "decision": "rejected",
-      "reason": "Removed because the official site states that Replica Studios has signed off and is no longer an active product."
-    },
-    {
-      "name": "Roo Code",
-      "officialUrl": "https://roocode.com/",
-      "evidenceUrls": [
-        "https://github.com/RooCodeInc/Roo-Code",
-        "https://github.com/RooCodeInc/Roo-Code/commits"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename.",
-      "decision": "rejected",
-      "reason": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename."
     }
   ],
-  "lastAuditFixesAt": "2026-09-14",
+  "lastAuditFixesAt": "2026-10-31",
   "lastAuditFixesSummary": {
     "removed": 8,
     "renamed": 16,
-    "reviewedOrCorrected": 29,
-    "unresolved": 1
+    "reviewedOrCorrected": 30,
+    "unresolved": 0
   },
-  "unresolvedAuditMappings": [
-    "Regard"
-  ],
   "lastAuditRound2At": "2026-09-14",
   "lastAuditRound2Summary": {
     "removed": 3,
