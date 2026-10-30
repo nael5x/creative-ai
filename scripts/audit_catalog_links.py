@@ -66,9 +66,9 @@ def fetch_one(row: list[str], timeout: float) -> Result:
     error: str | None = None
     transient_failure = False
 
-    # Retry transient TLS, DNS, timeout and server-side failures before
-    # asking for manual review. A persistent network error is never treated
-    # as proof that a product has shut down.
+    # DNS, TLS and timeout failures are retried before manual review. Persistent
+    # network errors remain review signals and are never treated as proof that
+    # a product has shut down.
     for attempt in range(3):
         try:
             with urlopen(req, timeout=timeout, context=context) as response:
