@@ -17,9 +17,11 @@ class CatalogLinkFindingsBatchTests(unittest.TestCase):
         self.assertNotIn("Tabnine", self.rows)
         self.assertNotIn("Tezi", self.rows)
         self.assertNotIn("Clari", self.rows)
+        self.assertNotIn("NotebookLM", self.rows)
         self.assertNotIn("ViSenze", self.rows)
         self.assertIn("Salesloft (formerly Clari)", self.rows)
         self.assertIn("Rezolve AI Visual Search (formerly ViSenze)", self.rows)
+        self.assertIn("Gemini Notebook (formerly NotebookLM)", self.rows)
 
     def test_lifecycle_coverage_tracks_current_catalog_exactly(self):
         lifecycle_names = set(self.lifecycle["tools"])
@@ -37,6 +39,7 @@ class CatalogLinkFindingsBatchTests(unittest.TestCase):
             "Surfer": "https://surfer.ai/",
             "Salesloft (formerly Clari)": "https://www.salesloft.com/",
             "Rezolve AI Visual Search (formerly ViSenze)": "https://rezolve.com/",
+            "Gemini Notebook (formerly NotebookLM)": "https://notebook.google.com/",
         }
         for name, url in expected.items():
             with self.subTest(name=name):
@@ -68,8 +71,8 @@ class CatalogLinkFindingsBatchTests(unittest.TestCase):
         self.assertEqual(audit["sourceAudit"]["catalogCount"], 616)
         self.assertEqual(audit["sourceAudit"]["summary"]["broken"], 1)
         self.assertEqual(len(audit["removed"]), 2)
-        self.assertEqual(len(audit["renamed"]), 2)
-        self.assertEqual(len(audit["updatedUrls"]), 6)
+        self.assertEqual(len(audit["renamed"]), 3)
+        self.assertEqual(len(audit["updatedUrls"]), 7)
         self.assertFalse(self.quality.get("unresolvedAuditMappings", []))
 
 

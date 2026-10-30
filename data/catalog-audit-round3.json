@@ -50,6 +50,16 @@
         "https://rezolve.com/press-releases/rezolve-ai-launches-visual-search-replacing-keyword-search-with-conversational-commerce/",
         "https://rezolve.com/investor-day-2026/"
       ]
+    },
+    {
+      "oldName": "NotebookLM",
+      "newName": "Gemini Notebook (formerly NotebookLM)",
+      "officialUrl": "https://notebook.google.com/",
+      "reason": "Google's official product announcement states NotebookLM is now branded Gemini Notebook.",
+      "evidenceUrls": [
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+        "https://notebook.google.com/"
+      ]
     }
   ],
   "updatedUrls": [
@@ -88,11 +98,18 @@
       "from": "https://surferseo.com/",
       "to": "https://surfer.ai/",
       "reason": "Official October 2026 rebrand to surfer.ai."
+    },
+    {
+      "name": "Gemini Notebook (formerly NotebookLM)",
+      "from": "https://notebook.google/",
+      "to": "https://notebook.google.com/",
+      "reason": "Corrected the old non-.com domain and reflected Google's current Gemini Notebook branding."
     }
   ],
   "notes": [
     "No popularity, usage, ranking or revenue claims were inferred from redirects.",
     "The baseline audit had 606 healthy links, 9 requiring review and 1 broken link; this batch resolves all 10 named findings.",
-    "Lifecycle firstTrackedAt values were preserved for renamed tools; removals are recorded as rejected in the quality manifest."
+    "Lifecycle firstTrackedAt values were preserved for renamed tools; removals are recorded as rejected in the quality manifest.",
+    "A follow-up scan identified the NotebookLM-to-Gemini-Notebook URL/brand migration; the catalog, lifecycle, recommender and review records now use the current name and canonical domain."
   ]
 }

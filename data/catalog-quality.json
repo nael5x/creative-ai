@@ -424,6 +424,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Gemini Notebook (formerly NotebookLM)",
+      "officialUrl": "https://notebook.google.com/",
+      "evidenceUrls": [
+        "https://notebook.google.com/",
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Google announced the NotebookLM product is now branded Gemini Notebook; its core source-grounded research and document question-answering workflows continue under the current official domain.",
+      "decision": "accepted"
+    },
+    {
       "name": "GitHub Copilot",
       "officialUrl": "https://github.com/features/copilot",
       "evidenceUrls": [
@@ -732,16 +743,6 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Workflow automation platform with self-hosting for connecting apps, APIs and AI steps.",
-      "decision": "accepted"
-    },
-    {
-      "name": "NotebookLM",
-      "officialUrl": "https://notebook.google/",
-      "evidenceUrls": [
-        "https://notebook.google/"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Google's active NotebookLM product on its current canonical notebook.google domain.",
       "decision": "accepted"
     },
     {
@@ -1292,8 +1293,8 @@
   "lastAuditFixesAt": "2026-10-31",
   "lastAuditFixesSummary": {
     "removed": 2,
-    "renamed": 2,
-    "reviewedOrCorrected": 6,
+    "renamed": 3,
+    "reviewedOrCorrected": 7,
     "unresolved": 0
   },
   "lastAuditRound2At": "2026-09-14",

@@ -792,6 +792,10 @@
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
+    "Gemini Notebook (formerly NotebookLM)": {
+      "firstTrackedAt": "2026-09-12T22:54:28Z",
+      "event": "baseline_import"
+    },
     "Genspark": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
@@ -1471,10 +1475,6 @@
     "Notable": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
-    },
-    "NotebookLM": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
     },
     "NoteGPT": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",

@@ -1576,6 +1576,14 @@
     "https://developers.google.com/gemini-code-assist/docs/overview"
   ],
   [
+    "Gemini Notebook (formerly NotebookLM)",
+    "Learn from your files",
+    "Google's source-grounded research assistant, now branded Gemini Notebook, for asking questions about selected documents and sources, generating summaries, study guides and audio/video overviews.",
+    "For research and study tasks where answers should be grounded in selected documents and source material rather than general model knowledge.",
+    "Free tier / Paid",
+    "https://notebook.google.com/"
+  ],
+  [
     "Genspark",
     "Automation",
     "AI workspace and agent platform for research, content creation and multi-step tasks.",
@@ -2934,14 +2942,6 @@
     "For health systems automating scheduling, intake, outreach and operational tasks.",
     "Paid",
     "https://www.notablehealth.com/"
-  ],
-  [
-    "NotebookLM",
-    "Learn from your files",
-    "AI notebook grounded in your own sources.",
-    "For studying PDFs, notes and links without mixing in unrelated web context.",
-    "Free tier / Paid",
-    "https://notebook.google/"
   ],
   [
     "NoteGPT",
