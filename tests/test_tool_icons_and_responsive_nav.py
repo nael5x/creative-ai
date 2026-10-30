@@ -13,11 +13,12 @@ class ToolIconAndResponsiveNavigationTests(unittest.TestCase):
         helper = (ROOT / "scripts" / "tool-icons.js").read_text(encoding="utf-8")
         for token in (
             "/favicon.ico", "/favicon.svg", "/apple-touch-icon.png",
-            "google.com/s2/favicons", "CreativeAIIcons.next",
+            "CreativeAIIcons.next",
             'loading="lazy"', 'decoding="async"', 'referrerpolicy="no-referrer"',
             "tool-logo-fallback",
         ):
             self.assertIn(token, helper)
+        self.assertNotIn("google.com/s2/favicons", helper)
 
     def test_all_tool_surfaces_load_the_shared_icon_resolver(self):
         for name in SURFACE_PAGES:

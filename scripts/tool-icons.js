@@ -17,7 +17,6 @@
       return Array.from(new Set([
         origin + "/favicon.ico", origin + "/favicon.svg",
         origin + "/apple-touch-icon.png", origin + "/apple-touch-icon-precomposed.png",
-        "https://www.google.com/s2/favicons?domain_url=" + encodeURIComponent(origin) + "&sz=128"
       ]));
     } catch (error) { return []; }
   }

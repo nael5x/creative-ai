@@ -37,14 +37,14 @@ Keep the existing graphite-and-mint identity. Improve hierarchy, spacing, readab
   A consistent, lightweight SVG icon style fits search and action controls. Prefer a few inline SVG/CSS glyphs over loading an entire runtime icon library.
 
 - **Simple Icons** — https://github.com/simple-icons/simple-icons  
-  Offers thousands of brand SVGs and explicitly asks users to read its legal disclaimer. Use brand marks only when correctly mapped and never imply endorsement. For broad catalog coverage, prefer each product's own icon/favicon endpoints first, then a best-effort favicon fallback and readable initials.
+  Offers thousands of brand SVGs and explicitly asks users to read its legal disclaimer. Use brand marks only when correctly mapped and never imply endorsement. For broad catalog coverage, prefer each product's own icon/favicon endpoints first, then readable initials if no first-party icon loads.
 
 ## Decisions being implemented
 
 - Keep graphite / restrained mint; avoid default neon purple-blue AI gradients.
 - Keep the finder as the main primary action, while making database search and categories easy to reach.
 - Do not hide all primary navigation links on mobile; show a compact horizontally scrollable second row.
-- Use one shared icon resolver on every page that presents tool entries: official favicon first, common official icon paths next, a best-effort domain-favicon service only as fallback, then initials.
+- Use one shared icon resolver on every page that presents tool entries: official favicon and common official icon paths first, then readable initials. Do not proxy icons through third-party services.
 - Lazy-load icons, set intrinsic dimensions, use no-referrer requests, and handle broken icons without empty image boxes.
 - Keep "reviewed" labels evidence-based; do not imply every catalog entry has been audited.
 - Derive counts from maintained data rather than inventing metrics.
