@@ -86,6 +86,41 @@
     }
   ],
   "profiles": {
+    "Adobe Firefly": {
+      "tasks": [
+        "images",
+        "design"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
+      ]
+    },
+    "AnythingLLM": {
+      "tasks": [
+        "writing",
+        "research",
+        "study",
+        "local"
+      ],
+      "traits": [
+        "open-source",
+        "easy",
+        "privacy",
+        "control"
+      ]
+    },
+    "Canva AI": {
+      "tasks": [
+        "images",
+        "video",
+        "design"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
+      ]
+    },
     "ChatGPT": {
       "tasks": [
         "writing",
@@ -108,70 +143,20 @@
         "free-friendly"
       ]
     },
-    "Gemini": {
-      "tasks": [
-        "writing",
-        "research",
-        "study"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Perplexity": {
-      "tasks": [
-        "research",
-        "study"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "NotebookLM": {
-      "tasks": [
-        "research",
-        "study"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Midjourney": {
+    "ComfyUI": {
       "tasks": [
         "images",
-        "design"
+        "local"
       ],
       "traits": [
+        "open-source",
+        "privacy",
         "control"
       ]
     },
-    "Adobe Firefly": {
+    "Cursor": {
       "tasks": [
-        "images",
-        "design"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Canva AI": {
-      "tasks": [
-        "images",
-        "video",
-        "design"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Runway": {
-      "tasks": [
-        "video"
+        "coding"
       ],
       "traits": [
         "easy",
@@ -179,18 +164,9 @@
         "control"
       ]
     },
-    "Pika": {
+    "Devin Desktop": {
       "tasks": [
-        "video"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Luma Dream Machine": {
-      "tasks": [
-        "video"
+        "coding"
       ],
       "traits": [
         "easy",
@@ -207,23 +183,54 @@
         "free-friendly"
       ]
     },
-    "Suno": {
+    "Figma AI": {
       "tasks": [
-        "audio"
+        "design"
       ],
       "traits": [
         "easy",
         "free-friendly"
       ]
     },
-    "Cursor": {
+    "Flowise": {
       "tasks": [
-        "coding"
+        "coding",
+        "automation"
+      ],
+      "traits": [
+        "open-source",
+        "easy",
+        "control"
+      ]
+    },
+    "Gamma": {
+      "tasks": [
+        "design"
       ],
       "traits": [
         "easy",
-        "free-friendly",
-        "control"
+        "free-friendly"
+      ]
+    },
+    "Gemini": {
+      "tasks": [
+        "writing",
+        "research",
+        "study"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
+      ]
+    },
+    "Gemini Notebook (formerly NotebookLM)": {
+      "tasks": [
+        "research",
+        "study"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
       ]
     },
     "GitHub Copilot": {
@@ -235,111 +242,13 @@
         "free-friendly"
       ]
     },
-    "v0": {
+    "Grammarly": {
       "tasks": [
-        "coding",
-        "design"
+        "writing"
       ],
       "traits": [
         "easy",
         "free-friendly"
-      ]
-    },
-    "Lovable": {
-      "tasks": [
-        "coding",
-        "design"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Replit": {
-      "tasks": [
-        "coding"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "n8n": {
-      "tasks": [
-        "automation"
-      ],
-      "traits": [
-        "open-source",
-        "privacy",
-        "control"
-      ]
-    },
-    "Make": {
-      "tasks": [
-        "automation"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Zapier": {
-      "tasks": [
-        "automation"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Ollama": {
-      "tasks": [
-        "writing",
-        "research",
-        "coding",
-        "local"
-      ],
-      "traits": [
-        "open-source",
-        "privacy",
-        "control"
-      ]
-    },
-    "LM Studio": {
-      "tasks": [
-        "writing",
-        "research",
-        "coding",
-        "local"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly",
-        "privacy"
-      ]
-    },
-    "Open WebUI": {
-      "tasks": [
-        "writing",
-        "research",
-        "coding",
-        "local"
-      ],
-      "traits": [
-        "open-source",
-        "easy",
-        "privacy"
-      ]
-    },
-    "ComfyUI": {
-      "tasks": [
-        "images",
-        "local"
-      ],
-      "traits": [
-        "open-source",
-        "privacy",
-        "control"
       ]
     },
     "Hugging Face": {
@@ -351,6 +260,19 @@
       "traits": [
         "free-friendly",
         "control"
+      ]
+    },
+    "Jan": {
+      "tasks": [
+        "writing",
+        "research",
+        "coding",
+        "local"
+      ],
+      "traits": [
+        "open-source",
+        "easy",
+        "privacy"
       ]
     },
     "LangChain": {
@@ -373,55 +295,7 @@
         "control"
       ]
     },
-    "Flowise": {
-      "tasks": [
-        "coding",
-        "automation"
-      ],
-      "traits": [
-        "open-source",
-        "easy",
-        "control"
-      ]
-    },
-    "Figma AI": {
-      "tasks": [
-        "design"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Gamma": {
-      "tasks": [
-        "design"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Notion AI": {
-      "tasks": [
-        "writing",
-        "study"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Grammarly": {
-      "tasks": [
-        "writing"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly"
-      ]
-    },
-    "Jan": {
+    "LM Studio": {
       "tasks": [
         "writing",
         "research",
@@ -429,23 +303,9 @@
         "local"
       ],
       "traits": [
-        "open-source",
         "easy",
+        "free-friendly",
         "privacy"
-      ]
-    },
-    "AnythingLLM": {
-      "tasks": [
-        "writing",
-        "research",
-        "study",
-        "local"
-      ],
-      "traits": [
-        "open-source",
-        "easy",
-        "privacy",
-        "control"
       ]
     },
     "LocalAI": {
@@ -459,14 +319,154 @@
         "control"
       ]
     },
-    "Devin Desktop": {
+    "Lovable": {
       "tasks": [
-        "coding"
+        "coding",
+        "design"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
+      ]
+    },
+    "Luma Dream Machine": {
+      "tasks": [
+        "video"
       ],
       "traits": [
         "easy",
         "free-friendly",
         "control"
+      ]
+    },
+    "Make": {
+      "tasks": [
+        "automation"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
+      ]
+    },
+    "Midjourney": {
+      "tasks": [
+        "images",
+        "design"
+      ],
+      "traits": [
+        "control"
+      ]
+    },
+    "n8n": {
+      "tasks": [
+        "automation"
+      ],
+      "traits": [
+        "open-source",
+        "privacy",
+        "control"
+      ]
+    },
+    "Notion AI": {
+      "tasks": [
+        "writing",
+        "study"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
+      ]
+    },
+    "Ollama": {
+      "tasks": [
+        "writing",
+        "research",
+        "coding",
+        "local"
+      ],
+      "traits": [
+        "open-source",
+        "privacy",
+        "control"
+      ]
+    },
+    "Open WebUI": {
+      "tasks": [
+        "writing",
+        "research",
+        "coding",
+        "local"
+      ],
+      "traits": [
+        "open-source",
+        "easy",
+        "privacy"
+      ]
+    },
+    "Perplexity": {
+      "tasks": [
+        "research",
+        "study"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
+      ]
+    },
+    "Pika": {
+      "tasks": [
+        "video"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
+      ]
+    },
+    "Replit": {
+      "tasks": [
+        "coding"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
+      ]
+    },
+    "Runway": {
+      "tasks": [
+        "video"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly",
+        "control"
+      ]
+    },
+    "Suno": {
+      "tasks": [
+        "audio"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
+      ]
+    },
+    "v0": {
+      "tasks": [
+        "coding",
+        "design"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
+      ]
+    },
+    "Zapier": {
+      "tasks": [
+        "automation"
+      ],
+      "traits": [
+        "easy",
+        "free-friendly"
       ]
     }
   }

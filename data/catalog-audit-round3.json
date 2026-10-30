@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-31",
+  "sourceAudit": {
+    "runId": 41145645164,
+    "url": "https://github.com/nael5x/creative-ai/actions/runs/41145645164",
+    "catalogCount": 616,
+    "summary": {
+      "healthy": 606,
+      "needsReview": 9,
+      "broken": 1
+    }
+  },
+  "removed": [
+    {
+      "name": "Tabnine",
+      "officialUrl": "https://www.tabnine.com/",
+      "reason": "Removed from the active catalog because the official domain now redirects to a general Tricentis page and no dedicated current first-party product destination could be verified. Re-add only when a canonical product page is available.",
+      "evidenceUrls": [
+        "https://www.tabnine.com/",
+        "https://www.tricentis.com/"
+      ]
+    },
+    {
+      "name": "Tezi",
+      "officialUrl": "https://app.tezi.ai/",
+      "reason": "Removed from the active catalog because Tezi's own site says its team and technology are transitioning into Headway, while the former recruiting-app endpoint no longer resolves. The standalone recruiting product could not be verified as currently available.",
+      "evidenceUrls": [
+        "https://tezi.ai/"
+      ]
+    }
+  ],
+  "renamed": [
+    {
+      "oldName": "Clari",
+      "newName": "Salesloft (formerly Clari)",
+      "officialUrl": "https://www.salesloft.com/",
+      "reason": "Salesloft's official merger and brand-unification announcements say Clari capabilities now operate under Salesloft, with Clari Forecast retaining the Clari name.",
+      "evidenceUrls": [
+        "https://www.salesloft.com/clari-salesloft-merger",
+        "https://www.salesloft.com/company/newsroom/salesloft-unveils-unified-brand-identity"
+      ]
+    },
+    {
+      "oldName": "ViSenze",
+      "newName": "Rezolve AI Visual Search (formerly ViSenze)",
+      "officialUrl": "https://rezolve.com/",
+      "reason": "ViSenze was acquired by Rezolve and its visual-search/product-discovery capabilities now sit within Rezolve's commerce platform.",
+      "evidenceUrls": [
+        "https://rezolve.com/press-releases/rezolve-ai-launches-visual-search-replacing-keyword-search-with-conversational-commerce/",
+        "https://rezolve.com/investor-day-2026/"
+      ]
+    },
+    {
+      "oldName": "NotebookLM",
+      "newName": "Gemini Notebook (formerly NotebookLM)",
+      "officialUrl": "https://notebook.google.com/",
+      "reason": "Google's official product announcement states NotebookLM is now branded Gemini Notebook.",
+      "evidenceUrls": [
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+        "https://notebook.google.com/"
+      ]
+    }
+  ],
+  "updatedUrls": [
+    {
+      "name": "Factory",
+      "from": "https://www.factory.ai/",
+      "to": "https://factory.com/",
+      "reason": "Official canonical domain."
+    },
+    {
+      "name": "Freshworks Freddy AI",
+      "from": "https://www.freshworks.com/freddy-ai/",
+      "to": "https://www.freshworks.com/freshservice/ai-itsm/",
+      "reason": "Old path returned 404; current official Freddy AI product page."
+    },
+    {
+      "name": "Gemini Code Assist",
+      "from": "https://codeassist.google/",
+      "to": "https://developers.google.com/gemini-code-assist/docs/overview",
+      "reason": "Consumer access was deprecated; use current Standard/Enterprise documentation and reflect the access change."
+    },
+    {
+      "name": "Microsoft Copilot",
+      "from": "https://copilot.microsoft.com/",
+      "to": "https://copilot.com/",
+      "reason": "Current canonical domain after official redirect."
+    },
+    {
+      "name": "Outranking",
+      "from": "https://www.outranking.io/",
+      "to": "https://outranking.io/seo-ai/",
+      "reason": "Official product page on canonical non-www host after transient TLS failure."
+    },
+    {
+      "name": "Surfer",
+      "from": "https://surferseo.com/",
+      "to": "https://surfer.ai/",
+      "reason": "Official October 2026 rebrand to surfer.ai."
+    },
+    {
+      "name": "Gemini Notebook (formerly NotebookLM)",
+      "from": "https://notebook.google/",
+      "to": "https://notebook.google.com/",
+      "reason": "Corrected the old non-.com domain and reflected Google's current Gemini Notebook branding."
+    }
+  ],
+  "notes": [
+    "No popularity, usage, ranking or revenue claims were inferred from redirects.",
+    "Lifecycle firstTrackedAt values were preserved for renamed tools; removals are recorded as rejected in the quality manifest.",
+    "A follow-up scan identified the NotebookLM-to-Gemini-Notebook URL/brand migration; the catalog, lifecycle, recommender and review records now use the current name and canonical domain.",
+    "The final 614-entry link audit reports 613 healthy URLs, zero broken URLs and one transient manual-review signal for Outranking. The remaining signal is an SSL/network limitation, not evidence that the product is discontinued."
+  ],
+  "finalAudit": {
+    "runId": 41146505830,
+    "url": "https://github.com/nael5x/creative-ai/actions/runs/41146505830",
+    "catalogCount": 614,
+    "summary": {
+      "healthy": 613,
+      "needsReview": 1,
+      "broken": 0
+    },
+    "remainingReview": [
+      {
+        "name": "Outranking",
+        "status": "transient-network-error",
+        "reason": "The official SEO AI page was independently found in current search results, but GitHub Actions' urllib client repeatedly receives an SSL EOF. This is retained as a manual-review signal, not interpreted as product shutdown."
+      }
+    ]
+  }
+}

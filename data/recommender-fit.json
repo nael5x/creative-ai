@@ -1,7 +1,7 @@
 {
   "ChatGPT": {
     "w": {
-      "writing": 5.0,
+      "writing": 5,
       "research": 4.2,
       "study": 4.4
     },
@@ -34,28 +34,18 @@
   },
   "Perplexity": {
     "w": {
-      "research": 5.0,
-      "study": 4.0
+      "research": 5,
+      "study": 4
     },
     "fit": {
       "en": "Built around web research with visible sources, making it useful when traceability matters.",
       "ar": "مخصص للبحث على الويب مع إظهار المصادر، لذلك يفيد عندما يهمك معرفة أصل المعلومات."
     }
   },
-  "NotebookLM": {
-    "w": {
-      "research": 4.5,
-      "study": 5.0
-    },
-    "fit": {
-      "en": "Best suited to learning from a defined set of your own documents, notes and links.",
-      "ar": "مناسب جدًا للدراسة من مجموعة محددة من ملفاتك وملاحظاتك وروابطك."
-    }
-  },
   "Midjourney": {
     "w": {
-      "images": 5.0,
-      "design": 4.0
+      "images": 5,
+      "design": 4
     },
     "fit": {
       "en": "Focused on polished creative image generation when visual quality and style exploration matter most.",
@@ -74,7 +64,7 @@
   },
   "Canva AI": {
     "w": {
-      "images": 4.0,
+      "images": 4,
       "video": 3.4,
       "design": 4.8
     },
@@ -85,7 +75,7 @@
   },
   "Runway": {
     "w": {
-      "video": 5.0
+      "video": 5
     },
     "fit": {
       "en": "A focused video tool for generation, editing and visual effects in one creative workflow.",
@@ -112,7 +102,7 @@
   },
   "ElevenLabs": {
     "w": {
-      "audio": 5.0
+      "audio": 5
     },
     "fit": {
       "en": "A focused option for natural speech, narration and multilingual voice generation.",
@@ -130,7 +120,7 @@
   },
   "Cursor": {
     "w": {
-      "coding": 5.0
+      "coding": 5
     },
     "fit": {
       "en": "A coding-first editor that works directly with a repository, making it a strong fit for building and changing real codebases.",
@@ -177,7 +167,7 @@
   },
   "n8n": {
     "w": {
-      "automation": 5.0
+      "automation": 5
     },
     "fit": {
       "en": "A strong fit for advanced automations when self-hosting, extensibility or local control matters.",
@@ -207,7 +197,7 @@
       "writing": 3.4,
       "research": 3.2,
       "coding": 3.6,
-      "local": 5.0
+      "local": 5
     },
     "fit": {
       "en": "A strong local-first option for running supported models on your own machine with direct control.",
@@ -229,7 +219,7 @@
   "Open WebUI": {
     "w": {
       "writing": 3.1,
-      "research": 3.0,
+      "research": 3,
       "coding": 3.2,
       "local": 4.7
     },
@@ -262,7 +252,7 @@
   "LangChain": {
     "w": {
       "coding": 3.9,
-      "automation": 4.0
+      "automation": 4
     },
     "fit": {
       "en": "A developer framework for assembling LLM applications, tools, agents and retrieval workflows.",
@@ -272,7 +262,7 @@
   "LlamaIndex": {
     "w": {
       "coding": 3.8,
-      "research": 4.0
+      "research": 4
     },
     "fit": {
       "en": "Best aligned with developer workflows that connect private data and documents to LLM applications.",
@@ -309,7 +299,7 @@
   },
   "Notion AI": {
     "w": {
-      "writing": 4.0,
+      "writing": 4,
       "study": 3.9
     },
     "fit": {
@@ -328,7 +318,7 @@
   },
   "Jan": {
     "w": {
-      "writing": 3.0,
+      "writing": 3,
       "research": 3.1,
       "coding": 3.3,
       "local": 4.7
@@ -353,7 +343,7 @@
   "LocalAI": {
     "w": {
       "coding": 3.9,
-      "local": 5.0
+      "local": 5
     },
     "fit": {
       "en": "A developer-focused local runtime when you want compatible AI APIs backed by infrastructure you control.",
@@ -367,6 +357,16 @@
     "fit": {
       "en": "A coding environment aimed at coordinated agent-style changes across multiple project files.",
       "ar": "بيئة برمجة مناسبة للتعديلات المنسقة بأسلوب الوكلاء عبر عدة ملفات في المشروع."
+    }
+  },
+  "Gemini Notebook (formerly NotebookLM)": {
+    "w": {
+      "research": 4.5,
+      "study": 5
+    },
+    "fit": {
+      "en": "Best suited to learning from a defined set of your own documents, notes and links.",
+      "ar": "مناسب جدًا للدراسة من مجموعة محددة من ملفاتك وملاحظاتك وروابطك."
     }
   }
 }

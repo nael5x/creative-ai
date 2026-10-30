@@ -1,5 +1,9 @@
 from pathlib import Path
 import unittest
+from unittest.mock import MagicMock, patch
+from urllib.error import URLError
+
+from scripts import audit_catalog_links
 
 SCRIPT = Path("scripts/audit_catalog_links.py").read_text(encoding="utf-8")
 FIXER = Path("scripts/apply_catalog_audit_fixes.py").read_text(encoding="utf-8")
@@ -28,6 +32,19 @@ class CatalogLinkAuditTests(unittest.TestCase):
         self.assertIn("transient_failure = True", SCRIPT)
         self.assertIn("ok = transient_failure or", SCRIPT)
         self.assertIn("DNS, TLS and timeout failures", SCRIPT)
+
+    def test_transient_network_errors_are_retried_before_manual_review(self):
+        row = ["Retry example", "Coding", "description", "why", "Free tier", "https://example.com/"]
+        response = MagicMock()
+        response.__enter__.return_value.status = 200
+        response.__enter__.return_value.geturl.return_value = row[5]
+        response.__enter__.return_value.read.return_value = b"<html>ok</html>"
+        with patch("scripts.audit_catalog_links.urlopen", side_effect=[URLError("temporary TLS failure"), response]) as opened, patch("scripts.audit_catalog_links.time.sleep"):
+            result = audit_catalog_links.fetch_one(row, timeout=1)
+        self.assertEqual(opened.call_count, 2)
+        self.assertTrue(result.ok)
+        self.assertFalse(result.transient_failure)
+        self.assertIsNone(result.error)
 
     def test_unresolved_manual_mappings_are_never_applied(self):
         self.assertIn('item.get("status") == "unresolved"', FIXER)

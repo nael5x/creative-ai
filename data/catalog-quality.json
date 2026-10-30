@@ -307,6 +307,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Factory",
+      "officialUrl": "https://factory.com/",
+      "evidenceUrls": [
+        "https://factory.com/",
+        "https://docs.factory.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Agent-native software development platform for planning, coding, review and delivery across IDE, terminal, desktop and cloud surfaces.",
+      "decision": "accepted"
+    },
+    {
       "name": "Fathom",
       "officialUrl": "https://www.fathom.ai/",
       "evidenceUrls": [
@@ -370,6 +381,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Freshworks Freddy AI",
+      "officialUrl": "https://www.freshworks.com/freshservice/ai-itsm/",
+      "evidenceUrls": [
+        "https://www.freshworks.com/freshservice/ai-itsm/",
+        "https://www.freshworks.com/freshservice/ai-agent-studio/",
+        "https://www.freshworks.com/theworks/company-news/september-2026-freshworks-innovation-update/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Freddy AI remains an active Freshworks service platform with agents, copilot assistance and insights; the old /freddy-ai/ URL is obsolete.",
+      "decision": "accepted"
+    },
+    {
       "name": "Gamma",
       "officialUrl": "https://gamma.app/",
       "evidenceUrls": [
@@ -387,6 +410,28 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Google-connected multimodal assistant for research, writing and productivity.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gemini Code Assist",
+      "officialUrl": "https://developers.google.com/gemini-code-assist/docs/overview",
+      "evidenceUrls": [
+        "https://developers.google.com/gemini-code-assist/docs/overview",
+        "https://developers.google.com/gemini-code-assist/docs/deprecations/code-assist-individuals"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Google Cloud's Standard and Enterprise editions remain documented; consumer/individual IDE and Gemini CLI access was deprecated on 2026-06-18, so the catalog no longer claims a consumer free tier.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gemini Notebook (formerly NotebookLM)",
+      "officialUrl": "https://notebook.google.com/",
+      "evidenceUrls": [
+        "https://notebook.google.com/",
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Google announced the NotebookLM product is now branded Gemini Notebook; its core source-grounded research and document question-answering workflows continue under the current official domain.",
       "decision": "accepted"
     },
     {
@@ -618,6 +663,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Microsoft Copilot",
+      "officialUrl": "https://copilot.com/",
+      "evidenceUrls": [
+        "https://copilot.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Microsoft Copilot remains an active general AI assistant; the official Microsoft Copilot domain now redirects to the canonical copilot.com domain.",
+      "decision": "accepted"
+    },
+    {
       "name": "Microsoft Designer",
       "officialUrl": "https://designer.microsoft.com/",
       "evidenceUrls": [
@@ -691,16 +746,6 @@
       "decision": "accepted"
     },
     {
-      "name": "NotebookLM",
-      "officialUrl": "https://notebook.google/",
-      "evidenceUrls": [
-        "https://notebook.google/"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Google's active NotebookLM product on its current canonical notebook.google domain.",
-      "decision": "accepted"
-    },
-    {
       "name": "Notion AI",
       "officialUrl": "https://www.notion.com/product/ai",
       "evidenceUrls": [
@@ -740,6 +785,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "OpenAI's active coding agent for writing, reviewing and shipping code, now presented as Codex in ChatGPT.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Outranking",
+      "officialUrl": "https://outranking.io/seo-ai/",
+      "evidenceUrls": [
+        "https://outranking.io/seo-ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The official SEO AI page describes content planning, SERP-informed recommendations and on-page optimization; the canonical non-www path avoids a transient TLS check failure.",
       "decision": "accepted"
     },
     {
@@ -901,6 +956,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Rezolve AI Visual Search (formerly ViSenze)",
+      "officialUrl": "https://rezolve.com/",
+      "evidenceUrls": [
+        "https://rezolve.com/",
+        "https://rezolve.com/press-releases/rezolve-ai-launches-visual-search-replacing-keyword-search-with-conversational-commerce/",
+        "https://rezolve.com/investor-day-2026/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Visual search and conversational product discovery are part of Rezolve's current commerce platform after the ViSenze acquisition.",
+      "decision": "accepted"
+    },
+    {
       "name": "Riverside",
       "officialUrl": "https://riverside.com/",
       "evidenceUrls": [
@@ -940,6 +1007,18 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active generative video and creative AI platform on Runway's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Salesloft (formerly Clari)",
+      "officialUrl": "https://www.salesloft.com/",
+      "evidenceUrls": [
+        "https://www.salesloft.com/",
+        "https://www.salesloft.com/clari-salesloft-merger",
+        "https://www.salesloft.com/company/newsroom/salesloft-unveils-unified-brand-identity"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The combined platform brings sales engagement together with revenue intelligence and forecasting; official announcements say Clari capabilities continue under Salesloft while Clari Forecast retains the Clari name.",
       "decision": "accepted"
     },
     {
@@ -1039,6 +1118,29 @@
       "decision": "accepted"
     },
     {
+      "name": "Surfer",
+      "officialUrl": "https://surfer.ai/",
+      "evidenceUrls": [
+        "https://surfer.ai/",
+        "https://surfer.ai/blog/goodbye-surferseo/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Surfer's own rebrand announcement confirms the canonical surfer.ai domain and a broader focus on AI visibility, SEO content and MCP integrations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Tabnine",
+      "officialUrl": "https://www.tabnine.com/",
+      "evidenceUrls": [
+        "https://www.tabnine.com/",
+        "https://www.tricentis.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Removed from the active catalog because the official domain now redirects to a general Tricentis page and no dedicated current first-party product destination could be verified. Re-add only when a canonical product page is available.",
+      "decision": "rejected",
+      "reason": "Removed from the active catalog because the official domain now redirects to a general Tricentis page and no dedicated current first-party product destination could be verified. Re-add only when a canonical product page is available."
+    },
+    {
       "name": "Telex",
       "officialUrl": "https://telex.automattic.ai/",
       "evidenceUrls": [
@@ -1053,12 +1155,12 @@
       "name": "Tezi",
       "officialUrl": "https://app.tezi.ai/",
       "evidenceUrls": [
-        "https://app.tezi.ai/",
-        "https://help.tezi.ai/for-candidates/5MJQyfNxL9dYJifaLgmzoS/candidate-faqs/5MJQyfNxLc6KYdkJcb47d5"
+        "https://tezi.ai/"
       ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Active AI recruiting platform; the app entry point and current first-party help documentation confirm Tezi and its Max recruiting agent remain active.",
-      "decision": "accepted"
+      "reviewedAt": "2026-10-31",
+      "userValue": "Removed from the active catalog because Tezi's own site says its team and technology are transitioning into Headway, while the former recruiting-app endpoint no longer resolves. The standalone recruiting product could not be verified as currently available.",
+      "decision": "rejected",
+      "reason": "Removed from the active catalog because Tezi's own site says its team and technology are transitioning into Headway, while the former recruiting-app endpoint no longer resolves. The standalone recruiting product could not be verified as currently available."
     },
     {
       "name": "The Brief",
@@ -1190,9 +1292,9 @@
   ],
   "lastAuditFixesAt": "2026-10-31",
   "lastAuditFixesSummary": {
-    "removed": 8,
-    "renamed": 16,
-    "reviewedOrCorrected": 30,
+    "removed": 2,
+    "renamed": 3,
+    "reviewedOrCorrected": 7,
     "unresolved": 0
   },
   "lastAuditRound2At": "2026-09-14",

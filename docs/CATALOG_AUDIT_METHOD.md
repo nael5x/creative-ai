@@ -37,3 +37,7 @@ The legacy catalog can be marked fully audited only after:
 5. the audit snapshot timestamp and source commit are recorded.
 
 Future additions remain subject to the stricter per-tool quality gate.
+
+### Transient retry policy
+
+The link audit retries transient DNS, TLS, timeout, rate-limit and server-side failures twice before reporting a manual-review signal. Persistent network errors remain review signals and are never interpreted as proof that a product has shut down.

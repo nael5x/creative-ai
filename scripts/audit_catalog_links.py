@@ -5,6 +5,7 @@ import json
 import re
 import ssl
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, asdict
 from html import unescape
@@ -64,29 +65,44 @@ def fetch_one(row: list[str], timeout: float) -> Result:
     body = b""
     error: str | None = None
     transient_failure = False
-    try:
-        with urlopen(req, timeout=timeout, context=context) as response:
-            status = getattr(response, "status", None) or response.getcode()
-            final_url = response.geturl()
-            body = response.read(180_000)
-    except HTTPError as exc:
-        status = exc.code
-        final_url = exc.geturl()
+
+    # DNS, TLS and timeout failures are retried before manual review. Persistent
+    # network errors remain review signals and are never treated as proof that
+    # a product has shut down.
+    for attempt in range(3):
         try:
-            body = exc.read(120_000)
-        except Exception:
-            body = b""
-        # Redirects and most 4xx responses show that a product server is reachable. Only explicit
-        # not-found/gone responses and server failures are treated as broken without more evidence.
-        if exc.code in {404, 410} or exc.code >= 500:
-            error = f"HTTP {exc.code}"
-    except (URLError, TimeoutError, ssl.SSLError, OSError) as exc:
-        # DNS, TLS and timeout failures can be bot/network specific. Preserve the diagnostic and
-        # surface the URL for manual review, but do not call the product dead from this signal alone.
-        error = f"{type(exc).__name__}: {exc}"
-        transient_failure = True
-    except Exception as exc:  # defensive: this is a reporting utility
-        error = f"{type(exc).__name__}: {exc}"
+            with urlopen(req, timeout=timeout, context=context) as response:
+                status = getattr(response, "status", None) or response.getcode()
+                final_url = response.geturl()
+                body = response.read(180_000)
+            break
+        except HTTPError as exc:
+            if (exc.code in {408, 425, 429} or exc.code >= 500) and attempt < 2:
+                time.sleep(0.5 * (attempt + 1))
+                continue
+            status = exc.code
+            final_url = exc.geturl()
+            try:
+                body = exc.read(120_000)
+            except Exception:
+                body = b""
+            # Redirects and most 4xx responses show that a product server is reachable. Only explicit
+            # not-found/gone responses and persistent server failures need stronger evidence.
+            if exc.code in {404, 410} or exc.code >= 500:
+                error = f"HTTP {exc.code}"
+            if exc.code in {408, 425, 429} or exc.code >= 500:
+                transient_failure = True
+            break
+        except (URLError, TimeoutError, ssl.SSLError, OSError) as exc:
+            if attempt < 2:
+                time.sleep(0.5 * (attempt + 1))
+                continue
+            error = f"{type(exc).__name__}: {exc}"
+            transient_failure = True
+            break
+        except Exception as exc:  # defensive: this is a reporting utility
+            error = f"{type(exc).__name__}: {exc}"
+            break
 
     text = unescape(body.decode("utf-8", errors="ignore"))
     compact = re.sub(r"\s+", " ", text)[:120_000]
@@ -96,6 +112,8 @@ def fetch_one(row: list[str], timeout: float) -> Result:
     changed = bool(final_url and registrable_hint(url) != registrable_hint(final_url))
     if changed:
         flags.append("cross-domain-redirect")
+    if status in {404, 410} and not flags:
+        flags.append("broken-link")
     ok = transient_failure or (error is None and (status is None or status < 500))
     return Result(
         name,
@@ -108,7 +126,6 @@ def fetch_one(row: list[str], timeout: float) -> Result:
         sorted(set(flags)),
         error,
     )
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Audit Creative AI catalog URLs and flag suspicious destinations.")
