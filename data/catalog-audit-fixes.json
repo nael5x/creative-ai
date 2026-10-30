@@ -3,42 +3,61 @@
   "remove": [
     {
       "name": "3DFY.ai",
-      "evidenceUrls": ["https://3dfy.ai/", "https://tooldirectory.ai/tools/create-3d-models-with-3dfy-ai"],
+      "evidenceUrls": [
+        "https://3dfy.ai/",
+        "https://tooldirectory.ai/tools/create-3d-models-with-3dfy-ai"
+      ],
       "reason": "Removed from active discovery because the canonical product domain no longer resolves as a usable product and independent shutdown evidence corroborates the lapsed service."
     },
     {
       "name": "Booth AI",
-      "evidenceUrls": ["https://booth.ai/"],
+      "evidenceUrls": [
+        "https://booth.ai/"
+      ],
       "reason": "Removed because the former product domain is parked/for sale rather than serving an active AI product."
     },
     {
       "name": "Coral AI",
-      "evidenceUrls": ["https://getcoralai.com/"],
+      "evidenceUrls": [
+        "https://getcoralai.com/"
+      ],
       "reason": "Removed from the trusted active catalog because the maintained canonical source is currently not reliably reachable and no first-party product source could be verified during this audit."
     },
     {
       "name": "CSM AI",
-      "evidenceUrls": ["https://csm.ai/", "https://www.alpha3d.io/csm-alternative"],
+      "evidenceUrls": [
+        "https://csm.ai/",
+        "https://www.alpha3d.io/csm-alternative"
+      ],
       "reason": "Removed because the standalone Common Sense Machines product is no longer reachable after its 2026 acquisition; the catalog should not point users to a discontinued standalone service."
     },
     {
       "name": "Firebase Studio",
-      "evidenceUrls": ["https://firebase.google.com/docs/studio/get-started", "https://firebase.google.com/docs/studio/migrating-project"],
+      "evidenceUrls": [
+        "https://firebase.google.com/docs/studio/get-started",
+        "https://firebase.google.com/docs/studio/migrating-project"
+      ],
       "reason": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity."
     },
     {
       "name": "PlayHT",
-      "evidenceUrls": ["https://play.ht/"],
+      "evidenceUrls": [
+        "https://play.ht/"
+      ],
       "reason": "Removed because the maintained product domain no longer resolves as a usable service during the full source-health audit and a current first-party product surface could not be verified."
     },
     {
       "name": "Relay.app",
-      "evidenceUrls": ["https://relay.app/"],
+      "evidenceUrls": [
+        "https://relay.app/"
+      ],
       "reason": "Removed because Relay.app officially announced shutdown for free users on 2026-08-15 and paying users on 2026-09-14."
     },
     {
       "name": "Replica Studios",
-      "evidenceUrls": ["https://www.replicastudios.com/"],
+      "evidenceUrls": [
+        "https://www.replicastudios.com/"
+      ],
       "reason": "Removed because the official site states that Replica Studios has signed off and is no longer an active product."
     }
   ],
@@ -49,19 +68,27 @@
       "url": "https://logically.app/",
       "description": "AI research and writing workspace with reference management, literature review, annotation and citation tools.",
       "why": "For researchers and students who want one workspace for sources, notes, citations and AI-assisted writing.",
-      "evidenceUrls": ["https://help.logically.app/en/articles/8478714-everything-you-need-to-know-to-get-started-using-logically-user-guide-with-videos", "https://logically.app/"],
+      "evidenceUrls": [
+        "https://help.logically.app/en/articles/8478714-everything-you-need-to-know-to-get-started-using-logically-user-guide-with-videos",
+        "https://logically.app/"
+      ],
       "userValue": "Research and writing workspace that combines AI assistance with references, annotations and citations."
     },
     {
       "oldName": "Bloomreach Loomi",
       "url": "https://www.bloomreach.com/en/products/loomi-ai",
-      "evidenceUrls": ["https://www.bloomreach.com/en/products/loomi-ai"],
+      "evidenceUrls": [
+        "https://www.bloomreach.com/en/products/loomi-ai"
+      ],
       "userValue": "Agentic personalization platform powering Bloomreach marketing, search and customer-experience workflows."
     },
     {
       "oldName": "Brex AI",
       "url": "https://www.brex.com/",
-      "evidenceUrls": ["https://www.brex.com/product-announcements/fall-release-2025", "https://www.brex.com/journal/press/brex-launches-ai-native-accounting-api"],
+      "evidenceUrls": [
+        "https://www.brex.com/product-announcements/fall-release-2025",
+        "https://www.brex.com/journal/press/brex-launches-ai-native-accounting-api"
+      ],
       "userValue": "AI-native finance automation inside Brex for expense, accounting and spend-management workflows."
     },
     {
@@ -70,19 +97,25 @@
       "url": "https://www.f5.com/products/ai-guardrails",
       "description": "Runtime guardrails and red-team security for AI models, applications and agents.",
       "why": "For organizations securing AI prompts, responses, data and agent interactions with model-agnostic controls.",
-      "evidenceUrls": ["https://www.f5.com/company/blog/what-are-ai-guardrails"],
+      "evidenceUrls": [
+        "https://www.f5.com/company/blog/what-are-ai-guardrails"
+      ],
       "userValue": "F5's runtime AI security product built from the acquired CalypsoAI technology."
     },
     {
       "oldName": "Claude Code",
       "url": "https://claude.com/product/claude-code",
-      "evidenceUrls": ["https://claude.com/product/claude-code"],
+      "evidenceUrls": [
+        "https://claude.com/product/claude-code"
+      ],
       "userValue": "Anthropic's coding agent for understanding codebases, editing files, running commands and developer workflows."
     },
     {
       "oldName": "CodeGeeX",
       "url": "https://www.codegeex.cn/",
-      "evidenceUrls": ["https://www.codegeex.cn/"],
+      "evidenceUrls": [
+        "https://www.codegeex.cn/"
+      ],
       "userValue": "AI coding assistant and model ecosystem for code generation, completion, explanation and translation."
     },
     {
@@ -91,7 +124,10 @@
       "url": "https://telex.automattic.ai/",
       "description": "Automattic's experimental AI authoring environment for generating WordPress code and blocks from natural-language prompts.",
       "why": "For WordPress creators who want a fast starting point for custom blocks and code that can be tested and reviewed before production use.",
-      "evidenceUrls": ["https://automattic.com/2024/12/09/automattic-welcomes-wpai/", "https://telex.automattic.ai/from-codewp"],
+      "evidenceUrls": [
+        "https://automattic.com/2024/12/09/automattic-welcomes-wpai/",
+        "https://telex.automattic.ai/from-codewp"
+      ],
       "userValue": "AI-assisted WordPress code generation from the team and technology behind CodeWP, now under Automattic."
     },
     {
@@ -100,7 +136,9 @@
       "url": "https://www.thebrief.ai/",
       "description": "AI marketing platform for campaign research, creative production, launch and optimization.",
       "why": "For marketing teams that want an AI-assisted workflow spanning campaign planning, asset creation and optimization.",
-      "evidenceUrls": ["https://www.thebrief.ai/blog/creatopy-is-now-the-brief/"],
+      "evidenceUrls": [
+        "https://www.thebrief.ai/blog/creatopy-is-now-the-brief/"
+      ],
       "userValue": "AI marketing platform that evolved from Creatopy into a broader campaign lifecycle product."
     },
     {
@@ -109,7 +147,9 @@
       "url": "https://brandstudio.com/",
       "description": "Stability AI's creative studio for generating and editing branded visual content with AI.",
       "why": "For creators and teams who want Stability AI generation in a product-oriented visual workspace.",
-      "evidenceUrls": ["https://kb.stability.ai/knowledge-base/brand-studio-faq"],
+      "evidenceUrls": [
+        "https://kb.stability.ai/knowledge-base/brand-studio-faq"
+      ],
       "userValue": "Stability AI's current creative product identity replacing DreamStudio."
     },
     {
@@ -118,13 +158,17 @@
       "url": "https://betteranalyst.com/",
       "description": "AI data analyst for spreadsheets, PDFs and connected databases that creates answers, charts, dashboards and reports.",
       "why": "For people who want to analyze business data in natural language without manually writing formulas or SQL.",
-      "evidenceUrls": ["https://betteranalyst.com/formula-bot-is-now-better-analyst"],
+      "evidenceUrls": [
+        "https://betteranalyst.com/formula-bot-is-now-better-analyst"
+      ],
       "userValue": "AI data analysis workspace that replaces Formula Bot while preserving existing accounts and workflows."
     },
     {
       "oldName": "Help Scout AI",
       "url": "https://docs.helpscout.com/article/1513-use-ai-assist",
-      "evidenceUrls": ["https://docs.helpscout.com/article/1513-use-ai-assist"],
+      "evidenceUrls": [
+        "https://docs.helpscout.com/article/1513-use-ai-assist"
+      ],
       "userValue": "AI assistance built into Help Scout for rewriting, tone changes, grammar and translation in support workflows."
     },
     {
@@ -133,7 +177,10 @@
       "url": "https://fin.ai/",
       "description": "AI customer agent platform for service, sales and ecommerce conversations across multiple channels.",
       "why": "For teams that want an AI agent to resolve customer questions and handle customer-facing workflows end to end.",
-      "evidenceUrls": ["https://fin.ai/about", "https://fin.ai/customer-agent"],
+      "evidenceUrls": [
+        "https://fin.ai/about",
+        "https://fin.ai/customer-agent"
+      ],
       "userValue": "Current product and company identity for the AI customer agent formerly known as Intercom Fin."
     },
     {
@@ -142,7 +189,10 @@
       "url": "https://mindshub.ai/",
       "description": "Home for open-source AI agents with hosted model APIs and a self-hostable cowork environment.",
       "why": "For developers who want open-source agent workflows plus hosted or local model access under one product surface.",
-      "evidenceUrls": ["https://mindshub.ai/blog/mindsdb-is-now-mindshub", "https://docs.mindshub.ai/"],
+      "evidenceUrls": [
+        "https://mindshub.ai/blog/mindsdb-is-now-mindshub",
+        "https://docs.mindshub.ai/"
+      ],
       "userValue": "Current product surface of the MindsDB ecosystem for open-source AI agents and model access."
     },
     {
@@ -151,7 +201,9 @@
       "url": "https://www.munchstudio.com/",
       "description": "AI social media marketing workspace for turning business context and long-form material into posts, clips and campaigns.",
       "why": "For businesses that want AI to plan, create and repurpose social content from existing brand material.",
-      "evidenceUrls": ["https://www.munchstudio.com/"],
+      "evidenceUrls": [
+        "https://www.munchstudio.com/"
+      ],
       "userValue": "Active AI social media marketing platform under the Munch Studio identity."
     },
     {
@@ -160,7 +212,9 @@
       "url": "https://www.hootsuite.com/platform/ai",
       "description": "Hootsuite's AI social assistant for content creation, trend discovery and strategy grounded in live social conversations.",
       "why": "For social teams already using Hootsuite that want AI help with posts, ideas, trends and campaign planning.",
-      "evidenceUrls": ["https://www.hootsuite.com/platform/ai"],
+      "evidenceUrls": [
+        "https://www.hootsuite.com/platform/ai"
+      ],
       "userValue": "Hootsuite's current AI assistant identity; the official site states Wisdom was formerly OwlyWriter AI."
     },
     {
@@ -169,7 +223,10 @@
       "url": "https://www.jacquard.com/",
       "description": "Enterprise generative AI platform for optimizing brand language and marketing messages at scale.",
       "why": "For enterprise marketing teams that need controlled, brand-aware language generation and experimentation.",
-      "evidenceUrls": ["https://www.jacquard.com/content/uploads/2025/05/2024-ESG-Report-for-Jacquard-Group-Limited-7-March-2025-Final.pdf", "https://support.jacquard.com/"],
+      "evidenceUrls": [
+        "https://www.jacquard.com/content/uploads/2025/05/2024-ESG-Report-for-Jacquard-Group-Limited-7-March-2025-Final.pdf",
+        "https://support.jacquard.com/"
+      ],
       "userValue": "Current identity of Phrasee's enterprise generative-AI marketing platform."
     },
     {
@@ -178,7 +235,9 @@
       "url": "https://async.com/",
       "description": "AI recording, editing and publishing platform for audio, video and voice workflows, including a developer voice API.",
       "why": "For creators and teams producing polished audio and video content with AI-assisted recording and editing.",
-      "evidenceUrls": ["https://async.com/blog/podcastle-is-now-async/"],
+      "evidenceUrls": [
+        "https://async.com/blog/podcastle-is-now-async/"
+      ],
       "userValue": "Current product identity of Podcastle, expanded beyond podcasting into a broader creative and voice platform."
     },
     {
@@ -187,43 +246,62 @@
       "url": "https://www.paloaltonetworks.com/prisma/prisma-ai-runtime-security/ai-runtime-security",
       "description": "Enterprise AI security platform for model, application and agent visibility, assurance and runtime protection.",
       "why": "For security teams protecting enterprise AI systems across development and production runtime.",
-      "evidenceUrls": ["https://www.paloaltonetworks.com/prisma/prisma-ai-runtime-security/ai-runtime-security"],
+      "evidenceUrls": [
+        "https://www.paloaltonetworks.com/prisma/prisma-ai-runtime-security/ai-runtime-security"
+      ],
       "userValue": "Palo Alto Networks' current AI security platform integrating Protect AI technology."
     },
     {
       "oldName": "Regard",
-      "url": "https://robinai.com/",
-      "evidenceUrls": ["https://www.robinai.com/terms"],
-      "userValue": "PLACEHOLDER"
+      "url": "https://regard.com/",
+      "evidenceUrls": [
+        "https://regard.com/",
+        "https://regard.com/solutions/clinical-notes"
+      ],
+      "userValue": "Active clinical AI diagnosis and documentation platform on Regard's current canonical domain.",
+      "correctionNote": "Corrected on 2026-10-31: Regard is a separate active clinical AI product, not Robin AI."
     },
     {
       "oldName": "Robin AI",
       "url": "https://robinai.com/",
-      "evidenceUrls": ["https://www.robinai.com/terms"],
+      "evidenceUrls": [
+        "https://www.robinai.com/terms"
+      ],
       "userValue": "Active legal AI platform for drafting, reviewing and analyzing contracts and legal data."
     },
     {
       "oldName": "SentinelOne Purple AI",
       "url": "https://www.sentinelone.com/platform/purple/",
-      "evidenceUrls": ["https://www.sentinelone.com/platform/purple/", "https://www.sentinelone.com/press/sentinelone-opens-purple-ai-agentic-investigation-to-all-customers-bringing-frontier-ai-directly-into-the-soc/"],
+      "evidenceUrls": [
+        "https://www.sentinelone.com/platform/purple/",
+        "https://www.sentinelone.com/press/sentinelone-opens-purple-ai-agentic-investigation-to-all-customers-bringing-frontier-ai-directly-into-the-soc/"
+      ],
       "userValue": "Agentic security analyst inside SentinelOne for investigating threats and assisting SOC response."
     },
     {
       "oldName": "SocialBee AI",
       "url": "https://socialbee.com/",
-      "evidenceUrls": ["https://socialbee.com/", "https://help.socialbee.com/hc/en-us/articles/29979145921815-How-Do-I-Use-the-AI-Post-Generator"],
+      "evidenceUrls": [
+        "https://socialbee.com/",
+        "https://help.socialbee.com/hc/en-us/articles/29979145921815-How-Do-I-Use-the-AI-Post-Generator"
+      ],
       "userValue": "AI-assisted social media planning, caption/image generation and channel-specific post customization."
     },
     {
       "oldName": "Sprout Social AI",
       "url": "https://sproutsocial.com/ai/",
-      "evidenceUrls": ["https://sproutsocial.com/ai/", "https://support.sproutsocial.com/hc/en-us/articles/44011491367565-March-2026"],
+      "evidenceUrls": [
+        "https://sproutsocial.com/ai/",
+        "https://support.sproutsocial.com/hc/en-us/articles/44011491367565-March-2026"
+      ],
       "userValue": "AI social intelligence and workflow automation inside Sprout Social, including the Trellis agent."
     },
     {
       "oldName": "Squarespace Blueprint AI",
       "url": "https://www.squarespace.com/design-intelligence",
-      "evidenceUrls": ["https://www.squarespace.com/design-intelligence"],
+      "evidenceUrls": [
+        "https://www.squarespace.com/design-intelligence"
+      ],
       "userValue": "Squarespace's AI-assisted website starting point and design-intelligence workflow for building branded sites."
     },
     {
@@ -232,7 +310,10 @@
       "url": "https://www.turbo.ai/",
       "description": "AI study workspace that turns PDFs, videos and audio into editable notes, flashcards, quizzes and study materials.",
       "why": "For students who want to transform course material into structured notes and active-recall study tools.",
-      "evidenceUrls": ["https://www.turbo.ai/turbolearn-ai", "https://www.turbo.ai/"],
+      "evidenceUrls": [
+        "https://www.turbo.ai/turbolearn-ai",
+        "https://www.turbo.ai/"
+      ],
       "userValue": "Current identity of Turbolearn AI with the same accounts and study workflows under the Turbo AI name."
     },
     {
@@ -241,19 +322,28 @@
       "url": "https://anara.com/",
       "description": "AI research workspace for understanding, organizing and writing scientific documents with citations.",
       "why": "For researchers and students working with scientific literature who need source-grounded reading and writing assistance.",
-      "evidenceUrls": ["https://anara.com/updates/unriddle-is-now-anara-improved-citations-and-new-settings", "https://anara.com/blog/the-beginning-of-a-new-story"],
+      "evidenceUrls": [
+        "https://anara.com/updates/unriddle-is-now-anara-improved-citations-and-new-settings",
+        "https://anara.com/blog/the-beginning-of-a-new-story"
+      ],
       "userValue": "Current identity of Unriddle, now focused on AI-assisted scientific research workflows."
     },
     {
       "oldName": "UPDF AI",
       "url": "https://updf.com/ai-tools/",
-      "evidenceUrls": ["https://updf.com/ai-tools/", "https://updf.com/whats-new/"],
+      "evidenceUrls": [
+        "https://updf.com/ai-tools/",
+        "https://updf.com/whats-new/"
+      ],
       "userValue": "Active AI PDF toolkit for document chat, summarization, translation, semantic search and PDF workflow automation."
     },
     {
       "oldName": "VEED AI",
       "url": "https://www.veed.io/tools/ai-video",
-      "evidenceUrls": ["https://www.veed.io/tools/ai-video", "https://changelog.veed.io/"],
+      "evidenceUrls": [
+        "https://www.veed.io/tools/ai-video",
+        "https://changelog.veed.io/"
+      ],
       "userValue": "AI video creation and editing toolkit with generation, avatars, voice, subtitles and production workflows."
     },
     {
@@ -262,13 +352,18 @@
       "url": "https://devin.ai/desktop",
       "description": "AI coding IDE and command center for managing local and cloud coding agents from one desktop workspace.",
       "why": "For developers who want an IDE plus a unified surface for delegating, reviewing and coordinating multiple coding agents.",
-      "evidenceUrls": ["https://devin.ai/desktop"],
+      "evidenceUrls": [
+        "https://devin.ai/desktop"
+      ],
       "userValue": "Current product identity of Windsurf; Devin states that Devin Desktop is the new name and preserves the IDE experience."
     },
     {
       "oldName": "Workable AI",
       "url": "https://www.workable.com/workable-ai",
-      "evidenceUrls": ["https://www.workable.com/workable-ai", "https://resources.workable.com/workable-agent-ga"],
+      "evidenceUrls": [
+        "https://www.workable.com/workable-ai",
+        "https://resources.workable.com/workable-agent-ga"
+      ],
       "userValue": "AI recruiting agent inside Workable for sourcing, screening, outreach and top-of-funnel hiring workflows."
     }
   ]
