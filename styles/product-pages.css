@@ -35,3 +35,30 @@ button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{ou
 .rtl .brand i{margin-right:2px!important;margin-left:0!important}
 @media(max-width:680px){body{background-size:34px 34px,34px 34px,auto!important}.wrap{width:min(100% - 28px,1180px)!important}.top{min-height:58px!important}.hero{padding:48px 0 24px!important}.hero h1{font-size:clamp(39px,12vw,56px)!important}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* Shared identity layouts used by finder, comparison, alternatives and My Stack. */
+.recommend-tool-head,.compare-tool-head,.alternative-tool-head,.toolrow-identity,.stackrow-identity{display:flex;align-items:flex-start;gap:12px;min-width:0}
+.recommend-tool-head h3,.compare-tool-head h2,.alternative-tool-head h3{min-width:0;overflow-wrap:anywhere}
+.recommend-tool-head h3{margin:3px 0 0}
+.compare-tool-head{align-items:center;margin:14px 0 12px}
+.compare-tool-head h2{margin:0}
+.alternative-tool-head{align-items:center;margin:8px 0 12px}
+.alternative-tool-head h3{margin:0}
+.toolrow-identity>div,.stackrow-identity>div{min-width:0;flex:1}
+.stackrow-main{min-width:0}
+.stackrow-identity h3{margin-top:0}
+.toolrow-identity .tool-logo,.stackrow-identity .tool-logo{flex:0 0 44px}
+@media(max-width:980px){
+  .top{height:auto!important;min-height:0!important;flex-wrap:wrap!important;gap:10px!important;padding:12px 0!important}
+  .nav{display:flex!important;order:3;width:100%;margin:0!important;gap:4px;overflow-x:auto;white-space:nowrap;padding:2px 0 6px;scrollbar-width:thin}
+  .nav a{flex:0 0 auto}
+  .actions{margin-left:auto!important}
+}
+@media(max-width:680px){
+  .top{gap:8px!important}
+  .nav{gap:2px}
+  .nav a{font-size:12px;padding:7px 9px}
+  .tool-logo-large{width:58px;height:58px;flex-basis:58px}
+  .tool-logo-large .tool-logo-image{width:38px;height:38px}
+}
+.rtl .actions{margin-left:0!important;margin-right:auto!important}
