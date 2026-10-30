@@ -108,8 +108,25 @@
   ],
   "notes": [
     "No popularity, usage, ranking or revenue claims were inferred from redirects.",
-    "The baseline audit had 606 healthy links, 9 requiring review and 1 broken link; this batch resolves all 10 named findings.",
     "Lifecycle firstTrackedAt values were preserved for renamed tools; removals are recorded as rejected in the quality manifest.",
-    "A follow-up scan identified the NotebookLM-to-Gemini-Notebook URL/brand migration; the catalog, lifecycle, recommender and review records now use the current name and canonical domain."
-  ]
+    "A follow-up scan identified the NotebookLM-to-Gemini-Notebook URL/brand migration; the catalog, lifecycle, recommender and review records now use the current name and canonical domain.",
+    "The final 614-entry link audit reports 613 healthy URLs, zero broken URLs and one transient manual-review signal for Outranking. The remaining signal is an SSL/network limitation, not evidence that the product is discontinued."
+  ],
+  "finalAudit": {
+    "runId": 41146505830,
+    "url": "https://github.com/nael5x/creative-ai/actions/runs/41146505830",
+    "catalogCount": 614,
+    "summary": {
+      "healthy": 613,
+      "needsReview": 1,
+      "broken": 0
+    },
+    "remainingReview": [
+      {
+        "name": "Outranking",
+        "status": "transient-network-error",
+        "reason": "The official SEO AI page was independently found in current search results, but GitHub Actions' urllib client repeatedly receives an SSL EOF. This is retained as a manual-review signal, not interpreted as product shutdown."
+      }
+    ]
+  }
 }
