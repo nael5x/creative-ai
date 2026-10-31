@@ -19,10 +19,11 @@ class CatalogStatusWatchTests(unittest.TestCase):
         cls.status_watch = cls.manifest["statusWatch"]
 
     def test_status_watch_counts_are_reconciled(self):
-        self.assertEqual(len(self.status_watch), 9)
-        self.assertEqual(sum(item["status"] == "unresolved" for item in self.status_watch), 6)
-        self.assertEqual(sum(item["status"] == "sunsetting" for item in self.status_watch), 2)
-        self.assertEqual(sum(item["status"] == "maintenance-unclear" for item in self.status_watch), 1)
+        summary = self.manifest["lastStatusWatchReviewSummary"]
+        self.assertEqual(summary["total"], len(self.status_watch))
+        self.assertEqual(summary["unresolved"], sum(item["status"] == "unresolved" for item in self.status_watch))
+        self.assertEqual(summary["sunsetting"], sum(item["status"] == "sunsetting" for item in self.status_watch))
+        self.assertEqual(summary["maintenanceUnclear"], sum(item["status"] == "maintenance-unclear" for item in self.status_watch))
 
     def test_status_watch_candidates_are_not_active_or_quality_decisions(self):
         for item in self.status_watch:
