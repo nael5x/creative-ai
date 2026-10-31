@@ -2546,25 +2546,25 @@
   [
     "Merlin",
     "Productivity",
-    "AI browser assistant for chat, writing, summaries and page-aware tasks.",
-    "For users who want AI help directly inside everyday web browsing.",
-    "Free tier / Paid",
+    "Multi-model AI workspace available as a browser extension, web app and mobile app. It combines contextual chat across webpages, YouTube and PDFs with web research, reusable Projects and knowledge bases, prompt-driven diagrams and charts, code/app snippets, email and social drafting, and image generation through multiple models.",
+    "For people who want one assistant embedded in browsing and everyday web work, with reusable context and tools that go beyond a basic model chat window.",
+    "Free tier / Paid credits",
     "https://www.getmerlin.in/"
   ],
   [
     "Meshy",
     "3D",
-    "AI 3D generation platform for creating models, textures and assets from prompts or images.",
-    "For game, design and 3D teams producing draft assets quickly.",
-    "Free tier / Paid",
+    "AI 3D creation platform for generating textured models from text, images and conversational prompts, then refining, texturing, remeshing, rigging, animating and exporting assets. Its current workspace includes Image, 3D Model, 3D Printing, Animate, Scene and Video modules, a 3D Agent, REST API, MCP server and plugins for common 3D tools.",
+    "For game developers, 3D artists, product designers and makers who need editable 3D assets from concepts or references and a pipeline that continues through export and production.",
+    "Free tier / Paid credits",
     "https://www.meshy.ai/"
   ],
   [
     "Meta AI",
     "Writing & research",
-    "Meta's general AI assistant for chat, ideas, image generation and connected experiences.",
-    "For everyday assistance inside Meta's consumer AI ecosystem.",
-    "Free",
+    "Meta's first-party multimodal AI assistant powered by the Muse model family. It supports conversational reasoning, real-time web information, image generation and editing, voice, file and document analysis, deep research with cited reports, shopping discovery, scheduled tasks and connected experiences across Meta apps; the separate Muse agent adds task execution and app connections.",
+    "For everyday research, creation and personal assistance across web, mobile and Meta apps; advanced features, desktop access and regional availability vary, and some high-compute features have usage limits or paid upgrades.",
+    "Free / Optional paid usage",
     "https://www.meta.ai/"
   ],
   [
@@ -2578,9 +2578,9 @@
   [
     "Metaview",
     "HR & recruiting",
-    "AI recruiting assistant for interview notes, summaries and hiring-team workflow intelligence.",
-    "For recruiters who want structured interview documentation without manual note taking.",
-    "Paid",
+    "Agentic recruiting platform with AI agents for candidate sourcing, personalized outreach, application review, screening, interview notes and recruiting reports. It builds an Ideal Candidate Profile from job descriptions and recruiter feedback, creates candidate summaries and interview snippets, and syncs notes and scorecards with ATS systems such as Greenhouse, Ashby, Lever and Workday.",
+    "For recruiting teams that want to automate sourcing and interview administration while keeping hiring decisions with people; candidate recommendations include rationale that recruiters can review, edit or override.",
+    "Free tier / Paid",
     "https://www.metaview.ai/"
   ],
   [
@@ -2610,10 +2610,10 @@
   [
     "Microsoft Security Copilot",
     "Cybersecurity",
-    "Generative AI assistant for security investigation, threat analysis and response.",
-    "For security teams working across Microsoft security products and incident workflows.",
-    "Paid",
-    "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot"
+    "Microsoft's agentic AI platform for security and IT operations, combining a security-specialized language model with threat intelligence, Microsoft security product context, promptbooks, plugins, connectors and agents. It supports investigation, threat hunting, incident triage and response workflows across products such as Defender, Entra, Intune and Purview, with human analysts directing and validating actions.",
+    "For enterprise security operations and IT teams already working across Microsoft and connected security tools who need AI-assisted investigation and agent automation; usage is tied to Security Compute Units and eligible licensing.",
+    "Enterprise / Security Compute Units",
+    "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-copilot-security"
   ],
   [
     "Midjourney",
@@ -2626,25 +2626,25 @@
   [
     "Mindgard",
     "Cybersecurity",
-    "AI red-teaming and security testing platform for models and AI applications.",
-    "For security teams evaluating adversarial weaknesses before production deployment.",
-    "Paid",
+    "AI security platform for discovering AI assets and testing models, applications, chatbots, RAG systems, agents, APIs and connected tools against adaptive attacks. It performs attacker-style reconnaissance and red teaming, validates defensive gaps, supports remediation and runtime protection, and monitors risks across development and production, including MCP and A2A-connected systems.",
+    "For product-security, application-security and AI engineering teams that need continuous offensive testing and governance for AI systems rather than conventional network-only vulnerability scanning.",
+    "Enterprise / Contact sales",
     "https://mindgard.ai/"
   ],
   [
     "Mindgrasp",
     "Education",
-    "AI learning assistant for summarizing lectures, documents and videos into study materials.",
-    "For students who want notes, questions and summaries from course content.",
-    "Paid",
+    "AI study workspace that turns uploaded PDFs, documents, slides, images, articles, audio, lecture recordings and YouTube videos into structured notes, summaries, study guides, quizzes, flashcards and practice tests. It also includes an AI tutor, homework helper, PDF reader and lecture note-taking workflows across web, mobile and browser extension.",
+    "For students who want to transform their own course materials into connected study resources and active-recall practice without moving between separate summarizing, flashcard and quiz apps.",
+    "Free tier / Paid",
     "https://www.mindgrasp.ai/"
   ],
   [
     "MindMac",
     "AI chat",
-    "Native macOS client for using multiple AI model providers from one application.",
-    "For Mac users who prefer a local desktop interface for model access and prompt workflows.",
-    "Paid",
+    "Native macOS AI chat client that connects cloud providers such as OpenAI, Azure OpenAI, Gemini, Claude, OpenRouter and Mistral alongside local model backends and OpenAI-compatible endpoints. It adds system-wide inline writing, keyboard shortcuts, searchable and organized conversations, 150+ prompt templates, document and web search, voice input and text-to-speech; API keys are stored in macOS Keychain and prompts go directly to the chosen provider.",
+    "For Mac users who want a single native interface for cloud and local models with inline help across other apps; MindMac is a client, not a model provider, so users supply their own API keys or local inference endpoint and pay provider usage separately.",
+    "Paid one-time license / Provider usage separate",
     "https://mindmac.app/"
   ],
   [
@@ -2658,34 +2658,34 @@
   [
     "Mixo",
     "Web apps",
-    "AI startup website generator for quickly producing landing pages and validation sites.",
-    "For founders testing an idea before investing in a larger product build.",
-    "Free tier / Paid",
+    "AI website builder for small businesses that generates a complete business website from a short description, including pages, copy, contact forms, blog, SEO and AI-search optimization. It also includes enquiry tracking, contact management, integrations and a dashboard so users can capture and follow up on leads after publishing.",
+    "For small businesses and founders who need a professional website and a simple lead-capture workflow quickly, not just a temporary landing page for validating an idea.",
+    "Free plan / Paid plans",
     "https://www.mixo.io/"
   ],
   [
     "Modal",
     "AI infrastructure",
-    "Python-first cloud runtime for inference, training, batch jobs and GPU workloads.",
-    "For developers who want to ship AI compute without manually managing cloud infrastructure.",
-    "Free tier / Paid",
+    "Serverless cloud infrastructure for compute-intensive applications, including AI inference endpoints, GPU and CPU workloads, fine-tuning and distributed training, batch processing, job queues, sandboxes, storage volumes and autoscaling containers. Developers define workloads in Python and Modal provisions compute on demand, scaling to zero when idle and up for traffic or large jobs.",
+    "For AI engineers and researchers deploying models, agents and data pipelines who want programmable GPU/CPU compute without managing clusters, container fleets or autoscaling infrastructure themselves.",
+    "Usage-based / Free credits",
     "https://modal.com/"
   ],
   [
     "Moises",
     "Music",
-    "AI music practice and production platform for stem separation, chords and tempo tools.",
-    "For musicians isolating parts, practicing songs and preparing rehearsal tracks.",
+    "AI music practice and production suite with stem separation for 27+ instrument and vocal parts, smart metronome, tempo and pitch adjustment, chord and lyric detection, voice tools, setlists, recording and a DAW plugin. Moises Studio also supports collaborative browser-based arranging, recording and editing with bandmates and producers.",
+    "For musicians, teachers and producers who need to isolate parts of a song, learn or rehearse sections, prepare backing tracks and move from practice into collaborative music production.",
     "Free tier / Paid",
     "https://moises.ai/"
   ],
   [
     "Mokker AI",
     "Image editing",
-    "AI product photography tool for generating styled backgrounds from product images.",
-    "For ecommerce brands that need many product scene variations without repeated photo shoots.",
-    "Free tier / Paid",
-    "https://mokker.ai/"
+    "AI product-photography studio acquired by soona and integrated into its ecommerce content platform. It removes product-photo backgrounds, places products into styled scenes using templates and props, and generates multiple visual variations from a single source image; soona says existing Mokker customers retain access to their accounts while platform customers can use Mokker AI in the soona dashboard.",
+    "For ecommerce brands and product teams that need repeatable product-scene variations without organizing a new photo shoot for every background or campaign; current access is tied to the soona platform and legacy Mokker accounts.",
+    "Free try / soona platform plans",
+    "https://soona.co/mokker"
   ],
   [
     "monday AI",
@@ -2706,17 +2706,17 @@
   [
     "Motion",
     "Productivity",
-    "AI work-management app for scheduling tasks, projects and calendar time automatically.",
-    "For people who want priorities converted into a dynamic daily schedule.",
-    "Paid",
+    "AI-powered work-management platform that combines automatic task scheduling with AI project planning, task prioritization, calendar management, meeting notes, document drafting, search, dashboards and workflow creation. Its scheduler continuously rebuilds the day around deadlines, priorities and available time, while AI assistants help create and update work from natural-language instructions.",
+    "For individuals and teams who need projects, tasks, meetings and calendars coordinated in one system that actively replans work as priorities change, rather than a passive task list.",
+    "Free trial / Paid plans",
     "https://www.usemotion.com/"
   ],
   [
     "Mubert",
     "Music",
-    "AI music generation platform for creator soundtracks and developer music integrations.",
-    "For generating background music for videos, apps and digital experiences.",
-    "Free tier / Paid",
+    "AI music generation and streaming platform for creators and developers, with text- and image-to-music generation, track and loop creation, adaptive streaming, a curated music library and an API/MCP workflow for integrating sound into apps, games and content pipelines. Mubert states that its models are trained on licensed and partner content; API license tiers differ on monetization, sublicensing and distribution rights.",
+    "For creators who need generated background music and developers building music into products; commercial usage, monetization, sublicensing and distribution depend on the specific consumer or API license.",
+    "Free tier / Paid licensing plans",
     "https://mubert.com/"
   ],
   [
@@ -2737,10 +2737,10 @@
   ],
   [
     "Mutiny",
-    "SEO & marketing",
-    "AI-assisted website personalization platform for B2B marketing and conversion workflows.",
-    "For growth teams tailoring site experiences to different accounts and audience segments.",
-    "Paid",
+    "Sales",
+    "Agentic go-to-market assistant for customer-facing sales work. It uses connected email, calendar, CRM, meeting transcripts and company playbooks to prepare account research and meetings, draft personalized follow-ups and replies, create deal rooms, proposals, pitch decks and business cases, coach reps and automate repeatable account workflows. It can also expose asset creation and publishing through an MCP server.",
+    "For B2B sellers, marketers and customer-success teams that want account-aware preparation and personalized customer-facing assets generated from their own brand, deal history and sales playbooks; this is its current sales-agent platform, not the older website-personalization product.",
+    "Free individual tier / Paid team plans",
     "https://www.mutinyhq.com/"
   ],
   [
