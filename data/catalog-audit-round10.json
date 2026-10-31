@@ -10,7 +10,7 @@
       "description": "Open-source SDK for building and orchestrating production-grade AI agents and multi-agent workflows in Python and .NET, with tools, memory, middleware, observability and human-in-the-loop execution.",
       "why": "For developers building production agent systems that need durable workflows, provider flexibility, explicit orchestration and a current path from AutoGen or Semantic Kernel.",
       "availability": "Open source",
-      "url": "https://learn.microsoft.com/en-us/agent-framework/overview",
+      "url": "https://learn.microsoft.com/en-us/agent-framework/overview/",
       "from": [
         "AutoGen",
         "Semantic Kernel"
@@ -23,12 +23,12 @@
       ]
     },
     {
-      "name": "Clio Manage AI",
+      "name": "Manage AI",
       "category": "Legal",
       "description": "AI capabilities embedded in Clio Manage that extract deadlines from court documents, surface matter activity, create tasks and calendar events, and prepare billing workflows for review.",
       "why": "For law firms using Clio Manage that want to reduce routine administrative work while keeping legal professionals in control of approvals and outcomes.",
       "availability": "Paid",
-      "url": "https://www.clio.com/manage/",
+      "url": "https://www.clio.com/features/",
       "from": [
         "Clio Duo"
       ],
@@ -86,8 +86,8 @@
       ]
     },
     {
-      "name": "Mistral Vibe",
-      "category": "Productivity",
+      "name": "Vibe",
+      "category": "Writing & coding",
       "description": "Mistral's unified AI agent for professional productivity and coding across web, mobile, terminal and VS Code, supporting multi-step research, drafts, summaries, tool use and software workflows.",
       "why": "For professionals and developers who want one agent for knowledge work and coding, with visible actions and approval controls.",
       "availability": "Free tier / Paid",
@@ -122,7 +122,7 @@
       "description": "AI creative workspace with multimodal agents that plan, generate, iterate and refine image, video, audio and other creative assets across shared projects.",
       "why": "For creative teams that need an agent-driven workflow from brief to coordinated assets and polished deliverables without restarting across separate tools.",
       "availability": "Paid",
-      "url": "https://lumalabs.ai/app",
+      "url": "https://app.lumalabs.ai/",
       "from": [
         "Luma Dream Machine"
       ],
@@ -190,7 +190,7 @@
     },
     {
       "oldName": "Clio Duo",
-      "newName": "Clio Manage AI",
+      "newName": "Manage AI",
       "previousUrl": "https://www.clio.com/duo/",
       "reason": "Clio's own product and company updates describe Clio Duo's evolution into Manage AI, now embedded in Clio Manage. The active catalog entry uses the current product identity.",
       "evidenceUrls": [
@@ -242,7 +242,7 @@
     },
     {
       "oldName": "Le Chat",
-      "newName": "Mistral Vibe",
+      "newName": "Vibe",
       "previousUrl": "https://chat.mistral.ai/",
       "reason": "Mistral's official help center states that Le Chat is now Vibe, with the same account, plan and conversation history. Replace the old product name with Mistral Vibe.",
       "evidenceUrls": [
@@ -345,11 +345,12 @@
     {
       "name": "Magnific",
       "previousUrl": "https://www.magnific.com/",
-      "officialUrl": "https://www.magnific.com/ai",
-      "reason": "Updated the existing Magnific entry to reflect the current unified creative platform and the Freepik AI consolidation.",
+      "officialUrl": "https://www.magnific.com/",
+      "reason": "Updated the existing Magnific entry to reflect the current unified creative platform and the Freepik AI consolidation; confirmed the limited free plan and paid tiers.",
       "evidenceUrls": [
         "https://www.magnific.com/ai",
-        "https://www.magnific.com/freepik-ai"
+        "https://www.magnific.com/ai/docs/freepik-is-now-magnific",
+        "https://www.magnific.com/ai/docs/ai-credits-and-limits"
       ]
     }
   ],
