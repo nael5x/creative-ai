@@ -1026,8 +1026,8 @@
   [
     "Decagon",
     "Customer support",
-    "AI customer-experience agent platform for handling support conversations and operational tasks.",
-    "For companies building AI-driven customer support across messaging and service systems.",
+    "Enterprise AI customer-service platform for building agents that resolve customer requests across support conversations and connected business systems.",
+    "For companies automating customer-service tasks end to end with agents grounded in product, order and support-system context.",
     "Paid",
     "https://decagon.ai/"
   ],
@@ -1058,10 +1058,10 @@
   [
     "DeepL",
     "Translation",
-    "AI translation platform for text, documents and multilingual communication.",
-    "For high-quality translation workflows across business and personal documents.",
+    "Language AI platform for text and document translation, real-time voice translation, writing refinement and API-based multilingual workflows.",
+    "For individuals and organizations that need consistent translation and writing across documents, products, meetings and global teams.",
     "Free tier / Paid",
-    "https://www.deepl.com/translator"
+    "https://www.deepl.com/en/products-overview"
   ],
   [
     "DeepL Write",
@@ -1298,8 +1298,8 @@
   [
     "Elicit",
     "Research",
-    "AI research assistant for finding papers, extracting evidence and building structured research reports.",
-    "For literature reviews and evidence-heavy scientific research workflows.",
+    "AI scientific-research assistant with a Research Agent for searching academic literature, generating cited reports, screening studies and extracting evidence.",
+    "For researchers who need to synthesize literature, compare findings and trace claims back to source papers.",
     "Free tier / Paid",
     "https://elicit.com/"
   ],
@@ -1650,8 +1650,8 @@
   [
     "Glean",
     "Enterprise search",
-    "Enterprise AI search and assistant platform connected to workplace data and applications.",
-    "For employees finding internal knowledge and taking actions across company systems.",
+    "Enterprise AI work assistant combining search, assistant, agents, content creation, data analysis and work execution across connected company applications.",
+    "For organizations that want AI grounded in internal documents, messages, tickets and business systems with existing access permissions and source citations.",
     "Paid",
     "https://www.glean.com/"
   ],
@@ -1738,8 +1738,8 @@
   [
     "Groq",
     "AI infrastructure",
-    "High-speed inference platform for running supported language and multimodal models.",
-    "For applications where low-latency model responses are especially important.",
+    "AI inference cloud and accelerator infrastructure for serving language and multimodal models through developer APIs, with dedicated inference and production-scale deployment options.",
+    "For developers and AI teams that need low-latency model inference without operating accelerator infrastructure themselves.",
     "Free tier / Paid",
     "https://groq.com/"
   ],
@@ -1794,8 +1794,8 @@
   [
     "Harvey",
     "Legal",
-    "Generative AI platform for legal and professional-services research, drafting and workflow assistance.",
-    "For law firms and legal teams using AI across complex document and research work.",
+    "Legal AI platform for law firms and in-house teams, with agents for legal workflows, document analysis, research, contract intelligence and secure collaboration.",
+    "For legal professionals handling complex legal research, contracts, due diligence and firm knowledge within governed workspaces.",
     "Paid",
     "https://www.harvey.ai/"
   ],
@@ -2482,9 +2482,9 @@
   [
     "LlamaIndex",
     "AI development",
-    "Framework for connecting private data to LLM applications.",
-    "For search and question-answer systems over documents and databases.",
-    "Open source",
+    "Open-source framework and hosted document platform for building agents and RAG workflows, parsing complex documents, extracting structured data and indexing private knowledge.",
+    "For developers building grounded AI applications over enterprise data and complex files, with open-source and managed options.",
+    "Open source / Paid",
     "https://www.llamaindex.ai/"
   ],
   [
@@ -3074,8 +3074,8 @@
   [
     "OpenRouter",
     "AI infrastructure",
-    "Unified API and routing layer for accessing models from multiple providers.",
-    "For developers who want to compare or switch model providers without rewriting their application integration.",
+    "Unified OpenAI-compatible API and developer platform that routes requests across model providers, with fallbacks, SDKs, agent tooling and an MCP server.",
+    "For developers who want to compare and use models through one integration while controlling provider routing, availability and costs.",
     "Free tier / Paid",
     "https://openrouter.ai/"
   ],
@@ -3274,8 +3274,8 @@
   [
     "Pinecone",
     "Vector databases",
-    "Managed vector database for semantic search, retrieval and AI application memory.",
-    "For production RAG and recommendation systems that need scalable vector search.",
+    "Managed vector database and knowledge platform for building retrieval-augmented and agentic applications, with vector search, indexing and metadata filtering.",
+    "For developers storing and retrieving semantic context at production scale for search, recommendations and AI agents.",
     "Free tier / Paid",
     "https://www.pinecone.io/"
   ],
@@ -3330,8 +3330,8 @@
   [
     "Poe",
     "Writing & research",
-    "One interface for chatting with many AI models and community bots.",
-    "For comparing model families and specialist bots without juggling many separate apps.",
+    "Multi-model AI chat and creator platform for accessing assistants and building, sharing and monetizing custom bots, scripts and interactive applications.",
+    "For users comparing model responses and creators shipping custom AI bots or mini-apps without managing all hosting infrastructure.",
     "Free tier / Paid",
     "https://poe.com/"
   ],
@@ -3642,8 +3642,8 @@
   [
     "Replicate",
     "AI infrastructure",
-    "Hosted API platform for running open and commercial AI models without managing servers.",
-    "For developers who want quick programmatic access to image, video, audio and language models.",
+    "Cloud platform for running, fine-tuning and deploying machine-learning models through a web playground and API, with official and community models.",
+    "For developers integrating image, video, audio and language models into applications without managing GPU infrastructure.",
     "Paid",
     "https://replicate.com/"
   ],
@@ -4210,8 +4210,8 @@
   [
     "Suno",
     "Music",
-    "Generate songs and music from a prompt.",
-    "For mockups, intros and music ideas; check licensing before commercial use.",
+    "AI music creation platform for generating songs and instrumentals from prompts or uploaded audio, with editing, remixing, custom models and stem tools.",
+    "For creators who need musical drafts, full songs or editable audio material, with plan-specific commercial rights made clear.",
     "Free tier / Paid",
     "https://suno.com/"
   ],
@@ -4258,8 +4258,8 @@
   [
     "Synthesia",
     "Video",
-    "AI avatar video platform for training, explainers and business communication.",
-    "For structured presenter videos used in education, onboarding and internal communication.",
+    "Business AI video platform that turns scripts, documents and presentations into presenter-led videos using AI avatars, voices, localization and interactive features.",
+    "For learning, HR, enablement and communications teams producing repeatable multilingual training and business videos.",
     "Free tier / Paid",
     "https://www.synthesia.io/"
   ],
@@ -4402,8 +4402,8 @@
   [
     "Together AI",
     "AI infrastructure",
-    "Cloud platform for running, tuning and serving generative AI models.",
-    "For teams that want managed inference and model customization without operating their own GPU stack.",
+    "Full-stack AI cloud for inference, dedicated model serving, custom training and GPU compute for building and deploying AI applications.",
+    "For developers and AI teams that need model APIs and scalable compute across inference and training without assembling separate infrastructure.",
     "Paid",
     "https://www.together.ai/"
   ],
@@ -4730,10 +4730,10 @@
   [
     "Weights & Biases",
     "AI development",
-    "Experiment tracking and model development platform for machine learning and generative AI workflows.",
-    "For teams tracking training runs, evaluations, datasets and model-development artifacts.",
+    "AI developer platform for experiment tracking, dataset and model management, hyperparameter sweeps, evaluations, tracing, monitoring and inference.",
+    "For ML and AI teams comparing experiments, evaluating LLM applications and monitoring models through a shared, reproducible workflow.",
     "Free tier / Paid",
-    "https://wandb.ai/"
+    "https://wandb.ai/site"
   ],
   [
     "WellSaid Labs",

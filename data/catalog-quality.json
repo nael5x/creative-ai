@@ -596,6 +596,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Decagon",
+      "officialUrl": "https://decagon.ai/",
+      "evidenceUrls": [
+        "https://decagon.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Decagon builds customer-facing AI agents that can handle real service tasks such as membership changes and bookings, rather than only answering FAQ-style questions.",
+      "decision": "accepted"
+    },
+    {
       "name": "Deepgram",
       "officialUrl": "https://deepgram.com/",
       "evidenceUrls": [
@@ -604,6 +614,20 @@
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "Deepgram exposes speech-to-text, text-to-speech and realtime voice-agent capabilities through developer APIs, reducing the need to assemble separate speech services.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepL",
+      "officialUrl": "https://www.deepl.com/en/products-overview",
+      "evidenceUrls": [
+        "https://www.deepl.com/en/products-overview",
+        "https://www.deepl.com/en/products/translator",
+        "https://www.deepl.com/en/products/write",
+        "https://www.deepl.com/en/products/voice",
+        "https://developers.deepl.com/docs/getting-started"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "DeepL combines translation, document workflows, real-time voice translation, writing refinement and developer APIs, with glossaries and style controls for consistent multilingual work.",
       "decision": "accepted"
     },
     {
@@ -678,6 +702,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Speech, voice and dubbing platform for narration and multilingual audio workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Elicit",
+      "officialUrl": "https://elicit.com/",
+      "evidenceUrls": [
+        "https://elicit.com/",
+        "https://support.elicit.com/en/articles/14757543-getting-started-with-elicit-which-workflow-should-i-use"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Elicit searches academic papers and creates structured, cited research reports; its current Research Agent combines paper discovery, extraction and paper-specific Q&A, while systematic-review workflows provide guided screening and PRISMA-style reporting.",
       "decision": "accepted"
     },
     {
@@ -830,6 +865,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Glean",
+      "officialUrl": "https://www.glean.com/",
+      "evidenceUrls": [
+        "https://www.glean.com/",
+        "https://docs.glean.com/user-guide/about/what-is-glean"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Glean connects workplace apps and documents, returns permission-aware answers with citations, helps draft work and lets teams build and govern agents that execute tasks across systems.",
+      "decision": "accepted"
+    },
+    {
       "name": "Gong",
       "officialUrl": "https://www.gong.io/",
       "evidenceUrls": [
@@ -863,6 +909,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Groq",
+      "officialUrl": "https://groq.com/",
+      "evidenceUrls": [
+        "https://groq.com/",
+        "https://console.groq.com/docs/api-reference",
+        "https://console.groq.com/docs/your-data"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Groq provides a developer inference API with OpenAI-compatible endpoints and an inference-focused cloud built around its LPU architecture and GPU infrastructure.",
+      "decision": "accepted"
+    },
+    {
       "name": "GrowthBar",
       "officialUrl": "https://www.seoptimer.com/growthbar/",
       "evidenceUrls": [
@@ -892,6 +950,16 @@
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "Browser automation layer that pairs language models with page reading, extraction, monitoring and repeatable web commands.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Harvey",
+      "officialUrl": "https://www.harvey.ai/",
+      "evidenceUrls": [
+        "https://www.harvey.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Harvey provides purpose-built legal agents, secure document workspaces, legal and regulatory research, contract intelligence and collaboration controls for professional legal work.",
       "decision": "accepted"
     },
     {
@@ -1084,6 +1152,17 @@
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "Lindy connects to a company's tools and context, then runs role-based agents for practical workflows such as updating CRM records, triaging support, analyzing funnels and monitoring operations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LlamaIndex",
+      "officialUrl": "https://www.llamaindex.ai/",
+      "evidenceUrls": [
+        "https://www.llamaindex.ai/",
+        "https://developers.llamaindex.ai/home/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "LlamaIndex combines an open-source framework for agents and retrieval-augmented generation with managed LlamaParse for parsing, extracting, classifying and indexing complex documents.",
       "decision": "accepted"
     },
     {
@@ -1294,6 +1373,17 @@
       "decision": "accepted"
     },
     {
+      "name": "OpenRouter",
+      "officialUrl": "https://openrouter.ai/",
+      "evidenceUrls": [
+        "https://openrouter.ai/",
+        "https://openrouter.ai/developers"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "OpenRouter exposes many models and providers through one compatible API, with automatic fallback, typed SDKs, an agent SDK, local developer tools and MCP access.",
+      "decision": "accepted"
+    },
+    {
       "name": "Otter.ai",
       "officialUrl": "https://otter.ai/",
       "evidenceUrls": [
@@ -1346,6 +1436,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Pinecone",
+      "officialUrl": "https://www.pinecone.io/",
+      "evidenceUrls": [
+        "https://www.pinecone.io/",
+        "https://docs.pinecone.io/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Pinecone provides managed vector indexes and retrieval infrastructure for RAG and AI agents, with tools for managing indexes, querying vectors and grounding agent knowledge.",
+      "decision": "accepted"
+    },
+    {
       "name": "Pixelcut",
       "officialUrl": "https://www.pixelcut.ai/",
       "evidenceUrls": [
@@ -1375,6 +1476,19 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI presentation assistant on Plus AI's current canonical product domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Poe",
+      "officialUrl": "https://poe.com/",
+      "evidenceUrls": [
+        "https://poe.com/",
+        "https://creator.poe.com/docs",
+        "https://creator.poe.com/docs/api-reference/createBot",
+        "https://creator.poe.com/docs/canvas-apps/canvas-app-quick-start"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Poe provides a multi-model chat interface and a creator platform for prompt bots, server bots, script bots, API bots and interactive Canvas apps, including monetization options.",
       "decision": "accepted"
     },
     {
@@ -1439,6 +1553,19 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active AI website design and publishing platform on Relume's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Replicate",
+      "officialUrl": "https://replicate.com/",
+      "evidenceUrls": [
+        "https://replicate.com/",
+        "https://replicate.com/docs",
+        "https://replicate.com/docs/topics/models/run-a-model/",
+        "https://replicate.com/docs/topics/models/official-models"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Replicate lets developers run public models through a browser playground or API, fine-tune models on their data and deploy custom models; its maintained official models have stable APIs and predictable pricing.",
       "decision": "accepted"
     },
     {
@@ -1637,6 +1764,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Suno",
+      "officialUrl": "https://suno.com/",
+      "evidenceUrls": [
+        "https://suno.com/",
+        "https://about.suno.com/blog/introducing-v6",
+        "https://help.suno.com/en/articles/13924801"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Suno generates songs from prompts and audio inputs, supports remixing, editing, stem separation and custom models; its official plans distinguish personal free use from paid commercial-use rights.",
+      "decision": "accepted"
+    },
+    {
       "name": "Surfer",
       "officialUrl": "https://surfer.ai/",
       "evidenceUrls": [
@@ -1645,6 +1784,17 @@
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "Surfer's own rebrand announcement confirms the canonical surfer.ai domain and a broader focus on AI visibility, SEO content and MCP integrations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Synthesia",
+      "officialUrl": "https://www.synthesia.io/",
+      "evidenceUrls": [
+        "https://www.synthesia.io/",
+        "https://help.synthesia.io/en/articles/9994493-what-is-synthesia"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Synthesia creates business videos from scripts, PowerPoint files, documents, links or prompts with AI avatars, voices, translation, dubbing and interactive video features.",
       "decision": "accepted"
     },
     {
@@ -1678,6 +1828,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI marketing platform that evolved from Creatopy into a broader campaign lifecycle product.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Together AI",
+      "officialUrl": "https://www.together.ai/",
+      "evidenceUrls": [
+        "https://www.together.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Together AI combines serverless and dedicated inference, custom model training and GPU compute in one AI-native cloud platform for production applications.",
       "decision": "accepted"
     },
     {
@@ -1742,6 +1902,18 @@
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "Cross-platform assistant for webpage/document/image chat, writing, research, translation and reusable prompts.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Weights & Biases",
+      "officialUrl": "https://wandb.ai/site",
+      "evidenceUrls": [
+        "https://wandb.ai/site",
+        "https://docs.wandb.ai/",
+        "https://docs.wandb.ai/weave"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Weights & Biases combines experiment tracking and model workflows with Weave tracing and evaluation for AI applications, plus serverless training and inference products.",
       "decision": "accepted"
     },
     {
@@ -1962,13 +2134,13 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-6",
+  "lastQualityReviewBatch": "catalog-review-batch-7",
   "lastQualityReviewBatchSummary": {
     "accepted": 15,
     "rejected": 0,
     "renamed": 0,
     "updatedDescriptions": 15,
-    "categoryUpdates": 1,
-    "availabilityUpdates": 3
+    "canonicalUrlUpdates": 2,
+    "availabilityUpdates": 1
   }
 }
