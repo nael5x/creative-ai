@@ -4109,6 +4109,175 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For creators, marketers and teams producing ads, explainers and longer-form videos who want an AI agent to handle the first cut and then refine the result through conversational edits on a real timeline.",
       "decision": "accepted"
+    },
+    {
+      "name": "Ironclad AI",
+      "officialUrl": "https://ironcladapp.com/product/ironclad-ai",
+      "evidenceUrls": [
+        "https://ironcladapp.com/product/ironclad-ai",
+        "https://support.ironcladapp.com/hc/en-us/articles/12947738534935-Ironclad-AI-Overview",
+        "https://legal.ironcladapp.com/fy2026-product-descriptions"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For legal, procurement and operations teams that already manage agreements in Ironclad and want contract-aware AI grounded in their workflows and permissions; this is an AI layer inside Ironclad CLM, not a standalone general-purpose legal chatbot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jamie",
+      "officialUrl": "https://www.meetjamie.ai/",
+      "evidenceUrls": [
+        "https://www.meetjamie.ai/",
+        "https://www.meetjamie.ai/home-page",
+        "https://learn.microsoft.com/en-us/connectors/jamieai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For professionals and teams who want searchable meeting memory and automated follow-ups across different meeting platforms, including in-person conversations, without a bot joining the call.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jenni AI",
+      "officialUrl": "https://jenni.ai/",
+      "evidenceUrls": [
+        "https://jenni.ai/",
+        "https://help.jenni.ai/docs/getting-started/introduction/",
+        "https://help.jenni.ai/docs/research/",
+        "https://jenni.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students, researchers and analysts drafting source-based work who want research, citations, document editing and claim review in one workspace; citations and AI suggestions still require human verification.",
+      "decision": "accepted"
+    },
+    {
+      "name": "JetBrains AI Assistant",
+      "officialUrl": "https://www.jetbrains.com/ai/",
+      "evidenceUrls": [
+        "https://www.jetbrains.com/ai/",
+        "https://www.jetbrains.com/help/ai-assistant/about-ai-assistant.html",
+        "https://www.jetbrains.com/help/ai-assistant/feature-set.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who work in JetBrains IDEs and want AI assistance and configurable coding agents in their existing editor; this is the broader IDE AI layer, distinct from the more autonomous Junie agent.",
+      "decision": "accepted"
+    },
+    {
+      "name": "JetBrains Junie",
+      "officialUrl": "https://www.jetbrains.com/junie/",
+      "evidenceUrls": [
+        "https://www.jetbrains.com/junie/",
+        "https://www.jetbrains.com/help/ai-assistant/junie-agent.html",
+        "https://www.jetbrains.com/help/ai/jetbrains-ai.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who want to delegate bounded, multi-step implementation and debugging work to an agent while reviewing its changes and command execution.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jina AI Reader",
+      "officialUrl": "https://jina.ai/reader/",
+      "evidenceUrls": [
+        "https://jina.ai/reader/",
+        "https://docs.jina.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building research, retrieval-augmented generation and agent workflows that need readable webpage or PDF content instead of raw HTML; the Reader endpoint can be used without an API key at a lower rate limit.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Juicebox",
+      "officialUrl": "https://juicebox.ai/",
+      "evidenceUrls": [
+        "https://juicebox.ai/",
+        "https://juicebox.ai/ai-recruiting",
+        "https://juicebox.help/peoplegpt"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For recruiters and talent teams sourcing hard-to-find candidates who need natural-language search, candidate calibration and personalized outreach in one recruiting workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Julius AI",
+      "officialUrl": "https://julius.ai/product",
+      "evidenceUrls": [
+        "https://julius.ai/product",
+        "https://julius.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and teams who want to move from a question or dataset to analysis and shareable deliverables in one conversational workspace; it is broader than a spreadsheet-only analysis assistant.",
+      "decision": "accepted"
+    },
+    {
+      "name": "K Health",
+      "officialUrl": "https://www.khealth.com/",
+      "evidenceUrls": [
+        "https://www.khealth.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For health systems and provider organizations that want to improve pre-visit intake, patient engagement and virtual-care access using AI connected to clinical records and clinician-led services; this is primarily an enterprise healthcare platform, not simply a consumer symptom checker.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kaedim",
+      "officialUrl": "https://www.kaedim3d.com/",
+      "evidenceUrls": [
+        "https://www.kaedim3d.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For game studios, product teams and brands that need 3D asset production integrated into a professional review workflow; Kaedim positions this as a studio-oriented production service rather than a simple self-serve text-to-3D generator.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kagi Assistant",
+      "officialUrl": "https://kagi.com/assistant",
+      "evidenceUrls": [
+        "https://kagi.com/assistant",
+        "https://help.kagi.com/kagi/ai/assistant.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For research, writing and programming users who want model choice and optional private search grounding in one subscription; Kagi says user data is not used to train models and offers configurable conversation retention.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kaiber",
+      "officialUrl": "https://kaiber.ai/",
+      "evidenceUrls": [
+        "https://kaiber.ai/",
+        "https://helpcenter.kaiber.ai/articles/0917805-faqs-getting-started-with-kaiber"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For musicians, artists and social creators who want to generate stylized visuals, synchronize batches of clips to music and finish them in one connected creative workspace.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kapwing AI",
+      "officialUrl": "https://www.kapwing.com/ai/overview",
+      "evidenceUrls": [
+        "https://www.kapwing.com/ai/overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and teams who want AI generation, localization and editing in the same collaborative browser-based video workspace, without installing desktop editing software.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Keyword Insights",
+      "officialUrl": "https://www.keywordinsights.ai/",
+      "evidenceUrls": [
+        "https://www.keywordinsights.ai/",
+        "https://changelog.keywordinsights.ai/latest-features-and-improvements/",
+        "https://www.keywordinsights.ai/pricing/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SEO teams and content marketers who need to group large keyword sets by intent, identify topical opportunities and turn search data into briefs and articles.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Khanmigo",
+      "officialUrl": "https://www.khanmigo.ai/",
+      "evidenceUrls": [
+        "https://www.khanmigo.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students, families and educators who want guided learning or teaching support connected to Khan Academy content. Individual learner/parent access is currently restricted to eligible US accounts, while teacher access is limited to educators in supported countries and student classroom access is through school or district implementations.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4124,16 +4293,16 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-20",
+  "lastQualityReviewBatch": "catalog-review-batch-21",
   "lastQualityReviewBatchSummary": {
-    "accepted": 14,
+    "accepted": 15,
     "rejected": 0,
     "superseded": 0,
     "retired": 0,
     "mergedIntoExisting": 0,
-    "updatedExisting": 14,
+    "updatedExisting": 15,
     "rechecked": 0,
-    "statusWatch": 1,
+    "statusWatch": 0,
     "recommenderProfilesAdded": 0,
     "recommenderProfilesRenamed": 0,
     "recommenderProfilesRemoved": 0
