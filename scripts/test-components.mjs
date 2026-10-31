@@ -51,10 +51,31 @@ try {
     chromaGrid: !!document.querySelector('.chroma-grid'),
     spotlight: !!document.querySelector('.spotlight-card'),
     animated: !!document.querySelector('.ca-animated-intro'),
-    metrics: !!document.querySelector('.ca-metrics strong')
+    metrics: !!document.querySelector('.ca-metrics strong'),
+    countUp: [...document.querySelectorAll('[data-countup]')].length === 3 && [...document.querySelectorAll('[data-countup]')].every(node => /\\d/.test(node.textContent))
   }));
   const missing = Object.entries(visible).filter(([, value]) => !value).map(([key]) => key);
   if (missing.length) throw new Error('Components not mounted: ' + missing.join(', '));
+  await page.locator('#lang').click();
+  await page.waitForFunction(() => document.documentElement.lang === 'ar' && document.querySelector('.ca-featured-card h2')?.textContent.includes('قرارات أفضل'));
+  const arabic = await page.evaluate(() => ({
+    direction: document.documentElement.dir,
+    nav: document.querySelector('#creativeAiNavMount nav')?.getAttribute('aria-label'),
+    metricLabels: [...document.querySelectorAll('.ca-metrics span')].map(node => node.textContent.trim()),
+    featureTitle: document.querySelector('.ca-featured-card h2')?.textContent.trim(),
+    bentoArabic: document.querySelector('.magic-bento')?.textContent.includes('اعثر على الأداة المناسبة')
+  }));
+  if (arabic.direction !== 'rtl' || !arabic.metricLabels.some(label => label.includes('أداة')) || !arabic.bentoArabic) {
+    throw new Error('Arabic localization failed: ' + JSON.stringify(arabic));
+  }
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.waitForTimeout(350);
+  const mobile = await page.evaluate(() => ({
+    viewport: document.documentElement.clientWidth,
+    document: document.documentElement.scrollWidth,
+    hero: !!document.querySelector('.hero-copy')
+  }));
+  if (mobile.document > mobile.viewport + 2) throw new Error('Mobile horizontal overflow: ' + JSON.stringify(mobile));
   if (errors.length) throw new Error('Browser errors: ' + errors.slice(0, 8).join(' | '));
   console.log('Creative AI component smoke test passed', JSON.stringify(visible));
 } finally {
