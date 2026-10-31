@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-23",
+  "reviewedAt": "2026-10-31",
+  "scope": "Review of the next 15 pending active entries, LanguageTool through Lokalise AI. Fourteen retained after first-party checks; Litmaps rejected because its official product documentation establishes citation-network literature discovery but no material AI capability.",
+  "accepted": [
+    {
+      "name": "LanguageTool",
+      "category": "Writing",
+      "description": "Multilingual AI writing assistant that checks grammar, spelling, punctuation and style, and rewrites sentences with tone options such as formal, fluent, simple and concise. It works across browsers, email clients, office editors and desktop apps; its core proofreading engine is also available as open-source software.",
+      "userValue": "For people and teams who write across languages and want proofreading and contextual rewriting inside the apps they already use; advanced checks and unlimited paraphrasing require Premium.",
+      "availability": "Free tier / Premium",
+      "url": "https://languagetool.org/",
+      "evidenceUrls": [
+        "https://languagetool.org/",
+        "https://languagetool.org/paraphrasing-tool",
+        "https://languagetool.org/services",
+        "https://github.com/languagetool-org/languagetool"
+      ]
+    },
+    {
+      "name": "Later AI",
+      "category": "Social media",
+      "description": "AI features built into Later's social media management platform, including Caption Writer for generating or rephrasing post captions and Ideas for creating brand content pillars and post concepts. The current help documentation labels these features beta and limits them to eligible paid plans; Caption Writer is currently English-only.",
+      "userValue": "For social media managers who already plan and publish through Later and want AI-assisted caption drafting and content ideation without moving to a separate tool; this is an embedded feature set, not a standalone AI product.",
+      "availability": "Included in eligible paid Later plans",
+      "url": "https://later.com/ai/",
+      "evidenceUrls": [
+        "https://later.com/ai/",
+        "https://help.later.com/hc/en-us/articles/12252569781015-Later-s-Caption-Writer",
+        "https://help.later.com/hc/en-us/articles/14711113026327-Generate-Content-Ideas-with-AI"
+      ]
+    },
+    {
+      "name": "Lavender",
+      "category": "Sales",
+      "description": "Sales-email intelligence platform combining an AI Email Coach that scores and improves outbound messages, an AI writer and personalization assistant, recipient context, team coaching analytics and Ora, Lavender's AI Sales Agent for prospecting and drafting sales emails.",
+      "userValue": "For SDRs, account executives and sales teams who want evidence-informed coaching while writing personalized outbound emails, plus an agent that can help prepare prospecting and outreach workflows.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.lavender.ai/",
+      "evidenceUrls": [
+        "https://lavender.ai/",
+        "https://lavender.ai/coach"
+      ]
+    },
+    {
+      "name": "LegalOn",
+      "category": "Legal",
+      "description": "Agentic AI platform for in-house legal teams covering contract review and redlining, attorney-built and custom playbooks, legal Q&A and drafting, matter intake and triage, contract repository intelligence and specialized agents for recurring legal work. It works in the browser and Microsoft Word and returns structured work for attorney review.",
+      "userValue": "For in-house legal and contracting teams that need to review agreements against their own negotiation standards, triage requests and search contract knowledge faster; LegalOn states its AI does not replace attorneys, who retain validation and final judgment.",
+      "availability": "Paid / Enterprise",
+      "url": "https://www.legalontech.com/",
+      "evidenceUrls": [
+        "https://www.legalontech.com/",
+        "https://www.legalontech.com/review",
+        "https://www.legalontech.com/what-is-legalon",
+        "https://www.legalontech.com/press-releases/legalon-launches-five-ai-agents-driving-step-change-productivity-for-in-house-legal-teams"
+      ]
+    },
+    {
+      "name": "lemlist",
+      "category": "Sales",
+      "description": "Multichannel sales engagement platform combining lead discovery and verified contact enrichment, intent signals, personalized email and follow-up generation, automated campaigns across email, LinkedIn, calls, WhatsApp and SMS, deliverability monitoring and lemAgent. lemAgent is lemlist's conversational AI layer for prospecting, campaign creation and performance analysis; it was previously called AI Copilot.",
+      "userValue": "For sales teams and agencies running outbound campaigns who need prospect data, context-aware personalization, multichannel sequencing and deliverability workflows in one system.",
+      "availability": "Paid plans",
+      "url": "https://www.lemlist.com/",
+      "evidenceUrls": [
+        "https://www.lemlist.com/",
+        "https://help.lemlist.com/en/articles/15382535-lemagent-what-it-is-how-it-works-and-when-to-use-it"
+      ]
+    },
+    {
+      "name": "Leonardo AI",
+      "category": "Images",
+      "description": "Multi-model generative creative platform for text-to-image and image-to-image creation, prompt-guided image editing, background and object removal, upscaling, image guidance and text/image-to-video generation and editing. Users can choose among Leonardo and third-party image and video models in one workspace.",
+      "userValue": "For designers, marketers, game artists and creators who need model choice and iterative control across image generation, editing, enhancement and short-form video creation.",
+      "availability": "Free tier / Paid tokens",
+      "url": "https://leonardo.ai/",
+      "evidenceUrls": [
+        "https://leonardo.ai/ai-image-generator",
+        "https://leonardo.ai/models",
+        "https://leonardo.ai/ai-video-editor",
+        "https://leonardo.ai/ai-image-editor",
+        "https://leonardo.ai/pricing"
+      ]
+    },
+    {
+      "name": "Let's Enhance",
+      "category": "Image editing",
+      "description": "AI image enhancement and restoration platform that improves image quality, sharpness and color, removes visual damage and upscales images for print and web. It also offers AI image generation, background removal, batch processing and large-format exports.",
+      "userValue": "For photographers, ecommerce teams, designers and print workflows that need to recover detail from low-resolution images or prepare visual assets for larger outputs.",
+      "availability": "Free credits / Paid",
+      "url": "https://letsenhance.io/",
+      "evidenceUrls": [
+        "https://letsenhance.io/",
+        "https://letsenhance.io/pricing"
+      ]
+    },
+    {
+      "name": "Lex",
+      "category": "Writing",
+      "description": "AI-first document editor with chat against a chosen model, line-level writing checks, style guides that adapt drafts to a user's voice, persistent knowledge bases, reusable prompts and prompt libraries. It also includes document version history, rewind and collaboration features.",
+      "userValue": "For writers, founders and knowledge workers who want a focused long-form editor with reusable context and AI feedback integrated into the document rather than a general-purpose chatbot.",
+      "availability": "Free tier / Paid",
+      "url": "https://lex.page/",
+      "evidenceUrls": [
+        "https://lex.page/",
+        "https://lex.page/about"
+      ]
+    },
+    {
+      "name": "LibreChat",
+      "category": "Local AI UI",
+      "description": "Open-source, self-hostable AI conversation platform that brings multiple providers and custom OpenAI-compatible endpoints into one interface. Beyond chat it supports advanced agents, file handling, code interpreter, API actions, artifacts, MCP tools, web search, conversation and file search, persistent memory and enterprise authentication.",
+      "userValue": "For individuals, developers and organizations that want a customizable, provider-agnostic AI workspace they can run on their own infrastructure and connect to hosted or local model backends.",
+      "availability": "Open source",
+      "url": "https://www.librechat.ai/",
+      "evidenceUrls": [
+        "https://www.librechat.ai/",
+        "https://github.com/LibreChat-AI/LibreChat"
+      ]
+    },
+    {
+      "name": "Lightning AI",
+      "category": "AI infrastructure",
+      "description": "End-to-end AI development and compute platform with persistent collaborative GPU Studios, notebooks, isolated sandboxes, coding agents, model training and fine-tuning, inference endpoints, pipelines, batch jobs and a GPU marketplace. The platform now combines Lightning's development tools with owned GPU infrastructure following its 2026 combination with Voltage Park.",
+      "userValue": "For AI developers, researchers and teams that need a connected environment to build, train, evaluate and deploy models or agents without assembling separate notebook, compute and hosting services.",
+      "availability": "Free tier / Paid compute",
+      "url": "https://lightning.ai/platform/",
+      "evidenceUrls": [
+        "https://lightning.ai/platform/",
+        "https://lightning.ai/docs/platform/build/overview",
+        "https://lightning.ai/docs/platform/build/ai-studio",
+        "https://studio.lightning.ai/about/"
+      ]
+    },
+    {
+      "name": "Lily AI",
+      "category": "Ecommerce",
+      "description": "Lily Max is an agentic product-intelligence platform for retail catalogs. Its agents enrich product attributes and descriptions in shopper language, identify gaps in product data, and run controlled experiments to improve product discovery and performance across Google Ads, Meta, onsite search and emerging AI shopping assistants.",
+      "userValue": "For retailers and consumer brands that need product catalogs to be understandable to search engines, advertising systems and AI shopping agents, and want to measure the effect of catalog enrichment on commerce outcomes.",
+      "availability": "Enterprise / Contact sales",
+      "url": "https://www.lily.ai/",
+      "evidenceUrls": [
+        "https://www.lily.ai/",
+        "https://www.lily.ai/faqs/what-does-lily-do"
+      ]
+    },
+    {
+      "name": "llama.cpp",
+      "category": "Local models",
+      "description": "Open-source C/C++ inference engine for running compatible large language and vision-language models locally or in the cloud with minimal dependencies. It supports GGUF models, low-bit quantization, CPU and GPU backends, Apple Silicon, CUDA, HIP, Vulkan and hybrid CPU/GPU inference, plus CLI tools and an OpenAI-compatible HTTP server.",
+      "userValue": "For developers who need efficient, controllable model inference on desktops, servers and edge hardware, including systems that cannot fit a model entirely in GPU memory.",
+      "availability": "Open source",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "evidenceUrls": [
+        "https://github.com/ggml-org/llama.cpp",
+        "https://github.com/ggml-org/llama.cpp/blob/master/README.md",
+        "https://github.com/ggml-org/llama.cpp/releases"
+      ]
+    },
+    {
+      "name": "LM Studio",
+      "category": "Local models",
+      "description": "Desktop and developer environment for downloading and running local language models on macOS, Windows and Linux, chatting with them offline, connecting MCP servers and serving models through local REST and OpenAI-compatible APIs. Its developer stack includes Python and TypeScript SDKs, a CLI and llmster for headless server and CI deployments; optional Bionic cloud inference is available alongside local models.",
+      "userValue": "For individuals and developers who want to experiment with local models through a graphical app and then expose the same models to local applications, agents or server workloads through an API.",
+      "availability": "Free local app / Optional paid cloud inference",
+      "url": "https://lmstudio.ai/",
+      "evidenceUrls": [
+        "https://lmstudio.ai/docs/app",
+        "https://lmstudio.ai/docs/developer/core/server",
+        "https://lmstudio.ai/pricing",
+        "https://lmstudio.ai/blog/free-for-work"
+      ]
+    },
+    {
+      "name": "Lokalise AI",
+      "category": "Translation",
+      "description": "AI localization capabilities embedded in Lokalise's translation-management platform: context-aware bulk translation, AI suggestions, localization quality assurance and scoring, custom AI profiles grounded in translation memories and glossaries, and smart routing across multiple model families. AI workflows and agents can automate localization tasks, while an MCP server exposes capabilities to external assistants.",
+      "userValue": "For product and localization teams translating apps, websites, software and marketing content at scale while preserving approved terminology, brand voice and human review controls; Lokalise AI is part of the Lokalise platform, not a separate translation chatbot.",
+      "availability": "Paid Lokalise plans",
+      "url": "https://lokalise.com/ai/",
+      "evidenceUrls": [
+        "https://lokalise.com/ai/",
+        "https://docs.lokalise.com/en/articles/12292275-ai-frequently-asked-questions",
+        "https://docs.lokalise.com/en/articles/8011393-ai-translations",
+        "https://docs.lokalise.com/en/collections/17223450-ai-features"
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Litmaps",
+      "officialUrl": "https://www.litmaps.com/",
+      "evidenceUrls": [
+        "https://www.litmaps.com/",
+        "https://www.litmaps.com/features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The official product pages describe paper search, citation/reference mapping, visualization, sharing and alerts. They do not document an AI/ML capability as part of the product's core workflow.",
+      "decision": "rejected",
+      "reason": "The official product pages describe literature discovery through citation and reference connections, visual mapping, sharing and monitoring. They do not document a first-party AI/ML or generative-AI capability that materially performs the product's core function. Litmaps is a useful research-discovery product, but it does not meet Creative AI's requirement that AI be a real, useful part of the product."
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "statusWatch": [],
+  "notes": [
+    "LanguageTool remains an active multilingual writing assistant. Its AI paraphraser is a real first-party feature, while the core proofreading engine is also open source under LGPL; the listing does not imply the full hosted Premium product is open source.",
+    "Later AI is not a standalone product. Its current paid Later plans include beta Caption Writer and Ideas features; Caption Writer currently supports English only. These limitations are explicit in the description.",
+    "Lavender's current product includes Ora, its AI Sales Agent, alongside the Email Coach and personalization assistant. The description is updated beyond the older email-score-only positioning.",
+    "LegalOn is an in-house legal platform with contract review, playbooks, intake, AI agents and contract intelligence. Its official pages say outputs are returned for attorney review and the tool does not replace attorneys.",
+    "lemlist's current AI assistant is named lemAgent, formerly AI Copilot. It is embedded in a multichannel sales engagement platform and is not a standalone email writer.",
+    "Leonardo AI now operates as a multi-model creative system for image and video generation/editing, with selectable first-party and third-party models and a changing model catalog.",
+    "Let's Enhance includes AI enhancement, restoration, large-format upscaling and related image workflows; the description distinguishes it from a general-purpose image generator.",
+    "Lex's official feature documentation identifies AI Chat, line-level Checks, style guides, persistent knowledge bases and prompts, alongside versioning and collaboration.",
+    "LibreChat remains actively developed and open source. The current product extends beyond a chat UI with agents, MCP, code interpreter, artifacts, memory, web search and enterprise authentication.",
+    "Lightning AI's current platform includes persistent GPU Studios, notebooks, sandbox, agents, training, inference, pipelines and a GPU marketplace. Its own About page describes its 2026 combination with Voltage Park and owned compute infrastructure.",
+    "Lily AI has evolved into Lily Max, an agentic product-intelligence platform for retail catalogs and AI commerce. The listing no longer describes it only as an attribute-tagging tool.",
+    "Litmaps is removed from the active catalog. Its official feature pages describe paper search based on citation/reference connections, maps, visualization, sharing and monitoring, but do not document an AI/ML capability that materially performs its core function. This follows the same inclusion standard previously applied to Connected Papers.",
+    "llama.cpp is an active MIT-licensed C/C++ inference runtime for compatible LLMs and VLMs across CPU/GPU hardware; it is not a consumer chat application.",
+    "LM Studio remains free for local inference and has evolved into a wider developer environment with local APIs, MCP, SDKs, CLI and headless llmster; optional Bionic cloud inference is separately available.",
+    "Lokalise AI is an embedded AI localization layer, not a separate translation chatbot. Its current features include contextual multi-model translation, custom RAG profiles, AI LQA/scoring, agents and MCP integration."
+  ]
+}
