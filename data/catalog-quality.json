@@ -4985,6 +4985,19 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For musicians, singers, producers and educators who want to practice, analyze or build on their own recordings rather than generate a finished song from text. The free tier has limited monthly uploads and basic vocal/drum/bass separation; Premium expands stem options and practice tools, while Pro adds Hi-Fi separation, detailed drum/multimedia stems, long uploads, Voice Studio and VST access. The Turkish App Store lists Premium at ₺99.99/month or ₺699.99/year and Pro at ₺499.99/month or ₺4,999.99/year; store and offer prices can vary. AI Studio generation uses credits in 30-second blocks. Only upload or modify music you have rights to use; a streaming subscription does not grant stem-extraction rights.",
       "decision": "accepted"
+    },
+    {
+      "name": "Motion",
+      "officialUrl": "https://www.usemotion.com/",
+      "evidenceUrls": [
+        "https://www.usemotion.com/",
+        "https://www.usemotion.com/pricing",
+        "https://www.usemotion.com/help",
+        "https://www.usemotion.com/features/ai-task-manager"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and teams who want tasks and projects automatically translated into a realistic daily schedule instead of manually managing to-do lists. Pro AI is displayed at $19/seat/month with 7,500 credits per seat/month; Business AI at $29/seat/month with 15,000 credits, plus capacity planning, advanced dashboards, Gantt charts, time tracking and access controls. The pricing page offers monthly or annual billing (advertising 33% annual savings) and lists additional credits at $0.25 or $0.19 per 100, depending on plan. A free trial is offered, not a permanent free plan. Confirm billing cycle and AI-credit usage before subscribing.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -5000,16 +5013,16 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-36",
+  "lastQualityReviewBatch": "catalog-review-batch-37",
   "lastQualityReviewBatchSummary": {
-    "accepted": 0,
+    "accepted": 1,
     "rejected": 0,
     "superseded": 0,
     "retired": 0,
     "mergedIntoExisting": 0,
-    "updatedExisting": 0,
+    "updatedExisting": 1,
     "rechecked": 0,
-    "statusWatch": 1,
+    "statusWatch": 0,
     "recommenderProfilesAdded": 0,
     "recommenderProfilesRenamed": 0,
     "recommenderProfilesRemoved": 0
