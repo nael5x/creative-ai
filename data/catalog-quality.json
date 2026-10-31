@@ -2642,6 +2642,192 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For professionals and developers who want one agent for knowledge work and coding, with visible actions and approval controls.",
       "decision": "accepted"
+    },
+    {
+      "name": "Artbreeder",
+      "officialUrl": "https://www.artbreeder.com/",
+      "evidenceUrls": [
+        "https://www.artbreeder.com/",
+        "https://www.artbreeder.com/updates",
+        "https://www.artbreeder.com/pricing",
+        "https://www.artbreeder.com/legacy/credits"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "A current image-creation and editing workspace with prompt generation, remixing, Composer/Mixer workflows and Animator; its updates page documents active model and feature updates.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Augment Code",
+      "officialUrl": "https://www.augmentcode.com/",
+      "evidenceUrls": [
+        "https://www.augmentcode.com/",
+        "https://www.augmentcode.com/pricing",
+        "https://docs.augmentcode.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "An agentic software-development platform for context-aware planning, coding, review, testing and maintenance workflows across larger codebases.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Auphonic",
+      "officialUrl": "https://auphonic.com/",
+      "evidenceUrls": [
+        "https://auphonic.com/",
+        "https://auphonic.com/pricing",
+        "https://auphonic.com/help/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "A production audio post-processing service with automatic loudness, noise and reverb processing, speech recognition, multitrack and publishing workflows; the service documents a monthly free allowance.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AutoGPT",
+      "officialUrl": "https://agpt.co/",
+      "evidenceUrls": [
+        "https://agpt.co/",
+        "https://docs.agpt.co/",
+        "https://github.com/Significant-Gravitas/AutoGPT/blob/master/LICENSE"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "A current agent platform with hosted and self-hosted deployment. Its repository distinguishes the MIT-licensed classic components from the Polyform Shield platform, so it is not labeled simply open source.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AUTOMATIC1111 Stable Diffusion WebUI",
+      "officialUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "evidenceUrls": [
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases",
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/pulls?q=is%3Apr+is%3Aclosed"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "A maintained local Stable Diffusion interface with detailed generation, inpainting, extensions and scripts; recent repository activity confirms it remains a usable project despite infrequent tagged releases.",
+      "decision": "accepted"
+    },
+    {
+      "name": "B12",
+      "officialUrl": "https://www.b12.io/",
+      "evidenceUrls": [
+        "https://www.b12.io/",
+        "https://www.b12.io/pricing",
+        "https://www.b12.io/features/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "A current AI website and business platform with a free entry plan and paid features for professional-service businesses.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Base44",
+      "officialUrl": "https://base44.com/",
+      "evidenceUrls": [
+        "https://base44.com/",
+        "https://base44.com/pricing",
+        "https://docs.base44.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "A current natural-language full-stack app builder with a free entry plan and paid usage tiers.",
+      "decision": "accepted"
+    },
+    {
+      "name": "BentoML",
+      "officialUrl": "https://www.bentoml.com/",
+      "evidenceUrls": [
+        "https://www.bentoml.com/",
+        "https://docs.bentoml.com/",
+        "https://github.com/bentoml/BentoML"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "An active open-source model-serving framework plus a commercial inference platform for production deployment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Bito",
+      "officialUrl": "https://bito.ai/",
+      "evidenceUrls": [
+        "https://bito.ai/",
+        "https://bito.ai/pricing",
+        "https://docs.bito.ai/",
+        "https://bito.ai/product/context-engine/",
+        "https://bito.ai/product/ai-code-review-agent/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "A current developer platform for codebase context, AI-assisted code review and agentic engineering workflows; the current pricing page presents trial and paid plans.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Boomy",
+      "officialUrl": "https://boomy.com/",
+      "evidenceUrls": [
+        "https://boomy.com/",
+        "https://support.boomy.com/hc/en-us/articles/14733259384589-What-are-the-licensing-rights-for-my-songs",
+        "https://support.boomy.com/hc/en-us/articles/14733160128013-What-is-Boomy"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "An active AI music creation platform. Its official licensing help distinguishes free creation from paid Creator/Pro commercial-download rights.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Botpress",
+      "officialUrl": "https://botpress.com/",
+      "evidenceUrls": [
+        "https://botpress.com/",
+        "https://botpress.com/docs/",
+        "https://botpress.com/pricing",
+        "https://botpress.com/blog/pricing-update-may-2026/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "A current visual and developer platform for building AI agents with knowledge, integrations, webchat and human handoff; official pricing documents a free tier and paid plans.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Braintrust",
+      "officialUrl": "https://www.braintrust.dev/",
+      "evidenceUrls": [
+        "https://www.braintrust.dev/",
+        "https://www.braintrust.dev/pricing",
+        "https://www.braintrust.dev/docs"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "An active evaluation and observability platform for tracing, testing and improving AI applications, with an official free Starter plan and paid tiers.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Brisk Teaching",
+      "officialUrl": "https://www.briskteaching.com/",
+      "evidenceUrls": [
+        "https://www.briskteaching.com/",
+        "https://www.briskteaching.com/plans",
+        "https://www.briskteaching.com/tools"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "An active AI teaching product with educator tools and a free teacher plan plus paid school/district plans.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AskCodi",
+      "officialUrl": "https://www.askcodi.com/",
+      "evidenceUrls": [
+        "https://www.askcodi.com/",
+        "https://www.askcodi.com/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The current official website positions AskCodi as an AI software agency that builds and operates software for customers, not as a self-serve AI software tool. That falls outside this directory's tool scope.",
+      "decision": "rejected",
+      "reason": "Current official positioning is a done-for-you AI software agency rather than a self-serve AI tool. Remove from the active tools catalog."
+    },
+    {
+      "name": "Beatoven.ai",
+      "officialUrl": "https://www.beatoven.ai/",
+      "evidenceUrls": [
+        "https://www.beatoven.ai/",
+        "https://www.beatoven.ai/usecase/youtube",
+        "https://www.beatoven.ai/api"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The accessible official domain currently mixes unrelated third-party promotional content and placeholder material with the product copy. The music-generation feature may still exist, but the destination is not reliable enough to recommend until its integrity is verified.",
+      "decision": "rejected",
+      "reason": "Temporarily remove pending official-domain integrity verification: current accessible homepage and product subpages contain unrelated promotional and placeholder content, so the directory cannot confidently direct users to this destination.",
+      "recheckCondition": "Reconsider only after the official domain and product destination are verified clean and consistently represent Beatoven's music product."
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -2657,16 +2843,13 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-9",
+  "lastQualityReviewBatch": "catalog-review-batch-10",
   "lastQualityReviewBatchSummary": {
-    "accepted": 10,
-    "rejected": 16,
-    "superseded": 12,
-    "retired": 4,
-    "mergedIntoExisting": 1,
-    "updatedExisting": 1,
-    "recommenderProfilesAdded": 2,
-    "recommenderProfilesRenamed": 1,
-    "recommenderProfilesRemoved": 1
+    "accepted": 13,
+    "rejected": 2,
+    "activeCatalog": 606,
+    "acceptedActive": 220,
+    "rejectedTotal": 32,
+    "pendingActiveReview": 386
   }
 }
