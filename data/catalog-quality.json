@@ -5,6 +5,17 @@
   "note": "Only entries manually checked against first-party evidence appear here. Catalog entries not listed are pending re-audit under the stricter policy; pending does not mean unsafe or low quality.",
   "tools": [
     {
+      "name": "Abridge",
+      "officialUrl": "https://www.abridge.com/",
+      "evidenceUrls": [
+        "https://www.abridge.com/",
+        "https://www.abridge.com/blog/clinical-ai-specialty-models"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Abridge generates structured clinical documentation from patient-clinician conversations and relevant chart context, with tailored experiences for clinicians, revenue cycle and nursing.",
+      "decision": "accepted"
+    },
+    {
       "name": "Activepieces",
       "officialUrl": "https://www.activepieces.com/",
       "evidenceUrls": [
@@ -36,6 +47,17 @@
       "decision": "accepted"
     },
     {
+      "name": "AlphaSense",
+      "officialUrl": "https://www.alpha-sense.com/",
+      "evidenceUrls": [
+        "https://www.alpha-sense.com/",
+        "https://www.alpha-sense.com/platform/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "AlphaSense brings premium financial, expert and internal company content into AI-assisted search and analysis workflows for investment and corporate research.",
+      "decision": "accepted"
+    },
+    {
       "name": "Anara",
       "officialUrl": "https://anara.com/",
       "evidenceUrls": [
@@ -54,6 +76,40 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Local-first workspace for document chat, agents and model integrations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Apify",
+      "officialUrl": "https://apify.com/",
+      "evidenceUrls": [
+        "https://apify.com/",
+        "https://docs.apify.com/platform"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Apify provides reusable, API-runnable Actors for extracting live web data, automating browsers and feeding structured results into apps and AI agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Apollo",
+      "officialUrl": "https://www.apollo.io/",
+      "evidenceUrls": [
+        "https://www.apollo.io/",
+        "https://knowledge.apollo.io/hc/en-us/articles/31357963217933-Use-Apollo-AI"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Apollo combines B2B prospect data with AI-assisted research, enrichment and outreach workflows so sales teams can move from target discovery to engagement in one system.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Asana AI",
+      "officialUrl": "https://asana.com/product/ai",
+      "evidenceUrls": [
+        "https://asana.com/product/ai",
+        "https://help.asana.com/s/article/asana-ai-features-and-admin-controls",
+        "https://help.asana.com/s/article/get-started-with-asana-ai"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Asana AI connects AI teammates, work summaries and no-code AI Studio automations to an organization's tasks, goals and Work Graph with existing permissions.",
       "decision": "accepted"
     },
     {
@@ -78,6 +134,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Bardeen",
+      "officialUrl": "https://www.bardeen.ai/",
+      "evidenceUrls": [
+        "https://www.bardeen.ai/",
+        "https://www.bardeen.ai/ai"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Bardeen applies LLMs to qualify extracted leads, categorize records and generate personalized outreach inside browser-driven automation workflows.",
+      "decision": "accepted"
+    },
+    {
       "name": "Bearly AI",
       "officialUrl": "https://bearly.ai/",
       "evidenceUrls": [
@@ -86,6 +153,17 @@
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "Multi-model AI workspace that combines document/web research, creation, coding and supervised browser/computer workflows in one product.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Beautiful.ai",
+      "officialUrl": "https://www.beautiful.ai/",
+      "evidenceUrls": [
+        "https://www.beautiful.ai/",
+        "https://www.beautiful.ai/product-updates"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Beautiful.ai generates presentation drafts and automatically applies smart slide layouts, brand controls and data visualizations to keep decks consistent and editable.",
       "decision": "accepted"
     },
     {
@@ -181,6 +259,41 @@
       "decision": "accepted"
     },
     {
+      "name": "Clay",
+      "officialUrl": "https://www.clay.com/",
+      "evidenceUrls": [
+        "https://www.clay.com/",
+        "https://www.clay.com/claygent"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Claygent researches target companies and people using connected data sources, then feeds findings into enrichment and personalized go-to-market workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "ClickUp Brain",
+      "officialUrl": "https://clickup.com/brain",
+      "evidenceUrls": [
+        "https://clickup.com/brain",
+        "https://help.clickup.com/hc/en-us/articles/12578085238039-What-is-ClickUp-Brain-AI",
+        "https://help.clickup.com/hc/en-us/articles/33032484272023-What-are-ClickUp-Brain-AI-tools"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "ClickUp Brain uses workspace context to answer questions, draft and create work, build agents and execute supported actions across tasks, Docs and connected apps.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cline",
+      "officialUrl": "https://cline.bot/",
+      "evidenceUrls": [
+        "https://cline.bot/",
+        "https://docs.cline.bot/",
+        "https://github.com/cline/cline"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Cline is an open coding-agent runtime that can work inside an IDE, terminal or embedded SDK, giving developers control over model choice and tool-enabled coding tasks.",
+      "decision": "accepted"
+    },
+    {
       "name": "CodeGeeX",
       "officialUrl": "https://www.codegeex.cn/",
       "evidenceUrls": [
@@ -201,6 +314,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Darktrace",
+      "officialUrl": "https://www.darktrace.com/",
+      "evidenceUrls": [
+        "https://www.darktrace.com/",
+        "https://www.darktrace.com/news/2026/969/darktrace-launches-behavioral-defense-platform"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Darktrace applies behavioral AI across enterprise digital environments to identify abnormal activity and support detection and response, including security controls for AI systems.",
+      "decision": "accepted"
+    },
+    {
       "name": "Databricks Genie Agents",
       "officialUrl": "https://www.databricks.com/product/genie/agents",
       "evidenceUrls": [
@@ -210,6 +334,40 @@
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "Genie Agents provide a governed natural-language interface to curated Databricks datasets, with data teams defining trusted assets, instructions and business context.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DataRobot",
+      "officialUrl": "https://www.datarobot.com/product/agentic-ai/",
+      "evidenceUrls": [
+        "https://www.datarobot.com/product/agentic-ai/",
+        "https://docs.datarobot.com/en/docs/agentic-ai/index.html",
+        "https://docs.datarobot.com/latest/en/docs/agentic-ai/index.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "DataRobot provides development, evaluation, deployment, monitoring and governance workflows for production agents, with support for private, on-premises and cloud environments.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Deepgram",
+      "officialUrl": "https://deepgram.com/",
+      "evidenceUrls": [
+        "https://deepgram.com/",
+        "https://developers.deepgram.com/docs/voice-agent"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Deepgram exposes speech-to-text, text-to-speech and realtime voice-agent capabilities through developer APIs, reducing the need to assemble separate speech services.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Descript",
+      "officialUrl": "https://www.descript.com/",
+      "evidenceUrls": [
+        "https://www.descript.com/",
+        "https://www.descript.com/changelog"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Descript combines transcript-based editing with transcription, Studio Sound, filler-word removal, voice tools, captions and generative media in one editor.",
       "decision": "accepted"
     },
     {
@@ -241,6 +399,18 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Visual platform for building agents, RAG apps and AI workflows with self-hosting options.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Docling",
+      "officialUrl": "https://docling-project.github.io/docling/",
+      "evidenceUrls": [
+        "https://docling-project.github.io/docling/",
+        "https://docling-project.github.io/docling/getting_started/quickstart/",
+        "https://docling-project.github.io/docling/faq/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Docling parses complex documents into structured representations with layout and table understanding, OCR, many input formats, RAG integrations and fully local execution options.",
       "decision": "accepted"
     },
     {
@@ -1456,11 +1626,12 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-3",
+  "lastQualityReviewBatch": "catalog-review-batch-4",
   "lastQualityReviewBatchSummary": {
-    "accepted": 12,
-    "rejected": 1,
-    "renamed": 1,
-    "updatedDescriptions": 12
+    "accepted": 15,
+    "rejected": 0,
+    "renamed": 0,
+    "updatedDescriptions": 15,
+    "canonicalUrlUpdates": 2
   }
 }
