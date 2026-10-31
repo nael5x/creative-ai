@@ -37,7 +37,7 @@ class CatalogReviewBatch26Tests(unittest.TestCase):
         self.assertEqual(review["officialUrl"], row[5])
         self.assertEqual(review["decision"], "accepted")
         self.assertEqual(review["reviewedAt"], "2026-10-31")
-        self.assertIn("Texturing", row[2])
+        self.assertIn("texturing", row[2])
         self.assertIn("rigging", row[2])
         self.assertIn("CAD-precision", row[3])
         self.assertTrue(any("meshy.ai/features" in url for url in review["evidenceUrls"]))
