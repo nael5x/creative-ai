@@ -192,17 +192,6 @@
         "free-friendly"
       ]
     },
-    "Flowise": {
-      "tasks": [
-        "coding",
-        "automation"
-      ],
-      "traits": [
-        "open-source",
-        "easy",
-        "control"
-      ]
-    },
     "Gamma": {
       "tasks": [
         "design"
@@ -327,16 +316,6 @@
       "traits": [
         "easy",
         "free-friendly"
-      ]
-    },
-    "Luma Dream Machine": {
-      "tasks": [
-        "video"
-      ],
-      "traits": [
-        "easy",
-        "free-friendly",
-        "control"
       ]
     },
     "Make": {
@@ -467,6 +446,39 @@
       "traits": [
         "easy",
         "free-friendly"
+      ]
+    },
+    "Luma App": {
+      "tasks": [
+        "images",
+        "video",
+        "audio"
+      ],
+      "traits": [
+        "control",
+        "easy"
+      ]
+    },
+    "Microsoft Agent Framework": {
+      "tasks": [
+        "coding",
+        "automation"
+      ],
+      "traits": [
+        "open-source",
+        "control"
+      ]
+    },
+    "Mistral Vibe": {
+      "tasks": [
+        "writing",
+        "research",
+        "coding",
+        "automation"
+      ],
+      "traits": [
+        "easy",
+        "control"
       ]
     }
   }
