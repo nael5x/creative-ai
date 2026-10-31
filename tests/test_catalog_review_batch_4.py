@@ -36,8 +36,11 @@ class CatalogReviewBatchFourTests(unittest.TestCase):
     def test_audit_log_matches_the_review_manifest(self):
         self.assertEqual(len(self.audit["accepted"]), 15)
         self.assertEqual(len(self.audit["canonicalUrlUpdates"]), 2)
-        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-4")
-        self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["accepted"], 15)
+        self.assertEqual(self.audit["batch"], "catalog-review-batch-4")
+        for entry in self.audit["accepted"]:
+            review = self.reviews[entry["name"]]
+            self.assertEqual(review["decision"], "accepted")
+            self.assertEqual(review["officialUrl"], entry["officialUrl"])
 
 
 if __name__ == "__main__":
