@@ -49,8 +49,11 @@ class CatalogReviewBatchThreeTests(unittest.TestCase):
         self.assertEqual(len(self.audit["renamed"]), 1)
         self.assertEqual(self.audit["renamed"][0]["newName"], "Databricks Genie Agents")
         self.assertEqual(self.audit["renamed"][0]["previousUrl"], "https://www.databricks.com/product/ai-bi/genie")
-        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-3")
-        self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["accepted"], 12)
+        self.assertEqual(self.audit["batch"], "catalog-review-batch-3")
+        for entry in self.audit["accepted"]:
+            review = self.reviews[entry["name"]]
+            self.assertEqual(review["decision"], "accepted")
+            self.assertEqual(review["officialUrl"], entry["officialUrl"])
 
 
 if __name__ == "__main__":

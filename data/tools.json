@@ -26,8 +26,8 @@
   [
     "Abridge",
     "Healthcare",
-    "Clinical conversation AI for generating structured medical documentation from visits.",
-    "For healthcare organizations reducing clinician documentation burden.",
+    "Clinical generative AI platform that turns patient-clinician conversations and chart context into draft documentation and revenue-cycle workflow support.",
+    "For healthcare systems reducing manual clinical documentation and revenue-cycle work while keeping clinicians in control of the final record.",
     "Paid",
     "https://www.abridge.com/"
   ],
@@ -202,8 +202,8 @@
   [
     "AlphaSense",
     "Research",
-    "AI market-intelligence platform for searching and analyzing financial and business information.",
-    "For investment and strategy teams researching companies, markets and expert content.",
+    "AI-powered market-intelligence platform for searching, summarizing and analyzing financial filings, expert calls, news and internal business content.",
+    "For investment, strategy and corporate teams that need source-backed research across large volumes of market and company information.",
     "Paid",
     "https://www.alpha-sense.com/"
   ],
@@ -274,16 +274,16 @@
   [
     "Apify",
     "Data extraction",
-    "Cloud platform for web scraping, browser automation and reusable data-collection actors.",
-    "For developers and operations teams running scalable web extraction and automation jobs.",
+    "Cloud platform and marketplace of Actors for web scraping, browser automation and structured web-data extraction, with APIs and scheduling for agents and workflows.",
+    "For teams that need repeatable extraction from websites and current web data for research, lead generation and AI applications.",
     "Free tier / Paid",
     "https://apify.com/"
   ],
   [
     "Apollo",
     "Sales",
-    "Sales intelligence and engagement platform with AI-assisted prospecting and outreach features.",
-    "For sales teams that want contact data, sequencing and AI help in one prospecting workflow.",
+    "AI-enabled go-to-market platform combining B2B contact and company data, prospect research, enrichment, sequencing and sales engagement.",
+    "For sales teams sourcing qualified prospects, enriching CRM data and running targeted outbound workflows from one platform.",
     "Free tier / Paid",
     "https://www.apollo.io/"
   ],
@@ -322,8 +322,8 @@
   [
     "Asana AI",
     "Productivity",
-    "AI features inside Asana for project planning, work summaries and workflow assistance.",
-    "For teams that want AI help while keeping project execution inside Asana.",
+    "AI and agentic work-management capabilities embedded in Asana, including AI Teammates, Dash, AI Studio and natural-language workflow assistance.",
+    "For cross-functional teams that want project context, AI-generated summaries and governed automation connected to their tasks and goals.",
     "Paid",
     "https://asana.com/product/ai"
   ],
@@ -418,8 +418,8 @@
   [
     "Bardeen",
     "Automation",
-    "AI automation platform for browser workflows, data movement and repetitive work.",
-    "For automating research, prospecting and browser-heavy operational tasks.",
+    "AI automation platform for browser-based work, lead research, data extraction, enrichment and personalized outreach across connected apps.",
+    "For teams automating repetitive research and go-to-market tasks without building custom integrations for every workflow.",
     "Free tier / Paid",
     "https://www.bardeen.ai/"
   ],
@@ -458,8 +458,8 @@
   [
     "Beautiful.ai",
     "Presentations",
-    "AI-assisted presentation platform with smart slide layouts and design automation.",
-    "For teams creating polished business decks without manual slide-by-slide formatting.",
+    "AI presentation platform that generates and formats slide decks with smart layouts, brand controls, data visualization and team collaboration.",
+    "For professionals and teams who need polished business presentations quickly while keeping slides editable and on-brand.",
     "Paid",
     "https://www.beautiful.ai/"
   ],
@@ -746,8 +746,8 @@
   [
     "Clay",
     "Sales",
-    "Data enrichment and AI workflow platform for prospecting, research and go-to-market operations.",
-    "For growth and sales teams combining many data sources with automated personalization.",
+    "Go-to-market data and workflow platform with Claygent AI agents for researching companies and people, enriching records and personalizing outreach.",
+    "For RevOps and sales teams combining multiple data sources with agent-driven research to build targeted prospecting workflows.",
     "Paid",
     "https://www.clay.com/"
   ],
@@ -778,16 +778,16 @@
   [
     "ClickUp Brain",
     "Productivity",
-    "AI features inside ClickUp for writing, project context, search and work assistance.",
-    "For teams already managing tasks and docs in ClickUp that want AI grounded in workspace context.",
+    "AI workspace assistant and agent layer that uses ClickUp tasks, Docs, chats and connected apps to answer questions, create work and execute workflows.",
+    "For teams that want AI assistance grounded in their actual project workspace, with actions that create or update tasks, docs and dashboards.",
     "Paid",
-    "https://clickup.com/ai"
+    "https://clickup.com/brain"
   ],
   [
     "Cline",
     "Coding",
-    "Open-source coding agent for editor, terminal and SDK workflows.",
-    "For multi-step code changes where you want an inspectable agent runtime and model choice.",
+    "Open-source coding-agent runtime available in IDE, CLI and SDK forms, able to inspect repositories, use tools and execute multi-step development tasks.",
+    "For developers who want an inspectable, model-flexible coding agent they can run in their editor or terminal and extend in their own products.",
     "Open source",
     "https://cline.bot/"
   ],
@@ -994,8 +994,8 @@
   [
     "Darktrace",
     "Cybersecurity",
-    "AI-driven cybersecurity platform for threat detection, investigation and response across enterprise environments.",
-    "For security teams that need behavioral detection across complex infrastructure.",
+    "Enterprise cybersecurity platform using behavioral AI to detect and respond to threats across network, cloud, email, identity and AI systems.",
+    "For security teams needing behavior-based detection and response across complex enterprise environments.",
     "Paid",
     "https://www.darktrace.com/"
   ],
@@ -1018,10 +1018,10 @@
   [
     "DataRobot",
     "Data & analytics",
-    "Enterprise AI platform for building, deploying and governing predictive and generative AI systems.",
-    "For organizations managing production AI and machine-learning workflows with governance needs.",
+    "Enterprise AI platform for building, evaluating, deploying, monitoring and governing production AI agents and workflows across cloud and on-premises environments.",
+    "For organizations that need to operationalize agentic AI with model and tool evaluation, observability, governance and flexible deployment.",
     "Paid",
-    "https://www.datarobot.com/"
+    "https://www.datarobot.com/product/agentic-ai/"
   ],
   [
     "Decagon",
@@ -1050,8 +1050,8 @@
   [
     "Deepgram",
     "Voice & audio",
-    "Speech AI platform with APIs for transcription, text-to-speech and voice agents.",
-    "For developers building real-time voice and speech applications.",
+    "Speech AI platform with real-time and batch speech-to-text, text-to-speech, audio intelligence and voice-agent APIs.",
+    "For developers building transcription, voice interfaces and realtime AI agents with one speech-focused API stack.",
     "Free tier / Paid",
     "https://deepgram.com/"
   ],
@@ -1098,8 +1098,8 @@
   [
     "Descript",
     "Video",
-    "Text-based audio and video editor with transcription and AI editing tools.",
-    "For editing podcasts, screen recordings and videos by working directly with the transcript.",
+    "AI-powered audio and video editor that lets creators edit recordings through transcripts, clean speech, generate media, create clips and captions.",
+    "For podcasters, educators and video creators who want editing, transcription, cleanup and repurposing in one workflow.",
     "Free tier / Paid",
     "https://www.descript.com/"
   ],
@@ -1170,8 +1170,8 @@
   [
     "Docling",
     "Learn from your files",
-    "Open-source document conversion toolkit for structured extraction from PDFs and office files.",
-    "For developers preparing complex documents for downstream AI and search workflows.",
+    "Open-source document-processing toolkit that parses PDFs and many office, web, image and media formats into structured content for RAG and AI workflows.",
+    "For developers building private document-ingestion and retrieval pipelines who need layout-aware parsing, OCR, structured export and local execution.",
     "Open source",
     "https://docling-project.github.io/docling/"
   ],
