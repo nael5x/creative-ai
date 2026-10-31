@@ -7,6 +7,7 @@
   <meta name="description" content="Browse the Creative AI maintained catalog by category.">
   <link rel="stylesheet" href="styles/design-system.css">
   <link rel="stylesheet" href="styles/discovery-hub.css">
+  <link rel="stylesheet" href="styles/creative-ai-theme.css">
 </head>
 <body class="discovery-redesign">
 <main class="wrap discovery-page">
@@ -45,4 +46,5 @@ $("categorySearch").oninput=e=>{categoryQuery=e.target.value;render()};$("lang")
 fetch("data/tools.json",{cache:"default"}).then(r=>r.ok?r.json():Promise.reject()).then(rows=>{catalog=rows.filter(validTool);apply()}).catch(()=>{$("categoryGrid").innerHTML='<div class="empty">Unable to load categories.</div>'});
 apply();
 </script>
+<script src="scripts/creative-ai-effects.js" defer></script>
 </body></html>
