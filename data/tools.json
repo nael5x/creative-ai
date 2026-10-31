@@ -18,10 +18,10 @@
   [
     "Abnormal AI",
     "Cybersecurity",
-    "AI security platform focused on protecting email and collaboration channels from social-engineering attacks.",
-    "For organizations defending users against phishing, account takeover and business email compromise.",
+    "Behavioral AI email and collaboration security platform that detects business email compromise, vendor fraud, account takeover and AI-generated attacks, with automated triage.",
+    "For security teams protecting employee identities and business communications against targeted social-engineering attacks.",
     "Paid",
-    "https://abnormal.ai/"
+    "https://abnormal.ai/platform/email-security"
   ],
   [
     "Abridge",
@@ -42,8 +42,8 @@
   [
     "Ada",
     "Customer support",
-    "AI customer-service automation platform for resolving conversations across digital channels.",
-    "For support organizations building automated customer interactions at scale.",
+    "Enterprise AI customer-service agent platform across messaging, voice and email, with playbooks and integrations that let agents take actions in business systems.",
+    "For support organizations that want agents to resolve customer tasks across channels, not only answer common questions.",
     "Paid",
     "https://www.ada.cx/"
   ],
@@ -82,48 +82,48 @@
   [
     "Adobe Podcast",
     "Voice & audio",
-    "Browser-based AI speech enhancement and podcast recording tools from Adobe.",
-    "For cleaning spoken recordings and producing clearer dialogue with minimal setup.",
+    "Browser-based AI audio recording and editing tools, including Enhance Speech, Studio, transcription and audio/video post-production.",
+    "For podcasters and creators who need clearer speech, remote recording and practical editing without a complex audio workstation.",
     "Free tier / Paid",
     "https://podcast.adobe.com/"
   ],
   [
     "AgentOps",
     "AI observability",
-    "Observability and monitoring platform for AI agents and tool-using workflows.",
-    "For developers tracing agent runs, debugging failures and monitoring production behavior.",
+    "Developer platform for tracing, debugging and evaluating AI agents and LLM applications across frameworks, with session traces, integrations and self-hosting options.",
+    "For developers who need to understand multi-step agent runs, investigate failures and monitor production behavior.",
     "Free tier / Paid",
     "https://www.agentops.ai/"
   ],
   [
     "AgentQL",
     "Data extraction",
-    "AI-powered query language and browser data extraction platform.",
-    "For developers extracting structured information from changing websites with less brittle selectors.",
+    "AI-powered query language and SDK for extracting structured data and interacting with web pages using natural-language semantic selectors.",
+    "For developers who need resilient web scraping, browser automation and UI tests without brittle CSS or XPath selectors.",
     "Free tier / Paid",
     "https://www.agentql.com/"
   ],
   [
     "Agno",
     "AI development",
-    "Open-source framework for building multi-agent systems, workflows and model-powered applications.",
-    "For developers orchestrating agents with tools, memory and structured knowledge.",
+    "Open-source SDK and AgentOS platform to build, run and manage AI agents, teams and workflows with memory, tools, APIs, MCP, storage and observability.",
+    "For developers building production agent platforms that need persistent sessions, integrations, APIs and operational controls.",
     "Open source",
     "https://www.agno.com/"
   ],
   [
     "Ahrefs AI Content Helper",
     "SEO & marketing",
-    "AI-assisted content optimization tied to Ahrefs search and topic data.",
-    "For SEO teams refining pages with competitive search context.",
-    "Paid",
+    "AI-powered SEO content optimization tool that compares a draft with top-ranking pages, identifies topic gaps and provides content feedback.",
+    "For writers and SEO teams improving topical coverage and search intent without relying on keyword stuffing.",
+    "Free tier / Paid",
     "https://ahrefs.com/ai-content-helper"
   ],
   [
     "AI Studios",
     "Video",
-    "AI avatar and text-to-video platform from DeepBrain AI for presenter-led content.",
-    "For businesses creating multilingual videos with digital presenters.",
+    "AI video creation platform that turns scripts, images or clips into branded videos with voiceovers, translations, avatars and visual assets.",
+    "For marketing, training and communications teams creating presenter-led or multilingual videos from reusable scripts and avatars.",
     "Free tier / Paid",
     "https://www.aistudios.com/"
   ],
@@ -138,18 +138,18 @@
   [
     "Aider",
     "Coding",
-    "Open-source terminal pair programmer that edits code in a local git repository.",
-    "For developers who prefer command-line coding assistance with explicit git-aware changes.",
+    "Open-source AI pair-programming tool for terminal-based repository work, codebase mapping, multi-LLM support and Git-integrated changes.",
+    "For developers who want AI coding assistance inside a local Git repository with diffs and commits they can review.",
     "Open source",
     "https://aider.chat/"
   ],
   [
     "Aidoc",
     "Healthcare",
-    "Clinical AI platform for imaging analysis, care coordination and radiology workflows.",
-    "For health systems using AI to surface urgent findings and streamline imaging operations.",
+    "Clinical AI platform that orchestrates and governs imaging and other clinical AI algorithms across health-system workflows, surfacing relevant insights at the point of care.",
+    "For hospitals running multiple clinical AI applications that need centralized workflow integration and oversight.",
     "Paid",
-    "https://www.aidoc.com/"
+    "https://www.aidoc.com/platform/aios/"
   ],
   [
     "Aim Security",
@@ -170,8 +170,8 @@
   [
     "AIVA",
     "Music",
-    "AI music composition platform with web and desktop tools.",
-    "For composing background music and structured musical ideas with AI assistance.",
+    "AI music-composition assistant that generates original tracks across styles and lets users customize models, upload audio or MIDI influences and edit compositions.",
+    "For creators who need original background music or musical starting points with more control than one-shot generation.",
     "Free tier / Paid",
     "https://www.aiva.ai/"
   ],
@@ -186,8 +186,8 @@
   [
     "Alli AI",
     "SEO & marketing",
-    "SEO automation platform for deploying on-page optimization changes across sites.",
-    "For teams managing repetitive technical and on-page SEO tasks at scale.",
+    "AI-assisted SEO and AI-search visibility platform for on-page automation, schema, internal linking, technical optimization and AEO/GEO workflows.",
+    "For website owners and agencies automating repetitive on-page and technical SEO changes across multiple sites.",
     "Paid",
     "https://www.alliai.com/"
   ],
@@ -226,10 +226,10 @@
   [
     "Ambience Healthcare",
     "Healthcare",
-    "Ambient AI platform for clinical documentation and healthcare workflows.",
-    "For health systems deploying AI assistance across documentation and coding workflows.",
+    "Clinical AI platform supporting pre-visit chart synthesis, ambient documentation, clinical guidance, coding and post-visit revenue and compliance workflows.",
+    "For health systems reducing documentation and administrative work across the full clinical encounter while keeping clinicians in control.",
     "Paid",
-    "https://www.ambiencehealthcare.com/"
+    "https://www.ambiencehealthcare.com/products"
   ],
   [
     "Anara",
@@ -250,10 +250,10 @@
   [
     "Anyscale",
     "AI infrastructure",
-    "Managed platform built around Ray for distributed AI and Python workloads.",
-    "For scaling training, inference and data workloads across clusters without hand-building orchestration.",
+    "Managed Ray platform for developing, scaling and deploying distributed AI workloads, including training, inference, data processing and agents across cloud providers.",
+    "For AI and ML teams running production-scale Python and Ray workloads with managed autoscaling, observability and multi-cloud deployment.",
     "Paid",
-    "https://www.anyscale.com/"
+    "https://www.anyscale.com/platform"
   ],
   [
     "AnythingLLM",
@@ -266,10 +266,10 @@
   [
     "Anyword",
     "Marketing",
-    "AI copy platform for marketing content, messaging variants and performance-oriented workflows.",
-    "For marketing teams producing and testing campaign copy at scale.",
+    "AI content intelligence and generation platform with performance prediction, brand voice, website personalization and marketing-content workflows.",
+    "For marketing teams creating and evaluating ads, landing pages and SEO content with measurable campaign context.",
     "Paid",
-    "https://anyword.com/"
+    "https://www.anyword.com/"
   ],
   [
     "Apify",
