@@ -37,7 +37,7 @@ class CatalogReviewBatch12Tests(unittest.TestCase):
             self.assertEqual(self.reviews[item["name"]]["decision"], "accepted")
             self.assertEqual(self.rows[item["name"]][5], self.reviews[item["name"]]["officialUrl"])
             self.assertTrue(item["evidenceUrls"])
-        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-12")
+        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-13")
 
     def test_augment_identity_is_replaced_by_harness_cosmos(self):
         self.assertNotIn("Augment Code", self.rows)
