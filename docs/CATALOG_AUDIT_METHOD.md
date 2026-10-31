@@ -41,3 +41,8 @@ Future additions remain subject to the stricter per-tool quality gate.
 ### Transient retry policy
 
 The link audit retries transient DNS, TLS, timeout, rate-limit and server-side failures twice before reporting a manual-review signal. Persistent network errors remain review signals and are never interpreted as proof that a product has shut down.
+
+
+## Manual quality review batches
+
+Each completed batch is preserved as a dated JSON audit artifact under `data/catalog-audit-roundN.json`. The artifact records the accepted active identities, official evidence URLs, concrete user-value rationale, and any superseded labels or removals. The quality manifest remains the source used by the site and validator; audit artifacts preserve the review trail.
