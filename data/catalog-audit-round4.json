@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-31",
+  "batch": "catalog-review-batch-3",
+  "scope": "First-party review of 12 active catalog entries from the 2026-09-14 catalog wave; one superseded Databricks label was replaced with the current product identity.",
+  "accepted": [
+    {
+      "name": "Kiro",
+      "officialUrl": "https://kiro.dev/",
+      "evidenceUrls": [
+        "https://kiro.dev/docs/",
+        "https://kiro.dev/docs/getting-started/first-project/",
+        "https://kiro.dev/docs/hooks/"
+      ],
+      "userValue": "Kiro combines an AI coding environment with spec-based requirements, repository steering and event-triggered hooks across its supported development surfaces."
+    },
+    {
+      "name": "Letta",
+      "officialUrl": "https://www.letta.com/",
+      "evidenceUrls": [
+        "https://docs.letta.com/",
+        "https://docs.letta.com/concepts/stateful-agents",
+        "https://docs.letta.com/platform/cloud-agents"
+      ],
+      "userValue": "Letta provides stateful agents whose memory, tools and conversation history persist across sessions and can run locally or in cloud computers."
+    },
+    {
+      "name": "Langroid",
+      "officialUrl": "https://langroid.github.io/langroid/",
+      "evidenceUrls": [
+        "https://langroid.github.io/langroid/",
+        "https://github.com/langroid/langroid"
+      ],
+      "userValue": "Langroid gives Python developers explicit Agent and Task abstractions for orchestrating LLM conversations, tools, memory and vector-store-backed retrieval."
+    },
+    {
+      "name": "MetaGPT",
+      "officialUrl": "https://github.com/FoundationAgents/MetaGPT",
+      "evidenceUrls": [
+        "https://github.com/FoundationAgents/MetaGPT"
+      ],
+      "userValue": "MetaGPT turns natural-language software requirements into coordinated outputs such as user stories, architecture, APIs and code through specialized agent roles."
+    },
+    {
+      "name": "smolagents",
+      "officialUrl": "https://huggingface.co/docs/smolagents/",
+      "evidenceUrls": [
+        "https://huggingface.co/docs/smolagents/",
+        "https://github.com/huggingface/smolagents"
+      ],
+      "userValue": "smolagents provides a compact Python API for tool-using agents, including CodeAgent and ToolCallingAgent patterns and Hugging Face Hub integrations."
+    },
+    {
+      "name": "Salesforce Agentforce",
+      "officialUrl": "https://www.salesforce.com/agentforce/",
+      "evidenceUrls": [
+        "https://www.salesforce.com/agentforce/",
+        "https://developer.salesforce.com/docs/ai/agentforce/guide/get-started.html",
+        "https://developer.salesforce.com/docs/ai/agentforce/guide/get-started-agents.html"
+      ],
+      "userValue": "Agentforce lets Salesforce teams build and deploy agents with platform actions, APIs, SDKs and governed access to business data."
+    },
+    {
+      "name": "Databricks Genie Agents",
+      "officialUrl": "https://www.databricks.com/product/genie/agents",
+      "evidenceUrls": [
+        "https://www.databricks.com/product/genie/agents",
+        "https://docs.databricks.com/aws/en/genie/",
+        "https://docs.databricks.com/aws/en/genie-agents/set-up"
+      ],
+      "userValue": "Genie Agents provide a governed natural-language interface to curated Databricks datasets, with data teams defining trusted assets, instructions and business context."
+    },
+    {
+      "name": "Snowflake Cortex",
+      "officialUrl": "https://www.snowflake.com/en/product/features/cortex/",
+      "evidenceUrls": [
+        "https://docs.snowflake.com/en/developer",
+        "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-manage",
+        "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-agents"
+      ],
+      "userValue": "Snowflake Cortex brings AI functions, Cortex Search and Cortex Agents into Snowflake so teams can analyze structured and unstructured data in their governed environment."
+    },
+    {
+      "name": "Tableau Pulse",
+      "officialUrl": "https://www.tableau.com/products/tableau-pulse",
+      "evidenceUrls": [
+        "https://www.tableau.com/products/tableau-pulse",
+        "https://help.tableau.com/current/online/en-us/pulse_explore_metrics.htm",
+        "https://help.tableau.com/current/online/en-us/pulse_insights_platform_insight_types.htm"
+      ],
+      "userValue": "Tableau Pulse proactively surfaces relevant changes in followed metrics and provides guided questions, visual explanations and AI-generated summaries."
+    },
+    {
+      "name": "Qlik Answers",
+      "officialUrl": "https://www.qlik.com/us/products/qlik-answers",
+      "evidenceUrls": [
+        "https://www.qlik.com/us/products/qlik-answers",
+        "https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/QlikAnswers/Qlik-Answers.htm",
+        "https://help.qlik.com/en-US/evaluation-guides/Content/ai/qlik-answers.htm"
+      ],
+      "userValue": "Qlik Answers lets business users ask questions across structured Qlik applications and curated document knowledge bases while exposing the sources behind responses."
+    },
+    {
+      "name": "Nanonets",
+      "officialUrl": "https://nanonets.com/",
+      "evidenceUrls": [
+        "https://nanonets.com/",
+        "https://docs.nanonets.com/docs/nanonets-overview"
+      ],
+      "userValue": "Nanonets agents read business documents, apply explicit business rules, route uncertain cases for review and write structured results into systems of record."
+    },
+    {
+      "name": "HubSpot Breeze",
+      "officialUrl": "https://www.hubspot.com/products/artificial-intelligence",
+      "evidenceUrls": [
+        "https://www.hubspot.com/products/artificial-intelligence",
+        "https://knowledge.hubspot.com/ai/manage-products-with-breeze-assistant?isVariant=b",
+        "https://www.hubspot.com/spotlight/all-releases?product=breeze"
+      ],
+      "userValue": "Breeze Assistant uses HubSpot CRM context to help teams create and update records and carry out marketing, sales and service workflows inside HubSpot."
+    }
+  ],
+  "renamed": [
+    {
+      "oldName": "Databricks Genie",
+      "newName": "Databricks Genie Agents",
+      "previousUrl": "https://www.databricks.com/product/genie/agents",
+      "officialUrl": "https://www.databricks.com/product/genie/agents",
+      "reason": "The former product URL now redirects to the Genie Agents destination; current Databricks documentation identifies Genie Agents as the domain-specific conversational analytics interface.",
+      "evidenceUrls": [
+        "https://www.databricks.com/product/ai-bi/genie",
+        "https://www.databricks.com/product/genie/agents",
+        "https://docs.databricks.com/aws/en/genie-agents/set-up"
+      ]
+    }
+  ],
+  "notes": [
+    "Every accepted entry has first-party product or documentation evidence and a concrete user-value statement.",
+    "No popularity, traffic, ranking, revenue or adoption claims were used as acceptance evidence.",
+    "Databricks Genie was recorded as rejected/superseded so the previous identity cannot silently reappear."
+  ]
+}
