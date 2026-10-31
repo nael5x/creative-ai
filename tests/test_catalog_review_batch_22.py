@@ -45,7 +45,7 @@ class CatalogReviewBatch22Tests(unittest.TestCase):
     def test_kilo_and_kits_ai_are_current_ai_products(self):
         self.assertIn("acquired by Anaconda", self.rows["Kilo Code"][2])
         self.assertIn("https://github.com/Kilo-Org/kilocode", self.reviews["Kilo Code"]["evidenceUrls"])
-        self.assertIn("voice cloning", self.rows["Kits AI"][2].lower())
+        self.assertIn("voice conversion and cloning", self.rows["Kits AI"][2].lower())
         self.assertIn("vocal separation", self.rows["Kits AI"][2].lower())
 
     def test_klaviyo_ai_is_scoped_as_embedded_crm_layer(self):
@@ -67,7 +67,7 @@ class CatalogReviewBatch22Tests(unittest.TestCase):
 
     def test_lang_tools_have_distinct_jobs(self):
         self.assertIn("visual framework", self.rows["Langflow"][2])
-        self.assertIn("lower-level", self.rows["LangGraph"][3])
+        self.assertIn("low-level orchestration framework", self.rows["LangGraph"][2])
         self.assertIn("MIT-licensed", self.rows["Langfuse"][2])
         self.assertIn("does not host", self.rows["Langfuse"][3])
         self.assertIn("framework-agnostic", self.rows["LangSmith"][2])
