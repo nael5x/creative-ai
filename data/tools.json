@@ -2,16 +2,16 @@
   [
     "10Web",
     "Web UI",
-    "AI website builder and WordPress platform for generating and editing websites.",
-    "For users who want AI-assisted WordPress site creation and hosting workflows.",
-    "Paid",
+    "AI website builder for creating, editing and publishing WordPress websites from prompts, existing URLs or design files.",
+    "For businesses and creators who need a WordPress site quickly and want hosting, SSL and site management in the same workflow.",
+    "Free to build / Paid to launch",
     "https://10web.io/ai-website-builder/"
   ],
   [
     "11x",
     "Sales",
-    "AI digital-worker platform for revenue operations, prospecting and sales-development workflows.",
-    "For revenue teams automating research, outreach and pipeline tasks with autonomous agents.",
+    "AI go-to-market platform with autonomous outbound and inbound digital workers for prospect research, personalized outreach, lead qualification and meeting booking.",
+    "For B2B revenue teams that want AI agents to handle repeatable prospecting, outreach, replies and inbound lead handoff.",
     "Paid",
     "https://www.11x.ai/"
   ],
@@ -50,17 +50,17 @@
   [
     "Ada Health",
     "Healthcare",
-    "AI symptom assessment and health guidance application and enterprise platform.",
-    "For users and healthcare organizations supporting structured symptom conversations.",
-    "Free / Paid",
+    "AI-powered symptom assessment app that analyzes reported symptoms and health context to produce possible explanations using probabilistic reasoning and clinical knowledge.",
+    "For people who want a structured symptom assessment as a starting point for deciding what care to seek; it is not a medical diagnosis.",
+    "Free",
     "https://ada.com/"
   ],
   [
     "AdCreative.ai",
     "Marketing",
-    "AI platform for generating advertising creatives, copy and campaign variations.",
-    "For performance marketers producing many ad concepts quickly.",
-    "Paid",
+    "AI advertising platform for generating ad images, copy, product visuals and video variations, with creative scoring and competitor-insight features.",
+    "For performance marketers who need to produce and test multiple ad concepts without manually designing every variation.",
+    "Free trial / Paid",
     "https://www.adcreative.ai/"
   ],
   [
@@ -130,8 +130,8 @@
   [
     "AI2sql",
     "Data & analytics",
-    "Natural-language-to-SQL tool for generating and explaining database queries.",
-    "For users who need SQL help without writing every query by hand.",
+    "AI SQL assistant that grounds query generation in a connected database schema, explains, fixes and optimizes SQL, and supports guarded read-only query execution and agent integrations.",
+    "For analysts and developers who want database-specific SQL help grounded in their own tables and columns rather than generic query templates.",
     "Free tier / Paid",
     "https://ai2sql.io/"
   ],
@@ -152,20 +152,12 @@
     "https://www.aidoc.com/platform/aios/"
   ],
   [
-    "Aim Security",
-    "Cybersecurity",
-    "Enterprise security platform for generative AI usage and AI application controls.",
-    "For security teams governing AI adoption while reducing data-leak and application risk.",
-    "Paid",
-    "https://www.aim.security/"
-  ],
-  [
     "Airtable AI",
     "Productivity",
-    "AI features inside Airtable for analyzing, generating and organizing structured work data.",
-    "For teams that want model-assisted workflows around databases and operational records.",
-    "Paid",
-    "https://www.airtable.com/product/ai"
+    "Airtable's AI layer includes Omni for building apps, researching the web, analyzing data and documents, updating records and automations, plus AI field agents for repeatable workflows.",
+    "For teams that manage operational data in Airtable and want AI to turn that data into apps, insights and controlled workflow actions.",
+    "Free tier / Paid",
+    "https://www.airtable.com/platform/ai"
   ],
   [
     "AIVA",
@@ -177,9 +169,9 @@
   ],
   [
     "Akkio",
-    "Data & analytics",
-    "AI analytics and machine-learning platform for forecasting, reporting and business data workflows.",
-    "For teams that want predictive analysis without building a full ML stack.",
+    "Marketing",
+    "AI platform for campaign workflows that turns internal documents and signals into insights, builds audience segments, simulates media plans, activates audiences and measures performance.",
+    "For media agencies and data providers coordinating campaign strategy, audience planning, activation and measurement across connected data.",
     "Paid",
     "https://www.akkio.com/"
   ],
@@ -194,8 +186,8 @@
   [
     "Alpha3D",
     "3D",
-    "AI 3D asset generation platform focused on turning images or text into models.",
-    "For ecommerce, AR and game teams creating 3D product assets quickly.",
+    "AI 3D asset workflow that turns prompts or photos into models and continues through retopology, UV unwrapping, texturing, rigging and export.",
+    "For game and 3D teams that need production-ready assets beyond an initial generated mesh.",
     "Free tier / Paid",
     "https://www.alpha3d.io/"
   ],
@@ -209,17 +201,17 @@
   ],
   [
     "Altered Studio",
-    "Voice",
-    "AI voice transformation and speech editing platform for production workflows.",
-    "For audio creators who need voice conversion, cleanup and performance variation.",
-    "Paid",
+    "Voice & audio",
+    "Voice-AI production editor for speech-to-speech voice morphing, voice cloning, text-to-speech, transcription, audio cleaning and multi-character voice work.",
+    "For creators, game studios and audio teams that need controllable voice performances and post-production tools in one application.",
+    "Free tier / Paid",
     "https://www.altered.ai/"
   ],
   [
     "Amazon Q Developer",
     "Coding",
-    "AWS developer assistant for coding, cloud guidance and software development workflows.",
-    "For developers building in AWS or wanting AI help across code and cloud tasks.",
+    "AWS developer assistant across IDEs and CLI that explains codebases, generates and edits code, runs tests, reviews changes, scans for vulnerabilities and helps with cloud development.",
+    "For developers building on AWS or maintaining large codebases who want AI assistance across coding, testing, security and cloud operations.",
     "Free tier / Paid",
     "https://aws.amazon.com/q/developer/"
   ],
@@ -242,8 +234,8 @@
   [
     "Andi",
     "Research",
-    "AI search assistant that answers questions through a conversational search interface.",
-    "For users who want concise web answers without navigating a conventional results page.",
+    "AI-powered web search that synthesizes answers from sources, summarizes and explains pages, and offers a search API/MCP endpoint for AI agents.",
+    "For users who want direct search answers without navigating many result pages, and developers who need live web search for agents.",
     "Free",
     "https://andisearch.com/"
   ],
@@ -290,17 +282,17 @@
   [
     "Arcads",
     "Marketing",
-    "AI video-ad platform focused on creator-style and UGC-inspired advertising content.",
-    "For performance marketers producing spokesperson-style ad variants quickly.",
+    "AI video-ad workspace that turns scripts, product images or prompts into UGC-style ads with AI actors and voices, supporting multiple variants, languages and social formats.",
+    "For performance marketers who need spokesperson-style video ads and localized creative variations without filming each version.",
     "Paid",
     "https://www.arcads.ai/"
   ],
   [
     "Arize Phoenix",
     "AI observability",
-    "Open-source AI observability and evaluation toolkit for tracing and debugging model applications.",
-    "For teams diagnosing retrieval, agent and LLM behavior during development and production testing.",
-    "Open source",
+    "AI application observability and evaluation toolkit with tracing, datasets, experiments, prompt management and MCP access for debugging LLM and agent workflows.",
+    "For engineering teams investigating retrieval quality, model behavior and agent execution; Phoenix can be self-hosted under Elastic License 2.0.",
+    "Free self-host / Elastic License 2.0",
     "https://phoenix.arize.com/"
   ],
   [
@@ -314,9 +306,9 @@
   [
     "Artisan",
     "Sales",
-    "AI sales platform with autonomous digital workers for prospecting and outbound workflows.",
-    "For teams that want to automate repetitive top-of-funnel sales work.",
-    "Paid",
+    "AI sales platform centered on Ava, an autonomous BDR that researches and enriches leads, creates personalized outbound sequences, handles replies and books meetings.",
+    "For B2B sales teams that want to automate prospecting and follow-up while setting approval, targeting and escalation guardrails.",
+    "Free to start / Paid",
     "https://www.artisan.co/"
   ],
   [
@@ -654,6 +646,14 @@
     "For developers building responsive voice agents and real-time spoken interfaces.",
     "Free tier / Paid",
     "https://cartesia.ai/"
+  ],
+  [
+    "Cato AI Security",
+    "Cybersecurity",
+    "Enterprise AI security platform for governing employee use of AI services and protecting custom AI applications and agents with prompt inspection, runtime guardrails and agent/tool-call visibility.",
+    "For security teams that need to discover AI usage, prevent sensitive-data exposure and control risky actions across enterprise AI apps and agents.",
+    "Paid",
+    "https://www.catonetworks.com/solutions/ai-security/"
   ],
   [
     "Cerebras Inference",
