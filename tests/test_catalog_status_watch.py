@@ -19,9 +19,10 @@ class CatalogStatusWatchTests(unittest.TestCase):
         cls.status_watch = cls.manifest["statusWatch"]
 
     def test_status_watch_has_three_unresolved_and_one_sunsetting_candidate(self):
-        self.assertEqual(len(self.status_watch), 4)
-        self.assertEqual(sum(item["status"] == "unresolved" for item in self.status_watch), 3)
+        self.assertEqual(len(self.status_watch), 6)
+        self.assertEqual(sum(item["status"] == "unresolved" for item in self.status_watch), 4)
         self.assertEqual(sum(item["status"] == "sunsetting" for item in self.status_watch), 1)
+        self.assertEqual(sum(item["status"] == "maintenance-unclear" for item in self.status_watch), 1)
 
     def test_status_watch_candidates_are_not_active_or_quality_decisions(self):
         for item in self.status_watch:
@@ -30,11 +31,17 @@ class CatalogStatusWatchTests(unittest.TestCase):
 
     def test_unresolved_cases_do_not_claim_shutdown(self):
         by_name = {item["name"]: item for item in self.status_watch}
-        for name in ("Coral AI", "CSM AI", "Hour One"):
+        for name in ("Coral AI", "CSM AI", "Hour One", "Beatoven.ai"):
             self.assertEqual(by_name[name]["status"], "unresolved")
             reason = by_name[name]["reason"].lower()
             self.assertTrue("not" in reason and ("discontinued" in reason or "shutdown" in reason))
             self.assertTrue(by_name[name]["nextAction"])
+
+    def test_automatic1111_maintenance_status_is_not_shutdown(self):
+        item = next(item for item in self.status_watch if item["name"] == "AUTOMATIC1111 Stable Diffusion WebUI")
+        self.assertEqual(item["status"], "maintenance-unclear")
+        self.assertIn("2024-05-17", item["reason"])
+        self.assertIn("not proof of shutdown", item["reason"].lower())
 
     def test_firebase_studio_is_marked_sunsetting_with_exact_date(self):
         firebase = next(item for item in self.status_watch if item["name"] == "Firebase Studio")
@@ -57,7 +64,7 @@ class CatalogStatusWatchTests(unittest.TestCase):
     def test_quality_page_exposes_status_watch_in_english_and_arabic(self):
         page = (ROOT / "quality.html").read_text(encoding="utf-8")
         self.assertIn('id="statusWatchGrid"', page)
-        self.assertIn("Unresolved and sunsetting candidates", page)
+        self.assertIn("Unresolved, sunsetting and maintenance-unclear candidates", page)
         self.assertIn("غير محسوم", page)
         self.assertIn("statusWatch=manifest.statusWatch||[]", page)
 
