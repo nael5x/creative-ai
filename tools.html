@@ -7,6 +7,7 @@
   <meta name="description" content="Search and filter the Creative AI maintained tools catalog by task, category, availability, review status and verified capabilities.">
   <link rel="stylesheet" href="styles/design-system.css">
   <link rel="stylesheet" href="styles/catalog.css">
+  <link rel="stylesheet" href="styles/creative-ai-theme.css">
 </head>
 <body class="catalog-redesign">
 <main class="wrap catalog-page">
@@ -86,4 +87,5 @@ $("search").oninput=e=>{query=e.target.value;page=1;syncUrl();renderCards()};$("
 Promise.all([fetch("data/tools.json",{cache:"default"}),fetch("data/recommender.json",{cache:"default"}),fetch("data/recommender-fit.json",{cache:"default"}),fetch("data/verified-facts.json",{cache:"default"}),fetch("data/catalog-quality.json",{cache:"default"})]).then(async([a,b,c,d,e])=>{if(!a.ok||!b.ok||!c.ok||!d.ok||!e.ok)throw new Error("load failed");catalog=(await a.json()).filter(validTool);config=await b.json();fitMeta=await c.json();verified=await d.json();quality=await e.json();qualityByName=new Map((quality.tools||[]).map(item=>[item.name,item]));applyLanguage()}).catch(()=>{$("toolGrid").innerHTML='<div class="empty-catalog">Unable to load tools.</div>'});
 applyLanguage();
 </script>
+<script src="scripts/creative-ai-effects.js" defer></script>
 </body></html>
