@@ -4870,5 +4870,13 @@
     "For developers collecting web data at scale without managing the full scraping stack.",
     "Paid",
     "https://www.zyte.com/"
+  ],
+  [
+    "agent-qa",
+    "Coding",
+    "Runs plain-language tests for web, Android and iOS through CLI and MCP.",
+    "Persistent memory and validated self-improvement help teams reuse verified product knowledge across test runs.",
+    "Free local package; configured model access required, provider charges may apply",
+    "https://vostride.com"
   ]
 ]
