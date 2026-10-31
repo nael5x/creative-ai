@@ -4953,6 +4953,21 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For solo operators, small businesses and early-stage founders who need a hosted marketing site to collect enquiries, not a custom web application. Free plan: one page on a Mixo subdomain with branding; paid plans are $9/month Basic (one page), $19 Growth (up to five pages), and $39 Premium (up to 50 pages), with a 20% annual-billing discount. Hosting and SSL are included; custom domains and branding removal require a paid plan. Verify current regional pricing before purchase.",
       "decision": "accepted"
+    },
+    {
+      "name": "Modal",
+      "officialUrl": "https://modal.com/",
+      "evidenceUrls": [
+        "https://modal.com/",
+        "https://modal.com/docs",
+        "https://modal.com/pricing",
+        "https://modal.com/products/inference",
+        "https://modal.com/products/training",
+        "https://modal.com/docs/sdk/py/releases"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For Python developers and ML teams that need GPU/CPU compute for inference, training, fine-tuning, parallel jobs and isolated agent sandboxes without managing servers. Starter is $0/month plus usage with $30/month compute credits, up to 3 seats and 10 concurrent GPUs; Team is $250/month plus compute with $100/month credits. CPU, GPU and memory are billed by the second. Important: Shared Endpoints are token-billed from the first request and are not covered by the included compute credits. Costs vary by hardware, region and requested resources; set workspace budgets.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4968,7 +4983,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-33",
+  "lastQualityReviewBatch": "catalog-review-batch-34",
   "lastQualityReviewBatchSummary": {
     "accepted": 1,
     "rejected": 0,
