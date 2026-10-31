@@ -16,7 +16,7 @@ class CatalogReviewBatchEightTests(unittest.TestCase):
 
     def test_fifteen_active_tools_have_first_party_review_records(self):
         names = (
-            "10Web", "11x", "Ada Health", "AdCreative.ai", "AI2sql",
+            "10Web", "11x", "Ada Health", "AdCreative.ai", "AI2SQL",
             "Cato AI Security", "Airtable AI", "Akkio", "Alpha3D",
             "Altered Studio", "Amazon Q Developer", "Andi", "Arcads",
             "Arize Phoenix", "Artisan",
@@ -56,8 +56,22 @@ class CatalogReviewBatchEightTests(unittest.TestCase):
         self.assertEqual(self.rows["Altered Studio"][1], "Voice & audio")
         self.assertEqual(self.rows["Altered Studio"][4], "Free tier / Paid")
         self.assertEqual(self.rows["Arize Phoenix"][4], "Free self-host / Elastic License 2.0")
-        self.assertIn("read-only", self.rows["AI2sql"][2].lower())
-        self.assertEqual(self.rows["Artisan"][4], "Free to start / Paid")
+        self.assertIn("read-only", self.rows["AI2SQL"][2].lower())
+        self.assertIn("https://ai2sql.io/mcp/", self.reviews["AI2SQL"]["evidenceUrls"])
+        self.assertIn("April 30, 2027", self.rows["Amazon Q Developer"][2])
+        self.assertIn("IDE plugins", self.rows["Amazon Q Developer"][2])
+        self.assertEqual(self.rows["Artisan"][4], "Paid")
+        self.assertIn("https://www.artisan.co/pricing", self.reviews["Artisan"]["evidenceUrls"])
+
+    def test_ci_runs_the_full_suite_and_schedules_link_audits(self):
+        validate = (ROOT / ".github" / "workflows" / "validate-tools.yml").read_text(encoding="utf-8")
+        tests = (ROOT / ".github" / "workflows" / "test-feed-parsers.yml").read_text(encoding="utf-8")
+        links = (ROOT / ".github" / "workflows" / "catalog-link-audit.yml").read_text(encoding="utf-8")
+        for path in ("data/catalog-quality.json", "data/tool-lifecycle.json", "data/verified-facts.json"):
+            self.assertIn(path, validate)
+        self.assertIn("python -m pytest -q", tests)
+        self.assertIn("schedule:", links)
+        self.assertIn('cron: "15 5 * * 1"', links)
 
     def test_audit_artifact_matches_the_quality_manifest(self):
         self.assertEqual(self.audit["batch"], "catalog-review-batch-8")
