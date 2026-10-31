@@ -1386,7 +1386,7 @@
   [
     "FlexClip AI",
     "Video",
-    "AI-assisted online video creation and editing platform with text-to-video and image-to-video generation, AI scripts and media tools, plus a browser timeline editor for adding voiceovers, subtitles, music, transitions and other finishing edits.",
+    "AI-assisted online video creation and editing platform with text-to-video and image-to-video generation, AI scripts and media tools, plus a browser timeline editor for adding voiceovers, subtitles, music, transitions and other finishing edits. The AI video generator is integrated into the FlexClip editor.",
     "For creators and small teams who want to generate short clips from prompts or still images and finish social, marketing or explainer videos in one browser-based workflow. AI generation is integrated into the FlexClip editor.",
     "Free tier / Paid",
     "https://www.flexclip.com/tools/ai-video-generator/"
@@ -1442,7 +1442,7 @@
   [
     "Freed",
     "Healthcare",
-    "AI clinical documentation assistant that prepares visit context, listens to or records clinician-patient encounters, drafts notes in clinician-specific templates, answers clinical questions with cited evidence, suggests supported billing codes and can push notes into web-based EHR systems.",
+    "AI clinical documentation assistant that prepares visit context, listens to or records clinician-patient encounters, drafts notes in clinician-specific templates, answers clinical questions with cited evidence, suggests supported billing codes and can push notes into web-based EHR systems. Generated notes, evidence and coding suggestions require clinician review and do not replace clinician judgment.",
     "For licensed clinicians and practices seeking to reduce documentation work while reviewing and approving generated notes, evidence and coding suggestions. It is a clinical workflow assistant, not a substitute for clinician judgment.",
     "Paid / Free trial",
     "https://www.getfreed.ai/"
@@ -1530,7 +1530,7 @@
   [
     "GitGuardian",
     "Cybersecurity",
-    "Credential-security platform that discovers and validates exposed secrets across code, developer devices, collaboration tools and non-human identities, then adds contextual risk scoring, AI-assisted incident prioritization and remediation workflows; includes guardrails for AI coding tools.",
+    "Credential-security platform that discovers and validates exposed secrets across code, developer devices, collaboration tools and non-human identities, then adds contextual risk scoring, AI-assisted incident prioritization and remediation workflows; includes guardrails for AI coding tools. AI supports parts of the workflow, while core secret discovery also uses dedicated detectors.",
     "For security and engineering teams that need to detect credential exposure, identify ownership and blast radius, and manage remediation across repositories and the wider secrets surface. AI supports parts of the workflow; secret detection also uses dedicated detectors.",
     "Free tier / Paid",
     "https://www.gitguardian.com/platform"
@@ -1554,7 +1554,7 @@
   [
     "Glass Health",
     "Healthcare",
-    "Clinical AI platform combining ambient visit scribing with evidence-grounded clinical decision support for questions, differential diagnoses and care planning; the current platform also describes patient guidance, care navigation and longitudinal-record reasoning.",
+    "Clinical AI platform combining ambient visit scribing with evidence-grounded clinical decision support for questions, differential diagnoses and care planning; the current platform also describes patient guidance, care navigation and longitudinal-record reasoning. AI-generated suggestions require qualified clinical review and do not replace professional judgment.",
     "For clinicians and healthcare organizations seeking documentation and evidence-supported clinical reasoning workflows. AI-generated suggestions require qualified clinical review and do not replace professional judgment.",
     "Paid / Request access",
     "https://glass.health/"
