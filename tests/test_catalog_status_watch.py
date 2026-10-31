@@ -34,7 +34,7 @@ class CatalogStatusWatchTests(unittest.TestCase):
         for name in ("Coral AI", "CSM AI", "Hour One", "Beatoven.ai"):
             self.assertEqual(by_name[name]["status"], "unresolved")
             reason = by_name[name]["reason"].lower()
-            self.assertTrue("not" in reason and ("discontinued" in reason or "shutdown" in reason))
+            self.assertTrue("not" in reason and ("discontinued" in reason or "shutdown" in reason or "shut down" in reason))
             self.assertTrue(by_name[name]["nextAction"])
 
     def test_automatic1111_maintenance_status_is_not_shutdown(self):
