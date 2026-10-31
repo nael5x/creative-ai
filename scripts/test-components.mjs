@@ -27,7 +27,11 @@ try {
     if (!(await page.locator('#' + id).count())) throw new Error('Missing mount: ' + id);
   }
   await page.waitForSelector('.gradient-text__inner', { timeout: 15000 });
-  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  const pageHeight = await page.evaluate(() => document.body.scrollHeight);
+  for (let y = 0; y < pageHeight; y += 650) {
+    await page.evaluate(position => window.scrollTo(0, position), y);
+    await page.waitForTimeout(180);
+  }
   await page.waitForTimeout(2500);
   const visible = await page.evaluate(() => ({
     nav: !!document.querySelector('#creativeAiNavMount a, #creativeAiNavMount button'),
