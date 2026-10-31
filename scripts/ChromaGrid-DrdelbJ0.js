@@ -1,4 +1,4 @@
-import { r as g, j as t } from "./components-entry-CxyGrPME.js";
+import { r as g, j as t } from "./components-entry-C10ZmzsQ.js";
 const q = {
   dark: {
     "--chroma-frame": "rgba(38, 35, 46, 0.66)",

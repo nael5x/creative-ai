@@ -1,4 +1,4 @@
-import { r as _, j as e } from "./components-entry-CxyGrPME.js";
+import { r as _, j as e } from "./components-entry-C10ZmzsQ.js";
 const _t = {
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
