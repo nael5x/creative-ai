@@ -4278,6 +4278,181 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For students, families and educators who want guided learning or teaching support connected to Khan Academy content. Individual learner/parent access is currently restricted to eligible US accounts, while teacher access is limited to educators in supported countries and student classroom access is through school or district implementations.",
       "decision": "accepted"
+    },
+    {
+      "name": "Kilo Code",
+      "officialUrl": "https://kilo.ai/",
+      "evidenceUrls": [
+        "https://kilo.ai/",
+        "https://kilo.ai/docs/getting-started",
+        "https://github.com/Kilo-Org/kilocode"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who want an extensible coding agent with open-source code, broad model choice and IDE/CLI workflows; the current platform also includes hosted and desktop experiences alongside its open-source core.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kits AI",
+      "officialUrl": "https://www.kits.ai/tools",
+      "evidenceUrls": [
+        "https://www.kits.ai/tools",
+        "https://www.kits.ai/pricing/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For musicians and producers who want to create, transform or clean vocal tracks and experiment with synthetic singing voices within an audio-production workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Klap",
+      "officialUrl": "https://klap.app/",
+      "evidenceUrls": [
+        "https://klap.app/",
+        "https://klap.app/claude"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For podcasters, educators, marketers and creators who need to turn spoken long-form videos into editable vertical clips without manually reviewing the entire recording.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Klaviyo AI",
+      "officialUrl": "https://www.klaviyo.com/solutions/ai/what-is-kai",
+      "evidenceUrls": [
+        "https://www.klaviyo.com/solutions/ai/what-is-kai",
+        "https://www.klaviyo.com/blog/composer-marketing-agent",
+        "https://www.klaviyo.com/newsroom/marketing-agent"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce and consumer brands already using Klaviyo that want AI-driven campaign planning, personalization and customer support grounded in their own customer and commerce data; K:AI is embedded in Klaviyo, not a standalone chatbot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Knowt",
+      "officialUrl": "https://knowt.com/",
+      "evidenceUrls": [
+        "https://knowt.com/",
+        "https://help.knowt.com/en/articles/10298083-how-can-i-use-ai-to-write-my-notes",
+        "https://help.knowt.com/en/articles/10714412-how-can-i-create-flashcards-from-my-notes",
+        "https://help.knowt.com/en/articles/10305785-how-do-i-use-the-ai-summarizers"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students and teachers who want to convert class materials into study resources and practice them in one platform; some AI summarization features have usage limits on the free plan.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Koala AI",
+      "officialUrl": "https://koala.sh/features",
+      "evidenceUrls": [
+        "https://koala.sh/features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For publishers, affiliate sites and content teams who want keyword research, topical planning, article production and SEO publishing workflows in one connected subscription.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kommunicate",
+      "officialUrl": "https://www.kommunicate.io/product/kompose-bot-builder",
+      "evidenceUrls": [
+        "https://www.kommunicate.io/product/kompose-bot-builder",
+        "https://docs.kommunicate.io/",
+        "https://docs.kommunicate.io/docs/bot%20integration"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For businesses that want to build AI-assisted support agents from their own knowledge and route unresolved conversations to human teams across web, mobile and messaging channels.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Krea",
+      "officialUrl": "https://www.krea.ai/",
+      "evidenceUrls": [
+        "https://www.krea.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For designers, artists and creative teams who want one workspace for real-time visual experimentation, image enhancement and multi-model image, video and 3D generation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LALAL.AI",
+      "officialUrl": "https://www.lalal.ai/",
+      "evidenceUrls": [
+        "https://www.lalal.ai/media-kit/",
+        "https://www.lalal.ai/desktop-app/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For musicians, producers, editors and podcasters who need to isolate instruments or vocals, clean recordings and prepare audio or video tracks for further production.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LanceDB",
+      "officialUrl": "https://lancedb.com/",
+      "evidenceUrls": [
+        "https://github.com/lancedb/lancedb",
+        "https://docs.lancedb.com/",
+        "https://github.com/lancedb/lancedb/releases"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For AI developers building RAG, semantic search and multimodal retrieval who need a local embedded database or a production cloud service without operating a traditional vector-database cluster.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Landbot",
+      "officialUrl": "https://landbot.io/",
+      "evidenceUrls": [
+        "https://landbot.io/",
+        "https://help.landbot.io/article/mq53cht078-what-is-landbot",
+        "https://help.landbot.io/article/jmyarmlbih-getting-started-build-a-bot"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For marketing, sales and support teams that want to build guided chat experiences and AI agents visually, combining predictable workflow steps with open-ended answers and human handoff.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Langflow",
+      "officialUrl": "https://www.langflow.org/",
+      "evidenceUrls": [
+        "https://www.langflow.org/",
+        "https://docs.langflow.org/next",
+        "https://docs.langflow.org/concepts-overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and technical teams who want to visually assemble, inspect and test AI workflows while retaining the ability to customize them in Python and deploy them as applications.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Langfuse",
+      "officialUrl": "https://langfuse.com/",
+      "evidenceUrls": [
+        "https://langfuse.com/docs",
+        "https://langfuse.com/docs/observability/overview",
+        "https://langfuse.com/handbook/chapters/open-source",
+        "https://langfuse.com/resources/engineering/clarifications"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For AI engineering teams that need to debug model and agent behavior, test prompt or model changes and monitor production quality using trace data; Langfuse observes and evaluates applications rather than hosting or orchestrating the agents themselves.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LangGraph",
+      "officialUrl": "https://www.langchain.com/langgraph",
+      "evidenceUrls": [
+        "https://www.langchain.com/langgraph",
+        "https://reference.langchain.com/python/langgraph",
+        "https://www.langchain.com/oss-overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who need explicit control over agent state, execution, retries and human approval in production workflows, rather than a no-code chatbot builder or hosted observability dashboard.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LangSmith",
+      "officialUrl": "https://www.langchain.com/langsmith/observability",
+      "evidenceUrls": [
+        "https://www.langchain.com/langsmith/observability",
+        "https://www.langchain.com/langsmith/evaluation",
+        "https://kb.langchain.com/articles/8854797554-what-is-langsmith"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams building LLM applications that need a continuous development and production-quality loop for debugging, evaluation and monitoring; it complements orchestration frameworks such as LangGraph rather than replacing them.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4293,7 +4468,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-21",
+  "lastQualityReviewBatch": "catalog-review-batch-22",
   "lastQualityReviewBatchSummary": {
     "accepted": 15,
     "rejected": 0,
