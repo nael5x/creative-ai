@@ -7,6 +7,7 @@
   <meta name="description" content="Explore a maintained Creative AI tool category with transparent availability and capability views.">
   <link rel="stylesheet" href="styles/design-system.css">
   <link rel="stylesheet" href="styles/discovery-hub.css">
+  <link rel="stylesheet" href="styles/creative-ai-theme.css">
 </head>
 <body class="discovery-redesign">
 <main class="wrap discovery-page category-detail-page">
@@ -73,4 +74,5 @@ $("lang").onclick=()=>{lang=lang==="en"?"ar":"en";apply()};
 Promise.all([fetch("data/tools.json",{cache:"default"}),fetch("data/recommender.json",{cache:"default"}),fetch("data/recommender-fit.json",{cache:"default"}),fetch("data/verified-facts.json",{cache:"default"})]).then(async([a,b,c,d])=>{if(!a.ok||!b.ok||!c.ok||!d.ok)throw new Error("load failed");catalog=(await a.json()).filter(validTool);config=await b.json();fitMeta=await c.json();verified=await d.json();apply()}).catch(()=>{$("allTools").innerHTML='<div class="empty">Unable to load category data.</div>'});
 apply();
 </script>
+<script src="scripts/creative-ai-effects.js" defer></script>
 </body></html>
