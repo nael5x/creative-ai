@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-36",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry sunset-status review of Mokker AI. The current official homepage announces that Mokker access ends on October 31, 2026. Soona previously acquired the product and integrated its product-photo generation technology into its platform. Because the newer homepage notice conflicts with the earlier assurance of continued Mokker-account access, the standalone Mokker listing is removed and tracked as sunsetting; Soona AI Studio should be reviewed separately.",
+  "accepted": [],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [
+    {
+      "name": "Mokker AI",
+      "status": "sunsetting",
+      "officialUrl": "https://mokker.ai/",
+      "checkedUrls": [
+        "https://mokker.ai/",
+        "https://mokker.ai/pricing",
+        "https://app.mokker.ai/",
+        "https://soona.co/mokker",
+        "https://soona.co/update/mokker-acquisition",
+        "https://support.soona.co/mokker-frequently-asked-questions"
+      ],
+      "evidenceUrls": [
+        "https://mokker.ai/",
+        "https://soona.co/mokker",
+        "https://soona.co/update/mokker-acquisition",
+        "https://support.soona.co/mokker-frequently-asked-questions",
+        "https://app.mokker.ai/"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "Mokker's current official homepage displays the notice: “Mokker access ends Saturday, October 31. Log in before then to access your account.” The current review date is 2026-10-31, so standalone account access is scheduled to end today. Soona acquired Mokker and integrated its AI product-photo technology into the Soona platform; an earlier Soona announcement said existing Mokker customers would continue to access their Mokker accounts, but the newer dated homepage notice supersedes that earlier assurance. Mokker is therefore removed from active discovery as a standalone tool. Soona AI Studio appears to be the continuation path, but should be reviewed separately as its own current product.",
+      "nextAction": "Confirm the exact cutoff and customer migration with Soona support, then review Soona AI Studio as a separate current tool. Do not restore Mokker as a standalone listing unless Soona explicitly confirms account access continues beyond 2026-10-31.",
+      "sunsetDate": "2026-10-31"
+    }
+  ],
+  "notes": [
+    "The current Mokker homepage includes a banner stating: “Mokker access ends Saturday, October 31. Log in before then to access your account.” The date matches the current review date, 2026-10-31, and is treated as a current standalone-access sunset notice.",
+    "Soona announced its acquisition of Mokker.ai on March 18, 2024. The acquisition page says Mokker's product-photography AI was integrated into Soona and that, at the time of the announcement, Mokker customers would continue to access their existing accounts.",
+    "The Soona help-center FAQ dated June 22, 2026 documents Mokker subscriptions, billing and product usage. However, the newer current homepage access-ending notice is more recent and takes precedence for standalone availability.",
+    "The Mokker pricing page currently shows annual-billing prices of $13/month Starter (500 photos), $29/user/month Team (unlimited photos, 3 seats), and $83.25/user/month Organization (5-seat minimum). Its free-quota messaging is inconsistent: the pricing page says 20 photos once, while the homepage advertises 40 free photos. Pricing and quotas should not be relied on after the announced access cutoff.",
+    "Soona's AI Studio is the likely continuation of Mokker's product-photo generation capabilities. It should be researched and catalogued separately rather than retaining Mokker as an active standalone product."
+  ]
+}
