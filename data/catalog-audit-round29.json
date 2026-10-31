@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-29",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Microsoft Security Copilot. Verified general availability, security and IT use cases, Microsoft and partner integrations, SCU billing and Microsoft 365 E5/E7 inclusion, language support, and agent permission controls; refined the existing listing without changing lifecycle status.",
+  "accepted": [
+    {
+      "name": "Microsoft Security Copilot",
+      "category": "Cybersecurity",
+      "description": "Enterprise AI assistant and agent platform for security and IT operations. It uses threat intelligence and connected security data to investigate incidents, triage alerts, hunt threats, analyze suspicious scripts, generate KQL queries and reports, and automate repeatable workflows.",
+      "userValue": "For SOC analysts and security/IT teams that need to investigate threats and coordinate response across Microsoft and supported partner tools. Standalone access requires Azure and Microsoft Entra ID and uses capacity-based SCU billing: Microsoft lists $4 per provisioned SCU-hour and $6 per overage SCU. Eligible Microsoft 365 E5/E7 tenants receive an included monthly SCU allocation. The interface supports Turkish, but Turkish is not among the currently listed model languages; scope agent permissions carefully and keep analysts in control of consequential actions.",
+      "availability": "Included with eligible Microsoft 365 E5/E7 / Paid SCU",
+      "url": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+      "evidenceUrls": [
+        "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+        "https://learn.microsoft.com/en-us/copilot/security/microsoft-security-copilot",
+        "https://learn.microsoft.com/en-us/copilot/security/faq-security-copilot",
+        "https://www.microsoft.com/en-us/security/pricing/microsoft-security-copilot/",
+        "https://learn.microsoft.com/en-us/copilot/security/security-copilot-inclusion",
+        "https://learn.microsoft.com/en-us/copilot/security/agents-overview"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Microsoft confirms Security Copilot is generally available and supports incident investigation, threat hunting, security posture management, KQL generation, suspicious-script analysis, IT troubleshooting, reporting and agentic automation.",
+    "It integrates with Microsoft Defender XDR, Sentinel, Intune, Entra, Purview, Defender for Cloud and supported partner services. Products that integrate with Security Copilot may need to be purchased separately.",
+    "Standalone usage requires Azure and Microsoft Entra ID and is billed by Security Compute Units. Microsoft's published example uses $4 per provisioned SCU-hour and $6 per overage SCU; actual estimates vary by agreement, date, currency and tax. Eligible Microsoft 365 E5/E7 tenants receive 400 SCUs per month per 1,000 user licenses, up to 10,000 SCUs per month.",
+    "The interface is available in Turkish, but the currently documented model languages are English, German, Japanese, Spanish, French, Italian, Portuguese and Chinese. This distinction should not be collapsed into a claim of Turkish model support.",
+    "Agents can be granted access to security data and actions through configured identities and permissions. Administrators should apply least-privilege scopes and maintain analyst oversight of consequential security actions."
+  ]
+}
