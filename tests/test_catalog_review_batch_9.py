@@ -58,6 +58,8 @@ class CatalogReviewBatchNineTests(unittest.TestCase):
         self.assertIn("Luma App", self.recommender)
         self.assertIn("Microsoft Agent Framework", self.recommender)
         self.assertIn("Vibe", self.recommender)
+        self.assertIn("Manage AI", self.recommender)
+        self.assertIn("Manage AI", self.fit)
         self.assertNotIn("Flowise", self.updates["sources"])
         self.assertFalse(any(item["source"] == "Flowise" for item in self.updates["items"]))
         self.assertEqual(self.updates["sourceHealth"]["total"], 9)
