@@ -44,7 +44,7 @@ class CatalogReviewBatch22Tests(unittest.TestCase):
 
     def test_kilo_and_kits_ai_are_current_ai_products(self):
         self.assertIn("acquired by Anaconda", self.rows["Kilo Code"][2])
-        self.assertIn("Open source", self.reviews["Kilo Code"]["evidenceUrls"][2] or "Open source")
+        self.assertIn("https://github.com/Kilo-Org/kilocode", self.reviews["Kilo Code"]["evidenceUrls"])
         self.assertIn("voice cloning", self.rows["Kits AI"][2].lower())
         self.assertIn("vocal separation", self.rows["Kits AI"][2].lower())
 
