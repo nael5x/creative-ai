@@ -5,6 +5,17 @@
   "note": "Only entries manually checked against first-party evidence appear here. Catalog entries not listed are pending re-audit under the stricter policy; pending does not mean unsafe or low quality.",
   "tools": [
     {
+      "name": "Abnormal AI",
+      "officialUrl": "https://abnormal.ai/platform/email-security",
+      "evidenceUrls": [
+        "https://abnormal.ai/platform/email-security",
+        "https://abnormal.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Abnormal builds behavioral baselines for people and vendors, then detects anomalous email and collaboration activity such as business email compromise, account takeover and vendor fraud.",
+      "decision": "accepted"
+    },
+    {
       "name": "Abridge",
       "officialUrl": "https://www.abridge.com/",
       "evidenceUrls": [
@@ -23,6 +34,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Open-source automation platform for flows, integrations and AI-agent workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ada",
+      "officialUrl": "https://www.ada.cx/",
+      "evidenceUrls": [
+        "https://www.ada.cx/",
+        "https://docs.ada.cx/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Ada's customer-service agents can use API, code and MCP tools under business controls to complete customer tasks across voice, messaging and email workflows.",
       "decision": "accepted"
     },
     {
@@ -47,6 +69,119 @@
       "decision": "accepted"
     },
     {
+      "name": "Adobe Podcast",
+      "officialUrl": "https://podcast.adobe.com/",
+      "evidenceUrls": [
+        "https://podcast.adobe.com/",
+        "https://podcast.adobe.com/en/guides/what-is-enhance-speech",
+        "https://podcast.adobe.com/en/guides"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Adobe Podcast provides browser-based speech enhancement and recording tools that can clean noisy recordings, improve intelligibility and support podcast post-production.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AgentOps",
+      "officialUrl": "https://www.agentops.ai/",
+      "evidenceUrls": [
+        "https://www.agentops.ai/",
+        "https://docs.agentops.ai/v2/introduction"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "AgentOps records traces and spans for LLM and agent runs, integrates with major frameworks and provides dashboards and self-hosting guides for debugging agent behavior.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AgentQL",
+      "officialUrl": "https://www.agentql.com/",
+      "evidenceUrls": [
+        "https://www.agentql.com/",
+        "https://docs.agentql.com/concepts/query-language",
+        "https://docs.agentql.com/home"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "AgentQL lets developers describe web elements and structured page data semantically, then use its SDKs and REST API for scraping, browser automation and tests.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Agno",
+      "officialUrl": "https://www.agno.com/",
+      "evidenceUrls": [
+        "https://www.agno.com/",
+        "https://docs.agno.com/",
+        "https://docs.agno.com/features/runtime",
+        "https://github.com/agno-agi/agno"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Agno combines an SDK for agents, teams and workflows with AgentOS runtime and a control plane, including API endpoints, MCP, session persistence, tracing and authorization.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ahrefs AI Content Helper",
+      "officialUrl": "https://ahrefs.com/ai-content-helper",
+      "evidenceUrls": [
+        "https://ahrefs.com/ai-content-helper",
+        "https://help.ahrefs.com/en/articles/9879434-about-the-new-ai-content-helper",
+        "https://help.ahrefs.com/en/articles/9459159-where-to-find-all-of-ahrefs-ai-powered-tools-and-features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Ahrefs AI Content Helper scores topical coverage against competing pages, identifies missing subjects and offers AI feedback; Ahrefs documents one free document per month and paid expansion options.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AI Studios",
+      "officialUrl": "https://www.aistudios.com/",
+      "evidenceUrls": [
+        "https://www.aistudios.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "AI Studios combines script-to-video, product-to-video, dubbing and custom avatars to produce branded videos with voiceovers and translations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Aider",
+      "officialUrl": "https://aider.chat/",
+      "evidenceUrls": [
+        "https://aider.chat/",
+        "https://aider.chat/docs/",
+        "https://github.com/Aider-AI/aider"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Aider connects LLMs to a local codebase, maps repository structure, edits files and integrates with Git so developers can inspect, diff and undo changes.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Aidoc",
+      "officialUrl": "https://www.aidoc.com/platform/aios/",
+      "evidenceUrls": [
+        "https://www.aidoc.com/platform/aios/",
+        "https://www.aidoc.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Aidoc aiOS coordinates multiple clinical AI algorithms, uses scan and patient context to prioritize relevant findings and presents AI insights within clinical workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AIVA",
+      "officialUrl": "https://www.aiva.ai/",
+      "evidenceUrls": [
+        "https://www.aiva.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "AIVA generates music in many styles, supports custom style models and audio/MIDI influences, and allows users to edit and download compositions; commercial rights depend on the selected plan.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Alli AI",
+      "officialUrl": "https://www.alliai.com/",
+      "evidenceUrls": [
+        "https://www.alliai.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Alli AI provides bulk on-page SEO automation, schema generation, internal-link automation, a visual SEO editor and site-speed optimization across supported CMS platforms.",
+      "decision": "accepted"
+    },
+    {
       "name": "AlphaSense",
       "officialUrl": "https://www.alpha-sense.com/",
       "evidenceUrls": [
@@ -55,6 +190,16 @@
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "AlphaSense brings premium financial, expert and internal company content into AI-assisted search and analysis workflows for investment and corporate research.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ambience Healthcare",
+      "officialUrl": "https://www.ambiencehealthcare.com/products",
+      "evidenceUrls": [
+        "https://www.ambiencehealthcare.com/products"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Ambience supports the full clinical workflow with patient-context summaries, ambient scribing, chart questions, patient instructions and coding/compliance assistance integrated into care workflows.",
       "decision": "accepted"
     },
     {
@@ -69,6 +214,18 @@
       "decision": "accepted"
     },
     {
+      "name": "Anyscale",
+      "officialUrl": "https://www.anyscale.com/platform",
+      "evidenceUrls": [
+        "https://www.anyscale.com/platform",
+        "https://docs.anyscale.com/get-started/what-is-anyscale",
+        "https://www.anyscale.com/press/nscale-acquires-anyscale-enhancing-its-full-stack-ai-cloud-platform"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Anyscale provides a managed production platform for Ray workloads; its July 2026 announcement says it continues under the Anyscale brand and serves existing customers following the Nscale agreement.",
+      "decision": "accepted"
+    },
+    {
       "name": "AnythingLLM",
       "officialUrl": "https://anythingllm.com/",
       "evidenceUrls": [
@@ -76,6 +233,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Local-first workspace for document chat, agents and model integrations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Anyword",
+      "officialUrl": "https://www.anyword.com/",
+      "evidenceUrls": [
+        "https://www.anyword.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Anyword combines AI content generation with performance-prediction scores, content intelligence, brand controls and website messaging personalization for marketing teams.",
       "decision": "accepted"
     },
     {
@@ -1626,12 +1793,13 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-4",
+  "lastQualityReviewBatch": "catalog-review-batch-5",
   "lastQualityReviewBatchSummary": {
     "accepted": 15,
     "rejected": 0,
     "renamed": 0,
     "updatedDescriptions": 15,
-    "canonicalUrlUpdates": 2
+    "canonicalUrlUpdates": 5,
+    "availabilityUpdates": 1
   }
 }
