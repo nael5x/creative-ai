@@ -180,19 +180,11 @@
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Augment Code": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
     "Auphonic": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
     "AutoGPT": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "AUTOMATIC1111 Stable Diffusion WebUI": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
@@ -218,10 +210,6 @@
     },
     "Bearly AI": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Beatoven.ai": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "Beautiful.ai": {
@@ -874,6 +862,10 @@
     },
     "Hailuo AI": {
       "firstTrackedAt": "2026-09-13T14:41:12Z",
+      "event": "added"
+    },
+    "Harness Cosmos Software Factory Agent": {
+      "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
     "HARPA AI": {
