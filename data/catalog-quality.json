@@ -4925,6 +4925,20 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For security, product and AI engineering teams that need to test AI-specific risks such as prompt injection, jailbreaks, data leakage, unsafe tool use and agent permission abuse across development and production. Integrates through APIs, CI/CD and Burp Suite, and provides evidence, remediation guidance and retesting. Commercial enterprise product with demo-led sales; no public platform price found. It complements rather than replaces traditional AppSec and runtime guardrails.",
       "decision": "accepted"
+    },
+    {
+      "name": "Mindgrasp",
+      "officialUrl": "https://www.mindgrasp.ai/",
+      "evidenceUrls": [
+        "https://www.mindgrasp.ai/",
+        "https://www.mindgrasp.ai/ai-study-tools",
+        "https://app.mindgrasp.ai/pick-plan?split=frm",
+        "https://apps.apple.com/pk/app/mindgrasp/id1638182014",
+        "https://chromewebstore.google.com/detail/mindgrasp-ai-chrome-exten/cnlfgddhlclkgeljeaecehinfmjegmkp"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students and self-learners who want to turn their own course materials into a connected study workflow instead of juggling separate summarizers, flashcard makers, and quiz apps. Supports multiple languages (the App Store listing states 35). A free study session/trial is available, but continued feature access requires a subscription; published plans start at $9.99/month or $5.99/month billed annually. Verify AI-generated notes and answers against the original material.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4940,7 +4954,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-30",
+  "lastQualityReviewBatch": "catalog-review-batch-31",
   "lastQualityReviewBatchSummary": {
     "accepted": 1,
     "rejected": 0,

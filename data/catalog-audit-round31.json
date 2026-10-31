@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-31",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Mindgrasp. Verified the active AI study platform, source-material formats, connected study tools, mobile/Chrome access, multilingual support, and current subscription plans; refined the existing listing without changing lifecycle status.",
+  "accepted": [
+    {
+      "name": "Mindgrasp",
+      "category": "Education",
+      "description": "AI study platform that turns lectures, PDFs, slides, articles, audio, and videos into structured notes, summaries, flashcards, quizzes, study guides, practice tests, and an AI tutor. Supports live lecture recording, source-linked study sessions, and a Chrome extension.",
+      "userValue": "For students and self-learners who want to turn their own course materials into a connected study workflow instead of juggling separate summarizers, flashcard makers, and quiz apps. Supports multiple languages (the App Store listing states 35). A free study session/trial is available, but continued feature access requires a subscription; published plans start at $9.99/month or $5.99/month billed annually. Verify AI-generated notes and answers against the original material.",
+      "availability": "Free trial / Paid",
+      "url": "https://www.mindgrasp.ai/",
+      "evidenceUrls": [
+        "https://www.mindgrasp.ai/",
+        "https://www.mindgrasp.ai/ai-study-tools",
+        "https://app.mindgrasp.ai/pick-plan?split=frm",
+        "https://apps.apple.com/pk/app/mindgrasp/id1638182014",
+        "https://chromewebstore.google.com/detail/mindgrasp-ai-chrome-exten/cnlfgddhlclkgeljeaecehinfmjegmkp"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Mindgrasp is an active AI learning platform. It turns lectures and uploaded PDFs, slides, articles, audio, video and YouTube links into structured notes, summaries, flashcards, quizzes, study guides and practice tests, with an AI tutor for follow-up questions.",
+    "The official site describes live lecture recording, progress tracking, connected study sessions and a Chrome extension that imports content from websites including Canvas, Blackboard and Panopto. The Chrome Web Store listing shows the extension was updated on September 2, 2026.",
+    "The App Store listing states that Mindgrasp supports 35 languages for study aids and assistant questions, offers a free trial, and requires a subscription for ongoing feature access.",
+    "The official plan selector lists Basic at $9.99 per month or $5.99 per month billed annually ($71.88/year), Scholar at $12.99 per month or $8.99 billed annually ($107.88/year), and Premium at $14.99 per month or $10.99 billed annually ($131.88/year). Pricing and availability may vary by region or platform.",
+    "Mindgrasp is a study aid, not an authoritative source or a substitute for learning and checking the underlying material. AI-generated notes, explanations, and quiz answers should be verified against the uploaded course content."
+  ]
+}
