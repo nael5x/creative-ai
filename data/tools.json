@@ -1930,10 +1930,10 @@
   [
     "Ironclad AI",
     "Legal",
-    "AI capabilities inside Ironclad for contract drafting, review, search and lifecycle workflows.",
-    "For legal teams that want AI connected to their contract system of record.",
-    "Paid",
-    "https://ironcladapp.com/ai/"
+    "Native AI capabilities within Ironclad's contract lifecycle management platform, including conversational search across signed and in-flight agreements, contract drafting and redlining, clause and metadata extraction, playbook-based review, portfolio insights and specialized agents for intake, review and renewals.",
+    "For legal, procurement and operations teams that already manage agreements in Ironclad and want contract-aware AI grounded in their workflows and permissions; this is an AI layer inside Ironclad CLM, not a standalone general-purpose legal chatbot.",
+    "Enterprise / Paid CLM",
+    "https://ironcladapp.com/product/ironclad-ai"
   ],
   [
     "Jacquard",
@@ -1946,8 +1946,8 @@
   [
     "Jamie",
     "Meetings",
-    "AI meeting note taker designed to create summaries across online and in-person conversations.",
-    "For professionals who want cross-platform meeting notes without relying on a meeting bot.",
+    "On-device AI meeting intelligence that captures online and in-person conversations without adding a meeting bot, then creates structured notes, transcripts, speaker context, summaries and action items. It can answer questions across past meetings and automate follow-up workflows through connected tools, MCP, webhooks and API.",
+    "For professionals and teams who want searchable meeting memory and automated follow-ups across different meeting platforms, including in-person conversations, without a bot joining the call.",
     "Free tier / Paid",
     "https://www.meetjamie.ai/"
   ],
@@ -1970,105 +1970,105 @@
   [
     "Jenni AI",
     "Writing",
-    "Academic writing and research workspace for reading, drafting and citation support.",
-    "For students and researchers who want writing help that stays connected to sources.",
+    "Academic and professional writing workspace combining an AI document editor, contextual autocomplete and editing, research chat, semantic discovery across academic papers, a searchable PDF/source library, citation management and document reviews that flag unsupported or weakly supported claims.",
+    "For students, researchers and analysts drafting source-based work who want research, citations, document editing and claim review in one workspace; citations and AI suggestions still require human verification.",
     "Free tier / Paid",
     "https://jenni.ai/"
   ],
   [
     "JetBrains AI Assistant",
     "Coding",
-    "AI assistant integrated into JetBrains IDEs for code, explanations and development tasks.",
-    "For developers who already work primarily inside JetBrains editors.",
+    "AI feature suite integrated into JetBrains IDEs, with project-aware chat, code completion and generation, explanations, refactoring, documentation and test assistance, plus coding-agent integrations and MCP/ACP extensibility. Users can choose JetBrains AI, supported external providers or local models where available.",
+    "For developers who work in JetBrains IDEs and want AI assistance and configurable coding agents in their existing editor; this is the broader IDE AI layer, distinct from the more autonomous Junie agent.",
     "Free tier / Paid",
     "https://www.jetbrains.com/ai/"
   ],
   [
     "JetBrains Junie",
     "Coding",
-    "Coding agent from JetBrains for implementing and iterating on tasks inside IDE projects.",
-    "For JetBrains users delegating multi-step code changes within their existing development environment.",
-    "Paid",
+    "JetBrains' autonomous coding agent that plans and executes multi-step development tasks, edits files across a project, runs tests and terminal commands, and can use external tools. It is available inside supported JetBrains IDEs and through an interactive terminal interface.",
+    "For developers who want to delegate bounded, multi-step implementation and debugging work to an agent while reviewing its changes and command execution.",
+    "Paid / BYO API key",
     "https://www.jetbrains.com/junie/"
   ],
   [
     "Jina AI Reader",
     "Data extraction",
-    "Web-to-text reader service and APIs for retrieving cleaner page content for AI systems.",
-    "For developers feeding public web pages into research, search and RAG pipelines.",
-    "Free tier / Paid",
+    "Web and document reader API that fetches public URLs or PDFs and converts their content into clean, LLM-friendly text or Markdown. Reader supports URL and file inputs, structured JSON responses and optional link/image summaries; it is one service in Jina's wider Reader, Search and embedding API suite.",
+    "For developers building research, retrieval-augmented generation and agent workflows that need readable webpage or PDF content instead of raw HTML; the Reader endpoint can be used without an API key at a lower rate limit.",
+    "Free tier / Paid API",
     "https://jina.ai/reader/"
   ],
   [
     "Juicebox",
     "HR & recruiting",
-    "AI recruiting platform for people search, talent sourcing, CRM and outreach workflows.",
-    "For recruiters using natural-language search and agents to build candidate pipelines.",
+    "AI recruiting and talent-sourcing platform that searches a large global candidate index across multiple data sources, builds ranked candidate pools from natural-language requirements, summarizes candidate fit, and supports AI-assisted outreach, sourcing agents and ATS/CRM workflows.",
+    "For recruiters and talent teams sourcing hard-to-find candidates who need natural-language search, candidate calibration and personalized outreach in one recruiting workflow.",
     "Free tier / Paid",
     "https://juicebox.ai/"
   ],
   [
     "Julius AI",
     "Data & analytics",
-    "Conversational data-analysis workspace for files, spreadsheets, charts and statistical exploration.",
-    "For users who want to analyze datasets by asking questions in natural language.",
+    "AI workspace for analyzing spreadsheets, documents and connected data sources, researching topics, running code-backed analysis and creating charts, reports, presentations, dashboards, websites, images and video. Paid plans add higher usage, more capable models, agents and additional data connectors.",
+    "For individuals and teams who want to move from a question or dataset to analysis and shareable deliverables in one conversational workspace; it is broader than a spreadsheet-only analysis assistant.",
     "Free tier / Paid",
-    "https://julius.ai/"
+    "https://julius.ai/product"
   ],
   [
     "K Health",
     "Healthcare",
-    "AI-supported virtual care platform combining symptom intake with clinician access.",
-    "For consumers seeking digital primary-care and medical guidance workflows.",
-    "Paid",
-    "https://khealth.com/"
+    "Clinical AI platform for health systems, combining dynamic patient intake and PatientGPT grounded in medical-record context with EHR integration and digital front-door workflows. K Health also partners with providers to deliver longitudinal primary and specialty virtual care with licensed clinicians; its AI supports patient engagement and clinical workflows rather than replacing medical professionals.",
+    "For health systems and provider organizations that want to improve pre-visit intake, patient engagement and virtual-care access using AI connected to clinical records and clinician-led services; this is primarily an enterprise healthcare platform, not simply a consumer symptom checker.",
+    "Enterprise / Health-system partners",
+    "https://www.khealth.com/"
   ],
   [
     "Kaedim",
     "3D",
-    "AI-assisted 3D asset production platform for converting concepts into production-ready models.",
-    "For studios accelerating game and product asset creation with human-in-the-loop workflows.",
-    "Paid",
+    "AI-assisted 3D production platform that turns sketches, reference packs, product photos and creative briefs into 3D assets for product design, games and ecommerce. Its workflow emphasizes studio review, markup, iteration and approval, with production support for teams working on confidential assets.",
+    "For game studios, product teams and brands that need 3D asset production integrated into a professional review workflow; Kaedim positions this as a studio-oriented production service rather than a simple self-serve text-to-3D generator.",
+    "Enterprise / Contact sales",
     "https://www.kaedim3d.com/"
   ],
   [
     "Kagi Assistant",
     "Writing & research",
-    "Multi-model AI assistant integrated with Kagi Search and optional web grounding.",
-    "For privacy-conscious users who want model choice and search-backed assistance in one subscription.",
-    "Paid",
+    "Multi-model AI assistant included with Kagi's search subscription, allowing users to choose among supported language models, optionally ground chats with Kagi Search, create custom assistants, upload files, switch models or web access within a thread, and save or export conversations.",
+    "For research, writing and programming users who want model choice and optional private search grounding in one subscription; Kagi says user data is not used to train models and offers configurable conversation retention.",
+    "Paid subscription",
     "https://kagi.com/assistant"
   ],
   [
     "Kaiber",
     "Video",
-    "AI creative video platform for transforming prompts, images and audio into stylized motion.",
-    "For music visuals and artistic video treatments rather than conventional editing alone.",
-    "Free tier / Paid",
+    "AI creative studio with three connected tools: Canvas for generating and editing video, images and audio using selectable models; Beat Sync for creating music-synchronized visual variations and short-form clips; and Editor for arranging, trimming and finishing projects on a timeline.",
+    "For musicians, artists and social creators who want to generate stylized visuals, synchronize batches of clips to music and finish them in one connected creative workspace.",
+    "Paid subscription / Credits",
     "https://kaiber.ai/"
   ],
   [
     "Kapwing AI",
     "Video",
-    "AI-assisted online video editor for generation, repurposing, subtitles and social formats.",
-    "For creators who want collaborative editing and generative tools in the same browser workspace.",
+    "Browser-based AI toolkit built into Kapwing's online video editor, including AI video generation and editing, text-to-video, dubbing, subtitles, voiceovers, image generation, lip sync and other tools powered by multiple selectable models.",
+    "For creators and teams who want AI generation, localization and editing in the same collaborative browser-based video workspace, without installing desktop editing software.",
     "Free tier / Paid",
-    "https://www.kapwing.com/ai"
+    "https://www.kapwing.com/ai/overview"
   ],
   [
     "Keyword Insights",
     "SEO & marketing",
-    "Keyword clustering and content planning platform with AI-assisted workflows.",
-    "For SEO teams grouping large keyword sets by intent and planning site content.",
-    "Paid",
+    "SEO research and content platform for keyword discovery, SERP-based keyword clustering and search-intent analysis, content briefs, rank and competitor insights, and AI-assisted article writing. Its Keyword Discovery and other workflows are also accessible through an API for automation.",
+    "For SEO teams and content marketers who need to group large keyword sets by intent, identify topical opportunities and turn search data into briefs and articles.",
+    "Paid plans",
     "https://www.keywordinsights.ai/"
   ],
   [
     "Khanmigo",
     "Education",
-    "Khan Academy's AI-powered tutor and teaching assistant for guided learning and educator workflows.",
-    "For learners and teachers who want education-focused AI connected to Khan Academy content.",
-    "Free tier / Paid",
+    "Khan Academy's AI tutor and teaching assistant. For learners it guides students through questions instead of simply giving answers, using Khan Academy's curriculum across subjects including math, science and coding. For educators it helps create lesson plans, differentiated activities, quizzes, rubrics and feedback on student work.",
+    "For students, families and educators who want guided learning or teaching support connected to Khan Academy content. Individual learner/parent access is currently restricted to eligible US accounts, while teacher access is limited to educators in supported countries and student classroom access is through school or district implementations.",
+    "Free for eligible teachers / Paid US learner access",
     "https://www.khanmigo.ai/"
   ],
   [
