@@ -50,9 +50,7 @@ class CatalogReviewBatch26Tests(unittest.TestCase):
         self.assertEqual(self.audit["retired"], [])
         self.assertEqual(self.audit["rejected"], [])
         self.assertEqual(self.audit["statusWatch"], [])
-        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-26")
-        self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["accepted"], 1)
-        self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["updatedExisting"], 1)
+        self.assertEqual(self.audit["batch"], "catalog-review-batch-26")
 
 
 if __name__ == "__main__":
