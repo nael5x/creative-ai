@@ -105,7 +105,7 @@ class CatalogReviewBatch9Tests(unittest.TestCase):
         self.assertEqual(self.lifecycle["Microsoft Agent Framework"]["firstTrackedAt"], "2026-10-31T00:45:59Z")
         self.assertEqual(self.lifecycle["PlayHT"]["firstTrackedAt"], "2026-10-31T00:52:54Z")
         self.assertEqual(self.lifecycle["Tabnine"]["firstTrackedAt"], "2026-09-13T14:41:12Z")
-        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-9")
+        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-12")
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["accepted"], 13)
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["rejected"], 15)
         self.assertEqual(len(self.audit["accepted"]), 13)
