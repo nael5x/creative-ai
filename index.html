@@ -7,6 +7,7 @@
   <meta name="description" content="A maintained bilingual AI tools discovery hub with search, categories, comparison, alternatives, stacks and official-source updates.">
   <link rel="stylesheet" href="styles/design-system.css">
   <link rel="stylesheet" href="styles/home-hub.css">
+  <link rel="stylesheet" href="styles/creative-ai-theme.css">
 </head>
 <body class="home-page">
 <main class="wrap">
@@ -26,6 +27,7 @@
   </header>
 
   <section class="hero">
+    <div class="hero-ambient" aria-hidden="true"><canvas id="heroAmbient"></canvas></div>
     <div class="hero-copy">
       <div class="eyebrow" id="eyebrow">DISCOVER. COMPARE. BUILD.</div>
       <h1 id="title">Find the right tool for your <span class="accent-word">workflow.</span></h1>
@@ -135,4 +137,5 @@ $("lang").onclick=()=>{language=language==="en"?"ar":"en";applyLanguage()};$("se
 Promise.allSettled([fetch("data/tools.json",{cache:"default"}).then(r=>r.ok?r.json():Promise.reject()),fetch("data/updates.json",{cache:"default"}).then(r=>r.ok?r.json():Promise.reject()),fetch("data/tool-lifecycle.json",{cache:"default"}).then(r=>r.ok?r.json():Promise.reject())]).then(([toolsResult,feedResult,lifecycleResult])=>{if(toolsResult.status==="fulfilled")catalog=toolsResult.value.filter(validTool);if(feedResult.status==="fulfilled")feed=feedResult.value;if(lifecycleResult.status==="fulfilled")lifecycle=lifecycleResult.value;applyLanguage()});
 applyLanguage();
 </script>
+<script src="scripts/creative-ai-effects.js" defer></script>
 </body></html>
