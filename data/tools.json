@@ -674,25 +674,25 @@
   [
     "Circleback",
     "Meetings",
-    "AI meeting notes with transcripts, action items, search and automations.",
-    "For people who want detailed notes and follow-up tasks from recurring meetings.",
+    "AI meeting assistant that records online and in-person conversations, creates speaker-labeled transcripts and detailed notes, extracts assigned action items, and makes meetings searchable with cited answers and automations.",
+    "For teams that need meeting outcomes, accountable follow-ups and searchable conversation context connected to their CRM, project tools and AI agents.",
     "Free tier / Paid",
     "https://circleback.ai/"
   ],
   [
     "Civitai",
     "Models & datasets",
-    "Community platform for discovering, sharing and using generative image models and resources.",
-    "For finding community models, workflows and visual-generation resources.",
+    "Community platform for discovering, sharing and using generative image and video models, model versions and creator workflows, with on-site generation, training and a creator program. Its 2026 update distinguishes civitai.com as the SFW front door from civitai.red.",
+    "For generative-media creators who need a broad library of community models and LoRAs, model discovery, creator resources and hosted generation in one ecosystem.",
     "Free tier / Paid",
     "https://civitai.com/"
   ],
   [
     "Claid.ai",
     "Image editing",
-    "AI image enhancement and generation tools aimed at ecommerce and marketplaces.",
-    "For teams that need scalable product-image cleanup, upscaling and standardization.",
-    "Paid",
+    "AI image-production workspace and API for ecommerce visuals, including product photoshoots from a source image and prompt, background removal, lighting and color adjustments, image editing and image-to-video.",
+    "For ecommerce sellers and creative teams that need polished, consistent product imagery and campaign variations without arranging a new photoshoot for every asset.",
+    "Free tier / Paid",
     "https://claid.ai/"
   ],
   [
@@ -722,25 +722,25 @@
   [
     "Cleanup.pictures",
     "Image editing",
-    "AI inpainting tool for removing objects, defects and unwanted elements from images.",
-    "For users who need quick visual cleanup without a full desktop editor.",
+    "AI inpainting tool for removing unwanted objects, people, text and defects from photos; the selected area is reconstructed from surrounding image context. Offers a standalone editor and an inpainting API.",
+    "For photographers, ecommerce teams and everyday users who need to clean up a photo quickly without opening a full desktop editor.",
     "Free tier / Paid",
     "https://cleanup.pictures/"
   ],
   [
     "Cleanvoice AI",
     "Voice & audio",
-    "AI audio cleanup tool for removing filler words, pauses and noise from spoken recordings.",
-    "For podcasters and interview editors who need faster cleanup of speech recordings.",
-    "Free tier / Paid",
+    "AI audio and video editor that detects and removes filler words, long silences, mouth and breath sounds, stutters, background noise and echo, then exports cleaned media or an editable timeline.",
+    "For podcasters, interviewers and audio/video editors who want to shorten cleanup work while retaining control over the exported edit.",
+    "Free trial / Paid",
     "https://cleanvoice.ai/"
   ],
   [
     "Clearscope",
     "Marketing",
-    "Content optimization platform that uses search data and AI-assisted workflows for SEO content.",
-    "For editorial teams refining coverage and relevance of search-focused content.",
-    "Paid",
+    "Content strategy and optimization platform for discovering search topics, grading drafts, monitoring page performance and tracking brand mentions across Google and AI answer engines such as ChatGPT, Gemini and Claude.",
+    "For SEO and content teams that need one workflow for topic research, content optimization and visibility monitoring across traditional search and AI answers.",
+    "Paid / 14-day trial",
     "https://www.clearscope.io/"
   ],
   [
@@ -762,18 +762,18 @@
   [
     "Clipdrop",
     "Images & design",
-    "AI image utilities for cleanup, relighting, background work and generation.",
-    "For quick visual editing tasks that do not require a full design application.",
+    "AI image editing suite now part of Jasper, with text-to-image generation, background removal and replacement, cleanup, uncropping, relighting, text removal and image upscaling, plus APIs.",
+    "For creators and product teams that need a focused set of image-generation and image-editing operations in a browser or through an API.",
     "Free tier / Paid",
     "https://clipdrop.co/"
   ],
   [
-    "CoCounsel",
+    "CoCounsel Legal",
     "Legal",
-    "Thomson Reuters AI legal assistant for research, document review, drafting and professional workflows.",
-    "For legal professionals who want AI integrated with established legal research and content systems.",
+    "Thomson Reuters' legal AI assistant for research, document analysis and review, and legal drafting, grounded in Westlaw, Practical Law and an organization's own knowledge with traceable citations and multi-step agentic workflows.",
+    "For attorneys and legal teams that need source-grounded research, document review and drafting connected to trusted legal content and firm knowledge; professional review remains essential.",
     "Paid",
-    "https://legal.thomsonreuters.com/en/products/cocounsel"
+    "https://legal.thomsonreuters.com/en/products/cocounsel-legal"
   ],
   [
     "CodeGeeX",
@@ -794,49 +794,41 @@
   [
     "Colossyan",
     "Video",
-    "AI avatar video platform focused on training and workplace learning content.",
-    "For organizations producing presenter-led learning videos without studio recording.",
+    "AI video and training platform that turns documents, presentations, scripts, URLs and existing videos into presenter-led training videos and interactive courses, with custom avatars, voiceovers, translation and SCORM delivery.",
+    "For L&D, HR and customer-education teams that need to produce, update and localize training content without filming every lesson.",
     "Free tier / Paid",
     "https://www.colossyan.com/"
   ],
   [
     "ComfyUI",
     "Image workflows",
-    "Node-based Stable Diffusion and image-generation workflows.",
-    "For advanced, controllable image generation pipelines.",
-    "Open source",
+    "Open-source, node-based AI creation engine, API and backend for composing and running local or cloud workflows across image, video, audio, 3D and text models; supports custom nodes and offline execution.",
+    "For technical creators who need fine-grained control, reusable graphs and local execution across a wide range of generative models and media workflows.",
+    "Open source / Cloud",
     "https://github.com/Comfy-Org/ComfyUI"
   ],
   [
     "Compose AI",
     "Writing",
-    "AI autocomplete and writing assistance for faster text entry in the browser.",
-    "For users who want lightweight sentence completion inside everyday web forms and messages.",
+    "AI writing assistant and Chrome extension that generates text, autocompletes sentences, rewrites selected text, drafts email replies and adapts suggestions to a user's writing style.",
+    "For people who write across email, documents and web apps and want contextual autocomplete and rewriting without switching to a separate chat tool.",
     "Free tier / Paid",
     "https://www.compose.ai/"
   ],
   [
-    "Connected Papers",
-    "Research",
-    "Visual graph tool for finding and exploring papers related to a seed publication.",
-    "For understanding a research area visually and discovering prior or derivative work.",
-    "Free tier / Paid",
-    "https://www.connectedpapers.com/"
-  ],
-  [
     "Consensus",
     "Research",
-    "AI search engine focused on scientific literature and evidence-backed answers.",
-    "For finding research findings and tracing claims back to academic papers.",
+    "AI academic search engine that retrieves scientific papers using semantic and keyword search, then uses language models to analyze and synthesize findings with citations, study comparisons and research-agent workflows.",
+    "For students, researchers and professionals who need evidence-backed answers from scientific literature and want to trace each synthesis to its source papers.",
     "Free tier / Paid",
     "https://consensus.app/"
   ],
   [
     "Constructor",
     "Ecommerce",
-    "AI product discovery platform for ecommerce search, browse and recommendations.",
-    "For retailers that need more relevant product discovery across large catalogs.",
-    "Paid",
+    "AI-native ecommerce product-discovery platform that personalizes search, browse and recommendations using catalog and shopper-behavior data, with conversational shopping agents, product-insights agents and merchandising intelligence.",
+    "For ecommerce retailers with large catalogs who need shoppers to find relevant products through better search, recommendations and natural-language assistance.",
+    "Enterprise / Request demo",
     "https://constructor.com/"
   ],
   [
@@ -850,9 +842,9 @@
   [
     "ContentStudio",
     "Social media",
-    "Content discovery, social publishing and AI-assisted creation platform.",
-    "For marketing teams managing research, creation and distribution across channels.",
-    "Paid",
+    "Social media management platform with AI Studio, a connected workspace for AI chat, caption writing, image and video generation, brand-voice guidance, and scheduling and publishing across social channels.",
+    "For creators, agencies and social teams that want to move from an idea to on-brand, scheduled social content in one workflow.",
+    "Free trial / Paid",
     "https://contentstudio.io/"
   ],
   [
