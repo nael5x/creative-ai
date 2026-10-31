@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-26",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Meshy. Verified its current AI 3D creation workflow and free/paid offering; no catalog expansion or lifecycle change.",
+  "accepted": [
+    {
+      "name": "Meshy",
+      "category": "3D",
+      "description": "AI 3D creation workspace for generating models from text, images or chat, then texturing, rigging, animating and optimizing assets for games, design and 3D printing. Includes an API and MCP integration.",
+      "userValue": "For game developers, 3D artists and makers who need to prototype characters, props and printable concepts without building every model manually. Outputs are not CAD-precision engineering parts; free-tier credits and asset licensing differ from paid plans.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.meshy.ai/",
+      "evidenceUrls": [
+        "https://www.meshy.ai/features",
+        "https://docs.meshy.ai/en",
+        "https://www.meshy.ai/pricing",
+        "https://help.meshy.ai/en/articles/9991736-what-is-meshy"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "The official product and documentation pages describe text/image/chat-to-3D creation, AI texturing, rigging and animation, optimization, 3D printing workflows, exports and API/MCP integration.",
+    "Meshy is positioned for creative 3D assets and prototyping, not CAD-precision engineering parts.",
+    "Free access is credit-limited and the license/asset privacy terms vary by plan; users should check the current plan terms before commercial use."
+  ]
+}
