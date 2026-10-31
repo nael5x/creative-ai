@@ -1778,33 +1778,33 @@
   [
     "HiddenLayer",
     "Cybersecurity",
-    "Security platform for protecting machine-learning models and AI systems.",
-    "For enterprises monitoring model threats and AI-specific attack surfaces.",
-    "Paid",
-    "https://hiddenlayer.com/"
+    "Enterprise AI-security platform for discovering AI assets, securing model supply chains, simulating adversarial attacks and monitoring AI systems at runtime, including generative and agentic applications across development and production environments.",
+    "For security and AI-platform teams that need visibility into shadow AI, model and pipeline risks, continuous attack testing and runtime protection for AI applications.",
+    "Enterprise / Request demo",
+    "https://hiddenlayer.com/platform"
   ],
   [
     "Higgsfield",
     "Video",
-    "AI video creation platform focused on stylized shots, camera motion and creator workflows.",
-    "For marketers and creators producing short cinematic content with directed visual movement.",
-    "Free tier / Paid",
+    "AI-native creative suite for generating and editing video and images through multiple selectable models, with specialized studios and tools for cinematic camera effects, image editing, inpainting, upscaling, face swaps, AI influencers, marketing assets and agent/API workflows.",
+    "For creators and marketing teams that want a single workspace to generate, edit and package visual content across different models and specialized creative workflows.",
+    "Free credits / Paid",
     "https://higgsfield.ai/"
   ],
   [
     "Hippocratic AI",
     "Healthcare",
-    "Safety-focused generative AI platform for healthcare agents and patient-facing workflows.",
-    "For healthcare organizations deploying conversational AI in non-diagnostic operational roles.",
-    "Paid",
-    "https://www.hippocraticai.com/"
+    "Enterprise platform for patient-facing generative AI agents across healthcare workflows such as appointment scheduling, intake, screening outreach, chronic-care support, medication adherence and care navigation. Its stated safety boundary is that agents do not diagnose or prescribe and escalate clinical concerns to licensed staff.",
+    "For health systems and life-sciences organizations automating non-diagnostic patient engagement and care-coordination tasks with clinical safety monitoring and human escalation.",
+    "Enterprise / Request demo",
+    "https://hippocraticai.com/"
   ],
   [
     "HireVue",
     "HR & recruiting",
-    "Hiring platform with AI-assisted assessments, interviewing and candidate-evaluation workflows.",
-    "For larger recruiting organizations standardizing screening and interview processes.",
-    "Paid",
+    "Enterprise hiring platform combining AI Interviewer, structured video interviews, job-relevant skills assessments, scheduling and workflow automation. For AI-scored video assessments, HireVue says it evaluates the transcript against role-related competencies rather than facial expressions, appearance, body language or background.",
+    "For large employers standardizing candidate screening and skills evaluation across high-volume, early-career and professional hiring while keeping criteria job-related and reviewable by recruiters.",
+    "Enterprise / Request demo",
     "https://www.hirevue.com/"
   ],
   [
@@ -1842,89 +1842,81 @@
   [
     "Humanly",
     "HR & recruiting",
-    "Conversational AI recruiting platform for screening, scheduling and candidate engagement.",
-    "For hiring teams automating early-stage recruiting conversations and coordination.",
-    "Paid",
+    "AI recruiting platform for high-volume and frontline hiring, with AI Recruiter for candidate engagement and screening, AI Interviewer for structured voice/video interviews, automated scheduling and follow-up, candidate transcripts, Talent CRM and ATS workflows.",
+    "For employers hiring hourly and frontline workforces who need to respond to applicants around the clock, screen consistently and move qualified candidates to interviews faster.",
+    "Enterprise / Request demo",
     "https://www.humanly.io/"
   ],
   [
     "Humata",
-    "Learn from your files",
-    "AI workspace for asking questions about documents and summarizing uploaded files.",
-    "For quickly extracting answers and summaries from PDFs and other documents.",
-    "Free tier / Paid",
+    "Documents",
+    "AI knowledge-base and PDF assistant that answers questions across uploaded files, summarizes and compares technical documents, searches for evidence with citations linked to source passages, and can be embedded in a webpage to provide document-grounded answers to customers or teams.",
+    "For researchers, professionals and organizations that need to search large document collections and share source-cited answers without manually reading every file.",
+    "Free tier / Paid plans",
     "https://www.humata.ai/"
-  ],
-  [
-    "Hume AI",
-    "Voice & audio",
-    "Voice and emotion AI platform for expressive conversational interfaces.",
-    "For developers building voice agents where prosody and emotional expression matter.",
-    "Free tier / Paid",
-    "https://www.hume.ai/"
   ],
   [
     "Hyper3D Rodin",
     "3D",
-    "Generative 3D model creation platform for turning images or text into 3D assets.",
-    "For designers and developers producing 3D content for games, commerce and visualization.",
-    "Free tier / Paid",
+    "AI 3D-asset generation platform that creates editable textured models from text prompts, single images, sketches or multi-view references, with mesh and material controls, UV-ready exports, refinement tools, APIs and integrations for common 3D production software.",
+    "For game developers, product designers and 3D artists who want to turn concepts or reference images into editable 3D assets and refine them for downstream pipelines.",
+    "Free previews / Paid credits",
     "https://hyper3d.ai/"
   ],
   [
     "HyperWrite",
     "Writing",
-    "AI writing assistant with drafting, rewriting and browser-based assistance.",
-    "For everyday writing and research tasks across documents and web workflows.",
+    "AI writing and research workspace with drafting, rewriting, autocomplete and browser-based Personal Assistant agents that can carry out multi-step online tasks such as organizing email, researching information and interacting with websites under user direction.",
+    "For writers, researchers and knowledge workers who want both writing support and an AI assistant that can move beyond drafting to perform repetitive browser-based tasks.",
     "Free tier / Paid",
     "https://www.hyperwriteai.com/"
   ],
   [
     "IBM watsonx Code Assistant",
     "Coding",
-    "Enterprise code assistant for software development and application modernization.",
-    "For organizations generating, explaining and transforming code in governed enterprise environments.",
-    "Paid",
+    "Portfolio of IBM generative-AI coding assistants for code generation, explanation, documentation and unit-test creation inside IDEs, with context-aware chat and specialized modernization workflows for enterprise Java and other IBM-supported environments.",
+    "For enterprise development teams that need IDE-integrated code assistance and governed modernization workflows connected to IBM's software and cloud environments.",
+    "Limited trial / Paid IBM plans",
     "https://www.ibm.com/products/watsonx-code-assistant"
   ],
   [
     "Ideogram",
     "Images",
-    "Image generation with strong text rendering, editing and design-oriented controls.",
-    "For posters, branded graphics and visuals where readable text matters.",
+    "AI image-generation platform known for prompt-driven visual creation and text rendering, with Ideogram Canvas for organizing and combining images, Magic Fill for inpainting, Extend for outpainting, editable text layers, specialized image apps, API and MCP access.",
+    "For designers, marketers and creators who need image generation with legible text and iterative control over layouts, edits, backgrounds and final compositions.",
     "Free tier / Paid",
     "https://ideogram.ai/"
   ],
   [
     "Infermedica",
     "Healthcare",
-    "Clinical decision support and symptom assessment platform delivered through APIs and applications.",
-    "For digital health products adding structured symptom-checking and triage workflows.",
-    "Paid",
+    "Clinical AI triage and medical-guidance platform that collects patient symptoms and history, assesses urgency and likely care pathways, and supports digital front-door triage, nurse/call-center workflows and pre-visit intake through embeddable modules and APIs. The former Symptom Checker is now positioned as Infermedica Triage.",
+    "For health systems, insurers and digital-care providers integrating structured symptom assessment and patient navigation into their own apps, portals or contact centers; outputs support triage workflows rather than replacing clinician assessment.",
+    "Enterprise / Request demo",
     "https://infermedica.com/"
   ],
   [
     "insMind",
-    "Image editing",
-    "AI photo editor focused on product images, backgrounds and ecommerce visuals.",
-    "For online sellers creating polished product photography with less manual editing.",
-    "Free tier / Paid",
+    "Images & design",
+    "AI creative suite and photo editor for generating and editing images and videos, with text-to-video, image-to-video, AI image generation, background and object editing, visual effects and an AI agent; available through web and mobile/desktop apps.",
+    "For ecommerce sellers, marketers and creators who need quick product-photo cleanup, image variations and short-form visual assets across web and mobile workflows.",
+    "Free tier / Paid credits",
     "https://www.insmind.com/"
   ],
   [
     "Instantly",
     "Sales",
-    "AI-assisted outbound sales platform for email campaigns, lead workflows and deliverability.",
-    "For sales teams running high-volume outbound sequences from one system.",
-    "Paid",
+    "Outbound sales platform combining cold-email infrastructure and warmup, B2B lead database, campaign automation and deliverability tools with Instantly AI Copilot for personalized messaging and an AI Sales Agent that finds ICP-matched leads, writes sequences and builds outreach campaigns.",
+    "For sales teams and agencies running outbound prospecting who want lead discovery, campaign creation, email operations and AI-assisted personalization in one platform.",
+    "Free trial / Paid plans and AI credits",
     "https://instantly.ai/"
   ],
   [
     "InVideo AI",
     "Video",
-    "Prompt-driven video creation platform for scripts, visuals, voice and editing.",
-    "For turning a written idea into a complete marketing or social video draft.",
-    "Free tier / Paid",
+    "Agentic AI video-creation platform that turns a brief into scripts, storyboards, generated scenes, voiceovers, subtitles and edited videos using a choice of 200+ image, video and audio models. Its MCP server also lets external AI agents edit projects on an editable multitrack timeline inside the InVideo editor.",
+    "For creators, marketers and teams producing ads, explainers and longer-form videos who want an AI agent to handle the first cut and then refine the result through conversational edits on a real timeline.",
+    "Free tier / Paid credits",
     "https://invideo.io/ai/"
   ],
   [
