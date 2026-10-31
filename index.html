@@ -27,7 +27,7 @@
   </header>
 
   <section class="hero">
-    <div class="hero-ambient" aria-hidden="true"><canvas id="heroAmbient"></canvas></div>
+    <div id="creativeAiHeroEffectsMount"></div>
     <div class="hero-copy">\n      <div id="creativeAiHeroAccentMount"></div>
       <div class="eyebrow" id="eyebrow">DISCOVER. COMPARE. BUILD.</div>
       <h1 id="title">Find the right tool for your <span class="accent-word">workflow.</span></h1>
@@ -144,4 +144,5 @@ Promise.allSettled([fetch("data/tools.json",{cache:"default"}).then(r=>r.ok?r.js
 applyLanguage();
 </script>
 <script src="scripts/creative-ai-effects.js" defer></script>
+<script type="module" src="scripts/creative-ai-components.js"></script>
 </body></html>
