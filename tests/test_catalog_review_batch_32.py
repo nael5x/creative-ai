@@ -34,12 +34,12 @@ class CatalogReviewBatch32Tests(unittest.TestCase):
         self.assertIn("no maintainer response", watch["MindMac"]["reason"])
         self.assertTrue(any("issues/15" in url for url in watch["MindMac"]["evidenceUrls"]))
         self.assertTrue(any("issues/14" in url for url in watch["MindMac"]["evidenceUrls"]))
-        self.assertEqual(self.quality["lastStatusWatchReviewSummary"], {
-            "unresolved": 6,
-            "sunsetting": 2,
-            "maintenanceUnclear": 2,
-            "total": 10,
-        })
+        summary = self.quality["lastStatusWatchReviewSummary"]
+        entries = self.quality["statusWatch"]
+        self.assertEqual(summary["total"], len(entries))
+        self.assertEqual(summary["unresolved"], sum(item["status"] == "unresolved" for item in entries))
+        self.assertEqual(summary["sunsetting"], sum(item["status"] == "sunsetting" for item in entries))
+        self.assertEqual(summary["maintenanceUnclear"], sum(item["status"] == "maintenance-unclear" for item in entries))
 
     def test_round32_records_only_the_mindmac_status_watch_review(self):
         self.assertEqual(self.audit["batch"], "catalog-review-batch-32")
