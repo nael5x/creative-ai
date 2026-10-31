@@ -1,0 +1,42 @@
+name: Build Creative AI React components
+
+on:
+  push:
+    branches:
+      - "**"
+    paths:
+      - "package.json"
+      - "vite.config.js"
+      - "scripts/components-entry.jsx"
+      - "scripts/creative-ai-components.css"
+      - "vendor/react-bits/**"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install component dependencies
+        run: npm install --no-audit --no-fund
+      - name: Build isolated component bundle
+        run: npm run build:components
+      - name: Commit static bundle for GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/creative-ai-components.js creative-ai-components.css
+          if git diff --cached --quiet; then
+            echo "Component bundle is already up to date."
+            exit 0
+          fi
+          git commit -m "build: compile Creative AI React components [skip ci]"
+          git push
