@@ -1194,33 +1194,33 @@
   [
     "eesel AI",
     "Customer support",
-    "AI support agent platform that connects company knowledge to helpdesk and chat workflows.",
-    "For teams that want an AI agent grounded in internal docs and existing support systems.",
-    "Free tier / Paid",
+    "AI customer-support workspace with autonomous helpdesk agents, human-review copilot, ticket triage, website chatbot and internal knowledge agent, grounded in connected helpdesks, Slack and company knowledge.",
+    "For support teams that want to automate routine tickets and assist human agents using existing helpdesk content and workflows, with review and escalation controls.",
+    "Free trial / Paid",
     "https://www.eesel.ai/"
   ],
   [
     "Eightfold AI",
     "HR & recruiting",
-    "AI talent-intelligence platform for recruiting, internal mobility and workforce planning.",
-    "For enterprises matching people, skills and roles across hiring and employee development.",
-    "Paid",
-    "https://eightfold.ai/"
+    "Agentic talent-intelligence platform that models skills, experience, aspirations and work context to support talent acquisition, internal mobility, workforce planning, talent management and AI-powered recruiting agents.",
+    "For enterprise HR and talent teams that need skills-based hiring and workforce decisions across recruiting, development and planning rather than résumé keyword matching alone.",
+    "Enterprise / Request demo",
+    "https://eightfold.ai/products/"
   ],
   [
     "Elai.io",
     "Video",
-    "AI avatar video generator for training, explainers and multilingual presenter content.",
-    "For business teams turning scripts into presenter videos at scale.",
+    "AI text-to-video platform for creating presenter-led training and explainer videos from scripts, documents and presentations, with customizable avatars, voice cloning, multilingual narration and interactive learning elements.",
+    "For organizations that need to produce and localize training or instructional videos without filming every presenter-led lesson.",
     "Free tier / Paid",
     "https://elai.io/"
   ],
   [
     "Elephas",
     "Productivity",
-    "Personal AI assistant for Apple devices with writing and knowledge features.",
-    "For Mac and iOS users who want AI integrated into their existing device workflow.",
-    "Paid",
+    "Private AI knowledge workspace for Mac with local document indexing, chat over PDFs and notes, cited answers, web search and agents; supports offline/on-device operation, optional cloud models and iPhone/iPad access.",
+    "For Mac users who want an assistant grounded in personal files and notes while keeping indexing local and choosing where AI processing happens.",
+    "Free tier / Paid",
     "https://elephas.app/"
   ],
   [
@@ -1242,25 +1242,25 @@
   [
     "EvenUp",
     "Legal",
-    "AI platform for personal-injury legal workflows, document analysis and demand preparation.",
-    "For personal-injury firms processing case documents and damages information at scale.",
-    "Paid",
+    "AI platform for plaintiff personal-injury law firms that organizes medical records, builds treatment timelines and damages summaries, and drafts evidence-grounded settlement demand packages with legal and medical review workflows.",
+    "For personal-injury firms handling high volumes of medical records and demand preparation; attorneys remain responsible for verifying evidence and legal conclusions.",
+    "Enterprise / Request demo",
     "https://www.evenuplaw.com/"
   ],
   [
     "Exa",
     "Research",
-    "Search and crawling API designed for AI applications and agents.",
-    "For developers who need fresh web search, page retrieval and research data inside AI systems.",
-    "Free tier / Paid",
+    "Neural web-search and retrieval API for AI applications, with semantic and keyword search, page contents, structured results, crawling and research workflows designed for agents and RAG systems.",
+    "For developers building research agents and AI applications that need relevant web sources and clean page content rather than relying only on conventional keyword search.",
+    "Free credits / Paid usage",
     "https://exa.ai/"
   ],
   [
     "Explainpaper",
     "Research",
-    "AI reading tool that explains highlighted passages from academic papers in simpler language.",
-    "For students and researchers unpacking dense technical writing while reading papers.",
-    "Free tier / Paid",
+    "AI research-paper reader that explains highlighted passages in context, answers follow-up questions grounded in the uploaded paper, cites relevant sections and generates outlines, key findings and summaries.",
+    "For students and researchers who need help understanding dense papers while keeping explanations tied to the source document and its exact sections.",
+    "Free tier / Pro",
     "https://www.explainpaper.com/"
   ],
   [
@@ -1282,10 +1282,10 @@
   [
     "fal",
     "AI infrastructure",
-    "Developer platform for running generative image, video, audio and 3D models through APIs.",
-    "For products that need fast access to a broad catalog of generative media models.",
-    "Paid",
-    "https://fal.ai/"
+    "Inference platform for generative media and world models, providing hosted APIs for image, video, audio and 3D models plus autoscaling serverless GPUs for deploying custom models and pipelines.",
+    "For developers and creative platforms that need production inference for generative-media models without provisioning and operating GPU infrastructure themselves.",
+    "Pay as you go / Enterprise",
+    "https://fal.ai/inference"
   ],
   [
     "Fathom",
@@ -1298,9 +1298,9 @@
   [
     "FeedHive",
     "Social media",
-    "AI-assisted social media scheduling and content reuse platform.",
-    "For creators and teams that want publishing automation plus writing suggestions.",
-    "Paid",
+    "AI social-media workspace for generating on-brand captions and visuals, planning and scheduling posts, automating publishing conditions, collaborating with teams and connecting external AI agents through API and MCP.",
+    "For creators, brands and agencies that want AI-assisted content creation and controlled cross-channel publishing in one workflow.",
+    "7-day trial / Paid",
     "https://www.feedhive.com/"
   ],
   [
@@ -1314,10 +1314,10 @@
   [
     "Felo",
     "Research",
-    "Multilingual AI search and creation platform for research, documents and generated content.",
-    "For cross-language research and quick synthesis from web and document sources.",
+    "Multilingual AI search and creation platform that combines cited web research with deep-research agents, AI slides and PowerPoint, mind maps, document and webpage creation, and image/video tools.",
+    "For users who want to move from multilingual research and source discovery to structured reports, presentations and other deliverables in one workspace.",
     "Free tier / Paid",
-    "https://felo.ai/"
+    "https://felo.ai/en"
   ],
   [
     "Figma AI",
@@ -1330,9 +1330,9 @@
   [
     "Filmora AI",
     "Video",
-    "AI-assisted editing tools inside Wondershare Filmora for video, audio and effects.",
-    "For general creators who want accessible desktop video editing with generative assistance.",
-    "Free tier / Paid",
+    "AI feature suite inside Wondershare Filmora, including text-to-video and image-to-video, AI portrait and cutout, smart scene and audio tools, speech-to-text, text-based editing and generative editing workflows.",
+    "For video editors who want AI-assisted generation, cleanup and editing inside a familiar timeline editor rather than a separate generation-only app. This is a Filmora capability suite.",
+    "Free trial / Paid Filmora plans",
     "https://filmora.wondershare.com/ai-features.html"
   ],
   [
@@ -1346,17 +1346,17 @@
   [
     "Findem",
     "HR & recruiting",
-    "AI talent-data and recruiting platform for candidate discovery, sourcing and workforce intelligence.",
-    "For enterprises combining talent search with structured people data.",
-    "Paid",
-    "https://www.findem.ai/"
+    "AI people-intelligence platform that builds a contextual graph of skills, career signals and relationships to power talent sourcing, executive search, candidate engagement, workforce planning and agentic people workflows.",
+    "For recruiting and HR teams that need evidence-rich talent discovery and workforce insight beyond static résumés and keyword filters.",
+    "Enterprise / Request demo",
+    "https://www.findem.ai/platform"
   ],
   [
     "Firecrawl",
     "Data extraction",
-    "Web crawling and extraction API designed to turn sites into LLM-ready data.",
-    "For developers building research, RAG and agent workflows that need clean web content.",
-    "Open source",
+    "Web data API and open-source toolkit for crawling, scraping, mapping and searching websites into clean Markdown or structured data for LLMs and agents, with extraction schemas, browser rendering and MCP integration.",
+    "For developers building RAG, research agents and data pipelines that need reliable, structured web content from live sites.",
+    "Free tier / Paid",
     "https://www.firecrawl.dev/"
   ],
   [
@@ -1370,16 +1370,16 @@
   [
     "Fireworks AI",
     "AI infrastructure",
-    "Managed inference platform for fast deployment of generative AI models and workloads.",
-    "For developers serving production AI apps with hosted model infrastructure.",
-    "Paid",
-    "https://fireworks.ai/"
+    "Inference and model-training platform for open and custom AI models, with serverless APIs, dedicated autoscaling GPU deployments, supervised fine-tuning and reinforcement fine-tuning for production workloads.",
+    "For teams that need low-latency production serving and customization of open models without building their own inference and GPU-training stack.",
+    "Free credits / Paid usage",
+    "https://fireworks.ai/inference"
   ],
   [
     "Flair AI",
     "Images & design",
-    "AI visual production tool focused on product photography and branded scenes.",
-    "For ecommerce teams generating styled product imagery without a full photo shoot.",
+    "AI visual-production platform for branded product and marketing imagery, with drag-and-drop scene staging, custom product or human models, image editing, variations, upscaling and short video generation.",
+    "For ecommerce and marketing teams that need consistent branded product visuals and campaign assets without arranging a new photoshoot for each variation.",
     "Free tier / Paid",
     "https://flair.ai/"
   ],

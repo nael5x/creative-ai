@@ -3438,6 +3438,176 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For educators who need to prepare differentiated instructional materials and assessments faster while keeping the teacher in control of the final lesson.",
       "decision": "accepted"
+    },
+    {
+      "name": "eesel AI",
+      "officialUrl": "https://www.eesel.ai/",
+      "evidenceUrls": [
+        "https://www.eesel.ai/",
+        "https://docs.eesel.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For support teams that want to automate routine tickets and assist human agents using existing helpdesk content and workflows, with review and escalation controls.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Eightfold AI",
+      "officialUrl": "https://eightfold.ai/products/",
+      "evidenceUrls": [
+        "https://eightfold.ai/products/",
+        "https://eightfold.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For enterprise HR and talent teams that need skills-based hiring and workforce decisions across recruiting, development and planning rather than résumé keyword matching alone.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Elai.io",
+      "officialUrl": "https://elai.io/",
+      "evidenceUrls": [
+        "https://elai.io/",
+        "https://elai.io/pricing",
+        "https://www.panopto.com/news/panopto-acquisition-of-elai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For organizations that need to produce and localize training or instructional videos without filming every presenter-led lesson.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Elephas",
+      "officialUrl": "https://elephas.app/",
+      "evidenceUrls": [
+        "https://elephas.app/",
+        "https://elephas.app/pricing",
+        "https://elephas.app/support/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For Mac users who want an assistant grounded in personal files and notes while keeping indexing local and choosing where AI processing happens.",
+      "decision": "accepted"
+    },
+    {
+      "name": "EvenUp",
+      "officialUrl": "https://www.evenuplaw.com/",
+      "evidenceUrls": [
+        "https://www.evenuplaw.com/",
+        "https://www.evenuplaw.com/products/demands/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For personal-injury firms handling high volumes of medical records and demand preparation; attorneys remain responsible for verifying evidence and legal conclusions.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Exa",
+      "officialUrl": "https://exa.ai/",
+      "evidenceUrls": [
+        "https://exa.ai/",
+        "https://docs.exa.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building research agents and AI applications that need relevant web sources and clean page content rather than relying only on conventional keyword search.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Explainpaper",
+      "officialUrl": "https://www.explainpaper.com/",
+      "evidenceUrls": [
+        "https://www.explainpaper.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students and researchers who need help understanding dense papers while keeping explanations tied to the source document and its exact sections.",
+      "decision": "accepted"
+    },
+    {
+      "name": "fal",
+      "officialUrl": "https://fal.ai/inference",
+      "evidenceUrls": [
+        "https://fal.ai/inference",
+        "https://fal.ai/serverless",
+        "https://docs.fal.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and creative platforms that need production inference for generative-media models without provisioning and operating GPU infrastructure themselves.",
+      "decision": "accepted"
+    },
+    {
+      "name": "FeedHive",
+      "officialUrl": "https://www.feedhive.com/",
+      "evidenceUrls": [
+        "https://www.feedhive.com/",
+        "https://www.feedhive.com/features/ai",
+        "https://www.feedhive.com/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, brands and agencies that want AI-assisted content creation and controlled cross-channel publishing in one workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Felo",
+      "officialUrl": "https://felo.ai/en",
+      "evidenceUrls": [
+        "https://felo.ai/en",
+        "https://felo.ai/en/version",
+        "https://felo.ai/tools"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For users who want to move from multilingual research and source discovery to structured reports, presentations and other deliverables in one workspace.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Filmora AI",
+      "officialUrl": "https://filmora.wondershare.com/ai-features.html",
+      "evidenceUrls": [
+        "https://filmora.wondershare.com/ai-features.html",
+        "https://filmora.wondershare.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For video editors who want AI-assisted generation, cleanup and editing inside a familiar timeline editor rather than a separate generation-only app. This is a Filmora capability suite.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Findem",
+      "officialUrl": "https://www.findem.ai/platform",
+      "evidenceUrls": [
+        "https://www.findem.ai/platform",
+        "https://www.findem.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For recruiting and HR teams that need evidence-rich talent discovery and workforce insight beyond static résumés and keyword filters.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Firecrawl",
+      "officialUrl": "https://www.firecrawl.dev/",
+      "evidenceUrls": [
+        "https://www.firecrawl.dev/",
+        "https://docs.firecrawl.dev/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building RAG, research agents and data pipelines that need reliable, structured web content from live sites.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fireworks AI",
+      "officialUrl": "https://fireworks.ai/inference",
+      "evidenceUrls": [
+        "https://fireworks.ai/inference",
+        "https://docs.fireworks.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams that need low-latency production serving and customization of open models without building their own inference and GPU-training stack.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Flair AI",
+      "officialUrl": "https://flair.ai/",
+      "evidenceUrls": [
+        "https://flair.ai/",
+        "https://flair.ai/pricing",
+        "https://flair.ai/resources/faq"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce and marketing teams that need consistent branded product visuals and campaign assets without arranging a new photoshoot for each variation.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -3453,7 +3623,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-16",
+  "lastQualityReviewBatch": "catalog-review-batch-17",
   "lastQualityReviewBatchSummary": {
     "accepted": 15,
     "rejected": 0,
