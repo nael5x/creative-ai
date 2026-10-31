@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-16",
+  "reviewedAt": "2026-10-31",
+  "scope": "Review of the next 15 alphabetically pending active catalog entries, DeepSeek through Eduaide.AI. All 15 accepted after first-party checks; no removals, supersessions or status-watch changes.",
+  "accepted": [
+    {
+      "name": "DeepSeek",
+      "category": "Writing & coding",
+      "description": "AI assistant and model/API platform offering general-purpose and reasoning models, coding and multimodal capabilities, tool calling, and a first-party Search & Fetch API for agents and RAG applications.",
+      "userValue": "For everyday users who need a capable assistant and developers who want to integrate DeepSeek models and live web retrieval into applications.",
+      "availability": "Free / Paid API",
+      "url": "https://www.deepseek.com/en/",
+      "evidenceUrls": [
+        "https://www.deepseek.com/en/",
+        "https://api-docs.deepseek.com/updates/",
+        "https://api-docs.deepseek.com/guides/search/",
+        "https://api-docs.deepseek.com/quick_start/pricing/"
+      ]
+    },
+    {
+      "name": "Defog",
+      "category": "Data & analytics",
+      "description": "AI data analyst that lets users ask natural-language questions across structured databases and files, generates the relevant SQL, retrieves data and visualizes results; supports API and Docker-based deployment.",
+      "userValue": "For teams that want faster exploration of structured business data without waiting for every question to be answered manually in SQL.",
+      "availability": "Paid / Self-hosted",
+      "url": "https://defog.ai/",
+      "evidenceUrls": [
+        "https://defog.ai/",
+        "https://docs.defog.ai/"
+      ]
+    },
+    {
+      "name": "Devin",
+      "category": "Coding",
+      "description": "Autonomous AI software engineer that plans and executes development tasks, works in a cloud or local environment, uses its own browser and terminal, runs tests and prepares pull requests for review.",
+      "userValue": "For engineering teams delegating scoped multi-step implementation, debugging and maintenance work while retaining code review and merge control.",
+      "availability": "Paid",
+      "url": "https://devin.ai/",
+      "evidenceUrls": [
+        "https://devin.ai/",
+        "https://docs.devin.ai/"
+      ]
+    },
+    {
+      "name": "Dext",
+      "category": "Finance & accounting",
+      "description": "Bookkeeping automation platform for accountants and businesses, combining receipt and invoice capture, document data extraction, bank feeds, machine-learning categorization and Dext AI Assist for guided bookkeeping actions and publishing.",
+      "userValue": "For accounting firms and businesses that process recurring financial documents and want structured extraction and rule-guided automation with review controls.",
+      "availability": "14-day trial / Paid",
+      "url": "https://dext.com/en",
+      "evidenceUrls": [
+        "https://dext.com/en",
+        "https://help.dext.com/en/articles/416713-rules-and-automation-in-dext",
+        "https://help.dext.com/en/articles/416727-getting-started-with-dext-for-accountants-and-bookkeepers"
+      ]
+    },
+    {
+      "name": "Diffbot",
+      "category": "Data extraction",
+      "description": "AI models that read and classify web pages and transform unstructured web content into structured entities and a linked Knowledge Graph, through Extract, Crawl, Search/DQL, Enhance and Natural Language APIs.",
+      "userValue": "For developers and enterprises that need large-scale, structured web data and entity relationships for search, analytics, enrichment and AI applications.",
+      "availability": "Paid",
+      "url": "https://www.diffbot.com/",
+      "evidenceUrls": [
+        "https://www.diffbot.com/docs/",
+        "https://www.diffbot.com/docs/extract/"
+      ]
+    },
+    {
+      "name": "Digits",
+      "category": "Finance & accounting",
+      "description": "AI-native general ledger and accounting platform for businesses and accountants, with automated bookkeeping, agentic month-end close, Ask Digits financial assistant, scheduled accruals, real-time reporting and developer API/MCP.",
+      "userValue": "For business owners, finance teams and accounting firms that need continuously updated books, financial answers and automated close workflows in one system.",
+      "availability": "Free trial / Paid",
+      "url": "https://digits.com/",
+      "evidenceUrls": [
+        "https://digits.com/",
+        "https://digits.com/pricing"
+      ]
+    },
+    {
+      "name": "Documind",
+      "category": "Documents",
+      "description": "AI document assistant for asking questions across multiple PDFs with source citations, multilingual chat, document collections, content generation and shareable or embeddable knowledge chatbots, with API access.",
+      "userValue": "For students and teams that need a searchable conversational layer over document collections and want to share a document-grounded chatbot with others.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.documind.chat/",
+      "evidenceUrls": [
+        "https://www.documind.chat/"
+      ]
+    },
+    {
+      "name": "Docyt",
+      "category": "Finance & accounting",
+      "description": "AI-native ERP for hospitality, restaurants, retail and franchises, combining accounting, payments, revenue reconciliation, continuous close, multi-entity consolidation, tax and business intelligence through specialized AI agents with human oversight.",
+      "userValue": "For multi-location operators and accounting teams that need automated, consolidated financial operations across properties and business units.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://www.docyt.com/",
+      "evidenceUrls": [
+        "https://www.docyt.com/"
+      ]
+    },
+    {
+      "name": "Dreamina",
+      "category": "Images & design",
+      "description": "CapCut's all-in-one AI creative platform, powered by image and video generation models, with text- and image-to-image/video creation, AI photo editing, style transfer, templates and effects.",
+      "userValue": "For creators who want to generate and edit visual assets and short videos in one connected creative workflow.",
+      "availability": "Free tier / Paid",
+      "url": "https://dreamina.capcut.com/",
+      "evidenceUrls": [
+        "https://dreamina.capcut.com/"
+      ]
+    },
+    {
+      "name": "Dropzone AI",
+      "category": "Cybersecurity",
+      "description": "Autonomous AI security-operations platform with specialized agents for alert investigation, threat hunting and threat intelligence; correlates evidence across SIEM, EDR, identity, cloud and email tools and presents explainable verdicts with configurable human control.",
+      "userValue": "For SOC teams that need to investigate more security alerts and threat signals across their existing stack without giving up analyst oversight or auditability.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://www.dropzone.ai/",
+      "evidenceUrls": [
+        "https://www.dropzone.ai/product/ai-soc-analyst",
+        "https://docs.dropzone.ai/",
+        "https://www.dropzone.ai/"
+      ]
+    },
+    {
+      "name": "DSPy",
+      "category": "AI development",
+      "description": "Open-source framework for programming and optimizing language-model pipelines and agents through declarative modules, signatures, evaluators and optimizers that compile workflows for a target model.",
+      "userValue": "For developers and researchers who want reproducible, measurable LLM applications instead of manually tuning prompt chains for every model.",
+      "availability": "Open source",
+      "url": "https://dspy.ai/",
+      "evidenceUrls": [
+        "https://dspy.ai/",
+        "https://github.com/stanfordnlp/dspy"
+      ]
+    },
+    {
+      "name": "Dubverse",
+      "category": "Translation",
+      "description": "AI speech and video-localization platform for multilingual dubbing, subtitles, transcription and text-to-speech, with voice cloning, lip-sync, multi-speaker editing, AI translation controls and APIs.",
+      "userValue": "For creators and businesses that need to localize video and audio content while retaining control over translated scripts, voices and timing.",
+      "availability": "Free trial / Paid",
+      "url": "https://dubverse.ai/",
+      "evidenceUrls": [
+        "https://dubverse.ai/",
+        "https://dubverse.ai/blog/dubverse-joins-exotel/",
+        "https://help.dubverse.ai/en/collections/9630884-product-updates",
+        "https://help.dubverse.ai/en/articles/12381188-introducing-lipsync-in-dubverse"
+      ]
+    },
+    {
+      "name": "Dust",
+      "category": "AI agents",
+      "description": "Enterprise agent platform that connects company knowledge, tools and teams so organizations can create, share and run agents across real workflows, with model choice, reusable skills, permissions, audit logs and human review.",
+      "userValue": "For organizations building internal AI workflows grounded in company systems and requiring collaboration, governance and control over agent actions.",
+      "availability": "Free trial / Paid",
+      "url": "https://dust.tt/",
+      "evidenceUrls": [
+        "https://dust.tt/"
+      ]
+    },
+    {
+      "name": "Ecrett Music",
+      "category": "Music",
+      "description": "AI soundtrack generator that creates royalty-free music from scene, mood and genre choices, with previews, saved tracks and subscription licensing for personal and commercial projects.",
+      "userValue": "For video creators who need quick background music matched to a scene or mood, with a clear license for the intended use.",
+      "availability": "Free preview / Paid license",
+      "url": "https://ecrettmusic.com/",
+      "evidenceUrls": [
+        "https://ecrettmusic.com/",
+        "https://ecrettmusic.com/terms"
+      ]
+    },
+    {
+      "name": "Eduaide.AI",
+      "category": "Education",
+      "description": "AI toolkit for K–12 teachers that generates standards- and curriculum-aligned lesson plans, worksheets, graphic organizers, games, assessments, rubrics and classroom activities through guided workflows.",
+      "userValue": "For educators who need to prepare differentiated instructional materials and assessments faster while keeping the teacher in control of the final lesson.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.eduaide.ai/",
+      "evidenceUrls": [
+        "https://www.eduaide.ai/"
+      ]
+    }
+  ],
+  "superseded": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "DeepSeek's official October 17, 2026 changelog confirms current DeepSeek-V4.1-Flash and first-party Search & Fetch APIs; retired model identifiers are not repeated in the catalog description.",
+    "Dext is accepted as an AI-enabled bookkeeping platform because its official help centre documents Dext AI Assist as an AI bookkeeping agent, in addition to machine-learning categorization and document extraction.",
+    "Documind is retained as a document-specific workflow, not described as a general-purpose model: its official product supports multi-PDF Q&A with source citations, multilingual document chat, shareable/embeddable knowledge chatbots and API access.",
+    "Docyt's current official positioning is an AI-native ERP for hospitality, restaurants, retail and franchises, with multiple specialized agents and human-in-the-loop controls.",
+    "Dubverse's founders and technical team joined Exotel in April 2026, but Dubverse's official announcement explicitly states that the product continues to operate independently with no changes to subscriptions, access or ongoing service; it is therefore retained as active, not marked discontinued.",
+    "Dropzone AI's current product page describes evidence-backed autonomous alert investigation, threat hunting and threat-intelligence agents with analyst control; no unsupported vendor performance statistics are copied into the catalog."
+  ]
+}
