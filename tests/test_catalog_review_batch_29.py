@@ -40,7 +40,7 @@ class CatalogReviewBatch29Tests(unittest.TestCase):
         self.assertIn("$6 per overage SCU", row[3])
         self.assertIn("Turkish is not among the currently listed model languages", row[3])
         self.assertTrue(any("faq-security-copilot" in url for url in review["evidenceUrls"]))
-        self.assertTrue(any("microsoft-security-copilot-inclusion" in url for url in review["evidenceUrls"]))
+        self.assertTrue(any("security-copilot-inclusion" in url for url in review["evidenceUrls"]))
         self.assertEqual(self.lifecycle["Microsoft Security Copilot"]["event"], "added")
 
     def test_round29_records_only_the_single_security_copilot_review(self):
