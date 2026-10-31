@@ -9,6 +9,28 @@ CATALOG_CSS = (ROOT / "styles" / "catalog.css").read_text(encoding="utf-8")
 
 
 class ToolsDiscoveryContractTests(unittest.TestCase):
+
+    def test_homepage_task_first_search_is_connected_to_catalog_search(self):
+        self.assertIn('id="heroSearch"', HOME)
+        self.assertIn('$("heroSearch").oninput', HOME)
+        self.assertIn('$("heroSearch").onkeydown', HOME)
+        self.assertIn('heroPlaceholder:"Search tools, tasks or ideas…"', HOME)
+        self.assertIn('heroPlaceholder:"ابحث عن أداة أو مهمة أو فكرة…"', HOME)
+
+    def test_catalog_search_state_is_shareable_and_resettable(self):
+        self.assertIn('query=params.get("q")||""', TOOLS)
+        self.assertIn('p.set("q",query.trim())', TOOLS)
+        self.assertIn('id="clearFilters"', TOOLS)
+        self.assertIn('clearFilters").onclick', TOOLS)
+        self.assertIn('id="availabilityFilters"', TOOLS)
+
+    def test_category_directory_has_live_search(self):
+        categories = (ROOT / "categories.html").read_text(encoding="utf-8")
+        self.assertIn('id="categorySearch"', categories)
+        self.assertIn('id="categorySearchCount"', categories)
+        self.assertIn('categoryQuery.toLowerCase()', categories)
+        self.assertIn('categoryCount:n=>', categories)
+
     def test_homepage_links_to_dedicated_database(self):
         self.assertIn('id="navTools" href="tools.html"', HOME)
         self.assertIn('$("navTools").href="tools.html"+q', HOME)
