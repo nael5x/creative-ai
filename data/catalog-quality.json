@@ -1198,7 +1198,7 @@
     },
     {
       "name": "Magnific",
-      "officialUrl": "https://www.magnific.com/",
+      "officialUrl": "https://www.magnific.com/ai",
       "evidenceUrls": [
         "https://www.magnific.com/ai",
         "https://www.magnific.com/ai/docs/freepik-is-now-magnific",
@@ -2056,14 +2056,16 @@
     },
     {
       "name": "PlayHT",
-      "officialUrl": "https://play.ht/",
+      "officialUrl": "https://docs.play.ht/reference/models",
       "evidenceUrls": [
-        "https://play.ht/"
+        "https://docs.play.ht/reference/models",
+        "https://docs.play.ht/reference/api-getting-started",
+        "https://docs.play.ht/reference/playht-tts-websocket-api",
+        "https://docs.play.ht/reference/python-sdk"
       ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed because the maintained product domain no longer resolves as a usable service during the full source-health audit and a current first-party product surface could not be verified.",
-      "decision": "rejected",
-      "reason": "Removed because the maintained product domain no longer resolves as a usable service during the full source-health audit and a current first-party product surface could not be verified."
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and developers who need expressive text-to-speech, voice cloning, multilingual speech and low-latency streaming; official docs currently describe Play3.0-mini, PlayDialog and live API endpoints.",
+      "decision": "accepted"
     },
     {
       "name": "Relay.app",
@@ -2101,15 +2103,15 @@
     },
     {
       "name": "Tabnine",
-      "officialUrl": "https://www.tabnine.com/",
+      "officialUrl": "https://docs.tabnine.com/main",
       "evidenceUrls": [
-        "https://www.tabnine.com/",
-        "https://www.tricentis.com/"
+        "https://www.tabnine.com/ai-code-assistant/",
+        "https://docs.tabnine.com/main/administering-tabnine/release-notes",
+        "https://docs.tabnine.com/main/getting-started/tabnine-agent"
       ],
       "reviewedAt": "2026-10-31",
-      "userValue": "Removed from the active catalog because the official domain now redirects to a general Tricentis page and no dedicated current first-party product destination could be verified. Re-add only when a canonical product page is available.",
-      "decision": "rejected",
-      "reason": "Removed from the active catalog because the official domain now redirects to a general Tricentis page and no dedicated current first-party product destination could be verified. Re-add only when a canonical product page is available."
+      "userValue": "For developers and engineering teams that need context-aware coding assistance, agentic workflows and enterprise controls inside supported IDEs; official release notes document ongoing releases through March 2026.",
+      "decision": "accepted"
     },
     {
       "name": "Tezi",
@@ -2325,7 +2327,7 @@
         "https://github.com/microsoft/agent-framework/blob/main/LICENSE"
       ],
       "reviewedAt": "2026-10-31",
-      "userValue": "For developers building production agent systems that need durable workflows, provider flexibility, explicit orchestration and a current path from AutoGen or Semantic Kernel.",
+      "userValue": "For developers building production agent systems that need durable workflows, provider flexibility and explicit orchestration, including migration from archived AutoGen.",
       "decision": "accepted"
     },
     {
@@ -2419,9 +2421,9 @@
         "https://learn.microsoft.com/en-us/agent-framework/overview"
       ],
       "reviewedAt": "2026-10-31",
-      "userValue": "Microsoft's official AutoGen repository places the project in maintenance mode and directs new users to Microsoft Agent Framework. The current catalog now lists that supported successor rather than recommending the legacy framework separately.",
+      "userValue": "Microsoft's official repository marks AutoGen archived and no longer maintained. Microsoft says it will provide no bug fixes, security fixes, new features or support, warns against production use, and directs new projects to Microsoft Agent Framework.",
       "decision": "rejected",
-      "reason": "Microsoft's official AutoGen repository places the project in maintenance mode and directs new users to Microsoft Agent Framework. The current catalog now lists that supported successor rather than recommending the legacy framework separately.",
+      "reason": "Microsoft's official repository marks AutoGen archived and no longer maintained. Microsoft says it will provide no bug fixes, security fixes, new features or support, warns against production use, and directs new projects to Microsoft Agent Framework.",
       "supersededBy": "Microsoft Agent Framework"
     },
     {
@@ -2429,14 +2431,11 @@
       "officialUrl": "https://learn.microsoft.com/semantic-kernel/",
       "evidenceUrls": [
         "https://learn.microsoft.com/en-us/semantic-kernel/",
-        "https://learn.microsoft.com/en-us/agent-framework/overview",
-        "https://learn.microsoft.com/en-us/agent-framework/support/faq"
+        "https://github.com/microsoft/semantic-kernel/releases"
       ],
       "reviewedAt": "2026-10-31",
-      "userValue": "Microsoft's current Agent Framework documentation identifies Agent Framework as the successor to Semantic Kernel and AutoGen and provides migration guidance. The current catalog consolidates new-project guidance in one framework entry.",
-      "decision": "rejected",
-      "reason": "Microsoft's current Agent Framework documentation identifies Agent Framework as the successor to Semantic Kernel and AutoGen and provides migration guidance. The current catalog consolidates new-project guidance in one framework entry.",
-      "supersededBy": "Microsoft Agent Framework"
+      "userValue": "For developers adding model providers, plugins, memory and orchestration to existing .NET/Python applications; Microsoft continues to publish releases while Agent Framework offers a newer agent-focused path.",
+      "decision": "accepted"
     },
     {
       "name": "Clio Duo",
@@ -2621,7 +2620,7 @@
     },
     {
       "name": "Manage AI",
-      "officialUrl": "https://www.clio.com/features/",
+      "officialUrl": "https://www.clio.com/manage/",
       "evidenceUrls": [
         "https://www.clio.com/manage/",
         "https://www.clio.com/blog/clio-2025-year-in-review/",
@@ -2659,13 +2658,14 @@
   "lastQualityReviewBatchAt": "2026-10-31",
   "lastQualityReviewBatch": "catalog-review-batch-9",
   "lastQualityReviewBatchSummary": {
-    "accepted": 10,
-    "rejected": 16,
-    "superseded": 12,
+    "accepted": 13,
+    "rejected": 15,
+    "superseded": 11,
     "retired": 4,
     "mergedIntoExisting": 1,
-    "updatedExisting": 1,
-    "recommenderProfilesAdded": 2,
+    "updatedExisting": 2,
+    "rechecked": 2,
+    "recommenderProfilesAdded": 3,
     "recommenderProfilesRenamed": 1,
     "recommenderProfilesRemoved": 1
   }

@@ -2541,7 +2541,7 @@
     "Creative AI production platform for image, video, audio, 3D, upscaling, stock assets and collaborative workflows.",
     "For creators, agencies and teams that want generation, editing, upscaling, stock assets and multi-format AI production in one workspace.",
     "Free tier / Paid",
-    "https://www.magnific.com/"
+    "https://www.magnific.com/ai"
   ],
   [
     "Make",
@@ -2557,7 +2557,7 @@
     "Context-aware AI capabilities built into Clio Manage for legal-practice operations and matter workflows.",
     "For law firms using Clio that want AI to surface priorities, extract deadlines, draft content, summarize matter activity and automate practice-management tasks.",
     "Paid",
-    "https://www.clio.com/features/"
+    "https://www.clio.com/manage/"
   ],
   [
     "MarketMuse",
@@ -2666,8 +2666,8 @@
   [
     "Microsoft Agent Framework",
     "AI development",
-    "Open-source SDK for building and orchestrating production-grade AI agents and multi-agent workflows in Python and .NET, with tools, memory, middleware, observability and human-in-the-loop execution.",
-    "For developers building production agent systems that need durable workflows, provider flexibility, explicit orchestration and a current path from AutoGen or Semantic Kernel.",
+    "Open-source Microsoft SDK for building and orchestrating production AI agents and multi-agent workflows in Python and .NET, with tools, memory, middleware, observability and human-in-the-loop execution. Microsoft recommends it for new projects replacing archived AutoGen.",
+    "For developers building production agent systems that need durable workflows, provider flexibility and explicit orchestration, including migration from archived AutoGen.",
     "Open source",
     "https://learn.microsoft.com/en-us/agent-framework/overview/"
   ],
@@ -3280,6 +3280,14 @@
     "https://playgroundai.com/"
   ],
   [
+    "PlayHT",
+    "Voice & audio",
+    "AI text-to-speech and voice-generation platform with Play3.0-mini and PlayDialog models, voice cloning, multilingual speech generation and low-latency streaming APIs.",
+    "For creators and developers who need expressive narration, voice cloning or real-time multilingual speech in apps and media workflows; official documentation continues to describe current models and API endpoints.",
+    "Pricing varies",
+    "https://docs.play.ht/reference/models"
+  ],
+  [
     "Plus AI",
     "Presentations",
     "AI presentation assistant for creating and editing slides inside Google Slides and PowerPoint.",
@@ -3840,6 +3848,14 @@
     "https://www.seekout.com/"
   ],
   [
+    "Semantic Kernel",
+    "AI development",
+    "Open-source SDK for integrating AI models, plugins, memory and orchestration into .NET and Python applications. It continues to receive releases; Microsoft Agent Framework is a newer agent-focused option, not a notice that Semantic Kernel has been discontinued.",
+    "For developers adding model providers, plugins, memory and orchestration to existing .NET/Python applications; Microsoft continues to publish releases while Agent Framework offers a newer agent-focused path.",
+    "Open source",
+    "https://learn.microsoft.com/semantic-kernel/"
+  ],
+  [
     "Semantic Scholar",
     "Research",
     "AI-powered academic search engine for scientific literature.",
@@ -4230,6 +4246,14 @@
     "For teams that need proactive KPI insights and guided exploration without manually inspecting every dashboard.",
     "Paid",
     "https://www.tableau.com/products/tableau-pulse"
+  ],
+  [
+    "Tabnine",
+    "Coding",
+    "AI coding assistant for code completion, chat and agentic development workflows, with code review, code explanation, refactoring and enterprise privacy/deployment controls. The product remains active under Tricentis.",
+    "For developers and engineering teams that need context-aware coding assistance, agentic workflows and enterprise controls inside supported IDEs; Tabnine's official release notes continue to document active releases.",
+    "Free tier / Paid",
+    "https://docs.tabnine.com/main"
   ],
   [
     "Tactiq",
