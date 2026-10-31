@@ -7,6 +7,7 @@
   <meta name="description" content="Practical details, verified facts, provenance, related tools, alternatives and comparison actions for a Creative AI catalog entry.">
   <link rel="stylesheet" href="styles/design-system.css">
   <link rel="stylesheet" href="styles/catalog.css">
+  <link rel="stylesheet" href="styles/creative-ai-theme.css">
 </head>
 <body class="catalog-redesign">
 <main class="wrap">
@@ -86,4 +87,5 @@ function applyLanguage(){const t=copy[lang];document.documentElement.lang=lang;d
 $("lang").onclick=()=>{lang=lang==="en"?"ar":"en";applyLanguage()};$("stackAction").onclick=saveToStack;
 Promise.all([fetch("data/tools.json",{cache:"default"}),fetch("data/recommender.json",{cache:"default"}),fetch("data/recommender-fit.json",{cache:"default"}),fetch("data/tool-lifecycle.json",{cache:"default"}),fetch("data/verified-facts.json",{cache:"default"})]).then(async([a,b,c,d,e])=>{if(!a.ok||!b.ok||!c.ok||!d.ok||!e.ok)throw new Error("load failed");catalog=(await a.json()).filter(validTool);config=await b.json();fitMeta=await c.json();lifecycle=await d.json();verified=await e.json();const name=new URLSearchParams(location.search).get("tool")||"";selected=catalog.find(r=>r[0].toLowerCase()===name.toLowerCase())||null;applyLanguage()}).catch(()=>{$("toolName").textContent=copy[lang].missing;$("toolSummary").textContent=copy[lang].missingText;$("layout").hidden=true});
 </script>
+<script src="scripts/creative-ai-effects.js" defer></script>
 </body></html>
