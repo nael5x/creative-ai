@@ -3280,6 +3280,14 @@
     "https://playgroundai.com/"
   ],
   [
+    "PlayHT",
+    "Voice & audio",
+    "AI text-to-speech and voice-generation platform with Play3.0-mini and PlayDialog models, voice cloning, multilingual speech generation and low-latency streaming APIs.",
+    "For creators and developers who need expressive narration, voice cloning or real-time multilingual speech in apps and media workflows; official documentation continues to describe current models and API endpoints.",
+    "Pricing varies",
+    "https://docs.play.ht/reference/models"
+  ],
+  [
     "Plus AI",
     "Presentations",
     "AI presentation assistant for creating and editing slides inside Google Slides and PowerPoint.",
@@ -4238,6 +4246,14 @@
     "For teams that need proactive KPI insights and guided exploration without manually inspecting every dashboard.",
     "Paid",
     "https://www.tableau.com/products/tableau-pulse"
+  ],
+  [
+    "Tabnine",
+    "Coding",
+    "AI coding assistant for code completion, chat and agentic development workflows, with code review, code explanation, refactoring and enterprise privacy/deployment controls. The product remains active under Tricentis.",
+    "For developers and engineering teams that need context-aware coding assistance, agentic workflows and enterprise controls inside supported IDEs; Tabnine's official release notes continue to document active releases.",
+    "Free tier / Paid",
+    "https://www.tabnine.com/ai-code-assistant/"
   ],
   [
     "Tactiq",
