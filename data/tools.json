@@ -2698,8 +2698,8 @@
   [
     "Mubert",
     "Music",
-    "AI music generation platform for creator soundtracks and developer music integrations.",
-    "For generating background music for videos, apps and digital experiences.",
+    "AI music platform for prompt/chat- and image-to-music soundtrack generation, with track remixing and editing, stem control, a transcript-based podcast editor, short-video music/voice/SFX/subtitle tools, and a music-generation and streaming API for apps and games.",
+    "For video creators, podcasters, streamers and developers who need soundtracks or licensed music workflows. Render's free Ambassador plan offers 25 tracks/month and 5 downloads with attribution and non-commercial restrictions; Creator is $14/month or $11.69/month billed annually (non-commercial), Pro is $39/month or $32.49/month annually (commercial use, monetized content and full Track Editor), and Business is $199/month or $149.29/month annually (client/agency/app use and sublicensing). API plans are separate. Generated tracks cannot be redistributed as standalone music, uploaded to Spotify or registered in Content ID; check the license for your specific channel or project before use.",
     "Free tier / Paid",
     "https://mubert.com/"
   ],

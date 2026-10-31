@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-38",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Mubert. Verified the current creator and developer music platform, Render generation/editing, Cast podcast editing, Fuse short-video workflow, Copyright Checker, API generation/streaming, current Render plan limits/prices and the precise non-commercial/commercial licensing boundaries; refined the existing listing without changing lifecycle status.",
+  "accepted": [
+    {
+      "name": "Mubert",
+      "category": "Music",
+      "description": "AI music platform for prompt/chat- and image-to-music soundtrack generation, with track remixing and editing, stem control, a transcript-based podcast editor, short-video music/voice/SFX/subtitle tools, and a music-generation and streaming API for apps and games.",
+      "userValue": "For video creators, podcasters, streamers and developers who need soundtracks or licensed music workflows. Render's free Ambassador plan offers 25 tracks/month and 5 downloads with attribution and non-commercial restrictions; Creator is $14/month or $11.69/month billed annually (non-commercial), Pro is $39/month or $32.49/month annually (commercial use, monetized content and full Track Editor), and Business is $199/month or $149.29/month annually (client/agency/app use and sublicensing). API plans are separate. Generated tracks cannot be redistributed as standalone music, uploaded to Spotify or registered in Content ID; check the license for your specific channel or project before use.",
+      "availability": "Free tier / Paid",
+      "url": "https://mubert.com/",
+      "evidenceUrls": [
+        "https://mubert.com/",
+        "https://mubert.com/render",
+        "https://mubert.com/render/pricing",
+        "https://mubert.com/render/whatsnew",
+        "https://mubert.com/api",
+        "https://mubert.com/api/plans",
+        "https://mubert.com/api/docs",
+        "https://mubert.com/documents/mubert_render_license.pdf"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Mubert is an active multi-product AI music platform. The current official homepage lists Mubert Render for creators, Chat to Music, Mubert Cast for transcript-based podcast editing and audio cleanup, Mubert Fuse for adding music/voice/SFX/subtitles to short videos, Copyright Checker, and Mubert API for apps and brands.",
+    "Render can generate tracks from text prompts, chat, images, genre, mood and BPM, and supports Quick Remix, stem regeneration/removal and a Full Track Editor. The official What's New page lists 2026 launches including Fuse (May 26), Quick Remix (July 28), Track Editor (August 26) and Cast (September 10).",
+    "Render pricing: Ambassador Free includes 25 tracks/month, 5 downloads/month, fixed duration, MP3, a watermark and required attribution; it is non-commercial. Creator costs $14/month or $11.69/month billed annually, includes 500 tracks/month, up to 25-minute tracks, lossless downloads and unlimited downloads, but remains non-commercial. Pro costs $39/month or $32.49/month billed annually, adds commercial usage, monetized content, digital ads and the Full Track Editor. Business costs $199/month or $149.29/month billed annually and adds client/freelance/agency work, apps/games/services and sublicensing.",
+    "The API is a separate product with separate plans, generation/streaming quotas, webhooks, curated-library access and licensing terms. Render subscriptions should not be treated as API subscriptions or as granting sublicensing rights.",
+    "Mubert's current Render pricing and license comparison explicitly prohibit selling or distributing tracks as standalone music, publishing them to Spotify/other music streaming services, or registering them in Content ID systems. Creator is non-commercial; Pro covers commercial/monetized projects; Business is required for client/agency/app use and sublicensing. Users must match the plan to the actual use case.",
+    "The free Ambassador plan requires attribution and includes only five downloads per month. The free label does not imply commercial rights. License certificates are provided for generated tracks, and false-positive copyright claims may still occur."
+  ]
+}
