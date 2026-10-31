@@ -41,7 +41,7 @@ Rejected candidates should stay in review notes or audit records so the same low
 
 ## Unresolved and sunsetting candidates
 
-A failed homepage request is not proof that a product has shut down. HTTP 403/429 responses, bot protection, timeouts, DNS failures, redirects and temporary network errors must not be used alone to classify a tool as discontinued.
+A failed homepage request is not proof that a product has shut down. An unresolved status-watch record is not a claim that the product has shut down; it records that current availability cannot yet be confirmed. HTTP 403/429 responses, bot protection, timeouts, DNS failures, redirects and temporary network errors must not be used alone to classify a tool as discontinued.
 
 When a product cannot currently be verified and no official shutdown statement exists, keep it out of the active catalog until first-party availability can be confirmed, and record it under `statusWatch` in `data/catalog-quality.json` with:
 - `status: "unresolved"`;
