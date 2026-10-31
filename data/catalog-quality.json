@@ -2160,18 +2160,19 @@
       "officialUrl": "https://www.adcreative.ai/",
       "evidenceUrls": [
         "https://www.adcreative.ai/",
-        "https://www.adcreative.ai/adcreative-ai-refund-policy-process"
+        "https://help.adcreative.ai/en/articles/8885776-what-is-creative-scoring-ai-and-how-to-use-it"
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "AdCreative.ai generates advertising images, copy, product visuals and video variations, with creative scoring and competitor-insight features for campaign iteration.",
       "decision": "accepted"
     },
     {
-      "name": "AI2sql",
+      "name": "AI2SQL",
       "officialUrl": "https://ai2sql.io/",
       "evidenceUrls": [
         "https://ai2sql.io/",
-        "https://web.ai2sql.io/"
+        "https://ai2sql.io/mcp/",
+        "https://ai2sql.io/connector/"
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "AI2SQL grounds SQL generation in a connected database schema, explains and optimizes queries, and can execute guarded read-only queries through its app and agent integrations.",
@@ -2218,7 +2219,9 @@
       "name": "Alpha3D",
       "officialUrl": "https://www.alpha3d.io/",
       "evidenceUrls": [
-        "https://www.alpha3d.io/"
+        "https://www.alpha3d.io/",
+        "https://alpha3d.io/api-platform",
+        "https://alpha3d.io/developers"
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "Alpha3D turns prompts or photos into 3D models and extends the workflow through retopology, UV unwrapping, texturing, rigging and export for game-ready assets.",
@@ -2240,13 +2243,13 @@
       "name": "Amazon Q Developer",
       "officialUrl": "https://aws.amazon.com/q/developer/",
       "evidenceUrls": [
+        "https://aws.amazon.com/q/developer/",
         "https://aws.amazon.com/documentation-overview/q-developer/",
-        "https://aws.amazon.com/q/developer/features/",
         "https://aws.amazon.com/q/developer/build/",
-        "https://aws.amazon.com/q/developer/faqs/"
+        "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/"
       ],
       "reviewedAt": "2026-10-31",
-      "userValue": "Amazon Q Developer assists across IDEs and CLI with codebase explanations, code generation and edits, test creation, code review, vulnerability remediation and AWS development guidance.",
+      "userValue": "Amazon Q Developer assists across IDEs and CLI with codebase explanations, code generation and edits, test creation, code review, vulnerability remediation and AWS development guidance. AWS's product page announces end of support for IDE plugins on April 30, 2027 and recommends Kiro for similar IDE capabilities.",
       "decision": "accepted"
     },
     {
@@ -2289,7 +2292,8 @@
       "officialUrl": "https://www.artisan.co/",
       "evidenceUrls": [
         "https://www.artisan.co/",
-        "https://www.artisan.co/ai-sales-agent"
+        "https://www.artisan.co/ai-sales-agent",
+        "https://www.artisan.co/pricing"
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "Artisan's Ava is an autonomous AI BDR that researches and enriches leads, creates personalized outbound sequences, handles replies and books meetings with CRM and calendar integrations.",
