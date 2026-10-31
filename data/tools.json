@@ -1000,12 +1000,12 @@
     "https://www.darktrace.com/"
   ],
   [
-    "Databricks Genie",
+    "Databricks Genie Agents",
     "Data & analytics",
-    "Conversational analytics experience in Databricks for asking natural-language questions of enterprise data.",
-    "For data teams enabling business users to explore governed lakehouse data conversationally.",
+    "Conversational analytics agents that let business users ask natural-language questions over curated Databricks data, metrics and business rules.",
+    "For data teams making governed lakehouse data accessible through conversational analysis while preserving Unity Catalog permissions.",
     "Paid",
-    "https://www.databricks.com/product/ai-bi/genie"
+    "https://www.databricks.com/product/genie/agents"
   ],
   [
     "Dataiku",
@@ -1914,8 +1914,8 @@
   [
     "HubSpot Breeze",
     "Business",
-    "HubSpot AI features and agents for marketing, sales, service and content workflows.",
-    "For teams that want AI connected to CRM data and existing HubSpot processes.",
+    "HubSpot's AI assistant and agent capabilities embedded in its CRM platform for marketing, sales, service and business workflows.",
+    "For HubSpot teams that want AI grounded in CRM records to create content, update data and support customer workflows.",
     "Paid",
     "https://www.hubspot.com/products/artificial-intelligence"
   ],
@@ -2178,8 +2178,8 @@
   [
     "Kiro",
     "Coding",
-    "Agentic IDE and software-development environment from AWS focused on structured implementation workflows.",
-    "For developers who want specification-driven coding with agentic assistance in the editor.",
+    "AI development environment across IDE, CLI, web and mobile surfaces, with specification-driven planning, project steering and event-based agent hooks.",
+    "For developers who want agent-assisted coding guided by explicit requirements, repository conventions and repeatable workflow hooks.",
     "Free tier / Paid",
     "https://kiro.dev/"
   ],
@@ -2330,8 +2330,8 @@
   [
     "Langroid",
     "Agents",
-    "Open-source Python framework for building LLM applications with multi-agent patterns.",
-    "For Python developers experimenting with structured conversations between specialized agents.",
+    "Open-source Python framework for LLM applications with first-class agents, task delegation, multi-agent orchestration, tools and vector-store integrations.",
+    "For Python developers building structured multi-agent and retrieval-grounded applications with explicit control over agent conversations.",
     "Open source",
     "https://langroid.github.io/langroid/"
   ],
@@ -2410,8 +2410,8 @@
   [
     "Letta",
     "Agents",
-    "Platform and open-source tooling for stateful AI agents with persistent memory.",
-    "For developers building agents that need durable context and long-running user relationships.",
+    "Open-source agent platform for building stateful AI agents with persistent memory, tools, conversations and cloud or self-hosted execution.",
+    "For developers building assistants or coworkers that must retain identity, memory and context across sessions.",
     "Open source / Paid",
     "https://www.letta.com/"
   ],
@@ -2698,8 +2698,8 @@
   [
     "MetaGPT",
     "Agents",
-    "Open-source multi-agent framework that models software teams and role-based collaboration.",
-    "For developers researching structured multi-agent workflows for complex tasks.",
+    "Open-source multi-agent framework that assigns software-team roles to generate requirements, designs, code and other project artifacts from natural-language goals.",
+    "For developers experimenting with role-based agent collaboration across software planning and implementation.",
     "Open source",
     "https://github.com/FoundationAgents/MetaGPT"
   ],
@@ -2882,8 +2882,8 @@
   [
     "Nanonets",
     "Documents",
-    "AI document automation platform for extracting structured data from invoices, forms and business files.",
-    "For operations teams replacing repetitive document entry with automated extraction workflows.",
+    "Enterprise AI workflow platform built around agents and context graphs to automate document-heavy business processes such as accounts payable, order management and claims.",
+    "For operations teams that need multi-step document processing, business-rule execution and traceable handoffs to existing systems.",
     "Free tier / Paid",
     "https://nanonets.com/"
   ],
@@ -3458,8 +3458,8 @@
   [
     "Qlik Answers",
     "Data & analytics",
-    "Generative AI knowledge assistant for asking questions across governed enterprise information.",
-    "For organizations that want conversational answers connected to trusted Qlik data and content.",
+    "Generative AI knowledge assistant for querying structured Qlik analytics and unstructured documents, with source-grounded answers.",
+    "For Qlik Cloud teams that want conversational access to trusted business data and document knowledge with visible sources.",
     "Paid",
     "https://www.qlik.com/us/products/qlik-answers"
   ],
@@ -3754,8 +3754,8 @@
   [
     "Salesforce Agentforce",
     "Agents",
-    "Salesforce platform for building and operating AI agents across customer and business workflows.",
-    "For enterprises that need agents connected to CRM data, permissions and Salesforce automation.",
+    "Enterprise AI-agent platform for building, testing and deploying agents connected to Salesforce data, actions and workflows.",
+    "For organizations automating customer and employee workflows with agents that operate within Salesforce data access and business rules.",
     "Paid",
     "https://www.salesforce.com/agentforce/"
   ],
@@ -4010,16 +4010,16 @@
   [
     "smolagents",
     "Agents",
-    "Hugging Face open-source library for building lightweight tool-using AI agents.",
-    "For developers who want a compact agent framework integrated with the Hugging Face ecosystem.",
+    "Lightweight open-source Python library from Hugging Face for building multi-step agents that use tools, including code-writing and tool-calling agents.",
+    "For developers who want a small, inspectable agent framework with Hugging Face integrations and sandboxed code-execution options.",
     "Open source",
     "https://huggingface.co/docs/smolagents/"
   ],
   [
     "Snowflake Cortex",
     "Data & analytics",
-    "Snowflake AI and ML services for building generative and analytical workflows close to governed data.",
-    "For teams that want AI capabilities directly inside their Snowflake data environment.",
+    "Snowflake Cortex AI services for LLM functions, enterprise search and agent workflows operating alongside governed data.",
+    "For Snowflake teams building AI search, document analysis and data agents close to their data platform.",
     "Paid",
     "https://www.snowflake.com/en/product/features/cortex/"
   ],
@@ -4282,8 +4282,8 @@
   [
     "Tableau Pulse",
     "Data & analytics",
-    "AI-assisted insights experience in Tableau for tracking metrics and explaining business changes.",
-    "For Tableau users who want proactive summaries and metric-focused analytics.",
+    "AI-powered metrics experience in Tableau that surfaces trends, drivers, outliers and contextual natural-language summaries for metrics users follow.",
+    "For teams that need proactive KPI insights and guided exploration without manually inspecting every dashboard.",
     "Paid",
     "https://www.tableau.com/products/tableau-pulse"
   ],
