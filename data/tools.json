@@ -522,66 +522,66 @@
   [
     "Browse AI",
     "Data extraction",
-    "No-code web data extraction and monitoring platform.",
-    "For teams collecting structured website data without maintaining custom scrapers.",
+    "AI-assisted no-code web data extraction and monitoring: Table Studio proposes structured tables from a URL, while Robot Studio records interactive browser steps and scheduled robots track changes.",
+    "For teams that need recurring structured website data—such as product details, listings, leads or competitor changes—without maintaining custom scrapers.",
     "Free tier / Paid",
     "https://www.browse.ai/"
   ],
   [
     "Browser Use",
     "AI development",
-    "Open-source framework for connecting AI agents to web browsers.",
-    "For developers building agents that navigate websites and complete browser-based tasks.",
-    "Open source",
+    "Open-source Python/TypeScript browser-agent framework with hosted agents and managed cloud browsers; agents navigate pages, fill forms, extract data and replay successful workflows.",
+    "For developers and teams automating multi-step browser tasks with a local or hosted agent and optional managed browser infrastructure.",
+    "Open source / Paid cloud",
     "https://browser-use.com/"
   ],
   [
     "Browserbase",
     "AI development",
-    "Cloud browser infrastructure for AI agents and browser automation.",
-    "For developers running reliable browser sessions for agents, testing and web workflows.",
+    "Managed web-agent platform providing scalable browser sessions, Search and Fetch, Agent Identity, observability and integrations such as the Stagehand browser automation SDK.",
+    "For developers deploying agents that must interact with live websites reliably, with managed sessions, authentication support, logs, live view and replay.",
     "Free tier / Paid",
     "https://www.browserbase.com/"
   ],
   [
     "Bubble AI",
     "Web apps",
-    "AI-assisted no-code app building inside the Bubble web application platform.",
-    "For founders and teams building database-backed web apps without a traditional coding stack.",
+    "Bubble's AI app builder turns natural-language requirements into an app structure with pages, workflows and a database, then lets users refine the result in Bubble's visual editor.",
+    "For founders and nontechnical builders who want a functional web-app starting point while retaining visual control over the interface, data and logic.",
     "Free tier / Paid",
-    "https://bubble.io/ai"
+    "https://bubble.io/ai-app-builder"
   ],
   [
     "Buffer AI Assistant",
     "Social media",
-    "AI writing assistance inside Buffer for drafting and adapting social posts.",
-    "For creators and teams preparing platform-specific social content in a scheduling workflow.",
+    "An AI writing feature inside Buffer's Create workspace and publishing composer that drafts social posts, generates ideas, adjusts tone and repurposes longer content using language models.",
+    "For creators and social teams that want to draft and adapt posts inside the same publishing and scheduling workflow. This is a Buffer feature, not a claim that Buffer's core platform is AI-powered.",
     "Free tier / Paid",
     "https://buffer.com/ai-assistant"
   ],
   [
     "Builder.io Visual Copilot",
     "Web UI",
-    "Design-to-code tooling for converting visual designs into editable frontend code.",
-    "For teams moving from design files to production-oriented UI code faster.",
-    "Free tier / Paid",
-    "https://www.builder.io/m/design-to-code"
+    "Builder's AI design-to-code capability converts Figma designs into responsive frontend code and can map generated output to a team's existing components, design tokens and frameworks.",
+    "For product teams that want to turn approved designs into code aligned with their real component system, then refine and review the implementation in their existing repository workflow.",
+    "Available on Develop plans",
+    "https://builder.io/figma-to-code"
   ],
   [
     "Caktus AI",
     "Education",
-    "AI student workspace for writing, studying, coding and academic productivity tasks.",
-    "For students who want a multi-purpose assistant oriented around schoolwork.",
-    "Paid",
-    "https://www.caktus.ai/"
+    "Academic study workspace with AI tools for essay drafting with source citations, research, document analysis, step-by-step math and science help, notes and study materials.",
+    "For students who need one academic workflow for researching, drafting and understanding course material; generated citations should still be checked against the original sources.",
+    "Paid / 1-day trial",
+    "https://caktus.ai/"
   ],
   [
     "CAMEL-AI",
     "Agents",
-    "Open-source framework and research ecosystem for multi-agent systems and agent collaboration.",
-    "For researchers and developers studying coordinated agent behavior and simulations.",
+    "Open-source multi-agent framework and research ecosystem for building agent societies, task automation, data generation, tool use, memory and retrieval-augmented workflows.",
+    "For developers and researchers prototyping coordinated agents, agent collaboration and multi-agent simulations with a documented framework and examples.",
     "Open source",
-    "https://www.camel-ai.org/"
+    "https://camel-ai.org/"
   ],
   [
     "Canva AI",
@@ -594,26 +594,26 @@
   [
     "CapCut AI",
     "Video",
-    "AI-assisted video creation and editing tools inside CapCut.",
-    "For social video workflows that mix templates, editing and generative features.",
+    "AI features within CapCut's video editor, including text- and image-to-video generation, AI voice and other editing assistance that can be refined in the same editing workflow.",
+    "For creators who want to generate or enhance video assets and finish short-form content in an integrated editor. This is an AI feature suite within CapCut.",
     "Free tier / Paid",
-    "https://www.capcut.com/tools/ai-video-generator"
+    "https://www.capcut.com/tools/ai-video"
   ],
   [
     "Captions",
     "Video",
-    "AI video creation and editing app with avatars, dubbing and creator-focused automation.",
-    "For short-form creators who want generation, editing and localization in one workflow.",
+    "AI video editor for generating and editing creator videos, with automated cuts, B-roll, captions, translation, AI avatars and digital twins, plus prompt-based editing.",
+    "For creators producing short-form videos, ads and tutorials who want AI-assisted post-production and localized versions in one app.",
     "Free tier / Paid",
-    "https://www.captions.ai/"
+    "https://captions.ai/"
   ],
   [
     "Cartesia",
     "Voice & audio",
-    "Voice AI platform for low-latency speech generation and conversational applications.",
-    "For developers building responsive voice agents and real-time spoken interfaces.",
+    "Speech AI platform offering Sonic text-to-speech, Ink speech-to-text and managed voice agents, with streaming APIs and cloud, on-premise and on-device deployment options.",
+    "For developers building real-time voice interfaces and phone agents that need low-latency speech generation and transcription.",
     "Free tier / Paid",
-    "https://cartesia.ai/"
+    "https://www.cartesia.ai/"
   ],
   [
     "Cato AI Security",
@@ -626,24 +626,16 @@
   [
     "Cerebras Inference",
     "AI infrastructure",
-    "Hosted inference service for running supported language models on Cerebras systems.",
-    "For builders who want very high-throughput model responses through a managed API.",
-    "Free tier / Paid",
+    "Hosted inference API for supported open-weight language models running on Cerebras systems, with OpenAI-compatible access and developer and enterprise deployment tiers.",
+    "For developers who need fast managed language-model inference without operating their own model-serving infrastructure.",
+    "Free credit / Paid usage",
     "https://www.cerebras.ai/inference"
-  ],
-  [
-    "Character.AI",
-    "Writing & research",
-    "Conversational AI platform built around customizable characters and interactive chats.",
-    "For roleplay, entertainment and experimenting with character-based conversations.",
-    "Free tier / Paid",
-    "https://character.ai/"
   ],
   [
     "Chatbase",
     "Customer support",
-    "Platform for creating AI support and website agents grounded in company data.",
-    "For businesses that want a deployable chatbot trained on their documents and web content.",
+    "Platform for building and deploying AI agents trained on a company's website and documents, with actions, analytics, testing and deployment across chat, email, voice and messaging channels.",
+    "For businesses that need customer-support or product-guidance agents grounded in their own content and connected to helpdesk, commerce or communication workflows.",
     "Free tier / Paid",
     "https://www.chatbase.co/"
   ],
@@ -674,9 +666,9 @@
   [
     "Chroma",
     "Vector databases",
-    "Open-source database and retrieval layer designed for AI applications.",
-    "For developers prototyping or shipping RAG workflows with a lightweight retrieval stack.",
-    "Open source",
+    "Open-source AI data infrastructure for storing documents and embeddings, performing dense, sparse and hybrid vector search and metadata filtering, with self-hosted and managed cloud options.",
+    "For developers building RAG, semantic search or multimodal retrieval systems who need a local or hosted vector database.",
+    "Open source / Cloud",
     "https://www.trychroma.com/"
   ],
   [

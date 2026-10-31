@@ -2745,6 +2745,168 @@
       ],
       "userValue": "For teachers who need practical AI support for preparation, differentiation and feedback without leaving their existing classroom workflow.",
       "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "Browse AI",
+      "officialUrl": "https://www.browse.ai/",
+      "evidenceUrls": [
+        "https://help.browse.ai/en/articles/10486935-how-browse-ai-uses-ai",
+        "https://help.browse.ai/en/articles/10445807-what-are-robots-and-what-can-they-do",
+        "https://www.browse.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams that need recurring structured website data—such as product details, listings, leads or competitor changes—without maintaining custom scrapers.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Browser Use",
+      "officialUrl": "https://browser-use.com/",
+      "evidenceUrls": [
+        "https://github.com/browser-use/browser-use",
+        "https://browser-use.com/developers",
+        "https://docs.browser-use.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and teams automating multi-step browser tasks with a local or hosted agent and optional managed browser infrastructure.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Browserbase",
+      "officialUrl": "https://www.browserbase.com/",
+      "evidenceUrls": [
+        "https://www.browserbase.com/",
+        "https://github.com/browserbase/stagehand"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers deploying agents that must interact with live websites reliably, with managed sessions, authentication support, logs, live view and replay.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Bubble AI",
+      "officialUrl": "https://bubble.io/ai-app-builder",
+      "evidenceUrls": [
+        "https://bubble.io/ai-app-builder",
+        "https://manual.bubble.io/help-guides/ai"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For founders and nontechnical builders who want a functional web-app starting point while retaining visual control over the interface, data and logic.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Buffer AI Assistant",
+      "officialUrl": "https://buffer.com/ai-assistant",
+      "evidenceUrls": [
+        "https://buffer.com/ai-assistant",
+        "https://support.buffer.com/articles/using-buffers-ai-assistant-qbBulfw9sn"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and social teams that want to draft and adapt posts inside the same publishing and scheduling workflow. This is a Buffer feature, not a claim that Buffer's core platform is AI-powered.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Builder.io Visual Copilot",
+      "officialUrl": "https://builder.io/figma-to-code",
+      "evidenceUrls": [
+        "https://builder.io/figma-to-code",
+        "https://builder.io/ai",
+        "https://www.builder.io/c/docs/developers"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For product teams that want to turn approved designs into code aligned with their real component system, then refine and review the implementation in their existing repository workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Caktus AI",
+      "officialUrl": "https://caktus.ai/",
+      "evidenceUrls": [
+        "https://caktus.ai/",
+        "https://caktus.ai/essay",
+        "https://caktus.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students who need one academic workflow for researching, drafting and understanding course material; generated citations should still be checked against the original sources.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CAMEL-AI",
+      "officialUrl": "https://camel-ai.org/",
+      "evidenceUrls": [
+        "https://www.camel-ai.org/framework",
+        "https://github.com/camel-ai/camel"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and researchers prototyping coordinated agents, agent collaboration and multi-agent simulations with a documented framework and examples.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CapCut AI",
+      "officialUrl": "https://www.capcut.com/tools/ai-video",
+      "evidenceUrls": [
+        "https://www.capcut.com/tools/ai-video",
+        "https://www.capcut.com/tools"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators who want to generate or enhance video assets and finish short-form content in an integrated editor. This is an AI feature suite within CapCut.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Captions",
+      "officialUrl": "https://captions.ai/",
+      "evidenceUrls": [
+        "https://captions.ai/",
+        "https://captions.ai/pricing",
+        "https://help.captions.ai/docs/project/ai-twin"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators producing short-form videos, ads and tutorials who want AI-assisted post-production and localized versions in one app.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cartesia",
+      "officialUrl": "https://www.cartesia.ai/",
+      "evidenceUrls": [
+        "https://www.cartesia.ai/",
+        "https://www.cartesia.ai/product/speech-synthesis",
+        "https://docs.cartesia.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building real-time voice interfaces and phone agents that need low-latency speech generation and transcription.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cerebras Inference",
+      "officialUrl": "https://www.cerebras.ai/inference",
+      "evidenceUrls": [
+        "https://www.cerebras.ai/inference",
+        "https://www.cerebras.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who need fast managed language-model inference without operating their own model-serving infrastructure.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Chatbase",
+      "officialUrl": "https://www.chatbase.co/",
+      "evidenceUrls": [
+        "https://mcp.chatbase.co/llm-info",
+        "https://www.chatbase.co/",
+        "https://www.chatbase.co/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For businesses that need customer-support or product-guidance agents grounded in their own content and connected to helpdesk, commerce or communication workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Chroma",
+      "officialUrl": "https://www.trychroma.com/",
+      "evidenceUrls": [
+        "https://docs.trychroma.com/docs/overview/introduction",
+        "https://github.com/chroma-core/chroma",
+        "https://www.trychroma.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building RAG, semantic search or multimodal retrieval systems who need a local or hosted vector database.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -2760,16 +2922,16 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-12",
+  "lastQualityReviewBatch": "catalog-review-batch-13",
   "lastQualityReviewBatchSummary": {
-    "accepted": 13,
+    "accepted": 14,
     "rejected": 0,
-    "superseded": 1,
+    "superseded": 0,
     "retired": 0,
     "mergedIntoExisting": 0,
-    "updatedExisting": 12,
+    "updatedExisting": 14,
     "rechecked": 0,
-    "statusWatch": 2,
+    "statusWatch": 1,
     "recommenderProfilesAdded": 0,
     "recommenderProfilesRenamed": 0,
     "recommenderProfilesRemoved": 0
@@ -2860,13 +3022,28 @@
       "lastCheckedAt": "2026-10-31",
       "reason": "Wix's official press release confirms acquisition of Hour One's team and technology, but no current standalone product page or official shutdown statement was verified. It is excluded pending confirmation whether the product remains independently usable or has been integrated into Wix; this is not a claim that the technology ceased to exist.",
       "nextAction": "Verify current standalone availability or an official migration/product transition."
+    },
+    {
+      "name": "Character.AI",
+      "status": "unresolved",
+      "officialUrl": "https://character.ai/",
+      "checkedUrls": [
+        "https://character.ai/",
+        "https://blog.character.ai/an-update-on-character-ai/"
+      ],
+      "evidenceUrls": [
+        "https://blog.character.ai/an-update-on-character-ai/"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "Character.ai's official October 12, 2026 announcement says the platform remains up and running during a voluntary Chapter 11 process and court-supervised sale, but also says the platform will be wound down if no actionable bid emerges. As of 2026-10-31, the sale outcome is unresolved. This is a continuity risk, not evidence that the service has already shut down.",
+      "nextAction": "Recheck the official sale-process updates and confirm a buyer and continued service, or a formal wind-down notice, after the process expected to conclude by the end of November or early December 2026."
     }
   ],
   "lastStatusWatchReviewAt": "2026-10-31",
   "lastStatusWatchReviewSummary": {
-    "unresolved": 4,
+    "unresolved": 5,
     "sunsetting": 1,
     "maintenanceUnclear": 1,
-    "total": 6
+    "total": 7
   }
 }
