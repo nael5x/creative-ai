@@ -4954,16 +4954,16 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-31",
+  "lastQualityReviewBatch": "catalog-review-batch-32",
   "lastQualityReviewBatchSummary": {
-    "accepted": 1,
+    "accepted": 0,
     "rejected": 0,
     "superseded": 0,
     "retired": 0,
     "mergedIntoExisting": 0,
-    "updatedExisting": 1,
+    "updatedExisting": 0,
     "rechecked": 0,
-    "statusWatch": 0,
+    "statusWatch": 1,
     "recommenderProfilesAdded": 0,
     "recommenderProfilesRenamed": 0,
     "recommenderProfilesRemoved": 0
@@ -5105,13 +5105,33 @@
       "sunsetDate": "2026-11-13",
       "reason": "Hume's official October 2, 2026 changelog states that its Text-to-Speech (TTS) and Empathic Voice Interface (EVI) APIs are being sunset, with access ending November 13, 2026 at 12:01 a.m. EST and account data permanently deleted after that date. The status page currently reports the systems as operational, so this is a scheduled API sunset, not an outage or a claim that the entire company is shutting down. The core voice products represented by this catalog entry are being withdrawn; keep it out of active discovery pending a verified replacement or migration path.",
       "nextAction": "Recheck after November 13, 2026 for an official replacement product, migration path or remaining supported Hume API product; reinstate only if a distinct active AI offering is verified."
+    },
+    {
+      "name": "MindMac",
+      "status": "maintenance-unclear",
+      "officialUrl": "https://mindmac.app/",
+      "checkedUrls": [
+        "https://mindmac.app/",
+        "https://github.com/MindMacApp/MindMac/releases",
+        "https://github.com/MindMacApp/MindMac/issues/15",
+        "https://github.com/MindMacApp/MindMac/issues/14"
+      ],
+      "evidenceUrls": [
+        "https://github.com/MindMacApp/MindMac/releases/tag/1.9.28",
+        "https://github.com/MindMacApp/MindMac/issues/15",
+        "https://github.com/MindMacApp/MindMac/issues/14",
+        "https://mindmac.app/"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "MindMac's official website remains live and still offers the macOS app for purchase, so this is not evidence of shutdown. However, the latest official GitHub release is 1.9.28, published 2025-04-22, and the repository has no later release as of 2026-10-31. Two unresolved official issues add continuity concerns: issue #15 (2026-01-30) asks whether the app is abandonware because the latest version is from April, and issue #14 requests support for GPT-5. Issue #15 has no comments, and the only comment on issue #14 is another user asking for GPT-5; no maintainer response or newer release was found during this review. The app is excluded from active discovery pending confirmation of ongoing maintenance and current model compatibility.",
+      "nextAction": "Recheck official releases or obtain a developer statement confirming active maintenance and support for current provider models; reinstate only after a current build or first-party maintenance statement is verified."
     }
   ],
   "lastStatusWatchReviewAt": "2026-10-31",
   "lastStatusWatchReviewSummary": {
-    "unresolved": 5,
-    "sunsetting": 1,
-    "maintenanceUnclear": 1,
-    "total": 7
+    "unresolved": 6,
+    "sunsetting": 2,
+    "maintenanceUnclear": 2,
+    "total": 10
   }
 }
