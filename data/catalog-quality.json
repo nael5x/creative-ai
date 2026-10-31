@@ -4968,6 +4968,23 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For Python developers and ML teams that need GPU/CPU compute for inference, training, fine-tuning, parallel jobs and isolated agent sandboxes without managing servers. Starter is $0/month plus usage with $30/month compute credits, up to 3 seats and 10 concurrent GPUs; Team is $250/month plus compute with $100/month credits. CPU, GPU and memory are billed by the second. Important: Shared Endpoints are token-billed from the first request and are not covered by the included compute credits. Costs vary by hardware, region and requested resources; set workspace budgets.",
       "decision": "accepted"
+    },
+    {
+      "name": "Moises",
+      "officialUrl": "https://moises.ai/",
+      "evidenceUrls": [
+        "https://moises.ai/",
+        "https://moises.ai/features/",
+        "https://moises.ai/newsroom/product-announcements/moises-launches-studio-collaborative-workspace/",
+        "https://help.moises.ai/hc/en-us/articles/9410960985628-Reasons-to-subscribe-to-the-Moises-Premium-Plan",
+        "https://help.moises.ai/hc/en-us/articles/21960006352796-Moises-AI-Studio-Credits",
+        "https://help.moises.ai/hc/en-us/articles/18322457396508-How-do-streaming-services-work-and-why-can-t-we-accept-their-URL-links-on-Moises",
+        "https://apps.apple.com/tr/app/moises-ai-the-musicians-app/id1515796612",
+        "https://play.google.com/store/apps/details?id=ai.moises"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For musicians, singers, producers and educators who want to practice, analyze or build on their own recordings rather than generate a finished song from text. The free tier has limited monthly uploads and basic vocal/drum/bass separation; Premium expands stem options and practice tools, while Pro adds Hi-Fi separation, detailed drum/multimedia stems, long uploads, Voice Studio and VST access. The Turkish App Store lists Premium at ₺99.99/month or ₺699.99/year and Pro at ₺499.99/month or ₺4,999.99/year; store and offer prices can vary. AI Studio generation uses credits in 30-second blocks. Only upload or modify music you have rights to use; a streaming subscription does not grant stem-extraction rights.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4983,7 +5000,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-34",
+  "lastQualityReviewBatch": "catalog-review-batch-35",
   "lastQualityReviewBatchSummary": {
     "accepted": 1,
     "rejected": 0,
