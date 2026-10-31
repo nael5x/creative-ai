@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-31",
+  "batch": "catalog-review-batch-9",
+  "scope": "Retire stale, discontinued or superseded catalog identities and replace them with current first-party product identities where a direct successor exists.",
+  "accepted": [
+    {
+      "name": "Check Point AI Security",
+      "category": "Cybersecurity",
+      "description": "Enterprise platform to discover, protect and govern AI interactions across employees, applications and agents, including secure AI usage, input/output protection and agent tool-call controls.",
+      "why": "For security teams governing employee AI usage and protecting custom AI applications and autonomous agents from data exposure and unsafe actions.",
+      "availability": "Paid",
+      "url": "https://www.checkpoint.com/ai-security/",
+      "from": [
+        "Lakera"
+      ],
+      "evidenceUrls": [
+        "https://www.checkpoint.com/ai-security/",
+        "https://www.checkpoint.com/press-releases/check-point-acquires-lakera-to-deliver-end-to-end-ai-security-for-enterprises/"
+      ]
+    },
+    {
+      "name": "Content Toolkit",
+      "category": "SEO & marketing",
+      "description": "Semrush content workspace for topic research, SEO briefs, AI article generation, content optimization for Google and AI search, and repurposing into social and email formats.",
+      "why": "For marketers and SEO teams who want one data-backed workflow from topic discovery and briefing through writing, optimization and publishing.",
+      "availability": "Free trial / Paid",
+      "url": "https://www.semrush.com/features/content-marketing/",
+      "from": [
+        "ContentShake AI"
+      ],
+      "evidenceUrls": [
+        "https://www.semrush.com/semrush-questions/",
+        "https://www.semrush.com/kb/1535-getting-started-with-content-toolkit",
+        "https://www.semrush.com/kb/812-content-toolkit"
+      ]
+    },
+    {
+      "name": "Hostinger AI Builder",
+      "category": "Web apps",
+      "description": "AI website and web-app builder that creates from prompts, URLs, images or PDFs, with manual and agentic modes plus hosting, databases, logins, payments and SEO tools.",
+      "why": "For businesses and makers who want to build and host a working website or lightweight web app in one provider without stitching together separate infrastructure.",
+      "availability": "Paid",
+      "url": "https://www.hostinger.com/ai-builder",
+      "from": [
+        "Hostinger Horizons"
+      ],
+      "evidenceUrls": [
+        "https://www.hostinger.com/ai-builder",
+        "https://www.hostinger.com/changelog",
+        "https://www.hostinger.com/support/1583273-how-to-create-a-website-without-programming-experience-at-hostinger/"
+      ]
+    },
+    {
+      "name": "Lexis+ with Protégé",
+      "category": "Legal",
+      "description": "Legal AI workspace for research, drafting and analysis grounded in LexisNexis legal content, with conversational workflows powered by the Protégé assistant.",
+      "why": "For legal professionals who need AI-assisted research and drafting connected to authoritative LexisNexis sources and legal workflows.",
+      "availability": "Paid",
+      "url": "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+      "from": [
+        "Lexis+ AI"
+      ],
+      "evidenceUrls": [
+        "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+        "https://www.lexisnexis.com/en-us/products.page"
+      ]
+    },
+    {
+      "name": "Luma App",
+      "category": "Images & design",
+      "description": "AI creative workspace with multimodal agents that plan, generate, iterate and refine image, video, audio and other creative assets across shared projects.",
+      "why": "For creative teams that need an agent-driven workflow from brief to coordinated assets and polished deliverables without restarting across separate tools.",
+      "availability": "Paid",
+      "url": "https://app.lumalabs.ai/",
+      "from": [
+        "Luma Dream Machine"
+      ],
+      "evidenceUrls": [
+        "https://lumalabs.ai/app",
+        "https://lumalabs.ai/llm-info",
+        "https://lumalabs.ai/learning-hub/the-new-luma-app-creative-multimodal-agent"
+      ]
+    },
+    {
+      "name": "Manage AI",
+      "category": "Legal",
+      "description": "AI capabilities embedded in Clio Manage that extract deadlines from court documents, surface matter activity, create tasks and calendar events, and prepare billing workflows for review.",
+      "why": "For law firms using Clio Manage that want to reduce routine administrative work while keeping legal professionals in control of approvals and outcomes.",
+      "availability": "Paid",
+      "url": "https://www.clio.com/manage/",
+      "from": [
+        "Clio Duo"
+      ],
+      "evidenceUrls": [
+        "https://www.clio.com/manage/",
+        "https://www.clio.com/blog/clio-2025-year-in-review/",
+        "https://www.clio.com/blog/cliocon-2025-highlights/"
+      ]
+    },
+    {
+      "name": "Microsoft Agent Framework",
+      "category": "AI development",
+      "description": "Open-source Microsoft SDK for building and orchestrating production AI agents and multi-agent workflows in Python and .NET, with tools, memory, middleware, observability and human-in-the-loop execution. Microsoft recommends it for new projects replacing archived AutoGen.",
+      "why": "For developers building production agent systems that need durable workflows, provider flexibility and explicit orchestration, including migration from archived AutoGen.",
+      "availability": "Open source",
+      "url": "https://learn.microsoft.com/en-us/agent-framework/overview/",
+      "from": [
+        "AutoGen"
+      ],
+      "evidenceUrls": [
+        "https://learn.microsoft.com/en-us/agent-framework/overview",
+        "https://learn.microsoft.com/en-us/agent-framework/support/faq",
+        "https://github.com/microsoft/agent-framework",
+        "https://github.com/microsoft/agent-framework/blob/main/LICENSE"
+      ]
+    },
+    {
+      "name": "Semantic Kernel",
+      "category": "AI development",
+      "description": "Open-source SDK for integrating AI models, plugins, memory and orchestration into .NET and Python applications. It continues to receive releases; Microsoft Agent Framework is a newer agent-focused option, not a notice that Semantic Kernel has been discontinued.",
+      "why": "For developers adding model providers, plugins, memory and orchestration to existing .NET/Python applications; Microsoft continues to publish releases while Agent Framework offers a newer agent-focused path.",
+      "availability": "Open source",
+      "url": "https://learn.microsoft.com/semantic-kernel/",
+      "evidenceUrls": [
+        "https://learn.microsoft.com/en-us/semantic-kernel/",
+        "https://github.com/microsoft/semantic-kernel/releases"
+      ]
+    },
+    {
+      "name": "Superhuman Mail",
+      "category": "Productivity",
+      "description": "AI-native email client for Gmail and Outlook with fast inbox triage, writing, search, summaries, reminders and team collaboration.",
+      "why": "For high-volume email users and teams who want to triage messages, draft replies and follow up faster.",
+      "availability": "Paid",
+      "url": "https://superhuman.com/mail",
+      "from": [
+        "Superhuman"
+      ],
+      "evidenceUrls": [
+        "https://superhuman.com/mail",
+        "https://blog.superhuman.com/introducing-superhuman/",
+        "https://help.superhuman.com/hc/en-us/articles/46005755069197-Superhuman-Suite"
+      ]
+    },
+    {
+      "name": "Topaz Video",
+      "category": "Video",
+      "description": "Professional AI video enhancement software for upscaling, denoising, sharpening, stabilization, slow motion and frame interpolation on macOS and Windows.",
+      "why": "For editors, filmmakers and archivists improving existing footage quality rather than generating entirely new video.",
+      "availability": "Paid",
+      "url": "https://www.topazlabs.com/topaz-video",
+      "from": [
+        "Topaz Video AI"
+      ],
+      "evidenceUrls": [
+        "https://www.topazlabs.com/topaz-video",
+        "https://docs.topazlabs.com/topaz-video/tvai-vs-tv",
+        "https://docs.topazlabs.com/other-apps/legacy"
+      ]
+    },
+    {
+      "name": "Vibe",
+      "category": "Writing & coding",
+      "description": "Mistral's unified AI agent for professional productivity and coding across web, mobile, terminal and VS Code, supporting multi-step research, drafts, summaries, tool use and software workflows.",
+      "why": "For professionals and developers who want one agent for knowledge work and coding, with visible actions and approval controls.",
+      "availability": "Free tier / Paid",
+      "url": "https://chat.mistral.ai/",
+      "from": [
+        "Le Chat"
+      ],
+      "evidenceUrls": [
+        "https://docs.mistral.ai/vibe/",
+        "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe",
+        "https://docs.mistral.ai/vibe/code/overview"
+      ]
+    }
+  ],
+  "superseded": [
+    {
+      "oldName": "AutoGen",
+      "newName": "Microsoft Agent Framework",
+      "previousUrl": "https://microsoft.github.io/autogen/",
+      "reason": "Microsoft's official repository marks AutoGen archived and no longer maintained. Microsoft says it will provide no bug fixes, security fixes, new features or support, warns against production use, and directs new projects to Microsoft Agent Framework.",
+      "evidenceUrls": [
+        "https://github.com/microsoft/autogen",
+        "https://microsoft.github.io/autogen/",
+        "https://learn.microsoft.com/en-us/agent-framework/overview",
+        "https://github.com/microsoft/autogen/blob/main/README.md"
+      ]
+    },
+    {
+      "oldName": "Clio Duo",
+      "newName": "Manage AI",
+      "previousUrl": "https://www.clio.com/duo/",
+      "reason": "Clio's own product and company updates describe Clio Duo's evolution into Manage AI, now embedded in Clio Manage. The active catalog entry uses the current product identity.",
+      "evidenceUrls": [
+        "https://www.clio.com/duo/",
+        "https://www.clio.com/blog/clio-2025-year-in-review/",
+        "https://www.clio.com/blog/cliocon-2025-highlights/"
+      ]
+    },
+    {
+      "oldName": "ContentShake AI",
+      "newName": "Content Toolkit",
+      "previousUrl": "https://www.semrush.com/contentshake/",
+      "reason": "Semrush's official FAQ states that ContentShake AI was folded into the main platform and renamed Content Toolkit. The old standalone identity is superseded.",
+      "evidenceUrls": [
+        "https://www.semrush.com/contentshake/",
+        "https://www.semrush.com/semrush-questions/"
+      ]
+    },
+    {
+      "oldName": "Freepik AI",
+      "newName": "Magnific",
+      "previousUrl": "https://www.freepik.com/ai",
+      "reason": "Freepik's official announcement states that Freepik AI became Magnific, with the creative tools and account experience consolidated under Magnific. The active Magnific row already covers the successor.",
+      "evidenceUrls": [
+        "https://www.freepik.com/ai",
+        "https://www.magnific.com/freepik-ai"
+      ]
+    },
+    {
+      "oldName": "Hostinger Horizons",
+      "newName": "Hostinger AI Builder",
+      "previousUrl": "https://www.hostinger.com/horizons",
+      "reason": "Hostinger's official changelog states that Horizons and Website Builder became the unified AI Builder product. The old Horizons identity is replaced by Hostinger AI Builder.",
+      "evidenceUrls": [
+        "https://www.hostinger.com/horizons",
+        "https://www.hostinger.com/changelog"
+      ]
+    },
+    {
+      "oldName": "Lakera",
+      "newName": "Check Point AI Security",
+      "previousUrl": "https://www.lakera.ai/",
+      "reason": "Check Point acquired Lakera and now presents the current enterprise offering under Check Point AI Security. The standalone Lakera identity is superseded by the integrated platform.",
+      "evidenceUrls": [
+        "https://www.lakera.ai/",
+        "https://www.checkpoint.com/press-releases/check-point-acquires-lakera-to-deliver-end-to-end-ai-security-for-enterprises/",
+        "https://www.checkpoint.com/ai-security/"
+      ]
+    },
+    {
+      "oldName": "Le Chat",
+      "newName": "Vibe",
+      "previousUrl": "https://chat.mistral.ai/",
+      "reason": "Mistral's official help center states that Le Chat is now Vibe, with the same account, plan and conversation history. Replace the old product name with Mistral Vibe.",
+      "evidenceUrls": [
+        "https://chat.mistral.ai/",
+        "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe"
+      ]
+    },
+    {
+      "oldName": "Lexis+ AI",
+      "newName": "Lexis+ with Protégé",
+      "previousUrl": "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page",
+      "reason": "LexisNexis renamed the product Lexis+ with Protégé and describes the current legal AI workspace under that identity. The old Lexis+ AI label is superseded.",
+      "evidenceUrls": [
+        "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page",
+        "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page"
+      ]
+    },
+    {
+      "oldName": "Luma Dream Machine",
+      "newName": "Luma App",
+      "previousUrl": "https://lumalabs.ai/dream-machine",
+      "reason": "Luma's current information identifies Dream Machine as an older deprecated model replaced by Ray, while Luma App is the current consumer creative workspace. Replace the legacy model entry with Luma App.",
+      "evidenceUrls": [
+        "https://lumalabs.ai/dream-machine",
+        "https://lumalabs.ai/llm-info",
+        "https://lumalabs.ai/app"
+      ]
+    },
+    {
+      "oldName": "Superhuman",
+      "newName": "Superhuman Mail",
+      "previousUrl": "https://superhuman.com/",
+      "reason": "Superhuman's official product announcement identifies the email client as Superhuman Mail; Superhuman is now the broader suite/company brand. Use the specific active product name.",
+      "evidenceUrls": [
+        "https://superhuman.com/",
+        "https://blog.superhuman.com/introducing-superhuman/"
+      ]
+    },
+    {
+      "oldName": "Topaz Video AI",
+      "newName": "Topaz Video",
+      "previousUrl": "https://www.topazlabs.com/topaz-video-ai",
+      "reason": "Topaz's official documentation marks Topaz Video AI as a discontinued legacy application and identifies Topaz Video as the current app with ongoing model updates.",
+      "evidenceUrls": [
+        "https://www.topazlabs.com/topaz-video-ai",
+        "https://docs.topazlabs.com/topaz-video/tvai-vs-tv",
+        "https://docs.topazlabs.com/other-apps/legacy"
+      ]
+    }
+  ],
+  "retired": [
+    {
+      "name": "Devika",
+      "officialUrl": "https://github.com/stitionai/devika",
+      "reason": "The official repository describes Devika as an early experimental project with many unimplemented or broken features and points to a future second iteration. It does not meet the directory's current usefulness bar.",
+      "evidenceUrls": [
+        "https://github.com/stitionai/devika"
+      ]
+    },
+    {
+      "name": "Flowise",
+      "officialUrl": "https://flowiseai.com/",
+      "reason": "Flowise's official sunset notice set end of life for August 31, 2026, with the repository archived in August. It is no longer an active product to recommend.",
+      "evidenceUrls": [
+        "https://flowiseai.com/sunset",
+        "https://github.com/FlowiseAI/Flowise"
+      ]
+    },
+    {
+      "name": "GitHub Spark",
+      "officialUrl": "https://github.com/features/spark",
+      "reason": "GitHub's official deprecation notice ended new Spark app creation and access to existing Spark apps on August 31, 2026. Remove the retired product from the active directory.",
+      "evidenceUrls": [
+        "https://github.com/features/spark",
+        "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com/"
+      ]
+    },
+    {
+      "name": "Sora",
+      "officialUrl": "https://openai.com/sora/",
+      "reason": "OpenAI's official discontinuation notice ended the Sora web and app experience on April 26, 2026 and the API on September 24, 2026. Remove the discontinued product.",
+      "evidenceUrls": [
+        "https://openai.com/sora/",
+        "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+      ]
+    }
+  ],
+  "mergedIntoExisting": [
+    {
+      "oldName": "Freepik AI",
+      "newName": "Magnific",
+      "reason": "Freepik's official announcement states that Freepik AI became Magnific, with the creative tools and account experience consolidated under Magnific. The active Magnific row already covers the successor.",
+      "evidenceUrls": [
+        "https://www.freepik.com/ai",
+        "https://www.magnific.com/freepik-ai"
+      ]
+    }
+  ],
+  "updatedExisting": [
+    {
+      "name": "Magnific",
+      "previousUrl": "https://www.magnific.com/",
+      "officialUrl": "https://www.magnific.com/ai",
+      "reason": "Updated the existing Magnific entry to reflect the current unified creative platform and the Freepik AI consolidation; confirmed the limited free plan and paid tiers.",
+      "evidenceUrls": [
+        "https://www.magnific.com/ai",
+        "https://www.magnific.com/ai/docs/freepik-is-now-magnific",
+        "https://www.magnific.com/ai/docs/ai-credits-and-limits"
+      ]
+    },
+    {
+      "name": "Semantic Kernel",
+      "previousUrl": "https://learn.microsoft.com/semantic-kernel/",
+      "officialUrl": "https://learn.microsoft.com/semantic-kernel/",
+      "reason": "Retained as an active SDK: Microsoft continues publishing Python and .NET releases. Agent Framework provides a newer agent-focused path, but does not make Semantic Kernel discontinued.",
+      "evidenceUrls": [
+        "https://learn.microsoft.com/en-us/semantic-kernel/",
+        "https://github.com/microsoft/semantic-kernel/releases"
+      ]
+    }
+  ],
+  "recommenderChanges": [
+    {
+      "action": "remove",
+      "name": "Flowise",
+      "reason": "Product reached end of life."
+    },
+    {
+      "action": "rename",
+      "oldName": "Luma Dream Machine",
+      "newName": "Luma App",
+      "reason": "Current multimodal creative workspace replaces the deprecated Dream Machine product identity."
+    },
+    {
+      "action": "add",
+      "name": "Microsoft Agent Framework",
+      "tasks": [
+        "coding",
+        "automation"
+      ],
+      "traits": [
+        "open-source",
+        "control"
+      ]
+    },
+    {
+      "action": "add",
+      "name": "Vibe",
+      "tasks": [
+        "writing",
+        "research",
+        "coding",
+        "automation"
+      ],
+      "traits": [
+        "easy",
+        "control"
+      ]
+    },
+    {
+      "action": "add",
+      "name": "Manage AI",
+      "tasks": [
+        "research",
+        "writing",
+        "automation"
+      ],
+      "traits": [
+        "control"
+      ]
+    },
+    {
+      "action": "add",
+      "name": "Manage AI",
+      "tasks": [
+        "research",
+        "writing",
+        "automation"
+      ],
+      "traits": [
+        "control"
+      ]
+    }
+  ],
+  "notes": [
+    "All replacements and retirements were checked against current first-party product announcements, product pages or official documentation.",
+    "Freepik AI is merged into the existing Magnific entry; no duplicate Magnific row is created.",
+    "Flowise, GitHub Spark and Sora are removed because their official notices document end-of-life or discontinuation.",
+    "Devika is removed because its own repository describes it as an early experimental build with incomplete and broken functionality.",
+    "Historical catalog batch files are retained as provenance; active catalog, lifecycle, recommender and release-monitor surfaces are updated.",
+    "No popularity, traffic, revenue, ranking or customer-count claims were used as acceptance evidence.",
+    "AutoGen is archived and no longer maintained; Microsoft explicitly says it will provide no bug fixes, security fixes, new features or support, warns against production use, and recommends Microsoft Agent Framework for new projects.",
+    "Semantic Kernel remains active and is retained: Microsoft's official GitHub releases show ongoing Python and .NET releases, including Python 1.45.0 on 2026-10-06. Agent Framework is a newer agent-focused path, not evidence that Semantic Kernel has been discontinued."
+  ]
+}
