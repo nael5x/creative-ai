@@ -31,10 +31,16 @@ scripts/collect_updates.py
   └─ runs the collector every six hours
 
 scripts/validate_tools.py
-  └─ validates tool catalog structure and URLs
+  └─ validates catalog structure, lifecycle metadata, quality provenance and status-watch records
+
+quality.html
+  └─ displays accepted reviews, active entries pending audit, and unresolved/sunsetting candidates
 
 .github/workflows/validate-tools.yml
-  └─ validates catalog changes on pull requests
+  └─ validates catalog, lifecycle and quality changes on pull requests
+
+.github/workflows/catalog-link-audit.yml
+  └─ audits canonical catalog links weekly and on relevant pull requests
 
 tests/test_collect_updates.py
   └─ regression tests for parsing, partial success and source health
@@ -54,9 +60,9 @@ Every collection run records an explicit result for each configured source in `d
 ```json
 {
   "sourceHealth": {
-    "total": 10,
+    "total": 9,
     "ok": 9,
-    "failed": 1,
+    "failed": 0,
     "sources": [
       {
         "source": "Example Source",
@@ -106,7 +112,7 @@ python -m pip install pytest
 python -m pytest -q
 ```
 
-The suite includes catalog/UI checks as well as collector tests. Collector tests use local XML fixtures and injected fetch behavior. The existing feed-parser CI workflow uses unittest discovery, which does not run the function-based tests; run pytest locally for the full suite.
+The suite includes catalog, quality-provenance, status-watch, UI and collector checks. CI runs the complete pytest suite so both unittest classes and function-based tests are exercised. Collector tests use local XML fixtures and injected fetch behavior.
 
 ## Project structure
 
@@ -121,6 +127,10 @@ The suite includes catalog/UI checks as well as collector tests. Collector tests
 
 data/
   tools.json
+  catalog-quality.json
+  tool-lifecycle.json
+  catalog-audit-round10.json
+  catalog-audit-round11.json
   TOOLS_FORMAT.md
   updates.json
 
@@ -130,6 +140,8 @@ scripts/
 
 tests/
   test_collect_updates.py
+  test_catalog_review_batch_9.py
+  test_catalog_status_watch.py
 
 index.html
 CONTRIBUTING.md
