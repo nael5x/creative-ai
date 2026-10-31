@@ -7,6 +7,7 @@
   <meta name="description" content="Suggest a useful, verifiable AI tool or correction for the Creative AI maintained catalog.">
   <link rel="stylesheet" href="styles/design-system.css">
   <link rel="stylesheet" href="styles/discovery-hub.css">
+  <link rel="stylesheet" href="styles/creative-ai-theme.css">
 </head>
 <body class="discovery-redesign">
 <main class="wrap discovery-page">
@@ -58,4 +59,5 @@ $("lang").onclick=()=>{lang=lang==="en"?"ar":"en";apply()};
 $("submitForm").onsubmit=e=>{e.preventDefault();const type=$("type").value,name=$("toolName").value.trim(),url=$("toolUrl").value.trim(),category=$("category").value.trim()||"Not specified",availability=$("availability").value,description=$("description").value.trim(),userValue=$("userValue").value.trim(),evidence=$("evidence").value.trim();const title=`[Catalog ${type === "correction" ? "correction" : "submission"}] ${name}`;const body=`## Request type\n${type === "correction" ? "Correction" : "New tool"}\n\n## Tool name\n${name}\n\n## Official URL\n${url}\n\n## Category\n${category}\n\n## Availability\n${availability}\n\n## Short factual description\n${description}\n\n## Concrete user value / correction reason\n${userValue}\n\n## Official verification source(s)\n${evidence}\n\n## Quality checklist\n- [ ] The URL is the canonical official product/project URL.\n- [ ] The evidence is first-party (official docs/site/repository), not only a third-party directory.\n- [ ] AI is a real first-class capability of the product.\n- [ ] The product/project is currently usable or meaningfully maintained.\n- [ ] The submission explains a concrete user workflow or correction.\n- [ ] I understand submission does not guarantee inclusion.`;const issue=`https://github.com/nael5x/creative-ai/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;window.open(issue,"_blank","noopener,noreferrer")};
 apply();
 </script>
+<script src="scripts/creative-ai-effects.js" defer></script>
 </body></html>
