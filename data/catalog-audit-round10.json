@@ -164,7 +164,7 @@
       "description": "AI coding assistant for code completion, chat and agentic development workflows, with code review, code explanation, refactoring and enterprise privacy/deployment controls. The product remains active under Tricentis.",
       "why": "For developers and engineering teams that need context-aware coding assistance, agentic workflows and enterprise controls inside supported IDEs; Tabnine's official release notes continue to document active releases.",
       "availability": "Free tier / Paid",
-      "url": "https://www.tabnine.com/ai-code-assistant/",
+      "url": "https://docs.tabnine.com/main",
       "evidenceUrls": [
         "https://www.tabnine.com/ai-code-assistant/",
         "https://docs.tabnine.com/main/administering-tabnine/release-notes",
