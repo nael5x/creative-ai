@@ -52,7 +52,7 @@ class CatalogReviewBatch13Tests(unittest.TestCase):
         self.assertEqual(item["status"], "unresolved")
         self.assertIn("remains up and running", item["reason"])
         self.assertIn("not evidence", item["reason"])
-        self.assertIn("wind down", item["reason"].lower())
+        self.assertIn("wound down", item["reason"].lower())
         self.assertIn("https://blog.character.ai/an-update-on-character-ai/", item["evidenceUrls"])
 
     def test_feature_level_entries_are_explicitly_described(self):
