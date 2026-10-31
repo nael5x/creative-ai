@@ -298,8 +298,8 @@
   [
     "Artbreeder",
     "Images",
-    "Collaborative generative image platform for remixing portraits, characters and visual concepts.",
-    "For exploring visual variations by blending and modifying generated imagery.",
+    "AI image creation and editing workspace with prompt-based generation, Composer, Mixer, collage tools and Animator for turning still images into short videos.",
+    "For creators exploring visual concepts, remixing characters and scenes, and iterating on images with more control than a single prompt-to-image step.",
     "Free tier / Paid",
     "https://www.artbreeder.com/"
   ],
@@ -318,14 +318,6 @@
     "For cross-functional teams that want project context, AI-generated summaries and governed automation connected to their tasks and goals.",
     "Paid",
     "https://asana.com/product/ai"
-  ],
-  [
-    "AskCodi",
-    "Coding",
-    "AI coding assistant for code generation, explanations, tests and developer questions.",
-    "For developers who want quick coding help across several languages and common programming tasks.",
-    "Free tier / Paid",
-    "https://www.askcodi.com/"
   ],
   [
     "AskYourPDF",
@@ -354,32 +346,32 @@
   [
     "Augment Code",
     "Coding",
-    "AI coding platform built around codebase context, agents and software engineering workflows.",
-    "For teams working in large repositories that need deeper project context.",
-    "Free tier / Paid",
+    "Agentic software-development platform with codebase-aware agents and Cosmos workflows for planning, implementation, code review, testing, incident response and large-scale migrations.",
+    "For engineering teams working in large codebases that need context-aware agents across the software lifecycle, not only autocomplete.",
+    "Paid",
     "https://www.augmentcode.com/"
   ],
   [
     "Auphonic",
     "Voice & audio",
-    "Automated audio post-production service for leveling, noise reduction and podcast mastering.",
-    "For consistently polishing spoken audio without manual mastering on every episode.",
-    "Free tier / Paid",
+    "Automatic audio post-production for podcasts and spoken-word media: loudness normalization, noise and reverb reduction, filtering, speech recognition, chaptering, multitrack processing and publishing/API integrations.",
+    "For podcasters, broadcasters and publishers who need consistent, broadcast-ready audio across episodes and channels.",
+    "2h free monthly / Paid",
     "https://auphonic.com/"
   ],
   [
     "AutoGPT",
     "Agents",
-    "Open-source project for creating autonomous AI agents that plan and execute tasks.",
-    "For developers exploring autonomous task execution and agent architecture patterns.",
-    "Open source",
-    "https://github.com/Significant-Gravitas/AutoGPT"
+    "Agent platform for building, running and managing multi-step AI agents with integrations, workflows and hosted or self-hosted deployment; the classic open-source agent remains a separate project component.",
+    "For developers and teams automating research, operations, sales and engineering workflows with agents they can operate themselves or run through a managed service.",
+    "Free self-host / Paid hosted",
+    "https://agpt.co/"
   ],
   [
     "AUTOMATIC1111 Stable Diffusion WebUI",
-    "Image generation",
-    "Open-source web interface for running and extending Stable Diffusion locally.",
-    "For advanced local creators who want a large extension ecosystem and detailed generation controls.",
+    "Image workflows",
+    "Local browser-based interface for Stable Diffusion with text-to-image, image-to-image, inpainting, outpainting, extensions, scripts and fine-grained generation controls.",
+    "For advanced users who want local model control and an extensible interface for detailed Stable Diffusion workflows.",
     "Open source",
     "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
   ],
@@ -394,9 +386,9 @@
   [
     "B12",
     "Web apps",
-    "AI-assisted website builder and business services platform for professional firms.",
-    "For service businesses that want a website, content and client-facing workflow tools together.",
-    "Paid",
+    "AI website builder and business platform for professional services, combining site generation and editing with client intake, scheduling, CRM, email marketing, contracts, payments and hosting.",
+    "For consultants and service businesses that need a website plus client-operations tools in one managed platform rather than a standalone page builder.",
+    "Free tier / Paid",
     "https://www.b12.io/"
   ],
   [
@@ -410,8 +402,8 @@
   [
     "Base44",
     "Web apps",
-    "AI app builder for creating software from natural-language product descriptions.",
-    "For quickly prototyping business tools and web applications from plain-language requirements.",
+    "AI app builder that turns natural-language specifications into full-stack applications with database, authentication, storage, integrations, payments, hosting and deployment.",
+    "For founders and internal teams prototyping and launching useful web apps without assembling a separate backend and hosting stack.",
     "Free tier / Paid",
     "https://base44.com/"
   ],
@@ -432,14 +424,6 @@
     "https://bearly.ai/"
   ],
   [
-    "Beatoven.ai",
-    "Music",
-    "AI music generation tool for creating background tracks around mood and use case.",
-    "For video and podcast creators who need custom instrumental music.",
-    "Free tier / Paid",
-    "https://www.beatoven.ai/"
-  ],
-  [
     "Beautiful.ai",
     "Presentations",
     "AI presentation platform that generates and formats slide decks with smart layouts, brand controls, data visualization and team collaboration.",
@@ -450,9 +434,9 @@
   [
     "BentoML",
     "AI infrastructure",
-    "Open-source platform for packaging, serving and deploying AI models and inference APIs.",
-    "For engineering teams standardizing how models move from development into production.",
-    "Open source",
+    "Open-source Python framework for packaging and serving AI/ML models as production inference APIs, alongside the Bento Inference Platform for managed and self-hosted deployments.",
+    "For ML engineering teams standardizing model packaging, containers, batching, scaling and inference across different model frameworks.",
+    "Open source / Paid platform",
     "https://www.bentoml.com/"
   ],
   [
@@ -466,9 +450,9 @@
   [
     "Bito",
     "Coding",
-    "AI coding and code review assistant for development teams.",
-    "For engineers generating code, reviewing changes and understanding repositories inside existing workflows.",
-    "Free tier / Paid",
+    "Developer platform combining a codebase context engine, AI Architect knowledge graph, autonomous development agents, model routing and AI code review integrated with Git providers and editors.",
+    "For engineering teams that need shared codebase context, automated pull-request reviews and agentic workflows inside existing development tools.",
+    "Free trial / Paid",
     "https://bito.ai/"
   ],
   [
@@ -498,24 +482,24 @@
   [
     "Boomy",
     "Music",
-    "AI-assisted music creation platform for quickly generating and arranging original songs.",
-    "For beginners experimenting with music creation without traditional production skills.",
-    "Free tier / Paid",
+    "AI music creation platform for generating and personalizing original songs, with distribution and commercial-use options tied to paid Creator and Pro memberships.",
+    "For beginners and creators who want to create songs quickly; check the membership-specific license before using tracks commercially.",
+    "Free creation / Paid commercial downloads",
     "https://boomy.com/"
   ],
   [
     "Botpress",
     "Customer support",
-    "Platform for building and deploying AI agents with conversation flows, knowledge and integrations.",
-    "For teams creating custom support or business chat agents with developer controls.",
+    "AI agent platform with visual Studio, TypeScript ADK, knowledge bases, web search, integrations, webchat and human-support handoff through Desk.",
+    "For teams building customer-facing agents that need connected company knowledge, custom workflows and escalation to human support.",
     "Free tier / Paid",
     "https://botpress.com/"
   ],
   [
     "Braintrust",
-    "AI evaluation",
-    "Evaluation and observability platform for testing prompts, models and AI application behavior.",
-    "For product teams that want repeatable experiments before shipping model changes.",
+    "AI development",
+    "AI application observability and evaluation platform for tracing model and agent behavior, scoring outputs, running datasets and experiments, and analyzing production traces.",
+    "For AI product teams that need repeatable evaluations, trace-level debugging and release quality gates for LLM applications and agents.",
     "Free tier / Paid",
     "https://www.braintrust.dev/"
   ],
@@ -538,8 +522,8 @@
   [
     "Brisk Teaching",
     "Education",
-    "AI teaching assistant that works across browser-based educator workflows for planning, feedback and content creation.",
-    "For teachers who want AI support inside documents, webpages and classroom tools.",
+    "AI teaching platform that helps educators create lesson materials, adapt instruction, give feedback and generate student-facing activities inside Google and Microsoft education workflows.",
+    "For teachers and schools that want practical AI support inside existing classroom tools, with paid school plans for curriculum alignment and admin visibility.",
     "Free tier / Paid",
     "https://www.briskteaching.com/"
   ],
