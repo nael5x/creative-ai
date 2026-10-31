@@ -258,8 +258,8 @@ def main() -> None:
                 errors.append(f"{prefix} {name}: status-watch candidate must not be in the active catalog")
             if name in seen_quality_names:
                 errors.append(f"{prefix} {name}: candidate cannot also have an accepted/rejected quality review")
-            if status not in {"unresolved", "sunsetting"}:
-                errors.append(f"{prefix} {name}: status must be unresolved or sunsetting")
+            if status not in {"unresolved", "sunsetting", "maintenance-unclear"}:
+                errors.append(f"{prefix} {name}: status must be unresolved, sunsetting or maintenance-unclear")
             if not isinstance(official_url, str) or not valid_url(official_url):
                 errors.append(f"{prefix} {name}: officialUrl must be a valid http(s) URL")
             if not isinstance(checked_urls, list) or not checked_urls or not all(isinstance(url, str) and valid_url(url) for url in checked_urls):
@@ -274,7 +274,7 @@ def main() -> None:
                 errors.append(f"{prefix} {name}: nextAction must describe what would resolve the status")
             if status == "sunsetting" and not valid_iso_date(item.get("sunsetDate")):
                 errors.append(f"{prefix} {name}: sunsetting status requires a YYYY-MM-DD sunsetDate")
-            if status == "unresolved" and item.get("sunsetDate") is not None:
+            if status in {"unresolved", "maintenance-unclear"} and item.get("sunsetDate") is not None:
                 errors.append(f"{prefix} {name}: unresolved status must not claim a sunsetDate")
 
     if enforcement_started is not None:
