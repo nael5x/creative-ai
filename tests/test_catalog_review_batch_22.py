@@ -70,7 +70,7 @@ class CatalogReviewBatch22Tests(unittest.TestCase):
         self.assertIn("low-level orchestration framework", self.rows["LangGraph"][2])
         self.assertIn("MIT-licensed", self.rows["Langfuse"][2])
         self.assertIn("rather than hosting or orchestrating", self.rows["Langfuse"][3])
-        self.assertIn("framework-agnostic", self.rows["LangSmith"][2])
+        self.assertIn("Framework-agnostic", self.rows["LangSmith"][2])
         self.assertIn("complements orchestration frameworks", self.rows["LangSmith"][3])
 
     def test_current_batch_metadata(self):
