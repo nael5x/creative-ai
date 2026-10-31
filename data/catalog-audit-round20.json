@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-20",
+  "reviewedAt": "2026-10-31",
+  "scope": "Review of the next 15 alphabetically pending active entries, HiddenLayer through InVideo AI. Fourteen accepted after first-party checks; Hume AI moved to sunsetting status watch because its official changelog schedules the end of its core TTS and EVI APIs for November 13, 2026.",
+  "accepted": [
+    {
+      "name": "HiddenLayer",
+      "category": "Cybersecurity",
+      "description": "Enterprise AI-security platform for discovering AI assets, securing model supply chains, simulating adversarial attacks and monitoring AI systems at runtime, including generative and agentic applications across development and production environments.",
+      "userValue": "For security and AI-platform teams that need visibility into shadow AI, model and pipeline risks, continuous attack testing and runtime protection for AI applications.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://hiddenlayer.com/platform",
+      "evidenceUrls": [
+        "https://hiddenlayer.com/",
+        "https://hiddenlayer.com/platform"
+      ]
+    },
+    {
+      "name": "Higgsfield",
+      "category": "Video",
+      "description": "AI-native creative suite for generating and editing video and images through multiple selectable models, with specialized studios and tools for cinematic camera effects, image editing, inpainting, upscaling, face swaps, AI influencers, marketing assets and agent/API workflows.",
+      "userValue": "For creators and marketing teams that want a single workspace to generate, edit and package visual content across different models and specialized creative workflows.",
+      "availability": "Free credits / Paid",
+      "url": "https://higgsfield.ai/",
+      "evidenceUrls": [
+        "https://higgsfield.ai/",
+        "https://higgsfield.ai/pricing"
+      ]
+    },
+    {
+      "name": "Hippocratic AI",
+      "category": "Healthcare",
+      "description": "Enterprise platform for patient-facing generative AI agents across healthcare workflows such as appointment scheduling, intake, screening outreach, chronic-care support, medication adherence and care navigation. Its stated safety boundary is that agents do not diagnose or prescribe and escalate clinical concerns to licensed staff.",
+      "userValue": "For health systems and life-sciences organizations automating non-diagnostic patient engagement and care-coordination tasks with clinical safety monitoring and human escalation.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://hippocraticai.com/",
+      "evidenceUrls": [
+        "https://hippocraticai.com/",
+        "https://hippocraticai.com/safety",
+        "https://hippocraticai.com/products"
+      ]
+    },
+    {
+      "name": "HireVue",
+      "category": "HR & recruiting",
+      "description": "Enterprise hiring platform combining AI Interviewer, structured video interviews, job-relevant skills assessments, scheduling and workflow automation. For AI-scored video assessments, HireVue says it evaluates the transcript against role-related competencies rather than facial expressions, appearance, body language or background.",
+      "userValue": "For large employers standardizing candidate screening and skills evaluation across high-volume, early-career and professional hiring while keeping criteria job-related and reviewable by recruiters.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://www.hirevue.com/",
+      "evidenceUrls": [
+        "https://www.hirevue.com/",
+        "https://www.hirevue.com/platform/our-science",
+        "https://www.hirevue.com/platform"
+      ]
+    },
+    {
+      "name": "Humanly",
+      "category": "HR & recruiting",
+      "description": "AI recruiting platform for high-volume and frontline hiring, with AI Recruiter for candidate engagement and screening, AI Interviewer for structured voice/video interviews, automated scheduling and follow-up, candidate transcripts, Talent CRM and ATS workflows.",
+      "userValue": "For employers hiring hourly and frontline workforces who need to respond to applicants around the clock, screen consistently and move qualified candidates to interviews faster.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://www.humanly.io/",
+      "evidenceUrls": [
+        "https://www.humanly.io/",
+        "https://www.humanly.io/"
+      ]
+    },
+    {
+      "name": "Humata",
+      "category": "Documents",
+      "description": "AI knowledge-base and PDF assistant that answers questions across uploaded files, summarizes and compares technical documents, searches for evidence with citations linked to source passages, and can be embedded in a webpage to provide document-grounded answers to customers or teams.",
+      "userValue": "For researchers, professionals and organizations that need to search large document collections and share source-cited answers without manually reading every file.",
+      "availability": "Free tier / Paid plans",
+      "url": "https://www.humata.ai/",
+      "evidenceUrls": [
+        "https://www.humata.ai/",
+        "https://docs.humata.ai/"
+      ]
+    },
+    {
+      "name": "Hyper3D Rodin",
+      "category": "3D",
+      "description": "AI 3D-asset generation platform that creates editable textured models from text prompts, single images, sketches or multi-view references, with mesh and material controls, UV-ready exports, refinement tools, APIs and integrations for common 3D production software.",
+      "userValue": "For game developers, product designers and 3D artists who want to turn concepts or reference images into editable 3D assets and refine them for downstream pipelines.",
+      "availability": "Free previews / Paid credits",
+      "url": "https://hyper3d.ai/",
+      "evidenceUrls": [
+        "https://hyper3d.ai/",
+        "https://hyper3d.ai/help/features",
+        "https://docs.hyper3d.ai/en/get-started/features"
+      ]
+    },
+    {
+      "name": "HyperWrite",
+      "category": "Writing",
+      "description": "AI writing and research workspace with drafting, rewriting, autocomplete and browser-based Personal Assistant agents that can carry out multi-step online tasks such as organizing email, researching information and interacting with websites under user direction.",
+      "userValue": "For writers, researchers and knowledge workers who want both writing support and an AI assistant that can move beyond drafting to perform repetitive browser-based tasks.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.hyperwriteai.com/",
+      "evidenceUrls": [
+        "https://www.hyperwriteai.com/personal-assistant",
+        "https://www.hyperwriteai.com/"
+      ]
+    },
+    {
+      "name": "IBM watsonx Code Assistant",
+      "category": "Coding",
+      "description": "Portfolio of IBM generative-AI coding assistants for code generation, explanation, documentation and unit-test creation inside IDEs, with context-aware chat and specialized modernization workflows for enterprise Java and other IBM-supported environments.",
+      "userValue": "For enterprise development teams that need IDE-integrated code assistance and governed modernization workflows connected to IBM's software and cloud environments.",
+      "availability": "Limited trial / Paid IBM plans",
+      "url": "https://www.ibm.com/products/watsonx-code-assistant",
+      "evidenceUrls": [
+        "https://www.ibm.com/products/watsonx-code-assistant",
+        "https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started",
+        "https://www.ibm.com/docs/en/software-hub/5.4.x?topic=services-watsonx-code-assistant"
+      ]
+    },
+    {
+      "name": "Ideogram",
+      "category": "Images",
+      "description": "AI image-generation platform known for prompt-driven visual creation and text rendering, with Ideogram Canvas for organizing and combining images, Magic Fill for inpainting, Extend for outpainting, editable text layers, specialized image apps, API and MCP access.",
+      "userValue": "For designers, marketers and creators who need image generation with legible text and iterative control over layouts, edits, backgrounds and final compositions.",
+      "availability": "Free tier / Paid",
+      "url": "https://ideogram.ai/",
+      "evidenceUrls": [
+        "https://ideogram.ai/",
+        "https://ideogram.ai/features/canvas/",
+        "https://docs.ideogram.ai/canvas-and-editing/canvas/canvas-overview"
+      ]
+    },
+    {
+      "name": "Infermedica",
+      "category": "Healthcare",
+      "description": "Clinical AI triage and medical-guidance platform that collects patient symptoms and history, assesses urgency and likely care pathways, and supports digital front-door triage, nurse/call-center workflows and pre-visit intake through embeddable modules and APIs. The former Symptom Checker is now positioned as Infermedica Triage.",
+      "userValue": "For health systems, insurers and digital-care providers integrating structured symptom assessment and patient navigation into their own apps, portals or contact centers; outputs support triage workflows rather than replacing clinician assessment.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://infermedica.com/",
+      "evidenceUrls": [
+        "https://infermedica.com/",
+        "https://infermedica.com/product/symptom-checker",
+        "https://developer.infermedica.com/",
+        "https://help.infermedica.com/the-platform"
+      ]
+    },
+    {
+      "name": "insMind",
+      "category": "Images & design",
+      "description": "AI creative suite and photo editor for generating and editing images and videos, with text-to-video, image-to-video, AI image generation, background and object editing, visual effects and an AI agent; available through web and mobile/desktop apps.",
+      "userValue": "For ecommerce sellers, marketers and creators who need quick product-photo cleanup, image variations and short-form visual assets across web and mobile workflows.",
+      "availability": "Free tier / Paid credits",
+      "url": "https://www.insmind.com/",
+      "evidenceUrls": [
+        "https://www.insmind.com/",
+        "https://www.insmind.com/download"
+      ]
+    },
+    {
+      "name": "Instantly",
+      "category": "Sales",
+      "description": "Outbound sales platform combining cold-email infrastructure and warmup, B2B lead database, campaign automation and deliverability tools with Instantly AI Copilot for personalized messaging and an AI Sales Agent that finds ICP-matched leads, writes sequences and builds outreach campaigns.",
+      "userValue": "For sales teams and agencies running outbound prospecting who want lead discovery, campaign creation, email operations and AI-assisted personalization in one platform.",
+      "availability": "Free trial / Paid plans and AI credits",
+      "url": "https://instantly.ai/",
+      "evidenceUrls": [
+        "https://instantly.ai/",
+        "https://help.instantly.ai/en/articles/11532420-instantly-ai-copilot",
+        "https://help.instantly.ai/en/articles/14299661-ai-sales-agent",
+        "https://help.instantly.ai/en/articles/6221655-what-is-instantly"
+      ]
+    },
+    {
+      "name": "InVideo AI",
+      "category": "Video",
+      "description": "Agentic AI video-creation platform that turns a brief into scripts, storyboards, generated scenes, voiceovers, subtitles and edited videos using a choice of 200+ image, video and audio models. Its MCP server also lets external AI agents edit projects on an editable multitrack timeline inside the InVideo editor.",
+      "userValue": "For creators, marketers and teams producing ads, explainers and longer-form videos who want an AI agent to handle the first cut and then refine the result through conversational edits on a real timeline.",
+      "availability": "Free tier / Paid credits",
+      "url": "https://invideo.io/ai/",
+      "evidenceUrls": [
+        "https://invideo.io/ai/",
+        "https://help.invideo.io/en/articles/14717491-get-started-with-ai-filmmaking",
+        "https://invideo.io/agents/",
+        "https://invideo.io/news/introducing-invideo-mcp/"
+      ]
+    }
+  ],
+  "statusWatch": [
+    {
+      "name": "Hume AI",
+      "status": "sunsetting",
+      "officialUrl": "https://www.hume.ai/",
+      "checkedUrls": [
+        "https://www.hume.ai/",
+        "https://dev.hume.ai/voice/changelog",
+        "https://status.hume.ai/"
+      ],
+      "evidenceUrls": [
+        "https://dev.hume.ai/voice/changelog",
+        "https://dev.hume.ai/voice/docs/speech-to-speech-evi/overview",
+        "https://dev.hume.ai/voice/docs/text-to-speech-tts/overview"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "sunsetDate": "2026-11-13",
+      "reason": "Hume's official October 2, 2026 changelog states that its Text-to-Speech (TTS) and Empathic Voice Interface (EVI) APIs are being sunset, with access ending November 13, 2026 at 12:01 a.m. EST and account data permanently deleted after that date. The status page currently reports the systems as operational, so this is a scheduled API sunset, not an outage or a claim that the entire company is shutting down. The core voice products represented by this catalog entry are being withdrawn; keep it out of active discovery pending a verified replacement or migration path.",
+      "nextAction": "Recheck after November 13, 2026 for an official replacement product, migration path or remaining supported Hume API product; reinstate only if a distinct active AI offering is verified."
+    }
+  ],
+  "superseded": [],
+  "rejected": [],
+  "notes": [
+    "HiddenLayer is an AI-native security platform with AI discovery, model supply-chain security, attack simulation and runtime protection; its core product is AI security rather than a generic cybersecurity suite with a minor AI add-on.",
+    "Higgsfield is now a broad AI-native creative suite and multi-model workspace with video, image, editing, specialized studios, MCP and API workflows. The listing avoids treating it as only a single video model.",
+    "Hippocratic AI's official site explicitly states that its healthcare agents do not diagnose or prescribe. The catalog limits its use cases to patient engagement, outreach, intake, care coordination and other non-diagnostic tasks, with escalation to licensed staff.",
+    "HireVue states that AI-scored video assessments evaluate the transcript against job-related competencies and do not analyze facial expressions, appearance, body language or background. This distinction is preserved in the listing.",
+    "Humanly has expanded from conversational candidate engagement into an AI recruiting platform with AI Recruiter, AI Interviewer, AI Notetaker, Talent CRM and ATS capabilities for high-volume hiring.",
+    "Humata remains a distinct document knowledge-base workflow: file Q&A, summaries, document comparisons, citations to source passages and embeddable document chat.",
+    "Hyper3D Rodin is retained as the current 3D-generation product within the wider Hyper3D platform, with text/image-to-3D, editable textured assets, APIs and production integrations.",
+    "HyperWrite's official current positioning combines writing and research with a browser-using AI Personal Assistant; the listing reflects both capabilities rather than treating it as only a grammar or copywriting tool.",
+    "IBM watsonx Code Assistant is an official portfolio of generative AI coding products. The catalog describes the core IDE coding assistant and notes enterprise Java modernization without conflating it with the separately renamed Ansible and Z offerings.",
+    "Infermedica's former Symptom Checker is now positioned as Infermedica Triage / Clinical AI Triage. The entry reflects patient triage, care navigation and clinician-facing intake, not autonomous diagnosis.",
+    "insMind's current official download page lists both AI image and video generation, AI image editing and an AI Agent, plus current iOS and Android clients.",
+    "Instantly is a sales platform first; the catalog describes AI Copilot and AI Sales Agent as embedded features alongside outbound email infrastructure and a B2B lead database.",
+    "InVideo's current product is an agentic video creation/editor platform with 200+ models and a new MCP interface for external agents to edit an actual multitrack timeline. This is materially broader than the older one-shot AI video generator description.",
+    "Hume AI is not declared shut down. Its official October 2, 2026 changelog schedules the sunset of TTS and EVI APIs for November 13, 2026, and says account data will be deleted after that date. The status page still reports current operations as healthy, so it is classified as scheduled sunset rather than an outage or company closure."
+  ]
+}
