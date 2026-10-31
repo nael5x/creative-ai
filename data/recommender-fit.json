@@ -353,12 +353,11 @@
   "Luma App": {
     "w": {
       "video": 4.6,
-      "images": 4.2,
-      "audio": 3.6
+      "images": 4.2
     },
     "fit": {
-      "en": "Useful for planning, generating and iterating on multimodal creative assets in one agent-driven workspace.",
-      "ar": "مفيد لتخطيط وإنشاء وتطوير أصول إبداعية متعددة الوسائط ضمن مساحة عمل واحدة تقودها الوكلاء."
+      "en": "A current workspace for image and video generation using Luma's models and integrated creative tools.",
+      "ar": "مساحة العمل الحالية من لوما لإنشاء الصور والفيديو باستخدام نماذجها وأدواتها الإبداعية المتكاملة."
     }
   },
   "Microsoft Agent Framework": {
@@ -371,7 +370,18 @@
       "ar": "مناسب لبناء أنظمة وكلاء إنتاجية وتدفقات متعددة الوكلاء مع مرونة في مزودي النماذج وتحكم بشري ضمن التنفيذ."
     }
   },
-  "Mistral Vibe": {
+  "Manage AI": {
+    "w": {
+      "research": 3.8,
+      "writing": 3.6,
+      "automation": 4.2
+    },
+    "fit": {
+      "en": "Useful for law firms that run matters in Clio and want AI to surface deadlines, summarize context and prepare repeatable practice-management actions.",
+      "ar": "مفيد لمكاتب المحاماة التي تستخدم Clio وتريد من الذكاء الاصطناعي استخراج المواعيد وتلخيص سياق الملفات وتجهيز إجراءات إدارة العمل المتكررة."
+    }
+  },
+  "Vibe": {
     "w": {
       "writing": 4.2,
       "research": 4.5,
@@ -379,8 +389,8 @@
       "automation": 4
     },
     "fit": {
-      "en": "A general Mistral agent for multi-step research, writing and coding tasks across web, terminal and editor workflows.",
-      "ar": "وكيل عام من ميسترال للبحث والكتابة والبرمجة متعددة الخطوات عبر الويب والطرفية ومحررات الأكواد."
+      "en": "Mistral's current unified agent for multi-step productivity, research, writing and coding tasks across work and developer workflows.",
+      "ar": "وكيل ميسترال الموحد الحالي لمهام الإنتاجية والبحث والكتابة والبرمجة متعددة الخطوات."
     }
   }
 }
