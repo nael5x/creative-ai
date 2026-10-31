@@ -2313,7 +2313,7 @@
     },
     {
       "name": "Microsoft Agent Framework",
-      "officialUrl": "https://learn.microsoft.com/en-us/agent-framework/overview",
+      "officialUrl": "https://learn.microsoft.com/en-us/agent-framework/overview/",
       "evidenceUrls": [
         "https://learn.microsoft.com/en-us/agent-framework/overview",
         "https://learn.microsoft.com/en-us/agent-framework/support/faq",
@@ -2372,9 +2372,9 @@
     },
     {
       "name": "Luma App",
-      "officialUrl": "https://lumalabs.ai/app",
+      "officialUrl": "https://app.lumalabs.ai/",
       "evidenceUrls": [
-        "https://lumalabs.ai/app",
+        "https://app.lumalabs.ai/",
         "https://lumalabs.ai/llm-info",
         "https://lumalabs.ai/learning-hub/the-new-luma-app-creative-multimodal-agent"
       ],
