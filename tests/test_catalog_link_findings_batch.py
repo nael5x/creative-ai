@@ -14,11 +14,12 @@ class CatalogLinkFindingsBatchTests(unittest.TestCase):
         self.reviews = {row["name"]: row for row in self.quality["tools"]}
 
     def test_removed_or_renamed_names_are_not_left_as_active_entries(self):
-        self.assertNotIn("Tabnine", self.rows)
         self.assertNotIn("Tezi", self.rows)
         self.assertNotIn("Clari", self.rows)
         self.assertNotIn("NotebookLM", self.rows)
         self.assertNotIn("ViSenze", self.rows)
+        self.assertIn("Tabnine", self.rows)
+        self.assertEqual(self.reviews["Tabnine"]["decision"], "accepted")
         self.assertIn("Salesloft (formerly Clari)", self.rows)
         self.assertIn("Rezolve AI Visual Search (formerly ViSenze)", self.rows)
         self.assertIn("Gemini Notebook (formerly NotebookLM)", self.rows)
@@ -26,7 +27,6 @@ class CatalogLinkFindingsBatchTests(unittest.TestCase):
     def test_lifecycle_coverage_tracks_current_catalog_exactly(self):
         lifecycle_names = set(self.lifecycle["tools"])
         self.assertEqual(lifecycle_names, set(self.rows))
-        self.assertNotIn("Tabnine", lifecycle_names)
         self.assertNotIn("Tezi", lifecycle_names)
 
     def test_canonical_urls_and_current_product_status_are_reflected(self):
@@ -58,7 +58,7 @@ class CatalogLinkFindingsBatchTests(unittest.TestCase):
         self.assertIn("Invoke", invoke_names)
 
     def test_removed_products_have_rejection_reasons_and_evidence(self):
-        for name in ("Tabnine", "Tezi"):
+        for name in ("Tezi",):
             with self.subTest(name=name):
                 review = self.reviews[name]
                 self.assertEqual(review["decision"], "rejected")
