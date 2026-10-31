@@ -1644,6 +1644,10 @@
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
+    "PlayHT": {
+      "firstTrackedAt": "2026-10-31T00:52:54Z",
+      "event": "added"
+    },
     "Plus AI": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
@@ -2122,6 +2126,10 @@
     },
     "Tableau Pulse": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added"
+    },
+    "Tabnine": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "Tactiq": {
