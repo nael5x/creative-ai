@@ -4,6 +4,8 @@ This document explains how Creative AI audits the maintained tool catalog for tr
 
 ## Two complementary checks
 
+The canonical-link audit runs automatically every Monday at 05:15 UTC through GitHub Actions, can be started manually, and also runs for pull requests that change the catalog or audit implementation.
+
 ### 1. Editorial acceptance
 A tool must have a clear AI capability, an identifiable official first-party source, a concrete user workflow, and enough differentiation to be worth discovering. Third-party directories are discovery inputs only.
 
