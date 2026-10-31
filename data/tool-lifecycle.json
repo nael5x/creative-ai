@@ -388,6 +388,11 @@
       "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
+    "CoCounsel Legal": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added",
+      "previousName": "CoCounsel"
+    },
     "CodeGeeX": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
@@ -1250,14 +1255,6 @@
     },
     "MarketMuse": {
       "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "MarsCode": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Masterpiece X": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
     "Mastra": {
@@ -2164,6 +2161,11 @@
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
+    "TRAE": {
+      "firstTrackedAt": "2026-09-14T00:53:43Z",
+      "event": "added",
+      "previousName": "MarsCode"
+    },
     "Tray.ai": {
       "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
@@ -2348,6 +2350,11 @@
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
+    "WorldEngen": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added",
+      "previousName": "Masterpiece X"
+    },
     "Wren AI": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
@@ -2411,11 +2418,6 @@
     "Zyte": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
-    },
-    "CoCounsel Legal": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added",
-      "previousName": "CoCounsel"
     }
   }
 }
