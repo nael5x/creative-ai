@@ -1198,13 +1198,14 @@
     },
     {
       "name": "Magnific",
-      "officialUrl": "https://www.magnific.com/ai",
+      "officialUrl": "https://www.magnific.com/",
       "evidenceUrls": [
         "https://www.magnific.com/ai",
-        "https://www.magnific.com/freepik-ai"
+        "https://www.magnific.com/ai/docs/freepik-is-now-magnific",
+        "https://www.magnific.com/ai/docs/ai-credits-and-limits"
       ],
       "reviewedAt": "2026-10-31",
-      "userValue": "Magnific is the unified creative AI platform that now contains Freepik AI's image, video, audio and 3D tools alongside upscaling, Spaces, creative agents and API workflows.",
+      "userValue": "Magnific is the unified creative AI platform formerly branded Freepik, covering image, video, audio, 3D, upscaling, stock assets and collaborative production workflows, with a limited free plan and paid tiers.",
       "decision": "accepted"
     },
     {
@@ -2324,18 +2325,6 @@
       "decision": "accepted"
     },
     {
-      "name": "Clio Manage AI",
-      "officialUrl": "https://www.clio.com/manage/",
-      "evidenceUrls": [
-        "https://www.clio.com/manage/",
-        "https://www.clio.com/blog/clio-2025-year-in-review/",
-        "https://www.clio.com/blog/cliocon-2025-highlights/"
-      ],
-      "reviewedAt": "2026-10-31",
-      "userValue": "For law firms using Clio Manage that want to reduce routine administrative work while keeping legal professionals in control of approvals and outcomes.",
-      "decision": "accepted"
-    },
-    {
       "name": "Content Toolkit",
       "officialUrl": "https://www.semrush.com/features/content-marketing/",
       "evidenceUrls": [
@@ -2368,18 +2357,6 @@
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "For security teams governing employee AI usage and protecting custom AI applications and autonomous agents from data exposure and unsafe actions.",
-      "decision": "accepted"
-    },
-    {
-      "name": "Mistral Vibe",
-      "officialUrl": "https://chat.mistral.ai/",
-      "evidenceUrls": [
-        "https://docs.mistral.ai/vibe/",
-        "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe",
-        "https://docs.mistral.ai/vibe/code/overview"
-      ],
-      "reviewedAt": "2026-10-31",
-      "userValue": "For professionals and developers who want one agent for knowledge work and coding, with visible actions and approval controls.",
       "decision": "accepted"
     },
     {
@@ -2469,7 +2446,7 @@
       "userValue": "Clio's own product and company updates describe Clio Duo's evolution into Manage AI, now embedded in Clio Manage. The active catalog entry uses the current product identity.",
       "decision": "rejected",
       "reason": "Clio's own product and company updates describe Clio Duo's evolution into Manage AI, now embedded in Clio Manage. The active catalog entry uses the current product identity.",
-      "supersededBy": "Clio Manage AI"
+      "supersededBy": "Manage AI"
     },
     {
       "name": "ContentShake AI",
@@ -2559,7 +2536,7 @@
       "userValue": "Mistral's official help center states that Le Chat is now Vibe, with the same account, plan and conversation history. Replace the old product name with Mistral Vibe.",
       "decision": "rejected",
       "reason": "Mistral's official help center states that Le Chat is now Vibe, with the same account, plan and conversation history. Replace the old product name with Mistral Vibe.",
-      "supersededBy": "Mistral Vibe"
+      "supersededBy": "Vibe"
     },
     {
       "name": "Lexis+ AI",
@@ -2637,6 +2614,30 @@
       "userValue": "The official repository describes Devika as an early experimental project with many unimplemented or broken features and points to a future second iteration. It does not meet the directory's current usefulness bar.",
       "decision": "rejected",
       "reason": "The official repository describes Devika as an early experimental project with many unimplemented or broken features and points to a future second iteration. It does not meet the directory's current usefulness bar."
+    },
+    {
+      "name": "Manage AI",
+      "officialUrl": "https://www.clio.com/features/",
+      "evidenceUrls": [
+        "https://www.clio.com/manage/",
+        "https://www.clio.com/blog/clio-2025-year-in-review/",
+        "https://www.clio.com/blog/cliocon-2025-highlights/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For law firms using Clio Manage that want to reduce routine administrative work while keeping legal professionals in control of approvals and outcomes.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Vibe",
+      "officialUrl": "https://chat.mistral.ai/",
+      "evidenceUrls": [
+        "https://docs.mistral.ai/vibe/",
+        "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe",
+        "https://docs.mistral.ai/vibe/code/overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For professionals and developers who want one agent for knowledge work and coding, with visible actions and approval controls.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
