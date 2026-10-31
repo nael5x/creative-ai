@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build:components": "vite build",
-    "test:components": "vite build"
+    "test:components": "vite build",
+    "test:components:browser": "node scripts/test-components.mjs"
   },
   "dependencies": {
     "@hugeicons/core-free-icons": "^3.1.1",
