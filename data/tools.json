@@ -368,14 +368,6 @@
     "https://auphonic.com/"
   ],
   [
-    "AutoGen",
-    "AI development",
-    "Open-source framework from Microsoft for building multi-agent AI applications.",
-    "For developers experimenting with agent conversations, orchestration and tool use.",
-    "Open source",
-    "https://microsoft.github.io/autogen/"
-  ],
-  [
     "AutoGPT",
     "Agents",
     "Open-source project for creating autonomous AI agents that plan and execute tasks.",
@@ -696,6 +688,14 @@
     "https://www.chatpdf.com/"
   ],
   [
+    "Check Point AI Security",
+    "Cybersecurity",
+    "Enterprise platform to discover, protect and govern AI interactions across employees, applications and agents, including secure AI usage, input/output protection and agent tool-call controls.",
+    "For security teams governing employee AI usage and protecting custom AI applications and autonomous agents from data exposure and unsafe actions.",
+    "Paid",
+    "https://www.checkpoint.com/ai-security/"
+  ],
+  [
     "Chroma",
     "Vector databases",
     "Open-source database and retrieval layer designed for AI applications.",
@@ -792,12 +792,12 @@
     "https://cline.bot/"
   ],
   [
-    "Clio Duo",
+    "Clio Manage AI",
     "Legal",
-    "AI capabilities inside Clio for legal-practice workflows, task assistance and firm context.",
-    "For law firms already using Clio that want AI within practice-management operations.",
+    "AI capabilities embedded in Clio Manage that extract deadlines from court documents, surface matter activity, create tasks and calendar events, and prepare billing workflows for review.",
+    "For law firms using Clio Manage that want to reduce routine administrative work while keeping legal professionals in control of approvals and outcomes.",
     "Paid",
-    "https://www.clio.com/duo/"
+    "https://www.clio.com/manage/"
   ],
   [
     "Clipdrop",
@@ -880,12 +880,12 @@
     "https://constructor.com/"
   ],
   [
-    "ContentShake AI",
+    "Content Toolkit",
     "SEO & marketing",
-    "Semrush AI writing workspace for generating and optimizing marketing articles.",
-    "For teams that want content production connected to Semrush search data.",
-    "Paid",
-    "https://www.semrush.com/contentshake/"
+    "Semrush content workspace for topic research, SEO briefs, AI article generation, content optimization for Google and AI search, and repurposing into social and email formats.",
+    "For marketers and SEO teams who want one data-backed workflow from topic discovery and briefing through writing, optimization and publishing.",
+    "Free trial / Paid",
+    "https://www.semrush.com/features/content-marketing/"
   ],
   [
     "ContentStudio",
@@ -1110,14 +1110,6 @@
     "For teams that need multiple kinds of campaign creative from one brief while keeping outputs aligned with brand guidance.",
     "Paid",
     "https://designs.ai/"
-  ],
-  [
-    "Devika",
-    "Coding",
-    "Open-source agentic software engineering project for planning and implementing coding tasks.",
-    "For developers experimenting with autonomous coding-agent workflows locally.",
-    "Open source",
-    "https://github.com/stitionai/devika"
   ],
   [
     "Devin",
@@ -1472,14 +1464,6 @@
     "https://fliki.ai/"
   ],
   [
-    "Flowise",
-    "Visual AI builder",
-    "Visual builder for LLM apps and chatflows.",
-    "For assembling an AI chatbot or RAG workflow without writing every component from scratch.",
-    "Open source",
-    "https://flowiseai.com/"
-  ],
-  [
     "Fooocus",
     "Image generation",
     "Local open-source Stable Diffusion XL image-generation interface focused on simplified prompting, image prompting and inpainting/outpainting; currently in limited long-term support.",
@@ -1518,14 +1502,6 @@
     "For independent clinicians and practices looking to reduce after-hours documentation.",
     "Paid",
     "https://www.getfreed.ai/"
-  ],
-  [
-    "Freepik AI",
-    "Images & design",
-    "Creative AI suite for image, video and design generation inside Freepik.",
-    "For creators who want several generative media tools in one asset-focused workspace.",
-    "Free tier / Paid",
-    "https://www.freepik.com/ai"
   ],
   [
     "Freshworks Freddy AI",
@@ -1622,14 +1598,6 @@
     "For code completion, tests and explanations in an existing development workflow.",
     "Free tier / Paid",
     "https://github.com/features/copilot"
-  ],
-  [
-    "GitHub Spark",
-    "Web apps",
-    "AI-native application builder connected to GitHub for creating and publishing web apps.",
-    "For users turning ideas into small full-stack applications with a GitHub-centered workflow.",
-    "Paid",
-    "https://github.com/features/spark"
   ],
   [
     "GitLab Duo",
@@ -1904,12 +1872,12 @@
     "https://www.hootsuite.com/platform/ai"
   ],
   [
-    "Hostinger Horizons",
+    "Hostinger AI Builder",
     "Web apps",
-    "AI app and website builder connected to Hostinger deployment.",
-    "For users who want to describe and publish lightweight web products without a traditional coding setup.",
+    "AI website and web-app builder that creates from prompts, URLs, images or PDFs, with manual and agentic modes plus hosting, databases, logins, payments and SEO tools.",
+    "For businesses and makers who want to build and host a working website or lightweight web app in one provider without stitching together separate infrastructure.",
     "Paid",
-    "https://www.hostinger.com/horizons"
+    "https://www.hostinger.com/ai-builder"
   ],
   [
     "HubSpot Breeze",
@@ -2264,14 +2232,6 @@
     "https://krisp.ai/"
   ],
   [
-    "Lakera",
-    "Cybersecurity",
-    "AI security platform focused on prompt injection, unsafe inputs and LLM application protection.",
-    "For teams adding guardrails and runtime protection around generative AI apps.",
-    "Free tier / Paid",
-    "https://www.lakera.ai/"
-  ],
-  [
     "LALAL.AI",
     "Music",
     "AI stem separation and audio cleanup service for music and voice tracks.",
@@ -2368,14 +2328,6 @@
     "https://www.lavender.ai/"
   ],
   [
-    "Le Chat",
-    "Writing & research",
-    "Mistral's assistant for chat, writing, research and model-powered productivity.",
-    "For users who want a fast general assistant from the Mistral ecosystem.",
-    "Free tier / Paid",
-    "https://chat.mistral.ai/"
-  ],
-  [
     "LegalOn",
     "Legal",
     "AI contract review and legal workflow platform for checking agreements against playbooks and legal standards.",
@@ -2424,12 +2376,12 @@
     "https://lex.page/"
   ],
   [
-    "Lexis+ AI",
+    "Lexis+ with Protégé",
     "Legal",
-    "Generative AI legal research and drafting capabilities inside the LexisNexis platform.",
-    "For legal teams that want conversational research tied to LexisNexis content.",
+    "Legal AI workspace for research, drafting and analysis grounded in LexisNexis legal content, with conversational workflows powered by the Protégé assistant.",
+    "For legal professionals who need AI-assisted research and drafting connected to authoritative LexisNexis sources and legal workflows.",
     "Paid",
-    "https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page"
+    "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page"
   ],
   [
     "LibreChat",
@@ -2552,12 +2504,12 @@
     "https://ltx.io/studio"
   ],
   [
-    "Luma Dream Machine",
-    "Video",
-    "Image-to-video and text-to-video generation.",
-    "For cinematic motion from a still image or a written shot idea.",
-    "Free tier / Paid",
-    "https://lumalabs.ai/dream-machine"
+    "Luma App",
+    "Images & design",
+    "AI creative workspace with multimodal agents that plan, generate, iterate and refine image, video, audio and other creative assets across shared projects.",
+    "For creative teams that need an agent-driven workflow from brief to coordinated assets and polished deliverables without restarting across separate tools.",
+    "Paid",
+    "https://lumalabs.ai/app"
   ],
   [
     "Luminance",
@@ -2593,11 +2545,11 @@
   ],
   [
     "Magnific",
-    "Images",
-    "AI image enhancement and upscaling tool for adding detail and increasing resolution.",
-    "For creators who need to refine or enlarge generated and photographed visuals.",
+    "Images & design",
+    "Multimodal creative AI platform for generating and editing images, video, audio and 3D, with upscaling, Spaces, creative agents and API workflows.",
+    "For creators and teams who want a unified workspace for image, video, audio and 3D creation, enhancement and production workflows.",
     "Paid",
-    "https://www.magnific.com/"
+    "https://www.magnific.com/ai"
   ],
   [
     "Make",
@@ -2712,6 +2664,14 @@
     "https://www.metaview.ai/"
   ],
   [
+    "Microsoft Agent Framework",
+    "AI development",
+    "Open-source SDK for building and orchestrating production-grade AI agents and multi-agent workflows in Python and .NET, with tools, memory, middleware, observability and human-in-the-loop execution.",
+    "For developers building production agent systems that need durable workflows, provider flexibility, explicit orchestration and a current path from AutoGen or Semantic Kernel.",
+    "Open source",
+    "https://learn.microsoft.com/en-us/agent-framework/overview"
+  ],
+  [
     "Microsoft Copilot",
     "Knowledge work",
     "Microsoft AI assistant for web chat, search, content creation and Microsoft 365 productivity workflows.",
@@ -2774,6 +2734,14 @@
     "For developers who want open-source agent workflows plus hosted or local model access under one product surface.",
     "Open source",
     "https://mindshub.ai/"
+  ],
+  [
+    "Mistral Vibe",
+    "Productivity",
+    "Mistral's unified AI agent for professional productivity and coding across web, mobile, terminal and VS Code, supporting multi-step research, drafts, summaries, tool use and software workflows.",
+    "For professionals and developers who want one agent for knowledge work and coding, with visible actions and approval controls.",
+    "Free tier / Paid",
+    "https://chat.mistral.ai/"
   ],
   [
     "Mixo",
@@ -3880,14 +3848,6 @@
     "https://www.seekout.com/"
   ],
   [
-    "Semantic Kernel",
-    "AI development",
-    "Open-source SDK for integrating AI models, plugins and orchestration into applications.",
-    "For developers building model-powered features in Microsoft-friendly application stacks.",
-    "Open source",
-    "https://learn.microsoft.com/semantic-kernel/"
-  ],
-  [
     "Semantic Scholar",
     "Research",
     "AI-powered academic search engine for scientific literature.",
@@ -4046,14 +4006,6 @@
     "For turning structured data into client portals and operational apps quickly.",
     "Free tier / Paid",
     "https://www.softr.io/ai"
-  ],
-  [
-    "Sora",
-    "Video",
-    "OpenAI video generation product for creating and remixing video from prompts and media.",
-    "For generative video experiments within the OpenAI creative ecosystem.",
-    "Paid",
-    "https://openai.com/sora/"
   ],
   [
     "Soundful",
@@ -4224,12 +4176,12 @@
     "https://superagi.com/"
   ],
   [
-    "Superhuman",
+    "Superhuman Mail",
     "Productivity",
-    "AI-assisted email client focused on fast inbox workflows, drafting and summaries.",
-    "For high-volume email users who want speed-focused inbox management.",
+    "AI-native email client for Gmail and Outlook with fast inbox triage, writing, search, summaries, reminders and team collaboration.",
+    "For high-volume email users and teams who want to triage messages, draft replies and follow up faster.",
     "Paid",
-    "https://superhuman.com/"
+    "https://superhuman.com/mail"
   ],
   [
     "Supernormal",
@@ -4416,12 +4368,12 @@
     "https://www.topazlabs.com/topaz-photo-ai"
   ],
   [
-    "Topaz Video AI",
+    "Topaz Video",
     "Video",
-    "AI video enhancement software for upscaling, denoising, stabilization and frame work.",
-    "For improving footage quality rather than generating an entirely new video.",
+    "Professional AI video enhancement software for upscaling, denoising, sharpening, stabilization, slow motion and frame interpolation on macOS and Windows.",
+    "For editors, filmmakers and archivists improving existing footage quality rather than generating entirely new video.",
     "Paid",
-    "https://www.topazlabs.com/topaz-video-ai"
+    "https://www.topazlabs.com/topaz-video"
   ],
   [
     "Tray.ai",
