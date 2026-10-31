@@ -124,7 +124,7 @@
     {
       "oldName": "Databricks Genie",
       "newName": "Databricks Genie Agents",
-      "previousUrl": "https://www.databricks.com/product/genie/agents",
+      "previousUrl": "https://www.databricks.com/product/ai-bi/genie",
       "officialUrl": "https://www.databricks.com/product/genie/agents",
       "reason": "The former product URL now redirects to the Genie Agents destination; current Databricks documentation identifies Genie Agents as the domain-specific conversational analytics interface.",
       "evidenceUrls": [
