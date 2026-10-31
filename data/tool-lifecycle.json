@@ -68,6 +68,10 @@
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
+    "AI2SQL": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
     "Aider": {
       "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
@@ -182,10 +186,6 @@
     },
     "Auphonic": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "AutoGen": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "AutoGPT": {
@@ -348,6 +348,10 @@
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
+    "Check Point AI Security": {
+      "firstTrackedAt": "2026-09-13T15:46:53Z",
+      "event": "added"
+    },
     "Chroma": {
       "firstTrackedAt": "2026-09-14T00:29:30Z",
       "event": "added"
@@ -396,10 +400,6 @@
       "firstTrackedAt": "2026-09-13T14:15:07Z",
       "event": "added"
     },
-    "Clio Duo": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
     "Clipdrop": {
       "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
@@ -440,7 +440,7 @@
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "ContentShake AI": {
+    "Content Toolkit": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
@@ -553,10 +553,6 @@
       "event": "added"
     },
     "Designs.ai": {
-      "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Devika": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
@@ -736,10 +732,6 @@
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Flowise": {
-      "firstTrackedAt": "2026-09-12T22:54:28Z",
-      "event": "baseline_import"
-    },
     "Fooocus": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
@@ -758,10 +750,6 @@
     },
     "Freed": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "Freepik AI": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "Freshworks Freddy AI": {
@@ -811,10 +799,6 @@
     "GitHub Copilot": {
       "firstTrackedAt": "2026-09-12T22:54:28Z",
       "event": "baseline_import"
-    },
-    "GitHub Spark": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
     },
     "GitLab Duo": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
@@ -952,7 +936,7 @@
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Hostinger Horizons": {
+    "Hostinger AI Builder": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
@@ -1132,10 +1116,6 @@
       "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
-    "Lakera": {
-      "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
     "LALAL.AI": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
@@ -1184,10 +1164,6 @@
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "Le Chat": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
     "LegalOn": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
@@ -1212,7 +1188,7 @@
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Lexis+ AI": {
+    "Lexis+ with Protégé": {
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
@@ -1276,7 +1252,7 @@
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
-    "Luma Dream Machine": {
+    "Luma App": {
       "firstTrackedAt": "2026-09-12T22:54:28Z",
       "event": "baseline_import"
     },
@@ -1303,6 +1279,10 @@
     "Make": {
       "firstTrackedAt": "2026-09-12T22:54:28Z",
       "event": "baseline_import"
+    },
+    "Manage AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
     },
     "MarketMuse": {
       "firstTrackedAt": "2026-09-13T15:31:18Z",
@@ -1354,6 +1334,10 @@
     },
     "Metaview": {
       "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
+    "Microsoft Agent Framework": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "Microsoft Copilot": {
@@ -1940,10 +1924,6 @@
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
-    "Semantic Kernel": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
-      "event": "added"
-    },
     "Semantic Scholar": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
@@ -2022,10 +2002,6 @@
     },
     "Softr AI": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
-      "event": "added"
-    },
-    "Sora": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "Soundful": {
@@ -2112,7 +2088,7 @@
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
     },
-    "Superhuman": {
+    "Superhuman Mail": {
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     },
@@ -2208,7 +2184,7 @@
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
     },
-    "Topaz Video AI": {
+    "Topaz Video": {
       "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
@@ -2302,6 +2278,10 @@
     },
     "Vercel AI SDK": {
       "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Vibe": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "Vic.ai": {
@@ -2454,10 +2434,6 @@
     },
     "Zyte": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
-      "event": "added"
-    },
-    "AI2SQL": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
     }
   }
