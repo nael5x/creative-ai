@@ -63,7 +63,7 @@ class CatalogReviewBatch23Tests(unittest.TestCase):
 
     def test_lemlist_and_lavender_have_distinct_sales_jobs(self):
         self.assertIn("lemAgent", self.rows["lemlist"][2])
-        self.assertIn("formerly called AI Copilot", self.rows["lemlist"][2])
+        self.assertIn("previously called AI Copilot", self.rows["lemlist"][2])
         self.assertIn("Ora", self.rows["Lavender"][2])
         self.assertIn("Email Coach", self.rows["Lavender"][2])
 
@@ -75,7 +75,7 @@ class CatalogReviewBatch23Tests(unittest.TestCase):
     def test_lily_and_lokalise_current_platform_scopes(self):
         self.assertIn("Lily Max", self.rows["Lily AI"][2])
         self.assertIn("agentic product-intelligence", self.rows["Lily AI"][2])
-        self.assertIn("embedded AI localization", self.rows["Lokalise AI"][2])
+        self.assertIn("AI localization capabilities embedded in Lokalise", self.rows["Lokalise AI"][2])
         self.assertIn("not a separate translation chatbot", self.rows["Lokalise AI"][3])
 
     def test_current_batch_metadata(self):
