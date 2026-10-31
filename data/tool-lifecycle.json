@@ -400,10 +400,6 @@
       "firstTrackedAt": "2026-09-13T14:15:07Z",
       "event": "added"
     },
-    "Clio Manage AI": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
     "Clipdrop": {
       "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
@@ -1284,6 +1280,10 @@
       "firstTrackedAt": "2026-09-12T22:54:28Z",
       "event": "baseline_import"
     },
+    "Manage AI": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added"
+    },
     "MarketMuse": {
       "firstTrackedAt": "2026-09-13T15:31:18Z",
       "event": "added"
@@ -1370,10 +1370,6 @@
     },
     "MindsHub": {
       "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
-    "Mistral Vibe": {
-      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "Mixo": {
@@ -2282,6 +2278,10 @@
     },
     "Vercel AI SDK": {
       "firstTrackedAt": "2026-09-14T00:29:30Z",
+      "event": "added"
+    },
+    "Vibe": {
+      "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
     "Vic.ai": {
