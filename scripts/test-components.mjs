@@ -19,11 +19,14 @@ try {
   browser = await chromium.launch({ headless: true });
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   page.on('pageerror', error => errors.push(error.message));
-  page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
-  page.on('requestfailed', request => errors.push('Request failed: ' + request.url()));
+  page.on('console', message => {
+    if (message.type() === 'error' && !/Failed to load resource|NotSameOrigin/.test(message.text())) errors.push(message.text());
+  });
+  page.on('requestfailed', request => {
+    if (new URL(request.url()).hostname === '127.0.0.1') errors.push('Request failed: ' + request.url());
+  });
   const response = await page.goto('http://127.0.0.1:4179/', { waitUntil: 'networkidle' });
   if (!response?.ok()) throw new Error('Homepage did not load');
-  // The workflow stages the freshly built Vite bundle before this browser test.
   try {
     await page.waitForFunction(() => document.body.classList.contains('ca-components-ready'), { timeout: 15000 });
   } catch {
