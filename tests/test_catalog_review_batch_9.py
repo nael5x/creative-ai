@@ -40,7 +40,7 @@ class CatalogReviewBatch9Tests(unittest.TestCase):
         self.assertIn("security fixes", autogen["reason"].lower())
         self.assertIn("Semantic Kernel", self.rows)
         self.assertEqual(self.reviews["Semantic Kernel"]["decision"], "accepted")
-        self.assertIn("github.com/microsoft/semantic-kernel/releases", self.reviews["Semantic Kernel"]["evidenceUrls"])
+        self.assertIn("https://github.com/microsoft/semantic-kernel/releases", self.reviews["Semantic Kernel"]["evidenceUrls"])
         self.assertIn("Microsoft Agent Framework", self.rows)
 
     def test_superseded_and_retired_names_are_not_active(self):
