@@ -4883,6 +4883,19 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For everyday users and creators who want help with questions, research and visual creation in one assistant integrated into Meta's ecosystem. Features, connected apps and rollout vary by country and surface; the core experience is free, while subscriptions offer higher usage and additional features.",
       "decision": "accepted"
+    },
+    {
+      "name": "Metaview",
+      "officialUrl": "https://www.metaview.ai/",
+      "evidenceUrls": [
+        "https://www.metaview.ai/interview-notes",
+        "https://www.metaview.ai/pricing?product=notes",
+        "https://www.metaview.ai/about",
+        "https://www.metaview.ai/resources/blog/october-2026-botless-notes-faster-agents"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For recruiting teams that need consistent interview documentation and faster candidate workflows across calls and ATS records. The Notes plan is free for 25 calls per month per user or $60 per user per month for unlimited calls; other agents have separate limits and pricing. AI-generated assessments should remain subject to human review, and teams must configure candidate consent, opt-out and retention for applicable rules.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4898,7 +4911,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-27",
+  "lastQualityReviewBatch": "catalog-review-batch-28",
   "lastQualityReviewBatchSummary": {
     "accepted": 1,
     "rejected": 0,

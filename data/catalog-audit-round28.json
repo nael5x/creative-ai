@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-28",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Metaview. Verified the active AI recruiting platform, interview-notes workflow, current Notes pricing, integrations and recent botless recording update; refined the existing catalog entry without changing lifecycle status.",
+  "accepted": [
+    {
+      "name": "Metaview",
+      "category": "HR & recruiting",
+      "description": "AI recruiting platform that captures and transcribes interviews, creates structured notes, candidate summaries and scorecards, and connects interview intelligence with ATS workflows; its broader agent suite also supports sourcing, application review, screening and reporting.",
+      "userValue": "For recruiting teams that need consistent interview documentation and faster candidate workflows across calls and ATS records. The Notes plan is free for 25 calls per month per user or $60 per user per month for unlimited calls; other agents have separate limits and pricing. Review AI-generated assessments with human judgment and configure candidate consent, opt-out and retention to meet local rules.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.metaview.ai/",
+      "evidenceUrls": [
+        "https://www.metaview.ai/interview-notes",
+        "https://www.metaview.ai/pricing?product=notes",
+        "https://www.metaview.ai/about",
+        "https://www.metaview.ai/resources/blog/october-2026-botless-notes-faster-agents"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Metaview is an active recruiting platform spanning sourcing, application review, screening, interview notes and reporting; its interview-notes product captures calls and in-person conversations, produces structured notes and candidate summaries, and syncs scorecards and notes with ATS systems.",
+    "The official Notes pricing page lists a free plan with 25 calls per user per month and a Pro plan at $60 per user per month for unlimited calls. Other agents have their own limits and pricing, so the Notes price must not be generalized to the whole platform.",
+    "The October 12, 2026 product update documents desktop-based botless note-taking and automatic redaction of sensitive information.",
+    "Because the product processes candidate conversations and assists candidate assessment, teams should review AI-generated outputs, obtain and manage appropriate consent, and configure opt-out and retention settings for applicable jurisdictions."
+  ]
+}
