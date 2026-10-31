@@ -37,6 +37,8 @@ Lifecycle event values:
 - `baseline_import` — the tool was already present when lifecycle tracking was established.
 - `added` — the tool was added after lifecycle tracking began; use the real UTC catalog-addition timestamp.
 
+A renamed product keeps its original `firstTrackedAt` and `event`, and adds `previousName` with the prior catalog name. The old name must have a rejected quality record with `supersededBy` set to the current name. Do not reset the first-tracked date when correcting a product identity.
+
 Example for a future addition:
 
 ```json

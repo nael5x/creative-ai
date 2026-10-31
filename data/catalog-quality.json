@@ -2907,6 +2907,197 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For developers building RAG, semantic search or multimodal retrieval systems who need a local or hosted vector database.",
       "decision": "accepted"
+    },
+    {
+      "name": "Circleback",
+      "officialUrl": "https://circleback.ai/",
+      "evidenceUrls": [
+        "https://circleback.ai/",
+        "https://circleback.ai/switch",
+        "https://run.circleback.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams that need meeting outcomes, accountable follow-ups and searchable conversation context connected to their CRM, project tools and AI agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Civitai",
+      "officialUrl": "https://civitai.com/",
+      "evidenceUrls": [
+        "https://civitai.tech/newsroom",
+        "https://civitai.tech/articles/28369/two-front-doors-civitaicom-civitaired-and-whats-next",
+        "https://civitai.tech/articles/33294/the-2026-creator-program-the-full-picture",
+        "https://civitai.tech/articles/34441/hubs-build-a-feed-from-your-favorites"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For generative-media creators who need a broad library of community models and LoRAs, model discovery, creator resources and hosted generation in one ecosystem.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Claid.ai",
+      "officialUrl": "https://claid.ai/",
+      "evidenceUrls": [
+        "https://help.claid.ai/en/article/welcome-to-claidai-general-overview-oxluuk/",
+        "https://help.claid.ai/en/article/ai-photoshoot-76as8m/",
+        "https://docs.claid.ai/image-editing-api/api-reference"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce sellers and creative teams that need polished, consistent product imagery and campaign variations without arranging a new photoshoot for every asset.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cleanup.pictures",
+      "officialUrl": "https://cleanup.pictures/",
+      "evidenceUrls": [
+        "https://cleanup.pictures/",
+        "https://clipdrop.co/apis"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For photographers, ecommerce teams and everyday users who need to clean up a photo quickly without opening a full desktop editor.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cleanvoice AI",
+      "officialUrl": "https://cleanvoice.ai/",
+      "evidenceUrls": [
+        "https://cleanvoice.ai/",
+        "https://help.cleanvoice.ai/en/articles/3-what-is-cleanvoice",
+        "https://help.cleanvoice.ai/en/articles/19-which-features-are-available-in-pay-as-you-go-and-subscription",
+        "https://cleanvoice.app/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For podcasters, interviewers and audio/video editors who want to shorten cleanup work while retaining control over the exported edit.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Clearscope",
+      "officialUrl": "https://www.clearscope.io/",
+      "evidenceUrls": [
+        "https://www.clearscope.io/",
+        "https://www.clearscope.io/pricing/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SEO and content teams that need one workflow for topic research, content optimization and visibility monitoring across traditional search and AI answers.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Clipdrop",
+      "officialUrl": "https://clipdrop.co/",
+      "evidenceUrls": [
+        "https://clipdrop.co/",
+        "https://clipdrop.co/pricing",
+        "https://clipdrop.co/apis",
+        "https://stability.ai/news-updates/init-ml-divestment"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and product teams that need a focused set of image-generation and image-editing operations in a browser or through an API.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CoCounsel Legal",
+      "officialUrl": "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+      "evidenceUrls": [
+        "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+        "https://legal.thomsonreuters.com/en/products/cocounsel-legal/features",
+        "https://legal.thomsonreuters.com/blog/behind-the-build-of-the-next-generation-of-cocounsel-legal/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For attorneys and legal teams that need source-grounded research, document review and drafting connected to trusted legal content and firm knowledge; professional review remains essential.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Colossyan",
+      "officialUrl": "https://www.colossyan.com/",
+      "evidenceUrls": [
+        "https://www.colossyan.com/",
+        "https://docs.colossyan.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For L&D, HR and customer-education teams that need to produce, update and localize training content without filming every lesson.",
+      "decision": "accepted"
+    },
+    {
+      "name": "ComfyUI",
+      "officialUrl": "https://github.com/Comfy-Org/ComfyUI",
+      "evidenceUrls": [
+        "https://github.com/Comfy-Org/ComfyUI",
+        "https://www.comfy.org/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For technical creators who need fine-grained control, reusable graphs and local execution across a wide range of generative models and media workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Compose AI",
+      "officialUrl": "https://www.compose.ai/",
+      "evidenceUrls": [
+        "https://www.compose.ai/",
+        "https://www.compose.ai/pricing",
+        "https://chromewebstore.google.com/detail/compose-ai-ai-powered-wri/ddlbpiadoechcolndfeaonajmngmhblj"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For people who write across email, documents and web apps and want contextual autocomplete and rewriting without switching to a separate chat tool.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Consensus",
+      "officialUrl": "https://consensus.app/",
+      "evidenceUrls": [
+        "https://help.consensus.app/en/articles/9922673-how-consensus-works",
+        "https://help.consensus.app/en/articles/12641232-research-agent",
+        "https://help.consensus.app/en/articles/10083353-responsible-ai-limitations"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students, researchers and professionals who need evidence-backed answers from scientific literature and want to trace each synthesis to its source papers.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Constructor",
+      "officialUrl": "https://constructor.com/",
+      "evidenceUrls": [
+        "https://constructor.com/",
+        "https://constructor.com/solutions/search"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce retailers with large catalogs who need shoppers to find relevant products through better search, recommendations and natural-language assistance.",
+      "decision": "accepted"
+    },
+    {
+      "name": "ContentStudio",
+      "officialUrl": "https://contentstudio.io/",
+      "evidenceUrls": [
+        "https://contentstudio.io/ai-studio",
+        "https://docs.contentstudio.io/articles/ai-studio-1c0e28da",
+        "https://docs.contentstudio.io/help-center"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, agencies and social teams that want to move from an idea to on-brand, scheduled social content in one workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CoCounsel",
+      "officialUrl": "https://legal.thomsonreuters.com/en/products/cocounsel",
+      "evidenceUrls": [
+        "https://legal.thomsonreuters.com/en/products/cocounsel",
+        "https://legal.thomsonreuters.com/en/products/cocounsel-legal"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The prior catalog label is superseded by the official current product name CoCounsel Legal.",
+      "decision": "rejected",
+      "reason": "Thomson Reuters' former CoCounsel product URL now redirects to the current CoCounsel Legal page, and the official legal product and feature pages consistently use CoCounsel Legal. The old catalog name is an alias, not a separate product.",
+      "supersededBy": "CoCounsel Legal"
+    },
+    {
+      "name": "Connected Papers",
+      "officialUrl": "https://www.connectedpapers.com/",
+      "evidenceUrls": [
+        "https://www.connectedpapers.com/about",
+        "https://www.connectedpapers.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The product is a useful visual academic-paper discovery graph, but its documented method is bibliometric similarity rather than an AI capability.",
+      "decision": "rejected",
+      "reason": "The official methodology describes co-citation and bibliographic coupling to identify related papers and a force-directed graph to arrange them. The official product pages do not document AI/ML or generative-AI functionality. It is a research-discovery tool, but it does not meet Creative AI's requirement that AI be a real, useful part of the product."
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -2922,16 +3113,16 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-13",
+  "lastQualityReviewBatch": "catalog-review-batch-14",
   "lastQualityReviewBatchSummary": {
     "accepted": 14,
-    "rejected": 0,
-    "superseded": 0,
+    "rejected": 1,
+    "superseded": 1,
     "retired": 0,
     "mergedIntoExisting": 0,
     "updatedExisting": 14,
     "rechecked": 0,
-    "statusWatch": 1,
+    "statusWatch": 0,
     "recommenderProfilesAdded": 0,
     "recommenderProfilesRenamed": 0,
     "recommenderProfilesRemoved": 0
