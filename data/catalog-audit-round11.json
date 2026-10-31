@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-31",
+  "batch": "catalog-review-batch-10",
+  "scope": "Review 15 existing entries using current first-party product pages, documentation, pricing and status information. No tools were added to increase the catalog count.",
+  "accepted": [
+    {
+      "name": "Artbreeder",
+      "category": "Images",
+      "officialUrl": "https://www.artbreeder.com/",
+      "availability": "Free tier / Paid",
+      "description": "AI image creation and editing workspace with prompt-based generation, Composer, Mixer, collage tools and Animator for turning still images into short videos.",
+      "userValue": "A current image-creation and editing workspace with prompt generation, remixing, Composer/Mixer workflows and Animator; its updates page documents active model and feature updates.",
+      "evidenceUrls": [
+        "https://www.artbreeder.com/",
+        "https://www.artbreeder.com/updates",
+        "https://www.artbreeder.com/pricing",
+        "https://www.artbreeder.com/legacy/credits"
+      ]
+    },
+    {
+      "name": "Augment Code",
+      "category": "Coding",
+      "officialUrl": "https://www.augmentcode.com/",
+      "availability": "Paid",
+      "description": "Agentic software-development platform with codebase-aware agents and Cosmos workflows for planning, implementation, code review, testing, incident response and large-scale migrations.",
+      "userValue": "An agentic software-development platform for context-aware planning, coding, review, testing and maintenance workflows across larger codebases.",
+      "evidenceUrls": [
+        "https://www.augmentcode.com/",
+        "https://www.augmentcode.com/pricing",
+        "https://docs.augmentcode.com/"
+      ]
+    },
+    {
+      "name": "Auphonic",
+      "category": "Voice & audio",
+      "officialUrl": "https://auphonic.com/",
+      "availability": "2h free monthly / Paid",
+      "description": "Automatic audio post-production for podcasts and spoken-word media: loudness normalization, noise and reverb reduction, filtering, speech recognition, chaptering, multitrack processing and publishing/API integrations.",
+      "userValue": "A production audio post-processing service with automatic loudness, noise and reverb processing, speech recognition, multitrack and publishing workflows; the service documents a monthly free allowance.",
+      "evidenceUrls": [
+        "https://auphonic.com/",
+        "https://auphonic.com/pricing",
+        "https://auphonic.com/help/"
+      ]
+    },
+    {
+      "name": "AutoGPT",
+      "category": "Agents",
+      "officialUrl": "https://agpt.co/",
+      "availability": "Free self-host / Paid hosted",
+      "description": "Agent platform for building, running and managing multi-step AI agents with integrations, workflows and hosted or self-hosted deployment; the classic open-source agent remains a separate project component.",
+      "userValue": "A current agent platform with hosted and self-hosted deployment. Its repository distinguishes the MIT-licensed classic components from the Polyform Shield platform, so it is not labeled simply open source.",
+      "evidenceUrls": [
+        "https://agpt.co/",
+        "https://docs.agpt.co/",
+        "https://github.com/Significant-Gravitas/AutoGPT/blob/master/LICENSE"
+      ]
+    },
+    {
+      "name": "AUTOMATIC1111 Stable Diffusion WebUI",
+      "category": "Image workflows",
+      "officialUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "availability": "Open source",
+      "description": "Local browser-based interface for Stable Diffusion with text-to-image, image-to-image, inpainting, outpainting, extensions, scripts and fine-grained generation controls.",
+      "userValue": "A maintained local Stable Diffusion interface with detailed generation, inpainting, extensions and scripts; recent repository activity confirms it remains a usable project despite infrequent tagged releases.",
+      "evidenceUrls": [
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases",
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/pulls?q=is%3Apr+is%3Aclosed"
+      ]
+    },
+    {
+      "name": "B12",
+      "category": "Web apps",
+      "officialUrl": "https://www.b12.io/",
+      "availability": "Free tier / Paid",
+      "description": "AI website builder and business platform for professional services, combining site generation and editing with client intake, scheduling, CRM, email marketing, contracts, payments and hosting.",
+      "userValue": "A current AI website and business platform with a free entry plan and paid features for professional-service businesses.",
+      "evidenceUrls": [
+        "https://www.b12.io/",
+        "https://www.b12.io/pricing",
+        "https://www.b12.io/features/"
+      ]
+    },
+    {
+      "name": "Base44",
+      "category": "Web apps",
+      "officialUrl": "https://base44.com/",
+      "availability": "Free tier / Paid",
+      "description": "AI app builder that turns natural-language specifications into full-stack applications with database, authentication, storage, integrations, payments, hosting and deployment.",
+      "userValue": "A current natural-language full-stack app builder with a free entry plan and paid usage tiers.",
+      "evidenceUrls": [
+        "https://base44.com/",
+        "https://base44.com/pricing",
+        "https://docs.base44.com/"
+      ]
+    },
+    {
+      "name": "BentoML",
+      "category": "AI infrastructure",
+      "officialUrl": "https://www.bentoml.com/",
+      "availability": "Open source / Paid platform",
+      "description": "Open-source Python framework for packaging and serving AI/ML models as production inference APIs, alongside the Bento Inference Platform for managed and self-hosted deployments.",
+      "userValue": "An active open-source model-serving framework plus a commercial inference platform for production deployment.",
+      "evidenceUrls": [
+        "https://www.bentoml.com/",
+        "https://docs.bentoml.com/",
+        "https://github.com/bentoml/BentoML"
+      ]
+    },
+    {
+      "name": "Bito",
+      "category": "Coding",
+      "officialUrl": "https://bito.ai/",
+      "availability": "Free trial / Paid",
+      "description": "Developer platform combining a codebase context engine, AI Architect knowledge graph, autonomous development agents, model routing and AI code review integrated with Git providers and editors.",
+      "userValue": "A current developer platform for codebase context, AI-assisted code review and agentic engineering workflows; the current pricing page presents trial and paid plans.",
+      "evidenceUrls": [
+        "https://bito.ai/",
+        "https://bito.ai/pricing",
+        "https://docs.bito.ai/",
+        "https://bito.ai/product/context-engine/",
+        "https://bito.ai/product/ai-code-review-agent/"
+      ]
+    },
+    {
+      "name": "Boomy",
+      "category": "Music",
+      "officialUrl": "https://boomy.com/",
+      "availability": "Free creation / Paid commercial downloads",
+      "description": "AI music creation platform for generating and personalizing original songs, with distribution and commercial-use options tied to paid Creator and Pro memberships.",
+      "userValue": "An active AI music creation platform. Its official licensing help distinguishes free creation from paid Creator/Pro commercial-download rights.",
+      "evidenceUrls": [
+        "https://boomy.com/",
+        "https://support.boomy.com/hc/en-us/articles/14733259384589-What-are-the-licensing-rights-for-my-songs",
+        "https://support.boomy.com/hc/en-us/articles/14733160128013-What-is-Boomy"
+      ]
+    },
+    {
+      "name": "Botpress",
+      "category": "Customer support",
+      "officialUrl": "https://botpress.com/",
+      "availability": "Free tier / Paid",
+      "description": "AI agent platform with visual Studio, TypeScript ADK, knowledge bases, web search, integrations, webchat and human-support handoff through Desk.",
+      "userValue": "A current visual and developer platform for building AI agents with knowledge, integrations, webchat and human handoff; official pricing documents a free tier and paid plans.",
+      "evidenceUrls": [
+        "https://botpress.com/",
+        "https://botpress.com/docs/",
+        "https://botpress.com/pricing",
+        "https://botpress.com/blog/pricing-update-may-2026/"
+      ]
+    },
+    {
+      "name": "Braintrust",
+      "category": "AI development",
+      "officialUrl": "https://www.braintrust.dev/",
+      "availability": "Free tier / Paid",
+      "description": "AI application observability and evaluation platform for tracing model and agent behavior, scoring outputs, running datasets and experiments, and analyzing production traces.",
+      "userValue": "An active evaluation and observability platform for tracing, testing and improving AI applications, with an official free Starter plan and paid tiers.",
+      "evidenceUrls": [
+        "https://www.braintrust.dev/",
+        "https://www.braintrust.dev/pricing",
+        "https://www.braintrust.dev/docs"
+      ]
+    },
+    {
+      "name": "Brisk Teaching",
+      "category": "Education",
+      "officialUrl": "https://www.briskteaching.com/",
+      "availability": "Free tier / Paid",
+      "description": "AI teaching platform that helps educators create lesson materials, adapt instruction, give feedback and generate student-facing activities inside Google and Microsoft education workflows.",
+      "userValue": "An active AI teaching product with educator tools and a free teacher plan plus paid school/district plans.",
+      "evidenceUrls": [
+        "https://www.briskteaching.com/",
+        "https://www.briskteaching.com/plans",
+        "https://www.briskteaching.com/tools"
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "AskCodi",
+      "previousUrl": "https://www.askcodi.com/",
+      "reason": "Current official positioning is a done-for-you AI software agency rather than a self-serve AI tool. Remove from the active tools catalog.",
+      "evidenceUrls": [
+        "https://www.askcodi.com/",
+        "https://www.askcodi.com/pricing"
+      ]
+    },
+    {
+      "name": "Beatoven.ai",
+      "previousUrl": "https://www.beatoven.ai/",
+      "reason": "Temporarily remove pending official-domain integrity verification: current accessible homepage and product subpages contain unrelated promotional and placeholder content, so the directory cannot confidently direct users to this destination.",
+      "recheckCondition": "Reconsider only after the official domain and product destination are verified clean and consistently represent Beatoven's music product.",
+      "evidenceUrls": [
+        "https://www.beatoven.ai/",
+        "https://www.beatoven.ai/usecase/youtube",
+        "https://www.beatoven.ai/api"
+      ]
+    }
+  ],
+  "unresolved": [],
+  "corrections": [
+    {
+      "name": "AutoGPT",
+      "availability": "Free self-host / Paid hosted",
+      "reason": "The platform license is Polyform Shield while classic components are MIT; avoid a blanket Open source label."
+    },
+    {
+      "name": "Auphonic",
+      "availability": "2h free monthly / Paid",
+      "reason": "Official pricing documents the monthly free processing allowance."
+    },
+    {
+      "name": "Augment Code",
+      "availability": "Paid",
+      "reason": "Current pricing lists paid plans; do not carry forward the old generic free-tier label."
+    },
+    {
+      "name": "B12",
+      "availability": "Free tier / Paid",
+      "reason": "Current official pricing includes a free entry plan."
+    },
+    {
+      "name": "BentoML",
+      "availability": "Open source / Paid platform",
+      "reason": "Distinguish the open-source serving framework from the commercial inference platform."
+    },
+    {
+      "name": "Bito",
+      "availability": "Free trial / Paid",
+      "reason": "Current pricing is presented as trial and paid plans."
+    },
+    {
+      "name": "Boomy",
+      "availability": "Free creation / Paid commercial downloads",
+      "reason": "Official licensing ties commercial-download rights to Creator and Pro memberships."
+    }
+  ],
+  "notes": [
+    "AskCodi was removed because its current official positioning is an AI software agency, not a self-serve AI tool.",
+    "Beatoven.ai was removed pending domain-integrity verification, not because the music-generation concept itself lacks value.",
+    "AUTOMATIC1111 remains accepted because the official repository shows recent maintenance activity even though tagged releases are infrequent.",
+    "AutoGPT is not labeled simply Open source because the platform and classic components use different licenses.",
+    "No popularity, traffic, revenue, customer-count or ranking claims were used as acceptance evidence."
+  ]
+}
