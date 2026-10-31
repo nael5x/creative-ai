@@ -4896,6 +4896,21 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For recruiting teams that need consistent interview documentation and faster candidate workflows across calls and ATS records. The Notes plan is free for 25 calls per month per user or $60 per user per month for unlimited calls; other agents have separate limits and pricing. AI-generated assessments should remain subject to human review, and teams must configure candidate consent, opt-out and retention for applicable rules.",
       "decision": "accepted"
+    },
+    {
+      "name": "Microsoft Security Copilot",
+      "officialUrl": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+      "evidenceUrls": [
+        "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+        "https://learn.microsoft.com/en-us/copilot/security/microsoft-security-copilot",
+        "https://learn.microsoft.com/en-us/copilot/security/faq-security-copilot",
+        "https://www.microsoft.com/en-us/security/pricing/microsoft-security-copilot/",
+        "https://learn.microsoft.com/en-us/copilot/security/security-copilot-inclusion",
+        "https://learn.microsoft.com/en-us/copilot/security/agents-overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SOC analysts and security/IT teams that need to investigate threats and coordinate response across Microsoft and supported partner tools. Standalone access requires Azure and Microsoft Entra ID and uses capacity-based SCU billing: Microsoft lists $4 per provisioned SCU-hour and $6 per overage SCU. Eligible Microsoft 365 E5/E7 tenants receive an included monthly SCU allocation. The interface supports Turkish, but Turkish is not among the currently listed model languages; scope agent permissions carefully and keep analysts in control of consequential actions.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4911,7 +4926,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-28",
+  "lastQualityReviewBatch": "catalog-review-batch-29",
   "lastQualityReviewBatchSummary": {
     "accepted": 1,
     "rejected": 0,
