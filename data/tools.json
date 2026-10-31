@@ -1570,10 +1570,10 @@
   [
     "Glide",
     "Web apps",
-    "AI-assisted no-code platform for building business apps from data and workflows.",
-    "For internal tools and lightweight apps connected to spreadsheets and business data.",
+    "No-code business app builder with Glide AI and Glide Agent: generate custom apps and UI components from descriptions, process text, audio and images into structured data, and build workflows around company information. The AI features are integrated into the Glide app-building platform.",
+    "For teams that want internal business apps and operational workflows without building a full custom application, using AI to generate app structure and extract information from business files.",
     "Free tier / Paid",
-    "https://www.glideapps.com/ai"
+    "https://www.glideapps.com/classic/ai"
   ],
   [
     "Gong",
@@ -1585,33 +1585,33 @@
   ],
   [
     "Goose",
-    "Coding",
-    "Open-source local AI agent for software development and computer-assisted workflows.",
-    "For developers who want an extensible agent that can work with tools on their machine.",
-    "Open source",
+    "AI agents",
+    "Open-source, general-purpose AI agent that runs locally through a desktop app, CLI or API; connects to LLM providers and MCP extensions to perform coding, research, writing, data analysis and other multi-step computer workflows. The project is now part of the Linux Foundation's Agentic AI Foundation.",
+    "For developers and technical users who want an extensible agent they can run on their own machine and connect to local tools, files, services and preferred models.",
+    "Open source (Apache 2.0)",
     "https://block.github.io/goose/"
   ],
   [
     "Gorgias AI",
     "Customer support",
-    "AI customer-support capabilities inside Gorgias for ecommerce service automation.",
-    "For online stores that want automated support tied to commerce workflows.",
-    "Paid",
-    "https://www.gorgias.com/ai"
+    "Gorgias AI Agent for ecommerce brands, with two roles: a pre-purchase shopping assistant that helps shoppers find products and a post-purchase support agent that handles order status, returns, cancellations and related requests across connected channels. It can take approved actions in commerce tools and hand off conversations to people.",
+    "For Shopify-focused ecommerce teams that want customer-facing AI support and shopping assistance grounded in their catalog, policies and order data, with configurable skills and human handoff.",
+    "Paid add-on / Request demo",
+    "https://www.gorgias.com/ai-agent"
   ],
   [
     "GPT4All",
     "Local models",
-    "Open-source local AI ecosystem for running language models on desktop hardware.",
-    "For private on-device chat and experimentation without depending on a hosted model provider.",
+    "Open-source desktop application and model ecosystem for downloading and running large language models locally on Windows, macOS and Linux, with private chat and LocalDocs for asking questions over files without sending prompts to a hosted model API.",
+    "For individuals and developers who want to experiment with local language models and query personal documents on their own hardware, subject to the capabilities of the selected model and device.",
     "Open source",
     "https://www.nomic.ai/gpt4all"
   ],
   [
     "Grain",
     "Meetings",
-    "AI meeting recording and highlight platform for customer conversations and team knowledge.",
-    "For sales and product teams that want clips, summaries and searchable call context.",
+    "AI meeting capture and intelligence platform that records or transcribes calls with or without a meeting bot, creates enriched transcripts, summaries and action items, and lets users search meetings, ask questions, create clips and expose meeting context to external agents through MCP and API.",
+    "For sales, customer-success, research and product teams that need searchable meeting knowledge and want AI agents to act on transcripts, clips and follow-ups after conversations.",
     "Free tier / Paid",
     "https://grain.com/"
   ],
@@ -1634,17 +1634,17 @@
   [
     "Greptile",
     "Coding",
-    "AI code review and codebase intelligence platform for engineering teams.",
-    "For repository-aware review and questions across larger codebases.",
-    "Paid",
+    "AI code-review agent that builds a graph of a connected repository to understand functions, classes and dependencies, reviews pull requests with codebase-wide context, posts findings and suggested fixes, and can pass issues to coding agents for implementation.",
+    "For engineering teams that want automated, repository-aware pull-request reviews and codebase context beyond file-by-file linting.",
+    "Paid / Request demo",
     "https://www.greptile.com/"
   ],
   [
     "Grok",
     "Writing & research",
-    "General-purpose AI assistant for chat, research, reasoning and multimodal tasks.",
-    "For users who want another broad assistant for everyday questions, analysis and current-topic exploration.",
-    "Free tier / Paid",
+    "Multimodal AI assistant from xAI for chat, reasoning, writing and research, with voice conversations, image and video creation through Grok Imagine, file analysis and connectors to supported personal or work apps. Grok Bot is a separate agent product and is not conflated with the Grok chat assistant here.",
+    "For users who want a general-purpose assistant for questions, analysis and creative work, with multimodal tools and connected-app context.",
+    "Free tier / Paid SuperGrok plans",
     "https://grok.com/"
   ],
   [
@@ -1666,8 +1666,8 @@
   [
     "Gumloop",
     "Automation",
-    "Visual AI automation platform for connecting models, data and business workflows.",
-    "For building multi-step AI automations without writing every integration manually.",
+    "Visual AI agent and workflow platform for building, sharing and governing agents that connect business apps, models, data and reusable skills; supports agent nodes, custom MCP integrations and automated workflows for tasks such as account research, outbound writing and ticket triage.",
+    "For operations, sales, support and other teams that want to automate multi-step work across existing tools without hand-coding every integration.",
     "Free tier / Paid",
     "https://www.gumloop.com/"
   ],
@@ -1682,17 +1682,17 @@
   [
     "H2O.ai",
     "Data & analytics",
-    "AI and machine-learning platform for predictive modeling, enterprise AI and model deployment.",
-    "For technical teams building and operationalizing machine-learning applications.",
-    "Free / Paid",
+    "Enterprise sovereign-AI platform spanning predictive machine learning, generative AI, agentic AI and observability, with tools to build, orchestrate, deploy and govern models and agents across cloud, private and air-gapped environments; includes the H2O AI Super Agent orchestration layer.",
+    "For organizations that need to develop and operate AI/ML systems while retaining control over models, data, deployment environments, governance and auditability.",
+    "Open-source components / Enterprise licensing",
     "https://h2o.ai/"
   ],
   [
     "Hailuo AI",
     "Video",
-    "AI video generation platform for turning prompts and images into short video clips.",
-    "For rapid experimentation with image-to-video and text-to-video concepts.",
-    "Free tier / Paid",
+    "AI video-creation studio supporting text-to-video, image-to-video and reference-to-video workflows, with selectable video models including MiniMax's Hailuo model family and other third-party models offered in the editor.",
+    "For creators and marketers who want to generate short cinematic, social, product or concept clips from prompts, still images or visual references and compare different generation models.",
+    "Free credits / Paid",
     "https://hailuoai.video/"
   ],
   [
@@ -1722,17 +1722,17 @@
   [
     "Haystack",
     "AI development",
-    "Open-source framework for production AI pipelines, RAG and agentic applications.",
-    "For developers building retrieval and generative AI systems with modular pipelines.",
+    "Open-source Python framework for building production AI agents, retrieval-augmented generation (RAG) applications and multimodal search systems from modular components, pipelines, document stores, retrievers, tools, evaluators and model generators.",
+    "For developers building custom AI applications who need explicit, testable orchestration and control over retrieval, model calls, tools and data flow.",
     "Open source",
     "https://haystack.deepset.ai/"
   ],
   [
     "HeadshotPro",
     "Image generation",
-    "AI headshot generator for professional profile and team photos.",
-    "For individuals and teams that need consistent business headshots without organizing a photo shoot.",
-    "Paid",
+    "AI headshot generator for individuals and teams that turns uploaded selfies into professional profile photos with selectable styles, backgrounds and formats; offers one-time packages rather than a recurring subscription, and states that input photos are deleted after 30 days and are not used to train its models.",
+    "For professionals and organizations that need consistent business headshots without arranging an in-person photo shoot.",
+    "One-time purchase from $29",
     "https://www.headshotpro.com/"
   ],
   [
@@ -1746,18 +1746,10 @@
   [
     "Heidi Health",
     "Healthcare",
-    "AI medical scribe and clinical documentation assistant.",
-    "For clinicians generating notes, letters and summaries from patient encounters.",
-    "Free tier / Paid",
+    "AI Care Partner for clinicians combining ambient clinical scribing, dictation, evidence-backed answers with citations, document creation and workflow support. Heidi Scribe creates structured notes from consultations, while Heidi Evidence helps clinicians research clinical questions and verify source material; availability varies by region and plan.",
+    "For clinicians and healthcare teams reducing documentation and information-gathering work while reviewing generated notes and evidence before using them in patient care.",
+    "Free tier / Paid plans and enterprise",
     "https://www.heidihealth.com/"
-  ],
-  [
-    "Helicone",
-    "AI observability",
-    "Observability platform for logging, analyzing and improving LLM application traffic.",
-    "For developers who need visibility into prompts, costs, latency and model behavior.",
-    "Free tier / Paid",
-    "https://www.helicone.ai/"
   ],
   [
     "Help Scout AI",
@@ -1770,8 +1762,8 @@
   [
     "Hex",
     "Data & analytics",
-    "Collaborative analytics workspace with notebooks, data apps and AI-assisted analysis.",
-    "For data teams combining SQL, Python and interactive reporting in one workspace.",
+    "Agent-native analytics platform for teams to explore, model and share data through notebooks, conversational analytics and governed data apps. Hex 4.0 adds a collaboration surface for humans and AI agents, with Notebook Agent assistance, context management, inspectable data lineage and controlled publishing.",
+    "For data teams that want analysts and business users to ask questions of company data while retaining review, traceability and governance over agent-generated analyses and apps.",
     "Free tier / Paid",
     "https://hex.tech/"
   ],
