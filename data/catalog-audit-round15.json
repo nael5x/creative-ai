@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-15",
+  "reviewedAt": "2026-10-31",
+  "scope": "Review of the next 15 alphabetically pending active catalog entries, Continue through DeepScribe. Fourteen accepted after first-party checks; Creatomate rejected because its official documentation establishes template-based media automation, not a native AI capability.",
+  "accepted": [
+    {
+      "name": "Continue",
+      "category": "Coding",
+      "description": "Open-source AI code assistant for VS Code, JetBrains and terminal workflows, with agent mode, chat, edit, inline autocomplete and custom agents/model providers.",
+      "userValue": "For developers who want a model-flexible assistant integrated with their IDE and terminal, including agent actions and control over the models and tools they use.",
+      "availability": "Open source / Paid enterprise",
+      "url": "https://continue.dev/",
+      "evidenceUrls": [
+        "https://docs.continue.dev/",
+        "https://docs.continue.dev/ide-extensions/agent/quick-start",
+        "https://github.com/continuedev/continue"
+      ]
+    },
+    {
+      "name": "Copy.ai",
+      "category": "Marketing",
+      "description": "AI-native go-to-market platform connecting workflows, agents, reusable actions, company knowledge and GTM data for prospecting, account research, lead handling, content creation and account-based marketing.",
+      "userValue": "For revenue teams that need repeatable, cross-functional AI workflows grounded in company data rather than isolated copy-generation prompts.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://www.copy.ai/",
+      "evidenceUrls": [
+        "https://www.copy.ai/",
+        "https://www.copy.ai/pricing"
+      ]
+    },
+    {
+      "name": "Corti",
+      "category": "Healthcare",
+      "description": "AI platform for critical industries with specialized models, clinical speech-to-text, medical coding, ambient documentation, agent orchestration and sovereign-cloud or on-prem deployments. Corti Assistant turns clinician-patient conversations into editable facts and EHR-ready notes.",
+      "userValue": "For healthcare software teams and providers embedding domain-specific AI into clinical workflows; clinicians must review generated documentation and coding before use.",
+      "availability": "Free credits / Paid",
+      "url": "https://corti.ai/",
+      "evidenceUrls": [
+        "https://corti.ai/",
+        "https://docs.corti.ai/assistant/welcome",
+        "https://corti.ai/solutions"
+      ]
+    },
+    {
+      "name": "Crawl4AI",
+      "category": "Data extraction",
+      "description": "Open-source crawler and scraper for LLMs and AI agents; extracts clean Markdown or structured JSON, supports CSS/XPath and LLM-based extraction, browser control, MCP and a hosted API.",
+      "userValue": "For developers building RAG, agent, search or data pipelines that need self-hosted, LLM-ready web content.",
+      "availability": "Open source / Hosted",
+      "url": "https://crawl4ai.com/",
+      "evidenceUrls": [
+        "https://docs.crawl4ai.com/",
+        "https://github.com/unclecode/crawl4ai"
+      ]
+    },
+    {
+      "name": "Creatify",
+      "category": "Marketing",
+      "description": "AI ad-creation platform led by Ad Agent, which researches product URLs or uploaded assets, drafts ad concepts and scripts, generates short-form video ads and iterates edits through chat; includes URL-to-video and AI avatars.",
+      "userValue": "For ecommerce and growth teams that need multiple UGC-style ad concepts and variations without manually filming and editing each creative.",
+      "availability": "Free tier / Paid",
+      "url": "https://creatify.ai/",
+      "evidenceUrls": [
+        "https://creatify.ai/",
+        "https://help.creatify.ai/en/articles/17323796-ad-agent",
+        "https://help.creatify.ai/en/articles/12435455-url-to-video"
+      ]
+    },
+    {
+      "name": "Crisp AI",
+      "category": "Customer support",
+      "description": "Crisp's integrated AI support suite, including Hugo AI Agent, knowledge-grounded answers, internal Hugo Copilot, smart replies, conversation summaries, content training and no-code workflows across messaging channels.",
+      "userValue": "For support teams that want customer-facing automation plus agent assistance within their shared inbox, with configurable routing, integrations and human handoff.",
+      "availability": "Free trial / Paid Crisp plans",
+      "url": "https://crisp.chat/en/ai/",
+      "evidenceUrls": [
+        "https://crisp.chat/en/ai/",
+        "https://docs.crisp.chat/guides/hugo/",
+        "https://help.crisp.chat/en/article/getting-started-with-hugo-ai-agent-w6gbux/",
+        "https://crisp.chat/en/blog/how-we-rebuilt-part-of-crisp-to-build-hugo-our-ai-support-agent/"
+      ]
+    },
+    {
+      "name": "CrowdStrike Charlotte AI",
+      "category": "Cybersecurity",
+      "description": "Agentic AI security analyst built into Falcon; supports natural-language investigation, cross-domain context, detection triage, query generation, custom security agents and governed response actions with analyst approvals.",
+      "userValue": "For SOC teams managing high alert volume who need faster investigation and governed automation while retaining analyst control.",
+      "availability": "Eligible Falcon plans / Enterprise",
+      "url": "https://www.crowdstrike.com/en-us/platform/charlotte-ai/",
+      "evidenceUrls": [
+        "https://www.crowdstrike.com/en-us/platform/charlotte-ai/"
+      ]
+    },
+    {
+      "name": "Curipod",
+      "category": "Education",
+      "description": "AI lesson-creation and classroom-interaction platform for teachers; generates slides and activities, supports AI feedback on student writing and drawings, and lets teachers edit, run and translate lessons.",
+      "userValue": "For teachers who want to prepare interactive lessons and give students timely feedback without building each slide and activity manually.",
+      "availability": "Free tier / Paid",
+      "url": "https://curipod.com/",
+      "evidenceUrls": [
+        "https://help.curipod.com/en/articles/739593-can-i-edit-my-lesson-in-curipod",
+        "https://help.curipod.com/en/articles/739587-what-types-of-activities-are-there-in-curipod",
+        "https://help.curipod.com/en/articles/739580-how-do-i-teach-a-lesson-in-curipod"
+      ]
+    },
+    {
+      "name": "D-ID",
+      "category": "Video",
+      "description": "AI video and agent platform that creates talking-avatar videos from text, images or audio, translates and lip-syncs videos, and deploys real-time conversational agents with LLMs and knowledge bases through APIs and SDKs.",
+      "userValue": "For teams building digital presenters, localized video content or interactive avatar agents.",
+      "availability": "Free trial / Paid",
+      "url": "https://www.d-id.com/",
+      "evidenceUrls": [
+        "https://docs.d-id.com/docs/quickstart",
+        "https://docs.d-id.com/reference/create4",
+        "https://www.d-id.com/"
+      ]
+    },
+    {
+      "name": "Dataiku",
+      "category": "Data & analytics",
+      "description": "Enterprise AI platform combining data science, machine learning, analytics, agent creation, orchestration and governance; supports visual and code agents, model workflows, enterprise data connections and production oversight.",
+      "userValue": "For enterprise data teams that need to build, deploy and govern analytics and AI systems across technical and business users.",
+      "availability": "Free trial / Enterprise",
+      "url": "https://www.dataiku.com/product/",
+      "evidenceUrls": [
+        "https://www.dataiku.com/product",
+        "https://www.dataiku.com/product/agent-hub",
+        "https://developer.dataiku.com/latest/getting-started/intro-value/index.html"
+      ]
+    },
+    {
+      "name": "Decktopus",
+      "category": "Presentations",
+      "description": "AI presentation platform that turns a topic, notes or uploaded documents into a structured, branded deck, then supports AI editing, rehearsal feedback, sharing and viewer analytics.",
+      "userValue": "For professionals and teams that need polished client, sales, educational or investor decks quickly, with editing and delivery tools in one workflow.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.decktopus.com/",
+      "evidenceUrls": [
+        "https://www.decktopus.com/",
+        "https://help.decktopus.com/en/articles/111-how-to-create-a-presentation-with-ai"
+      ]
+    },
+    {
+      "name": "DeepEval",
+      "category": "AI evaluation",
+      "description": "Open-source Python framework for testing LLM applications with 50+ metrics, LLM-as-judge, synthetic datasets and end-to-end, trajectory and component evaluation for agents, RAG, voice and multimodal workflows; optional Confident AI traces.",
+      "userValue": "For engineering teams that need repeatable quality and safety checks for LLM features in pytest and CI/CD, with evaluations running locally.",
+      "availability": "Open source / Cloud",
+      "url": "https://deepeval.com/",
+      "evidenceUrls": [
+        "https://deepeval.com/docs/introduction",
+        "https://deepeval.com/docs/metrics-introduction",
+        "https://github.com/confident-ai/deepeval"
+      ]
+    },
+    {
+      "name": "DeepL Write",
+      "category": "Writing",
+      "description": "AI writing assistant that corrects grammar, spelling and punctuation and suggests clearer wording, alternative phrases, tone and style across web, desktop, mobile, browser extensions and productivity integrations.",
+      "userValue": "For writers and teams polishing multilingual communications while preserving meaning and choosing a tone appropriate to the context.",
+      "availability": "Free / Pro",
+      "url": "https://www.deepl.com/en/write",
+      "evidenceUrls": [
+        "https://www.deepl.com/en/features/write",
+        "https://support.deepl.com/hc/en-us/articles/6318834492700-About-DeepL-Write"
+      ]
+    },
+    {
+      "name": "DeepScribe",
+      "category": "Healthcare",
+      "description": "Ambient AI platform focused on oncology workflows, generating context-aware clinical notes from visits, preparing pre-chart summaries with SmartPrep and supporting diagnosis and coding intelligence inside oncology EHRs.",
+      "userValue": "For oncology clinicians and health systems seeking to reduce documentation burden and keep visit context organized; clinicians must verify notes and coding before finalizing.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://www.deepscribe.ai/",
+      "evidenceUrls": [
+        "https://www.deepscribe.ai/",
+        "https://www.deepscribe.ai/specialties/oncology"
+      ]
+    }
+  ],
+  "superseded": [],
+  "rejected": [
+    {
+      "name": "Creatomate",
+      "officialUrl": "https://creatomate.com/",
+      "evidenceUrls": [
+        "https://creatomate.com/docs/fundamentals/getting-started/introduction",
+        "https://creatomate.com/docs"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Creatomate automates video and image rendering from templates and API payloads; the official docs mention external AI-assistant integration and AI-powered workflows, but do not establish a built-in AI capability in the product itself.",
+      "decision": "rejected",
+      "reason": "The official product documentation describes a template-driven media-rendering and automation API. Its AI references are to using an external AI assistant to configure or operate Creatomate, or to examples where other tools supply AI-generated content. The core product itself is not shown to provide an AI model or first-party AI function that materially performs the media creation. It is a useful video automation product, but it does not meet Creative AI's AI-tool inclusion standard."
+    }
+  ],
+  "statusWatch": [],
+  "notes": [
+    "Creatify's current first-party help center identifies Ad Agent as its main ad-creation workflow and says it replaces Creative Agent; the entry is updated to current functionality rather than retaining retired subtool names.",
+    "Corti's current official site positions the company as an AI platform for critical industries, with specialized models, clinical speech, medical coding, agentic orchestration and sovereign infrastructure; clinical documentation outputs still require clinician review.",
+    "Crisp AI is retained as a first-party AI suite within Crisp. Hugo is the customer-facing AI agent within that suite, while Hugo Copilot assists human support operators; the catalog entry is not represented as an independent product.",
+    "CrowdStrike Charlotte AI is a first-party agentic analyst capability built into Falcon, with governed actions and analyst control; it is labeled as an integrated platform capability.",
+    "DeepScribe's current product is focused on oncology workflows; its description covers ambient notes, pre-chart summaries and coding support without implying autonomous diagnosis or replacing clinician judgment.",
+    "Creatomate remains excluded because its official docs describe a template-rendering automation product and external AI-assistant integration, not a native AI function in Creatomate itself."
+  ]
+}
