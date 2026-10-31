@@ -1987,14 +1987,16 @@
     },
     {
       "name": "PlayHT",
-      "officialUrl": "https://play.ht/",
+      "officialUrl": "https://docs.play.ht/reference/models",
       "evidenceUrls": [
-        "https://play.ht/"
+        "https://docs.play.ht/reference/models",
+        "https://docs.play.ht/reference/api-getting-started",
+        "https://docs.play.ht/reference/playht-tts-websocket-api",
+        "https://docs.play.ht/reference/python-sdk"
       ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed because the maintained product domain no longer resolves as a usable service during the full source-health audit and a current first-party product surface could not be verified.",
-      "decision": "rejected",
-      "reason": "Removed because the maintained product domain no longer resolves as a usable service during the full source-health audit and a current first-party product surface could not be verified."
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and developers who need expressive text-to-speech, voice cloning, multilingual speech and low-latency streaming; official docs currently describe Play3.0-mini, PlayDialog and live API endpoints.",
+      "decision": "accepted"
     },
     {
       "name": "Plus AI",
@@ -2421,15 +2423,15 @@
     },
     {
       "name": "Tabnine",
-      "officialUrl": "https://www.tabnine.com/",
+      "officialUrl": "https://www.tabnine.com/ai-code-assistant/",
       "evidenceUrls": [
-        "https://www.tabnine.com/",
-        "https://www.tricentis.com/"
+        "https://www.tabnine.com/ai-code-assistant/",
+        "https://docs.tabnine.com/main/administering-tabnine/release-notes",
+        "https://docs.tabnine.com/main/getting-started/tabnine-agent"
       ],
       "reviewedAt": "2026-10-31",
-      "userValue": "Removed from the active catalog because the official domain now redirects to a general Tricentis page and no dedicated current first-party product destination could be verified. Re-add only when a canonical product page is available.",
-      "decision": "rejected",
-      "reason": "Removed from the active catalog because the official domain now redirects to a general Tricentis page and no dedicated current first-party product destination could be verified. Re-add only when a canonical product page is available."
+      "userValue": "For developers and engineering teams that need context-aware coding assistance, agentic workflows and enterprise controls inside supported IDEs; official release notes document ongoing releases through March 2026.",
+      "decision": "accepted"
     },
     {
       "name": "Telex",
@@ -2656,12 +2658,13 @@
   "lastQualityReviewBatchAt": "2026-10-31",
   "lastQualityReviewBatch": "catalog-review-batch-9",
   "lastQualityReviewBatchSummary": {
-    "accepted": 11,
+    "accepted": 13,
     "rejected": 15,
     "superseded": 11,
     "retired": 4,
     "mergedIntoExisting": 1,
     "updatedExisting": 2,
+    "rechecked": 2,
     "recommenderProfilesAdded": 3,
     "recommenderProfilesRenamed": 1,
     "recommenderProfilesRemoved": 1
