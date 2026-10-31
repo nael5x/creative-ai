@@ -4453,6 +4453,187 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For teams building LLM applications that need a continuous development and production-quality loop for debugging, evaluation and monitoring; it complements orchestration frameworks such as LangGraph rather than replacing them.",
       "decision": "accepted"
+    },
+    {
+      "name": "LanguageTool",
+      "officialUrl": "https://languagetool.org/",
+      "evidenceUrls": [
+        "https://languagetool.org/",
+        "https://languagetool.org/paraphrasing-tool",
+        "https://languagetool.org/services",
+        "https://github.com/languagetool-org/languagetool"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For people and teams who write across languages and want proofreading and contextual rewriting inside the apps they already use; advanced checks and unlimited paraphrasing require Premium.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Later AI",
+      "officialUrl": "https://later.com/ai/",
+      "evidenceUrls": [
+        "https://later.com/ai/",
+        "https://help.later.com/hc/en-us/articles/12252569781015-Later-s-Caption-Writer",
+        "https://help.later.com/hc/en-us/articles/14711113026327-Generate-Content-Ideas-with-AI"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For social media managers who already plan and publish through Later and want AI-assisted caption drafting and content ideation without moving to a separate tool; this is an embedded feature set, not a standalone AI product.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lavender",
+      "officialUrl": "https://www.lavender.ai/",
+      "evidenceUrls": [
+        "https://lavender.ai/",
+        "https://lavender.ai/coach"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SDRs, account executives and sales teams who want evidence-informed coaching while writing personalized outbound emails, plus an agent that can help prepare prospecting and outreach workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LegalOn",
+      "officialUrl": "https://www.legalontech.com/",
+      "evidenceUrls": [
+        "https://www.legalontech.com/",
+        "https://www.legalontech.com/review",
+        "https://www.legalontech.com/what-is-legalon",
+        "https://www.legalontech.com/press-releases/legalon-launches-five-ai-agents-driving-step-change-productivity-for-in-house-legal-teams"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For in-house legal and contracting teams that need to review agreements against their own negotiation standards, triage requests and search contract knowledge faster; LegalOn states its AI does not replace attorneys, who retain validation and final judgment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "lemlist",
+      "officialUrl": "https://www.lemlist.com/",
+      "evidenceUrls": [
+        "https://www.lemlist.com/",
+        "https://help.lemlist.com/en/articles/15382535-lemagent-what-it-is-how-it-works-and-when-to-use-it"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For sales teams and agencies running outbound campaigns who need prospect data, context-aware personalization, multichannel sequencing and deliverability workflows in one system.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Leonardo AI",
+      "officialUrl": "https://leonardo.ai/",
+      "evidenceUrls": [
+        "https://leonardo.ai/ai-image-generator",
+        "https://leonardo.ai/models",
+        "https://leonardo.ai/ai-video-editor",
+        "https://leonardo.ai/ai-image-editor",
+        "https://leonardo.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For designers, marketers, game artists and creators who need model choice and iterative control across image generation, editing, enhancement and short-form video creation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Let's Enhance",
+      "officialUrl": "https://letsenhance.io/",
+      "evidenceUrls": [
+        "https://letsenhance.io/",
+        "https://letsenhance.io/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For photographers, ecommerce teams, designers and print workflows that need to recover detail from low-resolution images or prepare visual assets for larger outputs.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lex",
+      "officialUrl": "https://lex.page/",
+      "evidenceUrls": [
+        "https://lex.page/",
+        "https://lex.page/about"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For writers, founders and knowledge workers who want a focused long-form editor with reusable context and AI feedback integrated into the document rather than a general-purpose chatbot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LibreChat",
+      "officialUrl": "https://www.librechat.ai/",
+      "evidenceUrls": [
+        "https://www.librechat.ai/",
+        "https://github.com/LibreChat-AI/LibreChat"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals, developers and organizations that want a customizable, provider-agnostic AI workspace they can run on their own infrastructure and connect to hosted or local model backends.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lightning AI",
+      "officialUrl": "https://lightning.ai/",
+      "evidenceUrls": [
+        "https://lightning.ai/platform/",
+        "https://lightning.ai/docs/platform/build/overview",
+        "https://lightning.ai/docs/platform/build/ai-studio",
+        "https://studio.lightning.ai/about/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For AI developers, researchers and teams that need a connected environment to build, train, evaluate and deploy models or agents without assembling separate notebook, compute and hosting services.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lily AI",
+      "officialUrl": "https://www.lily.ai/",
+      "evidenceUrls": [
+        "https://www.lily.ai/",
+        "https://www.lily.ai/faqs/what-does-lily-do"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For retailers and consumer brands that need product catalogs to be understandable to search engines, advertising systems and AI shopping agents, and want to measure the effect of catalog enrichment on commerce outcomes.",
+      "decision": "accepted"
+    },
+    {
+      "name": "llama.cpp",
+      "officialUrl": "https://github.com/ggml-org/llama.cpp",
+      "evidenceUrls": [
+        "https://github.com/ggml-org/llama.cpp",
+        "https://github.com/ggml-org/llama.cpp/blob/master/README.md",
+        "https://github.com/ggml-org/llama.cpp/releases"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who need efficient, controllable model inference on desktops, servers and edge hardware, including systems that cannot fit a model entirely in GPU memory.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LM Studio",
+      "officialUrl": "https://lmstudio.ai/",
+      "evidenceUrls": [
+        "https://lmstudio.ai/docs/app",
+        "https://lmstudio.ai/docs/developer/core/server",
+        "https://lmstudio.ai/pricing",
+        "https://lmstudio.ai/blog/free-for-work"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and developers who want to experiment with local models through a graphical app and then expose the same models to local applications, agents or server workloads through an API.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lokalise AI",
+      "officialUrl": "https://lokalise.com/ai/",
+      "evidenceUrls": [
+        "https://lokalise.com/ai/",
+        "https://docs.lokalise.com/en/articles/12292275-ai-frequently-asked-questions",
+        "https://docs.lokalise.com/en/articles/8011393-ai-translations",
+        "https://docs.lokalise.com/en/collections/17223450-ai-features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For product and localization teams translating apps, websites, software and marketing content at scale while preserving approved terminology, brand voice and human review controls; Lokalise AI is part of the Lokalise platform, not a separate translation chatbot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Litmaps",
+      "officialUrl": "https://www.litmaps.com/",
+      "evidenceUrls": [
+        "https://www.litmaps.com/",
+        "https://www.litmaps.com/features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The official product pages describe paper search, citation/reference mapping, visualization, sharing and alerts. They do not document an AI/ML capability as part of the product's core workflow.",
+      "decision": "rejected",
+      "reason": "The official product pages describe literature discovery through citation and reference connections, visual mapping, sharing and monitoring. They do not document a first-party AI/ML or generative-AI capability that materially performs the product's core function. Litmaps is a useful research-discovery product, but it does not meet Creative AI's requirement that AI be a real, useful part of the product."
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4468,14 +4649,14 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-22",
+  "lastQualityReviewBatch": "catalog-review-batch-23",
   "lastQualityReviewBatchSummary": {
-    "accepted": 15,
-    "rejected": 0,
+    "accepted": 14,
+    "rejected": 1,
     "superseded": 0,
     "retired": 0,
     "mergedIntoExisting": 0,
-    "updatedExisting": 15,
+    "updatedExisting": 14,
     "rechecked": 0,
     "statusWatch": 0,
     "recommenderProfilesAdded": 0,
