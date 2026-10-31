@@ -20,9 +20,15 @@ try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   page.on('pageerror', error => errors.push(error.message));
   page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
+  page.on('requestfailed', request => errors.push('Request failed: ' + request.url()));
   const response = await page.goto('http://127.0.0.1:4179/', { waitUntil: 'networkidle' });
   if (!response?.ok()) throw new Error('Homepage did not load');
-  await page.waitForFunction(() => document.body.classList.contains('ca-components-ready'));
+  // The workflow stages the freshly built Vite bundle before this browser test.
+  try {
+    await page.waitForFunction(() => document.body.classList.contains('ca-components-ready'), { timeout: 15000 });
+  } catch {
+    throw new Error('React component entry did not boot. Browser diagnostics: ' + errors.slice(0, 10).join(' | '));
+  }
   for (const id of ['creativeAiNavMount','creativeAiHeroEffectsMount','creativeAiHeroAccentMount','creativeAiMetricsMount','creativeAiComponentsMount','creativeAiAnimatedMount']) {
     if (!(await page.locator('#' + id).count())) throw new Error('Missing mount: ' + id);
   }
