@@ -128,7 +128,7 @@
     "https://www.aistudios.com/"
   ],
   [
-    "AI2sql",
+    "AI2SQL",
     "Data & analytics",
     "AI SQL assistant that grounds query generation in a connected database schema, explains, fixes and optimizes SQL, and supports guarded read-only query execution and agent integrations.",
     "For analysts and developers who want database-specific SQL help grounded in their own tables and columns rather than generic query templates.",
@@ -210,8 +210,8 @@
   [
     "Amazon Q Developer",
     "Coding",
-    "AWS developer assistant across IDEs and CLI that explains codebases, generates and edits code, runs tests, reviews changes, scans for vulnerabilities and helps with cloud development.",
-    "For developers building on AWS or maintaining large codebases who want AI assistance across coding, testing, security and cloud operations.",
+    "AWS developer assistant across IDEs and CLI that explains codebases, generates and edits code, runs tests, reviews changes, scans for vulnerabilities and helps with cloud development. AWS has announced that support for Amazon Q Developer IDE plugins ends on April 30, 2027, with Kiro recommended for similar IDE capabilities.",
+    "For developers building on AWS or maintaining large codebases who want AI assistance across coding, testing, security and cloud operations; note the announced April 30, 2027 end of support for IDE plugins.",
     "Free tier / Paid",
     "https://aws.amazon.com/q/developer/"
   ],
