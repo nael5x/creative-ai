@@ -1,4 +1,4 @@
-import { r as X, j as st } from "./components-entry-C10ZmzsQ.js";
+import { r as X, j as st } from "./components-entry-DM4gR148.js";
 const Tt = 24e5, Pe = 31.5, H = 256, ct = ["#5227FF", "#FF9FFC", "#B497CF"], lt = { capsule: 0, sphere: 1, box: 2, tetrahedron: 3 }, ut = { conic: 0, radial: 1, random: 2 }, Pt = `#version 300 es
 precision highp float;
 layout(location = 0) in vec2 aCorner;
