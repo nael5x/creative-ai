@@ -44,18 +44,19 @@
       "officialUrl": "https://www.adcreative.ai/",
       "evidenceUrls": [
         "https://www.adcreative.ai/",
-        "https://www.adcreative.ai/adcreative-ai-refund-policy-process"
+        "https://help.adcreative.ai/en/articles/8885776-what-is-creative-scoring-ai-and-how-to-use-it"
       ],
       "userValue": "AdCreative.ai generates advertising images, copy, product visuals and video variations, with creative scoring and competitor-insight features for campaign iteration.",
       "categoryUpdate": null,
       "availabilityUpdate": "Free trial / Paid"
     },
     {
-      "name": "AI2sql",
+      "name": "AI2SQL",
       "officialUrl": "https://ai2sql.io/",
       "evidenceUrls": [
         "https://ai2sql.io/",
-        "https://web.ai2sql.io/"
+        "https://ai2sql.io/mcp/",
+        "https://ai2sql.io/connector/"
       ],
       "userValue": "AI2SQL grounds SQL generation in a connected database schema, explains and optimizes queries, and can execute guarded read-only queries through its app and agent integrations.",
       "categoryUpdate": null,
@@ -101,7 +102,9 @@
       "name": "Alpha3D",
       "officialUrl": "https://www.alpha3d.io/",
       "evidenceUrls": [
-        "https://www.alpha3d.io/"
+        "https://www.alpha3d.io/",
+        "https://alpha3d.io/api-platform",
+        "https://alpha3d.io/developers"
       ],
       "userValue": "Alpha3D turns prompts or photos into 3D models and extends the workflow through retopology, UV unwrapping, texturing, rigging and export for game-ready assets.",
       "categoryUpdate": null,
@@ -123,12 +126,12 @@
       "name": "Amazon Q Developer",
       "officialUrl": "https://aws.amazon.com/q/developer/",
       "evidenceUrls": [
+        "https://aws.amazon.com/q/developer/",
         "https://aws.amazon.com/documentation-overview/q-developer/",
-        "https://aws.amazon.com/q/developer/features/",
         "https://aws.amazon.com/q/developer/build/",
-        "https://aws.amazon.com/q/developer/faqs/"
+        "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/"
       ],
-      "userValue": "Amazon Q Developer assists across IDEs and CLI with codebase explanations, code generation and edits, test creation, code review, vulnerability remediation and AWS development guidance.",
+      "userValue": "Amazon Q Developer assists across IDEs and CLI with codebase explanations, code generation and edits, test creation, code review, vulnerability remediation and AWS development guidance. AWS's product page announces end of support for IDE plugins on April 30, 2027 and recommends Kiro for similar IDE capabilities.",
       "categoryUpdate": null,
       "availabilityUpdate": null
     },
@@ -172,11 +175,12 @@
       "officialUrl": "https://www.artisan.co/",
       "evidenceUrls": [
         "https://www.artisan.co/",
-        "https://www.artisan.co/ai-sales-agent"
+        "https://www.artisan.co/ai-sales-agent",
+        "https://www.artisan.co/pricing"
       ],
       "userValue": "Artisan's Ava is an autonomous AI BDR that researches and enriches leads, creates personalized outbound sequences, handles replies and books meetings with CRM and calendar integrations.",
       "categoryUpdate": null,
-      "availabilityUpdate": "Free to start / Paid"
+      "availabilityUpdate": "Paid"
     }
   ],
   "renamed": [
@@ -207,6 +211,15 @@
     "Airtable's current Omni capabilities are described from its October 2026 official help documentation.",
     "Ada Health is described as a symptom-assessment starting point, not as a diagnostic replacement.",
     "Arize Phoenix is not labeled simply Open source: its official repository specifies Elastic License 2.0, while documenting self-hosted use.",
-    "No popularity, traffic, revenue, ranking or customer-count claims were used as acceptance evidence."
+    "No popularity, traffic, revenue, ranking or customer-count claims were used as acceptance evidence.",
+    "Artisan's official pricing page describes paid plans with pricing scoped to lead volume and a sales consultation; no free plan is claimed.",
+    "AWS has announced that Amazon Q Developer IDE plugin support ends on 2027-04-30 and recommends Kiro for similar IDE capabilities. This is a scoped future change, not evidence that every Amazon Q Developer surface is discontinued."
+  ],
+  "nameCorrections": [
+    {
+      "oldName": "AI2sql",
+      "newName": "AI2SQL",
+      "reason": "Normalized the catalog label to the official AI2SQL brand casing used on the product site and current documentation."
+    }
   ]
 }
