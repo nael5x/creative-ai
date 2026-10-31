@@ -35,6 +35,11 @@ jobs:
       - name: Copy static bundle into the Pages source tree
         run: |
           mkdir -p scripts
+          find scripts -maxdepth 1 -type f \\
+            \\( -name 'components-entry-*.js' -o -name 'SideRays-*.js' -o -name 'Antigravity-*.js' \\
+            -o -name 'MagicBento-*.js' -o -name 'GradientText-*.js' -o -name 'SpotlightCard-*.js' \\
+            -o -name 'LogoLoop-*.js' -o -name 'AnimatedContent-*.js' -o -name 'PillNav-*.js' \\
+            -o -name 'ChromaGrid-*.js' -o -name 'CountUp-*.js' \\) -delete
           cp dist/*.js scripts/
           cp dist/creative-ai-components.css creative-ai-components.css
       - name: Commit static bundle for GitHub Pages
