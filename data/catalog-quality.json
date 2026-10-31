@@ -5000,16 +5000,16 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-35",
+  "lastQualityReviewBatch": "catalog-review-batch-36",
   "lastQualityReviewBatchSummary": {
-    "accepted": 1,
+    "accepted": 0,
     "rejected": 0,
     "superseded": 0,
     "retired": 0,
     "mergedIntoExisting": 0,
-    "updatedExisting": 1,
+    "updatedExisting": 0,
     "rechecked": 0,
-    "statusWatch": 0,
+    "statusWatch": 1,
     "recommenderProfilesAdded": 0,
     "recommenderProfilesRenamed": 0,
     "recommenderProfilesRemoved": 0
@@ -5171,13 +5171,36 @@
       "lastCheckedAt": "2026-10-31",
       "reason": "MindMac's official website remains live and still offers the macOS app for purchase, so this is not evidence of shutdown. However, the latest official GitHub release is 1.9.28, published 2025-04-22, and the repository has no later release as of 2026-10-31. Two unresolved official issues add continuity concerns: issue #15 (2026-01-30) asks whether the app is abandonware because the latest version is from April, and issue #14 requests support for GPT-5. Issue #15 has no comments, and the only comment on issue #14 is another user asking for GPT-5; no maintainer response or newer release was found during this review. The app is excluded from active discovery pending confirmation of ongoing maintenance and current model compatibility.",
       "nextAction": "Recheck official releases or obtain a developer statement confirming active maintenance and support for current provider models; reinstate only after a current build or first-party maintenance statement is verified."
+    },
+    {
+      "name": "Mokker AI",
+      "status": "sunsetting",
+      "officialUrl": "https://mokker.ai/",
+      "checkedUrls": [
+        "https://mokker.ai/",
+        "https://mokker.ai/pricing",
+        "https://app.mokker.ai/",
+        "https://soona.co/mokker",
+        "https://soona.co/update/mokker-acquisition",
+        "https://support.soona.co/mokker-frequently-asked-questions"
+      ],
+      "evidenceUrls": [
+        "https://mokker.ai/",
+        "https://soona.co/mokker",
+        "https://soona.co/update/mokker-acquisition",
+        "https://support.soona.co/mokker-frequently-asked-questions",
+        "https://app.mokker.ai/"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "Mokker's current official homepage displays the notice: “Mokker access ends Saturday, October 31. Log in before then to access your account.” The current review date is 2026-10-31, so standalone account access is scheduled to end today. Soona acquired Mokker and integrated its AI product-photo technology into the Soona platform; an earlier Soona announcement said existing Mokker customers would continue to access their Mokker accounts, but the newer dated homepage notice supersedes that earlier assurance. Mokker is therefore removed from active discovery as a standalone tool. Soona AI Studio appears to be the continuation path, but should be reviewed separately as its own current product.",
+      "nextAction": "Confirm the exact cutoff and customer migration with Soona support, then review Soona AI Studio as a separate current tool. Do not restore Mokker as a standalone listing unless Soona explicitly confirms account access continues beyond 2026-10-31."
     }
   ],
   "lastStatusWatchReviewAt": "2026-10-31",
   "lastStatusWatchReviewSummary": {
     "unresolved": 6,
-    "sunsetting": 2,
+    "sunsetting": 3,
     "maintenanceUnclear": 2,
-    "total": 10
+    "total": 11
   }
 }
