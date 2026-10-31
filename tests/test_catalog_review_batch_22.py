@@ -69,7 +69,7 @@ class CatalogReviewBatch22Tests(unittest.TestCase):
         self.assertIn("visual framework", self.rows["Langflow"][2])
         self.assertIn("low-level orchestration framework", self.rows["LangGraph"][2])
         self.assertIn("MIT-licensed", self.rows["Langfuse"][2])
-        self.assertIn("does not host", self.rows["Langfuse"][3])
+        self.assertIn("rather than hosting or orchestrating", self.rows["Langfuse"][3])
         self.assertIn("framework-agnostic", self.rows["LangSmith"][2])
         self.assertIn("complements orchestration frameworks", self.rows["LangSmith"][3])
 
