@@ -126,7 +126,7 @@
       "description": "End-to-end AI development and compute platform with persistent collaborative GPU Studios, notebooks, isolated sandboxes, coding agents, model training and fine-tuning, inference endpoints, pipelines, batch jobs and a GPU marketplace. The platform now combines Lightning's development tools with owned GPU infrastructure following its 2026 combination with Voltage Park.",
       "userValue": "For AI developers, researchers and teams that need a connected environment to build, train, evaluate and deploy models or agents without assembling separate notebook, compute and hosting services.",
       "availability": "Free tier / Paid compute",
-      "url": "https://lightning.ai/platform/",
+      "url": "https://lightning.ai/",
       "evidenceUrls": [
         "https://lightning.ai/platform/",
         "https://lightning.ai/docs/platform/build/overview",
