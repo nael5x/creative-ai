@@ -2554,8 +2554,8 @@
   [
     "Meshy",
     "3D",
-    "AI 3D generation platform for creating models, textures and assets from prompts or images.",
-    "For game, design and 3D teams producing draft assets quickly.",
+    "AI 3D creation workspace for generating models from text, images or chat, then texturing, rigging, animating and optimizing assets for games, design and 3D printing. Includes an API and MCP integration.",
+    "For game developers, 3D artists and makers who need to prototype characters, props and printable concepts without building every model manually. Outputs are not CAD-precision engineering parts; free-tier credits and asset licensing differ from paid plans.",
     "Free tier / Paid",
     "https://www.meshy.ai/"
   ],
