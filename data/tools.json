@@ -850,50 +850,42 @@
   [
     "Continue",
     "Coding",
-    "Open-source AI code assistant for VS Code, JetBrains and terminal workflows.",
-    "For customizable coding agents, chat, edits and autocomplete inside existing IDEs.",
-    "Open source",
+    "Open-source AI code assistant for VS Code, JetBrains and terminal workflows, with agent mode, chat, edit, inline autocomplete and custom agents/model providers.",
+    "For developers who want a model-flexible assistant integrated with their IDE and terminal, including agent actions and control over the models and tools they use.",
+    "Open source / Paid enterprise",
     "https://continue.dev/"
   ],
   [
     "Copy.ai",
-    "Writing",
-    "AI platform for go-to-market content and workflow automation.",
-    "For sales and marketing teams generating and operationalizing repeatable content workflows.",
-    "Free tier / Paid",
+    "Marketing",
+    "AI-native go-to-market platform connecting workflows, agents, reusable actions, company knowledge and GTM data for prospecting, account research, lead handling, content creation and account-based marketing.",
+    "For revenue teams that need repeatable, cross-functional AI workflows grounded in company data rather than isolated copy-generation prompts.",
+    "Enterprise / Request demo",
     "https://www.copy.ai/"
   ],
   [
     "Corti",
     "Healthcare",
-    "AI platform for analyzing clinical conversations and supporting healthcare operations.",
-    "For emergency, contact-center and clinical teams augmenting decision and documentation workflows.",
-    "Paid",
-    "https://www.corti.ai/"
+    "AI platform for critical industries with specialized models, clinical speech-to-text, medical coding, ambient documentation, agent orchestration and sovereign-cloud or on-prem deployments. Corti Assistant turns clinician-patient conversations into editable facts and EHR-ready notes.",
+    "For healthcare software teams and providers embedding domain-specific AI into clinical workflows; clinicians must review generated documentation and coding before use.",
+    "Free credits / Paid",
+    "https://corti.ai/"
   ],
   [
     "Crawl4AI",
     "Data extraction",
-    "Open-source crawler optimized for extracting web content for AI applications.",
-    "For developers building local or self-hosted crawling pipelines for agents and RAG.",
-    "Open source",
+    "Open-source crawler and scraper for LLMs and AI agents; extracts clean Markdown or structured JSON, supports CSS/XPath and LLM-based extraction, browser control, MCP and a hosted API.",
+    "For developers building RAG, agent, search or data pipelines that need self-hosted, LLM-ready web content.",
+    "Open source / Hosted",
     "https://crawl4ai.com/"
   ],
   [
     "Creatify",
     "Marketing",
-    "AI ad-creation platform for turning product information into short-form video ads.",
-    "For ecommerce and growth teams producing many social ad variations.",
+    "AI ad-creation platform led by Ad Agent, which researches product URLs or uploaded assets, drafts ad concepts and scripts, generates short-form video ads and iterates edits through chat; includes URL-to-video and AI avatars.",
+    "For ecommerce and growth teams that need multiple UGC-style ad concepts and variations without manually filming and editing each creative.",
     "Free tier / Paid",
     "https://creatify.ai/"
-  ],
-  [
-    "Creatomate",
-    "Video",
-    "API-first media generation platform for automating videos and images from templates and data.",
-    "For developers and automation teams producing personalized media at scale.",
-    "Paid",
-    "https://creatomate.com/"
   ],
   [
     "CrewAI",
@@ -906,24 +898,24 @@
   [
     "Crisp AI",
     "Customer support",
-    "AI support and messaging features inside Crisp for automated answers and agent assistance.",
-    "For small support teams combining live chat, inbox and AI automation.",
-    "Paid",
+    "Crisp's integrated AI support suite, including Hugo AI Agent, knowledge-grounded answers, internal Hugo Copilot, smart replies, conversation summaries, content training and no-code workflows across messaging channels.",
+    "For support teams that want customer-facing automation plus agent assistance within their shared inbox, with configurable routing, integrations and human handoff.",
+    "Free trial / Paid Crisp plans",
     "https://crisp.chat/en/ai/"
   ],
   [
     "CrowdStrike Charlotte AI",
     "Cybersecurity",
-    "Generative AI assistant inside CrowdStrike for security investigation and operations.",
-    "For SOC teams analyzing threats and navigating endpoint and identity security data.",
-    "Paid",
-    "https://www.crowdstrike.com/platform/charlotte-ai/"
+    "Agentic AI security analyst built into Falcon; supports natural-language investigation, cross-domain context, detection triage, query generation, custom security agents and governed response actions with analyst approvals.",
+    "For SOC teams managing high alert volume who need faster investigation and governed automation while retaining analyst control.",
+    "Eligible Falcon plans / Enterprise",
+    "https://www.crowdstrike.com/en-us/platform/charlotte-ai/"
   ],
   [
     "Curipod",
     "Education",
-    "AI-assisted interactive lesson and presentation platform for classroom activities.",
-    "For teachers creating participatory lessons and student-response activities quickly.",
+    "AI lesson-creation and classroom-interaction platform for teachers; generates slides and activities, supports AI feedback on student writing and drawings, and lets teachers edit, run and translate lessons.",
+    "For teachers who want to prepare interactive lessons and give students timely feedback without building each slide and activity manually.",
     "Free tier / Paid",
     "https://curipod.com/"
   ],
@@ -938,9 +930,9 @@
   [
     "D-ID",
     "Video",
-    "AI digital-human platform for generating talking avatars and interactive visual agents.",
-    "For presenter-style video, training and conversational avatar experiences.",
-    "Free tier / Paid",
+    "AI video and agent platform that creates talking-avatar videos from text, images or audio, translates and lip-syncs videos, and deploys real-time conversational agents with LLMs and knowledge bases through APIs and SDKs.",
+    "For teams building digital presenters, localized video content or interactive avatar agents.",
+    "Free trial / Paid",
     "https://www.d-id.com/"
   ],
   [
@@ -962,10 +954,10 @@
   [
     "Dataiku",
     "Data & analytics",
-    "Enterprise platform for analytics, machine learning, generative AI and governed data workflows.",
-    "For data teams collaborating across notebooks, pipelines and production AI projects.",
-    "Paid",
-    "https://www.dataiku.com/"
+    "Enterprise AI platform combining data science, machine learning, analytics, agent creation, orchestration and governance; supports visual and code agents, model workflows, enterprise data connections and production oversight.",
+    "For enterprise data teams that need to build, deploy and govern analytics and AI systems across technical and business users.",
+    "Free trial / Enterprise",
+    "https://www.dataiku.com/product/"
   ],
   [
     "DataRobot",
@@ -986,17 +978,17 @@
   [
     "Decktopus",
     "Presentations",
-    "AI presentation maker for generating slide structure, content and visuals.",
-    "For users who want a guided deck-building workflow from a short brief.",
+    "AI presentation platform that turns a topic, notes or uploaded documents into a structured, branded deck, then supports AI editing, rehearsal feedback, sharing and viewer analytics.",
+    "For professionals and teams that need polished client, sales, educational or investor decks quickly, with editing and delivery tools in one workflow.",
     "Free tier / Paid",
     "https://www.decktopus.com/"
   ],
   [
     "DeepEval",
     "AI evaluation",
-    "Open-source testing framework for evaluating LLM applications and agent workflows.",
-    "For engineering teams adding model-quality checks to automated test pipelines.",
-    "Open source",
+    "Open-source Python framework for testing LLM applications with 50+ metrics, LLM-as-judge, synthetic datasets and end-to-end, trajectory and component evaluation for agents, RAG, voice and multimodal workflows; optional Confident AI traces.",
+    "For engineering teams that need repeatable quality and safety checks for LLM features in pytest and CI/CD, with evaluations running locally.",
+    "Open source / Cloud",
     "https://deepeval.com/"
   ],
   [
@@ -1018,17 +1010,17 @@
   [
     "DeepL Write",
     "Writing",
-    "AI writing assistant for rewriting, tone and language improvement.",
-    "For refining wording and style while keeping the original meaning of a draft.",
-    "Free tier / Paid",
-    "https://www.deepl.com/write"
+    "AI writing assistant that corrects grammar, spelling and punctuation and suggests clearer wording, alternative phrases, tone and style across web, desktop, mobile, browser extensions and productivity integrations.",
+    "For writers and teams polishing multilingual communications while preserving meaning and choosing a tone appropriate to the context.",
+    "Free / Pro",
+    "https://www.deepl.com/en/write"
   ],
   [
     "DeepScribe",
     "Healthcare",
-    "Ambient clinical intelligence platform for automated medical documentation.",
-    "For healthcare organizations standardizing and accelerating note creation.",
-    "Paid",
+    "Ambient AI platform focused on oncology workflows, generating context-aware clinical notes from visits, preparing pre-chart summaries with SmartPrep and supporting diagnosis and coding intelligence inside oncology EHRs.",
+    "For oncology clinicians and health systems seeking to reduce documentation burden and keep visit context organized; clinicians must verify notes and coding before finalizing.",
+    "Enterprise / Request demo",
     "https://www.deepscribe.ai/"
   ],
   [
