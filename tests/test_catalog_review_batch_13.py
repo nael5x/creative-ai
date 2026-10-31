@@ -60,7 +60,8 @@ class CatalogReviewBatch13Tests(unittest.TestCase):
         self.assertIn("design-to-code", self.rows["Builder.io Visual Copilot"][2].lower())
 
     def test_current_batch_metadata_matches_audit_artifact(self):
-        self.assertEqual(self.quality["lastStatusWatchReviewSummary"]["total"], 7)
+        summary = self.quality["lastStatusWatchReviewSummary"]
+        self.assertEqual(summary["total"], len(self.quality["statusWatch"]))
 
 
 if __name__ == "__main__":
