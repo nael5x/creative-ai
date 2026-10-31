@@ -34,7 +34,7 @@ class CatalogReviewBatch38Tests(unittest.TestCase):
         self.assertEqual(review["officialUrl"], row[5])
         self.assertEqual(review["decision"], "accepted")
         self.assertEqual(review["reviewedAt"], "2026-10-31")
-        self.assertIn("Chat- and image-to-music", row[2])
+        self.assertIn("chat- and image-to-music", row[2])
         self.assertIn("podcast editor", row[2])
         self.assertIn("music-generation and streaming API", row[2])
         self.assertIn("25 tracks/month and 5 downloads", row[3])
