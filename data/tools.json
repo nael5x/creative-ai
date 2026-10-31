@@ -1026,17 +1026,17 @@
   [
     "DeepSeek",
     "Writing & coding",
-    "AI assistant and API for reasoning, coding, search and multimodal model access.",
-    "For users who want a free chat option and developers comparing model APIs.",
-    "Free / Paid",
+    "AI assistant and model/API platform offering general-purpose and reasoning models, coding and multimodal capabilities, tool calling, and a first-party Search & Fetch API for agents and RAG applications.",
+    "For everyday users who need a capable assistant and developers who want to integrate DeepSeek models and live web retrieval into applications.",
+    "Free / Paid API",
     "https://www.deepseek.com/en/"
   ],
   [
     "Defog",
     "Data & analytics",
-    "AI data analyst for querying structured data, files and databases in natural language.",
-    "For teams that want faster exploration of structured business data with less manual SQL work.",
-    "Paid",
+    "AI data analyst that lets users ask natural-language questions across structured databases and files, generates the relevant SQL, retrieves data and visualizes results; supports API and Docker-based deployment.",
+    "For teams that want faster exploration of structured business data without waiting for every question to be answered manually in SQL.",
+    "Paid / Self-hosted",
     "https://defog.ai/"
   ],
   [
@@ -1058,8 +1058,8 @@
   [
     "Devin",
     "Coding",
-    "Autonomous software engineering agent for planning, coding and executing development tasks.",
-    "For delegating larger engineering tasks that span repositories, tools and iterative execution.",
+    "Autonomous AI software engineer that plans and executes development tasks, works in a cloud or local environment, uses its own browser and terminal, runs tests and prepares pull requests for review.",
+    "For engineering teams delegating scoped multi-step implementation, debugging and maintenance work while retaining code review and merge control.",
     "Paid",
     "https://devin.ai/"
   ],
@@ -1074,16 +1074,16 @@
   [
     "Dext",
     "Finance & accounting",
-    "Automated bookkeeping data capture and expense processing platform.",
-    "For accountants extracting structured data from receipts, invoices and financial documents.",
-    "Paid",
-    "https://dext.com/"
+    "Bookkeeping automation platform for accountants and businesses, combining receipt and invoice capture, document data extraction, bank feeds, machine-learning categorization and Dext AI Assist for guided bookkeeping actions and publishing.",
+    "For accounting firms and businesses that process recurring financial documents and want structured extraction and rule-guided automation with review controls.",
+    "14-day trial / Paid",
+    "https://dext.com/en"
   ],
   [
     "Diffbot",
     "Data extraction",
-    "Knowledge graph and web extraction platform that turns web pages into structured data.",
-    "For enterprises building datasets from large volumes of public web content.",
+    "AI models that read and classify web pages and transform unstructured web content into structured entities and a linked Knowledge Graph, through Extract, Crawl, Search/DQL, Enhance and Natural Language APIs.",
+    "For developers and enterprises that need large-scale, structured web data and entity relationships for search, analytics, enrichment and AI applications.",
     "Paid",
     "https://www.diffbot.com/"
   ],
@@ -1098,9 +1098,9 @@
   [
     "Digits",
     "Finance & accounting",
-    "AI-native accounting and financial reporting platform for businesses and accountants.",
-    "For teams that want bookkeeping workflows with automated categorization and reporting.",
-    "Paid",
+    "AI-native general ledger and accounting platform for businesses and accountants, with automated bookkeeping, agentic month-end close, Ask Digits financial assistant, scheduled accruals, real-time reporting and developer API/MCP.",
+    "For business owners, finance teams and accounting firms that need continuously updated books, financial answers and automated close workflows in one system.",
+    "Free trial / Paid",
     "https://digits.com/"
   ],
   [
@@ -1114,49 +1114,49 @@
   [
     "Documind",
     "Documents",
-    "AI document assistant for asking questions across PDFs and knowledge collections.",
-    "For users building a searchable conversational layer over reference files.",
+    "AI document assistant for asking questions across multiple PDFs with source citations, multilingual chat, document collections, content generation and shareable or embeddable knowledge chatbots, with API access.",
+    "For students and teams that need a searchable conversational layer over document collections and want to share a document-grounded chatbot with others.",
     "Free tier / Paid",
-    "https://documind.chat/"
+    "https://www.documind.chat/"
   ],
   [
     "Docyt",
     "Finance & accounting",
-    "AI-powered accounting automation for bookkeeping and financial operations.",
-    "For multi-entity businesses and accounting teams automating back-office finance processes.",
-    "Paid",
-    "https://docyt.com/"
+    "AI-native ERP for hospitality, restaurants, retail and franchises, combining accounting, payments, revenue reconciliation, continuous close, multi-entity consolidation, tax and business intelligence through specialized AI agents with human oversight.",
+    "For multi-location operators and accounting teams that need automated, consolidated financial operations across properties and business units.",
+    "Enterprise / Request demo",
+    "https://www.docyt.com/"
   ],
   [
     "Dreamina",
     "Images & design",
-    "CapCut creative AI platform for generated images, design assets and related media workflows.",
-    "For creators who want prompt-based visuals that connect naturally to broader content-production workflows.",
+    "CapCut's all-in-one AI creative platform, powered by image and video generation models, with text- and image-to-image/video creation, AI photo editing, style transfer, templates and effects.",
+    "For creators who want to generate and edit visual assets and short videos in one connected creative workflow.",
     "Free tier / Paid",
     "https://dreamina.capcut.com/"
   ],
   [
     "Dropzone AI",
     "Cybersecurity",
-    "AI security-operations platform for autonomous investigation and analyst assistance.",
-    "For SOC teams reducing repetitive triage and investigation work around security alerts.",
-    "Paid",
+    "Autonomous AI security-operations platform with specialized agents for alert investigation, threat hunting and threat intelligence; correlates evidence across SIEM, EDR, identity, cloud and email tools and presents explainable verdicts with configurable human control.",
+    "For SOC teams that need to investigate more security alerts and threat signals across their existing stack without giving up analyst oversight or auditability.",
+    "Enterprise / Request demo",
     "https://www.dropzone.ai/"
   ],
   [
     "DSPy",
     "AI development",
-    "Open-source framework for programming and optimizing language-model pipelines.",
-    "For developers who want systematic optimization instead of hand-tuning prompt chains.",
+    "Open-source framework for programming and optimizing language-model pipelines and agents through declarative modules, signatures, evaluators and optimizers that compile workflows for a target model.",
+    "For developers and researchers who want reproducible, measurable LLM applications instead of manually tuning prompt chains for every model.",
     "Open source",
     "https://dspy.ai/"
   ],
   [
     "Dubverse",
     "Translation",
-    "AI dubbing and subtitle platform for multilingual video localization.",
-    "For creators translating videos and adding voiceovers across languages.",
-    "Free tier / Paid",
+    "AI speech and video-localization platform for multilingual dubbing, subtitles, transcription and text-to-speech, with voice cloning, lip-sync, multi-speaker editing, AI translation controls and APIs.",
+    "For creators and businesses that need to localize video and audio content while retaining control over translated scripts, voices and timing.",
+    "Free trial / Paid",
     "https://dubverse.ai/"
   ],
   [
@@ -1170,24 +1170,24 @@
   [
     "Dust",
     "AI agents",
-    "Enterprise platform for creating assistants and agents connected to company knowledge and tools.",
-    "For organizations building internal AI workflows grounded in team data.",
-    "Paid",
+    "Enterprise agent platform that connects company knowledge, tools and teams so organizations can create, share and run agents across real workflows, with model choice, reusable skills, permissions, audit logs and human review.",
+    "For organizations building internal AI workflows grounded in company systems and requiring collaboration, governance and control over agent actions.",
+    "Free trial / Paid",
     "https://dust.tt/"
   ],
   [
     "Ecrett Music",
     "Music",
-    "AI soundtrack generator that creates music from scene, mood and genre choices.",
-    "For video creators who need simple background-music generation for projects.",
-    "Free tier / Paid",
+    "AI soundtrack generator that creates royalty-free music from scene, mood and genre choices, with previews, saved tracks and subscription licensing for personal and commercial projects.",
+    "For video creators who need quick background music matched to a scene or mood, with a clear license for the intended use.",
+    "Free preview / Paid license",
     "https://ecrettmusic.com/"
   ],
   [
     "Eduaide.AI",
     "Education",
-    "AI workspace for teachers to create instructional materials, plans and classroom resources.",
-    "For educators who need faster lesson preparation and differentiated materials.",
+    "AI toolkit for K–12 teachers that generates standards- and curriculum-aligned lesson plans, worksheets, graphic organizers, games, assessments, rubrics and classroom activities through guided workflows.",
+    "For educators who need to prepare differentiated instructional materials and assessments faster while keeping the teacher in control of the final lesson.",
     "Free tier / Paid",
     "https://www.eduaide.ai/"
   ],
