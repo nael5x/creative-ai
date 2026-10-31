@@ -4856,6 +4856,19 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For students, researchers, creators and professionals who want to research, understand and transform web content without repeatedly switching between browser tabs and separate AI apps.",
       "decision": "accepted"
+    },
+    {
+      "name": "Meshy",
+      "officialUrl": "https://www.meshy.ai/",
+      "evidenceUrls": [
+        "https://www.meshy.ai/features",
+        "https://docs.meshy.ai/en",
+        "https://www.meshy.ai/pricing",
+        "https://help.meshy.ai/en/articles/9991736-what-is-meshy"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For game developers, 3D artists and makers who need to prototype characters, props and printable concepts from prompts or images. Meshy is not a CAD-precision engineering tool; free-tier credits and asset licensing differ by plan.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4871,7 +4884,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-25",
+  "lastQualityReviewBatch": "catalog-review-batch-26",
   "lastQualityReviewBatchSummary": {
     "accepted": 1,
     "rejected": 0,
