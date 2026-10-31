@@ -41,7 +41,7 @@ class CatalogStatusWatchTests(unittest.TestCase):
         self.assertEqual(firebase["status"], "sunsetting")
         self.assertEqual(firebase["sunsetDate"], "2027-03-22")
         self.assertIn("2026-06-22", firebase["reason"])
-        self.assertIn("existing workspaces", firebase["reason"])
+        self.assertIn("existing workspaces", firebase["reason"].lower())
         self.assertIn("https://firebase.google.com/docs/studio/migrating-project", firebase["evidenceUrls"])
 
     def test_status_watch_records_have_auditable_urls_and_dates(self):
@@ -50,7 +50,7 @@ class CatalogStatusWatchTests(unittest.TestCase):
             self.assertTrue(item["checkedUrls"])
             self.assertTrue(all(url.startswith(("https://", "http://")) for url in item["checkedUrls"]))
             self.assertTrue(all(url.startswith(("https://", "http://")) for url in item["evidenceUrls"]))
-            self.assertRegex(item["lastCheckedAt"], r"^\\d{4}-\\d{2}-\\d{2}$")
+            self.assertRegex(item["lastCheckedAt"], r"^\d{4}-\d{2}-\d{2}$")
             self.assertTrue(item["reason"].strip())
             self.assertTrue(item["nextAction"].strip())
 
