@@ -1,14 +1,14 @@
 import React, { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import SideRays from '../vendor/react-bits/SideRays.jsx';
-import Antigravity from '../vendor/react-bits/Antigravity.jsx';
-import MagicBento from '../vendor/react-bits/MagicBento.jsx';
-import GradientText from '../vendor/react-bits/GradientText.jsx';
-import SpotlightCard from '../vendor/react-bits/SpotlightCard.jsx';
-import LogoLoop from '../vendor/react-bits/LogoLoop.jsx';
-import AnimatedContent from '../vendor/react-bits/AnimatedContent.jsx';
-import PillNav from '../vendor/react-bits/PillNav.jsx';
-import ChromaGrid from '../vendor/react-bits/ChromaGrid.jsx';
+const SideRays = lazy(() => import('../vendor/react-bits/SideRays.jsx'));
+const Antigravity = lazy(() => import('../vendor/react-bits/Antigravity.jsx'));
+const MagicBento = lazy(() => import('../vendor/react-bits/MagicBento.jsx'));
+const GradientText = lazy(() => import('../vendor/react-bits/GradientText.jsx'));
+const SpotlightCard = lazy(() => import('../vendor/react-bits/SpotlightCard.jsx'));
+const LogoLoop = lazy(() => import('../vendor/react-bits/LogoLoop.jsx'));
+const AnimatedContent = lazy(() => import('../vendor/react-bits/AnimatedContent.jsx'));
+const PillNav = lazy(() => import('../vendor/react-bits/PillNav.jsx'));
+const ChromaGrid = lazy(() => import('../vendor/react-bits/ChromaGrid.jsx'));
 import CountUp from '../vendor/react-bits/CountUp.jsx';
 import '../vendor/react-bits/SideRays.css';
 import '../vendor/react-bits/Antigravity.css';
@@ -115,7 +115,7 @@ function HomeIslands() {
         {title:'Track official updates',description:'Follow release changes from monitored sources.',visual:'automation',colSpan:1,rowSpan:1},
         {title:'Build your AI stack',description:'Organize tools that fit your actual workflow.',visual:'integration',colSpan:1,rowSpan:1},
         {title:'Use verified details',description:'Prioritize maintained facts over marketing claims.',visual:'security',colSpan:1,rowSpan:1}
-      ]} />
+      ]} /></Deferred>
     </section>
     <section className="ca-logo-section"><div className="ca-section-heading compact"><span>TOOLS IN THE CATALOG</span><p>Real tool identities from the maintained catalog.</p></div>{logos.length > 0 && <Deferred fallback={<div className="ca-component-placeholder ca-logo-placeholder" />}><LogoLoop logos={logos} speed={34} direction="left" logoHeight={30} gap={36} pauseOnHover fadeOut scaleOnHover layout="line" muted={0.08} labels="hover" draggable={false} intro ariaLabel="AI tools in the Creative AI catalog" /></Deferred>}</section>
     <section className="ca-chroma-section"><div className="ca-section-heading"><span>EXPLORE THE LANDSCAPE</span><h2>Browse by category.</h2><p>Category cards are generated from real catalog entries.</p></div>{categories.length > 0 && <Deferred fallback={<div className="ca-component-placeholder ca-grid-placeholder" />}><ChromaGrid items={categories.map(item=>({...item,subtitle:item.count+' maintained tools'}))} columns={4} gap={14} radius={230} softness={0.68} damping={0.48} fadeOut={0.55} grayscale={1} dim={0.12} glow={0.42} borderGlow={0.75} reveal="spotlight" aspectRatio="4 / 3" cardRadius={18} showInfo theme="dark" /></Deferred>}</section>
