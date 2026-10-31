@@ -22,10 +22,10 @@ class CatalogReviewBatch17Tests(unittest.TestCase):
     def test_catalog_quality_and_lifecycle_totals(self):
         accepted = sum(row["decision"] == "accepted" for row in self.quality["tools"])
         rejected = sum(row["decision"] == "rejected" for row in self.quality["tools"])
-        self.assertEqual(len(self.catalog), 605)
-        self.assertEqual(accepted, 324)
+        self.assertEqual(len(self.catalog), 604)
+        self.assertEqual(accepted, 338)
         self.assertEqual(rejected, 26)
-        self.assertEqual(len(self.catalog) - accepted, 281)
+        self.assertEqual(len(self.catalog) - accepted, 266)
         self.assertEqual(len(self.lifecycle), len(self.catalog))
         self.assertEqual(set(self.rows), set(self.lifecycle))
 
@@ -55,12 +55,12 @@ class CatalogReviewBatch17Tests(unittest.TestCase):
         self.assertEqual(self.audit["rejected"], [])
         self.assertEqual(self.audit["superseded"], [])
         self.assertEqual(self.audit["statusWatch"], [])
-        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-19")
+        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-20")
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["accepted"], 14)
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["rejected"], 0)
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["superseded"], 0)
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["statusWatch"], 1)
-        self.assertEqual(len(self.quality["statusWatch"]), 8)
+        self.assertEqual(len(self.quality["statusWatch"]), 9)
 
 
 if __name__ == "__main__":
