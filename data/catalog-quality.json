@@ -3944,6 +3944,171 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For data teams that want analysts and business users to ask questions of company data while retaining review, traceability and governance over agent-generated analyses and apps.",
       "decision": "accepted"
+    },
+    {
+      "name": "HiddenLayer",
+      "officialUrl": "https://hiddenlayer.com/platform",
+      "evidenceUrls": [
+        "https://hiddenlayer.com/",
+        "https://hiddenlayer.com/platform"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For security and AI-platform teams that need visibility into shadow AI, model and pipeline risks, continuous attack testing and runtime protection for AI applications.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Higgsfield",
+      "officialUrl": "https://higgsfield.ai/",
+      "evidenceUrls": [
+        "https://higgsfield.ai/",
+        "https://higgsfield.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and marketing teams that want a single workspace to generate, edit and package visual content across different models and specialized creative workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hippocratic AI",
+      "officialUrl": "https://hippocraticai.com/",
+      "evidenceUrls": [
+        "https://hippocraticai.com/",
+        "https://hippocraticai.com/safety",
+        "https://hippocraticai.com/products"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For health systems and life-sciences organizations automating non-diagnostic patient engagement and care-coordination tasks with clinical safety monitoring and human escalation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "HireVue",
+      "officialUrl": "https://www.hirevue.com/",
+      "evidenceUrls": [
+        "https://www.hirevue.com/",
+        "https://www.hirevue.com/platform/our-science",
+        "https://www.hirevue.com/platform"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For large employers standardizing candidate screening and skills evaluation across high-volume, early-career and professional hiring while keeping criteria job-related and reviewable by recruiters.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Humanly",
+      "officialUrl": "https://www.humanly.io/",
+      "evidenceUrls": [
+        "https://www.humanly.io/",
+        "https://www.humanly.io/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For employers hiring hourly and frontline workforces who need to respond to applicants around the clock, screen consistently and move qualified candidates to interviews faster.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Humata",
+      "officialUrl": "https://www.humata.ai/",
+      "evidenceUrls": [
+        "https://www.humata.ai/",
+        "https://docs.humata.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For researchers, professionals and organizations that need to search large document collections and share source-cited answers without manually reading every file.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hyper3D Rodin",
+      "officialUrl": "https://hyper3d.ai/",
+      "evidenceUrls": [
+        "https://hyper3d.ai/",
+        "https://hyper3d.ai/help/features",
+        "https://docs.hyper3d.ai/en/get-started/features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For game developers, product designers and 3D artists who want to turn concepts or reference images into editable 3D assets and refine them for downstream pipelines.",
+      "decision": "accepted"
+    },
+    {
+      "name": "HyperWrite",
+      "officialUrl": "https://www.hyperwriteai.com/",
+      "evidenceUrls": [
+        "https://www.hyperwriteai.com/personal-assistant",
+        "https://www.hyperwriteai.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For writers, researchers and knowledge workers who want both writing support and an AI assistant that can move beyond drafting to perform repetitive browser-based tasks.",
+      "decision": "accepted"
+    },
+    {
+      "name": "IBM watsonx Code Assistant",
+      "officialUrl": "https://www.ibm.com/products/watsonx-code-assistant",
+      "evidenceUrls": [
+        "https://www.ibm.com/products/watsonx-code-assistant",
+        "https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started",
+        "https://www.ibm.com/docs/en/software-hub/5.4.x?topic=services-watsonx-code-assistant"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For enterprise development teams that need IDE-integrated code assistance and governed modernization workflows connected to IBM's software and cloud environments.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ideogram",
+      "officialUrl": "https://ideogram.ai/",
+      "evidenceUrls": [
+        "https://ideogram.ai/",
+        "https://ideogram.ai/features/canvas/",
+        "https://docs.ideogram.ai/canvas-and-editing/canvas/canvas-overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For designers, marketers and creators who need image generation with legible text and iterative control over layouts, edits, backgrounds and final compositions.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Infermedica",
+      "officialUrl": "https://infermedica.com/",
+      "evidenceUrls": [
+        "https://infermedica.com/",
+        "https://infermedica.com/product/symptom-checker",
+        "https://developer.infermedica.com/",
+        "https://help.infermedica.com/the-platform"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For health systems, insurers and digital-care providers integrating structured symptom assessment and patient navigation into their own apps, portals or contact centers; outputs support triage workflows rather than replacing clinician assessment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "insMind",
+      "officialUrl": "https://www.insmind.com/",
+      "evidenceUrls": [
+        "https://www.insmind.com/",
+        "https://www.insmind.com/download"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce sellers, marketers and creators who need quick product-photo cleanup, image variations and short-form visual assets across web and mobile workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Instantly",
+      "officialUrl": "https://instantly.ai/",
+      "evidenceUrls": [
+        "https://instantly.ai/",
+        "https://help.instantly.ai/en/articles/11532420-instantly-ai-copilot",
+        "https://help.instantly.ai/en/articles/14299661-ai-sales-agent",
+        "https://help.instantly.ai/en/articles/6221655-what-is-instantly"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For sales teams and agencies running outbound prospecting who want lead discovery, campaign creation, email operations and AI-assisted personalization in one platform.",
+      "decision": "accepted"
+    },
+    {
+      "name": "InVideo AI",
+      "officialUrl": "https://invideo.io/ai/",
+      "evidenceUrls": [
+        "https://invideo.io/ai/",
+        "https://help.invideo.io/en/articles/14717491-get-started-with-ai-filmmaking",
+        "https://invideo.io/agents/",
+        "https://invideo.io/news/introducing-invideo-mcp/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, marketers and teams producing ads, explainers and longer-form videos who want an AI agent to handle the first cut and then refine the result through conversational edits on a real timeline.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -3959,7 +4124,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-19",
+  "lastQualityReviewBatch": "catalog-review-batch-20",
   "lastQualityReviewBatchSummary": {
     "accepted": 14,
     "rejected": 0,
@@ -4091,6 +4256,25 @@
       "lastCheckedAt": "2026-10-31",
       "reason": "Helicone's official homepage currently states that it is no longer part of Mintlify and that details will follow. Its official sign-in page explicitly says new signups are disabled. The public site still describes its AI gateway and observability product, but new-user access and the post-separation product/ownership status cannot currently be confirmed. This is an availability and continuity uncertainty, not evidence that Helicone has shut down.",
       "nextAction": "Recheck for an official post-separation ownership/product announcement and confirmation that new signups or new customer access have resumed before reinstating it in the active directory."
+    },
+    {
+      "name": "Hume AI",
+      "status": "sunsetting",
+      "officialUrl": "https://www.hume.ai/",
+      "checkedUrls": [
+        "https://www.hume.ai/",
+        "https://dev.hume.ai/voice/changelog",
+        "https://status.hume.ai/"
+      ],
+      "evidenceUrls": [
+        "https://dev.hume.ai/voice/changelog",
+        "https://dev.hume.ai/voice/docs/speech-to-speech-evi/overview",
+        "https://dev.hume.ai/voice/docs/text-to-speech-tts/overview"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "sunsetDate": "2026-11-13",
+      "reason": "Hume's official October 2, 2026 changelog states that its Text-to-Speech (TTS) and Empathic Voice Interface (EVI) APIs are being sunset, with access ending November 13, 2026 at 12:01 a.m. EST and account data permanently deleted after that date. The status page currently reports the systems as operational, so this is a scheduled API sunset, not an outage or a claim that the entire company is shutting down. The core voice products represented by this catalog entry are being withdrawn; keep it out of active discovery pending a verified replacement or migration path.",
+      "nextAction": "Recheck after November 13, 2026 for an official replacement product, migration path or remaining supported Hume API product; reinstate only if a distinct active AI offering is verified."
     }
   ],
   "lastStatusWatchReviewAt": "2026-10-31",
