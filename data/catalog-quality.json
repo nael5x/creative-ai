@@ -291,6 +291,19 @@
       "decision": "accepted"
     },
     {
+      "name": "AssemblyAI",
+      "officialUrl": "https://www.assemblyai.com/",
+      "evidenceUrls": [
+        "https://www.assemblyai.com/",
+        "https://www.assemblyai.com/docs/",
+        "https://www.assemblyai.com/products/speech-to-text/",
+        "https://www.assemblyai.com/docs/voice-agents/voice-agent-api"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "AssemblyAI provides pre-recorded and realtime transcription, speaker identification, audio understanding, PII redaction and a managed voice-agent API through developer endpoints.",
+      "decision": "accepted"
+    },
+    {
       "name": "Async",
       "officialUrl": "https://async.com/",
       "evidenceUrls": [
@@ -298,6 +311,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Current product identity of Podcastle, expanded beyond podcasting into a broader creative and voice platform.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Avoma",
+      "officialUrl": "https://www.avoma.com/",
+      "evidenceUrls": [
+        "https://www.avoma.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Avoma combines an AI meeting assistant with scheduling, lead routing, call scoring, coaching and revenue intelligence so customer conversations can drive follow-up work.",
       "decision": "accepted"
     },
     {
@@ -309,6 +332,18 @@
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "Bardeen applies LLMs to qualify extracted leads, categorize records and generate personalized outreach inside browser-driven automation workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Baseten",
+      "officialUrl": "https://www.baseten.co/",
+      "evidenceUrls": [
+        "https://www.baseten.co/",
+        "https://www.baseten.co/platform/model-management/",
+        "https://docs.baseten.co/examples/models/deepseek/deepseek-r1"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Baseten provides managed inference infrastructure, model deployment tooling, optimized model APIs and training workflows for production AI applications.",
       "decision": "accepted"
     },
     {
@@ -344,6 +379,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Blackbox AI",
+      "officialUrl": "https://www.blackbox.ai/",
+      "evidenceUrls": [
+        "https://www.blackbox.ai/",
+        "https://docs.blackbox.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Blackbox AI now centers on secure model inference and routing while also offering APIs that dispatch coding agents to repositories and a terminal agent for development work.",
+      "decision": "accepted"
+    },
+    {
       "name": "Bloomreach Loomi",
       "officialUrl": "https://www.bloomreach.com/en/products/loomi-ai",
       "evidenceUrls": [
@@ -351,6 +397,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Agentic personalization platform powering Bloomreach marketing, search and customer-experience workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Bolt.new",
+      "officialUrl": "https://bolt.new/",
+      "evidenceUrls": [
+        "https://bolt.new/",
+        "https://support.bolt.new/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Bolt lets users describe an app or website, then generates and runs the project in the browser with coding-agent iteration, templates and integrations such as Figma and GitHub.",
       "decision": "accepted"
     },
     {
@@ -468,6 +525,29 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI coding assistant and model ecosystem for code generation, completion, explanation and translation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CodeRabbit",
+      "officialUrl": "https://www.coderabbit.ai/",
+      "evidenceUrls": [
+        "https://www.coderabbit.ai/",
+        "https://docs.coderabbit.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "CodeRabbit performs context-aware code reviews, prioritizes pull requests, analyzes changes and security issues, and supports review and planning workflows in Git platforms, IDEs, CLI and team chat.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CrewAI",
+      "officialUrl": "https://crewai.com/",
+      "evidenceUrls": [
+        "https://crewai.com/open-source",
+        "https://crewai.com/",
+        "https://docs.crewai.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "CrewAI supports agents, crews and flows with tools, memory, guardrails and human-in-the-loop controls, plus an enterprise runtime for deployment, tracing and governance.",
       "decision": "accepted"
     },
     {
@@ -663,6 +743,19 @@
       "decision": "accepted"
     },
     {
+      "name": "Fireflies.ai",
+      "officialUrl": "https://fireflies.ai/",
+      "evidenceUrls": [
+        "https://fireflies.ai/",
+        "https://fireflies.ai/product/features",
+        "https://docs.fireflies.ai/",
+        "https://fireflies.ai/api"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Fireflies captures meetings, creates transcripts, summaries and action items, lets users query conversations with AskFred and provides GraphQL, webhook and MCP access to meeting data.",
+      "decision": "accepted"
+    },
+    {
       "name": "Fooocus",
       "officialUrl": "https://github.com/lllyasviel/Fooocus",
       "evidenceUrls": [
@@ -737,6 +830,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Gong",
+      "officialUrl": "https://www.gong.io/",
+      "evidenceUrls": [
+        "https://www.gong.io/",
+        "https://www.gong.io/press/gong-growth-accelerates-past-55-yoy-arr-tops-500m"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Gong connects customer interactions to revenue context and provides AI applications and agents for sales engagement, forecasting, enablement, follow-ups and pipeline updates.",
+      "decision": "accepted"
+    },
+    {
       "name": "Grammarly",
       "officialUrl": "https://www.grammarly.com/",
       "evidenceUrls": [
@@ -744,6 +848,18 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI writing assistance for drafting, rewriting, tone and communication quality.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Granola",
+      "officialUrl": "https://www.granola.ai/",
+      "evidenceUrls": [
+        "https://www.granola.ai/",
+        "https://www.granola.ai/use-cases/product",
+        "https://www.granola.ai/blog/announcement"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Granola records system audio rather than joining calls as a bot, combines the transcript with notes written by the user, and turns the result into structured summaries, decisions and action items.",
       "decision": "accepted"
     },
     {
@@ -872,6 +988,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Jasper",
+      "officialUrl": "https://www.jasper.ai/",
+      "evidenceUrls": [
+        "https://www.jasper.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Jasper combines marketing agents and repeatable content pipelines with brand voice, knowledge and governance controls for research, optimization, translation and campaign production.",
+      "decision": "accepted"
+    },
+    {
       "name": "Kiro",
       "officialUrl": "https://kiro.dev/",
       "evidenceUrls": [
@@ -902,6 +1028,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Active generative video product on Kling AI's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Krisp",
+      "officialUrl": "https://krisp.ai/",
+      "evidenceUrls": [
+        "https://krisp.ai/",
+        "https://help.krisp.ai/hc/en-us/articles/360012035580-What-is-Krisp"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Krisp offers a bot-free AI meeting assistant, transcription and noise cancellation, plus call-center voice assistance and APIs/models for voice-AI developers.",
       "decision": "accepted"
     },
     {
@@ -936,6 +1073,17 @@
       ],
       "reviewedAt": "2026-10-31",
       "userValue": "Letta provides stateful agents whose memory, tools and conversation history persist across sessions and can run locally or in cloud computers.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lindy",
+      "officialUrl": "https://www.lindy.ai/",
+      "evidenceUrls": [
+        "https://www.lindy.ai/",
+        "https://docs.lindy.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Lindy connects to a company's tools and context, then runs role-based agents for practical workflows such as updating CRM records, triaging support, analyzing funnels and monitoring operations.",
       "decision": "accepted"
     },
     {
@@ -1073,6 +1221,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Murf",
+      "officialUrl": "https://murf.ai/",
+      "evidenceUrls": [
+        "https://murf.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Murf combines a voiceover studio with text-to-speech APIs and conversational-agent capabilities so teams can create narration or embed speech into products.",
+      "decision": "accepted"
+    },
+    {
       "name": "n8n",
       "officialUrl": "https://n8n.io/",
       "evidenceUrls": [
@@ -1133,6 +1291,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "OpenAI's active coding agent for writing, reviewing and shipping code, now presented as Codex in ChatGPT.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Otter.ai",
+      "officialUrl": "https://otter.ai/",
+      "evidenceUrls": [
+        "https://otter.ai/",
+        "https://help.otter.ai/hc/en-us"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Otter records or joins meetings, transcribes speech with speaker recognition, generates summaries and action items, and lets users search and ask questions across their meeting history.",
       "decision": "accepted"
     },
     {
@@ -1793,13 +1962,13 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-5",
+  "lastQualityReviewBatch": "catalog-review-batch-6",
   "lastQualityReviewBatchSummary": {
     "accepted": 15,
     "rejected": 0,
     "renamed": 0,
     "updatedDescriptions": 15,
-    "canonicalUrlUpdates": 5,
-    "availabilityUpdates": 1
+    "categoryUpdates": 1,
+    "availabilityUpdates": 3
   }
 }
