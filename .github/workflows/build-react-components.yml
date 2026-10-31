@@ -34,11 +34,7 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Build isolated component bundle
         run: npm run build:components
-      - name: Install Chromium for browser smoke test
-        run: npx playwright install --with-deps chromium
-      - name: Test homepage components in Chromium
-        run: npm run test:components:browser
-      - name: Copy static bundle into the Pages source tree
+      - name: Stage static bundle for browser test
         run: |
           mkdir -p scripts
           find scripts -maxdepth 1 -type f -name 'components-entry-*.js' -delete
@@ -54,6 +50,10 @@ jobs:
           find scripts -maxdepth 1 -type f -name 'CountUp-*.js' -delete
           cp dist/*.js scripts/
           cp dist/creative-ai-components.css creative-ai-components.css
+      - name: Install Chromium for browser smoke test
+        run: npx playwright install --with-deps chromium
+      - name: Test homepage components in Chromium
+        run: npm run test:components:browser
       - name: Commit static bundle for GitHub Pages
         run: |
           git config user.name "github-actions[bot]"
