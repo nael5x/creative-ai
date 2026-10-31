@@ -5015,6 +5015,23 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For video creators, podcasters, streamers and developers who need soundtracks or licensed music workflows. Render's free Ambassador plan offers 25 tracks/month and 5 downloads with attribution and non-commercial restrictions; Creator is $14/month or $11.69/month billed annually (non-commercial), Pro is $39/month or $32.49/month annually (commercial use, monetized content and full Track Editor), and Business is $199/month or $149.29/month annually (client/agency/app use and sublicensing). API plans are separate. Generated tracks cannot be redistributed as standalone music, uploaded to Spotify or registered in Content ID; check the license for your specific channel or project before use.",
       "decision": "accepted"
+    },
+    {
+      "name": "Mutiny",
+      "officialUrl": "https://www.mutinyhq.com/",
+      "evidenceUrls": [
+        "https://www.mutinyhq.com/",
+        "https://www.mutinyhq.com/pricing",
+        "https://www.mutinyhq.com/faqs",
+        "https://www.mutinyhq.com/enterprise",
+        "https://help.mutinyhq.com/",
+        "https://www.mutinyhq.com/llm-info",
+        "https://www.ycombinator.com/launches/PtJ-mutiny-your-ai-agent-for-creating-anything-customer-facing-used-by-uber-rippling",
+        "https://www.linkedin.com/posts/jalehr_we-raised-72m-from-sequoiayc-and-hit-8-activity-7447310976070283264-1NRa"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For AEs, BDRs, sales leaders, CSMs and ABM marketers who need account-specific content and follow-up without waiting on design or marketing. Free plan: up to 5 team members and 5 daily credits (up to 30/month) per seat. Business: $50/month with 50 credits/month, unlimited team members, custom subdomain and expanded routines/projects; Enterprise starts at $40,000/year with SSO, custom limits and implementation support. Mutiny retired its earlier website-personalization/visitor A/B-testing product in April 2026; current Mutiny generates deal-specific assets and automates sales workflows rather than changing variants on an existing website. Meeting, email and CRM integrations require scoped access; generated outputs are drafts for review.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -5030,7 +5047,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-38",
+  "lastQualityReviewBatch": "catalog-review-batch-39",
   "lastQualityReviewBatchSummary": {
     "accepted": 1,
     "rejected": 0,
