@@ -4939,6 +4939,20 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For students and self-learners who want to turn their own course materials into a connected study workflow instead of juggling separate summarizers, flashcard makers, and quiz apps. Supports multiple languages (the App Store listing states 35). A free study session/trial is available, but continued feature access requires a subscription; published plans start at $9.99/month or $5.99/month billed annually. Verify AI-generated notes and answers against the original material.",
       "decision": "accepted"
+    },
+    {
+      "name": "Mixo",
+      "officialUrl": "https://www.mixo.io/",
+      "evidenceUrls": [
+        "https://www.mixo.io/",
+        "https://www.mixo.io/features",
+        "https://www.mixo.io/help/does-mixo-have-a-free-plan",
+        "https://www.mixo.io/help/donde-esta-el-precio/",
+        "https://www.trustpilot.com/review/mixo.io"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For solo operators, small businesses and early-stage founders who need a hosted marketing site to collect enquiries, not a custom web application. Free plan: one page on a Mixo subdomain with branding; paid plans are $9/month Basic (one page), $19 Growth (up to five pages), and $39 Premium (up to 50 pages), with a 20% annual-billing discount. Hosting and SSL are included; custom domains and branding removal require a paid plan. Verify current regional pricing before purchase.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4954,16 +4968,16 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-32",
+  "lastQualityReviewBatch": "catalog-review-batch-33",
   "lastQualityReviewBatchSummary": {
-    "accepted": 0,
+    "accepted": 1,
     "rejected": 0,
     "superseded": 0,
     "retired": 0,
     "mergedIntoExisting": 0,
-    "updatedExisting": 0,
+    "updatedExisting": 1,
     "rechecked": 0,
-    "statusWatch": 1,
+    "statusWatch": 0,
     "recommenderProfilesAdded": 0,
     "recommenderProfilesRenamed": 0,
     "recommenderProfilesRemoved": 0
