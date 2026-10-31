@@ -13,7 +13,6 @@ SOURCES = [
     ("Hugging Face", "https://github.com/huggingface/transformers/releases.atom", "Models & datasets", "Use and follow open AI model tooling.", "Useful for anyone working with open models."),
     ("ComfyUI", "https://github.com/Comfy-Org/ComfyUI/releases.atom", "Image workflows", "Create controlled node-based image-generation workflows.", "Useful for advanced Stable Diffusion users."),
     ("Open WebUI", "https://github.com/open-webui/open-webui/releases.atom", "Local AI UI", "Use local or remote AI models in a browser interface.", "Useful for people who use Ollama or self-hosted models."),
-    ("Flowise", "https://github.com/FlowiseAI/Flowise/releases.atom", "Visual AI builder", "Build visual chatflows and LLM applications.", "Useful for prototyping RAG and chatbot workflows."),
     ("Langflow", "https://github.com/langflow-ai/langflow/releases.atom", "Visual AI builder", "Create AI flows visually and connect components.", "Useful for testing AI application ideas faster."),
     ("n8n", "https://github.com/n8n-io/n8n/releases.atom", "Automation", "Connect apps, APIs and AI in automated workflows.", "Useful for repeatable content and business automation."),
     ("LlamaIndex", "https://github.com/run-llama/llama_index/releases.atom", "AI development", "Connect data to LLM applications.", "Useful for search and Q&A over documents or databases."),
