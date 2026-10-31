@@ -502,106 +502,6 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
-      "id": "tag:github.com,2008:Repository/621803253/flowise-ui@3.1.4",
-      "title": "flowise-ui@3.1.4: Release/3.1.4 (#6681)",
-      "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise-ui%403.1.4",
-      "publishedAt": "2026-07-29T09:59:33Z",
-      "source": "Flowise",
-      "kind": "Visual AI builder",
-      "purpose": "Build visual chatflows and LLM applications.",
-      "why": "Useful for prototyping RAG and chatbot workflows."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/621803253/flowise-components@3.1.4",
-      "title": "flowise-components@3.1.4: Release/3.1.4 (#6681)",
-      "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise-components%403.1.4",
-      "publishedAt": "2026-07-29T09:59:33Z",
-      "source": "Flowise",
-      "kind": "Visual AI builder",
-      "purpose": "Build visual chatflows and LLM applications.",
-      "why": "Useful for prototyping RAG and chatbot workflows."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/621803253/flowise@3.1.4",
-      "title": "flowise@3.1.4",
-      "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.4",
-      "publishedAt": "2026-07-29T15:51:25Z",
-      "source": "Flowise",
-      "kind": "Visual AI builder",
-      "purpose": "Build visual chatflows and LLM applications.",
-      "why": "Useful for prototyping RAG and chatbot workflows."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/621803253/flowise-ui@3.1.3",
-      "title": "flowise-ui@3.1.3: Release/3.1.3 (#6566)",
-      "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise-ui%403.1.3",
-      "publishedAt": "2026-06-25T10:06:22Z",
-      "source": "Flowise",
-      "kind": "Visual AI builder",
-      "purpose": "Build visual chatflows and LLM applications.",
-      "why": "Useful for prototyping RAG and chatbot workflows."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/621803253/flowise-components@3.1.3",
-      "title": "flowise-components@3.1.3: Release/3.1.3 (#6566)",
-      "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise-components%403.1.3",
-      "publishedAt": "2026-06-25T10:06:22Z",
-      "source": "Flowise",
-      "kind": "Visual AI builder",
-      "purpose": "Build visual chatflows and LLM applications.",
-      "why": "Useful for prototyping RAG and chatbot workflows."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/621803253/flowise@3.1.3",
-      "title": "flowise@3.1.3",
-      "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.3",
-      "publishedAt": "2026-06-25T11:35:35Z",
-      "source": "Flowise",
-      "kind": "Visual AI builder",
-      "purpose": "Build visual chatflows and LLM applications.",
-      "why": "Useful for prototyping RAG and chatbot workflows."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/621803253/flowise-ui@3.1.2",
-      "title": "flowise-ui@3.1.2: Release/3.1.2 (#6215)",
-      "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise-ui%403.1.2",
-      "publishedAt": "2026-04-14T10:42:44Z",
-      "source": "Flowise",
-      "kind": "Visual AI builder",
-      "purpose": "Build visual chatflows and LLM applications.",
-      "why": "Useful for prototyping RAG and chatbot workflows."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/621803253/flowise-components@3.1.2",
-      "title": "flowise-components@3.1.2: Release/3.1.2 (#6215)",
-      "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise-components%403.1.2",
-      "publishedAt": "2026-04-14T10:42:44Z",
-      "source": "Flowise",
-      "kind": "Visual AI builder",
-      "purpose": "Build visual chatflows and LLM applications.",
-      "why": "Useful for prototyping RAG and chatbot workflows."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/621803253/flowise@3.1.2",
-      "title": "flowise@3.1.2",
-      "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.2",
-      "publishedAt": "2026-04-14T13:58:32Z",
-      "source": "Flowise",
-      "kind": "Visual AI builder",
-      "purpose": "Build visual chatflows and LLM applications.",
-      "why": "Useful for prototyping RAG and chatbot workflows."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/621803253/flowise-ui@3.1.1",
-      "title": "flowise-ui@3.1.1: release/3.1.1 (#6037)",
-      "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise-ui%403.1.1",
-      "publishedAt": "2026-03-23T10:38:19Z",
-      "source": "Flowise",
-      "kind": "Visual AI builder",
-      "purpose": "Build visual chatflows and LLM applications.",
-      "why": "Useful for prototyping RAG and chatbot workflows."
-    },
-    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev10",
       "title": "v1.14.0.dev10",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev10",
@@ -1008,15 +908,14 @@
     "Hugging Face",
     "ComfyUI",
     "Open WebUI",
-    "Flowise",
     "Langflow",
     "n8n",
     "LlamaIndex",
     "Product Hunt"
   ],
   "sourceHealth": {
-    "total": 10,
-    "ok": 10,
+    "total": 9,
+    "ok": 9,
     "failed": 0,
     "sources": [
       {
@@ -1046,12 +945,6 @@
       {
         "source": "Open WebUI",
         "url": "https://github.com/open-webui/open-webui/releases.atom",
-        "status": "ok",
-        "items": 10
-      },
-      {
-        "source": "Flowise",
-        "url": "https://github.com/FlowiseAI/Flowise/releases.atom",
         "status": "ok",
         "items": 10
       },
