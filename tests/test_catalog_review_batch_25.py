@@ -23,10 +23,10 @@ class CatalogReviewBatch25Tests(unittest.TestCase):
         accepted = sum(row["decision"] == "accepted" for row in self.quality["tools"])
         rejected = sum(row["decision"] == "rejected" for row in self.quality["tools"])
         self.assertEqual(len(self.catalog), 603)
-        self.assertEqual(accepted, 398)
+        self.assertEqual(accepted, 399)
         self.assertEqual(rejected, 29)
-        self.assertEqual(len(self.catalog) - accepted, 205)
-        self.assertEqual(len(self.quality["tools"]), 427)
+        self.assertEqual(len(self.catalog) - accepted, 204)
+        self.assertEqual(len(self.quality["tools"]), 428)
         self.assertEqual(len(self.lifecycle), len(self.catalog))
         self.assertEqual(set(self.rows), set(self.lifecycle))
 
@@ -50,9 +50,7 @@ class CatalogReviewBatch25Tests(unittest.TestCase):
         self.assertEqual(self.audit["retired"], [])
         self.assertEqual(self.audit["rejected"], [])
         self.assertEqual(self.audit["statusWatch"], [])
-        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-25")
-        self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["accepted"], 1)
-        self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["updatedExisting"], 1)
+        self.assertEqual(self.audit["batch"], "catalog-review-batch-25")
 
 
 if __name__ == "__main__":
