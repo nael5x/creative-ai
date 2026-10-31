@@ -34,18 +34,21 @@ scripts/validate_tools.py
   └─ validates tool catalog structure and URLs
 
 .github/workflows/validate-tools.yml
-  └─ validates catalog changes on pull requests
+  └─ validates catalog and quality provenance changes on pull requests
+
+.github/workflows/catalog-link-audit.yml
+  └─ runs the canonical-link audit weekly and on relevant pull requests
 
 tests/test_collect_updates.py
   └─ regression tests for parsing, partial success and source health
 
 .github/workflows/test-feed-parsers.yml
-  └─ runs collector regression tests on relevant pull requests and main pushes
+  └─ runs the complete pytest regression suite on catalog, validator and collector changes
 ```
 
 ## Monitored sources
 
-The current monitor includes official or project release feeds for tools such as Ollama, LangChain, Hugging Face Transformers, ComfyUI, Open WebUI, Flowise, Langflow, n8n, and LlamaIndex. Product Hunt is included as a discovery-only source and should not be treated as an official release feed.
+The current monitor includes official or project release feeds for tools such as Ollama, LangChain, Hugging Face Transformers, ComfyUI, Open WebUI, Langflow, n8n, and LlamaIndex. Product Hunt is included as a discovery-only source and should not be treated as an official release feed.
 
 ## Source health reporting
 
@@ -54,9 +57,9 @@ Every collection run records an explicit result for each configured source in `d
 ```json
 {
   "sourceHealth": {
-    "total": 10,
+    "total": 9,
     "ok": 9,
-    "failed": 1,
+    "failed": 0,
     "sources": [
       {
         "source": "Example Source",
@@ -106,7 +109,7 @@ python -m pip install pytest
 python -m pytest -q
 ```
 
-The suite includes catalog/UI checks as well as collector tests. Collector tests use local XML fixtures and injected fetch behavior. The existing feed-parser CI workflow uses unittest discovery, which does not run the function-based tests; run pytest locally for the full suite.
+The suite includes catalog, quality-provenance, UI and collector checks. CI runs the complete pytest suite so both unittest classes and function-based tests are exercised. Collector tests use local XML fixtures and injected fetch behavior.
 
 ## Project structure
 
@@ -116,6 +119,7 @@ The suite includes catalog/UI checks as well as collector tests. Collector tests
   workflows/
     source-monitor.yml
     test-feed-parsers.yml
+    catalog-link-audit.yml
     validate-tools.yml
   PULL_REQUEST_TEMPLATE.md
 
@@ -130,6 +134,8 @@ scripts/
 
 tests/
   test_collect_updates.py
+  test_catalog_review_batch_8.py
+  test_catalog_review_batch_9.py
 
 index.html
 CONTRIBUTING.md
