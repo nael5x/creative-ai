@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles/design-system.css">
   <link rel="stylesheet" href="styles/catalog.css">
   <link rel="stylesheet" href="styles/discovery-hub.css">
+  <link rel="stylesheet" href="styles/creative-ai-theme.css">
 </head>
 <body class="catalog-redesign">
 <main class="wrap discovery-page">
@@ -80,4 +81,5 @@ $("lang").onclick=()=>{lang=lang==="en"?"ar":"en";apply()};$("search").oninput=e
 Promise.all([fetch("data/tools.json",{cache:"default"}),fetch("data/catalog-quality.json",{cache:"default"})]).then(async([a,b])=>{if(!a.ok||!b.ok)throw new Error("load failed");catalog=await a.json();const manifest=await b.json();quality=manifest.tools||[];statusWatch=manifest.statusWatch||[];apply()}).catch(()=>{$("grid").innerHTML='<div class="submit-panel">Unable to load catalog quality data.</div>'});
 apply();
 </script>
+<script src="scripts/creative-ai-effects.js" defer></script>
 </body></html>
