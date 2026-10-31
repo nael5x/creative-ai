@@ -34,5 +34,17 @@
   const io=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');io.unobserve(entry.target)}}),{threshold:.08,rootMargin:'0px 0px -24px 0px'});
   targets.forEach(el=>io.observe(el))
  }
+ // Animate real catalog metrics when the data arrives.
+ const metricNodes=['toolCount','categoryCount','sourceCount'].map(id=>document.getElementById(id)).filter(Boolean);
+ const metricObserver=new MutationObserver(records=>records.forEach(record=>{
+  const node=record.target;const value=parseInt(node.textContent,10);
+  if(!Number.isFinite(value)||node.dataset.countAnimated==='1')return;
+  node.dataset.countAnimated='1';node.classList.add('ca-count-up');
+  if(reduce){return}
+  const start=performance.now(),duration=650;
+  const tick=now=>{const progress=Math.min(1,(now-start)/duration);node.textContent=Math.round(value*(1-Math.pow(1-progress,3))).toLocaleString();if(progress<1)requestAnimationFrame(tick);else node.textContent=value.toLocaleString()};
+  node.textContent='0';requestAnimationFrame(tick);
+ }));
+ metricNodes.forEach(node=>metricObserver.observe(node,{childList:true,characterData:true,subtree:true}));
  document.addEventListener('pointermove',e=>{const card=e.target.closest('.home-page .card,.catalog-redesign .tool-card,.discovery-redesign .category-card');if(!card)return;const r=card.getBoundingClientRect();card.style.setProperty('--pointer-x',(e.clientX-r.left)+'px');card.style.setProperty('--pointer-y',(e.clientY-r.top)+'px')},{passive:true})
 })();
