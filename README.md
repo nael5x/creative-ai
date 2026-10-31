@@ -34,7 +34,7 @@ scripts/validate_tools.py
   └─ validates catalog structure, lifecycle metadata, quality provenance and status-watch records
 
 quality.html
-  └─ displays accepted reviews, active entries pending audit, and unresolved/sunsetting candidates
+  └─ displays accepted reviews, active entries pending audit, and unresolved, sunsetting and maintenance-unclear candidates
 
 .github/workflows/validate-tools.yml
   └─ validates catalog, lifecycle and quality changes on pull requests
@@ -131,6 +131,7 @@ data/
   tool-lifecycle.json
   catalog-audit-round10.json
   catalog-audit-round11.json
+  catalog-audit-round12.json
   TOOLS_FORMAT.md
   updates.json
 
@@ -141,6 +142,7 @@ scripts/
 tests/
   test_collect_updates.py
   test_catalog_review_batch_9.py
+  test_catalog_review_batch_12.py
   test_catalog_status_watch.py
 
 index.html
