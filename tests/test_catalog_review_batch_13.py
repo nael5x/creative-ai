@@ -23,9 +23,9 @@ class CatalogReviewBatch13Tests(unittest.TestCase):
         accepted = sum(row["decision"] == "accepted" for row in self.quality["tools"])
         rejected = sum(row["decision"] == "rejected" for row in self.quality["tools"])
         self.assertEqual(len(self.catalog), 603)
-        self.assertEqual(accepted, 382)
-        self.assertEqual(rejected, 27)
-        self.assertEqual(len(self.catalog) - accepted, 221)
+        self.assertEqual(accepted, 397)
+        self.assertEqual(rejected, 29)
+        self.assertEqual(len(self.catalog) - accepted, 206)
         self.assertEqual(len(self.lifecycle), len(self.catalog))
         self.assertEqual(set(self.rows), set(self.lifecycle))
 
@@ -63,8 +63,8 @@ class CatalogReviewBatch13Tests(unittest.TestCase):
         self.assertIn("design-to-code", self.rows["Builder.io Visual Copilot"][2].lower())
 
     def test_current_batch_metadata_matches_audit_artifact(self):
-        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-23")
-        self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["accepted"], 14)
+        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-24")
+        self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["accepted"], 15)
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["statusWatch"], 0)
         self.assertEqual(self.quality["lastStatusWatchReviewSummary"]["total"], 7)
 
