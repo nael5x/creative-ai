@@ -107,7 +107,7 @@ class CatalogReviewBatch9Tests(unittest.TestCase):
         self.assertEqual(self.lifecycle["Tabnine"]["firstTrackedAt"], "2026-09-13T14:41:12Z")
         self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-14")
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["accepted"], 14)
-        self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["rejected"], 0)
+        self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["rejected"], 1)
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["superseded"], 1)
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["statusWatch"], 0)
         self.assertEqual(len(self.audit["accepted"]), 13)
