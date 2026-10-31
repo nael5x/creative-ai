@@ -46,7 +46,7 @@ tests/test_collect_updates.py
   └─ regression tests for parsing, partial success and source health
 
 .github/workflows/test-feed-parsers.yml
-  └─ runs collector regression tests on relevant pull requests and main pushes
+  └─ runs the complete pytest regression suite on catalog, quality and collector changes
 ```
 
 ## Monitored sources
