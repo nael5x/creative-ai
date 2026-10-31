@@ -53,3 +53,8 @@ body.ca-components-ready .home-page .catalog-facts{display:none!important}
 body.ca-components-ready .logo-loop-section{display:none!important}
 #creativeAiHeroEffectsMount{position:absolute;inset:0;z-index:0;pointer-events:none}
 #creativeAiHeroAccentMount,#creativeAiMetricsMount{position:relative;z-index:2}
+
+.ca-component-placeholder{min-height:250px;border:1px solid rgba(173,143,246,.13);border-radius:18px;background:linear-gradient(110deg,rgba(22,19,49,.7),rgba(15,14,35,.8),rgba(22,19,49,.7));background-size:220% 100%;animation:ca-placeholder-shimmer 2.4s ease-in-out infinite}
+.ca-logo-placeholder{min-height:62px}.ca-grid-placeholder{min-height:230px}.ca-featured-placeholder{min-height:175px}.ca-animated-placeholder{min-height:100px}
+@keyframes ca-placeholder-shimmer{0%,100%{background-position:100% 0}50%{background-position:0 0}}
+@media(prefers-reduced-motion:reduce){.ca-component-placeholder{animation:none}}
