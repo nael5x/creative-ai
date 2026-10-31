@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-33",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Mixo. Verified the current AI website builder, hosted business-site and lead-capture workflows, free plan restrictions, paid page limits and USD pricing, annual discount and current first-party product/help pages; refined the existing listing without changing lifecycle status.",
+  "accepted": [
+    {
+      "name": "Mixo",
+      "category": "Web apps",
+      "description": "AI website builder for small businesses and founders. It generates hosted, responsive business websites from a short description, with editable content, contact forms, enquiry tracking and exports, blog, SEO/GEO features, and third-party integrations.",
+      "userValue": "For solo operators, small businesses and early-stage founders who need a hosted marketing site to collect enquiries, not a custom web application. Free plan: one page on a Mixo subdomain with branding; paid plans are $9/month Basic (one page), $19 Growth (up to five pages), and $39 Premium (up to 50 pages), with a 20% annual-billing discount. Hosting and SSL are included; custom domains and branding removal require a paid plan. Verify current regional pricing before purchase.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.mixo.io/",
+      "evidenceUrls": [
+        "https://www.mixo.io/",
+        "https://www.mixo.io/features",
+        "https://www.mixo.io/help/does-mixo-have-a-free-plan",
+        "https://www.mixo.io/help/donde-esta-el-precio/",
+        "https://www.trustpilot.com/review/mixo.io"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Mixo is an active hosted AI website builder. The current official site describes generating responsive business websites from a short business description, with contact forms, enquiry tracking, contact export, blog, SEO/GEO optimization and integrations. Its feature page also documents no-code editing, hosting, SSL, responsive design and form capture.",
+    "The free plan allows a one-page site on a Mixo subdomain with Mixo branding, hosting, SSL and AI-generated content/design. Paid plans unlock custom domains, branding removal, more pages and advanced analytics/marketing integrations.",
+    "The official pricing help article lists Basic at $9/month for one page, Growth at $19/month for up to five pages, and Premium at $39/month for up to 50 pages, with a 20% discount for annual billing. Prices are in USD and may change; confirm the live checkout for regional taxes and currency.",
+    "Mixo is appropriate for small-business marketing sites and idea/lead validation, but it should not be described as a full-stack application builder or a substitute for custom app development.",
+    "Trustpilot shows recent 2026 customer reviews and a claimed profile; however, only nine reviews were posted in the last 12 months, so review volume is modest and should not be used as a definitive measure of broad customer satisfaction."
+  ]
+}
