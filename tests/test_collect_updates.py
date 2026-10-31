@@ -5,6 +5,7 @@ import unittest
 import xml.etree.ElementTree as ET
 
 from scripts.collect_updates import (
+    SOURCES,
     atom,
     build_payload,
     collect_sources,
@@ -226,6 +227,13 @@ class PayloadWriteTests(unittest.TestCase):
             stored = json.loads(path.read_text(encoding="utf-8"))
             self.assertEqual(stored["updatedAt"], "2026-09-13T00:00:00+00:00")
             self.assertEqual(stored["sourceHealth"]["sources"][0]["items"], 2)
+
+
+class ActiveMonitorSourceTests(unittest.TestCase):
+    def test_retired_flowise_is_not_monitored(self):
+        source_names = [source[0] for source in SOURCES]
+        self.assertNotIn("Flowise", source_names)
+        self.assertEqual(len(source_names), 9)
 
 
 if __name__ == "__main__":
