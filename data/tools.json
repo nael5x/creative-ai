@@ -2074,9 +2074,9 @@
   [
     "Kilo Code",
     "Coding",
-    "Open-source agentic engineering platform across IDE, CLI and cloud workflows.",
-    "For developers who want broad model choice and open-source coding-agent control.",
-    "Open source",
+    "Open-source agentic engineering platform for coding across IDEs, terminal and desktop workflows, with multi-file code generation, planning, debugging, code review, autocomplete, browser/terminal tools and support for hundreds of selectable models. Kilo's official documentation states that Kilo Code was acquired by Anaconda.",
+    "For developers who want an extensible coding agent with open-source code, broad model choice and IDE/CLI workflows; the current platform also includes hosted and desktop experiences alongside its open-source core.",
+    "Open source / Hosted options",
     "https://kilo.ai/"
   ],
   [
@@ -2090,10 +2090,10 @@
   [
     "Kits AI",
     "Music",
-    "AI voice toolkit for singing voice conversion, generation and music production workflows.",
-    "For musicians and producers experimenting with authorized synthetic vocals.",
+    "AI music-production toolkit for voice conversion and cloning, custom voice design and blending, generative vocals, vocal separation and repair, mastering and other audio workflows for singers and producers.",
+    "For musicians and producers who want to create, transform or clean vocal tracks and experiment with synthetic singing voices within an audio-production workflow.",
     "Free tier / Paid",
-    "https://www.kits.ai/"
+    "https://www.kits.ai/tools"
   ],
   [
     "Kittl",
@@ -2106,18 +2106,18 @@
   [
     "Klap",
     "Video",
-    "AI video repurposing tool that turns long videos into short social clips.",
-    "For creators extracting highlight reels and vertical clips from longer recordings.",
-    "Free tier / Paid",
+    "AI video repurposing tool that analyzes long videos to identify engaging moments, reframes speakers for vertical formats, adds animated captions and turns recordings into short clips for social platforms. It also supports publishing and, through its Claude connector, short-form video workflows from an AI conversation.",
+    "For podcasters, educators, marketers and creators who need to turn spoken long-form videos into editable vertical clips without manually reviewing the entire recording.",
+    "Free preview / Paid exports",
     "https://klap.app/"
   ],
   [
     "Klaviyo AI",
     "Ecommerce",
-    "AI features across Klaviyo for ecommerce marketing, segmentation, content and customer engagement.",
-    "For ecommerce brands using customer data to automate personalized marketing.",
-    "Paid",
-    "https://www.klaviyo.com/ai"
+    "K:AI is the intelligence layer built into Klaviyo's B2C CRM. It includes Composer for analyzing customer and campaign data and creating marketing campaigns, Customer Agent for personalized customer support, and AI-powered segmentation, personalization and predictive analytics across email, SMS and other channels.",
+    "For ecommerce and consumer brands already using Klaviyo that want AI-driven campaign planning, personalization and customer support grounded in their own customer and commerce data; K:AI is embedded in Klaviyo, not a standalone chatbot.",
+    "Klaviyo platform plans",
+    "https://www.klaviyo.com/solutions/ai/what-is-kai"
   ],
   [
     "Kling AI",
@@ -2130,33 +2130,33 @@
   [
     "Knowt",
     "Education",
-    "Study platform with AI tools for notes, flashcards, practice questions and learning workflows.",
-    "For students who want a Quizlet-style study system with AI-assisted content generation.",
-    "Free tier / Paid",
+    "AI-supported study platform with Kai for turning notes, PDFs, slides, images, videos and recordings into study notes, flashcards, practice tests and podcasts. It also offers shared study materials, spaced repetition, learning modes and exam-preparation workflows.",
+    "For students and teachers who want to convert class materials into study resources and practice them in one platform; some AI summarization features have usage limits on the free plan.",
+    "Free tier / Paid AI limits",
     "https://knowt.com/"
   ],
   [
     "Koala AI",
     "SEO & marketing",
-    "AI writing platform aimed at long-form content and search-focused publishing.",
-    "For publishers producing structured articles and marketing content efficiently.",
-    "Paid",
-    "https://koala.sh/"
+    "AI SEO and content platform spanning KoalaWriter, KoalaChat, KoalaImages, KoalaLinks and KoalaMagnets, plus Brand DNA and an SEO agent that can use Search Console and analytics data to plan, write and publish content. It combines keyword research, SERP analysis, competitor insights and AI-assisted content workflows.",
+    "For publishers, affiliate sites and content teams who want keyword research, topical planning, article production and SEO publishing workflows in one connected subscription.",
+    "Paid plans",
+    "https://koala.sh/features"
   ],
   [
     "Kommunicate",
     "Customer support",
-    "Customer-service automation platform for chatbots, support workflows and AI assistants.",
-    "For teams adding automated chat support across websites and messaging channels.",
-    "Free tier / Paid",
-    "https://www.kommunicate.io/"
+    "Customer-support automation platform with Kompose, a no-code generative-AI agent builder that can use websites, files, help centers and connected knowledge bases. It supports omnichannel messaging across websites, mobile apps and channels such as WhatsApp, with configurable conversation flows and handoff to human agents; teams can also integrate external AI providers.",
+    "For businesses that want to build AI-assisted support agents from their own knowledge and route unresolved conversations to human teams across web, mobile and messaging channels.",
+    "Free trial / Paid",
+    "https://www.kommunicate.io/product/kompose-bot-builder"
   ],
   [
     "Krea",
     "Images & design",
-    "Creative suite for image, video, 3D, real-time generation and enhancement.",
-    "For fast visual experimentation across several media types in one workspace.",
-    "Free tier / Paid",
+    "Multi-model creative AI suite for generating and editing images, videos and 3D assets, with a real-time canvas, image and video generation, upscaling, LoRA training, lip-sync and a broad catalog of selectable models and styles.",
+    "For designers, artists and creative teams who want one workspace for real-time visual experimentation, image enhancement and multi-model image, video and 3D generation.",
+    "Free tier / Paid credits",
     "https://www.krea.ai/"
   ],
   [
@@ -2170,25 +2170,25 @@
   [
     "LALAL.AI",
     "Music",
-    "AI stem separation and audio cleanup service for music and voice tracks.",
-    "For musicians and editors isolating vocals, instruments or noise from mixed audio.",
+    "AI audio and video processing suite that separates mixed recordings into stems such as vocals, instrumental, drums, bass and other instruments, and includes vocal removal, voice cleaning, voice changing, voice cloning, echo/reverb removal and desktop, mobile and DAW-plugin workflows.",
+    "For musicians, producers, editors and podcasters who need to isolate instruments or vocals, clean recordings and prepare audio or video tracks for further production.",
     "Free tier / Paid",
     "https://www.lalal.ai/"
   ],
   [
     "LanceDB",
     "Vector databases",
-    "Open-source multimodal database designed for AI search, retrieval and agent memory.",
-    "For teams that want embedded or server-based vector search around local or cloud data.",
-    "Open source",
+    "Open-source embedded retrieval library and multimodal vector database built on the Lance columnar format. It stores and searches vectors, metadata and multimodal data with vector similarity, full-text and SQL search, versioning and SDKs for Python, TypeScript/JavaScript and Rust; managed cloud and enterprise options are also available.",
+    "For AI developers building RAG, semantic search and multimodal retrieval who need a local embedded database or a production cloud service without operating a traditional vector-database cluster.",
+    "Open source / Cloud enterprise",
     "https://lancedb.com/"
   ],
   [
     "Landbot",
     "Customer support",
-    "No-code conversational platform for chatbots, lead flows and automated messaging experiences.",
-    "For teams building guided customer conversations without a full custom application.",
-    "Free tier / Paid",
+    "No-code conversational platform for building rule-based chatbots and AI agents in the same visual flow builder. AI Copilot can create workflows from prompts, while agents use configured knowledge and business rules for lead qualification, booking and customer support across websites, WhatsApp, Messenger and APIchat.",
+    "For marketing, sales and support teams that want to build guided chat experiences and AI agents visually, combining predictable workflow steps with open-ended answers and human handoff.",
+    "Paid plans",
     "https://landbot.io/"
   ],
   [
@@ -2202,24 +2202,24 @@
   [
     "Langflow",
     "Visual AI builder",
-    "Open-source visual builder for AI agents, RAG pipelines and model workflows.",
-    "For assembling and testing AI workflows through a node-based interface.",
+    "Open-source, Python-based visual framework for prototyping and deploying AI applications. Its drag-and-drop editor connects models, prompts, data sources, vector stores, agents, tools and MCP servers into runnable flows for chatbots, document analysis, retrieval and agentic applications.",
+    "For developers and technical teams who want to visually assemble, inspect and test AI workflows while retaining the ability to customize them in Python and deploy them as applications.",
     "Open source",
     "https://www.langflow.org/"
   ],
   [
     "Langfuse",
     "AI observability",
-    "Open-source platform for LLM tracing, prompt management, evaluation and analytics.",
-    "For teams that want inspectable model traces and evaluation data with a self-hosting option.",
-    "Open source",
+    "Open-source AI engineering platform for tracing LLM and agent requests, managing and versioning prompts, evaluating outputs, running datasets and experiments, collecting human feedback and monitoring cost, latency and quality. Its core is MIT-licensed and can be self-hosted; Langfuse Cloud is also available.",
+    "For AI engineering teams that need to debug model and agent behavior, test prompt or model changes and monitor production quality using trace data; Langfuse observes and evaluates applications rather than hosting or orchestrating the agents themselves.",
+    "Open source / Cloud free tier",
     "https://langfuse.com/"
   ],
   [
     "LangGraph",
     "AI development",
-    "Open-source framework for building controllable stateful agents and agent workflows.",
-    "For developers who need explicit orchestration around long-running or multi-step agents.",
+    "Open-source low-level orchestration framework for building stateful, long-running AI agents and multi-step workflows. It provides durable execution, persistence and checkpointing, streaming, memory and human-in-the-loop control for applications that combine deterministic steps with agent behavior.",
+    "For developers who need explicit control over agent state, execution, retries and human approval in production workflows, rather than a no-code chatbot builder or hosted observability dashboard.",
     "Open source",
     "https://www.langchain.com/langgraph"
   ],
@@ -2234,10 +2234,10 @@
   [
     "LangSmith",
     "AI observability",
-    "LangChain platform for tracing, evaluation, testing and monitoring LLM applications and agents.",
-    "For teams building complex LLM workflows that need debugging and quality checks.",
-    "Free tier / Paid",
-    "https://www.langchain.com/langsmith"
+    "Framework-agnostic developer platform for tracing and debugging LLM applications and agents, monitoring cost, latency and behavior, running offline and online evaluations, managing datasets and feedback, and testing changes in CI/CD. It supports multiple agent frameworks and offers managed cloud, BYOC and self-hosted deployment options.",
+    "For teams building LLM applications that need a continuous development and production-quality loop for debugging, evaluation and monitoring; it complements orchestration frameworks such as LangGraph rather than replacing them.",
+    "Free tier / Paid / Self-hosted",
+    "https://www.langchain.com/langsmith/observability"
   ],
   [
     "LanguageTool",
