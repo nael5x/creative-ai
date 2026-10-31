@@ -391,6 +391,18 @@
         "easy",
         "control"
       ]
+    },
+    {
+      "action": "add",
+      "name": "Manage AI",
+      "tasks": [
+        "research",
+        "writing",
+        "automation"
+      ],
+      "traits": [
+        "control"
+      ]
     }
   ],
   "notes": [
