@@ -3780,6 +3780,170 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For clinicians and healthcare organizations seeking documentation and evidence-supported clinical reasoning workflows. AI-generated suggestions require qualified clinical review and do not replace professional judgment.",
       "decision": "accepted"
+    },
+    {
+      "name": "Glide",
+      "officialUrl": "https://www.glideapps.com/classic/ai",
+      "evidenceUrls": [
+        "https://www.glideapps.com/classic/ai",
+        "https://www.glideapps.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams that want internal business apps and operational workflows without building a full custom application, using AI to generate app structure and extract information from business files.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Goose",
+      "officialUrl": "https://block.github.io/goose/",
+      "evidenceUrls": [
+        "https://block.github.io/goose/",
+        "https://github.com/aaif-goose/goose",
+        "https://goose-docs.ai/docs/getting-started/installation/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and technical users who want an extensible agent they can run on their own machine and connect to local tools, files, services and preferred models.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gorgias AI",
+      "officialUrl": "https://www.gorgias.com/ai-agent",
+      "evidenceUrls": [
+        "https://www.gorgias.com/ai-agent",
+        "https://helpcenter.gorgias.com/en-US/ai-agent-explained-497772",
+        "https://docs.gorgias.com/en-US/ai-agent-and-automations-135134"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For Shopify-focused ecommerce teams that want customer-facing AI support and shopping assistance grounded in their catalog, policies and order data, with configurable skills and human handoff.",
+      "decision": "accepted"
+    },
+    {
+      "name": "GPT4All",
+      "officialUrl": "https://www.nomic.ai/gpt4all",
+      "evidenceUrls": [
+        "https://www.nomic.ai/gpt4all",
+        "https://github.com/nomic-ai/gpt4all",
+        "https://docs.gpt4all.io/gpt4all_desktop/quickstart.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and developers who want to experiment with local language models and query personal documents on their own hardware, subject to the capabilities of the selected model and device.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Grain",
+      "officialUrl": "https://grain.com/",
+      "evidenceUrls": [
+        "https://grain.com/",
+        "https://support.grain.com/en/articles/9232495-recording-page",
+        "https://support.grain.com/en/articles/9189989-ask-grain-ai",
+        "https://support.grain.com/en/articles/14811968-grain-mcp"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For sales, customer-success, research and product teams that need searchable meeting knowledge and want AI agents to act on transcripts, clips and follow-ups after conversations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Greptile",
+      "officialUrl": "https://www.greptile.com/",
+      "evidenceUrls": [
+        "https://www.greptile.com/",
+        "https://www.greptile.com/docs/introduction"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For engineering teams that want automated, repository-aware pull-request reviews and codebase context beyond file-by-file linting.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Grok",
+      "officialUrl": "https://grok.com/",
+      "evidenceUrls": [
+        "https://grok.com/",
+        "https://docs.x.ai/grok/overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For users who want a general-purpose assistant for questions, analysis and creative work, with multimodal tools and connected-app context.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gumloop",
+      "officialUrl": "https://www.gumloop.com/",
+      "evidenceUrls": [
+        "https://www.gumloop.com/",
+        "https://docs.gumloop.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For operations, sales, support and other teams that want to automate multi-step work across existing tools without hand-coding every integration.",
+      "decision": "accepted"
+    },
+    {
+      "name": "H2O.ai",
+      "officialUrl": "https://h2o.ai/",
+      "evidenceUrls": [
+        "https://h2o.ai/",
+        "https://www.h2o.ai/platform/agentic",
+        "https://docs.h2o.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For organizations that need to develop and operate AI/ML systems while retaining control over models, data, deployment environments, governance and auditability.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hailuo AI",
+      "officialUrl": "https://hailuoai.video/",
+      "evidenceUrls": [
+        "https://hailuoai.video/",
+        "https://hailuoai.video/tools/ai-video-generator",
+        "https://hailuoai.video/pages/blog/introducing-hailuo-2-3-ai-video-generator"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and marketers who want to generate short cinematic, social, product or concept clips from prompts, still images or visual references and compare different generation models.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Haystack",
+      "officialUrl": "https://haystack.deepset.ai/",
+      "evidenceUrls": [
+        "https://haystack.deepset.ai/overview/intro",
+        "https://docs.haystack.deepset.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building custom AI applications who need explicit, testable orchestration and control over retrieval, model calls, tools and data flow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "HeadshotPro",
+      "officialUrl": "https://www.headshotpro.com/",
+      "evidenceUrls": [
+        "https://www.headshotpro.com/",
+        "https://www.headshotpro.com/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For professionals and organizations that need consistent business headshots without arranging an in-person photo shoot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Heidi Health",
+      "officialUrl": "https://www.heidihealth.com/",
+      "evidenceUrls": [
+        "https://www.heidihealth.com/",
+        "https://www.heidihealth.com/scribe",
+        "https://www.heidihealth.com/evidence",
+        "https://support.heidihealth.com/en/articles/8974408-what-is-ask-heidi"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For clinicians and healthcare teams reducing documentation and information-gathering work while reviewing generated notes and evidence before using them in patient care.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hex",
+      "officialUrl": "https://hex.tech/",
+      "evidenceUrls": [
+        "https://hex.tech/",
+        "https://hex.tech/blog/introducing-hex-4-0/",
+        "https://learn.hex.tech/docs/getting-started/ai-overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For data teams that want analysts and business users to ask questions of company data while retaining review, traceability and governance over agent-generated analyses and apps.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -3795,16 +3959,16 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-18",
+  "lastQualityReviewBatch": "catalog-review-batch-19",
   "lastQualityReviewBatchSummary": {
-    "accepted": 15,
+    "accepted": 14,
     "rejected": 0,
     "superseded": 0,
     "retired": 0,
     "mergedIntoExisting": 0,
-    "updatedExisting": 15,
+    "updatedExisting": 14,
     "rechecked": 0,
-    "statusWatch": 0,
+    "statusWatch": 1,
     "recommenderProfilesAdded": 0,
     "recommenderProfilesRenamed": 0,
     "recommenderProfilesRemoved": 0
@@ -3910,6 +4074,23 @@
       "lastCheckedAt": "2026-10-31",
       "reason": "Character.ai's official October 12, 2026 announcement says the platform remains up and running during a voluntary Chapter 11 process and court-supervised sale, but also says the platform will be wound down if no actionable bid emerges. As of 2026-10-31, the sale outcome is unresolved. This is a continuity risk, not evidence that the service has already shut down.",
       "nextAction": "Recheck the official sale-process updates and confirm a buyer and continued service, or a formal wind-down notice, after the process expected to conclude by the end of November or early December 2026."
+    },
+    {
+      "name": "Helicone",
+      "status": "unresolved",
+      "officialUrl": "https://www.helicone.ai/",
+      "checkedUrls": [
+        "https://www.helicone.ai/",
+        "https://us.helicone.ai/signin",
+        "https://docs.helicone.ai/"
+      ],
+      "evidenceUrls": [
+        "https://www.helicone.ai/",
+        "https://us.helicone.ai/signin"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "Helicone's official homepage currently states that it is no longer part of Mintlify and that details will follow. Its official sign-in page explicitly says new signups are disabled. The public site still describes its AI gateway and observability product, but new-user access and the post-separation product/ownership status cannot currently be confirmed. This is an availability and continuity uncertainty, not evidence that Helicone has shut down.",
+      "nextAction": "Recheck for an official post-separation ownership/product announcement and confirmation that new signups or new customer access have resumed before reinstating it in the active directory."
     }
   ],
   "lastStatusWatchReviewAt": "2026-10-31",

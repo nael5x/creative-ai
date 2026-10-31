@@ -19,8 +19,8 @@ class CatalogStatusWatchTests(unittest.TestCase):
         cls.status_watch = cls.manifest["statusWatch"]
 
     def test_status_watch_counts_are_reconciled(self):
-        self.assertEqual(len(self.status_watch), 7)
-        self.assertEqual(sum(item["status"] == "unresolved" for item in self.status_watch), 5)
+        self.assertEqual(len(self.status_watch), 8)
+        self.assertEqual(sum(item["status"] == "unresolved" for item in self.status_watch), 6)
         self.assertEqual(sum(item["status"] == "sunsetting" for item in self.status_watch), 1)
         self.assertEqual(sum(item["status"] == "maintenance-unclear" for item in self.status_watch), 1)
 
