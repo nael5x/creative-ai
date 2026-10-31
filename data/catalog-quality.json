@@ -4634,6 +4634,216 @@
       "userValue": "The official product pages describe paper search, citation/reference mapping, visualization, sharing and alerts. They do not document an AI/ML capability as part of the product's core workflow.",
       "decision": "rejected",
       "reason": "The official product pages describe literature discovery through citation and reference connections, visual mapping, sharing and monitoring. They do not document a first-party AI/ML or generative-AI capability that materially performs the product's core function. Litmaps is a useful research-discovery product, but it does not meet Creative AI's requirement that AI be a real, useful part of the product."
+    },
+    {
+      "name": "Loudly",
+      "officialUrl": "https://www.loudly.com/",
+      "evidenceUrls": [
+        "https://www.loudly.com/",
+        "https://www.loudly.com/faq",
+        "https://www.loudly.com/pricing",
+        "https://www.loudly.com/api"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For musicians, producers, video creators and platforms that need original music, remix and stem workflows or music-generation APIs in one production system; check the license attached to the plan and model before commercial release.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lovable",
+      "officialUrl": "https://lovable.dev/build/app-builder",
+      "evidenceUrls": [
+        "https://lovable.dev/build/app-builder",
+        "https://lovable.dev/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For founders, product teams and developers who want to turn an idea into a deployed web app or internal tool quickly, while retaining access to the generated code and backend.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LOVO",
+      "officialUrl": "https://lovo.ai/genny",
+      "evidenceUrls": [
+        "https://lovo.ai/genny",
+        "https://help.lovo.ai/hc/en-us/articles/21884654188953-What-is-Genny",
+        "https://docs.genny.lovo.ai/docs/tutorial"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For educators, marketers, creators and production teams making narrated videos, training content and multilingual voiceovers who want voice generation and editing in one browser workspace.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Luminance",
+      "officialUrl": "https://www.luminance.com/platform/product",
+      "evidenceUrls": [
+        "https://www.luminance.com/platform/product",
+        "https://www.luminance.com/platform/product/negotiation",
+        "https://www.luminance.com/solutions/legal/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For in-house legal and contract teams processing large agreement volumes who need AI-assisted review and negotiation grounded in company-approved positions; the platform augments legal professionals rather than replacing their judgment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Maestra",
+      "officialUrl": "https://maestra.ai/",
+      "evidenceUrls": [
+        "https://maestra.ai/",
+        "https://maestra.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, educators, media teams and businesses that need to turn audio and video into multilingual captions, transcripts and dubbed versions without stitching together separate tools.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mage",
+      "officialUrl": "https://www.mage.space/",
+      "evidenceUrls": [
+        "https://www.mage.space/",
+        "https://www.mage.space/updates",
+        "https://www.mage.space/agent"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators who want to experiment with different image models and styles in one interface, and use a prompt-driven agent for multi-step image creation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "MagicSchool AI",
+      "officialUrl": "https://www.magicschool.ai/magic-tools",
+      "evidenceUrls": [
+        "https://www.magicschool.ai/magic-tools",
+        "https://www.magicschool.ai/magicstudent",
+        "https://www.magicschool.ai/pricing",
+        "https://www.magicschool.ai/magicschool"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For educators and schools that want teaching and learning workflows designed for classroom use, with teacher oversight and school-level privacy and governance rather than a general-purpose chatbot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "MarketMuse",
+      "officialUrl": "https://www.marketmuse.com/",
+      "evidenceUrls": [
+        "https://www.marketmuse.com/",
+        "https://www.marketmuse.com/about/",
+        "https://www.marketmuse.com/pricing/",
+        "https://help.marketmuse.com/support/solutions/articles/80001167728-content-optimization-and-analysis"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SEO teams, publishers and content strategists planning large content libraries who need data-backed decisions about what to create, update and cover more comprehensively.",
+      "decision": "accepted"
+    },
+    {
+      "name": "TRAE",
+      "officialUrl": "https://www.trae.ai/",
+      "evidenceUrls": [
+        "https://www.trae.ai/",
+        "https://www.trae.ai/ide",
+        "https://www.trae.ai/pricing",
+        "https://docs.trae.cn/ide_traework-to-traecode-data-migration",
+        "https://developer.volcengine.com/articles/7496711867822243881"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For software developers and teams who want AI-assisted IDE work and autonomous task execution in one product, with the ability to switch between deep project editing and broader agent workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "WorldEngen",
+      "officialUrl": "https://masterpiecex.com/",
+      "evidenceUrls": [
+        "https://masterpiecex.com/",
+        "https://worldengen.masterpiecex.com/terms",
+        "https://www.masterpiecex.com/faqs-masterpiecex"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For game, film, simulation and 3D studios that want AI agents to accelerate environment and scene production while artists retain direction and continue working in their established 3D tools.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mastra",
+      "officialUrl": "https://mastra.ai/docs",
+      "evidenceUrls": [
+        "https://mastra.ai/docs",
+        "https://mastra.ai/",
+        "https://github.com/mastra-ai/mastra"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For TypeScript teams building production AI agents and applications who want a code-first framework with integrated workflow, memory, evaluation and observability primitives.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Maven AGI",
+      "officialUrl": "https://www.mavenagi.com/product/agent-platform",
+      "evidenceUrls": [
+        "https://www.mavenagi.com/",
+        "https://www.mavenagi.com/product/agent-platform"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For large support organizations that want AI agents to resolve multi-step customer requests across channels and systems, while integrating with their existing helpdesk, CRM and telephony stack.",
+      "decision": "accepted"
+    },
+    {
+      "name": "MaxAI.me",
+      "officialUrl": "https://www.maxai.me/features/browser-ai-assistant/",
+      "evidenceUrls": [
+        "https://www.maxai.me/",
+        "https://www.maxai.me/features/browser-ai-assistant/",
+        "https://www.maxai.me/pricing/team/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For knowledge workers who want a single assistant available across websites and common browser tasks, while using connected model providers rather than training or hosting its own foundation model.",
+      "decision": "accepted"
+    },
+    {
+      "name": "MeetGeek",
+      "officialUrl": "https://meetgeek.ai/",
+      "evidenceUrls": [
+        "https://meetgeek.ai/",
+        "https://meetgeek.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams that need searchable meeting records, automatic follow-ups and workflow automation across video meetings, desktop conversations and in-person discussions.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mem",
+      "officialUrl": "https://get.mem.ai/",
+      "evidenceUrls": [
+        "https://get.mem.ai/",
+        "https://get.mem.ai/product/agent",
+        "https://get.mem.ai/product/workspace",
+        "https://get.mem.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and teams who want a living, searchable knowledge base that not only stores notes but connects decisions, projects and follow-ups and proactively brings relevant context back when needed.",
+      "decision": "accepted"
+    },
+    {
+      "name": "MarsCode",
+      "officialUrl": "https://www.marscode.com/",
+      "evidenceUrls": [
+        "https://www.marscode.com/",
+        "https://developer.volcengine.com/articles/7496711867822243881",
+        "https://docs.trae.cn/ide_traework-to-traecode-data-migration"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The official developer announcement identifies the MarsCode programming assistant as the former name of the Trae plugin, and the current platform has unified TraeCode and TraeWork under TRAE.",
+      "decision": "rejected",
+      "reason": "The MarsCode coding assistant was renamed to the Trae plugin, and the current official product family has since unified TraeCode and TraeWork under the TRAE name. The MarsCode label no longer represents a distinct active product; keep the current successor under TRAE.",
+      "supersededBy": "TRAE"
+    },
+    {
+      "name": "Masterpiece X",
+      "officialUrl": "https://masterpiecex.com/",
+      "evidenceUrls": [
+        "https://masterpiecex.com/",
+        "https://worldengen.masterpiecex.com/terms",
+        "https://www.masterpiecex.com/faqs-masterpiecex"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The current official homepage presents WorldEngen as the AI copilot for 3D production and explicitly labels the former 3D Web Generator and VR apps as legacy products.",
+      "decision": "rejected",
+      "reason": "Masterpiece X's current official homepage has repositioned the active product as WorldEngen, an AI copilot for 3D production. It explicitly labels the former 3D Web Generator, Community Library and VR App as legacy. The old catalog entry is therefore a superseded product identity, not a separate active tool.",
+      "supersededBy": "WorldEngen"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4649,14 +4859,14 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-23",
+  "lastQualityReviewBatch": "catalog-review-batch-24",
   "lastQualityReviewBatchSummary": {
-    "accepted": 14,
-    "rejected": 1,
-    "superseded": 0,
+    "accepted": 15,
+    "rejected": 2,
+    "superseded": 2,
     "retired": 0,
     "mergedIntoExisting": 0,
-    "updatedExisting": 14,
+    "updatedExisting": 13,
     "rechecked": 0,
     "statusWatch": 0,
     "recommenderProfilesAdded": 0,
