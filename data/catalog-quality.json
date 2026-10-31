@@ -2745,6 +2745,18 @@
       ],
       "userValue": "For teachers who need practical AI support for preparation, differentiation and feedback without leaving their existing classroom workflow.",
       "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "agent-qa",
+      "officialUrl": "https://vostride.com",
+      "evidenceUrls": [
+        "https://github.com/vostride/agent-qa/releases/tag/v0.2.3",
+        "https://vostride.com/docs/agent-qa/mcp",
+        "https://vostride.com/docs/agent-qa/self-improvement"
+      ],
+      "reviewedAt": "2026-10-25",
+      "userValue": "Automates web and mobile interface tests, retaining reviewable product knowledge for later runs.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
