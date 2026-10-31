@@ -11,8 +11,12 @@ export default defineConfig({
     lib: {
       entry: 'scripts/components-entry.jsx',
       formats: ['es'],
-      fileName: () => 'scripts/creative-ai-components.js',
-      cssFileName: 'creative-ai-components'
+      fileName: () => 'scripts/creative-ai-components.js'
+    },
+    rollupOptions: {
+      output: {
+        assetFileNames: 'creative-ai-components[extname]'
+      }
     }
   }
 });
