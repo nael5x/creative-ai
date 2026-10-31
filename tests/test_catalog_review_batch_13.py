@@ -22,7 +22,7 @@ class CatalogReviewBatch13Tests(unittest.TestCase):
     def test_catalog_and_quality_totals_are_reconciled(self):
         accepted = sum(row["decision"] == "accepted" for row in self.quality["tools"])
         rejected = sum(row["decision"] == "rejected" for row in self.quality["tools"])
-        self.assertEqual(len(self.catalog), 606)
+        self.assertEqual(len(self.catalog), 605)
         self.assertEqual(accepted, 324)
         self.assertEqual(rejected, 26)
         self.assertEqual(len(self.catalog) - accepted, 281)
