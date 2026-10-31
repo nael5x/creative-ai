@@ -63,7 +63,8 @@ function HeroMetrics() {
   }, []);
   return <Metrics tools={catalog.length} categories={new Set(catalog.map(row => row[1])).size} sources={sources} />;
 }
-\nfunction HomeIslands() {
+
+function HomeIslands() {
   const [catalog, setCatalog] = useState([]);
   const [sourceCount, setSourceCount] = useState(0);
   useEffect(() => {
@@ -114,9 +115,13 @@ function mount(id, element) {
   createRoot(host).render(element);
 }
 
-function boot() {\n  document.body.classList.add('ca-components-ready');
+function boot() {
+  document.body.classList.add('ca-components-ready');
   mount('creativeAiNavMount', <Navigation />);
-  mount('creativeAiHeroEffectsMount', <HeroEffects />);\n  mount('creativeAiHeroAccentMount', <HeroAccent />);\n  mount('creativeAiMetricsMount', <HeroMetrics />);\n  mount('creativeAiComponentsMount', <HomeIslands />);
+  mount('creativeAiHeroEffectsMount', <HeroEffects />);
+  mount('creativeAiHeroAccentMount', <HeroAccent />);
+  mount('creativeAiMetricsMount', <HeroMetrics />);
+  mount('creativeAiComponentsMount', <HomeIslands />);
   mount('creativeAiAnimatedMount', <AnimatedIntro />);
 }
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true }); else boot();
