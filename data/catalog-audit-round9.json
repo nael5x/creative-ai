@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-31",
+  "batch": "catalog-review-batch-8",
+  "scope": "First-party review of 15 active catalog entries across web building, sales, healthcare, advertising, SQL, enterprise AI security, productivity, campaign intelligence, 3D, voice, coding, search, video ads and LLM observability.",
+  "accepted": [
+    {
+      "name": "10Web",
+      "officialUrl": "https://10web.io/ai-website-builder/",
+      "evidenceUrls": [
+        "https://10web.io/",
+        "https://10web.io/AI-WEBSITE-BUILDER/"
+      ],
+      "userValue": "10Web turns a prompt, existing URL or design file into a WordPress website, then lets users edit it with AI or manually and publish it on managed hosting.",
+      "categoryUpdate": null,
+      "availabilityUpdate": "Free to build / Paid to launch"
+    },
+    {
+      "name": "11x",
+      "officialUrl": "https://www.11x.ai/",
+      "evidenceUrls": [
+        "https://docs.11x.ai/",
+        "https://docs.11x.ai/alice/overview",
+        "https://docs.11x.ai/help-center/get-started/what-is-11x"
+      ],
+      "userValue": "11x provides autonomous outbound and inbound digital workers: Alice researches and engages prospects, while Julian responds to inbound leads, qualifies them and books meetings.",
+      "categoryUpdate": null,
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Ada Health",
+      "officialUrl": "https://ada.com/",
+      "evidenceUrls": [
+        "https://ada.com/app/",
+        "https://ada.com/help/how-do-i-start-a-symptom-assessment/",
+        "https://ada.com/editorial/ada-introduces/"
+      ],
+      "userValue": "Ada's AI symptom assessment uses probabilistic reasoning and clinical knowledge to analyze reported symptoms and return possible explanations; it is a starting point for care decisions, not a diagnosis.",
+      "categoryUpdate": null,
+      "availabilityUpdate": "Free"
+    },
+    {
+      "name": "AdCreative.ai",
+      "officialUrl": "https://www.adcreative.ai/",
+      "evidenceUrls": [
+        "https://www.adcreative.ai/"
+      ],
+      "userValue": "AdCreative.ai generates advertising images, copy, product visuals and video variations, with creative scoring and competitor-insight features for campaign iteration.",
+      "categoryUpdate": null,
+      "availabilityUpdate": "Free trial / Paid"
+    },
+    {
+      "name": "AI2sql",
+      "officialUrl": "https://ai2sql.io/",
+      "evidenceUrls": [
+        "https://ai2sql.io/",
+        "https://web.ai2sql.io/"
+      ],
+      "userValue": "AI2SQL grounds SQL generation in a connected database schema, explains and optimizes queries, and can execute guarded read-only queries through its app and agent integrations.",
+      "categoryUpdate": null,
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Cato AI Security",
+      "officialUrl": "https://www.catonetworks.com/solutions/ai-security/",
+      "evidenceUrls": [
+        "https://www.catonetworks.com/solutions/ai-security/",
+        "https://knowledge.catonetworks.com/docs/en/getting-started-with-ai-security",
+        "https://www.catonetworks.com/platform/agentic-ai-security/",
+        "https://www.catonetworks.com/news/cato-acquires-aim-security-to-extend-sase-leadership-and-secure-enterprise-ai-transformation/"
+      ],
+      "userValue": "Cato AI Security governs employee use of AI services and protects custom AI applications and agents with prompt inspection, runtime guardrails, agent discovery and tool-call visibility.",
+      "categoryUpdate": "Cybersecurity",
+      "availabilityUpdate": "Paid"
+    },
+    {
+      "name": "Airtable AI",
+      "officialUrl": "https://www.airtable.com/platform/ai",
+      "evidenceUrls": [
+        "https://www.airtable.com/platform/ai",
+        "https://support.airtable.com/articles/1744327578-using-omni-ai-in-airtable",
+        "https://www.airtable.com/whatsnew/roadmap-2026"
+      ],
+      "userValue": "Airtable's AI layer includes Omni for building apps, researching the web, analyzing data and documents, updating records and automations, plus AI field agents for repeatable workflow tasks.",
+      "categoryUpdate": null,
+      "availabilityUpdate": "Free tier / Paid"
+    },
+    {
+      "name": "Akkio",
+      "officialUrl": "https://www.akkio.com/",
+      "evidenceUrls": [
+        "https://www.akkio.com/",
+        "https://docs.akkio.com/"
+      ],
+      "userValue": "Akkio connects campaign data and business knowledge to support strategy research, audience segmentation, media-plan simulation, audience activation and performance measurement.",
+      "categoryUpdate": "Marketing",
+      "availabilityUpdate": "Paid"
+    },
+    {
+      "name": "Alpha3D",
+      "officialUrl": "https://www.alpha3d.io/",
+      "evidenceUrls": [
+        "https://www.alpha3d.io/"
+      ],
+      "userValue": "Alpha3D turns prompts or photos into 3D models and extends the workflow through retopology, UV unwrapping, texturing, rigging and export for game-ready assets.",
+      "categoryUpdate": null,
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Altered Studio",
+      "officialUrl": "https://www.altered.ai/",
+      "evidenceUrls": [
+        "https://www.altered.ai/voice-changer/",
+        "https://www.altered.ai/pricing/",
+        "https://www.altered.ai/faqs/"
+      ],
+      "userValue": "Altered Studio combines speech-to-speech voice morphing, voice cloning, text-to-speech, transcription, audio cleaning and editing for production voice workflows.",
+      "categoryUpdate": "Voice & audio",
+      "availabilityUpdate": "Free tier / Paid"
+    },
+    {
+      "name": "Amazon Q Developer",
+      "officialUrl": "https://aws.amazon.com/q/developer/",
+      "evidenceUrls": [
+        "https://aws.amazon.com/documentation-overview/q-developer/",
+        "https://aws.amazon.com/q/developer/features/",
+        "https://aws.amazon.com/q/developer/build/",
+        "https://aws.amazon.com/q/developer/faqs/"
+      ],
+      "userValue": "Amazon Q Developer assists across IDEs and CLI with codebase explanations, code generation and edits, test creation, code review, vulnerability remediation and AWS development guidance.",
+      "categoryUpdate": null,
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Andi",
+      "officialUrl": "https://andisearch.com/",
+      "evidenceUrls": [
+        "https://andiai.com/",
+        "https://docs.andiai.com/",
+        "https://andiai.com/blogs/announcement-andi-search-we-shipped-february-2026-20260218-1243"
+      ],
+      "userValue": "Andi AI Search synthesizes web answers from sources, summarizes and explains pages, and provides a search API and MCP endpoint for AI agents.",
+      "categoryUpdate": null,
+      "availabilityUpdate": "Free"
+    },
+    {
+      "name": "Arcads",
+      "officialUrl": "https://www.arcads.ai/",
+      "evidenceUrls": [
+        "https://www.arcads.ai/",
+        "https://help.arcads.ai/en/articles/17349897-ai-video-ads"
+      ],
+      "userValue": "Arcads turns scripts, product images or prompts into UGC-style video ads with AI actors and voices, then supports multiple versions, languages, captions and social formats.",
+      "categoryUpdate": null,
+      "availabilityUpdate": "Paid"
+    },
+    {
+      "name": "Arize Phoenix",
+      "officialUrl": "https://phoenix.arize.com/",
+      "evidenceUrls": [
+        "https://github.com/Arize-ai/phoenix",
+        "https://arize.com/docs/phoenix",
+        "https://github.com/Arize-ai/phoenix/blob/main/LICENSE"
+      ],
+      "userValue": "Phoenix provides tracing, evaluation, datasets, experiments, prompt management and MCP access for debugging LLM and agent applications; it can be self-hosted under Elastic License 2.0.",
+      "categoryUpdate": null,
+      "availabilityUpdate": "Free self-host / Elastic License 2.0"
+    },
+    {
+      "name": "Artisan",
+      "officialUrl": "https://www.artisan.co/",
+      "evidenceUrls": [
+        "https://www.artisan.co/",
+        "https://www.artisan.co/ai-sales-agent"
+      ],
+      "userValue": "Artisan's Ava is an autonomous AI BDR that researches and enriches leads, creates personalized outbound sequences, handles replies and books meetings with CRM and calendar integrations.",
+      "categoryUpdate": null,
+      "availabilityUpdate": "Free to start / Paid"
+    }
+  ],
+  "renamed": [
+    {
+      "oldName": "Aim Security",
+      "newName": "Cato AI Security",
+      "previousUrl": "https://www.aim.security/",
+      "officialUrl": "https://www.catonetworks.com/solutions/ai-security/",
+      "reason": "Aim Security was acquired by Cato Networks and its capabilities were integrated into Cato's current AI Security platform. Cato's acquisition announcement described the transition into the Cato SASE Cloud, and the current first-party product and documentation pages now identify Cato AI Security as the active product. The standalone Aim Security identity is superseded.",
+      "evidenceUrls": [
+        "https://www.catonetworks.com/news/cato-acquires-aim-security-to-extend-sase-leadership-and-secure-enterprise-ai-transformation/",
+        "https://www.catonetworks.com/solutions/ai-security/",
+        "https://knowledge.catonetworks.com/docs/en/getting-started-with-ai-security"
+      ]
+    }
+  ],
+  "canonicalUrlUpdates": [
+    {
+      "name": "Airtable AI",
+      "previousUrl": "https://www.airtable.com/product/ai",
+      "officialUrl": "https://www.airtable.com/platform/ai",
+      "reason": "Updated to Airtable's current AI product overview for Omni and AI agents."
+    }
+  ],
+  "notes": [
+    "All accepted entries were checked against first-party product pages, official help centers or official developer documentation.",
+    "Aim Security is recorded as rejected/superseded; the active entry is Cato AI Security, with the original first-tracked timestamp preserved.",
+    "Airtable's current Omni capabilities are described from its October 2026 official help documentation.",
+    "Ada Health is described as a symptom-assessment starting point, not as a diagnostic replacement.",
+    "Arize Phoenix is not labeled simply Open source: its official repository specifies Elastic License 2.0, while documenting self-hosted use.",
+    "No popularity, traffic, revenue, ranking or customer-count claims were used as acceptance evidence."
+  ]
+}
