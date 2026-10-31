@@ -2594,6 +2594,157 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For professionals and developers who want one agent for knowledge work and coding, with visible actions and approval controls.",
       "decision": "accepted"
+    },
+    {
+      "name": "Artbreeder",
+      "decision": "accepted",
+      "officialUrl": "https://www.artbreeder.com/tools",
+      "evidenceUrls": [
+        "https://www.artbreeder.com/tools",
+        "https://www.artbreeder.com/pricing"
+      ],
+      "userValue": "For artists and creators who want to evolve and combine images through controllable visual workflows rather than rely only on one-shot text prompts.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "AskCodi",
+      "decision": "accepted",
+      "officialUrl": "https://www.askcodi.com/",
+      "evidenceUrls": [
+        "https://www.askcodi.com/",
+        "https://www.askcodi.com/pricing"
+      ],
+      "userValue": "For founders and small teams that need software built or maintained without hiring a full team, while retaining their code, approval control and spend limits.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "Harness Cosmos Software Factory Agent",
+      "decision": "accepted",
+      "officialUrl": "https://www.harness.io/products/cosmos-software-factory-agent",
+      "evidenceUrls": [
+        "https://www.harness.io/products/cosmos-software-factory-agent",
+        "https://www.harness.io/blog/harness-acquires-augment-code-cosmos"
+      ],
+      "userValue": "For engineering teams that want repeatable ticket-to-PR automation with human review, sandboxing and integration into a broader software-delivery platform.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "Auphonic",
+      "decision": "accepted",
+      "officialUrl": "https://auphonic.com/",
+      "evidenceUrls": [
+        "https://auphonic.com/pricing",
+        "https://auphonic.com/blog/2026/10/23/zoom-integration/"
+      ],
+      "userValue": "For podcasters, interviewers, educators and audio teams that need consistent, broadcast-ready audio with automated cleanup, transcription and publishing.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "AutoGPT",
+      "decision": "accepted",
+      "officialUrl": "https://agpt.co/",
+      "evidenceUrls": [
+        "https://agpt.co/docs/platform",
+        "https://github.com/Significant-Gravitas/AutoGPT/blob/master/README.md",
+        "https://github.com/Significant-Gravitas/AutoGPT/commits/master/"
+      ],
+      "userValue": "For teams that want configurable agents to run recurring research, data-processing, communication and business workflows in the cloud or on their own infrastructure.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "B12",
+      "decision": "accepted",
+      "officialUrl": "https://www.b12.io/ai-website-builder",
+      "evidenceUrls": [
+        "https://www.b12.io/ai-website-builder",
+        "https://www.b12.io/pricing",
+        "https://support.b12.io/en/b12-website-subscription-plans-and-pricing"
+      ],
+      "userValue": "For professional-service businesses that need a polished website plus client-acquisition and engagement tools without assembling separate vendors.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "Base44",
+      "decision": "accepted",
+      "officialUrl": "https://base44.com/",
+      "evidenceUrls": [
+        "https://base44.com/",
+        "https://base44.com/pricing",
+        "https://base44.com/guides/what-is-base44"
+      ],
+      "userValue": "For founders and nontechnical builders who want to prototype and ship functional web apps without manually assembling a frontend, backend and hosting stack.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "BentoML",
+      "decision": "accepted",
+      "officialUrl": "https://docs.bentoml.com/en/latest/",
+      "evidenceUrls": [
+        "https://docs.bentoml.com/en/latest/",
+        "https://github.com/bentoml/BentoML/commits/main/",
+        "https://github.com/bentoml/BentoML/releases"
+      ],
+      "userValue": "For ML engineers and platform teams that need reproducible, scalable inference services for LLMs and custom models across local, cloud and on-prem environments.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "Bito",
+      "decision": "accepted",
+      "officialUrl": "https://bito.ai/",
+      "evidenceUrls": [
+        "https://bito.ai/",
+        "https://bito.ai/product/ai-model-discounts/",
+        "https://bito.ai/product/context-engineering/",
+        "https://bito.ai/pricing/"
+      ],
+      "userValue": "For engineering teams using coding agents that want stronger repository context, model choice and cost control, automated code reviews and less manual prompt/context management.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "Boomy",
+      "decision": "accepted",
+      "officialUrl": "https://boomy.com/",
+      "evidenceUrls": [
+        "https://boomy.com/pricing",
+        "https://support.boomy.com/hc/en-us/articles/17795192996877-What-is-Boomy-and-how-does-it-work",
+        "https://support.boomy.com/hc/en-us/articles/17795213541773-How-does-Boomy-use-AI"
+      ],
+      "userValue": "For beginners and independent creators who want to generate song ideas quickly and turn selected tracks into downloadable or distributable music without traditional production skills.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "Botpress",
+      "decision": "accepted",
+      "officialUrl": "https://botpress.com/",
+      "evidenceUrls": [
+        "https://botpress.com/",
+        "https://botpress.com/pricing",
+        "https://botpress.com/docs/"
+      ],
+      "userValue": "For companies that need customer-facing support or sales agents connected to their own data and business systems, with both no-code and developer controls.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "Braintrust",
+      "decision": "accepted",
+      "officialUrl": "https://www.braintrust.dev/",
+      "evidenceUrls": [
+        "https://www.braintrust.dev/",
+        "https://www.braintrust.dev/pricing"
+      ],
+      "userValue": "For AI product and engineering teams that need evidence-based evaluation and production visibility to detect quality regressions and debug agent behavior.",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "name": "Brisk Teaching",
+      "decision": "accepted",
+      "officialUrl": "https://www.briskteaching.com/",
+      "evidenceUrls": [
+        "https://www.briskteaching.com/",
+        "https://www.briskteaching.com/plans"
+      ],
+      "userValue": "For teachers who need practical AI support for preparation, differentiation and feedback without leaving their existing classroom workflow.",
+      "reviewedAt": "2026-10-31"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -2609,20 +2760,51 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-9",
+  "lastQualityReviewBatch": "catalog-review-batch-12",
   "lastQualityReviewBatchSummary": {
     "accepted": 13,
-    "rejected": 15,
-    "superseded": 11,
-    "retired": 4,
-    "mergedIntoExisting": 1,
-    "updatedExisting": 2,
-    "rechecked": 2,
-    "recommenderProfilesAdded": 3,
-    "recommenderProfilesRenamed": 1,
-    "recommenderProfilesRemoved": 1
+    "rejected": 0,
+    "superseded": 1,
+    "retired": 0,
+    "mergedIntoExisting": 0,
+    "updatedExisting": 12,
+    "rechecked": 0,
+    "statusWatch": 2,
+    "recommenderProfilesAdded": 0,
+    "recommenderProfilesRenamed": 0,
+    "recommenderProfilesRemoved": 0
   },
   "statusWatch": [
+    {
+      "name": "AUTOMATIC1111 Stable Diffusion WebUI",
+      "status": "maintenance-unclear",
+      "officialUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "checkedUrls": [
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/commits/master/",
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases"
+      ],
+      "evidenceUrls": [
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/1d7448281751ea3223c681a82de8219a6fbe1d22",
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "The official repository remains public and the interface remains usable, but the latest upstream commit located during this review is dated 2024-05-17; no later release or official maintenance statement was found. This is a maintenance-status concern, not proof of shutdown. The project is excluded from the active directory until upstream maintenance can be confirmed.",
+      "nextAction": "Recheck upstream commits/releases or obtain a maintainer statement; reinstate if active maintenance resumes or clearly label it as legacy if still supported."
+    },
+    {
+      "name": "Beatoven.ai",
+      "status": "unresolved",
+      "officialUrl": "https://www.beatoven.ai/",
+      "checkedUrls": [
+        "https://www.beatoven.ai/",
+        "https://www.beatoven.ai/usecase/films"
+      ],
+      "evidenceUrls": [],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "The current official domain and use-case page contain substantial unrelated Futurense recruitment/upselling content and placeholder copy alongside the Beatoven music-generation description. The current product experience and site integrity could not be verified reliably. This is unresolved and is not a claim that Beatoven has shut down.",
+      "nextAction": "Recheck the official domain and product/app entry point after the unrelated content is removed or obtain a first-party confirmation of the current product destination."
+    },
     {
       "name": "Coral AI",
       "status": "unresolved",
@@ -2682,8 +2864,9 @@
   ],
   "lastStatusWatchReviewAt": "2026-10-31",
   "lastStatusWatchReviewSummary": {
-    "unresolved": 3,
+    "unresolved": 4,
     "sunsetting": 1,
-    "total": 4
+    "maintenanceUnclear": 1,
+    "total": 6
   }
 }

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-12",
+  "reviewedAt": "2026-10-31",
+  "scope": "Alphabetical catalog audit batch covering Artbreeder through Brisk Teaching. Thirteen tools were verified from first-party product pages, pricing, documentation or current repository activity; Augment Code was renamed to its current Harness product identity. Two candidates were moved to status watch rather than accepted because current maintenance or official-site integrity could not be confirmed.",
+  "accepted": [
+    {
+      "name": "Artbreeder",
+      "category": "Image generation",
+      "description": "AI image creation and iterative remixing suite with Splicer2, Mixer2, Prompter, Composer, Collager, Animator, Outpainter and experimental Worlds; supports image mixing, prompt-driven generation and editing.",
+      "userValue": "For artists and creators who want to evolve and combine images through controllable visual workflows rather than rely only on one-shot text prompts.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.artbreeder.com/tools",
+      "evidenceUrls": [
+        "https://www.artbreeder.com/tools",
+        "https://www.artbreeder.com/pricing"
+      ]
+    },
+    {
+      "name": "AskCodi",
+      "category": "AI agents",
+      "description": "AI agency that scopes, builds, tests and maintains websites and software in a GitHub repository owned by the customer; includes approval checkpoints, visible budgets and stop rules, scheduled maintenance plays and an AI Gateway.",
+      "userValue": "For founders and small teams that need software built or maintained without hiring a full team, while retaining their code, approval control and spend limits.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.askcodi.com/",
+      "evidenceUrls": [
+        "https://www.askcodi.com/",
+        "https://www.askcodi.com/pricing"
+      ]
+    },
+    {
+      "name": "Harness Cosmos Software Factory Agent",
+      "category": "Coding",
+      "description": "Agentic software-delivery platform that takes engineering tickets to merge-ready code through event-triggered agent loops, codebase context, sandboxed execution and human approval checkpoints; now part of Harness after its acquisition of Augment Code.",
+      "userValue": "For engineering teams that want repeatable ticket-to-PR automation with human review, sandboxing and integration into a broader software-delivery platform.",
+      "availability": "Free start / Paid plans",
+      "url": "https://www.harness.io/products/cosmos-software-factory-agent",
+      "evidenceUrls": [
+        "https://www.harness.io/products/cosmos-software-factory-agent",
+        "https://www.harness.io/blog/harness-acquires-augment-code-cosmos"
+      ]
+    },
+    {
+      "name": "Auphonic",
+      "category": "Voice & audio",
+      "description": "AI audio post-production platform for loudness normalization, intelligent leveling, noise and reverb reduction, filler and silence cutting, multitrack mixing, speech recognition, show notes, chapters, video/subtitles and publishing workflows/API.",
+      "userValue": "For podcasters, interviewers, educators and audio teams that need consistent, broadcast-ready audio with automated cleanup, transcription and publishing.",
+      "availability": "Free 2h/month / Paid credits",
+      "url": "https://auphonic.com/",
+      "evidenceUrls": [
+        "https://auphonic.com/pricing",
+        "https://auphonic.com/blog/2026/10/23/zoom-integration/"
+      ]
+    },
+    {
+      "name": "AutoGPT",
+      "category": "AI agents",
+      "description": "Open-source and hosted platform for building, deploying and managing continuous AI agents and low-code workflows, with a marketplace, integrations, monitoring and self-hosting options.",
+      "userValue": "For teams that want configurable agents to run recurring research, data-processing, communication and business workflows in the cloud or on their own infrastructure.",
+      "availability": "Open source / Paid cloud",
+      "url": "https://agpt.co/",
+      "evidenceUrls": [
+        "https://agpt.co/docs/platform",
+        "https://github.com/Significant-Gravitas/AutoGPT/blob/master/README.md",
+        "https://github.com/Significant-Gravitas/AutoGPT/commits/master/"
+      ]
+    },
+    {
+      "name": "B12",
+      "category": "Web apps",
+      "description": "AI website builder and business platform that creates responsive service-business websites and combines them with client intake forms, contact management, online booking, payments, stores and web apps.",
+      "userValue": "For professional-service businesses that need a polished website plus client-acquisition and engagement tools without assembling separate vendors.",
+      "availability": "Free plan / Paid plans",
+      "url": "https://www.b12.io/ai-website-builder",
+      "evidenceUrls": [
+        "https://www.b12.io/ai-website-builder",
+        "https://www.b12.io/pricing",
+        "https://support.b12.io/en/b12-website-subscription-plans-and-pricing"
+      ]
+    },
+    {
+      "name": "Base44",
+      "category": "Web apps",
+      "description": "AI app builder that turns natural-language requirements into full-stack web apps, including database, authentication, hosting, integrations and iterative changes; offers a free tier with usage-based paid plans.",
+      "userValue": "For founders and nontechnical builders who want to prototype and ship functional web apps without manually assembling a frontend, backend and hosting stack.",
+      "availability": "Free tier / Paid plans",
+      "url": "https://base44.com/",
+      "evidenceUrls": [
+        "https://base44.com/",
+        "https://base44.com/pricing",
+        "https://base44.com/guides/what-is-base44"
+      ]
+    },
+    {
+      "name": "BentoML",
+      "category": "AI infrastructure",
+      "description": "Open-source Python framework for packaging and serving AI/ML models as production inference APIs, with container builds, adaptive batching, async task queues, model composition, GPU support and deployment to cloud or Kubernetes.",
+      "userValue": "For ML engineers and platform teams that need reproducible, scalable inference services for LLMs and custom models across local, cloud and on-prem environments.",
+      "availability": "Open source / Paid cloud",
+      "url": "https://docs.bentoml.com/en/latest/",
+      "evidenceUrls": [
+        "https://docs.bentoml.com/en/latest/",
+        "https://github.com/bentoml/BentoML/commits/main/",
+        "https://github.com/bentoml/BentoML/releases"
+      ]
+    },
+    {
+      "name": "Bito",
+      "category": "Coding",
+      "description": "AI developer platform with Governor model routing and model-cost discounts, a code-context engine, autonomous coding agents, design and scoping workflows, grounded coding and AI code reviews for large repositories.",
+      "userValue": "For engineering teams using coding agents that want stronger repository context, model choice and cost control, automated code reviews and less manual prompt/context management.",
+      "availability": "Free start / Paid plans",
+      "url": "https://bito.ai/",
+      "evidenceUrls": [
+        "https://bito.ai/",
+        "https://bito.ai/product/ai-model-discounts/",
+        "https://bito.ai/product/context-engineering/",
+        "https://bito.ai/pricing/"
+      ]
+    },
+    {
+      "name": "Boomy",
+      "category": "Music",
+      "description": "AI music creation platform that generates original songs from simple prompts and lets users customize, save and distribute tracks, with commercial download and distribution options on paid plans.",
+      "userValue": "For beginners and independent creators who want to generate song ideas quickly and turn selected tracks into downloadable or distributable music without traditional production skills.",
+      "availability": "Free tier / Paid plans",
+      "url": "https://boomy.com/",
+      "evidenceUrls": [
+        "https://boomy.com/pricing",
+        "https://support.boomy.com/hc/en-us/articles/17795192996877-What-is-Boomy-and-how-does-it-work",
+        "https://support.boomy.com/hc/en-us/articles/17795213541773-How-does-Boomy-use-AI"
+      ]
+    },
+    {
+      "name": "Botpress",
+      "category": "AI agents",
+      "description": "Visual and code-first platform for building, deploying and monitoring conversational AI agents, with knowledge sources, integrations, workflows, webchat and customer-support handoff capabilities.",
+      "userValue": "For companies that need customer-facing support or sales agents connected to their own data and business systems, with both no-code and developer controls.",
+      "availability": "Free tier / Paid plans",
+      "url": "https://botpress.com/",
+      "evidenceUrls": [
+        "https://botpress.com/",
+        "https://botpress.com/pricing",
+        "https://botpress.com/docs/"
+      ]
+    },
+    {
+      "name": "Braintrust",
+      "category": "AI evaluation",
+      "description": "AI engineering platform for tracing, evaluating and improving LLM and agent applications, with production observability, evaluation datasets, scoring, experiments and regression tracking.",
+      "userValue": "For AI product and engineering teams that need evidence-based evaluation and production visibility to detect quality regressions and debug agent behavior.",
+      "availability": "Free tier / Paid plans",
+      "url": "https://www.braintrust.dev/",
+      "evidenceUrls": [
+        "https://www.braintrust.dev/",
+        "https://www.braintrust.dev/pricing"
+      ]
+    },
+    {
+      "name": "Brisk Teaching",
+      "category": "Education",
+      "description": "AI teaching assistant and browser extension that helps educators create lesson materials, adapt reading levels, provide feedback and generate classroom resources inside tools they already use, with school and district controls.",
+      "userValue": "For teachers who need practical AI support for preparation, differentiation and feedback without leaving their existing classroom workflow.",
+      "availability": "Free for teachers / Paid for schools",
+      "url": "https://www.briskteaching.com/",
+      "evidenceUrls": [
+        "https://www.briskteaching.com/",
+        "https://www.briskteaching.com/plans"
+      ]
+    }
+  ],
+  "superseded": [
+    {
+      "oldName": "Augment Code",
+      "newName": "Harness Cosmos Software Factory Agent",
+      "reason": "Harness acquired Augment Code and now markets Cosmos Software Factory Agent as the current ticket-to-code product. The official Harness product page and acquisition announcement establish the current identity; the old brand is not retained as a separate catalog entry.",
+      "evidenceUrls": [
+        "https://www.harness.io/products/cosmos-software-factory-agent",
+        "https://www.harness.io/blog/harness-acquires-augment-code-cosmos"
+      ]
+    }
+  ],
+  "rejected": [],
+  "statusWatch": [
+    {
+      "name": "AUTOMATIC1111 Stable Diffusion WebUI",
+      "status": "maintenance-unclear",
+      "officialUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "checkedUrls": [
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/commits/master/",
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases"
+      ],
+      "evidenceUrls": [
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/1d7448281751ea3223c681a82de8219a6fbe1d22",
+        "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "The official repository remains public and the interface remains usable, but the latest upstream commit located during this review is dated 2024-05-17; no later release or official maintenance statement was found. This is a maintenance-status concern, not proof of shutdown. The project is excluded from the active directory until upstream maintenance can be confirmed.",
+      "nextAction": "Recheck upstream commits/releases or obtain a maintainer statement; reinstate if active maintenance resumes or clearly label it as legacy if still supported."
+    },
+    {
+      "name": "Beatoven.ai",
+      "status": "unresolved",
+      "officialUrl": "https://www.beatoven.ai/",
+      "checkedUrls": [
+        "https://www.beatoven.ai/",
+        "https://www.beatoven.ai/usecase/films"
+      ],
+      "evidenceUrls": [],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "The current official domain and use-case page contain substantial unrelated Futurense recruitment/upselling content and placeholder copy alongside the Beatoven music-generation description. The current product experience and site integrity could not be verified reliably. This is unresolved and is not a claim that Beatoven has shut down.",
+      "nextAction": "Recheck the official domain and product/app entry point after the unrelated content is removed or obtain a first-party confirmation of the current product destination."
+    }
+  ],
+  "notes": [
+    "AskCodi's current product is an AI agency that scopes, builds, tests and maintains software in a customer-owned GitHub repository; it is no longer accurately described as only a code-generation assistant.",
+    "Bito's current developer platform includes Governor model routing, a code-context engine, autonomous agents, grounded coding and AI code reviews.",
+    "Auphonic remains actively maintained; its October 23, 2026 Zoom cloud-recording integration is a current first-party product update.",
+    "AutoGPT and BentoML have current official documentation and recent upstream repository activity.",
+    "AUTOMATIC1111 Stable Diffusion WebUI remains public and usable, but its latest upstream commit found was 2024-05-17; it is marked maintenance-unclear, not discontinued.",
+    "Beatoven.ai's official pages currently include substantial unrelated Futurense content and placeholder text alongside Beatoven copy; it is excluded pending site-integrity/product-destination confirmation, not declared shut down."
+  ]
+}

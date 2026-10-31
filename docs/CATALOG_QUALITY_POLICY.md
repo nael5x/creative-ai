@@ -52,6 +52,10 @@ When a product cannot currently be verified and no official shutdown statement e
 
 When an official sunset is announced but has not yet taken effect, use `status: "sunsetting"` and record the exact `sunsetDate`, official evidence and current access restrictions. Do not describe the product as already shut down while existing users can still use it.
 
+When an upstream repository remains public but no recent commit/release or maintainer statement can be verified, use `status: "maintenance-unclear"`. Record the official repository, commit/release history checked, last known upstream activity date, and a next action. This status is not a claim that the project has been discontinued; it distinguishes a usable but apparently unmaintained project from an actively maintained tool.
+
+If an official product page contains unrelated or suspicious content that prevents verification of the real product experience, use `status: "unresolved"` and keep the candidate out of the active directory until site integrity or a current official app destination is confirmed. Do not treat unrelated page content as proof that the underlying product has shut down.
+
 Status-watch candidates are excluded from the active catalog and are not accepted or rejected quality reviews. They must remain visible on `quality.html` so readers can distinguish unresolved availability from confirmed retirement.
 
 ## Existing catalog audit
