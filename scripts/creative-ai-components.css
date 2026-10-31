@@ -1,0 +1,50 @@
+/* React Bits integration layer — keeps the original component behavior, tuned for Creative AI. */
+#creativeAiNavMount{display:flex;align-items:center;flex:1;justify-content:center;min-width:0}
+.ca-nav-mark{display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:linear-gradient(145deg,#a98aff,#7046df);border:1px solid rgba(220,204,255,.35);color:#fff;font:800 12px ui-monospace,monospace;box-shadow:0 8px 22px rgba(115,73,222,.25)}
+body.ca-components-ready .top>.nav{display:none!important}
+.ca-hero-effects{position:absolute;inset:-4% -5% -2%;z-index:0;pointer-events:none;overflow:hidden;opacity:.95}
+.ca-side-rays,.ca-antigravity{position:absolute;inset:0;pointer-events:none}
+.ca-side-rays{opacity:.86}
+.ca-antigravity{inset:8% 0 0 30%;opacity:.72;mask-image:radial-gradient(ellipse at 50% 46%,#000 0%,rgba(0,0,0,.78) 44%,transparent 76%)}
+.ca-hero-effects canvas{display:block;width:100%;height:100%}
+.home-page .hero-copy,.home-page .editor{z-index:2}
+.ca-gradient-kicker{position:relative;z-index:2;display:inline-flex;margin:0 0 16px;padding:7px 12px;border:1px solid rgba(173,143,246,.2);border-radius:999px;background:rgba(13,12,34,.64);font:700 10px/1.3 var(--mono);letter-spacing:.16em}
+.ca-gradient-kicker .gradient-text{font-weight:800}
+.ca-metrics-mount{position:relative;z-index:2;margin-top:26px}
+.ca-metrics{display:flex;flex-wrap:wrap;gap:12px}
+.ca-metrics>div{display:grid;gap:3px;min-width:112px;padding:11px 14px;border:1px solid rgba(173,143,246,.19);border-radius:13px;background:rgba(17,15,42,.68);backdrop-filter:blur(10px)}
+.ca-metrics strong{font:800 21px/1.1 var(--font-sans);letter-spacing:-.045em;color:#eee7ff}
+.ca-metrics span{font-size:10px;color:#a9a0c8}
+.ca-bento-section,.ca-logo-section,.ca-chroma-section,.ca-featured-section{position:relative;padding:48px 0;border-top:1px solid var(--line-soft)}
+.ca-section-heading{max-width:700px;margin:0 0 22px}
+.ca-section-heading>span,.ca-featured-label,.ca-animated-intro>span{display:block;margin-bottom:9px;color:#b99aff;font:700 10px/1.4 var(--mono);letter-spacing:.14em}
+.ca-section-heading h2,.ca-animated-intro h2{margin:0;color:#f4efff;font-size:clamp(25px,3vw,34px);letter-spacing:-.045em}
+.ca-section-heading p,.ca-animated-intro p{margin:9px 0 0;color:#aaa2c4;font-size:13px;line-height:1.7}
+.ca-section-heading.compact{margin-bottom:16px}
+.ca-logo-section .logoloop{--logoloop-fadeColor:var(--bg)}
+.ca-logo-section .logoloop img{object-fit:contain}
+.ca-chroma-section .chroma-grid{width:100%}
+.ca-featured-card{padding:clamp(24px,4vw,42px)!important;background:linear-gradient(145deg,rgba(29,22,62,.95),rgba(12,12,31,.96))!important;border:1px solid rgba(173,143,246,.24)!important;border-radius:22px!important;box-shadow:0 22px 55px rgba(0,0,0,.22)!important}
+.ca-featured-card h2{margin:0;color:#f4efff;font-size:clamp(25px,3.2vw,38px);letter-spacing:-.045em}
+.ca-featured-card p{max-width:650px;color:#b5adce;line-height:1.7}
+.ca-featured-card a{display:inline-flex;gap:10px;align-items:center;margin-top:9px;padding:11px 16px;border:1px solid rgba(189,154,255,.36);border-radius:999px;background:rgba(125,83,220,.2);color:#eee6ff;text-decoration:none;font-weight:700;font-size:12px}
+.ca-featured-card a:hover{background:rgba(125,83,220,.32)}
+.ca-animated-intro{padding:42px 0 4px}
+.ca-animated-intro h2{font-size:clamp(24px,3vw,32px)}
+.ca-animated-intro p{max-width:640px}
+@media(max-width:980px){
+ #creativeAiNavMount{order:3;flex-basis:100%;justify-content:flex-start}
+ .ca-antigravity{inset:10% 0 0 12%;opacity:.58}
+}
+@media(max-width:680px){
+ .ca-gradient-kicker{font-size:9px;margin-bottom:13px}
+ .ca-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+ .ca-metrics>div{min-width:0;padding:9px 8px}
+ .ca-metrics strong{font-size:17px}
+ .ca-metrics span{font-size:9px}
+ .ca-bento-section,.ca-logo-section,.ca-chroma-section,.ca-featured-section{padding:34px 0}
+ .ca-chroma-section .chroma-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(prefers-reduced-motion:reduce){
+ .ca-hero-effects{display:none}
+}
