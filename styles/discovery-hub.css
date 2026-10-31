@@ -30,3 +30,25 @@
 .tool-card .cap-badges,.category-tool-card .cap-badges{min-height:22px}
 .tool-card .card-foot{padding-top:14px}
 .tool-card .detail-link:focus-visible,.category-tool-link:focus-visible,.new-card a:focus-visible,.card-link:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+
+
+/* Secondary pages: updates, quality and submission workflows. */
+.update-card{background:linear-gradient(155deg,rgba(17,26,32,.96),rgba(11,17,21,.96));border-color:rgba(147,171,178,.17);border-radius:16px;padding:19px;transition:border-color .16s ease,background .16s ease,transform .16s ease}
+.update-card:hover{border-color:rgba(103,232,189,.32);transform:translateY(-1px)}
+.update-card h2{line-height:1.35;overflow-wrap:anywhere}
+.update-card p{line-height:1.65}
+.update-card a{color:var(--accent);font-weight:700}
+.update-meta span{border:1px solid rgba(103,232,189,.18);background:rgba(103,232,189,.055);border-radius:999px;padding:4px 8px}
+.discovery-toolbar input,.discovery-toolbar select,.submit-grid input,.submit-grid textarea,.submit-grid select{min-height:46px}
+.discovery-toolbar input:focus-visible,.discovery-toolbar select:focus-visible,.submit-grid input:focus-visible,.submit-grid textarea:focus-visible,.submit-grid select:focus-visible{outline:2px solid rgba(103,232,189,.78);outline-offset:3px;border-color:rgba(103,232,189,.42)}
+.submit-panel{background:linear-gradient(155deg,rgba(17,26,32,.96),rgba(11,17,21,.96));border-color:rgba(147,171,178,.17);border-radius:18px}
+.submit-panel h2{letter-spacing:-.025em}
+.submit-grid label{line-height:1.5}
+.submit-grid textarea{line-height:1.6}
+.submit-actions .primary{background:var(--accent);border-color:var(--accent);color:#07100d}
+.submit-actions .primary:hover{background:#7cefc7;border-color:#7cefc7}
+.submit-note{background:rgba(13,24,24,.78);line-height:1.65}
+.metric-card{border-color:rgba(147,171,178,.16);border-radius:16px}
+.metric-card strong{font-variant-numeric:tabular-nums}
+@media(max-width:680px){.update-card,.submit-panel{padding:16px}.update-card h2{font-size:16px}}
+@media(prefers-reduced-motion:reduce){.update-card{transition:none}.update-card:hover{transform:none}}
