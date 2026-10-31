@@ -1890,7 +1890,7 @@
   [
     "Infermedica",
     "Healthcare",
-    "Clinical AI triage and medical-guidance platform that collects patient symptoms and history, assesses urgency and likely care pathways, and supports digital front-door triage, nurse/call-center workflows and pre-visit intake through embeddable modules and APIs. The former Symptom Checker is now positioned as Infermedica Triage.",
+    "Clinical AI triage and medical-guidance platform that collects patient symptoms and history, assesses urgency and likely care pathways, and supports digital front-door triage, nurse/call-center workflows and pre-visit intake through embeddable modules and APIs. The former Symptom Checker is now positioned as Infermedica Triage; its outputs guide care navigation rather than replacing clinician assessment.",
     "For health systems, insurers and digital-care providers integrating structured symptom assessment and patient navigation into their own apps, portals or contact centers; outputs support triage workflows rather than replacing clinician assessment.",
     "Enterprise / Request demo",
     "https://infermedica.com/"
