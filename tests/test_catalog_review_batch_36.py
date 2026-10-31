@@ -30,6 +30,7 @@ class CatalogReviewBatch36Tests(unittest.TestCase):
         self.assertNotIn("Mokker AI", self.rows)
         self.assertNotIn("Mokker AI", self.lifecycle)
         self.assertEqual(watch["Mokker AI"]["status"], "sunsetting")
+        self.assertEqual(watch["Mokker AI"]["sunsetDate"], "2026-10-31")
         self.assertIn("Mokker access ends Saturday, October 31", watch["Mokker AI"]["reason"])
         self.assertIn("2026-10-31", watch["Mokker AI"]["reason"])
         self.assertIn("Soona", watch["Mokker AI"]["reason"])
