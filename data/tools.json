@@ -2640,14 +2640,6 @@
     "https://www.mindgrasp.ai/"
   ],
   [
-    "MindMac",
-    "AI chat",
-    "Native macOS client for using multiple AI model providers from one application.",
-    "For Mac users who prefer a local desktop interface for model access and prompt workflows.",
-    "Paid",
-    "https://mindmac.app/"
-  ],
-  [
     "MindsHub",
     "Data & analytics",
     "Home for open-source AI agents with hosted model APIs and a self-hostable cowork environment.",
