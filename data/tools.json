@@ -2658,8 +2658,8 @@
   [
     "Modal",
     "AI infrastructure",
-    "Python-first cloud runtime for inference, training, batch jobs and GPU workloads.",
-    "For developers who want to ship AI compute without manually managing cloud infrastructure.",
+    "Python-first serverless cloud infrastructure for production AI. Deploy low-latency inference endpoints, run parallel batch jobs and data pipelines, train or fine-tune models on single- or multi-node GPUs, and launch isolated Sandboxes for agents and untrusted code, with autoscaling, storage and observability.",
+    "For Python developers and ML teams that need GPU/CPU compute for inference, training, fine-tuning, parallel jobs and isolated agent sandboxes without managing servers. Starter is $0/month plus usage with $30/month compute credits, up to 3 seats and 10 concurrent GPUs; Team is $250/month plus compute with $100/month credits. CPU, GPU and memory are billed by the second. Important: Shared Endpoints are token-billed from the first request and are not covered by the included compute credits. Costs vary by hardware, region and requested resources; set workspace budgets.",
     "Free tier / Paid",
     "https://modal.com/"
   ],
