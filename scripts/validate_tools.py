@@ -220,6 +220,12 @@ def main() -> None:
                     errors.append(
                         f"{prefix} {name}: officialUrl must exactly match catalog URL {catalog_by_name[name][5]!r}"
                     )
+            elif decision == "rejected":
+                if name in catalog_by_name:
+                    errors.append(f"{prefix}: rejected tool must not remain in the active catalog: {name}")
+                reason = review.get("reason")
+                if not isinstance(reason, str) or not reason.strip():
+                    errors.append(f"{prefix} {name}: rejected review must include a concrete reason")
 
     if enforcement_started is not None:
         for name, record in lifecycle_records.items():
