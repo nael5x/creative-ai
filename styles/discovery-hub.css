@@ -12,3 +12,21 @@
 .category-tool-card,.subset-card,.metric-card{background:linear-gradient(155deg,rgba(17,26,32,.94),rgba(11,17,21,.94))}
 .category-tool-card:hover{border-color:rgba(103,232,189,.34);box-shadow:0 14px 32px rgba(0,0,0,.16)}
 @media(prefers-reduced-motion:reduce){.category-card,.category-tool-card{transition:none}.category-card:hover,.category-tool-card:hover{transform:none}}
+
+
+/* Tool-card system: consistent identity, evidence and scan hierarchy. */
+.tool-card,.category-tool-card,.new-card,.card{
+  border-color:rgba(147,171,178,.17);
+  background:linear-gradient(155deg,rgba(17,26,32,.96),rgba(11,17,21,.96));
+  box-shadow:0 10px 26px rgba(0,0,0,.12);
+}
+.tool-card:hover,.category-tool-card:hover,.new-card:hover,.card:hover{
+  border-color:rgba(103,232,189,.34);
+  box-shadow:0 16px 34px rgba(0,0,0,.2);
+}
+.tool-card-head,.category-tool-head,.new-card-head,.home-tool-head{min-width:0}
+.tool-title-block,.new-card-copy,.home-tool-content{min-width:0}
+.tool-card .mini-tags,.category-tool-card .mini-tags,.new-card .mini-tags{row-gap:6px}
+.tool-card .cap-badges,.category-tool-card .cap-badges{min-height:22px}
+.tool-card .card-foot{padding-top:14px}
+.tool-card .detail-link:focus-visible,.category-tool-link:focus-visible,.new-card a:focus-visible,.card-link:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
