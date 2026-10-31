@@ -2666,8 +2666,8 @@
   [
     "Moises",
     "Music",
-    "AI music practice and production platform for stem separation, chords and tempo tools.",
-    "For musicians isolating parts, practicing songs and preparing rehearsal tracks.",
+    "AI music practice and production suite that separates vocals and instruments into stems, detects chords, key and BPM, transcribes lyrics, changes pitch and tempo, and provides a smart metronome, looping, setlists, recording, stem generation and collaborative browser-based multitrack/MIDI sessions.",
+    "For musicians, singers, producers and educators who want to practice, analyze or build on their own recordings rather than generate a finished song from text. The free tier has limited monthly uploads and basic vocal/drum/bass separation; Premium expands stem options and practice tools, while Pro adds Hi-Fi separation, detailed drum/multimedia stems, long uploads, Voice Studio and VST access. The Turkish App Store lists Premium at ₺99.99/month or ₺699.99/year and Pro at ₺499.99/month or ₺4,999.99/year; store and offer prices can vary. AI Studio generation uses credits in 30-second blocks. Only upload or modify music you have rights to use; a streaming subscription does not grant stem-extraction rights.",
     "Free tier / Paid",
     "https://moises.ai/"
   ],
