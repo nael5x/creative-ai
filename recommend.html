@@ -35,6 +35,7 @@
     .rtl .note{border-right-color:#67e8bd}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,button,.card{transition:none}}
   </style>
+  <link rel="stylesheet" href="styles/creative-ai-theme.css">
 </head>
 <body class="product-redesign">
   <main class="wrap">
@@ -131,5 +132,6 @@ async function share(){writeState();const t=copy[lang];if(navigator.share){try{a
 async function start(){const state=readState();lang=state.lang;try{const [toolsResponse,configResponse,fitResponse]=await Promise.all([fetch("data/tools.json",{cache:"default"}),fetch("data/recommender.json",{cache:"default"}),fetch("data/recommender-fit.json",{cache:"default"})]);if(!toolsResponse.ok||!configResponse.ok||!fitResponse.ok)throw new Error("load failed");catalog=(await toolsResponse.json()).filter(validTool);config=await configResponse.json();fitMeta=await fitResponse.json();const task=safeChoice(config.tasks,state.task,"writing"),budget=safeChoice(config.budgets,state.budget,"any"),priority=safeChoice(config.priorities,state.priority,"easy");fillSelect(els.task,config.tasks,task);fillSelect(els.budget,config.budgets,budget);fillSelect(els.priority,config.priorities,priority);applyLanguage();writeState();[els.task,els.budget,els.priority].forEach(el=>el.addEventListener("change",()=>{writeState();render();}));document.getElementById("lang").addEventListener("click",()=>{lang=lang==="en"?"ar":"en";applyLanguage();writeState();});document.getElementById("share").addEventListener("click",share);}catch(error){console.error(error);els.results.innerHTML=`<div class="empty">${esc(copy[lang].none)}</div>`;}}
 start();
 </script>
+<script src="scripts/creative-ai-effects.js" defer></script>
 </body>
 </html>
