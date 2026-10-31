@@ -2626,9 +2626,9 @@
   [
     "Mindgard",
     "Cybersecurity",
-    "AI red-teaming and security testing platform for models and AI applications.",
-    "For security teams evaluating adversarial weaknesses before production deployment.",
-    "Paid",
+    "Enterprise AI security platform that discovers AI assets and attack surfaces, performs agentic reconnaissance and adaptive red teaming across models, LLM apps, RAG pipelines, agents, MCP/A2A tools and APIs, then validates exploitable weaknesses and supports remediation, runtime protection and continuous assurance.",
+    "For security, product and AI engineering teams that need to test AI-specific risks such as prompt injection, jailbreaks, data leakage, unsafe tool use and agent permission abuse across development and production. Integrates through APIs, CI/CD and Burp Suite, and provides evidence, remediation guidance and retesting. Commercial enterprise product with demo-led sales; no public platform price found. It complements rather than replaces traditional AppSec and runtime guardrails.",
+    "Paid / Contact sales",
     "https://mindgard.ai/"
   ],
   [

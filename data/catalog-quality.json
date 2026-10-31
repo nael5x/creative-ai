@@ -4911,6 +4911,20 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For SOC analysts and security/IT teams that need to investigate threats and coordinate response across Microsoft and supported partner tools. Standalone access requires Azure and Microsoft Entra ID and uses capacity-based SCU billing: Microsoft lists $4 per provisioned SCU-hour and $6 per overage SCU. Eligible Microsoft 365 E5/E7 tenants receive an included monthly SCU allocation. The interface supports Turkish, but Turkish is not among the currently listed model languages; scope agent permissions carefully and keep analysts in control of consequential actions.",
       "decision": "accepted"
+    },
+    {
+      "name": "Mindgard",
+      "officialUrl": "https://mindgard.ai/",
+      "evidenceUrls": [
+        "https://mindgard.ai/",
+        "https://mindgard.ai/ai-security-platform",
+        "https://mindgard.ai/about",
+        "https://mindgard.ai/services/ai-red-teaming",
+        "https://mindgard.ai/services/mindgard-services"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For security, product and AI engineering teams that need to test AI-specific risks such as prompt injection, jailbreaks, data leakage, unsafe tool use and agent permission abuse across development and production. Integrates through APIs, CI/CD and Burp Suite, and provides evidence, remediation guidance and retesting. Commercial enterprise product with demo-led sales; no public platform price found. It complements rather than replaces traditional AppSec and runtime guardrails.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4926,7 +4940,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-29",
+  "lastQualityReviewBatch": "catalog-review-batch-30",
   "lastQualityReviewBatchSummary": {
     "accepted": 1,
     "rejected": 0,
