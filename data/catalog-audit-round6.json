@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-31",
+  "batch": "catalog-review-batch-5",
+  "scope": "First-party review of 15 active tools across cybersecurity, customer support, audio, agent observability, web extraction, agent development, SEO, coding, healthcare, music, video and AI infrastructure.",
+  "accepted": [
+    {
+      "name": "Abnormal AI",
+      "officialUrl": "https://abnormal.ai/platform/email-security",
+      "evidenceUrls": [
+        "https://abnormal.ai/platform/email-security",
+        "https://abnormal.ai/"
+      ],
+      "userValue": "Abnormal builds behavioral baselines for people and vendors, then detects anomalous email and collaboration activity such as business email compromise, account takeover and vendor fraud.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Ada",
+      "officialUrl": "https://www.ada.cx/",
+      "evidenceUrls": [
+        "https://www.ada.cx/",
+        "https://docs.ada.cx/"
+      ],
+      "userValue": "Ada's customer-service agents can use API, code and MCP tools under business controls to complete customer tasks across voice, messaging and email workflows.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Adobe Podcast",
+      "officialUrl": "https://podcast.adobe.com/",
+      "evidenceUrls": [
+        "https://podcast.adobe.com/",
+        "https://podcast.adobe.com/en/guides/what-is-enhance-speech",
+        "https://podcast.adobe.com/en/guides"
+      ],
+      "userValue": "Adobe Podcast provides browser-based speech enhancement and recording tools that can clean noisy recordings, improve intelligibility and support podcast post-production.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "AgentOps",
+      "officialUrl": "https://www.agentops.ai/",
+      "evidenceUrls": [
+        "https://www.agentops.ai/",
+        "https://docs.agentops.ai/v2/introduction"
+      ],
+      "userValue": "AgentOps records traces and spans for LLM and agent runs, integrates with major frameworks and provides dashboards and self-hosting guides for debugging agent behavior.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "AgentQL",
+      "officialUrl": "https://www.agentql.com/",
+      "evidenceUrls": [
+        "https://www.agentql.com/",
+        "https://docs.agentql.com/concepts/query-language",
+        "https://docs.agentql.com/home"
+      ],
+      "userValue": "AgentQL lets developers describe web elements and structured page data semantically, then use its SDKs and REST API for scraping, browser automation and tests.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Agno",
+      "officialUrl": "https://www.agno.com/",
+      "evidenceUrls": [
+        "https://www.agno.com/",
+        "https://docs.agno.com/",
+        "https://docs.agno.com/features/runtime",
+        "https://github.com/agno-agi/agno"
+      ],
+      "userValue": "Agno combines an SDK for agents, teams and workflows with AgentOS runtime and a control plane, including API endpoints, MCP, session persistence, tracing and authorization.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Ahrefs AI Content Helper",
+      "officialUrl": "https://ahrefs.com/ai-content-helper",
+      "evidenceUrls": [
+        "https://ahrefs.com/ai-content-helper",
+        "https://help.ahrefs.com/en/articles/9879434-about-the-new-ai-content-helper",
+        "https://help.ahrefs.com/en/articles/9459159-where-to-find-all-of-ahrefs-ai-powered-tools-and-features"
+      ],
+      "userValue": "Ahrefs AI Content Helper scores topical coverage against competing pages, identifies missing subjects and offers AI feedback; Ahrefs documents one free document per month and paid expansion options.",
+      "availabilityUpdate": "Free tier / Paid"
+    },
+    {
+      "name": "Aider",
+      "officialUrl": "https://aider.chat/",
+      "evidenceUrls": [
+        "https://aider.chat/",
+        "https://aider.chat/docs/",
+        "https://github.com/Aider-AI/aider"
+      ],
+      "userValue": "Aider connects LLMs to a local codebase, maps repository structure, edits files and integrates with Git so developers can inspect, diff and undo changes.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Aidoc",
+      "officialUrl": "https://www.aidoc.com/platform/aios/",
+      "evidenceUrls": [
+        "https://www.aidoc.com/platform/aios/",
+        "https://www.aidoc.com/"
+      ],
+      "userValue": "Aidoc aiOS coordinates multiple clinical AI algorithms, uses scan and patient context to prioritize relevant findings and presents AI insights within clinical workflows.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "AIVA",
+      "officialUrl": "https://www.aiva.ai/",
+      "evidenceUrls": [
+        "https://www.aiva.ai/"
+      ],
+      "userValue": "AIVA generates music in many styles, supports custom style models and audio/MIDI influences, and allows users to edit and download compositions; commercial rights depend on the selected plan.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "AI Studios",
+      "officialUrl": "https://www.aistudios.com/",
+      "evidenceUrls": [
+        "https://www.aistudios.com/"
+      ],
+      "userValue": "AI Studios combines script-to-video, product-to-video, dubbing and custom avatars to produce branded videos with voiceovers and translations.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Alli AI",
+      "officialUrl": "https://www.alliai.com/",
+      "evidenceUrls": [
+        "https://www.alliai.com/"
+      ],
+      "userValue": "Alli AI provides bulk on-page SEO automation, schema generation, internal-link automation, a visual SEO editor and site-speed optimization across supported CMS platforms.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Ambience Healthcare",
+      "officialUrl": "https://www.ambiencehealthcare.com/products",
+      "evidenceUrls": [
+        "https://www.ambiencehealthcare.com/products"
+      ],
+      "userValue": "Ambience supports the full clinical workflow with patient-context summaries, ambient scribing, chart questions, patient instructions and coding/compliance assistance integrated into care workflows.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Anyword",
+      "officialUrl": "https://www.anyword.com/",
+      "evidenceUrls": [
+        "https://www.anyword.com/"
+      ],
+      "userValue": "Anyword combines AI content generation with performance-prediction scores, content intelligence, brand controls and website messaging personalization for marketing teams.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Anyscale",
+      "officialUrl": "https://www.anyscale.com/platform",
+      "evidenceUrls": [
+        "https://www.anyscale.com/platform",
+        "https://docs.anyscale.com/get-started/what-is-anyscale",
+        "https://www.anyscale.com/press/nscale-acquires-anyscale-enhancing-its-full-stack-ai-cloud-platform"
+      ],
+      "userValue": "Anyscale provides a managed production platform for Ray workloads; its July 2026 announcement says it continues under the Anyscale brand and serves existing customers following the Nscale agreement.",
+      "availabilityUpdate": null
+    }
+  ],
+  "canonicalUrlUpdates": [
+    {
+      "name": "Abnormal AI",
+      "previousUrl": "https://abnormal.ai/",
+      "officialUrl": "https://abnormal.ai/platform/email-security",
+      "reason": "Changed from generic company homepage to the current official email-security product page."
+    },
+    {
+      "name": "Aidoc",
+      "previousUrl": "https://www.aidoc.com/",
+      "officialUrl": "https://www.aidoc.com/platform/aios/",
+      "reason": "Changed to the official aiOS clinical AI platform page."
+    },
+    {
+      "name": "Ambience Healthcare",
+      "previousUrl": "https://www.ambiencehealthcare.com/",
+      "officialUrl": "https://www.ambiencehealthcare.com/products",
+      "reason": "Changed to the current official product overview."
+    },
+    {
+      "name": "Anyword",
+      "previousUrl": "https://anyword.com/",
+      "officialUrl": "https://www.anyword.com/",
+      "reason": "Normalized to the canonical www destination."
+    },
+    {
+      "name": "Anyscale",
+      "previousUrl": "https://www.anyscale.com/",
+      "officialUrl": "https://www.anyscale.com/platform",
+      "reason": "Changed to the current official platform page."
+    }
+  ],
+  "notes": [
+    "All accepted entries were checked against first-party product pages, help centers or developer documentation.",
+    "Ahrefs AI Content Helper availability was updated to Free tier / Paid because Ahrefs documents one free document per month.",
+    "Anyscale's acquisition announcement was treated carefully: the official announcement states that Anyscale continues under its brand and serves existing customers.",
+    "No third-party directory rankings, popularity claims, traffic estimates or testimonials were used as acceptance evidence."
+  ]
+}
