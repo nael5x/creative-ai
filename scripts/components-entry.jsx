@@ -114,7 +114,7 @@ function mount(id, element) {
   createRoot(host).render(element);
 }
 
-function boot() {
+function boot() {\n  document.body.classList.add('ca-components-ready');
   mount('creativeAiNavMount', <Navigation />);
   mount('creativeAiHeroEffectsMount', <HeroEffects />);\n  mount('creativeAiHeroAccentMount', <HeroAccent />);\n  mount('creativeAiMetricsMount', <HeroMetrics />);\n  mount('creativeAiComponentsMount', <HomeIslands />);
   mount('creativeAiAnimatedMount', <AnimatedIntro />);
