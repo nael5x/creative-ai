@@ -47,7 +47,7 @@ class CatalogReviewBatch15Tests(unittest.TestCase):
         review = self.reviews["Creatomate"]
         self.assertEqual(review["decision"], "rejected")
         self.assertIn("external AI assistant", review["reason"])
-        self.assertIn("native AI capability", review["reason"])
+        self.assertIn("first-party AI function", review["reason"])
 
     def test_current_batch_metadata(self):
         self.assertEqual(self.audit["rejected"][0]["name"], "Creatomate")
