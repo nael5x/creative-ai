@@ -346,8 +346,8 @@
   [
     "AssemblyAI",
     "Voice & audio",
-    "Speech AI platform and APIs for transcription, understanding and voice applications.",
-    "For developers building products that need speech-to-text and audio intelligence.",
+    "Speech AI platform with APIs for speech-to-text, speech understanding, audio intelligence, LLM-assisted audio workflows and real-time voice agents.",
+    "For developers building transcription, call analytics, dictation and voice-agent products on a speech-focused API stack.",
     "Free tier / Paid",
     "https://www.assemblyai.com/"
   ],
@@ -402,9 +402,9 @@
   [
     "Avoma",
     "Meetings",
-    "AI meeting assistant and conversation intelligence platform for notes, coaching and revenue workflows.",
-    "For customer-facing teams that want meeting summaries tied to sales and success processes.",
-    "Paid",
+    "AI platform for meeting notes, scheduling, lead routing, conversation intelligence, coaching and revenue forecasting.",
+    "For sales and customer-facing teams that want meeting capture connected to follow-ups, CRM updates and coaching workflows.",
+    "Free trial / Paid",
     "https://www.avoma.com/"
   ],
   [
@@ -434,8 +434,8 @@
   [
     "Baseten",
     "AI infrastructure",
-    "Model serving and deployment platform for production AI applications.",
-    "For teams packaging, scaling and observing custom inference services.",
+    "Production AI inference platform for deploying and scaling open-source, custom and fine-tuned models, with optimized runtimes, observability and training workflows.",
+    "For AI teams serving models at production scale that need low-latency inference, autoscaling and deployment control across cloud environments.",
     "Paid",
     "https://www.baseten.co/"
   ],
@@ -489,9 +489,9 @@
   ],
   [
     "Blackbox AI",
-    "Coding",
-    "AI coding assistant and development platform for code generation, search and agent workflows.",
-    "For developers who want chat, code completion and autonomous coding features across projects.",
+    "AI infrastructure",
+    "AI infrastructure and coding-agent platform combining a model router, secure inference, repository coding-agent APIs and an agentic command line.",
+    "For teams that want to route models and run repository-aware coding agents through one developer platform with enterprise data controls.",
     "Free tier / Paid",
     "https://www.blackbox.ai/"
   ],
@@ -506,8 +506,8 @@
   [
     "Bolt.new",
     "Web apps",
-    "Browser-based AI app builder for generating, editing and running full-stack web projects.",
-    "For turning a prompt into a working web application without setting up a local environment first.",
+    "Browser-based AI app and website builder that creates, runs, tests and iterates on full-stack projects from natural-language prompts.",
+    "For founders, designers and developers prototyping or building web applications without first configuring a local development environment.",
     "Free tier / Paid",
     "https://bolt.new/"
   ],
@@ -826,8 +826,8 @@
   [
     "CodeRabbit",
     "Coding",
-    "AI code review platform for pull requests and repository-aware feedback.",
-    "For teams that want automated review comments and code-quality checks in the pull-request workflow.",
+    "AI code-review and agentic change-management platform for pull requests, IDEs and CLI workflows, with prioritization, security checks and codebase-aware feedback.",
+    "For engineering teams that need consistent reviews, risk-based PR triage and security feedback across human- and AI-generated changes.",
     "Free tier / Paid",
     "https://www.coderabbit.ai/"
   ],
@@ -946,9 +946,9 @@
   [
     "CrewAI",
     "AI development",
-    "Open-source multi-agent framework and platform for orchestrating agentic workflows.",
-    "For developers building systems where multiple specialized agents coordinate on tasks.",
-    "Open source",
+    "Open-source multi-agent framework and enterprise platform for building, orchestrating, deploying and governing agents, crews and stateful workflows.",
+    "For developers and platform teams coordinating specialized agents with tools, memory, guardrails, observability and production controls.",
+    "Open source / Paid",
     "https://crewai.com/"
   ],
   [
@@ -1426,8 +1426,8 @@
   [
     "Fireflies.ai",
     "Voice & audio",
-    "AI meeting assistant for recording, transcription, summaries and conversation analysis.",
-    "For teams that want searchable meeting intelligence and automated follow-up workflows.",
+    "AI meeting assistant that records and transcribes conversations, generates summaries and action items, answers questions and exposes meeting data through APIs.",
+    "For teams that need searchable meeting knowledge and reliable follow-up workflows across calls, recordings and connected business tools.",
     "Free tier / Paid",
     "https://fireflies.ai/"
   ],
@@ -1666,8 +1666,8 @@
   [
     "Gong",
     "Sales",
-    "Revenue intelligence platform using AI to analyze customer conversations, deals and sales activity.",
-    "For revenue teams that want coaching, pipeline context and searchable conversation intelligence.",
+    "Revenue AI platform that captures customer interactions, analyzes deal and pipeline signals, and uses specialized agents to automate sales and revenue workflows.",
+    "For revenue teams that need customer-conversation intelligence, deal-risk visibility, coaching and governed follow-up automation.",
     "Paid",
     "https://www.gong.io/"
   ],
@@ -1714,8 +1714,8 @@
   [
     "Granola",
     "Meetings",
-    "AI notepad that transcribes meetings and turns notes plus conversation context into structured summaries.",
-    "For professionals who want searchable meeting notes without a visible meeting bot.",
+    "AI meeting notepad that uses device audio to transcribe conversations and enriches a user's own notes with summaries, actions and searchable context without a meeting bot.",
+    "For professionals who want useful meeting notes without inviting a recording bot into the call.",
     "Free tier / Paid",
     "https://www.granola.ai/"
   ],
@@ -2058,9 +2058,9 @@
   [
     "Jasper",
     "Writing",
-    "AI content platform for marketing teams, brand workflows and campaign production.",
-    "For businesses producing repeatable marketing content with brand controls.",
-    "Paid",
+    "AI marketing platform with purpose-built agents, content pipelines, brand intelligence, optimization workflows, APIs and MCP integrations.",
+    "For marketing teams producing governed, on-brand campaigns and content at scale across channels and markets.",
+    "Free trial / Paid",
     "https://www.jasper.ai/"
   ],
   [
@@ -2258,8 +2258,8 @@
   [
     "Krisp",
     "Voice & audio",
-    "AI audio and meeting tools for noise cancellation, transcription and meeting assistance.",
-    "For clearer calls and lightweight meeting intelligence in noisy environments.",
+    "Voice AI platform combining bot-free meeting notes and transcription, real-time noise cancellation, call-center assistance and developer voice models.",
+    "For professionals, contact centers and developers who need clearer calls, meeting intelligence or voice processing in their own applications.",
     "Free tier / Paid",
     "https://krisp.ai/"
   ],
@@ -2458,9 +2458,9 @@
   [
     "Lindy",
     "Automation",
-    "AI assistant and agent platform for automating communication and business workflows.",
-    "For delegating repeatable operations such as email, scheduling and support tasks.",
-    "Free tier / Paid",
+    "AI teammate and agent platform that connects business tools and performs workflows across marketing, sales, support, operations, finance and engineering.",
+    "For teams delegating repeatable cross-app tasks such as CRM updates, support triage, competitor tracking, reporting and scheduling.",
+    "Free trial / Paid",
     "https://www.lindy.ai/"
   ],
   [
@@ -2850,8 +2850,8 @@
   [
     "Murf",
     "Voice & audio",
-    "AI text-to-speech and voiceover studio with multilingual voices.",
-    "For polished narration and business voiceovers without recording a speaker.",
+    "AI voice platform for creating customizable voiceovers, integrating text-to-speech APIs and building production-ready conversational voice agents.",
+    "For creators and product teams generating narration or adding natural speech and voice interactions to applications.",
     "Free tier / Paid",
     "https://murf.ai/"
   ],
@@ -3098,8 +3098,8 @@
   [
     "Otter.ai",
     "Voice & audio",
-    "AI meeting transcription, summaries and searchable conversation notes.",
-    "For teams and individuals who want automatic notes and transcripts from meetings.",
+    "AI meeting agent and conversational knowledge platform that transcribes meetings, creates summaries and action items, and makes discussions searchable across teams.",
+    "For individuals and teams who need automatic meeting notes, searchable transcripts and follow-up context across conversations.",
     "Free tier / Paid",
     "https://otter.ai/"
   ],
