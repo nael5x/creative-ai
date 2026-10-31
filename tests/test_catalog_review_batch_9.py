@@ -24,10 +24,10 @@ class CatalogReviewBatch9Tests(unittest.TestCase):
     def test_catalog_and_quality_counts_are_reconciled(self):
         accepted = sum(row["decision"] == "accepted" for row in self.quality["tools"])
         rejected = sum(row["decision"] == "rejected" for row in self.quality["tools"])
-        self.assertEqual(len(self.catalog), 605)
-        self.assertEqual(accepted, 324)
+        self.assertEqual(len(self.catalog), 604)
+        self.assertEqual(accepted, 338)
         self.assertEqual(rejected, 26)
-        self.assertEqual(len(self.catalog) - accepted, 281)
+        self.assertEqual(len(self.catalog) - accepted, 266)
         self.assertEqual(len(self.lifecycle), len(self.catalog))
         self.assertEqual(set(self.rows), set(self.lifecycle))
 
@@ -105,7 +105,7 @@ class CatalogReviewBatch9Tests(unittest.TestCase):
         self.assertEqual(self.lifecycle["Microsoft Agent Framework"]["firstTrackedAt"], "2026-10-31T00:45:59Z")
         self.assertEqual(self.lifecycle["PlayHT"]["firstTrackedAt"], "2026-10-31T00:52:54Z")
         self.assertEqual(self.lifecycle["Tabnine"]["firstTrackedAt"], "2026-09-13T14:41:12Z")
-        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-19")
+        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-20")
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["accepted"], 14)
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["rejected"], 0)
         self.assertEqual(self.quality["lastQualityReviewBatchSummary"]["superseded"], 0)
