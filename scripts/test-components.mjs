@@ -52,7 +52,7 @@ try {
     spotlight: !!document.querySelector('.spotlight-card'),
     animated: !!document.querySelector('.ca-animated-intro'),
     metrics: !!document.querySelector('.ca-metrics strong'),
-    countUp: [...document.querySelectorAll('[data-countup]')].length === 3 && [...document.querySelectorAll('[data-countup]')].every(node => /\\d/.test(node.textContent))
+    countUp: [...document.querySelectorAll('[data-countup]')].length === 3 && [...document.querySelectorAll('[data-countup]')].every(node => /\d/.test(node.textContent))
   }));
   const missing = Object.entries(visible).filter(([, value]) => !value).map(([key]) => key);
   if (missing.length) throw new Error('Components not mounted: ' + missing.join(', '));
