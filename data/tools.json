@@ -792,14 +792,6 @@
     "https://cline.bot/"
   ],
   [
-    "Clio Manage AI",
-    "Legal",
-    "AI capabilities embedded in Clio Manage that extract deadlines from court documents, surface matter activity, create tasks and calendar events, and prepare billing workflows for review.",
-    "For law firms using Clio Manage that want to reduce routine administrative work while keeping legal professionals in control of approvals and outcomes.",
-    "Paid",
-    "https://www.clio.com/manage/"
-  ],
-  [
     "Clipdrop",
     "Images & design",
     "AI image utilities for cleanup, relighting, background work and generation.",
@@ -2506,10 +2498,10 @@
   [
     "Luma App",
     "Images & design",
-    "AI creative workspace with multimodal agents that plan, generate, iterate and refine image, video, audio and other creative assets across shared projects.",
-    "For creative teams that need an agent-driven workflow from brief to coordinated assets and polished deliverables without restarting across separate tools.",
+    "Luma's current consumer creative workspace for AI image and video generation using current Luma models and integrated generation tools.",
+    "For creators who want Luma's current image and video generation workspace rather than the deprecated Dream Machine product identity.",
     "Paid",
-    "https://lumalabs.ai/app"
+    "https://app.lumalabs.ai/"
   ],
   [
     "Luminance",
@@ -2546,10 +2538,10 @@
   [
     "Magnific",
     "Images & design",
-    "Multimodal creative AI platform for generating and editing images, video, audio and 3D, with upscaling, Spaces, creative agents and API workflows.",
-    "For creators and teams who want a unified workspace for image, video, audio and 3D creation, enhancement and production workflows.",
-    "Paid",
-    "https://www.magnific.com/ai"
+    "Creative AI production platform for image, video, audio, 3D, upscaling, stock assets and collaborative workflows.",
+    "For creators, agencies and teams that want generation, editing, upscaling, stock assets and multi-format AI production in one workspace.",
+    "Free tier / Paid",
+    "https://www.magnific.com/"
   ],
   [
     "Make",
@@ -2558,6 +2550,14 @@
     "For joining services such as forms, sheets, email and AI into workflows.",
     "Free tier / Paid",
     "https://www.make.com/"
+  ],
+  [
+    "Manage AI",
+    "Legal",
+    "Context-aware AI capabilities built into Clio Manage for legal-practice operations and matter workflows.",
+    "For law firms using Clio that want AI to surface priorities, extract deadlines, draft content, summarize matter activity and automate practice-management tasks.",
+    "Paid",
+    "https://www.clio.com/features/"
   ],
   [
     "MarketMuse",
@@ -2669,7 +2669,7 @@
     "Open-source SDK for building and orchestrating production-grade AI agents and multi-agent workflows in Python and .NET, with tools, memory, middleware, observability and human-in-the-loop execution.",
     "For developers building production agent systems that need durable workflows, provider flexibility, explicit orchestration and a current path from AutoGen or Semantic Kernel.",
     "Open source",
-    "https://learn.microsoft.com/en-us/agent-framework/overview"
+    "https://learn.microsoft.com/en-us/agent-framework/overview/"
   ],
   [
     "Microsoft Copilot",
@@ -2734,14 +2734,6 @@
     "For developers who want open-source agent workflows plus hosted or local model access under one product surface.",
     "Open source",
     "https://mindshub.ai/"
-  ],
-  [
-    "Mistral Vibe",
-    "Productivity",
-    "Mistral's unified AI agent for professional productivity and coding across web, mobile, terminal and VS Code, supporting multi-step research, drafts, summaries, tool use and software workflows.",
-    "For professionals and developers who want one agent for knowledge work and coding, with visible actions and approval controls.",
-    "Free tier / Paid",
-    "https://chat.mistral.ai/"
   ],
   [
     "Mixo",
@@ -4370,8 +4362,8 @@
   [
     "Topaz Video",
     "Video",
-    "Professional AI video enhancement software for upscaling, denoising, sharpening, stabilization, slow motion and frame interpolation on macOS and Windows.",
-    "For editors, filmmakers and archivists improving existing footage quality rather than generating entirely new video.",
+    "AI video-enhancement application for local and cloud upscaling, denoising, stabilization, interpolation and restoration workflows.",
+    "For filmmakers and editors improving existing footage quality with specialized enhancement models rather than generating entirely new scenes.",
     "Paid",
     "https://www.topazlabs.com/topaz-video"
   ],
@@ -4558,6 +4550,14 @@
     "For web developers adding model-powered product experiences to JavaScript and TypeScript apps.",
     "Open source",
     "https://ai-sdk.dev/"
+  ],
+  [
+    "Vibe",
+    "Writing & coding",
+    "Mistral's unified AI agent for productivity, coding and conversational work across Vibe Work, Vibe Code and Vibe Chat.",
+    "For users who want Mistral's current assistant for multi-step productivity, coding and conversational tasks in one account.",
+    "Free tier / Paid",
+    "https://chat.mistral.ai/"
   ],
   [
     "Vic.ai",
