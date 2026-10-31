@@ -2119,6 +2119,195 @@
       "userValue": "Removed from the active catalog because Tezi's own site says its team and technology are transitioning into Headway, while the former recruiting-app endpoint no longer resolves. The standalone recruiting product could not be verified as currently available.",
       "decision": "rejected",
       "reason": "Removed from the active catalog because Tezi's own site says its team and technology are transitioning into Headway, while the former recruiting-app endpoint no longer resolves. The standalone recruiting product could not be verified as currently available."
+    },
+    {
+      "name": "10Web",
+      "officialUrl": "https://10web.io/ai-website-builder/",
+      "evidenceUrls": [
+        "https://10web.io/",
+        "https://10web.io/AI-WEBSITE-BUILDER/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "10Web turns a prompt, existing URL or design file into a WordPress website, then lets users edit it with AI or manually and publish it on managed hosting.",
+      "decision": "accepted"
+    },
+    {
+      "name": "11x",
+      "officialUrl": "https://www.11x.ai/",
+      "evidenceUrls": [
+        "https://docs.11x.ai/",
+        "https://docs.11x.ai/alice/overview",
+        "https://docs.11x.ai/help-center/get-started/what-is-11x"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "11x provides autonomous outbound and inbound digital workers: Alice researches and engages prospects, while Julian responds to inbound leads, qualifies them and books meetings.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ada Health",
+      "officialUrl": "https://ada.com/",
+      "evidenceUrls": [
+        "https://ada.com/app/",
+        "https://ada.com/help/how-do-i-start-a-symptom-assessment/",
+        "https://ada.com/editorial/ada-introduces/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Ada's AI symptom assessment uses probabilistic reasoning and clinical knowledge to analyze reported symptoms and return possible explanations; it is a starting point for care decisions, not a diagnosis.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AdCreative.ai",
+      "officialUrl": "https://www.adcreative.ai/",
+      "evidenceUrls": [
+        "https://www.adcreative.ai/",
+        "https://www.adcreative.ai/adcreative-ai-refund-policy-process"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "AdCreative.ai generates advertising images, copy, product visuals and video variations, with creative scoring and competitor-insight features for campaign iteration.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AI2sql",
+      "officialUrl": "https://ai2sql.io/",
+      "evidenceUrls": [
+        "https://ai2sql.io/",
+        "https://web.ai2sql.io/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "AI2SQL grounds SQL generation in a connected database schema, explains and optimizes queries, and can execute guarded read-only queries through its app and agent integrations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cato AI Security",
+      "officialUrl": "https://www.catonetworks.com/solutions/ai-security/",
+      "evidenceUrls": [
+        "https://www.catonetworks.com/solutions/ai-security/",
+        "https://knowledge.catonetworks.com/docs/en/getting-started-with-ai-security",
+        "https://www.catonetworks.com/platform/agentic-ai-security/",
+        "https://www.catonetworks.com/news/cato-acquires-aim-security-to-extend-sase-leadership-and-secure-enterprise-ai-transformation/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Cato AI Security governs employee use of AI services and protects custom AI applications and agents with prompt inspection, runtime guardrails, agent discovery and tool-call visibility.",
+      "decision": "accepted",
+      "supersedes": "Aim Security"
+    },
+    {
+      "name": "Airtable AI",
+      "officialUrl": "https://www.airtable.com/platform/ai",
+      "evidenceUrls": [
+        "https://www.airtable.com/platform/ai",
+        "https://support.airtable.com/articles/1744327578-using-omni-ai-in-airtable",
+        "https://www.airtable.com/whatsnew/roadmap-2026"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Airtable's AI layer includes Omni for building apps, researching the web, analyzing data and documents, updating records and automations, plus AI field agents for repeatable workflow tasks.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Akkio",
+      "officialUrl": "https://www.akkio.com/",
+      "evidenceUrls": [
+        "https://www.akkio.com/",
+        "https://docs.akkio.com/akkio-help-center"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Akkio connects campaign data and business knowledge to support strategy research, audience segmentation, media-plan simulation, audience activation and performance measurement.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Alpha3D",
+      "officialUrl": "https://www.alpha3d.io/",
+      "evidenceUrls": [
+        "https://www.alpha3d.io/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Alpha3D turns prompts or photos into 3D models and extends the workflow through retopology, UV unwrapping, texturing, rigging and export for game-ready assets.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Altered Studio",
+      "officialUrl": "https://www.altered.ai/",
+      "evidenceUrls": [
+        "https://www.altered.ai/voice-changer/",
+        "https://www.altered.ai/pricing/",
+        "https://www.altered.ai/faqs/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Altered Studio combines speech-to-speech voice morphing, voice cloning, text-to-speech, transcription, audio cleaning and editing for production voice workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Amazon Q Developer",
+      "officialUrl": "https://aws.amazon.com/q/developer/",
+      "evidenceUrls": [
+        "https://aws.amazon.com/documentation-overview/q-developer/",
+        "https://aws.amazon.com/q/developer/features/",
+        "https://aws.amazon.com/q/developer/build/",
+        "https://aws.amazon.com/q/developer/faqs/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Amazon Q Developer assists across IDEs and CLI with codebase explanations, code generation and edits, test creation, code review, vulnerability remediation and AWS development guidance.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Andi",
+      "officialUrl": "https://andisearch.com/",
+      "evidenceUrls": [
+        "https://andiai.com/",
+        "https://docs.andiai.com/",
+        "https://andiai.com/blogs/announcement-andi-search-we-shipped-february-2026-20260218-1243"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Andi AI Search synthesizes web answers from sources, summarizes and explains pages, and provides a search API and MCP endpoint for AI agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Arcads",
+      "officialUrl": "https://www.arcads.ai/",
+      "evidenceUrls": [
+        "https://www.arcads.ai/",
+        "https://help.arcads.ai/en/articles/17349897-ai-video-ads"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Arcads turns scripts, product images or prompts into UGC-style video ads with AI actors and voices, then supports multiple versions, languages, captions and social formats.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Arize Phoenix",
+      "officialUrl": "https://phoenix.arize.com/",
+      "evidenceUrls": [
+        "https://github.com/Arize-ai/phoenix",
+        "https://arize.com/docs/phoenix",
+        "https://github.com/Arize-ai/phoenix/blob/main/LICENSE"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Phoenix provides tracing, evaluation, datasets, experiments, prompt management and MCP access for debugging LLM and agent applications; it can be self-hosted under Elastic License 2.0.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Artisan",
+      "officialUrl": "https://www.artisan.co/",
+      "evidenceUrls": [
+        "https://www.artisan.co/",
+        "https://www.artisan.co/ai-sales-agent"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Artisan's Ava is an autonomous AI BDR that researches and enriches leads, creates personalized outbound sequences, handles replies and books meetings with CRM and calendar integrations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Aim Security",
+      "officialUrl": "https://www.aim.security/",
+      "evidenceUrls": [
+        "https://www.catonetworks.com/news/cato-acquires-aim-security-to-extend-sase-leadership-and-secure-enterprise-ai-transformation/",
+        "https://www.catonetworks.com/solutions/ai-security/",
+        "https://knowledge.catonetworks.com/docs/en/getting-started-with-ai-security"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Aim Security was acquired by Cato Networks and its capabilities were integrated into Cato's current AI Security platform. Cato's acquisition announcement described the transition into the Cato SASE Cloud, and the current first-party product and documentation pages now identify Cato AI Security as the active product. The standalone Aim Security identity is superseded.",
+      "decision": "rejected",
+      "reason": "Aim Security was acquired by Cato Networks and its capabilities were integrated into Cato's current AI Security platform. Cato's acquisition announcement described the transition into the Cato SASE Cloud, and the current first-party product and documentation pages now identify Cato AI Security as the active product. The standalone Aim Security identity is superseded.",
+      "supersededBy": "Cato AI Security"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -2134,13 +2323,14 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-7",
+  "lastQualityReviewBatch": "catalog-review-batch-8",
   "lastQualityReviewBatchSummary": {
     "accepted": 15,
-    "rejected": 0,
-    "renamed": 0,
+    "rejected": 1,
+    "renamed": 1,
     "updatedDescriptions": 15,
-    "canonicalUrlUpdates": 2,
-    "availabilityUpdates": 1
+    "categoryUpdates": 2,
+    "availabilityUpdates": 7,
+    "canonicalUrlUpdates": 1
   }
 }
