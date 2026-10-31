@@ -23,9 +23,9 @@ class CatalogReviewBatch12Tests(unittest.TestCase):
         accepted = sum(row["decision"] == "accepted" for row in self.quality["tools"])
         rejected = sum(row["decision"] == "rejected" for row in self.quality["tools"])
         self.assertEqual(len(self.catalog), 606)
-        self.assertEqual(accepted, 295)
+        self.assertEqual(accepted, 310)
         self.assertEqual(rejected, 26)
-        self.assertEqual(len(self.catalog) - accepted, 311)
+        self.assertEqual(len(self.catalog) - accepted, 296)
         self.assertEqual(len(self.lifecycle), len(self.catalog))
         self.assertEqual(set(self.rows), set(self.lifecycle))
 
@@ -37,7 +37,7 @@ class CatalogReviewBatch12Tests(unittest.TestCase):
             self.assertEqual(self.reviews[item["name"]]["decision"], "accepted")
             self.assertEqual(self.rows[item["name"]][5], self.reviews[item["name"]]["officialUrl"])
             self.assertTrue(item["evidenceUrls"])
-        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-17")
+        self.assertEqual(self.quality["lastQualityReviewBatch"], "catalog-review-batch-18")
 
     def test_augment_identity_is_replaced_by_harness_cosmos(self):
         self.assertNotIn("Augment Code", self.rows)

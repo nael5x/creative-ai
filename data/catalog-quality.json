@@ -3608,6 +3608,178 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For ecommerce and marketing teams that need consistent branded product visuals and campaign assets without arranging a new photoshoot for each variation.",
       "decision": "accepted"
+    },
+    {
+      "name": "FlexClip AI",
+      "officialUrl": "https://www.flexclip.com/tools/ai-video-generator/",
+      "evidenceUrls": [
+        "https://www.flexclip.com/tools/ai-video-generator/",
+        "https://help.flexclip.com/en/articles/7266778-what-is-flexclip"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and small teams who want to generate short clips from prompts or still images and finish social, marketing or explainer videos in one browser-based workflow. AI generation is integrated into the FlexClip editor.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Flick",
+      "officialUrl": "https://www.flick.social/",
+      "evidenceUrls": [
+        "https://www.flick.social/",
+        "https://www.flick.social/ai-social-media-assistant"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, small businesses and social-media managers who want AI-assisted content planning alongside publishing and performance tools in one workspace.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fliki",
+      "officialUrl": "https://fliki.ai/",
+      "evidenceUrls": [
+        "https://fliki.ai/features",
+        "https://fliki.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, educators and businesses producing voice-led videos, explainers and multilingual content without recording every narration or assembling every scene manually.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Forethought",
+      "officialUrl": "https://forethought.ai/platform",
+      "evidenceUrls": [
+        "https://forethought.ai/platform",
+        "https://forethought.ai/solutions/ai-customer-service-agent",
+        "https://forethought.ai/platform/assist"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For customer-support organizations that want to automate routine customer issues while routing complex cases to human agents with AI assistance and quality monitoring.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Framer AI",
+      "officialUrl": "https://www.framer.com/ai/",
+      "evidenceUrls": [
+        "https://www.framer.com/ai/",
+        "https://www.framer.com/solutions/ai-website-builder/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For designers, founders and marketing teams who want to create and refine responsive websites on a visual canvas while using AI for first drafts and iterative site work. This is an AI capability suite within Framer.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Frase",
+      "officialUrl": "https://www.frase.io/",
+      "evidenceUrls": [
+        "https://www.frase.io/features",
+        "https://www.frase.io/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For content marketers, SEO teams and agencies managing research, writing, optimization and AI-search visibility as a connected workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Freed",
+      "officialUrl": "https://www.getfreed.ai/",
+      "evidenceUrls": [
+        "https://www.getfreed.ai/features",
+        "https://www.getfreed.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For licensed clinicians and practices seeking to reduce documentation work while reviewing and approving generated notes, evidence and coding suggestions. It is a clinical workflow assistant, not a substitute for clinician judgment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gauth",
+      "officialUrl": "https://www.gauth.io/",
+      "evidenceUrls": [
+        "https://www.gauth.io/",
+        "https://www.gauth.io/about",
+        "https://www.gauthmath.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students who want to understand the working behind a practice problem rather than receive only a final answer; explanations should still be checked against course materials.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gemini CLI",
+      "officialUrl": "https://github.com/google-gemini/gemini-cli",
+      "evidenceUrls": [
+        "https://github.com/google-gemini/gemini-cli",
+        "https://github.com/google-gemini/gemini-cli/blob/main/docs/index.md"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who prefer a terminal-native agent for coding, research and repeatable project tasks, with configurable tools, sandboxing and human approval controls.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Genspark",
+      "officialUrl": "https://www.genspark.ai/",
+      "evidenceUrls": [
+        "https://www.genspark.ai/",
+        "https://www.genspark.ai/helpcenter/super-app",
+        "https://genspark.prod.sspark.ai/helpcenter/super-agent"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and teams delegating multi-step knowledge work and wanting generated deliverables, connected-app context and coding or communication workflows in one environment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "getimg.ai",
+      "officialUrl": "https://getimg.ai/",
+      "evidenceUrls": [
+        "https://getimg.ai/",
+        "https://getimg.ai/pricing",
+        "https://getimg.ai/guides/guide-to-getimg-ai-features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and marketing teams producing varied visual and audio assets across multiple models without maintaining separate subscriptions and workflows for every generation task.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Giskard",
+      "officialUrl": "https://www.giskard.ai/",
+      "evidenceUrls": [
+        "https://docs.giskard.ai/",
+        "https://docs.giskard.ai/hub/ui",
+        "https://docs.giskard.ai/oss",
+        "https://docs.giskard.ai/oss/scan"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For AI developers and organizations that need repeatable quality and security tests for AI applications, including prompt-injection and hallucination checks, before and after deployment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "GitGuardian",
+      "officialUrl": "https://www.gitguardian.com/platform",
+      "evidenceUrls": [
+        "https://www.gitguardian.com/platform",
+        "https://www.gitguardian.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For security and engineering teams that need to detect credential exposure, identify ownership and blast radius, and manage remediation across repositories and the wider secrets surface. AI supports parts of the workflow; secret detection also uses dedicated detectors.",
+      "decision": "accepted"
+    },
+    {
+      "name": "GitLab Duo",
+      "officialUrl": "https://docs.gitlab.com/user/gitlab_duo/index.html",
+      "evidenceUrls": [
+        "https://docs.gitlab.com/user/gitlab_duo/index.html",
+        "https://docs.gitlab.com/user/duo_agent_platform/",
+        "https://about.gitlab.com/gitlab-duo-agent-platform/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For development teams already using GitLab that want AI assistance and governed agents grounded in repository, issue, CI/CD and project context. Availability depends on GitLab tier, deployment and credits.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Glass Health",
+      "officialUrl": "https://glass.health/",
+      "evidenceUrls": [
+        "https://glass.health/",
+        "https://glass.health/documentation"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For clinicians and healthcare organizations seeking documentation and evidence-supported clinical reasoning workflows. AI-generated suggestions require qualified clinical review and do not replace professional judgment.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -3623,7 +3795,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-17",
+  "lastQualityReviewBatch": "catalog-review-batch-18",
   "lastQualityReviewBatchSummary": {
     "accepted": 15,
     "rejected": 0,
