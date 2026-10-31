@@ -388,10 +388,6 @@
       "firstTrackedAt": "2026-09-13T14:41:12Z",
       "event": "added"
     },
-    "CoCounsel": {
-      "firstTrackedAt": "2026-09-13T15:31:18Z",
-      "event": "added"
-    },
     "CodeGeeX": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
       "event": "added"
@@ -410,10 +406,6 @@
     },
     "Compose AI": {
       "firstTrackedAt": "2026-09-14T00:53:43Z",
-      "event": "added"
-    },
-    "Connected Papers": {
-      "firstTrackedAt": "2026-09-13T14:59:23Z",
       "event": "added"
     },
     "Consensus": {
@@ -2435,6 +2427,11 @@
     "Zyte": {
       "firstTrackedAt": "2026-09-13T15:46:53Z",
       "event": "added"
+    },
+    "CoCounsel Legal": {
+      "firstTrackedAt": "2026-09-13T15:31:18Z",
+      "event": "added",
+      "previousName": "CoCounsel"
     }
   }
 }
