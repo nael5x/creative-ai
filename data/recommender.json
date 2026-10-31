@@ -451,8 +451,7 @@
     "Luma App": {
       "tasks": [
         "images",
-        "video",
-        "audio"
+        "video"
       ],
       "traits": [
         "control",
@@ -469,7 +468,7 @@
         "control"
       ]
     },
-    "Mistral Vibe": {
+    "Vibe": {
       "tasks": [
         "writing",
         "research",
