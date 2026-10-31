@@ -4869,6 +4869,20 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For game developers, 3D artists and makers who need to prototype characters, props and printable concepts from prompts or images. Meshy is not a CAD-precision engineering tool; free-tier credits and asset licensing differ by plan.",
       "decision": "accepted"
+    },
+    {
+      "name": "Meta AI",
+      "officialUrl": "https://www.meta.ai/",
+      "evidenceUrls": [
+        "https://www.meta.ai/",
+        "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+        "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+        "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
+        "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For everyday users and creators who want help with questions, research and visual creation in one assistant integrated into Meta's ecosystem. Features, connected apps and rollout vary by country and surface; the core experience is free, while subscriptions offer higher usage and additional features.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4884,7 +4898,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-26",
+  "lastQualityReviewBatch": "catalog-review-batch-27",
   "lastQualityReviewBatchSummary": {
     "accepted": 1,
     "rejected": 0,
