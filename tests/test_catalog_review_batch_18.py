@@ -46,7 +46,7 @@ class CatalogReviewBatch18Tests(unittest.TestCase):
         self.assertIn("within Framer", self.rows["Framer AI"][2])
 
     def test_github_and_gitlab_products_are_distinguished(self):
-        self.assertIn("open-source AI agent", self.rows["Gemini CLI"][2])
+        self.assertIn("Open-source AI agent", self.rows["Gemini CLI"][2])
         self.assertIn("GitLab Duo Agent Platform", self.rows["GitLab Duo"][2])
 
     def test_healthcare_descriptions_require_clinical_review(self):
