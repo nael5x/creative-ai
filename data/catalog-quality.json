@@ -4844,6 +4844,18 @@
       "decision": "rejected",
       "reason": "Masterpiece X's current official homepage has repositioned the active product as WorldEngen, an AI copilot for 3D production. It explicitly labels the former 3D Web Generator, Community Library and VR App as legacy. The old catalog entry is therefore a superseded product identity, not a separate active tool.",
       "supersededBy": "WorldEngen"
+    },
+    {
+      "name": "Merlin",
+      "officialUrl": "https://www.getmerlin.in/",
+      "evidenceUrls": [
+        "https://www.getmerlin.in/",
+        "https://www.getmerlin.in/pricing?for=teams",
+        "https://chromewebstore.google.com/detail/merlin-ai/camppjleccjaphfdbohjdohecfnoikec?hl=en-US"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students, researchers, creators and professionals who want to research, understand and transform web content without repeatedly switching between browser tabs and separate AI apps.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -4859,14 +4871,14 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-24",
+  "lastQualityReviewBatch": "catalog-review-batch-25",
   "lastQualityReviewBatchSummary": {
-    "accepted": 15,
-    "rejected": 2,
-    "superseded": 2,
+    "accepted": 1,
+    "rejected": 0,
+    "superseded": 0,
     "retired": 0,
     "mergedIntoExisting": 0,
-    "updatedExisting": 13,
+    "updatedExisting": 1,
     "rechecked": 0,
     "statusWatch": 0,
     "recommenderProfilesAdded": 0,
