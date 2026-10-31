@@ -28,6 +28,11 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Build isolated component bundle
         run: npm run build:components
+      - name: Copy static bundle into the Pages source tree
+        run: |
+          mkdir -p scripts
+          cp dist/creative-ai-components.js scripts/creative-ai-components.js
+          cp dist/creative-ai-components.css creative-ai-components.css
       - name: Commit static bundle for GitHub Pages
         run: |
           git config user.name "github-actions[bot]"
