@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-31",
+  "batch": "catalog-review-batch-7",
+  "scope": "First-party review of 15 tools across customer service, translation, scientific research, enterprise search, inference infrastructure, legal work, RAG and vector databases, model routing, music, video and ML operations.",
+  "accepted": [
+    {
+      "name": "Decagon",
+      "officialUrl": "https://decagon.ai/",
+      "evidenceUrls": [
+        "https://decagon.ai/"
+      ],
+      "userValue": "Decagon builds customer-facing AI agents that can handle real service tasks such as membership changes and bookings, rather than only answering FAQ-style questions.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "DeepL",
+      "officialUrl": "https://www.deepl.com/en/products-overview",
+      "evidenceUrls": [
+        "https://www.deepl.com/en/products-overview",
+        "https://www.deepl.com/en/products/translator",
+        "https://www.deepl.com/en/products/write",
+        "https://www.deepl.com/en/products/voice",
+        "https://developers.deepl.com/docs/getting-started"
+      ],
+      "userValue": "DeepL combines translation, document workflows, real-time voice translation, writing refinement and developer APIs, with glossaries and style controls for consistent multilingual work.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Elicit",
+      "officialUrl": "https://elicit.com/",
+      "evidenceUrls": [
+        "https://elicit.com/",
+        "https://support.elicit.com/en/articles/14757543-getting-started-with-elicit-which-workflow-should-i-use"
+      ],
+      "userValue": "Elicit searches academic papers and creates structured, cited research reports; its current Research Agent combines paper discovery, extraction and paper-specific Q&A, while systematic-review workflows provide guided screening and PRISMA-style reporting.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Glean",
+      "officialUrl": "https://www.glean.com/",
+      "evidenceUrls": [
+        "https://www.glean.com/",
+        "https://docs.glean.com/user-guide/about/what-is-glean"
+      ],
+      "userValue": "Glean connects workplace apps and documents, returns permission-aware answers with citations, helps draft work and lets teams build and govern agents that execute tasks across systems.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Groq",
+      "officialUrl": "https://groq.com/",
+      "evidenceUrls": [
+        "https://groq.com/",
+        "https://console.groq.com/docs/api-reference",
+        "https://console.groq.com/docs/your-data"
+      ],
+      "userValue": "Groq provides a developer inference API with OpenAI-compatible endpoints and an inference-focused cloud built around its LPU architecture and GPU infrastructure.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Harvey",
+      "officialUrl": "https://www.harvey.ai/",
+      "evidenceUrls": [
+        "https://www.harvey.ai/"
+      ],
+      "userValue": "Harvey provides purpose-built legal agents, secure document workspaces, legal and regulatory research, contract intelligence and collaboration controls for professional legal work.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "LlamaIndex",
+      "officialUrl": "https://www.llamaindex.ai/",
+      "evidenceUrls": [
+        "https://www.llamaindex.ai/",
+        "https://developers.llamaindex.ai/home/"
+      ],
+      "userValue": "LlamaIndex combines an open-source framework for agents and retrieval-augmented generation with managed LlamaParse for parsing, extracting, classifying and indexing complex documents.",
+      "availabilityUpdate": "Open source / Paid"
+    },
+    {
+      "name": "OpenRouter",
+      "officialUrl": "https://openrouter.ai/",
+      "evidenceUrls": [
+        "https://openrouter.ai/",
+        "https://openrouter.ai/developers"
+      ],
+      "userValue": "OpenRouter exposes many models and providers through one compatible API, with automatic fallback, typed SDKs, an agent SDK, local developer tools and MCP access.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Pinecone",
+      "officialUrl": "https://www.pinecone.io/",
+      "evidenceUrls": [
+        "https://www.pinecone.io/",
+        "https://docs.pinecone.io/"
+      ],
+      "userValue": "Pinecone provides managed vector indexes and retrieval infrastructure for RAG and AI agents, with tools for managing indexes, querying vectors and grounding agent knowledge.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Poe",
+      "officialUrl": "https://poe.com/",
+      "evidenceUrls": [
+        "https://poe.com/",
+        "https://creator.poe.com/docs",
+        "https://creator.poe.com/docs/api-reference/createBot",
+        "https://creator.poe.com/docs/canvas-apps/canvas-app-quick-start"
+      ],
+      "userValue": "Poe provides a multi-model chat interface and a creator platform for prompt bots, server bots, script bots, API bots and interactive Canvas apps, including monetization options.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Replicate",
+      "officialUrl": "https://replicate.com/",
+      "evidenceUrls": [
+        "https://replicate.com/",
+        "https://replicate.com/docs",
+        "https://replicate.com/docs/topics/models/run-a-model/",
+        "https://replicate.com/docs/topics/models/official-models"
+      ],
+      "userValue": "Replicate lets developers run public models through a browser playground or API, fine-tune models on their data and deploy custom models; its maintained official models have stable APIs and predictable pricing.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Suno",
+      "officialUrl": "https://suno.com/",
+      "evidenceUrls": [
+        "https://suno.com/",
+        "https://about.suno.com/blog/introducing-v6",
+        "https://help.suno.com/en/articles/13924801"
+      ],
+      "userValue": "Suno generates songs from prompts and audio inputs, supports remixing, editing, stem separation and custom models; its official plans distinguish personal free use from paid commercial-use rights.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Synthesia",
+      "officialUrl": "https://www.synthesia.io/",
+      "evidenceUrls": [
+        "https://www.synthesia.io/",
+        "https://help.synthesia.io/en/articles/9994493-what-is-synthesia"
+      ],
+      "userValue": "Synthesia creates business videos from scripts, PowerPoint files, documents, links or prompts with AI avatars, voices, translation, dubbing and interactive video features.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Together AI",
+      "officialUrl": "https://www.together.ai/",
+      "evidenceUrls": [
+        "https://www.together.ai/"
+      ],
+      "userValue": "Together AI combines serverless and dedicated inference, custom model training and GPU compute in one AI-native cloud platform for production applications.",
+      "availabilityUpdate": null
+    },
+    {
+      "name": "Weights & Biases",
+      "officialUrl": "https://wandb.ai/site",
+      "evidenceUrls": [
+        "https://wandb.ai/site",
+        "https://docs.wandb.ai/",
+        "https://docs.wandb.ai/weave"
+      ],
+      "userValue": "Weights & Biases combines experiment tracking and model workflows with Weave tracing and evaluation for AI applications, plus serverless training and inference products.",
+      "availabilityUpdate": null
+    }
+  ],
+  "canonicalUrlUpdates": [
+    {
+      "name": "DeepL",
+      "previousUrl": "https://www.deepl.com/translator",
+      "officialUrl": "https://www.deepl.com/en/products-overview",
+      "reason": "Updated from the consumer translator page to the current official overview of Translator, Write, Voice and API products."
+    },
+    {
+      "name": "Weights & Biases",
+      "previousUrl": "https://wandb.ai/",
+      "officialUrl": "https://wandb.ai/site",
+      "reason": "Normalized to the current official product overview."
+    }
+  ],
+  "notes": [
+    "Elicit's product description reflects the Research Agent workflow introduced on 2026-09-30; old Find Papers, Extract Data and Chat with Papers functions are now skills within the Research Agent.",
+    "LlamaIndex availability now reflects both its open-source framework and paid hosted document platform.",
+    "Suno's user-value statement explicitly distinguishes plan-specific commercial rights.",
+    "No third-party directory rankings, popularity claims, traffic estimates or testimonials were used as acceptance evidence."
+  ]
+}
