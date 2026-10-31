@@ -3098,6 +3098,180 @@
       "userValue": "The product is a useful visual academic-paper discovery graph, but its documented method is bibliometric similarity rather than an AI capability.",
       "decision": "rejected",
       "reason": "The official methodology describes co-citation and bibliographic coupling to identify related papers and a force-directed graph to arrange them. The official product pages do not document AI/ML or generative-AI functionality. It is a research-discovery tool, but it does not meet Creative AI's requirement that AI be a real, useful part of the product."
+    },
+    {
+      "name": "Continue",
+      "officialUrl": "https://continue.dev/",
+      "evidenceUrls": [
+        "https://docs.continue.dev/",
+        "https://docs.continue.dev/ide-extensions/agent/quick-start",
+        "https://github.com/continuedev/continue"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who want a model-flexible assistant integrated with their IDE and terminal, including agent actions and control over the models and tools they use.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Copy.ai",
+      "officialUrl": "https://www.copy.ai/",
+      "evidenceUrls": [
+        "https://www.copy.ai/",
+        "https://www.copy.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For revenue teams that need repeatable, cross-functional AI workflows grounded in company data rather than isolated copy-generation prompts.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Corti",
+      "officialUrl": "https://corti.ai/",
+      "evidenceUrls": [
+        "https://corti.ai/",
+        "https://docs.corti.ai/assistant/welcome",
+        "https://corti.ai/solutions"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For healthcare software teams and providers embedding domain-specific AI into clinical workflows; clinicians must review generated documentation and coding before use.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Crawl4AI",
+      "officialUrl": "https://crawl4ai.com/",
+      "evidenceUrls": [
+        "https://docs.crawl4ai.com/",
+        "https://github.com/unclecode/crawl4ai"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building RAG, agent, search or data pipelines that need self-hosted, LLM-ready web content.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Creatify",
+      "officialUrl": "https://creatify.ai/",
+      "evidenceUrls": [
+        "https://creatify.ai/",
+        "https://help.creatify.ai/en/articles/17323796-ad-agent",
+        "https://help.creatify.ai/en/articles/12435455-url-to-video"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce and growth teams that need multiple UGC-style ad concepts and variations without manually filming and editing each creative.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Crisp AI",
+      "officialUrl": "https://crisp.chat/en/ai/",
+      "evidenceUrls": [
+        "https://crisp.chat/en/ai/",
+        "https://docs.crisp.chat/guides/hugo/",
+        "https://help.crisp.chat/en/article/getting-started-with-hugo-ai-agent-w6gbux/",
+        "https://crisp.chat/en/blog/how-we-rebuilt-part-of-crisp-to-build-hugo-our-ai-support-agent/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For support teams that want customer-facing automation plus agent assistance within their shared inbox, with configurable routing, integrations and human handoff.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CrowdStrike Charlotte AI",
+      "officialUrl": "https://www.crowdstrike.com/en-us/platform/charlotte-ai/",
+      "evidenceUrls": [
+        "https://www.crowdstrike.com/en-us/platform/charlotte-ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SOC teams managing high alert volume who need faster investigation and governed automation while retaining analyst control.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Curipod",
+      "officialUrl": "https://curipod.com/",
+      "evidenceUrls": [
+        "https://help.curipod.com/en/articles/739593-can-i-edit-my-lesson-in-curipod",
+        "https://help.curipod.com/en/articles/739587-what-types-of-activities-are-there-in-curipod",
+        "https://help.curipod.com/en/articles/739580-how-do-i-teach-a-lesson-in-curipod"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teachers who want to prepare interactive lessons and give students timely feedback without building each slide and activity manually.",
+      "decision": "accepted"
+    },
+    {
+      "name": "D-ID",
+      "officialUrl": "https://www.d-id.com/",
+      "evidenceUrls": [
+        "https://docs.d-id.com/docs/quickstart",
+        "https://docs.d-id.com/reference/create4",
+        "https://www.d-id.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams building digital presenters, localized video content or interactive avatar agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dataiku",
+      "officialUrl": "https://www.dataiku.com/product/",
+      "evidenceUrls": [
+        "https://www.dataiku.com/product",
+        "https://www.dataiku.com/product/agent-hub",
+        "https://developer.dataiku.com/latest/getting-started/intro-value/index.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For enterprise data teams that need to build, deploy and govern analytics and AI systems across technical and business users.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Decktopus",
+      "officialUrl": "https://www.decktopus.com/",
+      "evidenceUrls": [
+        "https://www.decktopus.com/",
+        "https://help.decktopus.com/en/articles/111-how-to-create-a-presentation-with-ai"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For professionals and teams that need polished client, sales, educational or investor decks quickly, with editing and delivery tools in one workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepEval",
+      "officialUrl": "https://deepeval.com/",
+      "evidenceUrls": [
+        "https://deepeval.com/docs/introduction",
+        "https://deepeval.com/docs/metrics-introduction",
+        "https://github.com/confident-ai/deepeval"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For engineering teams that need repeatable quality and safety checks for LLM features in pytest and CI/CD, with evaluations running locally.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepL Write",
+      "officialUrl": "https://www.deepl.com/en/write",
+      "evidenceUrls": [
+        "https://www.deepl.com/en/features/write",
+        "https://support.deepl.com/hc/en-us/articles/6318834492700-About-DeepL-Write"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For writers and teams polishing multilingual communications while preserving meaning and choosing a tone appropriate to the context.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepScribe",
+      "officialUrl": "https://www.deepscribe.ai/",
+      "evidenceUrls": [
+        "https://www.deepscribe.ai/",
+        "https://www.deepscribe.ai/specialties/oncology"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For oncology clinicians and health systems seeking to reduce documentation burden and keep visit context organized; clinicians must verify notes and coding before finalizing.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Creatomate",
+      "officialUrl": "https://creatomate.com/",
+      "evidenceUrls": [
+        "https://creatomate.com/docs/fundamentals/getting-started/introduction",
+        "https://creatomate.com/docs"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Creatomate automates video and image rendering from templates and API payloads; the official docs mention external AI-assistant integration and AI-powered workflows, but do not establish a built-in AI capability in the product itself.",
+      "decision": "rejected",
+      "reason": "The official product documentation describes a template-driven media-rendering and automation API. Its AI references are to using an external AI assistant to configure or operate Creatomate, or to examples where other tools supply AI-generated content. The core product itself is not shown to provide an AI model or first-party AI function that materially performs the media creation. It is a useful video automation product, but it does not meet Creative AI's AI-tool inclusion standard."
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -3113,11 +3287,11 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-14",
+  "lastQualityReviewBatch": "catalog-review-batch-15",
   "lastQualityReviewBatchSummary": {
     "accepted": 14,
     "rejected": 1,
-    "superseded": 1,
+    "superseded": 0,
     "retired": 0,
     "mergedIntoExisting": 0,
     "updatedExisting": 14,
