@@ -23,7 +23,7 @@ class CatalogReviewBatch14Tests(unittest.TestCase):
         accepted = sum(row["decision"] == "accepted" for row in self.quality["tools"])
         rejected = sum(row["decision"] == "rejected" for row in self.quality["tools"])
         self.assertEqual(len(self.catalog), 606)
-        self.assertEqual(accepted, 265)
+        self.assertEqual(accepted, 280)
         self.assertEqual(rejected, 26)
         self.assertEqual(len(self.catalog) - accepted, 341)
         self.assertEqual(len(self.lifecycle), len(self.catalog))
