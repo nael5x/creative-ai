@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-37",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Motion (usemotion.com). Verified the active AI work-management product, automatic scheduling and replanning, task/project/calendar/meeting/docs/workflow features, current Pro AI and Business AI pricing and monthly credit allowances, overage rates and free-trial model; refined the existing listing without changing lifecycle status.",
+  "accepted": [
+    {
+      "name": "Motion",
+      "category": "Productivity",
+      "description": "AI work-management platform combining task and project management, calendar auto-scheduling, meeting booking and note-taking, docs/wiki, dashboards and workflow automation. It prioritizes tasks against deadlines, dependencies, durations and available time, then continuously replans as work changes.",
+      "userValue": "For individuals and teams who want tasks and projects automatically translated into a realistic daily schedule instead of manually managing to-do lists. Pro AI is displayed at $19/seat/month with 7,500 credits per seat/month; Business AI at $29/seat/month with 15,000 credits, plus capacity planning, advanced dashboards, Gantt charts, time tracking and access controls. The pricing page offers monthly or annual billing (advertising 33% annual savings) and lists additional credits at $0.25 or $0.19 per 100, depending on plan. A free trial is offered, not a permanent free plan. Confirm billing cycle and AI-credit usage before subscribing.",
+      "availability": "Free trial / Paid",
+      "url": "https://www.usemotion.com/",
+      "evidenceUrls": [
+        "https://www.usemotion.com/",
+        "https://www.usemotion.com/pricing",
+        "https://www.usemotion.com/help",
+        "https://www.usemotion.com/features/ai-task-manager"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "This entry refers specifically to Motion at usemotion.com, the AI work-management platform, not the separate Motion.dev JavaScript animation library.",
+    "Motion's current official documentation describes automatic scheduling around task deadlines, priorities, dependencies, durations and available time. It continuously adjusts the calendar when tasks change, and includes AI Chat, meeting notetaker, docs, dashboards, projects, tasks, calendars, booking links and workflows.",
+    "The current official pricing page lists Pro AI at $19 per seat per month with 7,500 credits per seat per month, and Business AI at $29 per seat per month with 15,000 credits per seat per month. Business AI adds team capacity planning, advanced dashboards/reports, Gantt charts, time tracking, permissions/access controls, central billing and priority support.",
+    "The pricing page offers both monthly and annual billing and advertises 33% savings for annual payment. It lists additional credits at $0.25 per 100 for Pro AI and $0.19 per 100 for Business AI. Because billing-cycle toggles and credit usage affect the final invoice, the live checkout should be checked before purchase.",
+    "Motion offers a free trial that can be cancelled; the reviewed pricing page does not advertise a permanent free plan.",
+    "Motion is best suited to users and teams willing to maintain structured task estimates, priorities and deadlines so the scheduler can build a realistic plan. Its main differentiator is active scheduling and re-planning, not simply storing tasks in a board."
+  ]
+}
