@@ -192,17 +192,6 @@
         "free-friendly"
       ]
     },
-    "Flowise": {
-      "tasks": [
-        "coding",
-        "automation"
-      ],
-      "traits": [
-        "open-source",
-        "easy",
-        "control"
-      ]
-    },
     "Gamma": {
       "tasks": [
         "design"
@@ -329,14 +318,14 @@
         "free-friendly"
       ]
     },
-    "Luma Dream Machine": {
+    "Luma App": {
       "tasks": [
+        "images",
         "video"
       ],
       "traits": [
-        "easy",
-        "free-friendly",
-        "control"
+        "control",
+        "easy"
       ]
     },
     "Make": {
@@ -346,6 +335,26 @@
       "traits": [
         "easy",
         "free-friendly"
+      ]
+    },
+    "Manage AI": {
+      "tasks": [
+        "research",
+        "writing",
+        "automation"
+      ],
+      "traits": [
+        "control"
+      ]
+    },
+    "Microsoft Agent Framework": {
+      "tasks": [
+        "coding",
+        "automation"
+      ],
+      "traits": [
+        "open-source",
+        "control"
       ]
     },
     "Midjourney": {
@@ -458,6 +467,18 @@
       "traits": [
         "easy",
         "free-friendly"
+      ]
+    },
+    "Vibe": {
+      "tasks": [
+        "writing",
+        "research",
+        "coding",
+        "automation"
+      ],
+      "traits": [
+        "easy",
+        "control"
       ]
     },
     "Zapier": {
