@@ -9,6 +9,8 @@ on:
       - "vite.config.js"
       - "scripts/components-entry.jsx"
       - "scripts/creative-ai-components.css"
+      - "scripts/test-components.mjs"
+      - "index.html"
       - "vendor/react-bits/**"
 
 permissions:
@@ -32,6 +34,10 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Build isolated component bundle
         run: npm run build:components
+      - name: Install Chromium for browser smoke test
+        run: npx playwright install --with-deps chromium
+      - name: Test homepage components in Chromium
+        run: npm run test:components:browser
       - name: Copy static bundle into the Pages source tree
         run: |
           mkdir -p scripts
