@@ -32,14 +32,15 @@ class CatalogReviewBatchSevenTests(unittest.TestCase):
     def test_elicit_description_reflects_the_current_research_agent(self):
         description = self.rows["Elicit"][2].lower()
         self.assertIn("research agent", description)
-        self.assertIn("systematic", description)
+        self.assertIn("systematic-review", self.reviews["Elicit"]["userValue"].lower())
 
     def test_suno_commercial_rights_caveat_is_preserved(self):
-        self.assertIn("plan-specific commercial rights", self.reviews["Suno"]["userValue"])
+        self.assertIn("commercial-use rights", self.reviews["Suno"]["userValue"])
+        self.assertIn("plans distinguish", self.reviews["Suno"]["userValue"])
 
     def test_llamaindex_includes_open_source_and_hosted_offerings(self):
         self.assertEqual(self.rows["LlamaIndex"][4], "Open source / Paid")
-        self.assertIn("managed", self.rows["LlamaIndex"][2].lower())
+        self.assertIn("hosted document platform", self.rows["LlamaIndex"][2].lower())
 
     def test_batch_audit_log_matches_review_manifest(self):
         self.assertEqual(self.audit["batch"], "catalog-review-batch-7")
