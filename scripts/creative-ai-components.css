@@ -48,3 +48,8 @@ body.ca-components-ready .top>.nav{display:none!important}
 @media(prefers-reduced-motion:reduce){
  .ca-hero-effects{display:none}
 }
+
+body.ca-components-ready .home-page .catalog-facts{display:none!important}
+body.ca-components-ready .logo-loop-section{display:none!important}
+#creativeAiHeroEffectsMount{position:absolute;inset:0;z-index:0;pointer-events:none}
+#creativeAiHeroAccentMount,#creativeAiMetricsMount{position:relative;z-index:2}
