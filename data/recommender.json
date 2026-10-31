@@ -479,6 +479,16 @@
         "easy",
         "control"
       ]
+    },
+    "Manage AI": {
+      "tasks": [
+        "research",
+        "writing",
+        "automation"
+      ],
+      "traits": [
+        "control"
+      ]
     }
   }
 }
