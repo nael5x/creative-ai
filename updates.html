@@ -7,6 +7,7 @@
   <meta name="description" content="Browse recent official-source updates monitored by Creative AI.">
   <link rel="stylesheet" href="styles/design-system.css">
   <link rel="stylesheet" href="styles/discovery-hub.css">
+  <link rel="stylesheet" href="styles/creative-ai-theme.css">
 </head>
 <body class="discovery-redesign">
 <main class="wrap discovery-page">
@@ -43,4 +44,5 @@ $("lang").onclick=()=>{lang=lang==="en"?"ar":"en";apply()};$("search").oninput=e
 fetch("data/updates.json",{cache:"default"}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{feed=data;apply()}).catch(()=>{$("updateList").innerHTML='<div class="empty">Unable to load updates.</div>'});
 apply();
 </script>
+<script src="scripts/creative-ai-effects.js" defer></script>
 </body></html>
