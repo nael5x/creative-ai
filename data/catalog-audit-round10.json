@@ -116,6 +116,21 @@
       ]
     },
     {
+      "name": "PlayHT",
+      "category": "Voice & audio",
+      "description": "AI text-to-speech and voice-generation platform with Play3.0-mini and PlayDialog models, voice cloning, multilingual speech generation and low-latency streaming APIs.",
+      "why": "For creators and developers who need expressive narration, voice cloning or real-time multilingual speech in apps and media workflows; official documentation continues to describe current models and API endpoints.",
+      "availability": "Pricing varies",
+      "url": "https://docs.play.ht/reference/models",
+      "evidenceUrls": [
+        "https://docs.play.ht/reference/models",
+        "https://docs.play.ht/reference/api-getting-started",
+        "https://docs.play.ht/reference/playht-tts-websocket-api",
+        "https://docs.play.ht/reference/python-sdk"
+      ],
+      "reviewType": "recheck"
+    },
+    {
       "name": "Semantic Kernel",
       "category": "AI development",
       "description": "Open-source SDK for integrating AI models, plugins, memory and orchestration into .NET and Python applications. It continues to receive releases; Microsoft Agent Framework is a newer agent-focused option, not a notice that Semantic Kernel has been discontinued.",
@@ -142,6 +157,20 @@
         "https://blog.superhuman.com/introducing-superhuman/",
         "https://help.superhuman.com/hc/en-us/articles/46005755069197-Superhuman-Suite"
       ]
+    },
+    {
+      "name": "Tabnine",
+      "category": "Coding",
+      "description": "AI coding assistant for code completion, chat and agentic development workflows, with code review, code explanation, refactoring and enterprise privacy/deployment controls. The product remains active under Tricentis.",
+      "why": "For developers and engineering teams that need context-aware coding assistance, agentic workflows and enterprise controls inside supported IDEs; Tabnine's official release notes continue to document active releases.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.tabnine.com/ai-code-assistant/",
+      "evidenceUrls": [
+        "https://www.tabnine.com/ai-code-assistant/",
+        "https://docs.tabnine.com/main/administering-tabnine/release-notes",
+        "https://docs.tabnine.com/main/getting-started/tabnine-agent"
+      ],
+      "reviewType": "recheck"
     },
     {
       "name": "Topaz Video",
@@ -436,6 +465,32 @@
     "Historical catalog batch files are retained as provenance; active catalog, lifecycle, recommender and release-monitor surfaces are updated.",
     "No popularity, traffic, revenue, ranking or customer-count claims were used as acceptance evidence.",
     "AutoGen is archived and no longer maintained; Microsoft explicitly says it will provide no bug fixes, security fixes, new features or support, warns against production use, and recommends Microsoft Agent Framework for new projects.",
-    "Semantic Kernel remains active and is retained: Microsoft's official GitHub releases show ongoing Python and .NET releases, including Python 1.45.0 on 2026-10-06. Agent Framework is a newer agent-focused path, not evidence that Semantic Kernel has been discontinued."
+    "Semantic Kernel remains active and is retained: Microsoft's official GitHub releases show ongoing Python and .NET releases, including Python 1.45.0 on 2026-10-06. Agent Framework is a newer agent-focused path, not evidence that Semantic Kernel has been discontinued.",
+    "Rechecked two earlier exclusions that had relied on homepage/redirect failures: PlayHT is restored based on its current first-party model/API documentation; Tabnine is restored based on its current product page and active first-party release notes. Neither is classified as discontinued."
+  ],
+  "rechecked": [
+    {
+      "name": "PlayHT",
+      "previousDecision": "rejected",
+      "newDecision": "accepted",
+      "reason": "First-party documentation remains live and documents current Play3.0-mini and PlayDialog models plus active HTTP/WebSocket APIs. The earlier homepage fetch failure was not evidence of product discontinuation.",
+      "evidenceUrls": [
+        "https://docs.play.ht/reference/models",
+        "https://docs.play.ht/reference/api-getting-started",
+        "https://docs.play.ht/reference/playht-tts-websocket-api",
+        "https://docs.play.ht/reference/python-sdk"
+      ]
+    },
+    {
+      "name": "Tabnine",
+      "previousDecision": "rejected",
+      "newDecision": "accepted",
+      "reason": "The official product page still markets Tabnine as an AI coding assistant acquired by Tricentis, and first-party release notes show active v6.0.0 releases in March 2026 plus current Tabnine Agent documentation. The root-domain redirect was not evidence of product discontinuation.",
+      "evidenceUrls": [
+        "https://www.tabnine.com/ai-code-assistant/",
+        "https://docs.tabnine.com/main/administering-tabnine/release-notes",
+        "https://docs.tabnine.com/main/getting-started/tabnine-agent"
+      ]
+    }
   ]
 }
