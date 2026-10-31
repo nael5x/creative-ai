@@ -200,3 +200,22 @@ a{color:inherit}
   .ui-card-interactive,.ui-button{transition:none}
   .ui-card-interactive:hover{transform:none}
 }
+
+
+/* Global motion accessibility and safe interaction defaults. */
+:where(a,button,input,select,textarea,[tabindex]):focus-visible{
+  outline:2px solid rgba(103,232,189,.82);
+  outline-offset:3px;
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important}
+  *,*:before,*:after{
+    scroll-behavior:auto!important;
+    animation-duration:.01ms!important;
+    animation-iteration-count:1!important;
+    transition-duration:.01ms!important;
+  }
+}
+@media(hover:none){
+  .ui-card-interactive:hover{transform:none}
+}
