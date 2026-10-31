@@ -21,7 +21,7 @@ import '../vendor/react-bits/ChromaGrid.css';
 import './creative-ai-components.css';
 
 // Component islands load their heavy visuals only when their section approaches the viewport.
-// Keep only the latest hashed chunks beside the static component entrypoint.
+// Keep the current hashed chunks beside the static component entrypoint.
 const PALETTE = ['#b99aff', '#8b5cf6', '#6d5dfc', '#d5c3ff'];
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const iconFor = url => { try { return new URL('/favicon.ico', new URL(url).origin).href; } catch { return ''; } };
