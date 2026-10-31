@@ -9,7 +9,7 @@ const LogoLoop = lazy(() => import('../vendor/react-bits/LogoLoop.jsx'));
 const AnimatedContent = lazy(() => import('../vendor/react-bits/AnimatedContent.jsx'));
 const PillNav = lazy(() => import('../vendor/react-bits/PillNav.jsx'));
 const ChromaGrid = lazy(() => import('../vendor/react-bits/ChromaGrid.jsx'));
-import CountUp from '../vendor/react-bits/CountUp.jsx';
+const CountUp = lazy(() => import('../vendor/react-bits/CountUp.jsx'));
 import '../vendor/react-bits/SideRays.css';
 import '../vendor/react-bits/Antigravity.css';
 import '../vendor/react-bits/MagicBento.css';
@@ -63,9 +63,9 @@ function Navigation() {
 
 function Metrics({ tools, categories, sources }) {
   return <div className="ca-metrics" aria-label="Verified catalog metrics">
-    <div><strong><CountUp to={tools} duration={1.35} trigger="view" separator="," /></strong><span>Maintained tools</span></div>
-    <div><strong><CountUp to={categories} duration={1.2} trigger="view" /></strong><span>Categories</span></div>
-    <div><strong><CountUp to={sources} duration={1.1} trigger="view" /></strong><span>Monitored sources</span></div>
+    <div><strong><Suspense fallback={tools.toLocaleString()}><CountUp to={tools} duration={1.35} trigger="view" separator="," /></Suspense></strong><span>Maintained tools</span></div>
+    <div><strong><Suspense fallback={categories}><CountUp to={categories} duration={1.2} trigger="view" /></Suspense></strong><span>Categories</span></div>
+    <div><strong><Suspense fallback={sources}><CountUp to={sources} duration={1.1} trigger="view" /></Suspense></strong><span>Monitored sources</span></div>
   </div>;
 }
 
