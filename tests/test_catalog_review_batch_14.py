@@ -59,7 +59,7 @@ class CatalogReviewBatch14Tests(unittest.TestCase):
         self.assertEqual(review["decision"], "rejected")
         self.assertIn("co-citation", review["reason"])
         self.assertIn("bibliographic coupling", review["reason"])
-        self.assertIn("AI capability", review["reason"])
+        self.assertIn("AI/ML or generative-AI functionality", review["reason"])
 
     def test_current_batch_metadata(self):
         self.assertEqual(len(self.audit["superseded"]), 1)
