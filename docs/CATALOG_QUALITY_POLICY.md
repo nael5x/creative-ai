@@ -39,6 +39,21 @@ The manifest also records `enforcedForAdditionsAtOrAfter`. Any catalog entry wit
 
 Rejected candidates should stay in review notes or audit records so the same low-quality entries are not repeatedly reconsidered without new evidence.
 
+## Unresolved and sunsetting candidates
+
+A failed homepage request is not proof that a product has shut down. An unresolved status-watch record is not a claim that the product has shut down; it records that current availability cannot yet be confirmed. HTTP 403/429 responses, bot protection, timeouts, DNS failures, redirects and temporary network errors must not be used alone to classify a tool as discontinued.
+
+When a product cannot currently be verified and no official shutdown statement exists, keep it out of the active catalog until first-party availability can be confirmed, and record it under `statusWatch` in `data/catalog-quality.json` with:
+- `status: "unresolved"`;
+- the last-known official URL and checked URLs;
+- the last-checked date;
+- a plain-language reason that explicitly avoids claiming discontinuation;
+- a concrete next action that could resolve the status.
+
+When an official sunset is announced but has not yet taken effect, use `status: "sunsetting"` and record the exact `sunsetDate`, official evidence and current access restrictions. Do not describe the product as already shut down while existing users can still use it.
+
+Status-watch candidates are excluded from the active catalog and are not accepted or rejected quality reviews. They must remain visible on `quality.html` so readers can distinguish unresolved availability from confirmed retirement.
+
 ## Existing catalog audit
 
 The current catalog predates this strict gate. Existing entries should therefore be audited in batches. A tool not yet present in `data/catalog-quality.json` is **pending re-audit**; that state does not imply that the tool is unsafe or low quality. It only means the stricter review has not yet been completed.

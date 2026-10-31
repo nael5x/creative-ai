@@ -157,6 +157,7 @@ def main() -> None:
 
     accepted_quality_names: set[str] = set()
     quality_review_count = 0
+    status_watch_count = 0
     enforcement_started: datetime | None = None
 
     if not QUALITY_PATH.exists():
@@ -227,6 +228,55 @@ def main() -> None:
                 if not isinstance(reason, str) or not reason.strip():
                     errors.append(f"{prefix} {name}: rejected review must include a concrete reason")
 
+        status_watch = quality.get("statusWatch", [])
+        if not isinstance(status_watch, list):
+            errors.append("data/catalog-quality.json: statusWatch must be an array")
+            status_watch = []
+        status_watch_count = len(status_watch)
+        seen_status_names: set[str] = set()
+        for status_index, item in enumerate(status_watch, start=1):
+            prefix = f"status watch #{status_index}"
+            if not isinstance(item, dict):
+                errors.append(f"{prefix}: record must be an object")
+                continue
+            name = item.get("name")
+            status = item.get("status")
+            official_url = item.get("officialUrl")
+            checked_urls = item.get("checkedUrls")
+            evidence_urls = item.get("evidenceUrls", [])
+            last_checked = item.get("lastCheckedAt")
+            reason = item.get("reason")
+            next_action = item.get("nextAction")
+
+            if not isinstance(name, str) or not name.strip():
+                errors.append(f"{prefix}: name must be a non-empty string")
+                continue
+            if name in seen_status_names:
+                errors.append(f"{prefix}: duplicate status-watch record for {name}")
+            seen_status_names.add(name)
+            if name in catalog_by_name:
+                errors.append(f"{prefix} {name}: status-watch candidate must not be in the active catalog")
+            if name in seen_quality_names:
+                errors.append(f"{prefix} {name}: candidate cannot also have an accepted/rejected quality review")
+            if status not in {"unresolved", "sunsetting"}:
+                errors.append(f"{prefix} {name}: status must be unresolved or sunsetting")
+            if not isinstance(official_url, str) or not valid_url(official_url):
+                errors.append(f"{prefix} {name}: officialUrl must be a valid http(s) URL")
+            if not isinstance(checked_urls, list) or not checked_urls or not all(isinstance(url, str) and valid_url(url) for url in checked_urls):
+                errors.append(f"{prefix} {name}: checkedUrls must contain valid http(s) URLs")
+            if not isinstance(evidence_urls, list) or not all(isinstance(url, str) and valid_url(url) for url in evidence_urls):
+                errors.append(f"{prefix} {name}: evidenceUrls must be an array of valid http(s) URLs")
+            if not valid_iso_date(last_checked):
+                errors.append(f"{prefix} {name}: lastCheckedAt must be YYYY-MM-DD")
+            if not isinstance(reason, str) or not reason.strip():
+                errors.append(f"{prefix} {name}: reason must explain the unresolved or sunsetting status")
+            if not isinstance(next_action, str) or not next_action.strip():
+                errors.append(f"{prefix} {name}: nextAction must describe what would resolve the status")
+            if status == "sunsetting" and not valid_iso_date(item.get("sunsetDate")):
+                errors.append(f"{prefix} {name}: sunsetting status requires a YYYY-MM-DD sunsetDate")
+            if status == "unresolved" and item.get("sunsetDate") is not None:
+                errors.append(f"{prefix} {name}: unresolved status must not claim a sunsetDate")
+
     if enforcement_started is not None:
         for name, record in lifecycle_records.items():
             if not isinstance(record, dict) or record.get("event") != "added":
@@ -245,7 +295,7 @@ def main() -> None:
 
     print(
         f"Validated {len(rows)} tool records, lifecycle metadata, verified facts, "
-        f"and {quality_review_count} quality reviews"
+        f"and {quality_review_count} quality reviews, and {status_watch_count} status-watch records"
     )
 
 

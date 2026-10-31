@@ -1983,29 +1983,6 @@
       "reason": "Removed because the former product domain is parked/for sale rather than serving an active AI product."
     },
     {
-      "name": "Coral AI",
-      "officialUrl": "https://www.getcoralai.com/",
-      "evidenceUrls": [
-        "https://getcoralai.com/"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed from the trusted active catalog because the maintained canonical source is currently not reliably reachable and no first-party product source could be verified during this audit.",
-      "decision": "rejected",
-      "reason": "Removed from the trusted active catalog because the maintained canonical source is currently not reliably reachable and no first-party product source could be verified during this audit."
-    },
-    {
-      "name": "CSM AI",
-      "officialUrl": "https://www.csm.ai/",
-      "evidenceUrls": [
-        "https://csm.ai/",
-        "https://www.alpha3d.io/csm-alternative"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed because the standalone Common Sense Machines product is no longer reachable after its 2026 acquisition; the catalog should not point users to a discontinued standalone service.",
-      "decision": "rejected",
-      "reason": "Removed because the standalone Common Sense Machines product is no longer reachable after its 2026 acquisition; the catalog should not point users to a discontinued standalone service."
-    },
-    {
       "name": "Databricks Genie",
       "officialUrl": "https://www.databricks.com/product/ai-bi/genie",
       "evidenceUrls": [
@@ -2029,30 +2006,6 @@
       "userValue": "Removed from active discovery because Dora's first-party shutdown page states that Dora shut down on May 1, 2026.",
       "decision": "rejected",
       "reason": "Removed from active discovery because Dora's first-party shutdown page states that Dora shut down on May 1, 2026."
-    },
-    {
-      "name": "Firebase Studio",
-      "officialUrl": "https://firebase.studio/",
-      "evidenceUrls": [
-        "https://firebase.google.com/docs/studio/get-started",
-        "https://firebase.google.com/docs/studio/migrating-project"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity.",
-      "decision": "rejected",
-      "reason": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity."
-    },
-    {
-      "name": "Hour One",
-      "officialUrl": "https://hourone.ai/",
-      "evidenceUrls": [
-        "https://www.wix.com/press-room/home/post/wix-acquires-hour-one-to-expand-generative-ai-capabilities-and-accelerate-product-innovation",
-        "https://hourone.ai/"
-      ],
-      "reviewedAt": "2026-09-14",
-      "userValue": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist.",
-      "decision": "rejected",
-      "reason": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist."
     },
     {
       "name": "PlayHT",
@@ -2668,5 +2621,69 @@
     "recommenderProfilesAdded": 3,
     "recommenderProfilesRenamed": 1,
     "recommenderProfilesRemoved": 1
+  },
+  "statusWatch": [
+    {
+      "name": "Coral AI",
+      "status": "unresolved",
+      "officialUrl": "https://www.getcoralai.com/",
+      "checkedUrls": [
+        "https://www.getcoralai.com/",
+        "https://getcoralai.com/"
+      ],
+      "evidenceUrls": [],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "The last-known official domains did not yield a verifiable product page during this review. No official shutdown notice or current first-party product documentation was found. This is unresolved; the product is not declared discontinued.",
+      "nextAction": "Recheck the official site or obtain first-party product documentation or a status announcement."
+    },
+    {
+      "name": "CSM AI",
+      "status": "unresolved",
+      "officialUrl": "https://www.csm.ai/",
+      "checkedUrls": [
+        "https://www.csm.ai/",
+        "https://csm.ai/"
+      ],
+      "evidenceUrls": [],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "An acquisition by Google has been reported, but no first-party post-acquisition product availability or shutdown statement was found. CSM AI remains excluded from the active directory pending official confirmation; it is not classified as discontinued.",
+      "nextAction": "Look for an official Google or CSM statement identifying the current product destination or confirming its closure."
+    },
+    {
+      "name": "Firebase Studio",
+      "status": "sunsetting",
+      "officialUrl": "https://firebase.google.com/docs/studio/migrating-project",
+      "checkedUrls": [
+        "https://firebase.studio/"
+      ],
+      "evidenceUrls": [
+        "https://firebase.google.com/docs/studio/migrating-project",
+        "https://firebase.google.com/support/release-notes/firebase-studio"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "sunsetDate": "2027-03-22",
+      "reason": "Google confirms new workspace creation and new user signup were disabled on 2026-06-22. Existing workspaces remain usable until 2027-03-22, when Firebase Studio shuts down. It is excluded from new-user discovery but is not described as already shut down.",
+      "nextAction": "Recheck after 2027-03-22 and direct existing users to Google's migration guide."
+    },
+    {
+      "name": "Hour One",
+      "status": "unresolved",
+      "officialUrl": "https://hourone.ai/",
+      "checkedUrls": [
+        "https://hourone.ai/"
+      ],
+      "evidenceUrls": [
+        "https://www.wix.com/press-room/home/post/wix-acquires-hour-one-to-expand-generative-ai-capabilities-and-accelerate-product-innovation"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "Wix's official press release confirms acquisition of Hour One's team and technology, but no current standalone product page or official shutdown statement was verified. It is excluded pending confirmation whether the product remains independently usable or has been integrated into Wix; this is not a claim that the technology ceased to exist.",
+      "nextAction": "Verify current standalone availability or an official migration/product transition."
+    }
+  ],
+  "lastStatusWatchReviewAt": "2026-10-31",
+  "lastStatusWatchReviewSummary": {
+    "unresolved": 3,
+    "sunsetting": 1,
+    "total": 4
   }
 }
