@@ -26,7 +26,7 @@ class CatalogReviewBatch24Tests(unittest.TestCase):
         self.assertEqual(accepted, 399)
         self.assertEqual(rejected, 29)
         self.assertEqual(len(self.catalog) - accepted, 204)
-        self.assertEqual(len(self.quality["tools"]), 427)
+        self.assertEqual(len(self.quality["tools"]), 428)
         self.assertEqual(len(self.lifecycle), len(self.catalog))
         self.assertEqual(set(self.rows), set(self.lifecycle))
 
