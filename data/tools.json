@@ -2402,26 +2402,26 @@
   [
     "Loudly",
     "Music",
-    "AI music generation and creator platform for producing customizable tracks and sound ideas.",
-    "For video creators and marketers who need fast music variations for content.",
-    "Free tier / Paid",
+    "AI music creation and audio production platform with selectable proprietary and partner models for text-to-music, instrumental and vocal track generation, remixing, stem separation, AI mastering, SongDNA analysis, distribution and API-based audio infrastructure. Loudly says its own models are rights-cleared by design and partner models are integrated under commercial agreements.",
+    "For musicians, producers, video creators and platforms that need original music, remix and stem workflows or music-generation APIs in one production system; check the license attached to the plan and model before commercial release.",
+    "Free generation / Paid license and plans",
     "https://www.loudly.com/"
   ],
   [
     "Lovable",
     "Web apps",
-    "Build web app prototypes with AI and natural language.",
-    "For turning a product idea into a working web app starting point.",
-    "Free tier / Paid",
-    "https://lovable.dev/"
+    "AI software builder that turns natural-language instructions into working web applications with screens, frontend logic, databases, authentication, integrations, hosting and security scanning. Users can refine the generated project through chat or edit the underlying code directly, then publish it from the same workspace.",
+    "For founders, product teams and developers who want to turn an idea into a deployed web app or internal tool quickly, while retaining access to the generated code and backend.",
+    "Free tier / Paid credits",
+    "https://lovable.dev/build/app-builder"
   ],
   [
     "LOVO",
     "Voice & audio",
-    "AI voiceover and speech generation platform with editing and localization tools.",
-    "For creators producing narration and character voices across languages.",
-    "Free tier / Paid",
-    "https://lovo.ai/"
+    "Genny by LOVO is an AI content and video-production workspace combining expressive text-to-speech voices, voice cloning, AI scriptwriting, image and sound generation, automatic subtitles and a timeline-based video editor. LOVO Studio is the older standalone TTS product; Genny is the current all-in-one platform.",
+    "For educators, marketers, creators and production teams making narrated videos, training content and multilingual voiceovers who want voice generation and editing in one browser workspace.",
+    "Free trial / Paid plans and credits",
+    "https://lovo.ai/genny"
   ],
   [
     "LTX Studio",
@@ -2442,34 +2442,34 @@
   [
     "Luminance",
     "Legal",
-    "AI legal platform for contract generation, review, negotiation and due-diligence workflows.",
-    "For legal teams working with large volumes of contracts and transaction documents.",
-    "Paid",
-    "https://www.luminance.com/"
+    "Enterprise legal AI and contract-intelligence platform for drafting, reviewing, redlining, negotiating, analyzing and managing agreements. Its Lumi assistant and specialized agents apply organization playbooks, templates and negotiation precedent, surface deviations and risks, generate proposed markups and route exceptions for legal review.",
+    "For in-house legal and contract teams processing large agreement volumes who need AI-assisted review and negotiation grounded in company-approved positions; the platform augments legal professionals rather than replacing their judgment.",
+    "Enterprise / Request demo",
+    "https://www.luminance.com/platform/product"
   ],
   [
     "Maestra",
     "Translation",
-    "AI transcription, subtitle, translation and voiceover platform.",
-    "For teams turning audio and video into multilingual captions and dubbed content.",
-    "Free tier / Paid",
+    "AI media-localization platform for live and on-demand transcription, translation, subtitles, dubbing and voice generation across 125+ languages. It supports speaker-aware transcription, subtitle editing and export, AI voiceovers, voice cloning, lip sync and real-time translation for meetings, streams and events.",
+    "For creators, educators, media teams and businesses that need to turn audio and video into multilingual captions, transcripts and dubbed versions without stitching together separate tools.",
+    "Free tier / Paid plans and credits",
     "https://maestra.ai/"
   ],
   [
     "Mage",
     "Image generation",
-    "Browser-based generative image platform for prompt-driven image creation.",
-    "For users who want a straightforward interface for creating AI artwork online.",
-    "Free tier / Paid",
+    "Browser-based AI creative platform with a broad model library for image generation and editing, plus Mage Agent, which can take a natural-language creation brief and coordinate generation. The current Agent is marked beta and its outputs are delivered through Mage Gems; model availability and generation limits vary by plan.",
+    "For creators who want to experiment with different image models and styles in one interface, and use a prompt-driven agent for multi-step image creation.",
+    "Free tier / Paid credits",
     "https://www.mage.space/"
   ],
   [
     "MagicSchool AI",
     "Education",
-    "AI platform for educators with lesson, planning, communication and classroom-support tools.",
-    "For teachers who want education-specific generators and workflow assistance.",
-    "Free tier / Paid",
-    "https://www.magicschool.ai/"
+    "AI platform for K–12 teachers, students and school districts, with 80+ teacher tools and 50+ student tools for lesson planning, differentiation, worksheets, presentations, quizzes, rubrics, writing feedback, research support and guided tutoring. It routes tasks to multiple language models within classroom-specific safety, moderation and district controls.",
+    "For educators and schools that want teaching and learning workflows designed for classroom use, with teacher oversight and school-level privacy and governance rather than a general-purpose chatbot.",
+    "Free teacher tier / Paid Plus and district plans",
+    "https://www.magicschool.ai/magic-tools"
   ],
   [
     "Magnific",
@@ -2498,66 +2498,50 @@
   [
     "MarketMuse",
     "Marketing",
-    "AI content strategy and optimization platform for planning topical coverage and improving articles.",
-    "For content organizations working on large SEO libraries and editorial planning.",
-    "Paid",
+    "AI content-strategy and optimization platform that analyzes a site's content inventory and search landscape to identify topical authority, competitor gaps and personalized ranking difficulty, then produces content plans, topic clusters, briefs and page-level optimization recommendations. MarketMuse became part of Siteimprove in 2024 and remains an active product.",
+    "For SEO teams, publishers and content strategists planning large content libraries who need data-backed decisions about what to create, update and cover more comprehensively.",
+    "Free tier / Paid plans",
     "https://www.marketmuse.com/"
-  ],
-  [
-    "MarsCode",
-    "Coding",
-    "AI coding environment and developer assistant for code generation, chat and project workflows.",
-    "For developers who want AI assistance closely integrated with an online development environment.",
-    "Free tier / Paid",
-    "https://www.marscode.com/"
-  ],
-  [
-    "Masterpiece X",
-    "3D",
-    "Generative 3D creation platform for producing models from prompts and references.",
-    "For creators experimenting with text-to-3D and rapid asset prototyping.",
-    "Free tier / Paid",
-    "https://www.masterpiecex.com/"
   ],
   [
     "Mastra",
     "AI development",
-    "TypeScript framework for building AI agents, workflows, RAG and evaluations.",
-    "For JavaScript teams creating production agent systems with a code-first developer experience.",
-    "Open source",
-    "https://mastra.ai/"
+    "Open-source TypeScript framework for building AI applications and agents, with model routing, agents and tools, stateful workflows, memory, workspaces, RAG storage, evaluations, tracing and a local development Studio. The core framework is Apache-2.0; selected enterprise modules use a separate Mastra Enterprise License.",
+    "For TypeScript teams building production AI agents and applications who want a code-first framework with integrated workflow, memory, evaluation and observability primitives.",
+    "Open source core / Enterprise modules and services",
+    "https://mastra.ai/docs"
   ],
   [
     "Maven AGI",
     "Customer support",
-    "AI customer-support agent platform for resolving questions and assisting service teams.",
-    "For companies building automated customer-service experiences connected to business knowledge.",
-    "Paid",
-    "https://www.mavenagi.com/"
+    "Enterprise AI agent platform for customer experience across chat, email, voice and web. A shared reasoning engine connects enterprise knowledge and systems, retrieves version-aware information and performs actions through APIs; Maven also offers Agent Designer for testing and tuning agents and Agent Assist for human support teams.",
+    "For large support organizations that want AI agents to resolve multi-step customer requests across channels and systems, while integrating with their existing helpdesk, CRM and telephony stack.",
+    "Enterprise / Request demo",
+    "https://www.mavenagi.com/product/agent-platform"
   ],
   [
     "MaxAI.me",
     "Productivity",
-    "Browser AI assistant for reading, writing, search and webpage workflows.",
-    "For knowledge workers who want one assistant layered onto common browser tasks.",
-    "Free tier / Paid",
-    "https://www.maxai.me/"
+    "Browser and web AI assistant that adds multi-model chat and contextual tools to everyday web work. It can summarize and question webpages, YouTube videos and PDFs, analyze images, search the web, translate and rewrite text, draft replies and generate content or images through its browser extension and web app.",
+    "For knowledge workers who want a single assistant available across websites and common browser tasks, while using connected model providers rather than training or hosting its own foundation model.",
+    "Free tier / Paid plans",
+    "https://www.maxai.me/features/browser-ai-assistant/"
   ],
   [
     "MeetGeek",
     "Meetings",
-    "AI meeting recorder and assistant for transcripts, summaries and workflow automation.",
-    "For teams that want automated notes and searchable meeting history.",
-    "Free tier / Paid",
+    "AI meeting assistant and automation platform for online, hybrid and in-person conversations. It offers bot-based recording or bot-free capture through desktop and mobile apps, transcription, summaries, meeting chat, team analytics, workflows and APIs; its Meeting Agent can also act as a voice agent for calls.",
+    "For teams that need searchable meeting records, automatic follow-ups and workflow automation across video meetings, desktop conversations and in-person discussions.",
+    "Free tier / Paid plans",
     "https://meetgeek.ai/"
   ],
   [
     "Mem",
     "Knowledge work",
-    "AI-assisted notes and knowledge workspace for capture, retrieval and synthesis.",
-    "For people who want a searchable personal knowledge base with AI help.",
-    "Free tier / Paid",
-    "https://mem.ai/"
+    "AI knowledge workspace combining notes, meeting capture and Mem Agent. The Agent builds a working picture of tasks, projects and goals from notes and connected sources, surfaces relevant context through Heads Up, answers workspace-wide questions, organizes notes and can run routines and follow-ups. Mem supports voice capture, meeting notes, desktop/mobile/web apps and MCP connections to external AI tools.",
+    "For individuals and teams who want a living, searchable knowledge base that not only stores notes but connects decisions, projects and follow-ups and proactively brings relevant context back when needed.",
+    "Free tier / Paid plans",
+    "https://get.mem.ai/"
   ],
   [
     "Merlin",
@@ -4328,6 +4312,14 @@
     "https://www.topazlabs.com/topaz-video"
   ],
   [
+    "TRAE",
+    "Coding",
+    "Cross-platform AI development workspace that unifies the former TraeCode and TraeWork products, with an IDE mode for project editing, code completion, explanation and debugging, and an Agent mode for planning and executing multi-step tasks across projects. TRAE is the successor brand for the MarsCode coding assistant; its plans combine model access, token-based usage and cloud-task limits.",
+    "For software developers and teams who want AI-assisted IDE work and autonomous task execution in one product, with the ability to switch between deep project editing and broader agent workflows.",
+    "Free allowance / Paid plans and usage",
+    "https://www.trae.ai/"
+  ],
+  [
     "Tray.ai",
     "Automation",
     "Enterprise integration and automation platform for building connected workflows and AI-enabled processes.",
@@ -4694,6 +4686,14 @@
     "For small and midsize teams that want AI inside an established applicant-tracking system.",
     "Paid",
     "https://www.workable.com/workable-ai"
+  ],
+  [
+    "WorldEngen",
+    "3D",
+    "AI copilot and editor for 3D production that brings concept art, style guides, greyboxes, assets and scenes into one workspace. Its agents can help create concept art, image kits, greyboxes, videos, 3D models and style guides, and connect with Blender, Unity and Unreal workflows. WorldEngen is the current product from Masterpiece X; the former 3D Web Generator and VR apps are now marked legacy.",
+    "For game, film, simulation and 3D studios that want AI agents to accelerate environment and scene production while artists retain direction and continue working in their established 3D tools.",
+    "7-day free trial / Paid credits",
+    "https://masterpiecex.com/"
   ],
   [
     "Wren AI",
