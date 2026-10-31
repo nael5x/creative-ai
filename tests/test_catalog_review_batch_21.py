@@ -43,7 +43,7 @@ class CatalogReviewBatch21Tests(unittest.TestCase):
             self.assertEqual(review["reviewedAt"], "2026-10-31")
 
     def test_ironclad_is_scoped_as_native_clm_ai(self):
-        self.assertIn("inside Ironclad", self.rows["Ironclad AI"][2])
+        self.assertIn("within Ironclad's contract lifecycle management platform", self.rows["Ironclad AI"][2])
         self.assertIn("not a standalone", self.rows["Ironclad AI"][3])
 
     def test_jamie_is_the_bot_free_meeting_product(self):
@@ -56,7 +56,7 @@ class CatalogReviewBatch21Tests(unittest.TestCase):
         self.assertNotEqual(self.rows["JetBrains AI Assistant"][5], self.rows["JetBrains Junie"][5])
 
     def test_k_health_and_kaedim_have_scoped_descriptions(self):
-        self.assertIn("enterprise", self.rows["K Health"][2].lower())
+        self.assertIn("health systems", self.rows["K Health"][2].lower())
         self.assertIn("PatientGPT", self.rows["K Health"][2])
         self.assertIn("studio-oriented production service", self.rows["Kaedim"][3])
 
