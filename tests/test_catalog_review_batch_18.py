@@ -43,7 +43,7 @@ class CatalogReviewBatch18Tests(unittest.TestCase):
 
     def test_feature_level_entries_are_transparent(self):
         self.assertIn("integrated into the FlexClip editor", self.rows["FlexClip AI"][2])
-        self.assertIn("within Framer", self.rows["Framer AI"][2])
+        self.assertIn("inside Framer", self.rows["Framer AI"][2])
 
     def test_github_and_gitlab_products_are_distinguished(self):
         self.assertIn("Open-source AI agent", self.rows["Gemini CLI"][2])
