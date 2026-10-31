@@ -48,7 +48,22 @@ function Metrics({ tools, categories, sources }) {
   </div>;
 }
 
-function HomeIslands() {
+function HeroEffects() {
+  return <div className="ca-hero-effects" aria-hidden="true"><div className="ca-side-rays"><SideRays rayColor1="#8b5cf6" rayColor2="#c4b5fd" blend={0.62} origin="top-right" speed={0.55} intensity={1.15} spread={1.65} density={4} sharpness={0.34} tilt={-4} falloff={1.9} glow={0.7} saturation={0.82} dust={0.04} followMouse={false} intro opacity={0.58} maxDevicePixelRatio={1.25} /></div><div className="ca-antigravity"><Antigravity count={105} magnetRadius={5} ringRadius={6.5} waveSpeed={0.25} waveAmplitude={0.42} particleSize={0.72} lerpSpeed={0.035} colors={['#8b5cf6','#b99aff','#6d5dfc']} colorMode="conic" autoAnimate particleVariance={0.7} rotationSpeed={0.018} depthFactor={0.7} pulseSpeed={2.2} particleShape="sphere" fieldStrength={8} ambient={0.18} interactive={false} clickBurst={false} intro opacity={0.58} maxDevicePixelRatio={1.2} /></div></div>;
+}
+function HeroAccent() {
+  return <div className="ca-gradient-kicker"><GradientText colors={PALETTE} animationSpeed={12} variant="flow" scale={2} glow={0.18} pauseOnHover>DISCOVER · COMPARE · BUILD</GradientText></div>;
+}
+function HeroMetrics() {
+  const [catalog, setCatalog] = useState([]);
+  const [sources, setSources] = useState(0);
+  useEffect(() => {
+    fetch('data/tools.json').then(r => r.ok ? r.json() : []).then(rows => setCatalog(rows.filter(validTool))).catch(() => {});
+    fetch('data/updates.json').then(r => r.ok ? r.json() : null).then(data => setSources(Array.isArray(data?.sources) ? data.sources.length : 0)).catch(() => {});
+  }, []);
+  return <Metrics tools={catalog.length} categories={new Set(catalog.map(row => row[1])).size} sources={sources} />;
+}
+\nfunction HomeIslands() {
   const [catalog, setCatalog] = useState([]);
   const [sourceCount, setSourceCount] = useState(0);
   useEffect(() => {
@@ -71,12 +86,6 @@ function HomeIslands() {
   const logos = useMemo(() => catalog.slice(0, 12).map(row => ({ src: iconFor(row[5]), alt: row[0], title: row[0], href: row[5] })).filter(item => item.src), [catalog]);
 
   return <>
-    <div className="ca-hero-effects" aria-hidden="true">
-      <div className="ca-side-rays"><SideRays rayColor1="#8b5cf6" rayColor2="#c4b5fd" blend={0.62} origin="top-right" speed={0.55} intensity={1.15} spread={1.65} density={4} sharpness={0.34} tilt={-4} falloff={1.9} glow={0.7} saturation={0.82} dust={0.04} followMouse={false} intro opacity={0.58} maxDevicePixelRatio={1.25} /></div>
-      <div className="ca-antigravity"><Antigravity count={105} magnetRadius={5} ringRadius={6.5} waveSpeed={0.25} waveAmplitude={0.42} particleSize={0.72} lerpSpeed={0.035} colors={['#8b5cf6','#b99aff','#6d5dfc']} colorMode="conic" autoAnimate particleVariance={0.7} rotationSpeed={0.018} depthFactor={0.7} pulseSpeed={2.2} particleShape="sphere" fieldStrength={8} ambient={0.18} interactive={false} clickBurst={false} intro opacity={0.58} maxDevicePixelRatio={1.2} /></div>
-    </div>
-    <div className="ca-gradient-kicker"><GradientText colors={PALETTE} animationSpeed={12} variant="flow" scale={2} glow={0.18} pauseOnHover>DISCOVER · COMPARE · BUILD</GradientText></div>
-    <div className="ca-metrics-mount"><Metrics tools={catalog.length} categories={categories.length ? new Set(catalog.map(row=>row[1])).size : 0} sources={sourceCount} /></div>
     <section className="ca-bento-section">
       <div className="ca-section-heading"><span>THE CREATIVE AI ADVANTAGE</span><h2>From discovery to the right decision.</h2><p>One maintained catalog. Practical ways to find, compare and choose.</p></div>
       <MagicBento columns={3} rowHeight={174} gap={14} radius={20} theme="dark" glowColor="132, 91, 235" textAutoHide={false} enableBorderGlow enableSpotlight enableStars={false} particleCount={0} enableTilt={false} enableMagnetism={false} clickEffect intro items={[
@@ -107,7 +116,7 @@ function mount(id, element) {
 
 function boot() {
   mount('creativeAiNavMount', <Navigation />);
-  mount('creativeAiComponentsMount', <HomeIslands />);
+  mount('creativeAiHeroEffectsMount', <HeroEffects />);\n  mount('creativeAiHeroAccentMount', <HeroAccent />);\n  mount('creativeAiMetricsMount', <HeroMetrics />);\n  mount('creativeAiComponentsMount', <HomeIslands />);
   mount('creativeAiAnimatedMount', <AnimatedIntro />);
 }
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true }); else boot();
