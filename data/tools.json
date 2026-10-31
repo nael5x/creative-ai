@@ -2610,9 +2610,9 @@
   [
     "Microsoft Security Copilot",
     "Cybersecurity",
-    "Generative AI assistant for security investigation, threat analysis and response.",
-    "For security teams working across Microsoft security products and incident workflows.",
-    "Paid",
+    "Enterprise AI assistant and agent platform for security and IT operations. It uses threat intelligence and connected security data to investigate incidents, triage alerts, hunt threats, analyze suspicious scripts, generate KQL queries and reports, and automate repeatable workflows.",
+    "For SOC analysts and security/IT teams that need to investigate threats and coordinate response across Microsoft and supported partner tools. Standalone access requires Azure and Microsoft Entra ID and uses capacity-based SCU billing: Microsoft lists $4 per provisioned SCU-hour and $6 per overage SCU. Eligible Microsoft 365 E5/E7 tenants receive an included monthly SCU allocation. The interface supports Turkish, but Turkish is not among the currently listed model languages; scope agent permissions carefully and keep analysts in control of consequential actions.",
+    "Included with eligible Microsoft 365 E5/E7 / Paid SCU",
     "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot"
   ],
   [
