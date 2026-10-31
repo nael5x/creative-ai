@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-18",
+  "reviewedAt": "2026-10-31",
+  "scope": "Review of the next 15 alphabetically pending active catalog entries, FlexClip AI through Glass Health. All 15 accepted after first-party checks; no removals, supersessions or status-watch changes.",
+  "accepted": [
+    {
+      "name": "FlexClip AI",
+      "category": "Video",
+      "description": "AI-assisted online video creation and editing platform with text-to-video and image-to-video generation, AI scripts and media tools, plus a browser timeline editor for adding voiceovers, subtitles, music, transitions and other finishing edits.",
+      "userValue": "For creators and small teams who want to generate short clips from prompts or still images and finish social, marketing or explainer videos in one browser-based workflow. AI generation is integrated into the FlexClip editor.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.flexclip.com/tools/ai-video-generator/",
+      "evidenceUrls": [
+        "https://www.flexclip.com/tools/ai-video-generator/",
+        "https://help.flexclip.com/en/articles/7266778-what-is-flexclip"
+      ]
+    },
+    {
+      "name": "Flick",
+      "category": "Social media",
+      "description": "Social-media marketing platform combining Iris, an AI assistant for brand-aware brainstorming, captions and planning, with post scheduling, hashtag research, analytics and reporting for supported social channels.",
+      "userValue": "For creators, small businesses and social-media managers who want AI-assisted content planning alongside publishing and performance tools in one workspace.",
+      "availability": "7-day trial / Paid",
+      "url": "https://www.flick.social/",
+      "evidenceUrls": [
+        "https://www.flick.social/",
+        "https://www.flick.social/ai-social-media-assistant"
+      ]
+    },
+    {
+      "name": "Fliki",
+      "category": "Video",
+      "description": "AI video and audio creator that turns ideas, scripts, blog posts and presentations into narrated videos, with AI voices, avatars, voice cloning, subtitles, translation, dubbing and image/video generation tools.",
+      "userValue": "For creators, educators and businesses producing voice-led videos, explainers and multilingual content without recording every narration or assembling every scene manually.",
+      "availability": "Free tier / Paid",
+      "url": "https://fliki.ai/",
+      "evidenceUrls": [
+        "https://fliki.ai/features",
+        "https://fliki.ai/pricing"
+      ]
+    },
+    {
+      "name": "Forethought",
+      "category": "Customer support",
+      "description": "Enterprise customer-experience platform built around AI agents for support discovery, end-to-end issue resolution, ticket triage and agent quality assurance, plus an agentic copilot that suggests answers and next steps inside helpdesks.",
+      "userValue": "For customer-support organizations that want to automate routine customer issues while routing complex cases to human agents with AI assistance and quality monitoring.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://forethought.ai/platform",
+      "evidenceUrls": [
+        "https://forethought.ai/platform",
+        "https://forethought.ai/solutions/ai-customer-service-agent",
+        "https://forethought.ai/platform/assist"
+      ]
+    },
+    {
+      "name": "Framer AI",
+      "category": "Web UI",
+      "description": "AI website-building and management capabilities inside Framer: generate editable pages, sections, copy and visuals from prompts, then use agents to update CMS content, create code components and review accessibility, SEO and design consistency before publishing.",
+      "userValue": "For designers, founders and marketing teams who want to create and refine responsive websites on a visual canvas while using AI for first drafts and iterative site work. This is an AI capability suite within Framer.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.framer.com/ai/",
+      "evidenceUrls": [
+        "https://www.framer.com/ai/",
+        "https://www.framer.com/solutions/ai-website-builder/"
+      ]
+    },
+    {
+      "name": "Frase",
+      "category": "Marketing",
+      "description": "AI SEO and content platform that researches topics, drafts pages in a brand voice, scores content for Google and AI-search visibility, supports topic clusters and site audits, and can publish, monitor and maintain content through FraseCMS or connected CMS platforms.",
+      "userValue": "For content marketers, SEO teams and agencies managing research, writing, optimization and AI-search visibility as a connected workflow.",
+      "availability": "7-day free trial / Paid",
+      "url": "https://www.frase.io/",
+      "evidenceUrls": [
+        "https://www.frase.io/features",
+        "https://www.frase.io/pricing"
+      ]
+    },
+    {
+      "name": "Freed",
+      "category": "Healthcare",
+      "description": "AI clinical documentation assistant that prepares visit context, listens to or records clinician-patient encounters, drafts notes in clinician-specific templates, answers clinical questions with cited evidence, suggests supported billing codes and can push notes into web-based EHR systems.",
+      "userValue": "For licensed clinicians and practices seeking to reduce documentation work while reviewing and approving generated notes, evidence and coding suggestions. It is a clinical workflow assistant, not a substitute for clinician judgment.",
+      "availability": "Paid / Free trial",
+      "url": "https://www.getfreed.ai/",
+      "evidenceUrls": [
+        "https://www.getfreed.ai/features",
+        "https://www.getfreed.ai/"
+      ]
+    },
+    {
+      "name": "Gauth",
+      "category": "Education",
+      "description": "AI homework and study assistant that accepts typed or photographed questions and returns worked, step-by-step explanations across mathematics and other STEM subjects, with saved solution history and additional visual learning tools.",
+      "userValue": "For students who want to understand the working behind a practice problem rather than receive only a final answer; explanations should still be checked against course materials.",
+      "availability": "Free first solution / Paid",
+      "url": "https://www.gauth.io/",
+      "evidenceUrls": [
+        "https://www.gauth.io/",
+        "https://www.gauth.io/about",
+        "https://www.gauthmath.com/"
+      ]
+    },
+    {
+      "name": "Gemini CLI",
+      "category": "Coding",
+      "description": "Open-source AI agent that brings Gemini models into the terminal, where it can inspect and edit local project files, run shell commands, search and fetch the web, use MCP servers and extensions, and support scripted or headless workflows.",
+      "userValue": "For developers who prefer a terminal-native agent for coding, research and repeatable project tasks, with configurable tools, sandboxing and human approval controls.",
+      "availability": "Open source / Free tier and paid model usage",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "evidenceUrls": [
+        "https://github.com/google-gemini/gemini-cli",
+        "https://github.com/google-gemini/gemini-cli/blob/main/docs/index.md"
+      ]
+    },
+    {
+      "name": "Genspark",
+      "category": "AI agents",
+      "description": "AI agent workspace centered on Super Agent, which plans and executes multi-step research, content, analysis, design and coding tasks using connected tools and cloud sandboxes; its Super App brings Super Agent, GenMail, GenTeam and GenCode into a desktop workspace.",
+      "userValue": "For individuals and teams delegating multi-step knowledge work and wanting generated deliverables, connected-app context and coding or communication workflows in one environment.",
+      "availability": "Free tier / Paid credits",
+      "url": "https://www.genspark.ai/",
+      "evidenceUrls": [
+        "https://www.genspark.ai/",
+        "https://www.genspark.ai/helpcenter/super-app",
+        "https://genspark.prod.sspark.ai/helpcenter/super-agent"
+      ]
+    },
+    {
+      "name": "getimg.ai",
+      "category": "Images",
+      "description": "Generative-media studio that selects or lets users choose models for image and video generation, editing and upscaling, and also provides music, speech, headshots, product videos, background cleanup, character consistency, API and MCP access.",
+      "userValue": "For creators and marketing teams producing varied visual and audio assets across multiple models without maintaining separate subscriptions and workflows for every generation task.",
+      "availability": "Paid plans from $15/month (annual billing shown)",
+      "url": "https://getimg.ai/",
+      "evidenceUrls": [
+        "https://getimg.ai/",
+        "https://getimg.ai/pricing",
+        "https://getimg.ai/guides/guide-to-getimg-ai-features"
+      ]
+    },
+    {
+      "name": "Giskard",
+      "category": "AI evaluation",
+      "description": "AI testing and red-teaming platform with an open-source Python library and enterprise Hub for evaluating LLM agents, chatbots, RAG systems and classifiers through behavioral scenarios, quality scans, vulnerability scans, datasets and continuous production evaluation.",
+      "userValue": "For AI developers and organizations that need repeatable quality and security tests for AI applications, including prompt-injection and hallucination checks, before and after deployment.",
+      "availability": "Open-source library / Paid enterprise Hub",
+      "url": "https://www.giskard.ai/",
+      "evidenceUrls": [
+        "https://docs.giskard.ai/",
+        "https://docs.giskard.ai/hub/ui",
+        "https://docs.giskard.ai/oss",
+        "https://docs.giskard.ai/oss/scan"
+      ]
+    },
+    {
+      "name": "GitGuardian",
+      "category": "Cybersecurity",
+      "description": "Credential-security platform that discovers and validates exposed secrets across code, developer devices, collaboration tools and non-human identities, then adds contextual risk scoring, AI-assisted incident prioritization and remediation workflows; includes guardrails for AI coding tools.",
+      "userValue": "For security and engineering teams that need to detect credential exposure, identify ownership and blast radius, and manage remediation across repositories and the wider secrets surface. AI supports parts of the workflow; secret detection also uses dedicated detectors.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.gitguardian.com/platform",
+      "evidenceUrls": [
+        "https://www.gitguardian.com/platform",
+        "https://www.gitguardian.com/"
+      ]
+    },
+    {
+      "name": "GitLab Duo",
+      "category": "Coding",
+      "description": "GitLab's AI capability suite for the software-development lifecycle, spanning code assistance and explanations, security and review support, agentic chat, specialized agents and multi-step flows through the GitLab Duo Agent Platform.",
+      "userValue": "For development teams already using GitLab that want AI assistance and governed agents grounded in repository, issue, CI/CD and project context. Availability depends on GitLab tier, deployment and credits.",
+      "availability": "Free core features / Paid tiers and credits",
+      "url": "https://docs.gitlab.com/user/gitlab_duo/index.html",
+      "evidenceUrls": [
+        "https://docs.gitlab.com/user/gitlab_duo/index.html",
+        "https://docs.gitlab.com/user/duo_agent_platform/",
+        "https://about.gitlab.com/gitlab-duo-agent-platform/"
+      ]
+    },
+    {
+      "name": "Glass Health",
+      "category": "Healthcare",
+      "description": "Clinical AI platform combining ambient visit scribing with evidence-grounded clinical decision support for questions, differential diagnoses and care planning; the current platform also describes patient guidance, care navigation and longitudinal-record reasoning.",
+      "userValue": "For clinicians and healthcare organizations seeking documentation and evidence-supported clinical reasoning workflows. AI-generated suggestions require qualified clinical review and do not replace professional judgment.",
+      "availability": "Paid / Request access",
+      "url": "https://glass.health/",
+      "evidenceUrls": [
+        "https://glass.health/",
+        "https://glass.health/documentation"
+      ]
+    }
+  ],
+  "superseded": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "FlexClip AI and Framer AI are explicitly described as integrated AI capabilities within the wider FlexClip and Framer products, not independent standalone applications.",
+    "Flick's official Iris assistant is embedded in its social marketing workspace and supports brand-aware brainstorming, content writing and planning alongside scheduling, hashtag research and analytics.",
+    "Fliki's current feature catalogue lists 106 tools and includes AI video, voice, avatar, translation, dubbing and image-generation workflows; the description reflects the current creator suite rather than only text-to-video.",
+    "Forethought's current official positioning is a multi-agent CX platform spanning Discover, Solve, Triage and QA agents, plus an agentic copilot for human support agents.",
+    "Freed and Glass Health are described as clinical workflow and decision-support products. Neither entry implies autonomous diagnosis or replaces qualified clinician review.",
+    "Gauth's current official homepage is gauth.io; the older gauthmath.com domain also remains live with related homework-solving and visual-learning features, so the catalog uses gauth.io as the primary URL and records both first-party domains.",
+    "Gemini CLI is verified against Google's official open-source GitHub repository and current documentation; it is a terminal agent, not the separate Gemini API CLI.",
+    "GitGuardian's core credential discovery includes dedicated detectors and validation; AI is used in contextual risk prioritization and AI-tool guardrails. The entry makes this distinction rather than describing the entire platform as generative AI.",
+    "GitLab still documents GitLab Duo as the umbrella for agentic and non-agentic AI capabilities; the newer GitLab Duo Agent Platform is described as the agentic layer rather than treated as an unrelated renamed product.",
+    "Giskard's official documentation confirms both an open-source Python testing library and a commercial Hub for agent evaluation and continuous red teaming.",
+    "getimg.ai's current official site positions it as a broader generative-media studio spanning image, video, music and speech generation, with API and MCP access."
+  ]
+}
