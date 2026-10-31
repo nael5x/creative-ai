@@ -4,6 +4,10 @@ on:
   pull_request:
     paths:
       - "data/tools.json"
+      - "data/tool-lifecycle.json"
+      - "data/verified-facts.json"
+      - "data/catalog-quality.json"
+      - "docs/CATALOG_QUALITY_POLICY.md"
       - "scripts/validate_tools.py"
       - ".github/workflows/validate-tools.yml"
   workflow_dispatch:
@@ -16,5 +20,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate data/tools.json
+      - name: Validate catalog and quality provenance
         run: python scripts/validate_tools.py
