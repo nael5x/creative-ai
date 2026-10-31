@@ -25,7 +25,7 @@ class CatalogReviewBatch15Tests(unittest.TestCase):
         self.assertEqual(len(self.catalog), 606)
         self.assertEqual(accepted, 280)
         self.assertEqual(rejected, 26)
-        self.assertEqual(len(self.catalog) - accepted, 341)
+        self.assertEqual(len(self.catalog) - accepted, 326)
         self.assertEqual(len(self.lifecycle), len(self.catalog))
         self.assertEqual(set(self.rows), set(self.lifecycle))
 
