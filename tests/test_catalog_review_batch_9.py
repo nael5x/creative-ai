@@ -24,10 +24,10 @@ class CatalogReviewBatch9Tests(unittest.TestCase):
     def test_catalog_and_quality_counts_are_reconciled(self):
         accepted = sum(row["decision"] == "accepted" for row in self.quality["tools"])
         rejected = sum(row["decision"] == "rejected" for row in self.quality["tools"])
-        self.assertEqual(len(self.catalog), 611)
-        self.assertEqual(accepted, 210)
+        self.assertEqual(len(self.catalog), 609)
+        self.assertEqual(accepted, 223)
         self.assertEqual(rejected, 23)
-        self.assertEqual(len(self.catalog) - accepted, 401)
+        self.assertEqual(len(self.catalog) - accepted, 386)
         self.assertEqual(len(self.lifecycle), len(self.catalog))
         self.assertEqual(set(self.rows), set(self.lifecycle))
 
@@ -59,7 +59,7 @@ class CatalogReviewBatch9Tests(unittest.TestCase):
 
     def test_successor_entries_and_magnific_identity(self):
         expected = [
-            "Microsoft Agent Framework", "Manage AI", "Content Toolkit", "PlayHT", "Tabnine",
+            "Microsoft Agent Framework", "Manage AI", "Content Toolkit", "PlayHT", "Tabnine", "Harness Cosmos Software Factory Agent",
             "Hostinger AI Builder", "Check Point AI Security", "Vibe",
             "Lexis+ with Protégé", "Luma App", "Superhuman Mail", "Topaz Video",
         ]
