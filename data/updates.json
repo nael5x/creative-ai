@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T22:09:12.451521+00:00",
+  "updatedAt": "2026-11-02T06:21:35.590920+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.13",
@@ -502,6 +502,16 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev13",
+      "title": "v1.14.0.dev13",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev13",
+      "publishedAt": "2026-11-02T00:26:41Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev12",
       "title": "v1.14.0.dev12",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev12",
@@ -586,16 +596,6 @@
       "title": "v1.14.0.dev5",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev5",
       "publishedAt": "2026-10-25T00:40:10Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev4",
-      "title": "v1.14.0.dev4",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev4",
-      "publishedAt": "2026-10-24T00:35:48Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -802,90 +802,40 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1297720",
-      "title": "Usage for Claude + ChatGPT 4.0",
-      "url": "https://www.producthunt.com/products/usage-for-claude",
-      "publishedAt": "2026-11-01T14:08:20-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1295385",
-      "title": "Yuzu Sync",
-      "url": "https://www.producthunt.com/products/yuzu-sync",
-      "publishedAt": "2026-11-01T14:08:20-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1295124",
-      "title": "Raah.dev",
-      "url": "https://www.producthunt.com/products/raah-dev",
-      "publishedAt": "2026-11-01T14:08:20-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1293876",
-      "title": "magpie",
-      "url": "https://www.producthunt.com/products/magpie-14",
-      "publishedAt": "2026-11-01T14:08:20-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1298578",
       "title": "Screen Studio 4.0",
       "url": "https://www.producthunt.com/products/screen-studio",
-      "publishedAt": "2026-11-01T14:08:19-08:00",
+      "publishedAt": "2026-11-01T22:20:31-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1293647",
-      "title": "Riverside Agents",
-      "url": "https://www.producthunt.com/products/riverside-fm",
-      "publishedAt": "2026-11-01T14:08:19-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1298596",
+      "title": "Chorin: Ora et Labora",
+      "url": "https://www.producthunt.com/products/chorin-ora-et-labora",
+      "publishedAt": "2026-11-01T21:27:15-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1298096",
-      "title": "Embage",
-      "url": "https://www.producthunt.com/products/embage",
-      "publishedAt": "2026-11-01T14:08:19-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1297720",
+      "title": "Usage for Claude + ChatGPT 4.0",
+      "url": "https://www.producthunt.com/products/usage-for-claude",
+      "publishedAt": "2026-11-01T22:03:38-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1297466",
-      "title": "Precise Edit by Ideogram",
-      "url": "https://www.producthunt.com/products/ideogram",
-      "publishedAt": "2026-11-01T14:08:19-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1299785",
-      "title": "agentmash",
-      "url": "https://www.producthunt.com/products/agentmash",
-      "publishedAt": "2026-11-01T14:08:19-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1293162",
+      "title": "ClawsGO Science",
+      "url": "https://www.producthunt.com/products/clawsgo-science",
+      "publishedAt": "2026-11-01T22:19:24-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -895,7 +845,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1287022",
       "title": "Click",
       "url": "https://www.producthunt.com/products/click-6",
-      "publishedAt": "2026-11-01T14:08:19-08:00",
+      "publishedAt": "2026-11-01T22:01:15-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1299290",
+      "title": "ernd",
+      "url": "https://www.producthunt.com/products/ernd",
+      "publishedAt": "2026-11-01T22:20:53-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1297554",
+      "title": "Fluent 2",
+      "url": "https://www.producthunt.com/products/fluent-ai-writing-assistant-for-macos",
+      "publishedAt": "2026-11-01T22:13:16-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1293647",
+      "title": "Riverside Agents",
+      "url": "https://www.producthunt.com/products/riverside-fm",
+      "publishedAt": "2026-11-01T22:00:59-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1299785",
+      "title": "agentmash",
+      "url": "https://www.producthunt.com/products/agentmash",
+      "publishedAt": "2026-11-01T22:01:15-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1295385",
+      "title": "Yuzu Sync",
+      "url": "https://www.producthunt.com/products/yuzu-sync",
+      "publishedAt": "2026-11-01T21:20:08-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
