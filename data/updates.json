@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-03T19:34:21.906437+00:00",
+  "updatedAt": "2026-11-04T06:38:14.410123+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.15-rc0",
+      "title": "v0.40.15",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0",
+      "publishedAt": "2026-11-03T22:52:31Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.14",
       "title": "v0.40.14",
@@ -92,14 +102,14 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.11-rc0",
-      "title": "v0.40.11-rc0: voice: add voice catalog for Phonon (#19242)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
-      "publishedAt": "2026-10-23T23:15:08Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
+      "id": "tag:github.com,2008:Repository/552661142/langchain-typesafe==0.0.1",
+      "title": "langchain-typesafe==0.0.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1",
+      "publishedAt": "2026-11-04T00:11:28Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
     },
     {
       "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.7.4",
@@ -186,16 +196,6 @@
       "title": "langchain-openai==1.7.3",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.3",
       "publishedAt": "2026-10-26T23:08:50Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.7.0",
-      "title": "langchain-core==1.7.0",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0",
-      "publishedAt": "2026-10-22T17:48:17Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.44.0",
+      "title": "v0.44.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.0",
+      "publishedAt": "2026-11-04T01:12:27Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.43.2",
       "title": "v0.43.2",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.2",
@@ -386,16 +396,6 @@
       "title": "v0.42.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.0",
       "publishedAt": "2026-10-18T22:10:38Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.41.3",
-      "title": "v0.41.3",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.3",
-      "publishedAt": "2026-10-17T04:26:50Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -502,6 +502,26 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev16",
+      "title": "v1.14.0.dev16",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev16",
+      "publishedAt": "2026-11-04T06:17:05Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev15",
+      "title": "v1.14.0.dev15",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev15",
+      "publishedAt": "2026-11-04T00:24:08Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev14",
       "title": "v1.14.0.dev14",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev14",
@@ -512,10 +532,20 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.1",
+      "title": "1.13.1",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.1",
+      "publishedAt": "2026-11-04T03:14:19Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.12.9",
-      "title": "v1.12.9: fix: absorb lxml and Mako image workarounds for 1.12.9 (#16123)",
+      "title": "1.12.9",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.9",
-      "publishedAt": "2026-11-03T18:40:46Z",
+      "publishedAt": "2026-11-04T01:39:09Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -562,40 +592,10 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.1",
-      "title": "v1.13.1: fix: block assistant expression evaluation bypasses (#16055)",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.1",
-      "publishedAt": "2026-10-30T16:09:46Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev9",
       "title": "v1.14.0.dev9",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev9",
       "publishedAt": "2026-10-29T00:28:33Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev8",
-      "title": "v1.14.0.dev8",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev8",
-      "publishedAt": "2026-10-28T00:29:12Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev7",
-      "title": "v1.14.0.dev7",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev7",
-      "publishedAt": "2026-10-27T00:37:27Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -802,60 +802,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1302039",
-      "title": "Flockbay",
-      "url": "https://www.producthunt.com/products/flockbay",
-      "publishedAt": "2026-11-03T10:58:43-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1302018",
-      "title": "LifeVal",
-      "url": "https://www.producthunt.com/products/openai",
-      "publishedAt": "2026-11-03T11:03:57-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1297285",
-      "title": "Hookdeck Inspect",
-      "url": "https://www.producthunt.com/products/hookdeck",
-      "publishedAt": "2026-11-03T11:00:26-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1302251",
-      "title": "Oreja de Van Gogh",
-      "url": "https://www.producthunt.com/products/oreja-de-van-gogh",
-      "publishedAt": "2026-11-03T10:38:33-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1296045",
-      "title": "Testifly",
-      "url": "https://www.producthunt.com/products/testifly-launch",
-      "publishedAt": "2026-11-03T11:31:15-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1302206",
-      "title": "Calendarly",
-      "url": "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen",
-      "publishedAt": "2026-11-03T11:24:06-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1286920",
+      "title": "Synter Canvas",
+      "url": "https://www.producthunt.com/products/synter-canvas",
+      "publishedAt": "2026-11-03T22:38:05-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -865,17 +815,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1162044",
       "title": "Teamily AI",
       "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
-      "publishedAt": "2026-11-03T11:25:19-08:00",
+      "publishedAt": "2026-11-03T22:38:01-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1300938",
-      "title": "Peji",
-      "url": "https://www.producthunt.com/products/peji",
-      "publishedAt": "2026-11-03T07:25:16-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1279115",
+      "title": "AgentKit by Scalekit",
+      "url": "https://www.producthunt.com/products/scalekit",
+      "publishedAt": "2026-11-03T22:37:40-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1302462",
+      "title": "Corvo",
+      "url": "https://www.producthunt.com/products/corvo-3",
+      "publishedAt": "2026-11-03T22:27:54-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1302018",
+      "title": "LifeVal",
+      "url": "https://www.producthunt.com/products/openai",
+      "publishedAt": "2026-11-03T22:36:17-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1302039",
+      "title": "Flockbay",
+      "url": "https://www.producthunt.com/products/flockbay",
+      "publishedAt": "2026-11-03T22:36:26-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1302042",
+      "title": "People Search by Context.dev",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "publishedAt": "2026-11-03T22:36:26-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1301911",
+      "title": "Akema",
+      "url": "https://www.producthunt.com/products/akema",
+      "publishedAt": "2026-11-03T22:22:25-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -885,17 +885,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1301515",
       "title": "Infino AI",
       "url": "https://www.producthunt.com/products/infino-ai",
-      "publishedAt": "2026-11-03T11:26:43-08:00",
+      "publishedAt": "2026-11-03T22:34:30-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1296391",
-      "title": "Beamfy",
-      "url": "https://www.producthunt.com/products/beamfy",
-      "publishedAt": "2026-11-03T10:54:58-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1287074",
+      "title": "MagicaLCore",
+      "url": "https://www.producthunt.com/products/magical-core-image-classifier",
+      "publishedAt": "2026-11-03T22:22:24-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
