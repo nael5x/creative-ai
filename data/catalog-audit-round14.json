@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-14",
+  "reviewedAt": "2026-10-31",
+  "scope": "Review of the next 15 alphabetically pending active catalog entries, Circleback through ContentStudio. Fourteen accepted, Connected Papers rejected for lacking an evidenced AI capability, and CoCounsel renamed to its current official product identity CoCounsel Legal.",
+  "accepted": [
+    {
+      "name": "Circleback",
+      "category": "Meetings",
+      "description": "AI meeting assistant that records online and in-person conversations, creates speaker-labeled transcripts and detailed notes, extracts assigned action items, and makes meetings searchable with cited answers and automations.",
+      "userValue": "For teams that need meeting outcomes, accountable follow-ups and searchable conversation context connected to their CRM, project tools and AI agents.",
+      "availability": "Free tier / Paid",
+      "url": "https://circleback.ai/",
+      "evidenceUrls": [
+        "https://circleback.ai/",
+        "https://circleback.ai/switch",
+        "https://run.circleback.ai/pricing"
+      ]
+    },
+    {
+      "name": "Civitai",
+      "category": "Models & datasets",
+      "description": "Community platform for discovering, sharing and using generative image and video models, model versions and creator workflows, with on-site generation, training and a creator program. Its 2026 update distinguishes civitai.com as the SFW front door from civitai.red.",
+      "userValue": "For generative-media creators who need a broad library of community models and LoRAs, model discovery, creator resources and hosted generation in one ecosystem.",
+      "availability": "Free tier / Paid",
+      "url": "https://civitai.com/",
+      "evidenceUrls": [
+        "https://civitai.tech/newsroom",
+        "https://civitai.tech/articles/28369/two-front-doors-civitaicom-civitaired-and-whats-next",
+        "https://civitai.tech/articles/33294/the-2026-creator-program-the-full-picture",
+        "https://civitai.tech/articles/34441/hubs-build-a-feed-from-your-favorites"
+      ]
+    },
+    {
+      "name": "Claid.ai",
+      "category": "Image editing",
+      "description": "AI image-production workspace and API for ecommerce visuals, including product photoshoots from a source image and prompt, background removal, lighting and color adjustments, image editing and image-to-video.",
+      "userValue": "For ecommerce sellers and creative teams that need polished, consistent product imagery and campaign variations without arranging a new photoshoot for every asset.",
+      "availability": "Free tier / Paid",
+      "url": "https://claid.ai/",
+      "evidenceUrls": [
+        "https://help.claid.ai/en/article/welcome-to-claidai-general-overview-oxluuk/",
+        "https://help.claid.ai/en/article/ai-photoshoot-76as8m/",
+        "https://docs.claid.ai/image-editing-api/api-reference"
+      ]
+    },
+    {
+      "name": "Cleanup.pictures",
+      "category": "Image editing",
+      "description": "AI inpainting tool for removing unwanted objects, people, text and defects from photos; the selected area is reconstructed from surrounding image context. Offers a standalone editor and an inpainting API.",
+      "userValue": "For photographers, ecommerce teams and everyday users who need to clean up a photo quickly without opening a full desktop editor.",
+      "availability": "Free tier / Paid",
+      "url": "https://cleanup.pictures/",
+      "evidenceUrls": [
+        "https://cleanup.pictures/",
+        "https://clipdrop.co/apis"
+      ]
+    },
+    {
+      "name": "Cleanvoice AI",
+      "category": "Voice & audio",
+      "description": "AI audio and video editor that detects and removes filler words, long silences, mouth and breath sounds, stutters, background noise and echo, then exports cleaned media or an editable timeline.",
+      "userValue": "For podcasters, interviewers and audio/video editors who want to shorten cleanup work while retaining control over the exported edit.",
+      "availability": "Free trial / Paid",
+      "url": "https://cleanvoice.ai/",
+      "evidenceUrls": [
+        "https://cleanvoice.ai/",
+        "https://help.cleanvoice.ai/en/articles/3-what-is-cleanvoice",
+        "https://help.cleanvoice.ai/en/articles/19-which-features-are-available-in-pay-as-you-go-and-subscription",
+        "https://cleanvoice.app/pricing"
+      ]
+    },
+    {
+      "name": "Clearscope",
+      "category": "Marketing",
+      "description": "Content strategy and optimization platform for discovering search topics, grading drafts, monitoring page performance and tracking brand mentions across Google and AI answer engines such as ChatGPT, Gemini and Claude.",
+      "userValue": "For SEO and content teams that need one workflow for topic research, content optimization and visibility monitoring across traditional search and AI answers.",
+      "availability": "Paid / 14-day trial",
+      "url": "https://www.clearscope.io/",
+      "evidenceUrls": [
+        "https://www.clearscope.io/",
+        "https://www.clearscope.io/pricing/"
+      ]
+    },
+    {
+      "name": "Clipdrop",
+      "category": "Images & design",
+      "description": "AI image editing suite now part of Jasper, with text-to-image generation, background removal and replacement, cleanup, uncropping, relighting, text removal and image upscaling, plus APIs.",
+      "userValue": "For creators and product teams that need a focused set of image-generation and image-editing operations in a browser or through an API.",
+      "availability": "Free tier / Paid",
+      "url": "https://clipdrop.co/",
+      "evidenceUrls": [
+        "https://clipdrop.co/",
+        "https://clipdrop.co/pricing",
+        "https://clipdrop.co/apis",
+        "https://stability.ai/news-updates/init-ml-divestment"
+      ]
+    },
+    {
+      "name": "CoCounsel Legal",
+      "category": "Legal",
+      "description": "Thomson Reuters' legal AI assistant for research, document analysis and review, and legal drafting, grounded in Westlaw, Practical Law and an organization's own knowledge with traceable citations and multi-step agentic workflows.",
+      "userValue": "For attorneys and legal teams that need source-grounded research, document review and drafting connected to trusted legal content and firm knowledge; professional review remains essential.",
+      "availability": "Paid",
+      "url": "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+      "evidenceUrls": [
+        "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+        "https://legal.thomsonreuters.com/en/products/cocounsel-legal/features",
+        "https://legal.thomsonreuters.com/blog/behind-the-build-of-the-next-generation-of-cocounsel-legal/"
+      ]
+    },
+    {
+      "name": "Colossyan",
+      "category": "Video",
+      "description": "AI video and training platform that turns documents, presentations, scripts, URLs and existing videos into presenter-led training videos and interactive courses, with custom avatars, voiceovers, translation and SCORM delivery.",
+      "userValue": "For L&D, HR and customer-education teams that need to produce, update and localize training content without filming every lesson.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.colossyan.com/",
+      "evidenceUrls": [
+        "https://www.colossyan.com/",
+        "https://docs.colossyan.com/"
+      ]
+    },
+    {
+      "name": "ComfyUI",
+      "category": "Image workflows",
+      "description": "Open-source, node-based AI creation engine, API and backend for composing and running local or cloud workflows across image, video, audio, 3D and text models; supports custom nodes and offline execution.",
+      "userValue": "For technical creators who need fine-grained control, reusable graphs and local execution across a wide range of generative models and media workflows.",
+      "availability": "Open source / Cloud",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "evidenceUrls": [
+        "https://github.com/Comfy-Org/ComfyUI",
+        "https://www.comfy.org/"
+      ]
+    },
+    {
+      "name": "Compose AI",
+      "category": "Writing",
+      "description": "AI writing assistant and Chrome extension that generates text, autocompletes sentences, rewrites selected text, drafts email replies and adapts suggestions to a user's writing style.",
+      "userValue": "For people who write across email, documents and web apps and want contextual autocomplete and rewriting without switching to a separate chat tool.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.compose.ai/",
+      "evidenceUrls": [
+        "https://www.compose.ai/",
+        "https://www.compose.ai/pricing",
+        "https://chromewebstore.google.com/detail/compose-ai-ai-powered-wri/ddlbpiadoechcolndfeaonajmngmhblj"
+      ]
+    },
+    {
+      "name": "Consensus",
+      "category": "Research",
+      "description": "AI academic search engine that retrieves scientific papers using semantic and keyword search, then uses language models to analyze and synthesize findings with citations, study comparisons and research-agent workflows.",
+      "userValue": "For students, researchers and professionals who need evidence-backed answers from scientific literature and want to trace each synthesis to its source papers.",
+      "availability": "Free tier / Paid",
+      "url": "https://consensus.app/",
+      "evidenceUrls": [
+        "https://help.consensus.app/en/articles/9922673-how-consensus-works",
+        "https://help.consensus.app/en/articles/12641232-research-agent",
+        "https://help.consensus.app/en/articles/10083353-responsible-ai-limitations"
+      ]
+    },
+    {
+      "name": "Constructor",
+      "category": "Ecommerce",
+      "description": "AI-native ecommerce product-discovery platform that personalizes search, browse and recommendations using catalog and shopper-behavior data, with conversational shopping agents, product-insights agents and merchandising intelligence.",
+      "userValue": "For ecommerce retailers with large catalogs who need shoppers to find relevant products through better search, recommendations and natural-language assistance.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://constructor.com/",
+      "evidenceUrls": [
+        "https://constructor.com/",
+        "https://constructor.com/solutions/search"
+      ]
+    },
+    {
+      "name": "ContentStudio",
+      "category": "Social media",
+      "description": "Social media management platform with AI Studio, a connected workspace for AI chat, caption writing, image and video generation, brand-voice guidance, and scheduling and publishing across social channels.",
+      "userValue": "For creators, agencies and social teams that want to move from an idea to on-brand, scheduled social content in one workflow.",
+      "availability": "Free trial / Paid",
+      "url": "https://contentstudio.io/",
+      "evidenceUrls": [
+        "https://contentstudio.io/ai-studio",
+        "https://docs.contentstudio.io/articles/ai-studio-1c0e28da",
+        "https://docs.contentstudio.io/help-center"
+      ]
+    }
+  ],
+  "superseded": [
+    {
+      "name": "CoCounsel",
+      "supersededBy": "CoCounsel Legal",
+      "reason": "Thomson Reuters' former CoCounsel product URL now redirects to the current CoCounsel Legal page, and the official legal product and feature pages consistently use CoCounsel Legal. The old catalog name is an alias, not a separate product.",
+      "evidenceUrls": [
+        "https://legal.thomsonreuters.com/en/products/cocounsel",
+        "https://legal.thomsonreuters.com/en/products/cocounsel-legal"
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Connected Papers",
+      "officialUrl": "https://www.connectedpapers.com/",
+      "evidenceUrls": [
+        "https://www.connectedpapers.com/about",
+        "https://www.connectedpapers.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The product is a useful visual academic-paper discovery graph, but its documented method is bibliometric similarity rather than an AI capability.",
+      "decision": "rejected",
+      "reason": "The official methodology describes co-citation and bibliographic coupling to identify related papers and a force-directed graph to arrange them. The official product pages do not document AI/ML or generative-AI functionality. It is a research-discovery tool, but it does not meet Creative AI's requirement that AI be a real, useful part of the product."
+    }
+  ],
+  "statusWatch": [],
+  "notes": [
+    "Connected Papers is excluded despite its research value: its official method is co-citation and bibliographic coupling plus a force-directed graph, and its official pages do not establish an AI capability.",
+    "Civitai's main site was not directly readable through the automated browser, but its official Civitai Tech newsroom and dated product/creator-program announcements confirm active product operations; access-tool failure was not treated as shutdown.",
+    "Clipdrop remains a distinct active image-editing suite under Jasper. Its official API page identifies it as part of Jasper, and its official pricing page continues to list generation and editing tools.",
+    "Cleanup.pictures remains a separate focused inpainting app with its own editor, pricing and API reference; it is not treated as a duplicate of the broader Clipdrop suite.",
+    "CoCounsel Legal's first-tracked timestamp is preserved from the former CoCounsel record; the rename is recorded separately rather than inventing a new product-addition date."
+  ]
+}

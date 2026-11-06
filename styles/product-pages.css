@@ -62,3 +62,48 @@ button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{ou
   .tool-logo-large .tool-logo-image{width:38px;height:38px}
 }
 .rtl .actions{margin-left:0!important;margin-right:auto!important}
+
+/* Creative AI product flows — bright editorial visual system */
+body.product-redesign{
+ --bg:#f5f3ee;--bg-deep:#eeece6;--panel:#fff;--panel-2:#f7f6f2;--text:#171a2b;--muted:#666b7b;--muted-2:#85899a;--line:#dedee6;--line-soft:rgba(36,38,61,.11);--accent:#6556e8;--accent-strong:#5142d1;--accent-soft:rgba(101,86,232,.1);--page-panel:#fff;--page-panel-2:#fff;--page-border:#e3e1e9;--page-border-hover:#c8c1fb;
+ color:#171a2b!important;background:#f5f3ee!important;background-image:radial-gradient(ellipse at 88% 6%,rgba(119,103,239,.09),transparent 27%)!important;
+}
+.product-redesign:before{display:none!important}
+.product-redesign .wrap{max-width:1240px!important;width:min(1240px,calc(100% - 48px))!important}
+.product-redesign .top{min-height:78px!important;border-color:rgba(36,38,61,.12)!important}
+.product-redesign .brand{color:#171a2b!important;font-size:20px!important}
+.product-redesign .brand i{background:#6556e8!important;color:#fff!important;border:0!important;border-radius:11px!important}
+.product-redesign .actions .btn,.product-redesign .actions button{background:#fff!important;color:#5142d1!important;border-color:#dedee6!important;border-radius:999px!important}
+.product-redesign .hero{padding:65px 0 34px!important}
+.product-redesign .eyebrow,.product-redesign .rank,.product-redesign .slot,.product-redesign .block h3,.product-redesign .block h4,.product-redesign .fitbox b{color:#6556e8!important}
+.product-redesign .hero h1{color:#171a2b!important;font-size:clamp(48px,6.5vw,78px)!important;letter-spacing:-.07em!important}
+.product-redesign .hero p{color:#666b7b!important;font-size:17px!important;line-height:1.75!important}
+.product-redesign .promise span{background:#fff!important;border-color:#e3e1e9!important;color:#696d7e!important;border-radius:999px!important}
+.product-redesign .panel,.product-redesign .selector,.product-redesign .card,.product-redesign .tool,.product-redesign .toolrow,.product-redesign .stackrow,.product-redesign .selected{
+ background:#fff!important;border:1px solid #e3e1e9!important;border-radius:18px!important;box-shadow:0 7px 24px rgba(35,32,70,.045)!important;color:#202237!important
+}
+.product-redesign .panel,.product-redesign .selector{padding:22px!important}
+.product-redesign .panel h2,.product-redesign .results-head h2,.product-redesign .selected h2{color:#202237!important}
+.product-redesign .panel p,.product-redesign .helper,.product-redesign .results-head p,.product-redesign .selected p,.product-redesign .meta,.product-redesign .fit{color:#737788!important}
+.product-redesign .field label{color:#626779!important}
+.product-redesign .field select,.product-redesign .search,.product-redesign input,.product-redesign select{background:#fff!important;color:#202237!important;border:1px solid #e1dfe8!important;border-radius:12px!important}
+.product-redesign .btn,.product-redesign button{background:#fff!important;color:#5142d1!important;border:1px solid #e1dfe8!important;border-radius:12px!important}
+.product-redesign .btn.primary,.product-redesign .primary{background:#6556e8!important;border-color:#6556e8!important;color:#fff!important}
+.product-redesign .btn:hover,.product-redesign button:hover{background:#f1efff!important;border-color:#c8c1fb!important}
+.product-redesign .btn.primary:hover,.product-redesign .primary:hover{background:#5142d1!important;color:#fff!important}
+.product-redesign .card:hover,.product-redesign .tool:hover,.product-redesign .toolrow:hover,.product-redesign .stackrow:hover{transform:translateY(-3px)!important;border-color:#c8c1fb!important;background:#fff!important;box-shadow:0 16px 32px rgba(49,42,110,.09)!important}
+.product-redesign .tag,.product-redesign .chip,.product-redesign .availability,.product-redesign .preference span{background:#f7f6fa!important;border:1px solid #e6e4ec!important;color:#696d7e!important}
+.product-redesign .tag.good{background:#edf8f1!important;border-color:#d5eddf!important;color:#23805a!important}
+.product-redesign .tag.open{background:#edf8f8!important;border-color:#d3eded!important;color:#267d83!important}
+.product-redesign .open,.product-redesign .compare,.product-redesign .open-link,.product-redesign .official{border-color:#e3e1e9!important;color:#5142d1!important}
+.product-redesign .note{border-color:#6556e8!important;background:#f1efff!important;color:#625b86!important}
+.product-redesign .position{background:#f1efff!important;color:#5142d1!important}
+.product-redesign .shared{border-color:#d7eee6!important;background:#f0faf6!important;color:#36745c!important}
+.product-redesign .danger{color:#c64d64!important}
+.product-redesign :where(a,button,input,select,textarea):focus-visible{outline:3px solid rgba(101,86,232,.45)!important;outline-offset:3px!important}
+@media(max-width:680px){
+ .product-redesign .wrap{width:min(100% - 28px,1240px)!important}
+ .product-redesign .hero{padding:46px 0 26px!important}
+ .product-redesign .hero h1{font-size:clamp(43px,12vw,62px)!important}
+ .product-redesign .hero p{font-size:15px!important}
+}

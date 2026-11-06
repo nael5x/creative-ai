@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-19",
+  "reviewedAt": "2026-10-31",
+  "scope": "Review of the next 15 alphabetically pending active entries, Glide through Hex. Fourteen accepted after first-party checks; Helicone moved to status watch because its official site says new signups are disabled and its post-separation availability is unclear.",
+  "accepted": [
+    {
+      "name": "Glide",
+      "category": "Web apps",
+      "description": "No-code business app builder with Glide AI and Glide Agent: generate custom apps and UI components from descriptions, process text, audio and images into structured data, and build workflows around company information. The AI features are integrated into the Glide app-building platform.",
+      "userValue": "For teams that want internal business apps and operational workflows without building a full custom application, using AI to generate app structure and extract information from business files.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.glideapps.com/classic/ai",
+      "evidenceUrls": [
+        "https://www.glideapps.com/classic/ai",
+        "https://www.glideapps.com/"
+      ]
+    },
+    {
+      "name": "Goose",
+      "category": "AI agents",
+      "description": "Open-source, general-purpose AI agent that runs locally through a desktop app, CLI or API; connects to LLM providers and MCP extensions to perform coding, research, writing, data analysis and other multi-step computer workflows. The project is now part of the Linux Foundation's Agentic AI Foundation.",
+      "userValue": "For developers and technical users who want an extensible agent they can run on their own machine and connect to local tools, files, services and preferred models.",
+      "availability": "Open source (Apache 2.0)",
+      "url": "https://block.github.io/goose/",
+      "evidenceUrls": [
+        "https://block.github.io/goose/",
+        "https://github.com/aaif-goose/goose",
+        "https://goose-docs.ai/docs/getting-started/installation/"
+      ]
+    },
+    {
+      "name": "Gorgias AI",
+      "category": "Customer support",
+      "description": "Gorgias AI Agent for ecommerce brands, with two roles: a pre-purchase shopping assistant that helps shoppers find products and a post-purchase support agent that handles order status, returns, cancellations and related requests across connected channels. It can take approved actions in commerce tools and hand off conversations to people.",
+      "userValue": "For Shopify-focused ecommerce teams that want customer-facing AI support and shopping assistance grounded in their catalog, policies and order data, with configurable skills and human handoff.",
+      "availability": "Paid add-on / Request demo",
+      "url": "https://www.gorgias.com/ai-agent",
+      "evidenceUrls": [
+        "https://www.gorgias.com/ai-agent",
+        "https://helpcenter.gorgias.com/en-US/ai-agent-explained-497772",
+        "https://docs.gorgias.com/en-US/ai-agent-and-automations-135134"
+      ]
+    },
+    {
+      "name": "GPT4All",
+      "category": "Local models",
+      "description": "Open-source desktop application and model ecosystem for downloading and running large language models locally on Windows, macOS and Linux, with private chat and LocalDocs for asking questions over files without sending prompts to a hosted model API.",
+      "userValue": "For individuals and developers who want to experiment with local language models and query personal documents on their own hardware, subject to the capabilities of the selected model and device.",
+      "availability": "Open source",
+      "url": "https://www.nomic.ai/gpt4all",
+      "evidenceUrls": [
+        "https://www.nomic.ai/gpt4all",
+        "https://github.com/nomic-ai/gpt4all",
+        "https://docs.gpt4all.io/gpt4all_desktop/quickstart.html"
+      ]
+    },
+    {
+      "name": "Grain",
+      "category": "Meetings",
+      "description": "AI meeting capture and intelligence platform that records or transcribes calls with or without a meeting bot, creates enriched transcripts, summaries and action items, and lets users search meetings, ask questions, create clips and expose meeting context to external agents through MCP and API.",
+      "userValue": "For sales, customer-success, research and product teams that need searchable meeting knowledge and want AI agents to act on transcripts, clips and follow-ups after conversations.",
+      "availability": "Free tier / Paid",
+      "url": "https://grain.com/",
+      "evidenceUrls": [
+        "https://grain.com/",
+        "https://support.grain.com/en/articles/9232495-recording-page",
+        "https://support.grain.com/en/articles/9189989-ask-grain-ai",
+        "https://support.grain.com/en/articles/14811968-grain-mcp"
+      ]
+    },
+    {
+      "name": "Greptile",
+      "category": "Coding",
+      "description": "AI code-review agent that builds a graph of a connected repository to understand functions, classes and dependencies, reviews pull requests with codebase-wide context, posts findings and suggested fixes, and can pass issues to coding agents for implementation.",
+      "userValue": "For engineering teams that want automated, repository-aware pull-request reviews and codebase context beyond file-by-file linting.",
+      "availability": "Paid / Request demo",
+      "url": "https://www.greptile.com/",
+      "evidenceUrls": [
+        "https://www.greptile.com/",
+        "https://www.greptile.com/docs/introduction"
+      ]
+    },
+    {
+      "name": "Grok",
+      "category": "Writing & research",
+      "description": "Multimodal AI assistant from xAI for chat, reasoning, writing and research, with voice conversations, image and video creation through Grok Imagine, file analysis and connectors to supported personal or work apps. Grok Bot is a separate agent product and is not conflated with the Grok chat assistant here.",
+      "userValue": "For users who want a general-purpose assistant for questions, analysis and creative work, with multimodal tools and connected-app context.",
+      "availability": "Free tier / Paid SuperGrok plans",
+      "url": "https://grok.com/",
+      "evidenceUrls": [
+        "https://grok.com/",
+        "https://docs.x.ai/grok/overview"
+      ]
+    },
+    {
+      "name": "Gumloop",
+      "category": "Automation",
+      "description": "Visual AI agent and workflow platform for building, sharing and governing agents that connect business apps, models, data and reusable skills; supports agent nodes, custom MCP integrations and automated workflows for tasks such as account research, outbound writing and ticket triage.",
+      "userValue": "For operations, sales, support and other teams that want to automate multi-step work across existing tools without hand-coding every integration.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.gumloop.com/",
+      "evidenceUrls": [
+        "https://www.gumloop.com/",
+        "https://docs.gumloop.com/"
+      ]
+    },
+    {
+      "name": "H2O.ai",
+      "category": "Data & analytics",
+      "description": "Enterprise sovereign-AI platform spanning predictive machine learning, generative AI, agentic AI and observability, with tools to build, orchestrate, deploy and govern models and agents across cloud, private and air-gapped environments; includes the H2O AI Super Agent orchestration layer.",
+      "userValue": "For organizations that need to develop and operate AI/ML systems while retaining control over models, data, deployment environments, governance and auditability.",
+      "availability": "Open-source components / Enterprise licensing",
+      "url": "https://h2o.ai/",
+      "evidenceUrls": [
+        "https://h2o.ai/",
+        "https://www.h2o.ai/platform/agentic",
+        "https://docs.h2o.ai/"
+      ]
+    },
+    {
+      "name": "Hailuo AI",
+      "category": "Video",
+      "description": "AI video-creation studio supporting text-to-video, image-to-video and reference-to-video workflows, with selectable video models including MiniMax's Hailuo model family and other third-party models offered in the editor.",
+      "userValue": "For creators and marketers who want to generate short cinematic, social, product or concept clips from prompts, still images or visual references and compare different generation models.",
+      "availability": "Free credits / Paid",
+      "url": "https://hailuoai.video/",
+      "evidenceUrls": [
+        "https://hailuoai.video/",
+        "https://hailuoai.video/tools/ai-video-generator",
+        "https://hailuoai.video/pages/blog/introducing-hailuo-2-3-ai-video-generator"
+      ]
+    },
+    {
+      "name": "Haystack",
+      "category": "AI development",
+      "description": "Open-source Python framework for building production AI agents, retrieval-augmented generation (RAG) applications and multimodal search systems from modular components, pipelines, document stores, retrievers, tools, evaluators and model generators.",
+      "userValue": "For developers building custom AI applications who need explicit, testable orchestration and control over retrieval, model calls, tools and data flow.",
+      "availability": "Open source",
+      "url": "https://haystack.deepset.ai/",
+      "evidenceUrls": [
+        "https://haystack.deepset.ai/overview/intro",
+        "https://docs.haystack.deepset.ai/"
+      ]
+    },
+    {
+      "name": "HeadshotPro",
+      "category": "Image generation",
+      "description": "AI headshot generator for individuals and teams that turns uploaded selfies into professional profile photos with selectable styles, backgrounds and formats; offers one-time packages rather than a recurring subscription, and states that input photos are deleted after 30 days and are not used to train its models.",
+      "userValue": "For professionals and organizations that need consistent business headshots without arranging an in-person photo shoot.",
+      "availability": "One-time purchase from $29",
+      "url": "https://www.headshotpro.com/",
+      "evidenceUrls": [
+        "https://www.headshotpro.com/",
+        "https://www.headshotpro.com/pricing"
+      ]
+    },
+    {
+      "name": "Heidi Health",
+      "category": "Healthcare",
+      "description": "AI Care Partner for clinicians combining ambient clinical scribing, dictation, evidence-backed answers with citations, document creation and workflow support. Heidi Scribe creates structured notes from consultations, while Heidi Evidence helps clinicians research clinical questions and verify source material; availability varies by region and plan.",
+      "userValue": "For clinicians and healthcare teams reducing documentation and information-gathering work while reviewing generated notes and evidence before using them in patient care.",
+      "availability": "Free tier / Paid plans and enterprise",
+      "url": "https://www.heidihealth.com/",
+      "evidenceUrls": [
+        "https://www.heidihealth.com/",
+        "https://www.heidihealth.com/scribe",
+        "https://www.heidihealth.com/evidence",
+        "https://support.heidihealth.com/en/articles/8974408-what-is-ask-heidi"
+      ]
+    },
+    {
+      "name": "Hex",
+      "category": "Data & analytics",
+      "description": "Agent-native analytics platform for teams to explore, model and share data through notebooks, conversational analytics and governed data apps. Hex 4.0 adds a collaboration surface for humans and AI agents, with Notebook Agent assistance, context management, inspectable data lineage and controlled publishing.",
+      "userValue": "For data teams that want analysts and business users to ask questions of company data while retaining review, traceability and governance over agent-generated analyses and apps.",
+      "availability": "Free tier / Paid",
+      "url": "https://hex.tech/",
+      "evidenceUrls": [
+        "https://hex.tech/",
+        "https://hex.tech/blog/introducing-hex-4-0/",
+        "https://learn.hex.tech/docs/getting-started/ai-overview"
+      ]
+    }
+  ],
+  "statusWatch": [
+    {
+      "name": "Helicone",
+      "status": "unresolved",
+      "officialUrl": "https://www.helicone.ai/",
+      "checkedUrls": [
+        "https://www.helicone.ai/",
+        "https://us.helicone.ai/signin",
+        "https://docs.helicone.ai/"
+      ],
+      "evidenceUrls": [
+        "https://www.helicone.ai/",
+        "https://us.helicone.ai/signin"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "Helicone's official homepage currently states that it is no longer part of Mintlify and that details will follow. Its official sign-in page explicitly says new signups are disabled. The public site still describes its AI gateway and observability product, but new-user access and the post-separation product/ownership status cannot currently be confirmed. This is an availability and continuity uncertainty, not evidence that Helicone has shut down.",
+      "nextAction": "Recheck for an official post-separation ownership/product announcement and confirmation that new signups or new customer access have resumed before reinstating it in the active directory."
+    }
+  ],
+  "superseded": [],
+  "rejected": [],
+  "notes": [
+    "Glide's current AI page redirects to Glide Classic and describes Glide AI and Glide Agent as integrated app-building and business-data capabilities; the catalog makes clear that AI is built into Glide rather than a separate app.",
+    "Goose has moved to the Agentic AI Foundation under the Linux Foundation and remains an active open-source general-purpose agent with desktop, CLI, API and MCP extensions; its new governance is noted without implying a change of product identity.",
+    "Gorgias AI Agent is a distinct paid capability within the Gorgias ecommerce helpdesk, with pre-purchase shopping and post-purchase support roles and configurable actions; it is not described as a general-purpose support bot.",
+    "GPT4All remains an active open-source desktop app for local LLMs and LocalDocs. The description avoids claiming every model runs equally well on every device.",
+    "Grain's current positioning is an AI meeting layer for agents and teams, with bot-optional capture, enriched transcripts, Ask Grain, MCP and API. This goes beyond its earlier meeting-clip positioning.",
+    "Grok and Grok Bot are separate official products. The catalog entry describes Grok chat, multimodal creation, file analysis and connectors, and does not conflate the assistant with the separate persistent-computer agent.",
+    "H2O.ai is now positioned as a sovereign AI platform spanning predictive, generative and agentic AI, including the H2O AI Super Agent and deployments from cloud to air-gapped environments.",
+    "Hailuo AI's official tool page now describes text-to-video, image-to-video and reference-to-video with multiple model choices, including MiniMax's Hailuo family and third-party models. The listing is described as a studio, not solely a single proprietary model.",
+    "Heidi has evolved from an AI scribe into an AI Care Partner with Scribe, Dictate, Evidence and Remote. The catalog limits the description to clinician workflows and notes that feature availability varies by region and plan.",
+    "HeadshotPro's official pricing page describes one-time packages starting at $29, 30-day deletion of input photos and no use of photos for model training.",
+    "Hex announced Hex 4.0 on October 27, 2026 as an agent-native analytics platform. The updated description reflects Notebook Agent, conversational analytics, context management and inspectable data lineage.",
+    "Helicone is not declared discontinued. It is temporarily excluded from the active catalog because its official homepage says it is no longer part of Mintlify and its sign-in page says new signups are disabled; reinstate only after first-party confirmation of the new product/ownership status and new-user access."
+  ]
+}

@@ -112,6 +112,12 @@ def main() -> None:
                 errors.append(f"lifecycle {name}: firstTrackedAt must be an ISO UTC timestamp ending in Z")
             if event not in ALLOWED_LIFECYCLE_EVENTS:
                 errors.append(f"lifecycle {name}: event must be one of {sorted(ALLOWED_LIFECYCLE_EVENTS)}")
+            if "previousName" in record:
+                previous_name = record.get("previousName")
+                if not isinstance(previous_name, str) or not previous_name.strip() or previous_name == name:
+                    errors.append(f"lifecycle {name}: previousName must be a distinct non-empty tool name")
+                elif previous_name in records:
+                    errors.append(f"lifecycle {name}: previousName must not remain as an active lifecycle key")
 
     if not VERIFIED_FACTS_PATH.exists():
         errors.append("data/verified-facts.json is required for provenance-backed extra facts")
@@ -227,6 +233,24 @@ def main() -> None:
                 reason = review.get("reason")
                 if not isinstance(reason, str) or not reason.strip():
                     errors.append(f"{prefix} {name}: rejected review must include a concrete reason")
+
+        reviews_by_name = {
+            review.get("name"): review
+            for review in reviews
+            if isinstance(review, dict) and isinstance(review.get("name"), str)
+        }
+        for current_name, lifecycle_record in lifecycle_records.items():
+            if not isinstance(lifecycle_record, dict):
+                continue
+            previous_name = lifecycle_record.get("previousName")
+            if not previous_name:
+                continue
+            previous_review = reviews_by_name.get(previous_name)
+            if not previous_review or previous_review.get("decision") != "rejected" or previous_review.get("supersededBy") != current_name:
+                errors.append(
+                    f"lifecycle {current_name}: previousName must have a rejected quality record "
+                    f"with supersededBy pointing to the current name"
+                )
 
         status_watch = quality.get("statusWatch", [])
         if not isinstance(status_watch, list):

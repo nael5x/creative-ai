@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-39",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry product-pivot quality review of Mutiny. Verified its April 2026 relaunch from website-personalization SaaS into an agentic GTM assistant, current asset-generation and workflow-automation capabilities, integrations, free/Business/Enterprise pricing, and enterprise security claims; updated the existing company entry rather than treating the retired product as active.",
+  "accepted": [
+    {
+      "name": "Mutiny",
+      "category": "Sales",
+      "description": "Agentic go-to-market assistant for B2B sales and marketing teams. It captures meeting notes, prepares account-specific meeting briefs, drafts follow-ups in a rep's voice, and generates on-brand customer-facing assets—deal rooms, business cases, pitch decks, pricing proposals, competitive comparisons and 1:1 ABM pages—while automating recurring workflows.",
+      "userValue": "For AEs, BDRs, sales leaders, CSMs and ABM marketers who need account-specific content and follow-up without waiting on design or marketing. Free plan: up to 5 team members and 5 daily credits (up to 30/month) per seat. Business: $50/month with 50 credits/month, unlimited team members, custom subdomain and expanded routines/projects; Enterprise starts at $40,000/year with SSO, custom limits and implementation support. Mutiny retired its earlier website-personalization/visitor A/B-testing product in April 2026; current Mutiny generates deal-specific assets and automates sales workflows rather than changing variants on an existing website. Meeting, email and CRM integrations require scoped access; generated outputs are drafts for review.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.mutinyhq.com/",
+      "evidenceUrls": [
+        "https://www.mutinyhq.com/",
+        "https://www.mutinyhq.com/pricing",
+        "https://www.mutinyhq.com/faqs",
+        "https://www.mutinyhq.com/enterprise",
+        "https://help.mutinyhq.com/",
+        "https://www.mutinyhq.com/llm-info",
+        "https://www.ycombinator.com/launches/PtJ-mutiny-your-ai-agent-for-creating-anything-customer-facing-used-by-uber-rippling",
+        "https://www.linkedin.com/posts/jalehr_we-raised-72m-from-sequoiayc-and-hit-8-activity-7447310976070283264-1NRa"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Mutiny's original website-personalization SaaS was retired in April 2026. In the CEO's April 2026 launch post on LinkedIn and the company's Y Combinator launch page, the founders explicitly state they shut down/killed the old SaaS product and rebuilt the company from scratch as an agent-first GTM product. The current product should not be described as a website-personalization or visitor A/B-testing platform.",
+    "The current Mutiny is an agentic go-to-market assistant for sales and marketing teams. Its two central functions are on-brand customer-facing asset generation and workflow automation. It creates deal rooms, business cases, pitch decks, pricing proposals, meeting recaps, competitive comparisons, prospecting pages and ABM campaigns.",
+    "The official homepage and help center document meeting notes, deal-specific meeting preparation, follow-up email drafts in a rep's voice, account research, deal-risk alerts, call coaching summaries, account/project memory, brand libraries, reusable skills, routines and automations.",
+    "Official help documentation lists integrations including HubSpot, Salesforce, Attio, Outreach, Salesloft, Apollo, LeadIQ, LinkedIn, Gong, Fireflies, Granola and Google Calendar. The homepage and enterprise pages also describe CRM, email, calendar and Slack/MCP workflows.",
+    "The current pricing page lists Free at $0/month for up to five team members, with five daily credits (up to 30/month) per seat, five templates and limited routines/projects. Business is $50/month with 50 credits/month, unlimited team members, custom subdomain and expanded routines/projects. Enterprise starts at $40,000/year and adds SSO, custom credit limits, custom MSA/DPA, onboarding and dedicated growth support.",
+    "The enterprise page states SOC 2 Type II, no training of shared AI models on meeting notes/emails, SSO/SAML, role-based access, encryption in transit and at rest, and controls over which meetings are recorded. Teams should still configure scoped integrations and obtain any required meeting-recording consent.",
+    "Mutiny remains active, but the category and product job have changed materially. The old row is updated in place so the catalog does not mislead users looking for website visitor personalization."
+  ]
+}

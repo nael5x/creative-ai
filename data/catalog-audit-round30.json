@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-30",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Mindgard. Verified the active AI security platform, agentic reconnaissance and red teaming capabilities, supported AI attack surfaces, remediation and continuous assurance workflows, integrations, and enterprise sales model; refined the existing listing without changing lifecycle status.",
+  "accepted": [
+    {
+      "name": "Mindgard",
+      "category": "Cybersecurity",
+      "description": "Enterprise AI security platform that discovers AI assets and attack surfaces, performs agentic reconnaissance and adaptive red teaming across models, LLM apps, RAG pipelines, agents, MCP/A2A tools and APIs, then validates exploitable weaknesses and supports remediation, runtime protection and continuous assurance.",
+      "userValue": "For security, product and AI engineering teams that need to test AI-specific risks such as prompt injection, jailbreaks, data leakage, unsafe tool use and agent permission abuse across development and production. Integrates through APIs, CI/CD and Burp Suite, and provides evidence, remediation guidance and retesting. Commercial enterprise product with demo-led sales; no public platform price found. It complements rather than replaces traditional AppSec and runtime guardrails.",
+      "availability": "Paid / Contact sales",
+      "url": "https://mindgard.ai/",
+      "evidenceUrls": [
+        "https://mindgard.ai/",
+        "https://mindgard.ai/ai-security-platform",
+        "https://mindgard.ai/about",
+        "https://mindgard.ai/services/ai-red-teaming",
+        "https://mindgard.ai/services/mindgard-services"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Mindgard's current official product is an enterprise AI security platform, not a general AI-powered SOC assistant. It discovers AI assets and maps attack surfaces before running adaptive, attacker-style tests against models, LLM applications, RAG pipelines, agents, tools, APIs and MCP/A2A-connected systems.",
+    "The official platform describes remediation guidance, retesting, continuous assurance, governance evidence and runtime detection/protection capabilities. API, CI/CD and Burp Suite workflows connect findings to existing security and engineering processes.",
+    "The service pages document testing for prompt injection, jailbreaks, data extraction, unsafe tool use, privilege escalation, MCP abuse, model extraction and data poisoning. These are authorized defensive testing workflows.",
+    "The platform is enterprise-oriented and demo-led; no public platform price or self-serve free tier was found during this review. Mindgard also offers separate expert-led red-team, pentesting and training services.",
+    "Mindgard complements traditional application-security testing and runtime guardrails by testing AI-specific behavior and whether existing controls can be bypassed; it should not be presented as a replacement for an organization's wider security program."
+  ]
+}

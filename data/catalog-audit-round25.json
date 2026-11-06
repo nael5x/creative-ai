@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-25",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Merlin. The existing browser assistant was verified as an active, distinct product; no catalog expansion or lifecycle change.",
+  "accepted": [
+    {
+      "name": "Merlin",
+      "category": "Productivity",
+      "description": "AI-powered browser extension and web assistant that brings multi-model chat into webpages and search, with page-aware Q&A, web research, summaries of websites, YouTube videos and documents, rewriting, translation, custom knowledge Projects and prompt-driven diagrams or code snippets.",
+      "userValue": "For students, researchers, creators and professionals who want to research, understand and transform web content without repeatedly switching between browser tabs and separate AI apps.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.getmerlin.in/",
+      "evidenceUrls": [
+        "https://www.getmerlin.in/",
+        "https://www.getmerlin.in/pricing?for=teams",
+        "https://chromewebstore.google.com/detail/merlin-ai/camppjleccjaphfdbohjdohecfnoikec?hl=en-US"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Disambiguation: this catalog entry is the Merlin browser assistant at getmerlin.in. Other products using the Merlin name and different official domains were not treated as the same product.",
+    "The official product site documents its browser extension and web app, page-aware assistance, summaries, research, translation, custom Projects and creative/code outputs. The official pricing page confirms an active free and paid offering; the Chrome Web Store listing provides current distribution evidence.",
+    "Avoid hard-coding specific model names or counts because the model lineup and included allowances change."
+  ]
+}

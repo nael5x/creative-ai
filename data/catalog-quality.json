@@ -2747,6 +2747,2293 @@
       "reviewedAt": "2026-10-31"
     },
     {
+      "name": "Browse AI",
+      "officialUrl": "https://www.browse.ai/",
+      "evidenceUrls": [
+        "https://help.browse.ai/en/articles/10486935-how-browse-ai-uses-ai",
+        "https://help.browse.ai/en/articles/10445807-what-are-robots-and-what-can-they-do",
+        "https://www.browse.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams that need recurring structured website data—such as product details, listings, leads or competitor changes—without maintaining custom scrapers.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Browser Use",
+      "officialUrl": "https://browser-use.com/",
+      "evidenceUrls": [
+        "https://github.com/browser-use/browser-use",
+        "https://browser-use.com/developers",
+        "https://docs.browser-use.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and teams automating multi-step browser tasks with a local or hosted agent and optional managed browser infrastructure.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Browserbase",
+      "officialUrl": "https://www.browserbase.com/",
+      "evidenceUrls": [
+        "https://www.browserbase.com/",
+        "https://github.com/browserbase/stagehand"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers deploying agents that must interact with live websites reliably, with managed sessions, authentication support, logs, live view and replay.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Bubble AI",
+      "officialUrl": "https://bubble.io/ai-app-builder",
+      "evidenceUrls": [
+        "https://bubble.io/ai-app-builder",
+        "https://manual.bubble.io/help-guides/ai"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For founders and nontechnical builders who want a functional web-app starting point while retaining visual control over the interface, data and logic.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Buffer AI Assistant",
+      "officialUrl": "https://buffer.com/ai-assistant",
+      "evidenceUrls": [
+        "https://buffer.com/ai-assistant",
+        "https://support.buffer.com/articles/using-buffers-ai-assistant-qbBulfw9sn"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and social teams that want to draft and adapt posts inside the same publishing and scheduling workflow. This is a Buffer feature, not a claim that Buffer's core platform is AI-powered.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Builder.io Visual Copilot",
+      "officialUrl": "https://builder.io/figma-to-code",
+      "evidenceUrls": [
+        "https://builder.io/figma-to-code",
+        "https://builder.io/ai",
+        "https://www.builder.io/c/docs/developers"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For product teams that want to turn approved designs into code aligned with their real component system, then refine and review the implementation in their existing repository workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Caktus AI",
+      "officialUrl": "https://caktus.ai/",
+      "evidenceUrls": [
+        "https://caktus.ai/",
+        "https://caktus.ai/essay",
+        "https://caktus.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students who need one academic workflow for researching, drafting and understanding course material; generated citations should still be checked against the original sources.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CAMEL-AI",
+      "officialUrl": "https://camel-ai.org/",
+      "evidenceUrls": [
+        "https://www.camel-ai.org/framework",
+        "https://github.com/camel-ai/camel"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and researchers prototyping coordinated agents, agent collaboration and multi-agent simulations with a documented framework and examples.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CapCut AI",
+      "officialUrl": "https://www.capcut.com/tools/ai-video",
+      "evidenceUrls": [
+        "https://www.capcut.com/tools/ai-video",
+        "https://www.capcut.com/tools"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators who want to generate or enhance video assets and finish short-form content in an integrated editor. This is an AI feature suite within CapCut.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Captions",
+      "officialUrl": "https://captions.ai/",
+      "evidenceUrls": [
+        "https://captions.ai/",
+        "https://captions.ai/pricing",
+        "https://help.captions.ai/docs/project/ai-twin"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators producing short-form videos, ads and tutorials who want AI-assisted post-production and localized versions in one app.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cartesia",
+      "officialUrl": "https://www.cartesia.ai/",
+      "evidenceUrls": [
+        "https://www.cartesia.ai/",
+        "https://www.cartesia.ai/product/speech-synthesis",
+        "https://docs.cartesia.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building real-time voice interfaces and phone agents that need low-latency speech generation and transcription.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cerebras Inference",
+      "officialUrl": "https://www.cerebras.ai/inference",
+      "evidenceUrls": [
+        "https://www.cerebras.ai/inference",
+        "https://www.cerebras.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who need fast managed language-model inference without operating their own model-serving infrastructure.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Chatbase",
+      "officialUrl": "https://www.chatbase.co/",
+      "evidenceUrls": [
+        "https://mcp.chatbase.co/llm-info",
+        "https://www.chatbase.co/",
+        "https://www.chatbase.co/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For businesses that need customer-support or product-guidance agents grounded in their own content and connected to helpdesk, commerce or communication workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Chroma",
+      "officialUrl": "https://www.trychroma.com/",
+      "evidenceUrls": [
+        "https://docs.trychroma.com/docs/overview/introduction",
+        "https://github.com/chroma-core/chroma",
+        "https://www.trychroma.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building RAG, semantic search or multimodal retrieval systems who need a local or hosted vector database.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Circleback",
+      "officialUrl": "https://circleback.ai/",
+      "evidenceUrls": [
+        "https://circleback.ai/",
+        "https://circleback.ai/switch",
+        "https://run.circleback.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams that need meeting outcomes, accountable follow-ups and searchable conversation context connected to their CRM, project tools and AI agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Civitai",
+      "officialUrl": "https://civitai.com/",
+      "evidenceUrls": [
+        "https://civitai.tech/newsroom",
+        "https://civitai.tech/articles/28369/two-front-doors-civitaicom-civitaired-and-whats-next",
+        "https://civitai.tech/articles/33294/the-2026-creator-program-the-full-picture",
+        "https://civitai.tech/articles/34441/hubs-build-a-feed-from-your-favorites"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For generative-media creators who need a broad library of community models and LoRAs, model discovery, creator resources and hosted generation in one ecosystem.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Claid.ai",
+      "officialUrl": "https://claid.ai/",
+      "evidenceUrls": [
+        "https://help.claid.ai/en/article/welcome-to-claidai-general-overview-oxluuk/",
+        "https://help.claid.ai/en/article/ai-photoshoot-76as8m/",
+        "https://docs.claid.ai/image-editing-api/api-reference"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce sellers and creative teams that need polished, consistent product imagery and campaign variations without arranging a new photoshoot for every asset.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cleanup.pictures",
+      "officialUrl": "https://cleanup.pictures/",
+      "evidenceUrls": [
+        "https://cleanup.pictures/",
+        "https://clipdrop.co/apis"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For photographers, ecommerce teams and everyday users who need to clean up a photo quickly without opening a full desktop editor.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cleanvoice AI",
+      "officialUrl": "https://cleanvoice.ai/",
+      "evidenceUrls": [
+        "https://cleanvoice.ai/",
+        "https://help.cleanvoice.ai/en/articles/3-what-is-cleanvoice",
+        "https://help.cleanvoice.ai/en/articles/19-which-features-are-available-in-pay-as-you-go-and-subscription",
+        "https://cleanvoice.app/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For podcasters, interviewers and audio/video editors who want to shorten cleanup work while retaining control over the exported edit.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Clearscope",
+      "officialUrl": "https://www.clearscope.io/",
+      "evidenceUrls": [
+        "https://www.clearscope.io/",
+        "https://www.clearscope.io/pricing/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SEO and content teams that need one workflow for topic research, content optimization and visibility monitoring across traditional search and AI answers.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Clipdrop",
+      "officialUrl": "https://clipdrop.co/",
+      "evidenceUrls": [
+        "https://clipdrop.co/",
+        "https://clipdrop.co/pricing",
+        "https://clipdrop.co/apis",
+        "https://stability.ai/news-updates/init-ml-divestment"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and product teams that need a focused set of image-generation and image-editing operations in a browser or through an API.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CoCounsel Legal",
+      "officialUrl": "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+      "evidenceUrls": [
+        "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+        "https://legal.thomsonreuters.com/en/products/cocounsel-legal/features",
+        "https://legal.thomsonreuters.com/blog/behind-the-build-of-the-next-generation-of-cocounsel-legal/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For attorneys and legal teams that need source-grounded research, document review and drafting connected to trusted legal content and firm knowledge; professional review remains essential.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Colossyan",
+      "officialUrl": "https://www.colossyan.com/",
+      "evidenceUrls": [
+        "https://www.colossyan.com/",
+        "https://docs.colossyan.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For L&D, HR and customer-education teams that need to produce, update and localize training content without filming every lesson.",
+      "decision": "accepted"
+    },
+    {
+      "name": "ComfyUI",
+      "officialUrl": "https://github.com/Comfy-Org/ComfyUI",
+      "evidenceUrls": [
+        "https://github.com/Comfy-Org/ComfyUI",
+        "https://www.comfy.org/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For technical creators who need fine-grained control, reusable graphs and local execution across a wide range of generative models and media workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Compose AI",
+      "officialUrl": "https://www.compose.ai/",
+      "evidenceUrls": [
+        "https://www.compose.ai/",
+        "https://www.compose.ai/pricing",
+        "https://chromewebstore.google.com/detail/compose-ai-ai-powered-wri/ddlbpiadoechcolndfeaonajmngmhblj"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For people who write across email, documents and web apps and want contextual autocomplete and rewriting without switching to a separate chat tool.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Consensus",
+      "officialUrl": "https://consensus.app/",
+      "evidenceUrls": [
+        "https://help.consensus.app/en/articles/9922673-how-consensus-works",
+        "https://help.consensus.app/en/articles/12641232-research-agent",
+        "https://help.consensus.app/en/articles/10083353-responsible-ai-limitations"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students, researchers and professionals who need evidence-backed answers from scientific literature and want to trace each synthesis to its source papers.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Constructor",
+      "officialUrl": "https://constructor.com/",
+      "evidenceUrls": [
+        "https://constructor.com/",
+        "https://constructor.com/solutions/search"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce retailers with large catalogs who need shoppers to find relevant products through better search, recommendations and natural-language assistance.",
+      "decision": "accepted"
+    },
+    {
+      "name": "ContentStudio",
+      "officialUrl": "https://contentstudio.io/",
+      "evidenceUrls": [
+        "https://contentstudio.io/ai-studio",
+        "https://docs.contentstudio.io/articles/ai-studio-1c0e28da",
+        "https://docs.contentstudio.io/help-center"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, agencies and social teams that want to move from an idea to on-brand, scheduled social content in one workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CoCounsel",
+      "officialUrl": "https://legal.thomsonreuters.com/en/products/cocounsel",
+      "evidenceUrls": [
+        "https://legal.thomsonreuters.com/en/products/cocounsel",
+        "https://legal.thomsonreuters.com/en/products/cocounsel-legal"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The prior catalog label is superseded by the official current product name CoCounsel Legal.",
+      "decision": "rejected",
+      "reason": "Thomson Reuters' former CoCounsel product URL now redirects to the current CoCounsel Legal page, and the official legal product and feature pages consistently use CoCounsel Legal. The old catalog name is an alias, not a separate product.",
+      "supersededBy": "CoCounsel Legal"
+    },
+    {
+      "name": "Connected Papers",
+      "officialUrl": "https://www.connectedpapers.com/",
+      "evidenceUrls": [
+        "https://www.connectedpapers.com/about",
+        "https://www.connectedpapers.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The product is a useful visual academic-paper discovery graph, but its documented method is bibliometric similarity rather than an AI capability.",
+      "decision": "rejected",
+      "reason": "The official methodology describes co-citation and bibliographic coupling to identify related papers and a force-directed graph to arrange them. The official product pages do not document AI/ML or generative-AI functionality. It is a research-discovery tool, but it does not meet Creative AI's requirement that AI be a real, useful part of the product."
+    },
+    {
+      "name": "Continue",
+      "officialUrl": "https://continue.dev/",
+      "evidenceUrls": [
+        "https://docs.continue.dev/",
+        "https://docs.continue.dev/ide-extensions/agent/quick-start",
+        "https://github.com/continuedev/continue"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who want a model-flexible assistant integrated with their IDE and terminal, including agent actions and control over the models and tools they use.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Copy.ai",
+      "officialUrl": "https://www.copy.ai/",
+      "evidenceUrls": [
+        "https://www.copy.ai/",
+        "https://www.copy.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For revenue teams that need repeatable, cross-functional AI workflows grounded in company data rather than isolated copy-generation prompts.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Corti",
+      "officialUrl": "https://corti.ai/",
+      "evidenceUrls": [
+        "https://corti.ai/",
+        "https://docs.corti.ai/assistant/welcome",
+        "https://corti.ai/solutions"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For healthcare software teams and providers embedding domain-specific AI into clinical workflows; clinicians must review generated documentation and coding before use.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Crawl4AI",
+      "officialUrl": "https://crawl4ai.com/",
+      "evidenceUrls": [
+        "https://docs.crawl4ai.com/",
+        "https://github.com/unclecode/crawl4ai"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building RAG, agent, search or data pipelines that need self-hosted, LLM-ready web content.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Creatify",
+      "officialUrl": "https://creatify.ai/",
+      "evidenceUrls": [
+        "https://creatify.ai/",
+        "https://help.creatify.ai/en/articles/17323796-ad-agent",
+        "https://help.creatify.ai/en/articles/12435455-url-to-video"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce and growth teams that need multiple UGC-style ad concepts and variations without manually filming and editing each creative.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Crisp AI",
+      "officialUrl": "https://crisp.chat/en/ai/",
+      "evidenceUrls": [
+        "https://crisp.chat/en/ai/",
+        "https://docs.crisp.chat/guides/hugo/",
+        "https://help.crisp.chat/en/article/getting-started-with-hugo-ai-agent-w6gbux/",
+        "https://crisp.chat/en/blog/how-we-rebuilt-part-of-crisp-to-build-hugo-our-ai-support-agent/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For support teams that want customer-facing automation plus agent assistance within their shared inbox, with configurable routing, integrations and human handoff.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CrowdStrike Charlotte AI",
+      "officialUrl": "https://www.crowdstrike.com/en-us/platform/charlotte-ai/",
+      "evidenceUrls": [
+        "https://www.crowdstrike.com/en-us/platform/charlotte-ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SOC teams managing high alert volume who need faster investigation and governed automation while retaining analyst control.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Curipod",
+      "officialUrl": "https://curipod.com/",
+      "evidenceUrls": [
+        "https://help.curipod.com/en/articles/739593-can-i-edit-my-lesson-in-curipod",
+        "https://help.curipod.com/en/articles/739587-what-types-of-activities-are-there-in-curipod",
+        "https://help.curipod.com/en/articles/739580-how-do-i-teach-a-lesson-in-curipod"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teachers who want to prepare interactive lessons and give students timely feedback without building each slide and activity manually.",
+      "decision": "accepted"
+    },
+    {
+      "name": "D-ID",
+      "officialUrl": "https://www.d-id.com/",
+      "evidenceUrls": [
+        "https://docs.d-id.com/docs/quickstart",
+        "https://docs.d-id.com/reference/create4",
+        "https://www.d-id.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams building digital presenters, localized video content or interactive avatar agents.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dataiku",
+      "officialUrl": "https://www.dataiku.com/product/",
+      "evidenceUrls": [
+        "https://www.dataiku.com/product",
+        "https://www.dataiku.com/product/agent-hub",
+        "https://developer.dataiku.com/latest/getting-started/intro-value/index.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For enterprise data teams that need to build, deploy and govern analytics and AI systems across technical and business users.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Decktopus",
+      "officialUrl": "https://www.decktopus.com/",
+      "evidenceUrls": [
+        "https://www.decktopus.com/",
+        "https://help.decktopus.com/en/articles/111-how-to-create-a-presentation-with-ai"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For professionals and teams that need polished client, sales, educational or investor decks quickly, with editing and delivery tools in one workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepEval",
+      "officialUrl": "https://deepeval.com/",
+      "evidenceUrls": [
+        "https://deepeval.com/docs/introduction",
+        "https://deepeval.com/docs/metrics-introduction",
+        "https://github.com/confident-ai/deepeval"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For engineering teams that need repeatable quality and safety checks for LLM features in pytest and CI/CD, with evaluations running locally.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepL Write",
+      "officialUrl": "https://www.deepl.com/en/write",
+      "evidenceUrls": [
+        "https://www.deepl.com/en/features/write",
+        "https://support.deepl.com/hc/en-us/articles/6318834492700-About-DeepL-Write"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For writers and teams polishing multilingual communications while preserving meaning and choosing a tone appropriate to the context.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DeepScribe",
+      "officialUrl": "https://www.deepscribe.ai/",
+      "evidenceUrls": [
+        "https://www.deepscribe.ai/",
+        "https://www.deepscribe.ai/specialties/oncology"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For oncology clinicians and health systems seeking to reduce documentation burden and keep visit context organized; clinicians must verify notes and coding before finalizing.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Creatomate",
+      "officialUrl": "https://creatomate.com/",
+      "evidenceUrls": [
+        "https://creatomate.com/docs/fundamentals/getting-started/introduction",
+        "https://creatomate.com/docs"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "Creatomate automates video and image rendering from templates and API payloads; the official docs mention external AI-assistant integration and AI-powered workflows, but do not establish a built-in AI capability in the product itself.",
+      "decision": "rejected",
+      "reason": "The official product documentation describes a template-driven media-rendering and automation API. Its AI references are to using an external AI assistant to configure or operate Creatomate, or to examples where other tools supply AI-generated content. The core product itself is not shown to provide an AI model or first-party AI function that materially performs the media creation. It is a useful video automation product, but it does not meet Creative AI's AI-tool inclusion standard."
+    },
+    {
+      "name": "DeepSeek",
+      "officialUrl": "https://www.deepseek.com/en/",
+      "evidenceUrls": [
+        "https://www.deepseek.com/en/",
+        "https://api-docs.deepseek.com/updates/",
+        "https://api-docs.deepseek.com/guides/search/",
+        "https://api-docs.deepseek.com/quick_start/pricing/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For everyday users who need a capable assistant and developers who want to integrate DeepSeek models and live web retrieval into applications.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Defog",
+      "officialUrl": "https://defog.ai/",
+      "evidenceUrls": [
+        "https://defog.ai/",
+        "https://docs.defog.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams that want faster exploration of structured business data without waiting for every question to be answered manually in SQL.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Devin",
+      "officialUrl": "https://devin.ai/",
+      "evidenceUrls": [
+        "https://devin.ai/",
+        "https://docs.devin.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For engineering teams delegating scoped multi-step implementation, debugging and maintenance work while retaining code review and merge control.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dext",
+      "officialUrl": "https://dext.com/en",
+      "evidenceUrls": [
+        "https://dext.com/en",
+        "https://help.dext.com/en/articles/416713-rules-and-automation-in-dext",
+        "https://help.dext.com/en/articles/416727-getting-started-with-dext-for-accountants-and-bookkeepers"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For accounting firms and businesses that process recurring financial documents and want structured extraction and rule-guided automation with review controls.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Diffbot",
+      "officialUrl": "https://www.diffbot.com/",
+      "evidenceUrls": [
+        "https://www.diffbot.com/docs/",
+        "https://www.diffbot.com/docs/extract/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and enterprises that need large-scale, structured web data and entity relationships for search, analytics, enrichment and AI applications.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Digits",
+      "officialUrl": "https://digits.com/",
+      "evidenceUrls": [
+        "https://digits.com/",
+        "https://digits.com/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For business owners, finance teams and accounting firms that need continuously updated books, financial answers and automated close workflows in one system.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Documind",
+      "officialUrl": "https://www.documind.chat/",
+      "evidenceUrls": [
+        "https://www.documind.chat/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students and teams that need a searchable conversational layer over document collections and want to share a document-grounded chatbot with others.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Docyt",
+      "officialUrl": "https://www.docyt.com/",
+      "evidenceUrls": [
+        "https://www.docyt.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For multi-location operators and accounting teams that need automated, consolidated financial operations across properties and business units.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dreamina",
+      "officialUrl": "https://dreamina.capcut.com/",
+      "evidenceUrls": [
+        "https://dreamina.capcut.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators who want to generate and edit visual assets and short videos in one connected creative workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dropzone AI",
+      "officialUrl": "https://www.dropzone.ai/",
+      "evidenceUrls": [
+        "https://www.dropzone.ai/product/ai-soc-analyst",
+        "https://docs.dropzone.ai/",
+        "https://www.dropzone.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SOC teams that need to investigate more security alerts and threat signals across their existing stack without giving up analyst oversight or auditability.",
+      "decision": "accepted"
+    },
+    {
+      "name": "DSPy",
+      "officialUrl": "https://dspy.ai/",
+      "evidenceUrls": [
+        "https://dspy.ai/",
+        "https://github.com/stanfordnlp/dspy"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and researchers who want reproducible, measurable LLM applications instead of manually tuning prompt chains for every model.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dubverse",
+      "officialUrl": "https://dubverse.ai/",
+      "evidenceUrls": [
+        "https://dubverse.ai/",
+        "https://dubverse.ai/blog/dubverse-joins-exotel/",
+        "https://help.dubverse.ai/en/collections/9630884-product-updates",
+        "https://help.dubverse.ai/en/articles/12381188-introducing-lipsync-in-dubverse"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and businesses that need to localize video and audio content while retaining control over translated scripts, voices and timing.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dust",
+      "officialUrl": "https://dust.tt/",
+      "evidenceUrls": [
+        "https://dust.tt/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For organizations building internal AI workflows grounded in company systems and requiring collaboration, governance and control over agent actions.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ecrett Music",
+      "officialUrl": "https://ecrettmusic.com/",
+      "evidenceUrls": [
+        "https://ecrettmusic.com/",
+        "https://ecrettmusic.com/terms"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For video creators who need quick background music matched to a scene or mood, with a clear license for the intended use.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Eduaide.AI",
+      "officialUrl": "https://www.eduaide.ai/",
+      "evidenceUrls": [
+        "https://www.eduaide.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For educators who need to prepare differentiated instructional materials and assessments faster while keeping the teacher in control of the final lesson.",
+      "decision": "accepted"
+    },
+    {
+      "name": "eesel AI",
+      "officialUrl": "https://www.eesel.ai/",
+      "evidenceUrls": [
+        "https://www.eesel.ai/",
+        "https://docs.eesel.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For support teams that want to automate routine tickets and assist human agents using existing helpdesk content and workflows, with review and escalation controls.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Eightfold AI",
+      "officialUrl": "https://eightfold.ai/products/",
+      "evidenceUrls": [
+        "https://eightfold.ai/products/",
+        "https://eightfold.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For enterprise HR and talent teams that need skills-based hiring and workforce decisions across recruiting, development and planning rather than résumé keyword matching alone.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Elai.io",
+      "officialUrl": "https://elai.io/",
+      "evidenceUrls": [
+        "https://elai.io/",
+        "https://elai.io/pricing",
+        "https://www.panopto.com/news/panopto-acquisition-of-elai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For organizations that need to produce and localize training or instructional videos without filming every presenter-led lesson.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Elephas",
+      "officialUrl": "https://elephas.app/",
+      "evidenceUrls": [
+        "https://elephas.app/",
+        "https://elephas.app/pricing",
+        "https://elephas.app/support/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For Mac users who want an assistant grounded in personal files and notes while keeping indexing local and choosing where AI processing happens.",
+      "decision": "accepted"
+    },
+    {
+      "name": "EvenUp",
+      "officialUrl": "https://www.evenuplaw.com/",
+      "evidenceUrls": [
+        "https://www.evenuplaw.com/",
+        "https://www.evenuplaw.com/products/demands/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For personal-injury firms handling high volumes of medical records and demand preparation; attorneys remain responsible for verifying evidence and legal conclusions.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Exa",
+      "officialUrl": "https://exa.ai/",
+      "evidenceUrls": [
+        "https://exa.ai/",
+        "https://docs.exa.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building research agents and AI applications that need relevant web sources and clean page content rather than relying only on conventional keyword search.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Explainpaper",
+      "officialUrl": "https://www.explainpaper.com/",
+      "evidenceUrls": [
+        "https://www.explainpaper.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students and researchers who need help understanding dense papers while keeping explanations tied to the source document and its exact sections.",
+      "decision": "accepted"
+    },
+    {
+      "name": "fal",
+      "officialUrl": "https://fal.ai/inference",
+      "evidenceUrls": [
+        "https://fal.ai/inference",
+        "https://fal.ai/serverless",
+        "https://docs.fal.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and creative platforms that need production inference for generative-media models without provisioning and operating GPU infrastructure themselves.",
+      "decision": "accepted"
+    },
+    {
+      "name": "FeedHive",
+      "officialUrl": "https://www.feedhive.com/",
+      "evidenceUrls": [
+        "https://www.feedhive.com/",
+        "https://www.feedhive.com/features/ai",
+        "https://www.feedhive.com/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, brands and agencies that want AI-assisted content creation and controlled cross-channel publishing in one workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Felo",
+      "officialUrl": "https://felo.ai/en",
+      "evidenceUrls": [
+        "https://felo.ai/en",
+        "https://felo.ai/en/version",
+        "https://felo.ai/tools"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For users who want to move from multilingual research and source discovery to structured reports, presentations and other deliverables in one workspace.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Filmora AI",
+      "officialUrl": "https://filmora.wondershare.com/ai-features.html",
+      "evidenceUrls": [
+        "https://filmora.wondershare.com/ai-features.html",
+        "https://filmora.wondershare.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For video editors who want AI-assisted generation, cleanup and editing inside a familiar timeline editor rather than a separate generation-only app. This is a Filmora capability suite.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Findem",
+      "officialUrl": "https://www.findem.ai/platform",
+      "evidenceUrls": [
+        "https://www.findem.ai/platform",
+        "https://www.findem.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For recruiting and HR teams that need evidence-rich talent discovery and workforce insight beyond static résumés and keyword filters.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Firecrawl",
+      "officialUrl": "https://www.firecrawl.dev/",
+      "evidenceUrls": [
+        "https://www.firecrawl.dev/",
+        "https://docs.firecrawl.dev/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building RAG, research agents and data pipelines that need reliable, structured web content from live sites.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fireworks AI",
+      "officialUrl": "https://fireworks.ai/inference",
+      "evidenceUrls": [
+        "https://fireworks.ai/inference",
+        "https://docs.fireworks.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams that need low-latency production serving and customization of open models without building their own inference and GPU-training stack.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Flair AI",
+      "officialUrl": "https://flair.ai/",
+      "evidenceUrls": [
+        "https://flair.ai/",
+        "https://flair.ai/pricing",
+        "https://flair.ai/resources/faq"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce and marketing teams that need consistent branded product visuals and campaign assets without arranging a new photoshoot for each variation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "FlexClip AI",
+      "officialUrl": "https://www.flexclip.com/tools/ai-video-generator/",
+      "evidenceUrls": [
+        "https://www.flexclip.com/tools/ai-video-generator/",
+        "https://help.flexclip.com/en/articles/7266778-what-is-flexclip"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and small teams who want to generate short clips from prompts or still images and finish social, marketing or explainer videos in one browser-based workflow. AI generation is integrated into the FlexClip editor.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Flick",
+      "officialUrl": "https://www.flick.social/",
+      "evidenceUrls": [
+        "https://www.flick.social/",
+        "https://www.flick.social/ai-social-media-assistant"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, small businesses and social-media managers who want AI-assisted content planning alongside publishing and performance tools in one workspace.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fliki",
+      "officialUrl": "https://fliki.ai/",
+      "evidenceUrls": [
+        "https://fliki.ai/features",
+        "https://fliki.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, educators and businesses producing voice-led videos, explainers and multilingual content without recording every narration or assembling every scene manually.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Forethought",
+      "officialUrl": "https://forethought.ai/platform",
+      "evidenceUrls": [
+        "https://forethought.ai/platform",
+        "https://forethought.ai/solutions/ai-customer-service-agent",
+        "https://forethought.ai/platform/assist"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For customer-support organizations that want to automate routine customer issues while routing complex cases to human agents with AI assistance and quality monitoring.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Framer AI",
+      "officialUrl": "https://www.framer.com/ai/",
+      "evidenceUrls": [
+        "https://www.framer.com/ai/",
+        "https://www.framer.com/solutions/ai-website-builder/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For designers, founders and marketing teams who want to create and refine responsive websites on a visual canvas while using AI for first drafts and iterative site work. This is an AI capability suite within Framer.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Frase",
+      "officialUrl": "https://www.frase.io/",
+      "evidenceUrls": [
+        "https://www.frase.io/features",
+        "https://www.frase.io/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For content marketers, SEO teams and agencies managing research, writing, optimization and AI-search visibility as a connected workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Freed",
+      "officialUrl": "https://www.getfreed.ai/",
+      "evidenceUrls": [
+        "https://www.getfreed.ai/features",
+        "https://www.getfreed.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For licensed clinicians and practices seeking to reduce documentation work while reviewing and approving generated notes, evidence and coding suggestions. It is a clinical workflow assistant, not a substitute for clinician judgment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gauth",
+      "officialUrl": "https://www.gauth.io/",
+      "evidenceUrls": [
+        "https://www.gauth.io/",
+        "https://www.gauth.io/about",
+        "https://www.gauthmath.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students who want to understand the working behind a practice problem rather than receive only a final answer; explanations should still be checked against course materials.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gemini CLI",
+      "officialUrl": "https://github.com/google-gemini/gemini-cli",
+      "evidenceUrls": [
+        "https://github.com/google-gemini/gemini-cli",
+        "https://github.com/google-gemini/gemini-cli/blob/main/docs/index.md"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who prefer a terminal-native agent for coding, research and repeatable project tasks, with configurable tools, sandboxing and human approval controls.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Genspark",
+      "officialUrl": "https://www.genspark.ai/",
+      "evidenceUrls": [
+        "https://www.genspark.ai/",
+        "https://www.genspark.ai/helpcenter/super-app",
+        "https://genspark.prod.sspark.ai/helpcenter/super-agent"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and teams delegating multi-step knowledge work and wanting generated deliverables, connected-app context and coding or communication workflows in one environment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "getimg.ai",
+      "officialUrl": "https://getimg.ai/",
+      "evidenceUrls": [
+        "https://getimg.ai/",
+        "https://getimg.ai/pricing",
+        "https://getimg.ai/guides/guide-to-getimg-ai-features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and marketing teams producing varied visual and audio assets across multiple models without maintaining separate subscriptions and workflows for every generation task.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Giskard",
+      "officialUrl": "https://www.giskard.ai/",
+      "evidenceUrls": [
+        "https://docs.giskard.ai/",
+        "https://docs.giskard.ai/hub/ui",
+        "https://docs.giskard.ai/oss",
+        "https://docs.giskard.ai/oss/scan"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For AI developers and organizations that need repeatable quality and security tests for AI applications, including prompt-injection and hallucination checks, before and after deployment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "GitGuardian",
+      "officialUrl": "https://www.gitguardian.com/platform",
+      "evidenceUrls": [
+        "https://www.gitguardian.com/platform",
+        "https://www.gitguardian.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For security and engineering teams that need to detect credential exposure, identify ownership and blast radius, and manage remediation across repositories and the wider secrets surface. AI supports parts of the workflow; secret detection also uses dedicated detectors.",
+      "decision": "accepted"
+    },
+    {
+      "name": "GitLab Duo",
+      "officialUrl": "https://docs.gitlab.com/user/gitlab_duo/index.html",
+      "evidenceUrls": [
+        "https://docs.gitlab.com/user/gitlab_duo/index.html",
+        "https://docs.gitlab.com/user/duo_agent_platform/",
+        "https://about.gitlab.com/gitlab-duo-agent-platform/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For development teams already using GitLab that want AI assistance and governed agents grounded in repository, issue, CI/CD and project context. Availability depends on GitLab tier, deployment and credits.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Glass Health",
+      "officialUrl": "https://glass.health/",
+      "evidenceUrls": [
+        "https://glass.health/",
+        "https://glass.health/documentation"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For clinicians and healthcare organizations seeking documentation and evidence-supported clinical reasoning workflows. AI-generated suggestions require qualified clinical review and do not replace professional judgment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Glide",
+      "officialUrl": "https://www.glideapps.com/classic/ai",
+      "evidenceUrls": [
+        "https://www.glideapps.com/classic/ai",
+        "https://www.glideapps.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams that want internal business apps and operational workflows without building a full custom application, using AI to generate app structure and extract information from business files.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Goose",
+      "officialUrl": "https://block.github.io/goose/",
+      "evidenceUrls": [
+        "https://block.github.io/goose/",
+        "https://github.com/aaif-goose/goose",
+        "https://goose-docs.ai/docs/getting-started/installation/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and technical users who want an extensible agent they can run on their own machine and connect to local tools, files, services and preferred models.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gorgias AI",
+      "officialUrl": "https://www.gorgias.com/ai-agent",
+      "evidenceUrls": [
+        "https://www.gorgias.com/ai-agent",
+        "https://helpcenter.gorgias.com/en-US/ai-agent-explained-497772",
+        "https://docs.gorgias.com/en-US/ai-agent-and-automations-135134"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For Shopify-focused ecommerce teams that want customer-facing AI support and shopping assistance grounded in their catalog, policies and order data, with configurable skills and human handoff.",
+      "decision": "accepted"
+    },
+    {
+      "name": "GPT4All",
+      "officialUrl": "https://www.nomic.ai/gpt4all",
+      "evidenceUrls": [
+        "https://www.nomic.ai/gpt4all",
+        "https://github.com/nomic-ai/gpt4all",
+        "https://docs.gpt4all.io/gpt4all_desktop/quickstart.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and developers who want to experiment with local language models and query personal documents on their own hardware, subject to the capabilities of the selected model and device.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Grain",
+      "officialUrl": "https://grain.com/",
+      "evidenceUrls": [
+        "https://grain.com/",
+        "https://support.grain.com/en/articles/9232495-recording-page",
+        "https://support.grain.com/en/articles/9189989-ask-grain-ai",
+        "https://support.grain.com/en/articles/14811968-grain-mcp"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For sales, customer-success, research and product teams that need searchable meeting knowledge and want AI agents to act on transcripts, clips and follow-ups after conversations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Greptile",
+      "officialUrl": "https://www.greptile.com/",
+      "evidenceUrls": [
+        "https://www.greptile.com/",
+        "https://www.greptile.com/docs/introduction"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For engineering teams that want automated, repository-aware pull-request reviews and codebase context beyond file-by-file linting.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Grok",
+      "officialUrl": "https://grok.com/",
+      "evidenceUrls": [
+        "https://grok.com/",
+        "https://docs.x.ai/grok/overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For users who want a general-purpose assistant for questions, analysis and creative work, with multimodal tools and connected-app context.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gumloop",
+      "officialUrl": "https://www.gumloop.com/",
+      "evidenceUrls": [
+        "https://www.gumloop.com/",
+        "https://docs.gumloop.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For operations, sales, support and other teams that want to automate multi-step work across existing tools without hand-coding every integration.",
+      "decision": "accepted"
+    },
+    {
+      "name": "H2O.ai",
+      "officialUrl": "https://h2o.ai/",
+      "evidenceUrls": [
+        "https://h2o.ai/",
+        "https://www.h2o.ai/platform/agentic",
+        "https://docs.h2o.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For organizations that need to develop and operate AI/ML systems while retaining control over models, data, deployment environments, governance and auditability.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hailuo AI",
+      "officialUrl": "https://hailuoai.video/",
+      "evidenceUrls": [
+        "https://hailuoai.video/",
+        "https://hailuoai.video/tools/ai-video-generator",
+        "https://hailuoai.video/pages/blog/introducing-hailuo-2-3-ai-video-generator"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and marketers who want to generate short cinematic, social, product or concept clips from prompts, still images or visual references and compare different generation models.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Haystack",
+      "officialUrl": "https://haystack.deepset.ai/",
+      "evidenceUrls": [
+        "https://haystack.deepset.ai/overview/intro",
+        "https://docs.haystack.deepset.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building custom AI applications who need explicit, testable orchestration and control over retrieval, model calls, tools and data flow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "HeadshotPro",
+      "officialUrl": "https://www.headshotpro.com/",
+      "evidenceUrls": [
+        "https://www.headshotpro.com/",
+        "https://www.headshotpro.com/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For professionals and organizations that need consistent business headshots without arranging an in-person photo shoot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Heidi Health",
+      "officialUrl": "https://www.heidihealth.com/",
+      "evidenceUrls": [
+        "https://www.heidihealth.com/",
+        "https://www.heidihealth.com/scribe",
+        "https://www.heidihealth.com/evidence",
+        "https://support.heidihealth.com/en/articles/8974408-what-is-ask-heidi"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For clinicians and healthcare teams reducing documentation and information-gathering work while reviewing generated notes and evidence before using them in patient care.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hex",
+      "officialUrl": "https://hex.tech/",
+      "evidenceUrls": [
+        "https://hex.tech/",
+        "https://hex.tech/blog/introducing-hex-4-0/",
+        "https://learn.hex.tech/docs/getting-started/ai-overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For data teams that want analysts and business users to ask questions of company data while retaining review, traceability and governance over agent-generated analyses and apps.",
+      "decision": "accepted"
+    },
+    {
+      "name": "HiddenLayer",
+      "officialUrl": "https://hiddenlayer.com/platform",
+      "evidenceUrls": [
+        "https://hiddenlayer.com/",
+        "https://hiddenlayer.com/platform"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For security and AI-platform teams that need visibility into shadow AI, model and pipeline risks, continuous attack testing and runtime protection for AI applications.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Higgsfield",
+      "officialUrl": "https://higgsfield.ai/",
+      "evidenceUrls": [
+        "https://higgsfield.ai/",
+        "https://higgsfield.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and marketing teams that want a single workspace to generate, edit and package visual content across different models and specialized creative workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hippocratic AI",
+      "officialUrl": "https://hippocraticai.com/",
+      "evidenceUrls": [
+        "https://hippocraticai.com/",
+        "https://hippocraticai.com/safety",
+        "https://hippocraticai.com/products"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For health systems and life-sciences organizations automating non-diagnostic patient engagement and care-coordination tasks with clinical safety monitoring and human escalation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "HireVue",
+      "officialUrl": "https://www.hirevue.com/",
+      "evidenceUrls": [
+        "https://www.hirevue.com/",
+        "https://www.hirevue.com/platform/our-science",
+        "https://www.hirevue.com/platform"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For large employers standardizing candidate screening and skills evaluation across high-volume, early-career and professional hiring while keeping criteria job-related and reviewable by recruiters.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Humanly",
+      "officialUrl": "https://www.humanly.io/",
+      "evidenceUrls": [
+        "https://www.humanly.io/",
+        "https://www.humanly.io/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For employers hiring hourly and frontline workforces who need to respond to applicants around the clock, screen consistently and move qualified candidates to interviews faster.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Humata",
+      "officialUrl": "https://www.humata.ai/",
+      "evidenceUrls": [
+        "https://www.humata.ai/",
+        "https://docs.humata.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For researchers, professionals and organizations that need to search large document collections and share source-cited answers without manually reading every file.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hyper3D Rodin",
+      "officialUrl": "https://hyper3d.ai/",
+      "evidenceUrls": [
+        "https://hyper3d.ai/",
+        "https://hyper3d.ai/help/features",
+        "https://docs.hyper3d.ai/en/get-started/features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For game developers, product designers and 3D artists who want to turn concepts or reference images into editable 3D assets and refine them for downstream pipelines.",
+      "decision": "accepted"
+    },
+    {
+      "name": "HyperWrite",
+      "officialUrl": "https://www.hyperwriteai.com/",
+      "evidenceUrls": [
+        "https://www.hyperwriteai.com/personal-assistant",
+        "https://www.hyperwriteai.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For writers, researchers and knowledge workers who want both writing support and an AI assistant that can move beyond drafting to perform repetitive browser-based tasks.",
+      "decision": "accepted"
+    },
+    {
+      "name": "IBM watsonx Code Assistant",
+      "officialUrl": "https://www.ibm.com/products/watsonx-code-assistant",
+      "evidenceUrls": [
+        "https://www.ibm.com/products/watsonx-code-assistant",
+        "https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started",
+        "https://www.ibm.com/docs/en/software-hub/5.4.x?topic=services-watsonx-code-assistant"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For enterprise development teams that need IDE-integrated code assistance and governed modernization workflows connected to IBM's software and cloud environments.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ideogram",
+      "officialUrl": "https://ideogram.ai/",
+      "evidenceUrls": [
+        "https://ideogram.ai/",
+        "https://ideogram.ai/features/canvas/",
+        "https://docs.ideogram.ai/canvas-and-editing/canvas/canvas-overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For designers, marketers and creators who need image generation with legible text and iterative control over layouts, edits, backgrounds and final compositions.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Infermedica",
+      "officialUrl": "https://infermedica.com/",
+      "evidenceUrls": [
+        "https://infermedica.com/",
+        "https://infermedica.com/product/symptom-checker",
+        "https://developer.infermedica.com/",
+        "https://help.infermedica.com/the-platform"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For health systems, insurers and digital-care providers integrating structured symptom assessment and patient navigation into their own apps, portals or contact centers; outputs support triage workflows rather than replacing clinician assessment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "insMind",
+      "officialUrl": "https://www.insmind.com/",
+      "evidenceUrls": [
+        "https://www.insmind.com/",
+        "https://www.insmind.com/download"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce sellers, marketers and creators who need quick product-photo cleanup, image variations and short-form visual assets across web and mobile workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Instantly",
+      "officialUrl": "https://instantly.ai/",
+      "evidenceUrls": [
+        "https://instantly.ai/",
+        "https://help.instantly.ai/en/articles/11532420-instantly-ai-copilot",
+        "https://help.instantly.ai/en/articles/14299661-ai-sales-agent",
+        "https://help.instantly.ai/en/articles/6221655-what-is-instantly"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For sales teams and agencies running outbound prospecting who want lead discovery, campaign creation, email operations and AI-assisted personalization in one platform.",
+      "decision": "accepted"
+    },
+    {
+      "name": "InVideo AI",
+      "officialUrl": "https://invideo.io/ai/",
+      "evidenceUrls": [
+        "https://invideo.io/ai/",
+        "https://help.invideo.io/en/articles/14717491-get-started-with-ai-filmmaking",
+        "https://invideo.io/agents/",
+        "https://invideo.io/news/introducing-invideo-mcp/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, marketers and teams producing ads, explainers and longer-form videos who want an AI agent to handle the first cut and then refine the result through conversational edits on a real timeline.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ironclad AI",
+      "officialUrl": "https://ironcladapp.com/product/ironclad-ai",
+      "evidenceUrls": [
+        "https://ironcladapp.com/product/ironclad-ai",
+        "https://support.ironcladapp.com/hc/en-us/articles/12947738534935-Ironclad-AI-Overview",
+        "https://legal.ironcladapp.com/fy2026-product-descriptions"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For legal, procurement and operations teams that already manage agreements in Ironclad and want contract-aware AI grounded in their workflows and permissions; this is an AI layer inside Ironclad CLM, not a standalone general-purpose legal chatbot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jamie",
+      "officialUrl": "https://www.meetjamie.ai/",
+      "evidenceUrls": [
+        "https://www.meetjamie.ai/",
+        "https://www.meetjamie.ai/home-page",
+        "https://learn.microsoft.com/en-us/connectors/jamieai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For professionals and teams who want searchable meeting memory and automated follow-ups across different meeting platforms, including in-person conversations, without a bot joining the call.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jenni AI",
+      "officialUrl": "https://jenni.ai/",
+      "evidenceUrls": [
+        "https://jenni.ai/",
+        "https://help.jenni.ai/docs/getting-started/introduction/",
+        "https://help.jenni.ai/docs/research/",
+        "https://jenni.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students, researchers and analysts drafting source-based work who want research, citations, document editing and claim review in one workspace; citations and AI suggestions still require human verification.",
+      "decision": "accepted"
+    },
+    {
+      "name": "JetBrains AI Assistant",
+      "officialUrl": "https://www.jetbrains.com/ai/",
+      "evidenceUrls": [
+        "https://www.jetbrains.com/ai/",
+        "https://www.jetbrains.com/help/ai-assistant/about-ai-assistant.html",
+        "https://www.jetbrains.com/help/ai-assistant/feature-set.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who work in JetBrains IDEs and want AI assistance and configurable coding agents in their existing editor; this is the broader IDE AI layer, distinct from the more autonomous Junie agent.",
+      "decision": "accepted"
+    },
+    {
+      "name": "JetBrains Junie",
+      "officialUrl": "https://www.jetbrains.com/junie/",
+      "evidenceUrls": [
+        "https://www.jetbrains.com/junie/",
+        "https://www.jetbrains.com/help/ai-assistant/junie-agent.html",
+        "https://www.jetbrains.com/help/ai/jetbrains-ai.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who want to delegate bounded, multi-step implementation and debugging work to an agent while reviewing its changes and command execution.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jina AI Reader",
+      "officialUrl": "https://jina.ai/reader/",
+      "evidenceUrls": [
+        "https://jina.ai/reader/",
+        "https://docs.jina.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers building research, retrieval-augmented generation and agent workflows that need readable webpage or PDF content instead of raw HTML; the Reader endpoint can be used without an API key at a lower rate limit.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Juicebox",
+      "officialUrl": "https://juicebox.ai/",
+      "evidenceUrls": [
+        "https://juicebox.ai/",
+        "https://juicebox.ai/ai-recruiting",
+        "https://juicebox.help/peoplegpt"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For recruiters and talent teams sourcing hard-to-find candidates who need natural-language search, candidate calibration and personalized outreach in one recruiting workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Julius AI",
+      "officialUrl": "https://julius.ai/product",
+      "evidenceUrls": [
+        "https://julius.ai/product",
+        "https://julius.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and teams who want to move from a question or dataset to analysis and shareable deliverables in one conversational workspace; it is broader than a spreadsheet-only analysis assistant.",
+      "decision": "accepted"
+    },
+    {
+      "name": "K Health",
+      "officialUrl": "https://www.khealth.com/",
+      "evidenceUrls": [
+        "https://www.khealth.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For health systems and provider organizations that want to improve pre-visit intake, patient engagement and virtual-care access using AI connected to clinical records and clinician-led services; this is primarily an enterprise healthcare platform, not simply a consumer symptom checker.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kaedim",
+      "officialUrl": "https://www.kaedim3d.com/",
+      "evidenceUrls": [
+        "https://www.kaedim3d.com/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For game studios, product teams and brands that need 3D asset production integrated into a professional review workflow; Kaedim positions this as a studio-oriented production service rather than a simple self-serve text-to-3D generator.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kagi Assistant",
+      "officialUrl": "https://kagi.com/assistant",
+      "evidenceUrls": [
+        "https://kagi.com/assistant",
+        "https://help.kagi.com/kagi/ai/assistant.html"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For research, writing and programming users who want model choice and optional private search grounding in one subscription; Kagi says user data is not used to train models and offers configurable conversation retention.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kaiber",
+      "officialUrl": "https://kaiber.ai/",
+      "evidenceUrls": [
+        "https://kaiber.ai/",
+        "https://helpcenter.kaiber.ai/articles/0917805-faqs-getting-started-with-kaiber"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For musicians, artists and social creators who want to generate stylized visuals, synchronize batches of clips to music and finish them in one connected creative workspace.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kapwing AI",
+      "officialUrl": "https://www.kapwing.com/ai/overview",
+      "evidenceUrls": [
+        "https://www.kapwing.com/ai/overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators and teams who want AI generation, localization and editing in the same collaborative browser-based video workspace, without installing desktop editing software.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Keyword Insights",
+      "officialUrl": "https://www.keywordinsights.ai/",
+      "evidenceUrls": [
+        "https://www.keywordinsights.ai/",
+        "https://changelog.keywordinsights.ai/latest-features-and-improvements/",
+        "https://www.keywordinsights.ai/pricing/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SEO teams and content marketers who need to group large keyword sets by intent, identify topical opportunities and turn search data into briefs and articles.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Khanmigo",
+      "officialUrl": "https://www.khanmigo.ai/",
+      "evidenceUrls": [
+        "https://www.khanmigo.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students, families and educators who want guided learning or teaching support connected to Khan Academy content. Individual learner/parent access is currently restricted to eligible US accounts, while teacher access is limited to educators in supported countries and student classroom access is through school or district implementations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kilo Code",
+      "officialUrl": "https://kilo.ai/",
+      "evidenceUrls": [
+        "https://kilo.ai/",
+        "https://kilo.ai/docs/getting-started",
+        "https://github.com/Kilo-Org/kilocode"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who want an extensible coding agent with open-source code, broad model choice and IDE/CLI workflows; the current platform also includes hosted and desktop experiences alongside its open-source core.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kits AI",
+      "officialUrl": "https://www.kits.ai/tools",
+      "evidenceUrls": [
+        "https://www.kits.ai/tools",
+        "https://www.kits.ai/pricing/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For musicians and producers who want to create, transform or clean vocal tracks and experiment with synthetic singing voices within an audio-production workflow.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Klap",
+      "officialUrl": "https://klap.app/",
+      "evidenceUrls": [
+        "https://klap.app/",
+        "https://klap.app/claude"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For podcasters, educators, marketers and creators who need to turn spoken long-form videos into editable vertical clips without manually reviewing the entire recording.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Klaviyo AI",
+      "officialUrl": "https://www.klaviyo.com/solutions/ai/what-is-kai",
+      "evidenceUrls": [
+        "https://www.klaviyo.com/solutions/ai/what-is-kai",
+        "https://www.klaviyo.com/blog/composer-marketing-agent",
+        "https://www.klaviyo.com/newsroom/marketing-agent"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For ecommerce and consumer brands already using Klaviyo that want AI-driven campaign planning, personalization and customer support grounded in their own customer and commerce data; K:AI is embedded in Klaviyo, not a standalone chatbot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Knowt",
+      "officialUrl": "https://knowt.com/",
+      "evidenceUrls": [
+        "https://knowt.com/",
+        "https://help.knowt.com/en/articles/10298083-how-can-i-use-ai-to-write-my-notes",
+        "https://help.knowt.com/en/articles/10714412-how-can-i-create-flashcards-from-my-notes",
+        "https://help.knowt.com/en/articles/10305785-how-do-i-use-the-ai-summarizers"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students and teachers who want to convert class materials into study resources and practice them in one platform; some AI summarization features have usage limits on the free plan.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Koala AI",
+      "officialUrl": "https://koala.sh/features",
+      "evidenceUrls": [
+        "https://koala.sh/features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For publishers, affiliate sites and content teams who want keyword research, topical planning, article production and SEO publishing workflows in one connected subscription.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kommunicate",
+      "officialUrl": "https://www.kommunicate.io/product/kompose-bot-builder",
+      "evidenceUrls": [
+        "https://www.kommunicate.io/product/kompose-bot-builder",
+        "https://docs.kommunicate.io/",
+        "https://docs.kommunicate.io/docs/bot%20integration"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For businesses that want to build AI-assisted support agents from their own knowledge and route unresolved conversations to human teams across web, mobile and messaging channels.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Krea",
+      "officialUrl": "https://www.krea.ai/",
+      "evidenceUrls": [
+        "https://www.krea.ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For designers, artists and creative teams who want one workspace for real-time visual experimentation, image enhancement and multi-model image, video and 3D generation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LALAL.AI",
+      "officialUrl": "https://www.lalal.ai/",
+      "evidenceUrls": [
+        "https://www.lalal.ai/media-kit/",
+        "https://www.lalal.ai/desktop-app/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For musicians, producers, editors and podcasters who need to isolate instruments or vocals, clean recordings and prepare audio or video tracks for further production.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LanceDB",
+      "officialUrl": "https://lancedb.com/",
+      "evidenceUrls": [
+        "https://github.com/lancedb/lancedb",
+        "https://docs.lancedb.com/",
+        "https://github.com/lancedb/lancedb/releases"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For AI developers building RAG, semantic search and multimodal retrieval who need a local embedded database or a production cloud service without operating a traditional vector-database cluster.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Landbot",
+      "officialUrl": "https://landbot.io/",
+      "evidenceUrls": [
+        "https://landbot.io/",
+        "https://help.landbot.io/article/mq53cht078-what-is-landbot",
+        "https://help.landbot.io/article/jmyarmlbih-getting-started-build-a-bot"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For marketing, sales and support teams that want to build guided chat experiences and AI agents visually, combining predictable workflow steps with open-ended answers and human handoff.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Langflow",
+      "officialUrl": "https://www.langflow.org/",
+      "evidenceUrls": [
+        "https://www.langflow.org/",
+        "https://docs.langflow.org/next",
+        "https://docs.langflow.org/concepts-overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers and technical teams who want to visually assemble, inspect and test AI workflows while retaining the ability to customize them in Python and deploy them as applications.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Langfuse",
+      "officialUrl": "https://langfuse.com/",
+      "evidenceUrls": [
+        "https://langfuse.com/docs",
+        "https://langfuse.com/docs/observability/overview",
+        "https://langfuse.com/handbook/chapters/open-source",
+        "https://langfuse.com/resources/engineering/clarifications"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For AI engineering teams that need to debug model and agent behavior, test prompt or model changes and monitor production quality using trace data; Langfuse observes and evaluates applications rather than hosting or orchestrating the agents themselves.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LangGraph",
+      "officialUrl": "https://www.langchain.com/langgraph",
+      "evidenceUrls": [
+        "https://www.langchain.com/langgraph",
+        "https://reference.langchain.com/python/langgraph",
+        "https://www.langchain.com/oss-overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who need explicit control over agent state, execution, retries and human approval in production workflows, rather than a no-code chatbot builder or hosted observability dashboard.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LangSmith",
+      "officialUrl": "https://www.langchain.com/langsmith/observability",
+      "evidenceUrls": [
+        "https://www.langchain.com/langsmith/observability",
+        "https://www.langchain.com/langsmith/evaluation",
+        "https://kb.langchain.com/articles/8854797554-what-is-langsmith"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams building LLM applications that need a continuous development and production-quality loop for debugging, evaluation and monitoring; it complements orchestration frameworks such as LangGraph rather than replacing them.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LanguageTool",
+      "officialUrl": "https://languagetool.org/",
+      "evidenceUrls": [
+        "https://languagetool.org/",
+        "https://languagetool.org/paraphrasing-tool",
+        "https://languagetool.org/services",
+        "https://github.com/languagetool-org/languagetool"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For people and teams who write across languages and want proofreading and contextual rewriting inside the apps they already use; advanced checks and unlimited paraphrasing require Premium.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Later AI",
+      "officialUrl": "https://later.com/ai/",
+      "evidenceUrls": [
+        "https://later.com/ai/",
+        "https://help.later.com/hc/en-us/articles/12252569781015-Later-s-Caption-Writer",
+        "https://help.later.com/hc/en-us/articles/14711113026327-Generate-Content-Ideas-with-AI"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For social media managers who already plan and publish through Later and want AI-assisted caption drafting and content ideation without moving to a separate tool; this is an embedded feature set, not a standalone AI product.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lavender",
+      "officialUrl": "https://www.lavender.ai/",
+      "evidenceUrls": [
+        "https://lavender.ai/",
+        "https://lavender.ai/coach"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SDRs, account executives and sales teams who want evidence-informed coaching while writing personalized outbound emails, plus an agent that can help prepare prospecting and outreach workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LegalOn",
+      "officialUrl": "https://www.legalontech.com/",
+      "evidenceUrls": [
+        "https://www.legalontech.com/",
+        "https://www.legalontech.com/review",
+        "https://www.legalontech.com/what-is-legalon",
+        "https://www.legalontech.com/press-releases/legalon-launches-five-ai-agents-driving-step-change-productivity-for-in-house-legal-teams"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For in-house legal and contracting teams that need to review agreements against their own negotiation standards, triage requests and search contract knowledge faster; LegalOn states its AI does not replace attorneys, who retain validation and final judgment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "lemlist",
+      "officialUrl": "https://www.lemlist.com/",
+      "evidenceUrls": [
+        "https://www.lemlist.com/",
+        "https://help.lemlist.com/en/articles/15382535-lemagent-what-it-is-how-it-works-and-when-to-use-it"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For sales teams and agencies running outbound campaigns who need prospect data, context-aware personalization, multichannel sequencing and deliverability workflows in one system.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Leonardo AI",
+      "officialUrl": "https://leonardo.ai/",
+      "evidenceUrls": [
+        "https://leonardo.ai/ai-image-generator",
+        "https://leonardo.ai/models",
+        "https://leonardo.ai/ai-video-editor",
+        "https://leonardo.ai/ai-image-editor",
+        "https://leonardo.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For designers, marketers, game artists and creators who need model choice and iterative control across image generation, editing, enhancement and short-form video creation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Let's Enhance",
+      "officialUrl": "https://letsenhance.io/",
+      "evidenceUrls": [
+        "https://letsenhance.io/",
+        "https://letsenhance.io/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For photographers, ecommerce teams, designers and print workflows that need to recover detail from low-resolution images or prepare visual assets for larger outputs.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lex",
+      "officialUrl": "https://lex.page/",
+      "evidenceUrls": [
+        "https://lex.page/",
+        "https://lex.page/about"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For writers, founders and knowledge workers who want a focused long-form editor with reusable context and AI feedback integrated into the document rather than a general-purpose chatbot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LibreChat",
+      "officialUrl": "https://www.librechat.ai/",
+      "evidenceUrls": [
+        "https://www.librechat.ai/",
+        "https://github.com/LibreChat-AI/LibreChat"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals, developers and organizations that want a customizable, provider-agnostic AI workspace they can run on their own infrastructure and connect to hosted or local model backends.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lightning AI",
+      "officialUrl": "https://lightning.ai/",
+      "evidenceUrls": [
+        "https://lightning.ai/platform/",
+        "https://lightning.ai/docs/platform/build/overview",
+        "https://lightning.ai/docs/platform/build/ai-studio",
+        "https://studio.lightning.ai/about/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For AI developers, researchers and teams that need a connected environment to build, train, evaluate and deploy models or agents without assembling separate notebook, compute and hosting services.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lily AI",
+      "officialUrl": "https://www.lily.ai/",
+      "evidenceUrls": [
+        "https://www.lily.ai/",
+        "https://www.lily.ai/faqs/what-does-lily-do"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For retailers and consumer brands that need product catalogs to be understandable to search engines, advertising systems and AI shopping agents, and want to measure the effect of catalog enrichment on commerce outcomes.",
+      "decision": "accepted"
+    },
+    {
+      "name": "llama.cpp",
+      "officialUrl": "https://github.com/ggml-org/llama.cpp",
+      "evidenceUrls": [
+        "https://github.com/ggml-org/llama.cpp",
+        "https://github.com/ggml-org/llama.cpp/blob/master/README.md",
+        "https://github.com/ggml-org/llama.cpp/releases"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For developers who need efficient, controllable model inference on desktops, servers and edge hardware, including systems that cannot fit a model entirely in GPU memory.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LM Studio",
+      "officialUrl": "https://lmstudio.ai/",
+      "evidenceUrls": [
+        "https://lmstudio.ai/docs/app",
+        "https://lmstudio.ai/docs/developer/core/server",
+        "https://lmstudio.ai/pricing",
+        "https://lmstudio.ai/blog/free-for-work"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and developers who want to experiment with local models through a graphical app and then expose the same models to local applications, agents or server workloads through an API.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lokalise AI",
+      "officialUrl": "https://lokalise.com/ai/",
+      "evidenceUrls": [
+        "https://lokalise.com/ai/",
+        "https://docs.lokalise.com/en/articles/12292275-ai-frequently-asked-questions",
+        "https://docs.lokalise.com/en/articles/8011393-ai-translations",
+        "https://docs.lokalise.com/en/collections/17223450-ai-features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For product and localization teams translating apps, websites, software and marketing content at scale while preserving approved terminology, brand voice and human review controls; Lokalise AI is part of the Lokalise platform, not a separate translation chatbot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Litmaps",
+      "officialUrl": "https://www.litmaps.com/",
+      "evidenceUrls": [
+        "https://www.litmaps.com/",
+        "https://www.litmaps.com/features"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The official product pages describe paper search, citation/reference mapping, visualization, sharing and alerts. They do not document an AI/ML capability as part of the product's core workflow.",
+      "decision": "rejected",
+      "reason": "The official product pages describe literature discovery through citation and reference connections, visual mapping, sharing and monitoring. They do not document a first-party AI/ML or generative-AI capability that materially performs the product's core function. Litmaps is a useful research-discovery product, but it does not meet Creative AI's requirement that AI be a real, useful part of the product."
+    },
+    {
+      "name": "Loudly",
+      "officialUrl": "https://www.loudly.com/",
+      "evidenceUrls": [
+        "https://www.loudly.com/",
+        "https://www.loudly.com/faq",
+        "https://www.loudly.com/pricing",
+        "https://www.loudly.com/api"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For musicians, producers, video creators and platforms that need original music, remix and stem workflows or music-generation APIs in one production system; check the license attached to the plan and model before commercial release.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Lovable",
+      "officialUrl": "https://lovable.dev/build/app-builder",
+      "evidenceUrls": [
+        "https://lovable.dev/build/app-builder",
+        "https://lovable.dev/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For founders, product teams and developers who want to turn an idea into a deployed web app or internal tool quickly, while retaining access to the generated code and backend.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LOVO",
+      "officialUrl": "https://lovo.ai/genny",
+      "evidenceUrls": [
+        "https://lovo.ai/genny",
+        "https://help.lovo.ai/hc/en-us/articles/21884654188953-What-is-Genny",
+        "https://docs.genny.lovo.ai/docs/tutorial"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For educators, marketers, creators and production teams making narrated videos, training content and multilingual voiceovers who want voice generation and editing in one browser workspace.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Luminance",
+      "officialUrl": "https://www.luminance.com/platform/product",
+      "evidenceUrls": [
+        "https://www.luminance.com/platform/product",
+        "https://www.luminance.com/platform/product/negotiation",
+        "https://www.luminance.com/solutions/legal/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For in-house legal and contract teams processing large agreement volumes who need AI-assisted review and negotiation grounded in company-approved positions; the platform augments legal professionals rather than replacing their judgment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Maestra",
+      "officialUrl": "https://maestra.ai/",
+      "evidenceUrls": [
+        "https://maestra.ai/",
+        "https://maestra.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators, educators, media teams and businesses that need to turn audio and video into multilingual captions, transcripts and dubbed versions without stitching together separate tools.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mage",
+      "officialUrl": "https://www.mage.space/",
+      "evidenceUrls": [
+        "https://www.mage.space/",
+        "https://www.mage.space/updates",
+        "https://www.mage.space/agent"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For creators who want to experiment with different image models and styles in one interface, and use a prompt-driven agent for multi-step image creation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "MagicSchool AI",
+      "officialUrl": "https://www.magicschool.ai/magic-tools",
+      "evidenceUrls": [
+        "https://www.magicschool.ai/magic-tools",
+        "https://www.magicschool.ai/magicstudent",
+        "https://www.magicschool.ai/pricing",
+        "https://www.magicschool.ai/magicschool"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For educators and schools that want teaching and learning workflows designed for classroom use, with teacher oversight and school-level privacy and governance rather than a general-purpose chatbot.",
+      "decision": "accepted"
+    },
+    {
+      "name": "MarketMuse",
+      "officialUrl": "https://www.marketmuse.com/",
+      "evidenceUrls": [
+        "https://www.marketmuse.com/",
+        "https://www.marketmuse.com/about/",
+        "https://www.marketmuse.com/pricing/",
+        "https://help.marketmuse.com/support/solutions/articles/80001167728-content-optimization-and-analysis"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SEO teams, publishers and content strategists planning large content libraries who need data-backed decisions about what to create, update and cover more comprehensively.",
+      "decision": "accepted"
+    },
+    {
+      "name": "TRAE",
+      "officialUrl": "https://www.trae.ai/",
+      "evidenceUrls": [
+        "https://www.trae.ai/",
+        "https://www.trae.ai/ide",
+        "https://www.trae.ai/pricing",
+        "https://docs.trae.cn/ide_traework-to-traecode-data-migration",
+        "https://developer.volcengine.com/articles/7496711867822243881"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For software developers and teams who want AI-assisted IDE work and autonomous task execution in one product, with the ability to switch between deep project editing and broader agent workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "WorldEngen",
+      "officialUrl": "https://masterpiecex.com/",
+      "evidenceUrls": [
+        "https://masterpiecex.com/",
+        "https://worldengen.masterpiecex.com/terms",
+        "https://www.masterpiecex.com/faqs-masterpiecex"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For game, film, simulation and 3D studios that want AI agents to accelerate environment and scene production while artists retain direction and continue working in their established 3D tools.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mastra",
+      "officialUrl": "https://mastra.ai/docs",
+      "evidenceUrls": [
+        "https://mastra.ai/docs",
+        "https://mastra.ai/",
+        "https://github.com/mastra-ai/mastra"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For TypeScript teams building production AI agents and applications who want a code-first framework with integrated workflow, memory, evaluation and observability primitives.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Maven AGI",
+      "officialUrl": "https://www.mavenagi.com/product/agent-platform",
+      "evidenceUrls": [
+        "https://www.mavenagi.com/",
+        "https://www.mavenagi.com/product/agent-platform"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For large support organizations that want AI agents to resolve multi-step customer requests across channels and systems, while integrating with their existing helpdesk, CRM and telephony stack.",
+      "decision": "accepted"
+    },
+    {
+      "name": "MaxAI.me",
+      "officialUrl": "https://www.maxai.me/features/browser-ai-assistant/",
+      "evidenceUrls": [
+        "https://www.maxai.me/",
+        "https://www.maxai.me/features/browser-ai-assistant/",
+        "https://www.maxai.me/pricing/team/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For knowledge workers who want a single assistant available across websites and common browser tasks, while using connected model providers rather than training or hosting its own foundation model.",
+      "decision": "accepted"
+    },
+    {
+      "name": "MeetGeek",
+      "officialUrl": "https://meetgeek.ai/",
+      "evidenceUrls": [
+        "https://meetgeek.ai/",
+        "https://meetgeek.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For teams that need searchable meeting records, automatic follow-ups and workflow automation across video meetings, desktop conversations and in-person discussions.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mem",
+      "officialUrl": "https://get.mem.ai/",
+      "evidenceUrls": [
+        "https://get.mem.ai/",
+        "https://get.mem.ai/product/agent",
+        "https://get.mem.ai/product/workspace",
+        "https://get.mem.ai/pricing"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and teams who want a living, searchable knowledge base that not only stores notes but connects decisions, projects and follow-ups and proactively brings relevant context back when needed.",
+      "decision": "accepted"
+    },
+    {
+      "name": "MarsCode",
+      "officialUrl": "https://www.marscode.com/",
+      "evidenceUrls": [
+        "https://www.marscode.com/",
+        "https://developer.volcengine.com/articles/7496711867822243881",
+        "https://docs.trae.cn/ide_traework-to-traecode-data-migration"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The official developer announcement identifies the MarsCode programming assistant as the former name of the Trae plugin, and the current platform has unified TraeCode and TraeWork under TRAE.",
+      "decision": "rejected",
+      "reason": "The MarsCode coding assistant was renamed to the Trae plugin, and the current official product family has since unified TraeCode and TraeWork under the TRAE name. The MarsCode label no longer represents a distinct active product; keep the current successor under TRAE.",
+      "supersededBy": "TRAE"
+    },
+    {
+      "name": "Masterpiece X",
+      "officialUrl": "https://masterpiecex.com/",
+      "evidenceUrls": [
+        "https://masterpiecex.com/",
+        "https://worldengen.masterpiecex.com/terms",
+        "https://www.masterpiecex.com/faqs-masterpiecex"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "The current official homepage presents WorldEngen as the AI copilot for 3D production and explicitly labels the former 3D Web Generator and VR apps as legacy products.",
+      "decision": "rejected",
+      "reason": "Masterpiece X's current official homepage has repositioned the active product as WorldEngen, an AI copilot for 3D production. It explicitly labels the former 3D Web Generator, Community Library and VR App as legacy. The old catalog entry is therefore a superseded product identity, not a separate active tool.",
+      "supersededBy": "WorldEngen"
+    },
+    {
+      "name": "Merlin",
+      "officialUrl": "https://www.getmerlin.in/",
+      "evidenceUrls": [
+        "https://www.getmerlin.in/",
+        "https://www.getmerlin.in/pricing?for=teams",
+        "https://chromewebstore.google.com/detail/merlin-ai/camppjleccjaphfdbohjdohecfnoikec?hl=en-US"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students, researchers, creators and professionals who want to research, understand and transform web content without repeatedly switching between browser tabs and separate AI apps.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Meshy",
+      "officialUrl": "https://www.meshy.ai/",
+      "evidenceUrls": [
+        "https://www.meshy.ai/features",
+        "https://docs.meshy.ai/en",
+        "https://www.meshy.ai/pricing",
+        "https://help.meshy.ai/en/articles/9991736-what-is-meshy"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For game developers, 3D artists and makers who need to prototype characters, props and printable concepts from prompts or images. Meshy is not a CAD-precision engineering tool; free-tier credits and asset licensing differ by plan.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Meta AI",
+      "officialUrl": "https://www.meta.ai/",
+      "evidenceUrls": [
+        "https://www.meta.ai/",
+        "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+        "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+        "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
+        "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For everyday users and creators who want help with questions, research and visual creation in one assistant integrated into Meta's ecosystem. Features, connected apps and rollout vary by country and surface; the core experience is free, while subscriptions offer higher usage and additional features.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Metaview",
+      "officialUrl": "https://www.metaview.ai/",
+      "evidenceUrls": [
+        "https://www.metaview.ai/interview-notes",
+        "https://www.metaview.ai/pricing?product=notes",
+        "https://www.metaview.ai/about",
+        "https://www.metaview.ai/resources/blog/october-2026-botless-notes-faster-agents"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For recruiting teams that need consistent interview documentation and faster candidate workflows across calls and ATS records. The Notes plan is free for 25 calls per month per user or $60 per user per month for unlimited calls; other agents have separate limits and pricing. AI-generated assessments should remain subject to human review, and teams must configure candidate consent, opt-out and retention for applicable rules.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Microsoft Security Copilot",
+      "officialUrl": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+      "evidenceUrls": [
+        "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+        "https://learn.microsoft.com/en-us/copilot/security/microsoft-security-copilot",
+        "https://learn.microsoft.com/en-us/copilot/security/faq-security-copilot",
+        "https://www.microsoft.com/en-us/security/pricing/microsoft-security-copilot/",
+        "https://learn.microsoft.com/en-us/copilot/security/security-copilot-inclusion",
+        "https://learn.microsoft.com/en-us/copilot/security/agents-overview"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For SOC analysts and security/IT teams that need to investigate threats and coordinate response across Microsoft and supported partner tools. Standalone access requires Azure and Microsoft Entra ID and uses capacity-based SCU billing: Microsoft lists $4 per provisioned SCU-hour and $6 per overage SCU. Eligible Microsoft 365 E5/E7 tenants receive an included monthly SCU allocation. The interface supports Turkish, but Turkish is not among the currently listed model languages; scope agent permissions carefully and keep analysts in control of consequential actions.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mindgard",
+      "officialUrl": "https://mindgard.ai/",
+      "evidenceUrls": [
+        "https://mindgard.ai/",
+        "https://mindgard.ai/ai-security-platform",
+        "https://mindgard.ai/about",
+        "https://mindgard.ai/services/ai-red-teaming",
+        "https://mindgard.ai/services/mindgard-services"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For security, product and AI engineering teams that need to test AI-specific risks such as prompt injection, jailbreaks, data leakage, unsafe tool use and agent permission abuse across development and production. Integrates through APIs, CI/CD and Burp Suite, and provides evidence, remediation guidance and retesting. Commercial enterprise product with demo-led sales; no public platform price found. It complements rather than replaces traditional AppSec and runtime guardrails.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mindgrasp",
+      "officialUrl": "https://www.mindgrasp.ai/",
+      "evidenceUrls": [
+        "https://www.mindgrasp.ai/",
+        "https://www.mindgrasp.ai/ai-study-tools",
+        "https://app.mindgrasp.ai/pick-plan?split=frm",
+        "https://apps.apple.com/pk/app/mindgrasp/id1638182014",
+        "https://chromewebstore.google.com/detail/mindgrasp-ai-chrome-exten/cnlfgddhlclkgeljeaecehinfmjegmkp"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For students and self-learners who want to turn their own course materials into a connected study workflow instead of juggling separate summarizers, flashcard makers, and quiz apps. Supports multiple languages (the App Store listing states 35). A free study session/trial is available, but continued feature access requires a subscription; published plans start at $9.99/month or $5.99/month billed annually. Verify AI-generated notes and answers against the original material.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mixo",
+      "officialUrl": "https://www.mixo.io/",
+      "evidenceUrls": [
+        "https://www.mixo.io/",
+        "https://www.mixo.io/features",
+        "https://www.mixo.io/help/does-mixo-have-a-free-plan",
+        "https://www.mixo.io/help/donde-esta-el-precio/",
+        "https://www.trustpilot.com/review/mixo.io"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For solo operators, small businesses and early-stage founders who need a hosted marketing site to collect enquiries, not a custom web application. Free plan: one page on a Mixo subdomain with branding; paid plans are $9/month Basic (one page), $19 Growth (up to five pages), and $39 Premium (up to 50 pages), with a 20% annual-billing discount. Hosting and SSL are included; custom domains and branding removal require a paid plan. Verify current regional pricing before purchase.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Modal",
+      "officialUrl": "https://modal.com/",
+      "evidenceUrls": [
+        "https://modal.com/",
+        "https://modal.com/docs",
+        "https://modal.com/pricing",
+        "https://modal.com/products/inference",
+        "https://modal.com/products/training",
+        "https://modal.com/docs/sdk/py/releases"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For Python developers and ML teams that need GPU/CPU compute for inference, training, fine-tuning, parallel jobs and isolated agent sandboxes without managing servers. Starter is $0/month plus usage with $30/month compute credits, up to 3 seats and 10 concurrent GPUs; Team is $250/month plus compute with $100/month credits. CPU, GPU and memory are billed by the second. Important: Shared Endpoints are token-billed from the first request and are not covered by the included compute credits. Costs vary by hardware, region and requested resources; set workspace budgets.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Moises",
+      "officialUrl": "https://moises.ai/",
+      "evidenceUrls": [
+        "https://moises.ai/",
+        "https://moises.ai/features/",
+        "https://moises.ai/newsroom/product-announcements/moises-launches-studio-collaborative-workspace/",
+        "https://help.moises.ai/hc/en-us/articles/9410960985628-Reasons-to-subscribe-to-the-Moises-Premium-Plan",
+        "https://help.moises.ai/hc/en-us/articles/21960006352796-Moises-AI-Studio-Credits",
+        "https://help.moises.ai/hc/en-us/articles/18322457396508-How-do-streaming-services-work-and-why-can-t-we-accept-their-URL-links-on-Moises",
+        "https://apps.apple.com/tr/app/moises-ai-the-musicians-app/id1515796612",
+        "https://play.google.com/store/apps/details?id=ai.moises"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For musicians, singers, producers and educators who want to practice, analyze or build on their own recordings rather than generate a finished song from text. The free tier has limited monthly uploads and basic vocal/drum/bass separation; Premium expands stem options and practice tools, while Pro adds Hi-Fi separation, detailed drum/multimedia stems, long uploads, Voice Studio and VST access. The Turkish App Store lists Premium at ₺99.99/month or ₺699.99/year and Pro at ₺499.99/month or ₺4,999.99/year; store and offer prices can vary. AI Studio generation uses credits in 30-second blocks. Only upload or modify music you have rights to use; a streaming subscription does not grant stem-extraction rights.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Motion",
+      "officialUrl": "https://www.usemotion.com/",
+      "evidenceUrls": [
+        "https://www.usemotion.com/",
+        "https://www.usemotion.com/pricing",
+        "https://www.usemotion.com/help",
+        "https://www.usemotion.com/features/ai-task-manager"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For individuals and teams who want tasks and projects automatically translated into a realistic daily schedule instead of manually managing to-do lists. Pro AI is displayed at $19/seat/month with 7,500 credits per seat/month; Business AI at $29/seat/month with 15,000 credits, plus capacity planning, advanced dashboards, Gantt charts, time tracking and access controls. The pricing page offers monthly or annual billing (advertising 33% annual savings) and lists additional credits at $0.25 or $0.19 per 100, depending on plan. A free trial is offered, not a permanent free plan. Confirm billing cycle and AI-credit usage before subscribing.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mubert",
+      "officialUrl": "https://mubert.com/",
+      "evidenceUrls": [
+        "https://mubert.com/",
+        "https://mubert.com/render",
+        "https://mubert.com/render/pricing",
+        "https://mubert.com/render/whatsnew",
+        "https://mubert.com/api",
+        "https://mubert.com/api/plans",
+        "https://mubert.com/api/docs",
+        "https://mubert.com/documents/mubert_render_license.pdf"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For video creators, podcasters, streamers and developers who need soundtracks or licensed music workflows. Render's free Ambassador plan offers 25 tracks/month and 5 downloads with attribution and non-commercial restrictions; Creator is $14/month or $11.69/month billed annually (non-commercial), Pro is $39/month or $32.49/month annually (commercial use, monetized content and full Track Editor), and Business is $199/month or $149.29/month annually (client/agency/app use and sublicensing). API plans are separate. Generated tracks cannot be redistributed as standalone music, uploaded to Spotify or registered in Content ID; check the license for your specific channel or project before use.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Mutiny",
+      "officialUrl": "https://www.mutinyhq.com/",
+      "evidenceUrls": [
+        "https://www.mutinyhq.com/",
+        "https://www.mutinyhq.com/pricing",
+        "https://www.mutinyhq.com/faqs",
+        "https://www.mutinyhq.com/enterprise",
+        "https://help.mutinyhq.com/",
+        "https://www.mutinyhq.com/llm-info",
+        "https://www.ycombinator.com/launches/PtJ-mutiny-your-ai-agent-for-creating-anything-customer-facing-used-by-uber-rippling",
+        "https://www.linkedin.com/posts/jalehr_we-raised-72m-from-sequoiayc-and-hit-8-activity-7447310976070283264-1NRa"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For AEs, BDRs, sales leaders, CSMs and ABM marketers who need account-specific content and follow-up without waiting on design or marketing. Free plan: up to 5 team members and 5 daily credits (up to 30/month) per seat. Business: $50/month with 50 credits/month, unlimited team members, custom subdomain and expanded routines/projects; Enterprise starts at $40,000/year with SSO, custom limits and implementation support. Mutiny retired its earlier website-personalization/visitor A/B-testing product in April 2026; current Mutiny generates deal-specific assets and automates sales workflows rather than changing variants on an existing website. Meeting, email and CRM integrations require scoped access; generated outputs are drafts for review.",
+      "decision": "accepted"
+    },
+    {
       "name": "agent-qa",
       "officialUrl": "https://vostride.com",
       "evidenceUrls": [
@@ -2772,16 +5059,16 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-12",
+  "lastQualityReviewBatch": "catalog-review-batch-39",
   "lastQualityReviewBatchSummary": {
-    "accepted": 13,
+    "accepted": 1,
     "rejected": 0,
-    "superseded": 1,
+    "superseded": 0,
     "retired": 0,
     "mergedIntoExisting": 0,
-    "updatedExisting": 12,
+    "updatedExisting": 1,
     "rechecked": 0,
-    "statusWatch": 2,
+    "statusWatch": 0,
     "recommenderProfilesAdded": 0,
     "recommenderProfilesRenamed": 0,
     "recommenderProfilesRemoved": 0
@@ -2872,13 +5159,108 @@
       "lastCheckedAt": "2026-10-31",
       "reason": "Wix's official press release confirms acquisition of Hour One's team and technology, but no current standalone product page or official shutdown statement was verified. It is excluded pending confirmation whether the product remains independently usable or has been integrated into Wix; this is not a claim that the technology ceased to exist.",
       "nextAction": "Verify current standalone availability or an official migration/product transition."
+    },
+    {
+      "name": "Character.AI",
+      "status": "unresolved",
+      "officialUrl": "https://character.ai/",
+      "checkedUrls": [
+        "https://character.ai/",
+        "https://blog.character.ai/an-update-on-character-ai/"
+      ],
+      "evidenceUrls": [
+        "https://blog.character.ai/an-update-on-character-ai/"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "Character.ai's official October 12, 2026 announcement says the platform remains up and running during a voluntary Chapter 11 process and court-supervised sale, but also says the platform will be wound down if no actionable bid emerges. As of 2026-10-31, the sale outcome is unresolved. This is a continuity risk, not evidence that the service has already shut down.",
+      "nextAction": "Recheck the official sale-process updates and confirm a buyer and continued service, or a formal wind-down notice, after the process expected to conclude by the end of November or early December 2026."
+    },
+    {
+      "name": "Helicone",
+      "status": "unresolved",
+      "officialUrl": "https://www.helicone.ai/",
+      "checkedUrls": [
+        "https://www.helicone.ai/",
+        "https://us.helicone.ai/signin",
+        "https://docs.helicone.ai/"
+      ],
+      "evidenceUrls": [
+        "https://www.helicone.ai/",
+        "https://us.helicone.ai/signin"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "Helicone's official homepage currently states that it is no longer part of Mintlify and that details will follow. Its official sign-in page explicitly says new signups are disabled. The public site still describes its AI gateway and observability product, but new-user access and the post-separation product/ownership status cannot currently be confirmed. This is an availability and continuity uncertainty, not evidence that Helicone has shut down.",
+      "nextAction": "Recheck for an official post-separation ownership/product announcement and confirmation that new signups or new customer access have resumed before reinstating it in the active directory."
+    },
+    {
+      "name": "Hume AI",
+      "status": "sunsetting",
+      "officialUrl": "https://www.hume.ai/",
+      "checkedUrls": [
+        "https://www.hume.ai/",
+        "https://dev.hume.ai/voice/changelog",
+        "https://status.hume.ai/"
+      ],
+      "evidenceUrls": [
+        "https://dev.hume.ai/voice/changelog",
+        "https://dev.hume.ai/voice/docs/speech-to-speech-evi/overview",
+        "https://dev.hume.ai/voice/docs/text-to-speech-tts/overview"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "sunsetDate": "2026-11-13",
+      "reason": "Hume's official October 2, 2026 changelog states that its Text-to-Speech (TTS) and Empathic Voice Interface (EVI) APIs are being sunset, with access ending November 13, 2026 at 12:01 a.m. EST and account data permanently deleted after that date. The status page currently reports the systems as operational, so this is a scheduled API sunset, not an outage or a claim that the entire company is shutting down. The core voice products represented by this catalog entry are being withdrawn; keep it out of active discovery pending a verified replacement or migration path.",
+      "nextAction": "Recheck after November 13, 2026 for an official replacement product, migration path or remaining supported Hume API product; reinstate only if a distinct active AI offering is verified."
+    },
+    {
+      "name": "MindMac",
+      "status": "maintenance-unclear",
+      "officialUrl": "https://mindmac.app/",
+      "checkedUrls": [
+        "https://mindmac.app/",
+        "https://github.com/MindMacApp/MindMac/releases",
+        "https://github.com/MindMacApp/MindMac/issues/15",
+        "https://github.com/MindMacApp/MindMac/issues/14"
+      ],
+      "evidenceUrls": [
+        "https://github.com/MindMacApp/MindMac/releases/tag/1.9.28",
+        "https://github.com/MindMacApp/MindMac/issues/15",
+        "https://github.com/MindMacApp/MindMac/issues/14",
+        "https://mindmac.app/"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "MindMac's official website remains live and still offers the macOS app for purchase, so this is not evidence of shutdown. However, the latest official GitHub release is 1.9.28, published 2025-04-22, and the repository has no later release as of 2026-10-31. Two unresolved official issues add continuity concerns: issue #15 (2026-01-30) asks whether the app is abandonware because the latest version is from April, and issue #14 requests support for GPT-5. Issue #15 has no comments, and the only comment on issue #14 is another user asking for GPT-5; no maintainer response or newer release was found during this review. The app is excluded from active discovery pending confirmation of ongoing maintenance and current model compatibility.",
+      "nextAction": "Recheck official releases or obtain a developer statement confirming active maintenance and support for current provider models; reinstate only after a current build or first-party maintenance statement is verified."
+    },
+    {
+      "name": "Mokker AI",
+      "status": "sunsetting",
+      "officialUrl": "https://mokker.ai/",
+      "checkedUrls": [
+        "https://mokker.ai/",
+        "https://mokker.ai/pricing",
+        "https://app.mokker.ai/",
+        "https://soona.co/mokker",
+        "https://soona.co/update/mokker-acquisition",
+        "https://support.soona.co/mokker-frequently-asked-questions"
+      ],
+      "evidenceUrls": [
+        "https://mokker.ai/",
+        "https://soona.co/mokker",
+        "https://soona.co/update/mokker-acquisition",
+        "https://support.soona.co/mokker-frequently-asked-questions",
+        "https://app.mokker.ai/"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "Mokker's current official homepage displays the notice: “Mokker access ends Saturday, October 31. Log in before then to access your account.” The current review date is 2026-10-31, so standalone account access is scheduled to end today. Soona acquired Mokker and integrated its AI product-photo technology into the Soona platform; an earlier Soona announcement said existing Mokker customers would continue to access their Mokker accounts, but the newer dated homepage notice supersedes that earlier assurance. Mokker is therefore removed from active discovery as a standalone tool. Soona AI Studio appears to be the continuation path, but should be reviewed separately as its own current product.",
+      "nextAction": "Confirm the exact cutoff and customer migration with Soona support, then review Soona AI Studio as a separate current tool. Do not restore Mokker as a standalone listing unless Soona explicitly confirms account access continues beyond 2026-10-31.",
+      "sunsetDate": "2026-10-31"
     }
   ],
   "lastStatusWatchReviewAt": "2026-10-31",
   "lastStatusWatchReviewSummary": {
-    "unresolved": 4,
-    "sunsetting": 1,
-    "maintenanceUnclear": 1,
-    "total": 6
+    "unresolved": 6,
+    "sunsetting": 3,
+    "maintenanceUnclear": 2,
+    "total": 11
   }
 }

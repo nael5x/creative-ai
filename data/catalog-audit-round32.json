@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-32",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry maintenance-status review of MindMac. The official website still offers the macOS app, but the latest official release is dated 2025-04-22 and two unresolved official GitHub issues raise maintenance and current-model compatibility concerns. The product is not declared shut down; it is excluded from active discovery pending first-party maintenance confirmation.",
+  "accepted": [],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [
+    {
+      "name": "MindMac",
+      "status": "maintenance-unclear",
+      "officialUrl": "https://mindmac.app/",
+      "checkedUrls": [
+        "https://mindmac.app/",
+        "https://github.com/MindMacApp/MindMac/releases",
+        "https://github.com/MindMacApp/MindMac/issues/15",
+        "https://github.com/MindMacApp/MindMac/issues/14"
+      ],
+      "evidenceUrls": [
+        "https://github.com/MindMacApp/MindMac/releases/tag/1.9.28",
+        "https://github.com/MindMacApp/MindMac/issues/15",
+        "https://github.com/MindMacApp/MindMac/issues/14",
+        "https://mindmac.app/"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "MindMac's official website remains live and still offers the macOS app for purchase, so this is not evidence of shutdown. However, the latest official GitHub release is 1.9.28, published 2025-04-22, and the repository has no later release as of 2026-10-31. Two unresolved official issues add continuity concerns: issue #15 (2026-01-30) asks whether the app is abandonware because the latest version is from April, and issue #14 requests support for GPT-5. Issue #15 has no comments, and the only comment on issue #14 is another user asking for GPT-5; no maintainer response or newer release was found during this review. The app is excluded from active discovery pending confirmation of ongoing maintenance and current model compatibility.",
+      "nextAction": "Recheck official releases or obtain a developer statement confirming active maintenance and support for current provider models; reinstate only after a current build or first-party maintenance statement is verified."
+    }
+  ],
+  "notes": [
+    "The official MindMac website remains live, offers a free download and paid perpetual licenses, and describes a macOS-only app requiring macOS 13 or newer. This is evidence of a live product page, not evidence that current builds are being maintained.",
+    "The official GitHub releases page and API identify 1.9.28, published 2025-04-22, as the latest release found during this review. No later official release was found as of 2026-10-31.",
+    "Official issue #15, opened 2026-01-30, asks whether the app is abandonware and says the latest version is from April; it has no comments. Official issue #14, opened 2025-10-11, asks how to use OpenAI GPT-5; the only comment is another user requesting GPT-5 support, with no maintainer response.",
+    "The official website still offers the product for purchase, so this is classified as maintenance-unclear rather than discontinued or shut down. The listing and lifecycle entry are removed from the active catalog until current maintenance and provider compatibility are verified.",
+    "The prior aggregate status-watch summary was stale (it reported 7 while the actual list contained 9 records). This batch reconciles it to the actual post-review counts: 6 unresolved, 2 sunsetting, 2 maintenance-unclear, 10 total."
+  ]
+}

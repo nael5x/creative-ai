@@ -522,66 +522,66 @@
   [
     "Browse AI",
     "Data extraction",
-    "No-code web data extraction and monitoring platform.",
-    "For teams collecting structured website data without maintaining custom scrapers.",
+    "AI-assisted no-code web data extraction and monitoring: Table Studio proposes structured tables from a URL, while Robot Studio records interactive browser steps and scheduled robots track changes.",
+    "For teams that need recurring structured website data—such as product details, listings, leads or competitor changes—without maintaining custom scrapers.",
     "Free tier / Paid",
     "https://www.browse.ai/"
   ],
   [
     "Browser Use",
     "AI development",
-    "Open-source framework for connecting AI agents to web browsers.",
-    "For developers building agents that navigate websites and complete browser-based tasks.",
-    "Open source",
+    "Open-source Python/TypeScript browser-agent framework with hosted agents and managed cloud browsers; agents navigate pages, fill forms, extract data and replay successful workflows.",
+    "For developers and teams automating multi-step browser tasks with a local or hosted agent and optional managed browser infrastructure.",
+    "Open source / Paid cloud",
     "https://browser-use.com/"
   ],
   [
     "Browserbase",
     "AI development",
-    "Cloud browser infrastructure for AI agents and browser automation.",
-    "For developers running reliable browser sessions for agents, testing and web workflows.",
+    "Managed web-agent platform providing scalable browser sessions, Search and Fetch, Agent Identity, observability and integrations such as the Stagehand browser automation SDK.",
+    "For developers deploying agents that must interact with live websites reliably, with managed sessions, authentication support, logs, live view and replay.",
     "Free tier / Paid",
     "https://www.browserbase.com/"
   ],
   [
     "Bubble AI",
     "Web apps",
-    "AI-assisted no-code app building inside the Bubble web application platform.",
-    "For founders and teams building database-backed web apps without a traditional coding stack.",
+    "Bubble's AI app builder turns natural-language requirements into an app structure with pages, workflows and a database, then lets users refine the result in Bubble's visual editor.",
+    "For founders and nontechnical builders who want a functional web-app starting point while retaining visual control over the interface, data and logic.",
     "Free tier / Paid",
-    "https://bubble.io/ai"
+    "https://bubble.io/ai-app-builder"
   ],
   [
     "Buffer AI Assistant",
     "Social media",
-    "AI writing assistance inside Buffer for drafting and adapting social posts.",
-    "For creators and teams preparing platform-specific social content in a scheduling workflow.",
+    "An AI writing feature inside Buffer's Create workspace and publishing composer that drafts social posts, generates ideas, adjusts tone and repurposes longer content using language models.",
+    "For creators and social teams that want to draft and adapt posts inside the same publishing and scheduling workflow. This is a Buffer feature, not a claim that Buffer's core platform is AI-powered.",
     "Free tier / Paid",
     "https://buffer.com/ai-assistant"
   ],
   [
     "Builder.io Visual Copilot",
     "Web UI",
-    "Design-to-code tooling for converting visual designs into editable frontend code.",
-    "For teams moving from design files to production-oriented UI code faster.",
-    "Free tier / Paid",
-    "https://www.builder.io/m/design-to-code"
+    "Builder's AI design-to-code capability converts Figma designs into responsive frontend code and can map generated output to a team's existing components, design tokens and frameworks.",
+    "For product teams that want to turn approved designs into code aligned with their real component system, then refine and review the implementation in their existing repository workflow.",
+    "Available on Develop plans",
+    "https://builder.io/figma-to-code"
   ],
   [
     "Caktus AI",
     "Education",
-    "AI student workspace for writing, studying, coding and academic productivity tasks.",
-    "For students who want a multi-purpose assistant oriented around schoolwork.",
-    "Paid",
-    "https://www.caktus.ai/"
+    "Academic study workspace with AI tools for essay drafting with source citations, research, document analysis, step-by-step math and science help, notes and study materials.",
+    "For students who need one academic workflow for researching, drafting and understanding course material; generated citations should still be checked against the original sources.",
+    "Paid / 1-day trial",
+    "https://caktus.ai/"
   ],
   [
     "CAMEL-AI",
     "Agents",
-    "Open-source framework and research ecosystem for multi-agent systems and agent collaboration.",
-    "For researchers and developers studying coordinated agent behavior and simulations.",
+    "Open-source multi-agent framework and research ecosystem for building agent societies, task automation, data generation, tool use, memory and retrieval-augmented workflows.",
+    "For developers and researchers prototyping coordinated agents, agent collaboration and multi-agent simulations with a documented framework and examples.",
     "Open source",
-    "https://www.camel-ai.org/"
+    "https://camel-ai.org/"
   ],
   [
     "Canva AI",
@@ -594,26 +594,26 @@
   [
     "CapCut AI",
     "Video",
-    "AI-assisted video creation and editing tools inside CapCut.",
-    "For social video workflows that mix templates, editing and generative features.",
+    "AI features within CapCut's video editor, including text- and image-to-video generation, AI voice and other editing assistance that can be refined in the same editing workflow.",
+    "For creators who want to generate or enhance video assets and finish short-form content in an integrated editor. This is an AI feature suite within CapCut.",
     "Free tier / Paid",
-    "https://www.capcut.com/tools/ai-video-generator"
+    "https://www.capcut.com/tools/ai-video"
   ],
   [
     "Captions",
     "Video",
-    "AI video creation and editing app with avatars, dubbing and creator-focused automation.",
-    "For short-form creators who want generation, editing and localization in one workflow.",
+    "AI video editor for generating and editing creator videos, with automated cuts, B-roll, captions, translation, AI avatars and digital twins, plus prompt-based editing.",
+    "For creators producing short-form videos, ads and tutorials who want AI-assisted post-production and localized versions in one app.",
     "Free tier / Paid",
-    "https://www.captions.ai/"
+    "https://captions.ai/"
   ],
   [
     "Cartesia",
     "Voice & audio",
-    "Voice AI platform for low-latency speech generation and conversational applications.",
-    "For developers building responsive voice agents and real-time spoken interfaces.",
+    "Speech AI platform offering Sonic text-to-speech, Ink speech-to-text and managed voice agents, with streaming APIs and cloud, on-premise and on-device deployment options.",
+    "For developers building real-time voice interfaces and phone agents that need low-latency speech generation and transcription.",
     "Free tier / Paid",
-    "https://cartesia.ai/"
+    "https://www.cartesia.ai/"
   ],
   [
     "Cato AI Security",
@@ -626,24 +626,16 @@
   [
     "Cerebras Inference",
     "AI infrastructure",
-    "Hosted inference service for running supported language models on Cerebras systems.",
-    "For builders who want very high-throughput model responses through a managed API.",
-    "Free tier / Paid",
+    "Hosted inference API for supported open-weight language models running on Cerebras systems, with OpenAI-compatible access and developer and enterprise deployment tiers.",
+    "For developers who need fast managed language-model inference without operating their own model-serving infrastructure.",
+    "Free credit / Paid usage",
     "https://www.cerebras.ai/inference"
-  ],
-  [
-    "Character.AI",
-    "Writing & research",
-    "Conversational AI platform built around customizable characters and interactive chats.",
-    "For roleplay, entertainment and experimenting with character-based conversations.",
-    "Free tier / Paid",
-    "https://character.ai/"
   ],
   [
     "Chatbase",
     "Customer support",
-    "Platform for creating AI support and website agents grounded in company data.",
-    "For businesses that want a deployable chatbot trained on their documents and web content.",
+    "Platform for building and deploying AI agents trained on a company's website and documents, with actions, analytics, testing and deployment across chat, email, voice and messaging channels.",
+    "For businesses that need customer-support or product-guidance agents grounded in their own content and connected to helpdesk, commerce or communication workflows.",
     "Free tier / Paid",
     "https://www.chatbase.co/"
   ],
@@ -674,33 +666,33 @@
   [
     "Chroma",
     "Vector databases",
-    "Open-source database and retrieval layer designed for AI applications.",
-    "For developers prototyping or shipping RAG workflows with a lightweight retrieval stack.",
-    "Open source",
+    "Open-source AI data infrastructure for storing documents and embeddings, performing dense, sparse and hybrid vector search and metadata filtering, with self-hosted and managed cloud options.",
+    "For developers building RAG, semantic search or multimodal retrieval systems who need a local or hosted vector database.",
+    "Open source / Cloud",
     "https://www.trychroma.com/"
   ],
   [
     "Circleback",
     "Meetings",
-    "AI meeting notes with transcripts, action items, search and automations.",
-    "For people who want detailed notes and follow-up tasks from recurring meetings.",
+    "AI meeting assistant that records online and in-person conversations, creates speaker-labeled transcripts and detailed notes, extracts assigned action items, and makes meetings searchable with cited answers and automations.",
+    "For teams that need meeting outcomes, accountable follow-ups and searchable conversation context connected to their CRM, project tools and AI agents.",
     "Free tier / Paid",
     "https://circleback.ai/"
   ],
   [
     "Civitai",
     "Models & datasets",
-    "Community platform for discovering, sharing and using generative image models and resources.",
-    "For finding community models, workflows and visual-generation resources.",
+    "Community platform for discovering, sharing and using generative image and video models, model versions and creator workflows, with on-site generation, training and a creator program. Its 2026 update distinguishes civitai.com as the SFW front door from civitai.red.",
+    "For generative-media creators who need a broad library of community models and LoRAs, model discovery, creator resources and hosted generation in one ecosystem.",
     "Free tier / Paid",
     "https://civitai.com/"
   ],
   [
     "Claid.ai",
     "Image editing",
-    "AI image enhancement and generation tools aimed at ecommerce and marketplaces.",
-    "For teams that need scalable product-image cleanup, upscaling and standardization.",
-    "Paid",
+    "AI image-production workspace and API for ecommerce visuals, including product photoshoots from a source image and prompt, background removal, lighting and color adjustments, image editing and image-to-video.",
+    "For ecommerce sellers and creative teams that need polished, consistent product imagery and campaign variations without arranging a new photoshoot for every asset.",
+    "Free tier / Paid",
     "https://claid.ai/"
   ],
   [
@@ -730,25 +722,25 @@
   [
     "Cleanup.pictures",
     "Image editing",
-    "AI inpainting tool for removing objects, defects and unwanted elements from images.",
-    "For users who need quick visual cleanup without a full desktop editor.",
+    "AI inpainting tool for removing unwanted objects, people, text and defects from photos; the selected area is reconstructed from surrounding image context. Offers a standalone editor and an inpainting API.",
+    "For photographers, ecommerce teams and everyday users who need to clean up a photo quickly without opening a full desktop editor.",
     "Free tier / Paid",
     "https://cleanup.pictures/"
   ],
   [
     "Cleanvoice AI",
     "Voice & audio",
-    "AI audio cleanup tool for removing filler words, pauses and noise from spoken recordings.",
-    "For podcasters and interview editors who need faster cleanup of speech recordings.",
-    "Free tier / Paid",
+    "AI audio and video editor that detects and removes filler words, long silences, mouth and breath sounds, stutters, background noise and echo, then exports cleaned media or an editable timeline.",
+    "For podcasters, interviewers and audio/video editors who want to shorten cleanup work while retaining control over the exported edit.",
+    "Free trial / Paid",
     "https://cleanvoice.ai/"
   ],
   [
     "Clearscope",
     "Marketing",
-    "Content optimization platform that uses search data and AI-assisted workflows for SEO content.",
-    "For editorial teams refining coverage and relevance of search-focused content.",
-    "Paid",
+    "Content strategy and optimization platform for discovering search topics, grading drafts, monitoring page performance and tracking brand mentions across Google and AI answer engines such as ChatGPT, Gemini and Claude.",
+    "For SEO and content teams that need one workflow for topic research, content optimization and visibility monitoring across traditional search and AI answers.",
+    "Paid / 14-day trial",
     "https://www.clearscope.io/"
   ],
   [
@@ -770,18 +762,18 @@
   [
     "Clipdrop",
     "Images & design",
-    "AI image utilities for cleanup, relighting, background work and generation.",
-    "For quick visual editing tasks that do not require a full design application.",
+    "AI image editing suite now part of Jasper, with text-to-image generation, background removal and replacement, cleanup, uncropping, relighting, text removal and image upscaling, plus APIs.",
+    "For creators and product teams that need a focused set of image-generation and image-editing operations in a browser or through an API.",
     "Free tier / Paid",
     "https://clipdrop.co/"
   ],
   [
-    "CoCounsel",
+    "CoCounsel Legal",
     "Legal",
-    "Thomson Reuters AI legal assistant for research, document review, drafting and professional workflows.",
-    "For legal professionals who want AI integrated with established legal research and content systems.",
+    "Thomson Reuters' legal AI assistant for research, document analysis and review, and legal drafting, grounded in Westlaw, Practical Law and an organization's own knowledge with traceable citations and multi-step agentic workflows.",
+    "For attorneys and legal teams that need source-grounded research, document review and drafting connected to trusted legal content and firm knowledge; professional review remains essential.",
     "Paid",
-    "https://legal.thomsonreuters.com/en/products/cocounsel"
+    "https://legal.thomsonreuters.com/en/products/cocounsel-legal"
   ],
   [
     "CodeGeeX",
@@ -802,49 +794,41 @@
   [
     "Colossyan",
     "Video",
-    "AI avatar video platform focused on training and workplace learning content.",
-    "For organizations producing presenter-led learning videos without studio recording.",
+    "AI video and training platform that turns documents, presentations, scripts, URLs and existing videos into presenter-led training videos and interactive courses, with custom avatars, voiceovers, translation and SCORM delivery.",
+    "For L&D, HR and customer-education teams that need to produce, update and localize training content without filming every lesson.",
     "Free tier / Paid",
     "https://www.colossyan.com/"
   ],
   [
     "ComfyUI",
     "Image workflows",
-    "Node-based Stable Diffusion and image-generation workflows.",
-    "For advanced, controllable image generation pipelines.",
-    "Open source",
+    "Open-source, node-based AI creation engine, API and backend for composing and running local or cloud workflows across image, video, audio, 3D and text models; supports custom nodes and offline execution.",
+    "For technical creators who need fine-grained control, reusable graphs and local execution across a wide range of generative models and media workflows.",
+    "Open source / Cloud",
     "https://github.com/Comfy-Org/ComfyUI"
   ],
   [
     "Compose AI",
     "Writing",
-    "AI autocomplete and writing assistance for faster text entry in the browser.",
-    "For users who want lightweight sentence completion inside everyday web forms and messages.",
+    "AI writing assistant and Chrome extension that generates text, autocompletes sentences, rewrites selected text, drafts email replies and adapts suggestions to a user's writing style.",
+    "For people who write across email, documents and web apps and want contextual autocomplete and rewriting without switching to a separate chat tool.",
     "Free tier / Paid",
     "https://www.compose.ai/"
   ],
   [
-    "Connected Papers",
-    "Research",
-    "Visual graph tool for finding and exploring papers related to a seed publication.",
-    "For understanding a research area visually and discovering prior or derivative work.",
-    "Free tier / Paid",
-    "https://www.connectedpapers.com/"
-  ],
-  [
     "Consensus",
     "Research",
-    "AI search engine focused on scientific literature and evidence-backed answers.",
-    "For finding research findings and tracing claims back to academic papers.",
+    "AI academic search engine that retrieves scientific papers using semantic and keyword search, then uses language models to analyze and synthesize findings with citations, study comparisons and research-agent workflows.",
+    "For students, researchers and professionals who need evidence-backed answers from scientific literature and want to trace each synthesis to its source papers.",
     "Free tier / Paid",
     "https://consensus.app/"
   ],
   [
     "Constructor",
     "Ecommerce",
-    "AI product discovery platform for ecommerce search, browse and recommendations.",
-    "For retailers that need more relevant product discovery across large catalogs.",
-    "Paid",
+    "AI-native ecommerce product-discovery platform that personalizes search, browse and recommendations using catalog and shopper-behavior data, with conversational shopping agents, product-insights agents and merchandising intelligence.",
+    "For ecommerce retailers with large catalogs who need shoppers to find relevant products through better search, recommendations and natural-language assistance.",
+    "Enterprise / Request demo",
     "https://constructor.com/"
   ],
   [
@@ -858,58 +842,50 @@
   [
     "ContentStudio",
     "Social media",
-    "Content discovery, social publishing and AI-assisted creation platform.",
-    "For marketing teams managing research, creation and distribution across channels.",
-    "Paid",
+    "Social media management platform with AI Studio, a connected workspace for AI chat, caption writing, image and video generation, brand-voice guidance, and scheduling and publishing across social channels.",
+    "For creators, agencies and social teams that want to move from an idea to on-brand, scheduled social content in one workflow.",
+    "Free trial / Paid",
     "https://contentstudio.io/"
   ],
   [
     "Continue",
     "Coding",
-    "Open-source AI code assistant for VS Code, JetBrains and terminal workflows.",
-    "For customizable coding agents, chat, edits and autocomplete inside existing IDEs.",
-    "Open source",
+    "Open-source AI code assistant for VS Code, JetBrains and terminal workflows, with agent mode, chat, edit, inline autocomplete and custom agents/model providers.",
+    "For developers who want a model-flexible assistant integrated with their IDE and terminal, including agent actions and control over the models and tools they use.",
+    "Open source / Paid enterprise",
     "https://continue.dev/"
   ],
   [
     "Copy.ai",
-    "Writing",
-    "AI platform for go-to-market content and workflow automation.",
-    "For sales and marketing teams generating and operationalizing repeatable content workflows.",
-    "Free tier / Paid",
+    "Marketing",
+    "AI-native go-to-market platform connecting workflows, agents, reusable actions, company knowledge and GTM data for prospecting, account research, lead handling, content creation and account-based marketing.",
+    "For revenue teams that need repeatable, cross-functional AI workflows grounded in company data rather than isolated copy-generation prompts.",
+    "Enterprise / Request demo",
     "https://www.copy.ai/"
   ],
   [
     "Corti",
     "Healthcare",
-    "AI platform for analyzing clinical conversations and supporting healthcare operations.",
-    "For emergency, contact-center and clinical teams augmenting decision and documentation workflows.",
-    "Paid",
-    "https://www.corti.ai/"
+    "AI platform for critical industries with specialized models, clinical speech-to-text, medical coding, ambient documentation, agent orchestration and sovereign-cloud or on-prem deployments. Corti Assistant turns clinician-patient conversations into editable facts and EHR-ready notes.",
+    "For healthcare software teams and providers embedding domain-specific AI into clinical workflows; clinicians must review generated documentation and coding before use.",
+    "Free credits / Paid",
+    "https://corti.ai/"
   ],
   [
     "Crawl4AI",
     "Data extraction",
-    "Open-source crawler optimized for extracting web content for AI applications.",
-    "For developers building local or self-hosted crawling pipelines for agents and RAG.",
-    "Open source",
+    "Open-source crawler and scraper for LLMs and AI agents; extracts clean Markdown or structured JSON, supports CSS/XPath and LLM-based extraction, browser control, MCP and a hosted API.",
+    "For developers building RAG, agent, search or data pipelines that need self-hosted, LLM-ready web content.",
+    "Open source / Hosted",
     "https://crawl4ai.com/"
   ],
   [
     "Creatify",
     "Marketing",
-    "AI ad-creation platform for turning product information into short-form video ads.",
-    "For ecommerce and growth teams producing many social ad variations.",
+    "AI ad-creation platform led by Ad Agent, which researches product URLs or uploaded assets, drafts ad concepts and scripts, generates short-form video ads and iterates edits through chat; includes URL-to-video and AI avatars.",
+    "For ecommerce and growth teams that need multiple UGC-style ad concepts and variations without manually filming and editing each creative.",
     "Free tier / Paid",
     "https://creatify.ai/"
-  ],
-  [
-    "Creatomate",
-    "Video",
-    "API-first media generation platform for automating videos and images from templates and data.",
-    "For developers and automation teams producing personalized media at scale.",
-    "Paid",
-    "https://creatomate.com/"
   ],
   [
     "CrewAI",
@@ -922,24 +898,24 @@
   [
     "Crisp AI",
     "Customer support",
-    "AI support and messaging features inside Crisp for automated answers and agent assistance.",
-    "For small support teams combining live chat, inbox and AI automation.",
-    "Paid",
+    "Crisp's integrated AI support suite, including Hugo AI Agent, knowledge-grounded answers, internal Hugo Copilot, smart replies, conversation summaries, content training and no-code workflows across messaging channels.",
+    "For support teams that want customer-facing automation plus agent assistance within their shared inbox, with configurable routing, integrations and human handoff.",
+    "Free trial / Paid Crisp plans",
     "https://crisp.chat/en/ai/"
   ],
   [
     "CrowdStrike Charlotte AI",
     "Cybersecurity",
-    "Generative AI assistant inside CrowdStrike for security investigation and operations.",
-    "For SOC teams analyzing threats and navigating endpoint and identity security data.",
-    "Paid",
-    "https://www.crowdstrike.com/platform/charlotte-ai/"
+    "Agentic AI security analyst built into Falcon; supports natural-language investigation, cross-domain context, detection triage, query generation, custom security agents and governed response actions with analyst approvals.",
+    "For SOC teams managing high alert volume who need faster investigation and governed automation while retaining analyst control.",
+    "Eligible Falcon plans / Enterprise",
+    "https://www.crowdstrike.com/en-us/platform/charlotte-ai/"
   ],
   [
     "Curipod",
     "Education",
-    "AI-assisted interactive lesson and presentation platform for classroom activities.",
-    "For teachers creating participatory lessons and student-response activities quickly.",
+    "AI lesson-creation and classroom-interaction platform for teachers; generates slides and activities, supports AI feedback on student writing and drawings, and lets teachers edit, run and translate lessons.",
+    "For teachers who want to prepare interactive lessons and give students timely feedback without building each slide and activity manually.",
     "Free tier / Paid",
     "https://curipod.com/"
   ],
@@ -954,9 +930,9 @@
   [
     "D-ID",
     "Video",
-    "AI digital-human platform for generating talking avatars and interactive visual agents.",
-    "For presenter-style video, training and conversational avatar experiences.",
-    "Free tier / Paid",
+    "AI video and agent platform that creates talking-avatar videos from text, images or audio, translates and lip-syncs videos, and deploys real-time conversational agents with LLMs and knowledge bases through APIs and SDKs.",
+    "For teams building digital presenters, localized video content or interactive avatar agents.",
+    "Free trial / Paid",
     "https://www.d-id.com/"
   ],
   [
@@ -978,10 +954,10 @@
   [
     "Dataiku",
     "Data & analytics",
-    "Enterprise platform for analytics, machine learning, generative AI and governed data workflows.",
-    "For data teams collaborating across notebooks, pipelines and production AI projects.",
-    "Paid",
-    "https://www.dataiku.com/"
+    "Enterprise AI platform combining data science, machine learning, analytics, agent creation, orchestration and governance; supports visual and code agents, model workflows, enterprise data connections and production oversight.",
+    "For enterprise data teams that need to build, deploy and govern analytics and AI systems across technical and business users.",
+    "Free trial / Enterprise",
+    "https://www.dataiku.com/product/"
   ],
   [
     "DataRobot",
@@ -1002,17 +978,17 @@
   [
     "Decktopus",
     "Presentations",
-    "AI presentation maker for generating slide structure, content and visuals.",
-    "For users who want a guided deck-building workflow from a short brief.",
+    "AI presentation platform that turns a topic, notes or uploaded documents into a structured, branded deck, then supports AI editing, rehearsal feedback, sharing and viewer analytics.",
+    "For professionals and teams that need polished client, sales, educational or investor decks quickly, with editing and delivery tools in one workflow.",
     "Free tier / Paid",
     "https://www.decktopus.com/"
   ],
   [
     "DeepEval",
     "AI evaluation",
-    "Open-source testing framework for evaluating LLM applications and agent workflows.",
-    "For engineering teams adding model-quality checks to automated test pipelines.",
-    "Open source",
+    "Open-source Python framework for testing LLM applications with 50+ metrics, LLM-as-judge, synthetic datasets and end-to-end, trajectory and component evaluation for agents, RAG, voice and multimodal workflows; optional Confident AI traces.",
+    "For engineering teams that need repeatable quality and safety checks for LLM features in pytest and CI/CD, with evaluations running locally.",
+    "Open source / Cloud",
     "https://deepeval.com/"
   ],
   [
@@ -1034,33 +1010,33 @@
   [
     "DeepL Write",
     "Writing",
-    "AI writing assistant for rewriting, tone and language improvement.",
-    "For refining wording and style while keeping the original meaning of a draft.",
-    "Free tier / Paid",
-    "https://www.deepl.com/write"
+    "AI writing assistant that corrects grammar, spelling and punctuation and suggests clearer wording, alternative phrases, tone and style across web, desktop, mobile, browser extensions and productivity integrations.",
+    "For writers and teams polishing multilingual communications while preserving meaning and choosing a tone appropriate to the context.",
+    "Free / Pro",
+    "https://www.deepl.com/en/write"
   ],
   [
     "DeepScribe",
     "Healthcare",
-    "Ambient clinical intelligence platform for automated medical documentation.",
-    "For healthcare organizations standardizing and accelerating note creation.",
-    "Paid",
+    "Ambient AI platform focused on oncology workflows, generating context-aware clinical notes from visits, preparing pre-chart summaries with SmartPrep and supporting diagnosis and coding intelligence inside oncology EHRs.",
+    "For oncology clinicians and health systems seeking to reduce documentation burden and keep visit context organized; clinicians must verify notes and coding before finalizing.",
+    "Enterprise / Request demo",
     "https://www.deepscribe.ai/"
   ],
   [
     "DeepSeek",
     "Writing & coding",
-    "AI assistant and API for reasoning, coding, search and multimodal model access.",
-    "For users who want a free chat option and developers comparing model APIs.",
-    "Free / Paid",
+    "AI assistant and model/API platform offering general-purpose and reasoning models, coding and multimodal capabilities, tool calling, and a first-party Search & Fetch API for agents and RAG applications.",
+    "For everyday users who need a capable assistant and developers who want to integrate DeepSeek models and live web retrieval into applications.",
+    "Free / Paid API",
     "https://www.deepseek.com/en/"
   ],
   [
     "Defog",
     "Data & analytics",
-    "AI data analyst for querying structured data, files and databases in natural language.",
-    "For teams that want faster exploration of structured business data with less manual SQL work.",
-    "Paid",
+    "AI data analyst that lets users ask natural-language questions across structured databases and files, generates the relevant SQL, retrieves data and visualizes results; supports API and Docker-based deployment.",
+    "For teams that want faster exploration of structured business data without waiting for every question to be answered manually in SQL.",
+    "Paid / Self-hosted",
     "https://defog.ai/"
   ],
   [
@@ -1082,8 +1058,8 @@
   [
     "Devin",
     "Coding",
-    "Autonomous software engineering agent for planning, coding and executing development tasks.",
-    "For delegating larger engineering tasks that span repositories, tools and iterative execution.",
+    "Autonomous AI software engineer that plans and executes development tasks, works in a cloud or local environment, uses its own browser and terminal, runs tests and prepares pull requests for review.",
+    "For engineering teams delegating scoped multi-step implementation, debugging and maintenance work while retaining code review and merge control.",
     "Paid",
     "https://devin.ai/"
   ],
@@ -1098,16 +1074,16 @@
   [
     "Dext",
     "Finance & accounting",
-    "Automated bookkeeping data capture and expense processing platform.",
-    "For accountants extracting structured data from receipts, invoices and financial documents.",
-    "Paid",
-    "https://dext.com/"
+    "Bookkeeping automation platform for accountants and businesses, combining receipt and invoice capture, document data extraction, bank feeds, machine-learning categorization and Dext AI Assist for guided bookkeeping actions and publishing.",
+    "For accounting firms and businesses that process recurring financial documents and want structured extraction and rule-guided automation with review controls.",
+    "14-day trial / Paid",
+    "https://dext.com/en"
   ],
   [
     "Diffbot",
     "Data extraction",
-    "Knowledge graph and web extraction platform that turns web pages into structured data.",
-    "For enterprises building datasets from large volumes of public web content.",
+    "AI models that read and classify web pages and transform unstructured web content into structured entities and a linked Knowledge Graph, through Extract, Crawl, Search/DQL, Enhance and Natural Language APIs.",
+    "For developers and enterprises that need large-scale, structured web data and entity relationships for search, analytics, enrichment and AI applications.",
     "Paid",
     "https://www.diffbot.com/"
   ],
@@ -1122,9 +1098,9 @@
   [
     "Digits",
     "Finance & accounting",
-    "AI-native accounting and financial reporting platform for businesses and accountants.",
-    "For teams that want bookkeeping workflows with automated categorization and reporting.",
-    "Paid",
+    "AI-native general ledger and accounting platform for businesses and accountants, with automated bookkeeping, agentic month-end close, Ask Digits financial assistant, scheduled accruals, real-time reporting and developer API/MCP.",
+    "For business owners, finance teams and accounting firms that need continuously updated books, financial answers and automated close workflows in one system.",
+    "Free trial / Paid",
     "https://digits.com/"
   ],
   [
@@ -1138,49 +1114,49 @@
   [
     "Documind",
     "Documents",
-    "AI document assistant for asking questions across PDFs and knowledge collections.",
-    "For users building a searchable conversational layer over reference files.",
+    "AI document assistant for asking questions across multiple PDFs with source citations, multilingual chat, document collections, content generation and shareable or embeddable knowledge chatbots, with API access.",
+    "For students and teams that need a searchable conversational layer over document collections and want to share a document-grounded chatbot with others.",
     "Free tier / Paid",
-    "https://documind.chat/"
+    "https://www.documind.chat/"
   ],
   [
     "Docyt",
     "Finance & accounting",
-    "AI-powered accounting automation for bookkeeping and financial operations.",
-    "For multi-entity businesses and accounting teams automating back-office finance processes.",
-    "Paid",
-    "https://docyt.com/"
+    "AI-native ERP for hospitality, restaurants, retail and franchises, combining accounting, payments, revenue reconciliation, continuous close, multi-entity consolidation, tax and business intelligence through specialized AI agents with human oversight.",
+    "For multi-location operators and accounting teams that need automated, consolidated financial operations across properties and business units.",
+    "Enterprise / Request demo",
+    "https://www.docyt.com/"
   ],
   [
     "Dreamina",
     "Images & design",
-    "CapCut creative AI platform for generated images, design assets and related media workflows.",
-    "For creators who want prompt-based visuals that connect naturally to broader content-production workflows.",
+    "CapCut's all-in-one AI creative platform, powered by image and video generation models, with text- and image-to-image/video creation, AI photo editing, style transfer, templates and effects.",
+    "For creators who want to generate and edit visual assets and short videos in one connected creative workflow.",
     "Free tier / Paid",
     "https://dreamina.capcut.com/"
   ],
   [
     "Dropzone AI",
     "Cybersecurity",
-    "AI security-operations platform for autonomous investigation and analyst assistance.",
-    "For SOC teams reducing repetitive triage and investigation work around security alerts.",
-    "Paid",
+    "Autonomous AI security-operations platform with specialized agents for alert investigation, threat hunting and threat intelligence; correlates evidence across SIEM, EDR, identity, cloud and email tools and presents explainable verdicts with configurable human control.",
+    "For SOC teams that need to investigate more security alerts and threat signals across their existing stack without giving up analyst oversight or auditability.",
+    "Enterprise / Request demo",
     "https://www.dropzone.ai/"
   ],
   [
     "DSPy",
     "AI development",
-    "Open-source framework for programming and optimizing language-model pipelines.",
-    "For developers who want systematic optimization instead of hand-tuning prompt chains.",
+    "Open-source framework for programming and optimizing language-model pipelines and agents through declarative modules, signatures, evaluators and optimizers that compile workflows for a target model.",
+    "For developers and researchers who want reproducible, measurable LLM applications instead of manually tuning prompt chains for every model.",
     "Open source",
     "https://dspy.ai/"
   ],
   [
     "Dubverse",
     "Translation",
-    "AI dubbing and subtitle platform for multilingual video localization.",
-    "For creators translating videos and adding voiceovers across languages.",
-    "Free tier / Paid",
+    "AI speech and video-localization platform for multilingual dubbing, subtitles, transcription and text-to-speech, with voice cloning, lip-sync, multi-speaker editing, AI translation controls and APIs.",
+    "For creators and businesses that need to localize video and audio content while retaining control over translated scripts, voices and timing.",
+    "Free trial / Paid",
     "https://dubverse.ai/"
   ],
   [
@@ -1194,57 +1170,57 @@
   [
     "Dust",
     "AI agents",
-    "Enterprise platform for creating assistants and agents connected to company knowledge and tools.",
-    "For organizations building internal AI workflows grounded in team data.",
-    "Paid",
+    "Enterprise agent platform that connects company knowledge, tools and teams so organizations can create, share and run agents across real workflows, with model choice, reusable skills, permissions, audit logs and human review.",
+    "For organizations building internal AI workflows grounded in company systems and requiring collaboration, governance and control over agent actions.",
+    "Free trial / Paid",
     "https://dust.tt/"
   ],
   [
     "Ecrett Music",
     "Music",
-    "AI soundtrack generator that creates music from scene, mood and genre choices.",
-    "For video creators who need simple background-music generation for projects.",
-    "Free tier / Paid",
+    "AI soundtrack generator that creates royalty-free music from scene, mood and genre choices, with previews, saved tracks and subscription licensing for personal and commercial projects.",
+    "For video creators who need quick background music matched to a scene or mood, with a clear license for the intended use.",
+    "Free preview / Paid license",
     "https://ecrettmusic.com/"
   ],
   [
     "Eduaide.AI",
     "Education",
-    "AI workspace for teachers to create instructional materials, plans and classroom resources.",
-    "For educators who need faster lesson preparation and differentiated materials.",
+    "AI toolkit for K–12 teachers that generates standards- and curriculum-aligned lesson plans, worksheets, graphic organizers, games, assessments, rubrics and classroom activities through guided workflows.",
+    "For educators who need to prepare differentiated instructional materials and assessments faster while keeping the teacher in control of the final lesson.",
     "Free tier / Paid",
     "https://www.eduaide.ai/"
   ],
   [
     "eesel AI",
     "Customer support",
-    "AI support agent platform that connects company knowledge to helpdesk and chat workflows.",
-    "For teams that want an AI agent grounded in internal docs and existing support systems.",
-    "Free tier / Paid",
+    "AI customer-support workspace with autonomous helpdesk agents, human-review copilot, ticket triage, website chatbot and internal knowledge agent, grounded in connected helpdesks, Slack and company knowledge.",
+    "For support teams that want to automate routine tickets and assist human agents using existing helpdesk content and workflows, with review and escalation controls.",
+    "Free trial / Paid",
     "https://www.eesel.ai/"
   ],
   [
     "Eightfold AI",
     "HR & recruiting",
-    "AI talent-intelligence platform for recruiting, internal mobility and workforce planning.",
-    "For enterprises matching people, skills and roles across hiring and employee development.",
-    "Paid",
-    "https://eightfold.ai/"
+    "Agentic talent-intelligence platform that models skills, experience, aspirations and work context to support talent acquisition, internal mobility, workforce planning, talent management and AI-powered recruiting agents.",
+    "For enterprise HR and talent teams that need skills-based hiring and workforce decisions across recruiting, development and planning rather than résumé keyword matching alone.",
+    "Enterprise / Request demo",
+    "https://eightfold.ai/products/"
   ],
   [
     "Elai.io",
     "Video",
-    "AI avatar video generator for training, explainers and multilingual presenter content.",
-    "For business teams turning scripts into presenter videos at scale.",
+    "AI text-to-video platform for creating presenter-led training and explainer videos from scripts, documents and presentations, with customizable avatars, voice cloning, multilingual narration and interactive learning elements.",
+    "For organizations that need to produce and localize training or instructional videos without filming every presenter-led lesson.",
     "Free tier / Paid",
     "https://elai.io/"
   ],
   [
     "Elephas",
     "Productivity",
-    "Personal AI assistant for Apple devices with writing and knowledge features.",
-    "For Mac and iOS users who want AI integrated into their existing device workflow.",
-    "Paid",
+    "Private AI knowledge workspace for Mac with local document indexing, chat over PDFs and notes, cited answers, web search and agents; supports offline/on-device operation, optional cloud models and iPhone/iPad access.",
+    "For Mac users who want an assistant grounded in personal files and notes while keeping indexing local and choosing where AI processing happens.",
+    "Free tier / Paid",
     "https://elephas.app/"
   ],
   [
@@ -1266,25 +1242,25 @@
   [
     "EvenUp",
     "Legal",
-    "AI platform for personal-injury legal workflows, document analysis and demand preparation.",
-    "For personal-injury firms processing case documents and damages information at scale.",
-    "Paid",
+    "AI platform for plaintiff personal-injury law firms that organizes medical records, builds treatment timelines and damages summaries, and drafts evidence-grounded settlement demand packages with legal and medical review workflows.",
+    "For personal-injury firms handling high volumes of medical records and demand preparation; attorneys remain responsible for verifying evidence and legal conclusions.",
+    "Enterprise / Request demo",
     "https://www.evenuplaw.com/"
   ],
   [
     "Exa",
     "Research",
-    "Search and crawling API designed for AI applications and agents.",
-    "For developers who need fresh web search, page retrieval and research data inside AI systems.",
-    "Free tier / Paid",
+    "Neural web-search and retrieval API for AI applications, with semantic and keyword search, page contents, structured results, crawling and research workflows designed for agents and RAG systems.",
+    "For developers building research agents and AI applications that need relevant web sources and clean page content rather than relying only on conventional keyword search.",
+    "Free credits / Paid usage",
     "https://exa.ai/"
   ],
   [
     "Explainpaper",
     "Research",
-    "AI reading tool that explains highlighted passages from academic papers in simpler language.",
-    "For students and researchers unpacking dense technical writing while reading papers.",
-    "Free tier / Paid",
+    "AI research-paper reader that explains highlighted passages in context, answers follow-up questions grounded in the uploaded paper, cites relevant sections and generates outlines, key findings and summaries.",
+    "For students and researchers who need help understanding dense papers while keeping explanations tied to the source document and its exact sections.",
+    "Free tier / Pro",
     "https://www.explainpaper.com/"
   ],
   [
@@ -1306,10 +1282,10 @@
   [
     "fal",
     "AI infrastructure",
-    "Developer platform for running generative image, video, audio and 3D models through APIs.",
-    "For products that need fast access to a broad catalog of generative media models.",
-    "Paid",
-    "https://fal.ai/"
+    "Inference platform for generative media and world models, providing hosted APIs for image, video, audio and 3D models plus autoscaling serverless GPUs for deploying custom models and pipelines.",
+    "For developers and creative platforms that need production inference for generative-media models without provisioning and operating GPU infrastructure themselves.",
+    "Pay as you go / Enterprise",
+    "https://fal.ai/inference"
   ],
   [
     "Fathom",
@@ -1322,9 +1298,9 @@
   [
     "FeedHive",
     "Social media",
-    "AI-assisted social media scheduling and content reuse platform.",
-    "For creators and teams that want publishing automation plus writing suggestions.",
-    "Paid",
+    "AI social-media workspace for generating on-brand captions and visuals, planning and scheduling posts, automating publishing conditions, collaborating with teams and connecting external AI agents through API and MCP.",
+    "For creators, brands and agencies that want AI-assisted content creation and controlled cross-channel publishing in one workflow.",
+    "7-day trial / Paid",
     "https://www.feedhive.com/"
   ],
   [
@@ -1338,10 +1314,10 @@
   [
     "Felo",
     "Research",
-    "Multilingual AI search and creation platform for research, documents and generated content.",
-    "For cross-language research and quick synthesis from web and document sources.",
+    "Multilingual AI search and creation platform that combines cited web research with deep-research agents, AI slides and PowerPoint, mind maps, document and webpage creation, and image/video tools.",
+    "For users who want to move from multilingual research and source discovery to structured reports, presentations and other deliverables in one workspace.",
     "Free tier / Paid",
-    "https://felo.ai/"
+    "https://felo.ai/en"
   ],
   [
     "Figma AI",
@@ -1354,9 +1330,9 @@
   [
     "Filmora AI",
     "Video",
-    "AI-assisted editing tools inside Wondershare Filmora for video, audio and effects.",
-    "For general creators who want accessible desktop video editing with generative assistance.",
-    "Free tier / Paid",
+    "AI feature suite inside Wondershare Filmora, including text-to-video and image-to-video, AI portrait and cutout, smart scene and audio tools, speech-to-text, text-based editing and generative editing workflows.",
+    "For video editors who want AI-assisted generation, cleanup and editing inside a familiar timeline editor rather than a separate generation-only app. This is a Filmora capability suite.",
+    "Free trial / Paid Filmora plans",
     "https://filmora.wondershare.com/ai-features.html"
   ],
   [
@@ -1370,17 +1346,17 @@
   [
     "Findem",
     "HR & recruiting",
-    "AI talent-data and recruiting platform for candidate discovery, sourcing and workforce intelligence.",
-    "For enterprises combining talent search with structured people data.",
-    "Paid",
-    "https://www.findem.ai/"
+    "AI people-intelligence platform that builds a contextual graph of skills, career signals and relationships to power talent sourcing, executive search, candidate engagement, workforce planning and agentic people workflows.",
+    "For recruiting and HR teams that need evidence-rich talent discovery and workforce insight beyond static résumés and keyword filters.",
+    "Enterprise / Request demo",
+    "https://www.findem.ai/platform"
   ],
   [
     "Firecrawl",
     "Data extraction",
-    "Web crawling and extraction API designed to turn sites into LLM-ready data.",
-    "For developers building research, RAG and agent workflows that need clean web content.",
-    "Open source",
+    "Web data API and open-source toolkit for crawling, scraping, mapping and searching websites into clean Markdown or structured data for LLMs and agents, with extraction schemas, browser rendering and MCP integration.",
+    "For developers building RAG, research agents and data pipelines that need reliable, structured web content from live sites.",
+    "Free tier / Paid",
     "https://www.firecrawl.dev/"
   ],
   [
@@ -1394,40 +1370,40 @@
   [
     "Fireworks AI",
     "AI infrastructure",
-    "Managed inference platform for fast deployment of generative AI models and workloads.",
-    "For developers serving production AI apps with hosted model infrastructure.",
-    "Paid",
-    "https://fireworks.ai/"
+    "Inference and model-training platform for open and custom AI models, with serverless APIs, dedicated autoscaling GPU deployments, supervised fine-tuning and reinforcement fine-tuning for production workloads.",
+    "For teams that need low-latency production serving and customization of open models without building their own inference and GPU-training stack.",
+    "Free credits / Paid usage",
+    "https://fireworks.ai/inference"
   ],
   [
     "Flair AI",
     "Images & design",
-    "AI visual production tool focused on product photography and branded scenes.",
-    "For ecommerce teams generating styled product imagery without a full photo shoot.",
+    "AI visual-production platform for branded product and marketing imagery, with drag-and-drop scene staging, custom product or human models, image editing, variations, upscaling and short video generation.",
+    "For ecommerce and marketing teams that need consistent branded product visuals and campaign assets without arranging a new photoshoot for each variation.",
     "Free tier / Paid",
     "https://flair.ai/"
   ],
   [
     "FlexClip AI",
     "Video",
-    "AI-assisted online video editor with text-to-video, script and media generation tools.",
-    "For small teams creating social and marketing videos in a browser editor.",
+    "AI-assisted online video creation and editing platform with text-to-video and image-to-video generation, AI scripts and media tools, plus a browser timeline editor for adding voiceovers, subtitles, music, transitions and other finishing edits. The AI video generator is integrated into the FlexClip editor.",
+    "For creators and small teams who want to generate short clips from prompts or still images and finish social, marketing or explainer videos in one browser-based workflow. AI generation is integrated into the FlexClip editor.",
     "Free tier / Paid",
     "https://www.flexclip.com/tools/ai-video-generator/"
   ],
   [
     "Flick",
     "Social media",
-    "Social marketing platform with AI-assisted content ideation, writing and planning.",
-    "For creators building repeatable Instagram and social content workflows.",
-    "Paid",
+    "Social-media marketing platform combining Iris, an AI assistant for brand-aware brainstorming, captions and planning, with post scheduling, hashtag research, analytics and reporting for supported social channels.",
+    "For creators, small businesses and social-media managers who want AI-assisted content planning alongside publishing and performance tools in one workspace.",
+    "7-day trial / Paid",
     "https://www.flick.social/"
   ],
   [
     "Fliki",
     "Video",
-    "AI platform for turning text into narrated videos with stock media and synthetic voices.",
-    "For creators producing explainers, social clips and voice-led content from scripts.",
+    "AI video and audio creator that turns ideas, scripts, blog posts and presentations into narrated videos, with AI voices, avatars, voice cloning, subtitles, translation, dubbing and image/video generation tools.",
+    "For creators, educators and businesses producing voice-led videos, explainers and multilingual content without recording every narration or assembling every scene manually.",
     "Free tier / Paid",
     "https://fliki.ai/"
   ],
@@ -1442,33 +1418,33 @@
   [
     "Forethought",
     "Customer support",
-    "AI platform for support automation, ticket resolution, assistance and service insights.",
-    "For customer-service teams that want AI across self-service and agent workflows.",
-    "Paid",
-    "https://forethought.ai/"
+    "Enterprise customer-experience platform built around AI agents for support discovery, end-to-end issue resolution, ticket triage and agent quality assurance, plus an agentic copilot that suggests answers and next steps inside helpdesks.",
+    "For customer-support organizations that want to automate routine customer issues while routing complex cases to human agents with AI assistance and quality monitoring.",
+    "Enterprise / Request demo",
+    "https://forethought.ai/platform"
   ],
   [
     "Framer AI",
     "Web UI",
-    "AI-assisted website creation inside Framer's visual web design environment.",
-    "For producing polished marketing sites while keeping direct visual editing control.",
+    "AI website-building and management capabilities inside Framer: generate editable pages, sections, copy and visuals from prompts, then use agents to update CMS content, create code components and review accessibility, SEO and design consistency before publishing.",
+    "For designers, founders and marketing teams who want to create and refine responsive websites on a visual canvas while using AI for first drafts and iterative site work. This is an AI capability suite within Framer.",
     "Free tier / Paid",
     "https://www.framer.com/ai/"
   ],
   [
     "Frase",
     "Marketing",
-    "SEO and content workflow platform for research, briefs, writing and optimization.",
-    "For marketers creating search-oriented articles with structured research support.",
-    "Paid",
+    "AI SEO and content platform that researches topics, drafts pages in a brand voice, scores content for Google and AI-search visibility, supports topic clusters and site audits, and can publish, monitor and maintain content through FraseCMS or connected CMS platforms.",
+    "For content marketers, SEO teams and agencies managing research, writing, optimization and AI-search visibility as a connected workflow.",
+    "7-day free trial / Paid",
     "https://www.frase.io/"
   ],
   [
     "Freed",
     "Healthcare",
-    "AI medical scribe that turns clinician-patient conversations into draft notes.",
-    "For independent clinicians and practices looking to reduce after-hours documentation.",
-    "Paid",
+    "AI clinical documentation assistant that prepares visit context, listens to or records clinician-patient encounters, drafts notes in clinician-specific templates, answers clinical questions with cited evidence, suggests supported billing codes and can push notes into web-based EHR systems. Generated notes, evidence and coding suggestions require clinician review and do not replace clinician judgment.",
+    "For licensed clinicians and practices seeking to reduce documentation work while reviewing and approving generated notes, evidence and coding suggestions. It is a clinical workflow assistant, not a substitute for clinician judgment.",
+    "Paid / Free trial",
     "https://www.getfreed.ai/"
   ],
   [
@@ -1490,10 +1466,10 @@
   [
     "Gauth",
     "Education",
-    "AI study assistant for solving and explaining homework questions across multiple subjects.",
-    "For students who want step-by-step support when working through practice problems.",
-    "Free tier / Paid",
-    "https://www.gauthmath.com/"
+    "AI homework and study assistant that accepts typed or photographed questions and returns worked, step-by-step explanations across mathematics and other STEM subjects, with saved solution history and additional visual learning tools.",
+    "For students who want to understand the working behind a practice problem rather than receive only a final answer; explanations should still be checked against course materials.",
+    "Free first solution / Paid",
+    "https://www.gauth.io/"
   ],
   [
     "Gemini",
@@ -1506,9 +1482,9 @@
   [
     "Gemini CLI",
     "Coding",
-    "Open-source terminal agent from Google for coding, research and developer tasks with Gemini models.",
-    "For developers who want a command-line Gemini workflow that can inspect files and use tools.",
-    "Open source",
+    "Open-source AI agent that brings Gemini models into the terminal, where it can inspect and edit local project files, run shell commands, search and fetch the web, use MCP servers and extensions, and support scripted or headless workflows.",
+    "For developers who prefer a terminal-native agent for coding, research and repeatable project tasks, with configurable tools, sandboxing and human approval controls.",
+    "Open source / Free tier and paid model usage",
     "https://github.com/google-gemini/gemini-cli"
   ],
   [
@@ -1529,35 +1505,35 @@
   ],
   [
     "Genspark",
-    "Automation",
-    "AI workspace and agent platform for research, content creation and multi-step tasks.",
-    "For delegating broader knowledge-work tasks that combine research and generated deliverables.",
-    "Free tier / Paid",
+    "AI agents",
+    "AI agent workspace centered on Super Agent, which plans and executes multi-step research, content, analysis, design and coding tasks using connected tools and cloud sandboxes; its Super App brings Super Agent, GenMail, GenTeam and GenCode into a desktop workspace.",
+    "For individuals and teams delegating multi-step knowledge work and wanting generated deliverables, connected-app context and coding or communication workflows in one environment.",
+    "Free tier / Paid credits",
     "https://www.genspark.ai/"
   ],
   [
     "getimg.ai",
     "Images",
-    "AI image generation and editing suite with multiple models and visual tools.",
-    "For generating, editing and expanding images through a single web interface.",
-    "Free tier / Paid",
+    "Generative-media studio that selects or lets users choose models for image and video generation, editing and upscaling, and also provides music, speech, headshots, product videos, background cleanup, character consistency, API and MCP access.",
+    "For creators and marketing teams producing varied visual and audio assets across multiple models without maintaining separate subscriptions and workflows for every generation task.",
+    "Paid plans from $15/month (annual billing shown)",
     "https://getimg.ai/"
   ],
   [
     "Giskard",
     "AI evaluation",
-    "AI testing platform for evaluating model quality, security and failure cases.",
-    "For teams that want structured red-teaming and quality checks before deploying AI systems.",
-    "Free tier / Paid",
+    "AI testing and red-teaming platform with an open-source Python library and enterprise Hub for evaluating LLM agents, chatbots, RAG systems and classifiers through behavioral scenarios, quality scans, vulnerability scans, datasets and continuous production evaluation.",
+    "For AI developers and organizations that need repeatable quality and security tests for AI applications, including prompt-injection and hallucination checks, before and after deployment.",
+    "Open-source library / Paid enterprise Hub",
     "https://www.giskard.ai/"
   ],
   [
     "GitGuardian",
     "Cybersecurity",
-    "Developer security platform for detecting exposed secrets and code security risks.",
-    "For engineering teams preventing credentials and sensitive tokens from leaking through repositories.",
+    "Credential-security platform that discovers and validates exposed secrets across code, developer devices, collaboration tools and non-human identities, then adds contextual risk scoring, AI-assisted incident prioritization and remediation workflows; includes guardrails for AI coding tools. AI supports parts of the workflow, while core secret discovery also uses dedicated detectors.",
+    "For security and engineering teams that need to detect credential exposure, identify ownership and blast radius, and manage remediation across repositories and the wider secrets surface. AI supports parts of the workflow; secret detection also uses dedicated detectors.",
     "Free tier / Paid",
-    "https://www.gitguardian.com/"
+    "https://www.gitguardian.com/platform"
   ],
   [
     "GitHub Copilot",
@@ -1570,17 +1546,17 @@
   [
     "GitLab Duo",
     "Coding",
-    "GitLab's AI features for code, review, security and software delivery workflows.",
-    "For teams already using GitLab who want AI assistance integrated into the DevSecOps lifecycle.",
-    "Paid",
-    "https://about.gitlab.com/gitlab-duo/"
+    "GitLab's AI capability suite for the software-development lifecycle, spanning code assistance and explanations, security and review support, agentic chat, specialized agents and multi-step flows through the GitLab Duo Agent Platform.",
+    "For development teams already using GitLab that want AI assistance and governed agents grounded in repository, issue, CI/CD and project context. Availability depends on GitLab tier, deployment and credits.",
+    "Free core features / Paid tiers and credits",
+    "https://docs.gitlab.com/user/gitlab_duo/index.html"
   ],
   [
     "Glass Health",
     "Healthcare",
-    "AI clinical decision support and medical reasoning workspace.",
-    "For clinicians organizing differential diagnoses and care planning with AI assistance.",
-    "Paid",
+    "Clinical AI platform combining ambient visit scribing with evidence-grounded clinical decision support for questions, differential diagnoses and care planning; the current platform also describes patient guidance, care navigation and longitudinal-record reasoning. AI-generated suggestions require qualified clinical review and do not replace professional judgment.",
+    "For clinicians and healthcare organizations seeking documentation and evidence-supported clinical reasoning workflows. AI-generated suggestions require qualified clinical review and do not replace professional judgment.",
+    "Paid / Request access",
     "https://glass.health/"
   ],
   [
@@ -1594,10 +1570,10 @@
   [
     "Glide",
     "Web apps",
-    "AI-assisted no-code platform for building business apps from data and workflows.",
-    "For internal tools and lightweight apps connected to spreadsheets and business data.",
+    "No-code business app builder with Glide AI and Glide Agent: generate custom apps and UI components from descriptions, process text, audio and images into structured data, and build workflows around company information. The AI features are integrated into the Glide app-building platform.",
+    "For teams that want internal business apps and operational workflows without building a full custom application, using AI to generate app structure and extract information from business files.",
     "Free tier / Paid",
-    "https://www.glideapps.com/ai"
+    "https://www.glideapps.com/classic/ai"
   ],
   [
     "Gong",
@@ -1609,33 +1585,33 @@
   ],
   [
     "Goose",
-    "Coding",
-    "Open-source local AI agent for software development and computer-assisted workflows.",
-    "For developers who want an extensible agent that can work with tools on their machine.",
-    "Open source",
+    "AI agents",
+    "Open-source, general-purpose AI agent that runs locally through a desktop app, CLI or API; connects to LLM providers and MCP extensions to perform coding, research, writing, data analysis and other multi-step computer workflows. The project is now part of the Linux Foundation's Agentic AI Foundation.",
+    "For developers and technical users who want an extensible agent they can run on their own machine and connect to local tools, files, services and preferred models.",
+    "Open source (Apache 2.0)",
     "https://block.github.io/goose/"
   ],
   [
     "Gorgias AI",
     "Customer support",
-    "AI customer-support capabilities inside Gorgias for ecommerce service automation.",
-    "For online stores that want automated support tied to commerce workflows.",
-    "Paid",
-    "https://www.gorgias.com/ai"
+    "Gorgias AI Agent for ecommerce brands, with two roles: a pre-purchase shopping assistant that helps shoppers find products and a post-purchase support agent that handles order status, returns, cancellations and related requests across connected channels. It can take approved actions in commerce tools and hand off conversations to people.",
+    "For Shopify-focused ecommerce teams that want customer-facing AI support and shopping assistance grounded in their catalog, policies and order data, with configurable skills and human handoff.",
+    "Paid add-on / Request demo",
+    "https://www.gorgias.com/ai-agent"
   ],
   [
     "GPT4All",
     "Local models",
-    "Open-source local AI ecosystem for running language models on desktop hardware.",
-    "For private on-device chat and experimentation without depending on a hosted model provider.",
+    "Open-source desktop application and model ecosystem for downloading and running large language models locally on Windows, macOS and Linux, with private chat and LocalDocs for asking questions over files without sending prompts to a hosted model API.",
+    "For individuals and developers who want to experiment with local language models and query personal documents on their own hardware, subject to the capabilities of the selected model and device.",
     "Open source",
     "https://www.nomic.ai/gpt4all"
   ],
   [
     "Grain",
     "Meetings",
-    "AI meeting recording and highlight platform for customer conversations and team knowledge.",
-    "For sales and product teams that want clips, summaries and searchable call context.",
+    "AI meeting capture and intelligence platform that records or transcribes calls with or without a meeting bot, creates enriched transcripts, summaries and action items, and lets users search meetings, ask questions, create clips and expose meeting context to external agents through MCP and API.",
+    "For sales, customer-success, research and product teams that need searchable meeting knowledge and want AI agents to act on transcripts, clips and follow-ups after conversations.",
     "Free tier / Paid",
     "https://grain.com/"
   ],
@@ -1658,17 +1634,17 @@
   [
     "Greptile",
     "Coding",
-    "AI code review and codebase intelligence platform for engineering teams.",
-    "For repository-aware review and questions across larger codebases.",
-    "Paid",
+    "AI code-review agent that builds a graph of a connected repository to understand functions, classes and dependencies, reviews pull requests with codebase-wide context, posts findings and suggested fixes, and can pass issues to coding agents for implementation.",
+    "For engineering teams that want automated, repository-aware pull-request reviews and codebase context beyond file-by-file linting.",
+    "Paid / Request demo",
     "https://www.greptile.com/"
   ],
   [
     "Grok",
     "Writing & research",
-    "General-purpose AI assistant for chat, research, reasoning and multimodal tasks.",
-    "For users who want another broad assistant for everyday questions, analysis and current-topic exploration.",
-    "Free tier / Paid",
+    "Multimodal AI assistant from xAI for chat, reasoning, writing and research, with voice conversations, image and video creation through Grok Imagine, file analysis and connectors to supported personal or work apps. Grok Bot is a separate agent product and is not conflated with the Grok chat assistant here.",
+    "For users who want a general-purpose assistant for questions, analysis and creative work, with multimodal tools and connected-app context.",
+    "Free tier / Paid SuperGrok plans",
     "https://grok.com/"
   ],
   [
@@ -1690,8 +1666,8 @@
   [
     "Gumloop",
     "Automation",
-    "Visual AI automation platform for connecting models, data and business workflows.",
-    "For building multi-step AI automations without writing every integration manually.",
+    "Visual AI agent and workflow platform for building, sharing and governing agents that connect business apps, models, data and reusable skills; supports agent nodes, custom MCP integrations and automated workflows for tasks such as account research, outbound writing and ticket triage.",
+    "For operations, sales, support and other teams that want to automate multi-step work across existing tools without hand-coding every integration.",
     "Free tier / Paid",
     "https://www.gumloop.com/"
   ],
@@ -1706,17 +1682,17 @@
   [
     "H2O.ai",
     "Data & analytics",
-    "AI and machine-learning platform for predictive modeling, enterprise AI and model deployment.",
-    "For technical teams building and operationalizing machine-learning applications.",
-    "Free / Paid",
+    "Enterprise sovereign-AI platform spanning predictive machine learning, generative AI, agentic AI and observability, with tools to build, orchestrate, deploy and govern models and agents across cloud, private and air-gapped environments; includes the H2O AI Super Agent orchestration layer.",
+    "For organizations that need to develop and operate AI/ML systems while retaining control over models, data, deployment environments, governance and auditability.",
+    "Open-source components / Enterprise licensing",
     "https://h2o.ai/"
   ],
   [
     "Hailuo AI",
     "Video",
-    "AI video generation platform for turning prompts and images into short video clips.",
-    "For rapid experimentation with image-to-video and text-to-video concepts.",
-    "Free tier / Paid",
+    "AI video-creation studio supporting text-to-video, image-to-video and reference-to-video workflows, with selectable video models including MiniMax's Hailuo model family and other third-party models offered in the editor.",
+    "For creators and marketers who want to generate short cinematic, social, product or concept clips from prompts, still images or visual references and compare different generation models.",
+    "Free credits / Paid",
     "https://hailuoai.video/"
   ],
   [
@@ -1746,17 +1722,17 @@
   [
     "Haystack",
     "AI development",
-    "Open-source framework for production AI pipelines, RAG and agentic applications.",
-    "For developers building retrieval and generative AI systems with modular pipelines.",
+    "Open-source Python framework for building production AI agents, retrieval-augmented generation (RAG) applications and multimodal search systems from modular components, pipelines, document stores, retrievers, tools, evaluators and model generators.",
+    "For developers building custom AI applications who need explicit, testable orchestration and control over retrieval, model calls, tools and data flow.",
     "Open source",
     "https://haystack.deepset.ai/"
   ],
   [
     "HeadshotPro",
     "Image generation",
-    "AI headshot generator for professional profile and team photos.",
-    "For individuals and teams that need consistent business headshots without organizing a photo shoot.",
-    "Paid",
+    "AI headshot generator for individuals and teams that turns uploaded selfies into professional profile photos with selectable styles, backgrounds and formats; offers one-time packages rather than a recurring subscription, and states that input photos are deleted after 30 days and are not used to train its models.",
+    "For professionals and organizations that need consistent business headshots without arranging an in-person photo shoot.",
+    "One-time purchase from $29",
     "https://www.headshotpro.com/"
   ],
   [
@@ -1770,18 +1746,10 @@
   [
     "Heidi Health",
     "Healthcare",
-    "AI medical scribe and clinical documentation assistant.",
-    "For clinicians generating notes, letters and summaries from patient encounters.",
-    "Free tier / Paid",
+    "AI Care Partner for clinicians combining ambient clinical scribing, dictation, evidence-backed answers with citations, document creation and workflow support. Heidi Scribe creates structured notes from consultations, while Heidi Evidence helps clinicians research clinical questions and verify source material; availability varies by region and plan.",
+    "For clinicians and healthcare teams reducing documentation and information-gathering work while reviewing generated notes and evidence before using them in patient care.",
+    "Free tier / Paid plans and enterprise",
     "https://www.heidihealth.com/"
-  ],
-  [
-    "Helicone",
-    "AI observability",
-    "Observability platform for logging, analyzing and improving LLM application traffic.",
-    "For developers who need visibility into prompts, costs, latency and model behavior.",
-    "Free tier / Paid",
-    "https://www.helicone.ai/"
   ],
   [
     "Help Scout AI",
@@ -1794,8 +1762,8 @@
   [
     "Hex",
     "Data & analytics",
-    "Collaborative analytics workspace with notebooks, data apps and AI-assisted analysis.",
-    "For data teams combining SQL, Python and interactive reporting in one workspace.",
+    "Agent-native analytics platform for teams to explore, model and share data through notebooks, conversational analytics and governed data apps. Hex 4.0 adds a collaboration surface for humans and AI agents, with Notebook Agent assistance, context management, inspectable data lineage and controlled publishing.",
+    "For data teams that want analysts and business users to ask questions of company data while retaining review, traceability and governance over agent-generated analyses and apps.",
     "Free tier / Paid",
     "https://hex.tech/"
   ],
@@ -1810,33 +1778,33 @@
   [
     "HiddenLayer",
     "Cybersecurity",
-    "Security platform for protecting machine-learning models and AI systems.",
-    "For enterprises monitoring model threats and AI-specific attack surfaces.",
-    "Paid",
-    "https://hiddenlayer.com/"
+    "Enterprise AI-security platform for discovering AI assets, securing model supply chains, simulating adversarial attacks and monitoring AI systems at runtime, including generative and agentic applications across development and production environments.",
+    "For security and AI-platform teams that need visibility into shadow AI, model and pipeline risks, continuous attack testing and runtime protection for AI applications.",
+    "Enterprise / Request demo",
+    "https://hiddenlayer.com/platform"
   ],
   [
     "Higgsfield",
     "Video",
-    "AI video creation platform focused on stylized shots, camera motion and creator workflows.",
-    "For marketers and creators producing short cinematic content with directed visual movement.",
-    "Free tier / Paid",
+    "AI-native creative suite for generating and editing video and images through multiple selectable models, with specialized studios and tools for cinematic camera effects, image editing, inpainting, upscaling, face swaps, AI influencers, marketing assets and agent/API workflows.",
+    "For creators and marketing teams that want a single workspace to generate, edit and package visual content across different models and specialized creative workflows.",
+    "Free credits / Paid",
     "https://higgsfield.ai/"
   ],
   [
     "Hippocratic AI",
     "Healthcare",
-    "Safety-focused generative AI platform for healthcare agents and patient-facing workflows.",
-    "For healthcare organizations deploying conversational AI in non-diagnostic operational roles.",
-    "Paid",
-    "https://www.hippocraticai.com/"
+    "Enterprise platform for patient-facing generative AI agents across healthcare workflows such as appointment scheduling, intake, screening outreach, chronic-care support, medication adherence and care navigation. Its stated safety boundary is that agents do not diagnose or prescribe and escalate clinical concerns to licensed staff.",
+    "For health systems and life-sciences organizations automating non-diagnostic patient engagement and care-coordination tasks with clinical safety monitoring and human escalation.",
+    "Enterprise / Request demo",
+    "https://hippocraticai.com/"
   ],
   [
     "HireVue",
     "HR & recruiting",
-    "Hiring platform with AI-assisted assessments, interviewing and candidate-evaluation workflows.",
-    "For larger recruiting organizations standardizing screening and interview processes.",
-    "Paid",
+    "Enterprise hiring platform combining AI Interviewer, structured video interviews, job-relevant skills assessments, scheduling and workflow automation. For AI-scored video assessments, HireVue says it evaluates the transcript against role-related competencies rather than facial expressions, appearance, body language or background.",
+    "For large employers standardizing candidate screening and skills evaluation across high-volume, early-career and professional hiring while keeping criteria job-related and reviewable by recruiters.",
+    "Enterprise / Request demo",
     "https://www.hirevue.com/"
   ],
   [
@@ -1874,89 +1842,81 @@
   [
     "Humanly",
     "HR & recruiting",
-    "Conversational AI recruiting platform for screening, scheduling and candidate engagement.",
-    "For hiring teams automating early-stage recruiting conversations and coordination.",
-    "Paid",
+    "AI recruiting platform for high-volume and frontline hiring, with AI Recruiter for candidate engagement and screening, AI Interviewer for structured voice/video interviews, automated scheduling and follow-up, candidate transcripts, Talent CRM and ATS workflows.",
+    "For employers hiring hourly and frontline workforces who need to respond to applicants around the clock, screen consistently and move qualified candidates to interviews faster.",
+    "Enterprise / Request demo",
     "https://www.humanly.io/"
   ],
   [
     "Humata",
-    "Learn from your files",
-    "AI workspace for asking questions about documents and summarizing uploaded files.",
-    "For quickly extracting answers and summaries from PDFs and other documents.",
-    "Free tier / Paid",
+    "Documents",
+    "AI knowledge-base and PDF assistant that answers questions across uploaded files, summarizes and compares technical documents, searches for evidence with citations linked to source passages, and can be embedded in a webpage to provide document-grounded answers to customers or teams.",
+    "For researchers, professionals and organizations that need to search large document collections and share source-cited answers without manually reading every file.",
+    "Free tier / Paid plans",
     "https://www.humata.ai/"
-  ],
-  [
-    "Hume AI",
-    "Voice & audio",
-    "Voice and emotion AI platform for expressive conversational interfaces.",
-    "For developers building voice agents where prosody and emotional expression matter.",
-    "Free tier / Paid",
-    "https://www.hume.ai/"
   ],
   [
     "Hyper3D Rodin",
     "3D",
-    "Generative 3D model creation platform for turning images or text into 3D assets.",
-    "For designers and developers producing 3D content for games, commerce and visualization.",
-    "Free tier / Paid",
+    "AI 3D-asset generation platform that creates editable textured models from text prompts, single images, sketches or multi-view references, with mesh and material controls, UV-ready exports, refinement tools, APIs and integrations for common 3D production software.",
+    "For game developers, product designers and 3D artists who want to turn concepts or reference images into editable 3D assets and refine them for downstream pipelines.",
+    "Free previews / Paid credits",
     "https://hyper3d.ai/"
   ],
   [
     "HyperWrite",
     "Writing",
-    "AI writing assistant with drafting, rewriting and browser-based assistance.",
-    "For everyday writing and research tasks across documents and web workflows.",
+    "AI writing and research workspace with drafting, rewriting, autocomplete and browser-based Personal Assistant agents that can carry out multi-step online tasks such as organizing email, researching information and interacting with websites under user direction.",
+    "For writers, researchers and knowledge workers who want both writing support and an AI assistant that can move beyond drafting to perform repetitive browser-based tasks.",
     "Free tier / Paid",
     "https://www.hyperwriteai.com/"
   ],
   [
     "IBM watsonx Code Assistant",
     "Coding",
-    "Enterprise code assistant for software development and application modernization.",
-    "For organizations generating, explaining and transforming code in governed enterprise environments.",
-    "Paid",
+    "Portfolio of IBM generative-AI coding assistants for code generation, explanation, documentation and unit-test creation inside IDEs, with context-aware chat and specialized modernization workflows for enterprise Java and other IBM-supported environments.",
+    "For enterprise development teams that need IDE-integrated code assistance and governed modernization workflows connected to IBM's software and cloud environments.",
+    "Limited trial / Paid IBM plans",
     "https://www.ibm.com/products/watsonx-code-assistant"
   ],
   [
     "Ideogram",
     "Images",
-    "Image generation with strong text rendering, editing and design-oriented controls.",
-    "For posters, branded graphics and visuals where readable text matters.",
+    "AI image-generation platform known for prompt-driven visual creation and text rendering, with Ideogram Canvas for organizing and combining images, Magic Fill for inpainting, Extend for outpainting, editable text layers, specialized image apps, API and MCP access.",
+    "For designers, marketers and creators who need image generation with legible text and iterative control over layouts, edits, backgrounds and final compositions.",
     "Free tier / Paid",
     "https://ideogram.ai/"
   ],
   [
     "Infermedica",
     "Healthcare",
-    "Clinical decision support and symptom assessment platform delivered through APIs and applications.",
-    "For digital health products adding structured symptom-checking and triage workflows.",
-    "Paid",
+    "Clinical AI triage and medical-guidance platform that collects patient symptoms and history, assesses urgency and likely care pathways, and supports digital front-door triage, nurse/call-center workflows and pre-visit intake through embeddable modules and APIs. The former Symptom Checker is now positioned as Infermedica Triage; its outputs guide care navigation rather than replacing clinician assessment.",
+    "For health systems, insurers and digital-care providers integrating structured symptom assessment and patient navigation into their own apps, portals or contact centers; outputs support triage workflows rather than replacing clinician assessment.",
+    "Enterprise / Request demo",
     "https://infermedica.com/"
   ],
   [
     "insMind",
-    "Image editing",
-    "AI photo editor focused on product images, backgrounds and ecommerce visuals.",
-    "For online sellers creating polished product photography with less manual editing.",
-    "Free tier / Paid",
+    "Images & design",
+    "AI creative suite and photo editor for generating and editing images and videos, with text-to-video, image-to-video, AI image generation, background and object editing, visual effects and an AI agent; available through web and mobile/desktop apps.",
+    "For ecommerce sellers, marketers and creators who need quick product-photo cleanup, image variations and short-form visual assets across web and mobile workflows.",
+    "Free tier / Paid credits",
     "https://www.insmind.com/"
   ],
   [
     "Instantly",
     "Sales",
-    "AI-assisted outbound sales platform for email campaigns, lead workflows and deliverability.",
-    "For sales teams running high-volume outbound sequences from one system.",
-    "Paid",
+    "Outbound sales platform combining cold-email infrastructure and warmup, B2B lead database, campaign automation and deliverability tools with Instantly AI Copilot for personalized messaging and an AI Sales Agent that finds ICP-matched leads, writes sequences and builds outreach campaigns.",
+    "For sales teams and agencies running outbound prospecting who want lead discovery, campaign creation, email operations and AI-assisted personalization in one platform.",
+    "Free trial / Paid plans and AI credits",
     "https://instantly.ai/"
   ],
   [
     "InVideo AI",
     "Video",
-    "Prompt-driven video creation platform for scripts, visuals, voice and editing.",
-    "For turning a written idea into a complete marketing or social video draft.",
-    "Free tier / Paid",
+    "Agentic AI video-creation platform that turns a brief into scripts, storyboards, generated scenes, voiceovers, subtitles and edited videos using a choice of 200+ image, video and audio models. Its MCP server also lets external AI agents edit projects on an editable multitrack timeline inside the InVideo editor.",
+    "For creators, marketers and teams producing ads, explainers and longer-form videos who want an AI agent to handle the first cut and then refine the result through conversational edits on a real timeline.",
+    "Free tier / Paid credits",
     "https://invideo.io/ai/"
   ],
   [
@@ -1970,10 +1930,10 @@
   [
     "Ironclad AI",
     "Legal",
-    "AI capabilities inside Ironclad for contract drafting, review, search and lifecycle workflows.",
-    "For legal teams that want AI connected to their contract system of record.",
-    "Paid",
-    "https://ironcladapp.com/ai/"
+    "Native AI capabilities within Ironclad's contract lifecycle management platform, including conversational search across signed and in-flight agreements, contract drafting and redlining, clause and metadata extraction, playbook-based review, portfolio insights and specialized agents for intake, review and renewals.",
+    "For legal, procurement and operations teams that already manage agreements in Ironclad and want contract-aware AI grounded in their workflows and permissions; this is an AI layer inside Ironclad CLM, not a standalone general-purpose legal chatbot.",
+    "Enterprise / Paid CLM",
+    "https://ironcladapp.com/product/ironclad-ai"
   ],
   [
     "Jacquard",
@@ -1986,8 +1946,8 @@
   [
     "Jamie",
     "Meetings",
-    "AI meeting note taker designed to create summaries across online and in-person conversations.",
-    "For professionals who want cross-platform meeting notes without relying on a meeting bot.",
+    "On-device AI meeting intelligence that captures online and in-person conversations without adding a meeting bot, then creates structured notes, transcripts, speaker context, summaries and action items. It can answer questions across past meetings and automate follow-up workflows through connected tools, MCP, webhooks and API.",
+    "For professionals and teams who want searchable meeting memory and automated follow-ups across different meeting platforms, including in-person conversations, without a bot joining the call.",
     "Free tier / Paid",
     "https://www.meetjamie.ai/"
   ],
@@ -2010,113 +1970,113 @@
   [
     "Jenni AI",
     "Writing",
-    "Academic writing and research workspace for reading, drafting and citation support.",
-    "For students and researchers who want writing help that stays connected to sources.",
+    "Academic and professional writing workspace combining an AI document editor, contextual autocomplete and editing, research chat, semantic discovery across academic papers, a searchable PDF/source library, citation management and document reviews that flag unsupported or weakly supported claims.",
+    "For students, researchers and analysts drafting source-based work who want research, citations, document editing and claim review in one workspace; citations and AI suggestions still require human verification.",
     "Free tier / Paid",
     "https://jenni.ai/"
   ],
   [
     "JetBrains AI Assistant",
     "Coding",
-    "AI assistant integrated into JetBrains IDEs for code, explanations and development tasks.",
-    "For developers who already work primarily inside JetBrains editors.",
+    "AI feature suite integrated into JetBrains IDEs, with project-aware chat, code completion and generation, explanations, refactoring, documentation and test assistance, plus coding-agent integrations and MCP/ACP extensibility. Users can choose JetBrains AI, supported external providers or local models where available.",
+    "For developers who work in JetBrains IDEs and want AI assistance and configurable coding agents in their existing editor; this is the broader IDE AI layer, distinct from the more autonomous Junie agent.",
     "Free tier / Paid",
     "https://www.jetbrains.com/ai/"
   ],
   [
     "JetBrains Junie",
     "Coding",
-    "Coding agent from JetBrains for implementing and iterating on tasks inside IDE projects.",
-    "For JetBrains users delegating multi-step code changes within their existing development environment.",
-    "Paid",
+    "JetBrains' autonomous coding agent that plans and executes multi-step development tasks, edits files across a project, runs tests and terminal commands, and can use external tools. It is available inside supported JetBrains IDEs and through an interactive terminal interface.",
+    "For developers who want to delegate bounded, multi-step implementation and debugging work to an agent while reviewing its changes and command execution.",
+    "Paid / BYO API key",
     "https://www.jetbrains.com/junie/"
   ],
   [
     "Jina AI Reader",
     "Data extraction",
-    "Web-to-text reader service and APIs for retrieving cleaner page content for AI systems.",
-    "For developers feeding public web pages into research, search and RAG pipelines.",
-    "Free tier / Paid",
+    "Web and document reader API that fetches public URLs or PDFs and converts their content into clean, LLM-friendly text or Markdown. Reader supports URL and file inputs, structured JSON responses and optional link/image summaries; it is one service in Jina's wider Reader, Search and embedding API suite.",
+    "For developers building research, retrieval-augmented generation and agent workflows that need readable webpage or PDF content instead of raw HTML; the Reader endpoint can be used without an API key at a lower rate limit.",
+    "Free tier / Paid API",
     "https://jina.ai/reader/"
   ],
   [
     "Juicebox",
     "HR & recruiting",
-    "AI recruiting platform for people search, talent sourcing, CRM and outreach workflows.",
-    "For recruiters using natural-language search and agents to build candidate pipelines.",
+    "AI recruiting and talent-sourcing platform that searches a large global candidate index across multiple data sources, builds ranked candidate pools from natural-language requirements, summarizes candidate fit, and supports AI-assisted outreach, sourcing agents and ATS/CRM workflows.",
+    "For recruiters and talent teams sourcing hard-to-find candidates who need natural-language search, candidate calibration and personalized outreach in one recruiting workflow.",
     "Free tier / Paid",
     "https://juicebox.ai/"
   ],
   [
     "Julius AI",
     "Data & analytics",
-    "Conversational data-analysis workspace for files, spreadsheets, charts and statistical exploration.",
-    "For users who want to analyze datasets by asking questions in natural language.",
+    "AI workspace for analyzing spreadsheets, documents and connected data sources, researching topics, running code-backed analysis and creating charts, reports, presentations, dashboards, websites, images and video. Paid plans add higher usage, more capable models, agents and additional data connectors.",
+    "For individuals and teams who want to move from a question or dataset to analysis and shareable deliverables in one conversational workspace; it is broader than a spreadsheet-only analysis assistant.",
     "Free tier / Paid",
-    "https://julius.ai/"
+    "https://julius.ai/product"
   ],
   [
     "K Health",
     "Healthcare",
-    "AI-supported virtual care platform combining symptom intake with clinician access.",
-    "For consumers seeking digital primary-care and medical guidance workflows.",
-    "Paid",
-    "https://khealth.com/"
+    "Clinical AI platform for health systems, combining dynamic patient intake and PatientGPT grounded in medical-record context with EHR integration and digital front-door workflows. K Health also partners with providers to deliver longitudinal primary and specialty virtual care with licensed clinicians; its AI supports patient engagement and clinical workflows rather than replacing medical professionals.",
+    "For health systems and provider organizations that want to improve pre-visit intake, patient engagement and virtual-care access using AI connected to clinical records and clinician-led services; this is primarily an enterprise healthcare platform, not simply a consumer symptom checker.",
+    "Enterprise / Health-system partners",
+    "https://www.khealth.com/"
   ],
   [
     "Kaedim",
     "3D",
-    "AI-assisted 3D asset production platform for converting concepts into production-ready models.",
-    "For studios accelerating game and product asset creation with human-in-the-loop workflows.",
-    "Paid",
+    "AI-assisted 3D production platform that turns sketches, reference packs, product photos and creative briefs into 3D assets for product design, games and ecommerce. Its workflow emphasizes studio review, markup, iteration and approval, with production support for teams working on confidential assets.",
+    "For game studios, product teams and brands that need 3D asset production integrated into a professional review workflow; Kaedim positions this as a studio-oriented production service rather than a simple self-serve text-to-3D generator.",
+    "Enterprise / Contact sales",
     "https://www.kaedim3d.com/"
   ],
   [
     "Kagi Assistant",
     "Writing & research",
-    "Multi-model AI assistant integrated with Kagi Search and optional web grounding.",
-    "For privacy-conscious users who want model choice and search-backed assistance in one subscription.",
-    "Paid",
+    "Multi-model AI assistant included with Kagi's search subscription, allowing users to choose among supported language models, optionally ground chats with Kagi Search, create custom assistants, upload files, switch models or web access within a thread, and save or export conversations.",
+    "For research, writing and programming users who want model choice and optional private search grounding in one subscription; Kagi says user data is not used to train models and offers configurable conversation retention.",
+    "Paid subscription",
     "https://kagi.com/assistant"
   ],
   [
     "Kaiber",
     "Video",
-    "AI creative video platform for transforming prompts, images and audio into stylized motion.",
-    "For music visuals and artistic video treatments rather than conventional editing alone.",
-    "Free tier / Paid",
+    "AI creative studio with three connected tools: Canvas for generating and editing video, images and audio using selectable models; Beat Sync for creating music-synchronized visual variations and short-form clips; and Editor for arranging, trimming and finishing projects on a timeline.",
+    "For musicians, artists and social creators who want to generate stylized visuals, synchronize batches of clips to music and finish them in one connected creative workspace.",
+    "Paid subscription / Credits",
     "https://kaiber.ai/"
   ],
   [
     "Kapwing AI",
     "Video",
-    "AI-assisted online video editor for generation, repurposing, subtitles and social formats.",
-    "For creators who want collaborative editing and generative tools in the same browser workspace.",
+    "Browser-based AI toolkit built into Kapwing's online video editor, including AI video generation and editing, text-to-video, dubbing, subtitles, voiceovers, image generation, lip sync and other tools powered by multiple selectable models.",
+    "For creators and teams who want AI generation, localization and editing in the same collaborative browser-based video workspace, without installing desktop editing software.",
     "Free tier / Paid",
-    "https://www.kapwing.com/ai"
+    "https://www.kapwing.com/ai/overview"
   ],
   [
     "Keyword Insights",
     "SEO & marketing",
-    "Keyword clustering and content planning platform with AI-assisted workflows.",
-    "For SEO teams grouping large keyword sets by intent and planning site content.",
-    "Paid",
+    "SEO research and content platform for keyword discovery, SERP-based keyword clustering and search-intent analysis, content briefs, rank and competitor insights, and AI-assisted article writing. Its Keyword Discovery and other workflows are also accessible through an API for automation.",
+    "For SEO teams and content marketers who need to group large keyword sets by intent, identify topical opportunities and turn search data into briefs and articles.",
+    "Paid plans",
     "https://www.keywordinsights.ai/"
   ],
   [
     "Khanmigo",
     "Education",
-    "Khan Academy's AI-powered tutor and teaching assistant for guided learning and educator workflows.",
-    "For learners and teachers who want education-focused AI connected to Khan Academy content.",
-    "Free tier / Paid",
+    "Khan Academy's AI tutor and teaching assistant. For learners it guides students through questions instead of simply giving answers, using Khan Academy's curriculum across subjects including math, science and coding. For educators it helps create lesson plans, differentiated activities, quizzes, rubrics and feedback on student work.",
+    "For students, families and educators who want guided learning or teaching support connected to Khan Academy content. Individual learner/parent access is currently restricted to eligible US accounts, while teacher access is limited to educators in supported countries and student classroom access is through school or district implementations.",
+    "Free for eligible teachers / Paid US learner access",
     "https://www.khanmigo.ai/"
   ],
   [
     "Kilo Code",
     "Coding",
-    "Open-source agentic engineering platform across IDE, CLI and cloud workflows.",
-    "For developers who want broad model choice and open-source coding-agent control.",
-    "Open source",
+    "Open-source agentic engineering platform for coding across IDEs, terminal and desktop workflows, with multi-file code generation, planning, debugging, code review, autocomplete, browser/terminal tools and support for hundreds of selectable models. Kilo's official documentation states that Kilo Code was acquired by Anaconda.",
+    "For developers who want an extensible coding agent with open-source code, broad model choice and IDE/CLI workflows; the current platform also includes hosted and desktop experiences alongside its open-source core.",
+    "Open source / Hosted options",
     "https://kilo.ai/"
   ],
   [
@@ -2130,10 +2090,10 @@
   [
     "Kits AI",
     "Music",
-    "AI voice toolkit for singing voice conversion, generation and music production workflows.",
-    "For musicians and producers experimenting with authorized synthetic vocals.",
+    "AI music-production toolkit for voice conversion and cloning, custom voice design and blending, generative vocals, vocal separation and repair, mastering and other audio workflows for singers and producers.",
+    "For musicians and producers who want to create, transform or clean vocal tracks and experiment with synthetic singing voices within an audio-production workflow.",
     "Free tier / Paid",
-    "https://www.kits.ai/"
+    "https://www.kits.ai/tools"
   ],
   [
     "Kittl",
@@ -2146,18 +2106,18 @@
   [
     "Klap",
     "Video",
-    "AI video repurposing tool that turns long videos into short social clips.",
-    "For creators extracting highlight reels and vertical clips from longer recordings.",
-    "Free tier / Paid",
+    "AI video repurposing tool that analyzes long videos to identify engaging moments, reframes speakers for vertical formats, adds animated captions and turns recordings into short clips for social platforms. It also supports publishing and, through its Claude connector, short-form video workflows from an AI conversation.",
+    "For podcasters, educators, marketers and creators who need to turn spoken long-form videos into editable vertical clips without manually reviewing the entire recording.",
+    "Free preview / Paid exports",
     "https://klap.app/"
   ],
   [
     "Klaviyo AI",
     "Ecommerce",
-    "AI features across Klaviyo for ecommerce marketing, segmentation, content and customer engagement.",
-    "For ecommerce brands using customer data to automate personalized marketing.",
-    "Paid",
-    "https://www.klaviyo.com/ai"
+    "K:AI is the intelligence layer built into Klaviyo's B2C CRM. It includes Composer for analyzing customer and campaign data and creating marketing campaigns, Customer Agent for personalized customer support, and AI-powered segmentation, personalization and predictive analytics across email, SMS and other channels.",
+    "For ecommerce and consumer brands already using Klaviyo that want AI-driven campaign planning, personalization and customer support grounded in their own customer and commerce data; K:AI is embedded in Klaviyo, not a standalone chatbot.",
+    "Klaviyo platform plans",
+    "https://www.klaviyo.com/solutions/ai/what-is-kai"
   ],
   [
     "Kling AI",
@@ -2170,33 +2130,33 @@
   [
     "Knowt",
     "Education",
-    "Study platform with AI tools for notes, flashcards, practice questions and learning workflows.",
-    "For students who want a Quizlet-style study system with AI-assisted content generation.",
-    "Free tier / Paid",
+    "AI-supported study platform with Kai for turning notes, PDFs, slides, images, videos and recordings into study notes, flashcards, practice tests and podcasts. It also offers shared study materials, spaced repetition, learning modes and exam-preparation workflows.",
+    "For students and teachers who want to convert class materials into study resources and practice them in one platform; some AI summarization features have usage limits on the free plan.",
+    "Free tier / Paid AI limits",
     "https://knowt.com/"
   ],
   [
     "Koala AI",
     "SEO & marketing",
-    "AI writing platform aimed at long-form content and search-focused publishing.",
-    "For publishers producing structured articles and marketing content efficiently.",
-    "Paid",
-    "https://koala.sh/"
+    "AI SEO and content platform spanning KoalaWriter, KoalaChat, KoalaImages, KoalaLinks and KoalaMagnets, plus Brand DNA and an SEO agent that can use Search Console and analytics data to plan, write and publish content. It combines keyword research, SERP analysis, competitor insights and AI-assisted content workflows.",
+    "For publishers, affiliate sites and content teams who want keyword research, topical planning, article production and SEO publishing workflows in one connected subscription.",
+    "Paid plans",
+    "https://koala.sh/features"
   ],
   [
     "Kommunicate",
     "Customer support",
-    "Customer-service automation platform for chatbots, support workflows and AI assistants.",
-    "For teams adding automated chat support across websites and messaging channels.",
-    "Free tier / Paid",
-    "https://www.kommunicate.io/"
+    "Customer-support automation platform with Kompose, a no-code generative-AI agent builder that can use websites, files, help centers and connected knowledge bases. It supports omnichannel messaging across websites, mobile apps and channels such as WhatsApp, with configurable conversation flows and handoff to human agents; teams can also integrate external AI providers.",
+    "For businesses that want to build AI-assisted support agents from their own knowledge and route unresolved conversations to human teams across web, mobile and messaging channels.",
+    "Free trial / Paid",
+    "https://www.kommunicate.io/product/kompose-bot-builder"
   ],
   [
     "Krea",
     "Images & design",
-    "Creative suite for image, video, 3D, real-time generation and enhancement.",
-    "For fast visual experimentation across several media types in one workspace.",
-    "Free tier / Paid",
+    "Multi-model creative AI suite for generating and editing images, videos and 3D assets, with a real-time canvas, image and video generation, upscaling, LoRA training, lip-sync and a broad catalog of selectable models and styles.",
+    "For designers, artists and creative teams who want one workspace for real-time visual experimentation, image enhancement and multi-model image, video and 3D generation.",
+    "Free tier / Paid credits",
     "https://www.krea.ai/"
   ],
   [
@@ -2210,25 +2170,25 @@
   [
     "LALAL.AI",
     "Music",
-    "AI stem separation and audio cleanup service for music and voice tracks.",
-    "For musicians and editors isolating vocals, instruments or noise from mixed audio.",
+    "AI audio and video processing suite that separates mixed recordings into stems such as vocals, instrumental, drums, bass and other instruments, and includes vocal removal, voice cleaning, voice changing, voice cloning, echo/reverb removal and desktop, mobile and DAW-plugin workflows.",
+    "For musicians, producers, editors and podcasters who need to isolate instruments or vocals, clean recordings and prepare audio or video tracks for further production.",
     "Free tier / Paid",
     "https://www.lalal.ai/"
   ],
   [
     "LanceDB",
     "Vector databases",
-    "Open-source multimodal database designed for AI search, retrieval and agent memory.",
-    "For teams that want embedded or server-based vector search around local or cloud data.",
-    "Open source",
+    "Open-source embedded retrieval library and multimodal vector database built on the Lance columnar format. It stores and searches vectors, metadata and multimodal data with vector similarity, full-text and SQL search, versioning and SDKs for Python, TypeScript/JavaScript and Rust; managed cloud and enterprise options are also available.",
+    "For AI developers building RAG, semantic search and multimodal retrieval who need a local embedded database or a production cloud service without operating a traditional vector-database cluster.",
+    "Open source / Cloud enterprise",
     "https://lancedb.com/"
   ],
   [
     "Landbot",
     "Customer support",
-    "No-code conversational platform for chatbots, lead flows and automated messaging experiences.",
-    "For teams building guided customer conversations without a full custom application.",
-    "Free tier / Paid",
+    "No-code conversational platform for building rule-based chatbots and AI agents in the same visual flow builder. AI Copilot can create workflows from prompts, while agents use configured knowledge and business rules for lead qualification, booking and customer support across websites, WhatsApp, Messenger and APIchat.",
+    "For marketing, sales and support teams that want to build guided chat experiences and AI agents visually, combining predictable workflow steps with open-ended answers and human handoff.",
+    "Paid plans",
     "https://landbot.io/"
   ],
   [
@@ -2242,24 +2202,24 @@
   [
     "Langflow",
     "Visual AI builder",
-    "Open-source visual builder for AI agents, RAG pipelines and model workflows.",
-    "For assembling and testing AI workflows through a node-based interface.",
+    "Open-source, Python-based visual framework for prototyping and deploying AI applications. Its drag-and-drop editor connects models, prompts, data sources, vector stores, agents, tools and MCP servers into runnable flows for chatbots, document analysis, retrieval and agentic applications.",
+    "For developers and technical teams who want to visually assemble, inspect and test AI workflows while retaining the ability to customize them in Python and deploy them as applications.",
     "Open source",
     "https://www.langflow.org/"
   ],
   [
     "Langfuse",
     "AI observability",
-    "Open-source platform for LLM tracing, prompt management, evaluation and analytics.",
-    "For teams that want inspectable model traces and evaluation data with a self-hosting option.",
-    "Open source",
+    "Open-source AI engineering platform for tracing LLM and agent requests, managing and versioning prompts, evaluating outputs, running datasets and experiments, collecting human feedback and monitoring cost, latency and quality. Its core is MIT-licensed and can be self-hosted; Langfuse Cloud is also available.",
+    "For AI engineering teams that need to debug model and agent behavior, test prompt or model changes and monitor production quality using trace data; Langfuse observes and evaluates applications rather than hosting or orchestrating the agents themselves.",
+    "Open source / Cloud free tier",
     "https://langfuse.com/"
   ],
   [
     "LangGraph",
     "AI development",
-    "Open-source framework for building controllable stateful agents and agent workflows.",
-    "For developers who need explicit orchestration around long-running or multi-step agents.",
+    "Open-source low-level orchestration framework for building stateful, long-running AI agents and multi-step workflows. It provides durable execution, persistence and checkpointing, streaming, memory and human-in-the-loop control for applications that combine deterministic steps with agent behavior.",
+    "For developers who need explicit control over agent state, execution, retries and human approval in production workflows, rather than a no-code chatbot builder or hosted observability dashboard.",
     "Open source",
     "https://www.langchain.com/langgraph"
   ],
@@ -2274,65 +2234,65 @@
   [
     "LangSmith",
     "AI observability",
-    "LangChain platform for tracing, evaluation, testing and monitoring LLM applications and agents.",
-    "For teams building complex LLM workflows that need debugging and quality checks.",
-    "Free tier / Paid",
-    "https://www.langchain.com/langsmith"
+    "Framework-agnostic developer platform for tracing and debugging LLM applications and agents, monitoring cost, latency and behavior, running offline and online evaluations, managing datasets and feedback, and testing changes in CI/CD. It supports multiple agent frameworks and offers managed cloud, BYOC and self-hosted deployment options.",
+    "For teams building LLM applications that need a continuous development and production-quality loop for debugging, evaluation and monitoring; it complements orchestration frameworks such as LangGraph rather than replacing them.",
+    "Free tier / Paid / Self-hosted",
+    "https://www.langchain.com/langsmith/observability"
   ],
   [
     "LanguageTool",
     "Writing",
-    "Multilingual grammar, style and spelling assistant with AI-powered rewriting.",
-    "For polishing writing across multiple languages in browsers, editors and documents.",
-    "Free tier / Paid",
+    "Multilingual AI writing assistant that checks grammar, spelling, punctuation and style, and rewrites sentences with tone options such as formal, fluent, simple and concise. It works across browsers, email clients, office editors and desktop apps; its core proofreading engine is also available as open-source software.",
+    "For people and teams who write across languages and want proofreading and contextual rewriting inside the apps they already use; advanced checks and unlimited paraphrasing require Premium.",
+    "Free tier / Premium",
     "https://languagetool.org/"
   ],
   [
     "Later AI",
     "Social media",
-    "AI-assisted caption and content creation features inside Later's social workflow.",
-    "For creators and brands planning and publishing visual social content.",
-    "Free tier / Paid",
+    "AI features built into Later's social media management platform, including Caption Writer for generating or rephrasing post captions and Ideas for creating brand content pillars and post concepts. The current help documentation labels these features beta and limits them to eligible paid plans; Caption Writer is currently English-only.",
+    "For social media managers who already plan and publish through Later and want AI-assisted caption drafting and content ideation without moving to a separate tool; this is an embedded feature set, not a standalone AI product.",
+    "Included in eligible paid Later plans",
     "https://later.com/ai/"
   ],
   [
     "Lavender",
     "Sales",
-    "AI email coach for sales outreach, message improvement and personalization.",
-    "For sales reps who want feedback while writing outbound emails.",
+    "Sales-email intelligence platform combining an AI Email Coach that scores and improves outbound messages, an AI writer and personalization assistant, recipient context, team coaching analytics and Ora, Lavender's AI Sales Agent for prospecting and drafting sales emails.",
+    "For SDRs, account executives and sales teams who want evidence-informed coaching while writing personalized outbound emails, plus an agent that can help prepare prospecting and outreach workflows.",
     "Free tier / Paid",
     "https://www.lavender.ai/"
   ],
   [
     "LegalOn",
     "Legal",
-    "AI contract review and legal workflow platform for checking agreements against playbooks and legal standards.",
-    "For legal teams accelerating contract review while preserving structured review rules.",
-    "Paid",
+    "Agentic AI platform for in-house legal teams covering contract review and redlining, attorney-built and custom playbooks, legal Q&A and drafting, matter intake and triage, contract repository intelligence and specialized agents for recurring legal work. It works in the browser and Microsoft Word and returns structured work for attorney review.",
+    "For in-house legal and contracting teams that need to review agreements against their own negotiation standards, triage requests and search contract knowledge faster; LegalOn states its AI does not replace attorneys, who retain validation and final judgment.",
+    "Paid / Enterprise",
     "https://www.legalontech.com/"
   ],
   [
     "lemlist",
     "Sales",
-    "AI-assisted sales engagement platform for personalized multichannel outreach.",
-    "For sales teams that need outbound personalization across email and other channels.",
-    "Paid",
+    "Multichannel sales engagement platform combining lead discovery and verified contact enrichment, intent signals, personalized email and follow-up generation, automated campaigns across email, LinkedIn, calls, WhatsApp and SMS, deliverability monitoring and lemAgent. lemAgent is lemlist's conversational AI layer for prospecting, campaign creation and performance analysis; it was previously called AI Copilot.",
+    "For sales teams and agencies running outbound campaigns who need prospect data, context-aware personalization, multichannel sequencing and deliverability workflows in one system.",
+    "Paid plans",
     "https://www.lemlist.com/"
   ],
   [
     "Leonardo AI",
     "Images",
-    "Image generation and creative production tools for assets, concepts and design work.",
-    "For producing visual variations and creative assets with both free and paid workflows.",
-    "Free tier / Paid",
+    "Multi-model generative creative platform for text-to-image and image-to-image creation, prompt-guided image editing, background and object removal, upscaling, image guidance and text/image-to-video generation and editing. Users can choose among Leonardo and third-party image and video models in one workspace.",
+    "For designers, marketers, game artists and creators who need model choice and iterative control across image generation, editing, enhancement and short-form video creation.",
+    "Free tier / Paid tokens",
     "https://leonardo.ai/"
   ],
   [
     "Let's Enhance",
     "Image editing",
-    "AI image upscaling and enhancement platform for higher-resolution visual assets.",
-    "For photographers and ecommerce teams improving image quality for larger outputs.",
-    "Free tier / Paid",
+    "AI image enhancement and restoration platform that improves image quality, sharpness and color, removes visual damage and upscales images for print and web. It also offers AI image generation, background removal, batch processing and large-format exports.",
+    "For photographers, ecommerce teams, designers and print workflows that need to recover detail from low-resolution images or prepare visual assets for larger outputs.",
+    "Free credits / Paid",
     "https://letsenhance.io/"
   ],
   [
@@ -2346,8 +2306,8 @@
   [
     "Lex",
     "Writing",
-    "AI-powered writing workspace for drafting, revising and collaborating on documents.",
-    "For focused long-form writing with lightweight AI assistance inside the editor.",
+    "AI-first document editor with chat against a chosen model, line-level writing checks, style guides that adapt drafts to a user's voice, persistent knowledge bases, reusable prompts and prompt libraries. It also includes document version history, rewind and collaboration features.",
+    "For writers, founders and knowledge workers who want a focused long-form editor with reusable context and AI feedback integrated into the document rather than a general-purpose chatbot.",
     "Free tier / Paid",
     "https://lex.page/"
   ],
@@ -2362,25 +2322,25 @@
   [
     "LibreChat",
     "Local AI UI",
-    "Open-source multi-provider AI chat interface with self-hosting support.",
-    "For users and teams that want one self-hosted interface across multiple model providers and local backends.",
+    "Open-source, self-hostable AI conversation platform that brings multiple providers and custom OpenAI-compatible endpoints into one interface. Beyond chat it supports advanced agents, file handling, code interpreter, API actions, artifacts, MCP tools, web search, conversation and file search, persistent memory and enterprise authentication.",
+    "For individuals, developers and organizations that want a customizable, provider-agnostic AI workspace they can run on their own infrastructure and connect to hosted or local model backends.",
     "Open source",
     "https://www.librechat.ai/"
   ],
   [
     "Lightning AI",
     "AI infrastructure",
-    "Cloud development platform for training, fine-tuning and serving AI workloads.",
-    "For teams that want notebooks, compute and deployment in one managed environment.",
-    "Free tier / Paid",
+    "End-to-end AI development and compute platform with persistent collaborative GPU Studios, notebooks, isolated sandboxes, coding agents, model training and fine-tuning, inference endpoints, pipelines, batch jobs and a GPU marketplace. The platform now combines Lightning's development tools with owned GPU infrastructure following its 2026 combination with Voltage Park.",
+    "For AI developers, researchers and teams that need a connected environment to build, train, evaluate and deploy models or agents without assembling separate notebook, compute and hosting services.",
+    "Free tier / Paid compute",
     "https://lightning.ai/"
   ],
   [
     "Lily AI",
     "Ecommerce",
-    "AI product-attribute and customer-intent platform for retail merchandising and discovery.",
-    "For retailers improving how products are described, matched and discovered by shoppers.",
-    "Paid",
+    "Lily Max is an agentic product-intelligence platform for retail catalogs. Its agents enrich product attributes and descriptions in shopper language, identify gaps in product data, and run controlled experiments to improve product discovery and performance across Google Ads, Meta, onsite search and emerging AI shopping assistants.",
+    "For retailers and consumer brands that need product catalogs to be understandable to search engines, advertising systems and AI shopping agents, and want to measure the effect of catalog enrichment on commerce outcomes.",
+    "Enterprise / Contact sales",
     "https://www.lily.ai/"
   ],
   [
@@ -2392,18 +2352,10 @@
     "https://www.lindy.ai/"
   ],
   [
-    "Litmaps",
-    "Research",
-    "Literature discovery and citation mapping workspace for academic research.",
-    "For building living maps of papers and monitoring how a research topic evolves.",
-    "Free tier / Paid",
-    "https://www.litmaps.com/"
-  ],
-  [
     "llama.cpp",
     "Local models",
-    "Open-source inference runtime for running Llama-family and other compatible models locally.",
-    "For developers who want efficient local model execution across desktops, servers and edge hardware.",
+    "Open-source C/C++ inference engine for running compatible large language and vision-language models locally or in the cloud with minimal dependencies. It supports GGUF models, low-bit quantization, CPU and GPU backends, Apple Silicon, CUDA, HIP, Vulkan and hybrid CPU/GPU inference, plus CLI tools and an OpenAI-compatible HTTP server.",
+    "For developers who need efficient, controllable model inference on desktops, servers and edge hardware, including systems that cannot fit a model entirely in GPU memory.",
     "Open source",
     "https://github.com/ggml-org/llama.cpp"
   ],
@@ -2418,9 +2370,9 @@
   [
     "LM Studio",
     "Local models",
-    "Desktop app to download and run local language models.",
-    "For chatting with local models through an easy graphical interface.",
-    "Free",
+    "Desktop and developer environment for downloading and running local language models on macOS, Windows and Linux, chatting with them offline, connecting MCP servers and serving models through local REST and OpenAI-compatible APIs. Its developer stack includes Python and TypeScript SDKs, a CLI and llmster for headless server and CI deployments; optional Bionic cloud inference is available alongside local models.",
+    "For individuals and developers who want to experiment with local models through a graphical app and then expose the same models to local applications, agents or server workloads through an API.",
+    "Free local app / Optional paid cloud inference",
     "https://lmstudio.ai/"
   ],
   [
@@ -2442,34 +2394,34 @@
   [
     "Lokalise AI",
     "Translation",
-    "AI translation and localization features inside the Lokalise platform.",
-    "For product teams localizing apps, websites and software content across languages.",
-    "Paid",
+    "AI localization capabilities embedded in Lokalise's translation-management platform: context-aware bulk translation, AI suggestions, localization quality assurance and scoring, custom AI profiles grounded in translation memories and glossaries, and smart routing across multiple model families. AI workflows and agents can automate localization tasks, while an MCP server exposes capabilities to external assistants.",
+    "For product and localization teams translating apps, websites, software and marketing content at scale while preserving approved terminology, brand voice and human review controls; Lokalise AI is part of the Lokalise platform, not a separate translation chatbot.",
+    "Paid Lokalise plans",
     "https://lokalise.com/ai/"
   ],
   [
     "Loudly",
     "Music",
-    "AI music generation and creator platform for producing customizable tracks and sound ideas.",
-    "For video creators and marketers who need fast music variations for content.",
-    "Free tier / Paid",
+    "AI music creation and audio production platform with selectable proprietary and partner models for text-to-music, instrumental and vocal track generation, remixing, stem separation, AI mastering, SongDNA analysis, distribution and API-based audio infrastructure. Loudly says its own models are rights-cleared by design and partner models are integrated under commercial agreements.",
+    "For musicians, producers, video creators and platforms that need original music, remix and stem workflows or music-generation APIs in one production system; check the license attached to the plan and model before commercial release.",
+    "Free generation / Paid license and plans",
     "https://www.loudly.com/"
   ],
   [
     "Lovable",
     "Web apps",
-    "Build web app prototypes with AI and natural language.",
-    "For turning a product idea into a working web app starting point.",
-    "Free tier / Paid",
-    "https://lovable.dev/"
+    "AI software builder that turns natural-language instructions into working web applications with screens, frontend logic, databases, authentication, integrations, hosting and security scanning. Users can refine the generated project through chat or edit the underlying code directly, then publish it from the same workspace.",
+    "For founders, product teams and developers who want to turn an idea into a deployed web app or internal tool quickly, while retaining access to the generated code and backend.",
+    "Free tier / Paid credits",
+    "https://lovable.dev/build/app-builder"
   ],
   [
     "LOVO",
     "Voice & audio",
-    "AI voiceover and speech generation platform with editing and localization tools.",
-    "For creators producing narration and character voices across languages.",
-    "Free tier / Paid",
-    "https://lovo.ai/"
+    "Genny by LOVO is an AI content and video-production workspace combining expressive text-to-speech voices, voice cloning, AI scriptwriting, image and sound generation, automatic subtitles and a timeline-based video editor. LOVO Studio is the older standalone TTS product; Genny is the current all-in-one platform.",
+    "For educators, marketers, creators and production teams making narrated videos, training content and multilingual voiceovers who want voice generation and editing in one browser workspace.",
+    "Free trial / Paid plans and credits",
+    "https://lovo.ai/genny"
   ],
   [
     "LTX Studio",
@@ -2490,34 +2442,34 @@
   [
     "Luminance",
     "Legal",
-    "AI legal platform for contract generation, review, negotiation and due-diligence workflows.",
-    "For legal teams working with large volumes of contracts and transaction documents.",
-    "Paid",
-    "https://www.luminance.com/"
+    "Enterprise legal AI and contract-intelligence platform for drafting, reviewing, redlining, negotiating, analyzing and managing agreements. Its Lumi assistant and specialized agents apply organization playbooks, templates and negotiation precedent, surface deviations and risks, generate proposed markups and route exceptions for legal review.",
+    "For in-house legal and contract teams processing large agreement volumes who need AI-assisted review and negotiation grounded in company-approved positions; the platform augments legal professionals rather than replacing their judgment.",
+    "Enterprise / Request demo",
+    "https://www.luminance.com/platform/product"
   ],
   [
     "Maestra",
     "Translation",
-    "AI transcription, subtitle, translation and voiceover platform.",
-    "For teams turning audio and video into multilingual captions and dubbed content.",
-    "Free tier / Paid",
+    "AI media-localization platform for live and on-demand transcription, translation, subtitles, dubbing and voice generation across 125+ languages. It supports speaker-aware transcription, subtitle editing and export, AI voiceovers, voice cloning, lip sync and real-time translation for meetings, streams and events.",
+    "For creators, educators, media teams and businesses that need to turn audio and video into multilingual captions, transcripts and dubbed versions without stitching together separate tools.",
+    "Free tier / Paid plans and credits",
     "https://maestra.ai/"
   ],
   [
     "Mage",
     "Image generation",
-    "Browser-based generative image platform for prompt-driven image creation.",
-    "For users who want a straightforward interface for creating AI artwork online.",
-    "Free tier / Paid",
+    "Browser-based AI creative platform with a broad model library for image generation and editing, plus Mage Agent, which can take a natural-language creation brief and coordinate generation. The current Agent is marked beta and its outputs are delivered through Mage Gems; model availability and generation limits vary by plan.",
+    "For creators who want to experiment with different image models and styles in one interface, and use a prompt-driven agent for multi-step image creation.",
+    "Free tier / Paid credits",
     "https://www.mage.space/"
   ],
   [
     "MagicSchool AI",
     "Education",
-    "AI platform for educators with lesson, planning, communication and classroom-support tools.",
-    "For teachers who want education-specific generators and workflow assistance.",
-    "Free tier / Paid",
-    "https://www.magicschool.ai/"
+    "AI platform for K–12 teachers, students and school districts, with 80+ teacher tools and 50+ student tools for lesson planning, differentiation, worksheets, presentations, quizzes, rubrics, writing feedback, research support and guided tutoring. It routes tasks to multiple language models within classroom-specific safety, moderation and district controls.",
+    "For educators and schools that want teaching and learning workflows designed for classroom use, with teacher oversight and school-level privacy and governance rather than a general-purpose chatbot.",
+    "Free teacher tier / Paid Plus and district plans",
+    "https://www.magicschool.ai/magic-tools"
   ],
   [
     "Magnific",
@@ -2546,89 +2498,73 @@
   [
     "MarketMuse",
     "Marketing",
-    "AI content strategy and optimization platform for planning topical coverage and improving articles.",
-    "For content organizations working on large SEO libraries and editorial planning.",
-    "Paid",
+    "AI content-strategy and optimization platform that analyzes a site's content inventory and search landscape to identify topical authority, competitor gaps and personalized ranking difficulty, then produces content plans, topic clusters, briefs and page-level optimization recommendations. MarketMuse was acquired by Siteimprove in 2024 and remains an active product.",
+    "For SEO teams, publishers and content strategists planning large content libraries who need data-backed decisions about what to create, update and cover more comprehensively.",
+    "Free tier / Paid plans",
     "https://www.marketmuse.com/"
-  ],
-  [
-    "MarsCode",
-    "Coding",
-    "AI coding environment and developer assistant for code generation, chat and project workflows.",
-    "For developers who want AI assistance closely integrated with an online development environment.",
-    "Free tier / Paid",
-    "https://www.marscode.com/"
-  ],
-  [
-    "Masterpiece X",
-    "3D",
-    "Generative 3D creation platform for producing models from prompts and references.",
-    "For creators experimenting with text-to-3D and rapid asset prototyping.",
-    "Free tier / Paid",
-    "https://www.masterpiecex.com/"
   ],
   [
     "Mastra",
     "AI development",
-    "TypeScript framework for building AI agents, workflows, RAG and evaluations.",
-    "For JavaScript teams creating production agent systems with a code-first developer experience.",
-    "Open source",
-    "https://mastra.ai/"
+    "Open-source TypeScript framework for building AI applications and agents, with model routing, agents and tools, stateful workflows, memory, workspaces, RAG storage, evaluations, tracing and a local development Studio. The core framework is Apache-2.0; selected enterprise modules use a separate Mastra Enterprise License.",
+    "For TypeScript teams building production AI agents and applications who want a code-first framework with integrated workflow, memory, evaluation and observability primitives.",
+    "Open source core / Enterprise modules and services",
+    "https://mastra.ai/docs"
   ],
   [
     "Maven AGI",
     "Customer support",
-    "AI customer-support agent platform for resolving questions and assisting service teams.",
-    "For companies building automated customer-service experiences connected to business knowledge.",
-    "Paid",
-    "https://www.mavenagi.com/"
+    "Enterprise AI agent platform for customer experience across chat, email, voice and web. A shared reasoning engine connects enterprise knowledge and systems, retrieves version-aware information and performs actions through APIs; Maven also offers Agent Designer for testing and tuning agents and Agent Assist for human support teams.",
+    "For large support organizations that want AI agents to resolve multi-step customer requests across channels and systems, while integrating with their existing helpdesk, CRM and telephony stack.",
+    "Enterprise / Request demo",
+    "https://www.mavenagi.com/product/agent-platform"
   ],
   [
     "MaxAI.me",
     "Productivity",
-    "Browser AI assistant for reading, writing, search and webpage workflows.",
-    "For knowledge workers who want one assistant layered onto common browser tasks.",
-    "Free tier / Paid",
-    "https://www.maxai.me/"
+    "Browser and web AI assistant that adds multi-model chat and contextual tools to everyday web work. It can summarize and question webpages, YouTube videos and PDFs, analyze images, search the web, translate and rewrite text, draft replies and generate content or images through its browser extension and web app.",
+    "For knowledge workers who want a single assistant available across websites and common browser tasks, while using connected model providers rather than training or hosting its own foundation model.",
+    "Free tier / Paid plans",
+    "https://www.maxai.me/features/browser-ai-assistant/"
   ],
   [
     "MeetGeek",
     "Meetings",
-    "AI meeting recorder and assistant for transcripts, summaries and workflow automation.",
-    "For teams that want automated notes and searchable meeting history.",
-    "Free tier / Paid",
+    "AI meeting assistant and automation platform for online, hybrid and in-person conversations. It offers bot-based recording or bot-free capture through desktop and mobile apps, transcription, summaries, meeting chat, team analytics, workflows and APIs; its Meeting Agent can also act as a voice agent for calls.",
+    "For teams that need searchable meeting records, automatic follow-ups and workflow automation across video meetings, desktop conversations and in-person discussions.",
+    "Free tier / Paid plans",
     "https://meetgeek.ai/"
   ],
   [
     "Mem",
     "Knowledge work",
-    "AI-assisted notes and knowledge workspace for capture, retrieval and synthesis.",
-    "For people who want a searchable personal knowledge base with AI help.",
-    "Free tier / Paid",
-    "https://mem.ai/"
+    "AI knowledge workspace combining notes, meeting capture and Mem Agent. The Agent builds a working picture of tasks, projects and goals from notes and connected sources, surfaces relevant context through Heads Up, answers workspace-wide questions, organizes notes and can run routines and follow-ups. Mem supports voice capture, meeting notes, desktop/mobile/web apps and MCP connections to external AI tools.",
+    "For individuals and teams who want a living, searchable knowledge base that not only stores notes but connects decisions, projects and follow-ups and proactively brings relevant context back when needed.",
+    "Free tier / Paid plans",
+    "https://get.mem.ai/"
   ],
   [
     "Merlin",
     "Productivity",
-    "AI browser assistant for chat, writing, summaries and page-aware tasks.",
-    "For users who want AI help directly inside everyday web browsing.",
+    "AI-powered browser extension and web assistant that brings multi-model chat into webpages and search, with page-aware Q&A, web research, summaries of websites, YouTube videos and documents, rewriting, translation, custom knowledge Projects and prompt-driven diagrams or code snippets.",
+    "For students, researchers, creators and professionals who want to research, understand and transform web content without repeatedly switching between browser tabs and separate AI apps.",
     "Free tier / Paid",
     "https://www.getmerlin.in/"
   ],
   [
     "Meshy",
     "3D",
-    "AI 3D generation platform for creating models, textures and assets from prompts or images.",
-    "For game, design and 3D teams producing draft assets quickly.",
+    "AI 3D creation workspace for generating models from text, images or chat, then texturing, rigging, animating and optimizing assets for games, design and 3D printing. Includes an API and MCP integration.",
+    "For game developers, 3D artists and makers who need to prototype characters, props and printable concepts without building every model manually. Outputs are not CAD-precision engineering parts; free-tier credits and asset licensing differ from paid plans.",
     "Free tier / Paid",
     "https://www.meshy.ai/"
   ],
   [
     "Meta AI",
     "Writing & research",
-    "Meta's general AI assistant for chat, ideas, image generation and connected experiences.",
-    "For everyday assistance inside Meta's consumer AI ecosystem.",
-    "Free",
+    "Meta's consumer AI assistant on meta.ai and supported Meta apps, powered by Muse models. It combines conversational answers and web-backed research with voice interaction, multimodal image understanding, image generation and editing; selected rollouts add task planning and connected-app actions.",
+    "For everyday users and creators who want help with questions, research and visual creation in one assistant integrated into Meta's ecosystem. Features, connected apps and rollout vary by country and surface; the core experience is free, while subscriptions offer higher usage and additional features.",
+    "Free core / Paid subscriptions",
     "https://www.meta.ai/"
   ],
   [
@@ -2642,9 +2578,9 @@
   [
     "Metaview",
     "HR & recruiting",
-    "AI recruiting assistant for interview notes, summaries and hiring-team workflow intelligence.",
-    "For recruiters who want structured interview documentation without manual note taking.",
-    "Paid",
+    "AI recruiting platform that captures and transcribes interviews, creates structured notes, candidate summaries and scorecards, and connects interview intelligence with ATS workflows; its broader agent suite also supports sourcing, application review, screening and reporting.",
+    "For recruiting teams that need consistent interview documentation and faster candidate workflows across calls and ATS records. The Notes plan is free for 25 calls per month per user or $60 per user per month for unlimited calls; other agents have separate limits and pricing. Review AI-generated assessments with human judgment and configure candidate consent, opt-out and retention to meet local rules.",
+    "Free tier / Paid",
     "https://www.metaview.ai/"
   ],
   [
@@ -2674,9 +2610,9 @@
   [
     "Microsoft Security Copilot",
     "Cybersecurity",
-    "Generative AI assistant for security investigation, threat analysis and response.",
-    "For security teams working across Microsoft security products and incident workflows.",
-    "Paid",
+    "Enterprise AI assistant and agent platform for security and IT operations. It uses threat intelligence and connected security data to investigate incidents, triage alerts, hunt threats, analyze suspicious scripts, generate KQL queries and reports, and automate repeatable workflows.",
+    "For SOC analysts and security/IT teams that need to investigate threats and coordinate response across Microsoft and supported partner tools. Standalone access requires Azure and Microsoft Entra ID and uses capacity-based SCU billing: Microsoft lists $4 per provisioned SCU-hour and $6 per overage SCU. Eligible Microsoft 365 E5/E7 tenants receive an included monthly SCU allocation. The interface supports Turkish, but Turkish is not among the currently listed model languages; scope agent permissions carefully and keep analysts in control of consequential actions.",
+    "Included with eligible Microsoft 365 E5/E7 / Paid SCU",
     "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot"
   ],
   [
@@ -2690,26 +2626,18 @@
   [
     "Mindgard",
     "Cybersecurity",
-    "AI red-teaming and security testing platform for models and AI applications.",
-    "For security teams evaluating adversarial weaknesses before production deployment.",
-    "Paid",
+    "Enterprise AI security platform that discovers AI assets and attack surfaces, performs agentic reconnaissance and adaptive red teaming across models, LLM apps, RAG pipelines, agents, MCP/A2A tools and APIs, then validates exploitable weaknesses and supports remediation, runtime protection and continuous assurance.",
+    "For security, product and AI engineering teams that need to test AI-specific risks such as prompt injection, jailbreaks, data leakage, unsafe tool use and agent permission abuse across development and production. Integrates through APIs, CI/CD and Burp Suite, and provides evidence, remediation guidance and retesting. Commercial enterprise product with demo-led sales; no public platform price found. It complements rather than replaces traditional AppSec and runtime guardrails.",
+    "Paid / Contact sales",
     "https://mindgard.ai/"
   ],
   [
     "Mindgrasp",
     "Education",
-    "AI learning assistant for summarizing lectures, documents and videos into study materials.",
-    "For students who want notes, questions and summaries from course content.",
-    "Paid",
+    "AI study platform that turns lectures, PDFs, slides, articles, audio, and videos into structured notes, summaries, flashcards, quizzes, study guides, practice tests, and an AI tutor. Supports live lecture recording, source-linked study sessions, and a Chrome extension.",
+    "For students and self-learners who want to turn their own course materials into a connected study workflow instead of juggling separate summarizers, flashcard makers, and quiz apps. Supports multiple languages (the App Store listing states 35). A free study session/trial is available, but continued feature access requires a subscription; published plans start at $9.99/month or $5.99/month billed annually. Verify AI-generated notes and answers against the original material.",
+    "Free trial / Paid",
     "https://www.mindgrasp.ai/"
-  ],
-  [
-    "MindMac",
-    "AI chat",
-    "Native macOS client for using multiple AI model providers from one application.",
-    "For Mac users who prefer a local desktop interface for model access and prompt workflows.",
-    "Paid",
-    "https://mindmac.app/"
   ],
   [
     "MindsHub",
@@ -2722,34 +2650,26 @@
   [
     "Mixo",
     "Web apps",
-    "AI startup website generator for quickly producing landing pages and validation sites.",
-    "For founders testing an idea before investing in a larger product build.",
+    "AI website builder for small businesses and founders. It generates hosted, responsive business websites from a short description, with editable content, contact forms, enquiry tracking and exports, blog, SEO/GEO features, and third-party integrations.",
+    "For solo operators, small businesses and early-stage founders who need a hosted marketing site to collect enquiries, not a custom web application. Free plan: one page on a Mixo subdomain with branding; paid plans are $9/month Basic (one page), $19 Growth (up to five pages), and $39 Premium (up to 50 pages), with a 20% annual-billing discount. Hosting and SSL are included; custom domains and branding removal require a paid plan. Verify current regional pricing before purchase.",
     "Free tier / Paid",
     "https://www.mixo.io/"
   ],
   [
     "Modal",
     "AI infrastructure",
-    "Python-first cloud runtime for inference, training, batch jobs and GPU workloads.",
-    "For developers who want to ship AI compute without manually managing cloud infrastructure.",
+    "Python-first serverless cloud infrastructure for production AI. Deploy low-latency inference endpoints, run parallel batch jobs and data pipelines, train or fine-tune models on single- or multi-node GPUs, and launch isolated Sandboxes for agents and untrusted code, with autoscaling, storage and observability.",
+    "For Python developers and ML teams that need GPU/CPU compute for inference, training, fine-tuning, parallel jobs and isolated agent sandboxes without managing servers. Starter is $0/month plus usage with $30/month compute credits, up to 3 seats and 10 concurrent GPUs; Team is $250/month plus compute with $100/month credits. CPU, GPU and memory are billed by the second. Important: Shared Endpoints are token-billed from the first request and are not covered by the included compute credits. Costs vary by hardware, region and requested resources; set workspace budgets.",
     "Free tier / Paid",
     "https://modal.com/"
   ],
   [
     "Moises",
     "Music",
-    "AI music practice and production platform for stem separation, chords and tempo tools.",
-    "For musicians isolating parts, practicing songs and preparing rehearsal tracks.",
+    "AI music practice and production suite that separates vocals and instruments into stems, detects chords, key and BPM, transcribes lyrics, changes pitch and tempo, and provides a smart metronome, looping, setlists, recording, stem generation and collaborative browser-based multitrack/MIDI sessions.",
+    "For musicians, singers, producers and educators who want to practice, analyze or build on their own recordings rather than generate a finished song from text. The free tier has limited monthly uploads and basic vocal/drum/bass separation; Premium expands stem options and practice tools, while Pro adds Hi-Fi separation, detailed drum/multimedia stems, long uploads, Voice Studio and VST access. The Turkish App Store lists Premium at ₺99.99/month or ₺699.99/year and Pro at ₺499.99/month or ₺4,999.99/year; store and offer prices can vary. AI Studio generation uses credits in 30-second blocks. Only upload or modify music you have rights to use; a streaming subscription does not grant stem-extraction rights.",
     "Free tier / Paid",
     "https://moises.ai/"
-  ],
-  [
-    "Mokker AI",
-    "Image editing",
-    "AI product photography tool for generating styled backgrounds from product images.",
-    "For ecommerce brands that need many product scene variations without repeated photo shoots.",
-    "Free tier / Paid",
-    "https://mokker.ai/"
   ],
   [
     "monday AI",
@@ -2770,16 +2690,16 @@
   [
     "Motion",
     "Productivity",
-    "AI work-management app for scheduling tasks, projects and calendar time automatically.",
-    "For people who want priorities converted into a dynamic daily schedule.",
-    "Paid",
+    "AI work-management platform combining task and project management, calendar auto-scheduling, meeting booking and note-taking, docs/wiki, dashboards and workflow automation. It prioritizes tasks against deadlines, dependencies, durations and available time, then continuously replans as work changes.",
+    "For individuals and teams who want tasks and projects automatically translated into a realistic daily schedule instead of manually managing to-do lists. Pro AI is displayed at $19/seat/month with 7,500 credits per seat/month; Business AI at $29/seat/month with 15,000 credits, plus capacity planning, advanced dashboards, Gantt charts, time tracking and access controls. The pricing page offers monthly or annual billing (advertising 33% annual savings) and lists additional credits at $0.25 or $0.19 per 100, depending on plan. A free trial is offered, not a permanent free plan. Confirm billing cycle and AI-credit usage before subscribing.",
+    "Free trial / Paid",
     "https://www.usemotion.com/"
   ],
   [
     "Mubert",
     "Music",
-    "AI music generation platform for creator soundtracks and developer music integrations.",
-    "For generating background music for videos, apps and digital experiences.",
+    "AI music platform for prompt/chat- and image-to-music soundtrack generation, with track remixing and editing, stem control, a transcript-based podcast editor, short-video music/voice/SFX/subtitle tools, and a music-generation and streaming API for apps and games.",
+    "For video creators, podcasters, streamers and developers who need soundtracks or licensed music workflows. Render's free Ambassador plan offers 25 tracks/month and 5 downloads with attribution and non-commercial restrictions; Creator is $14/month or $11.69/month billed annually (non-commercial), Pro is $39/month or $32.49/month annually (commercial use, monetized content and full Track Editor), and Business is $199/month or $149.29/month annually (client/agency/app use and sublicensing). API plans are separate. Generated tracks cannot be redistributed as standalone music, uploaded to Spotify or registered in Content ID; check the license for your specific channel or project before use.",
     "Free tier / Paid",
     "https://mubert.com/"
   ],
@@ -2801,10 +2721,10 @@
   ],
   [
     "Mutiny",
-    "SEO & marketing",
-    "AI-assisted website personalization platform for B2B marketing and conversion workflows.",
-    "For growth teams tailoring site experiences to different accounts and audience segments.",
-    "Paid",
+    "Sales",
+    "Agentic go-to-market assistant for B2B sales and marketing teams. It captures meeting notes, prepares account-specific meeting briefs, drafts follow-ups in a rep's voice, and generates on-brand customer-facing assets—deal rooms, business cases, pitch decks, pricing proposals, competitive comparisons and 1:1 ABM pages—while automating recurring workflows.",
+    "For AEs, BDRs, sales leaders, CSMs and ABM marketers who need account-specific content and follow-up without waiting on design or marketing. Free plan: up to 5 team members and 5 daily credits (up to 30/month) per seat. Business: $50/month with 50 credits/month, unlimited team members, custom subdomain and expanded routines/projects; Enterprise starts at $40,000/year with SSO, custom limits and implementation support. Mutiny retired its earlier website-personalization/visitor A/B-testing product in April 2026; current Mutiny generates deal-specific assets and automates sales workflows rather than changing variants on an existing website. Meeting, email and CRM integrations require scoped access; generated outputs are drafts for review.",
+    "Free tier / Paid",
     "https://www.mutinyhq.com/"
   ],
   [
@@ -4376,6 +4296,14 @@
     "https://www.topazlabs.com/topaz-video"
   ],
   [
+    "TRAE",
+    "Coding",
+    "Cross-platform AI development workspace that unifies the former TraeCode and TraeWork products, with an IDE mode for project editing, code completion, explanation and debugging, and an Agent mode for planning and executing multi-step tasks across projects. TRAE is the successor brand for the MarsCode coding assistant; its plans combine model access, token-based usage and cloud-task limits.",
+    "For software developers and teams who want AI-assisted IDE work and autonomous task execution in one product, with the ability to switch between deep project editing and broader agent workflows.",
+    "Free allowance / Paid plans and usage",
+    "https://www.trae.ai/"
+  ],
+  [
     "Tray.ai",
     "Automation",
     "Enterprise integration and automation platform for building connected workflows and AI-enabled processes.",
@@ -4742,6 +4670,14 @@
     "For small and midsize teams that want AI inside an established applicant-tracking system.",
     "Paid",
     "https://www.workable.com/workable-ai"
+  ],
+  [
+    "WorldEngen",
+    "3D",
+    "AI copilot and editor for 3D production that brings concept art, style guides, greyboxes, assets and scenes into one workspace. Its agents can help create concept art, image kits, greyboxes, videos, 3D models and style guides, and connect with Blender, Unity and Unreal workflows. WorldEngen is the current product from Masterpiece X; the former 3D Web Generator and VR apps are now marked legacy.",
+    "For game, film, simulation and 3D studios that want AI agents to accelerate environment and scene production while artists retain direction and continue working in their established 3D tools.",
+    "7-day free trial / Paid credits",
+    "https://masterpiecex.com/"
   ],
   [
     "Wren AI",

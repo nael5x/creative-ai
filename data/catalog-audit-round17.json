@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-17",
+  "reviewedAt": "2026-10-31",
+  "scope": "Review of the next 15 alphabetically pending active catalog entries, eesel AI through Flair AI. All 15 accepted after first-party checks; no removals, supersessions or status-watch changes.",
+  "accepted": [
+    {
+      "name": "eesel AI",
+      "category": "Customer support",
+      "description": "AI customer-support workspace with autonomous helpdesk agents, human-review copilot, ticket triage, website chatbot and internal knowledge agent, grounded in connected helpdesks, Slack and company knowledge.",
+      "userValue": "For support teams that want to automate routine tickets and assist human agents using existing helpdesk content and workflows, with review and escalation controls.",
+      "availability": "Free trial / Paid",
+      "url": "https://www.eesel.ai/",
+      "evidenceUrls": [
+        "https://www.eesel.ai/",
+        "https://docs.eesel.ai/"
+      ]
+    },
+    {
+      "name": "Eightfold AI",
+      "category": "HR & recruiting",
+      "description": "Agentic talent-intelligence platform that models skills, experience, aspirations and work context to support talent acquisition, internal mobility, workforce planning, talent management and AI-powered recruiting agents.",
+      "userValue": "For enterprise HR and talent teams that need skills-based hiring and workforce decisions across recruiting, development and planning rather than résumé keyword matching alone.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://eightfold.ai/products/",
+      "evidenceUrls": [
+        "https://eightfold.ai/products/",
+        "https://eightfold.ai/"
+      ]
+    },
+    {
+      "name": "Elai.io",
+      "category": "Video",
+      "description": "AI text-to-video platform for creating presenter-led training and explainer videos from scripts, documents and presentations, with customizable avatars, voice cloning, multilingual narration and interactive learning elements.",
+      "userValue": "For organizations that need to produce and localize training or instructional videos without filming every presenter-led lesson.",
+      "availability": "Free tier / Paid",
+      "url": "https://elai.io/",
+      "evidenceUrls": [
+        "https://elai.io/",
+        "https://elai.io/pricing",
+        "https://www.panopto.com/news/panopto-acquisition-of-elai/"
+      ]
+    },
+    {
+      "name": "Elephas",
+      "category": "Productivity",
+      "description": "Private AI knowledge workspace for Mac with local document indexing, chat over PDFs and notes, cited answers, web search and agents; supports offline/on-device operation, optional cloud models and iPhone/iPad access.",
+      "userValue": "For Mac users who want an assistant grounded in personal files and notes while keeping indexing local and choosing where AI processing happens.",
+      "availability": "Free tier / Paid",
+      "url": "https://elephas.app/",
+      "evidenceUrls": [
+        "https://elephas.app/",
+        "https://elephas.app/pricing",
+        "https://elephas.app/support/"
+      ]
+    },
+    {
+      "name": "EvenUp",
+      "category": "Legal",
+      "description": "AI platform for plaintiff personal-injury law firms that organizes medical records, builds treatment timelines and damages summaries, and drafts evidence-grounded settlement demand packages with legal and medical review workflows.",
+      "userValue": "For personal-injury firms handling high volumes of medical records and demand preparation; attorneys remain responsible for verifying evidence and legal conclusions.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://www.evenuplaw.com/",
+      "evidenceUrls": [
+        "https://www.evenuplaw.com/",
+        "https://www.evenuplaw.com/products/demands/"
+      ]
+    },
+    {
+      "name": "Exa",
+      "category": "Research",
+      "description": "Neural web-search and retrieval API for AI applications, with semantic and keyword search, page contents, structured results, crawling and research workflows designed for agents and RAG systems.",
+      "userValue": "For developers building research agents and AI applications that need relevant web sources and clean page content rather than relying only on conventional keyword search.",
+      "availability": "Free credits / Paid usage",
+      "url": "https://exa.ai/",
+      "evidenceUrls": [
+        "https://exa.ai/",
+        "https://docs.exa.ai/"
+      ]
+    },
+    {
+      "name": "Explainpaper",
+      "category": "Research",
+      "description": "AI research-paper reader that explains highlighted passages in context, answers follow-up questions grounded in the uploaded paper, cites relevant sections and generates outlines, key findings and summaries.",
+      "userValue": "For students and researchers who need help understanding dense papers while keeping explanations tied to the source document and its exact sections.",
+      "availability": "Free tier / Pro",
+      "url": "https://www.explainpaper.com/",
+      "evidenceUrls": [
+        "https://www.explainpaper.com/"
+      ]
+    },
+    {
+      "name": "fal",
+      "category": "AI infrastructure",
+      "description": "Inference platform for generative media and world models, providing hosted APIs for image, video, audio and 3D models plus autoscaling serverless GPUs for deploying custom models and pipelines.",
+      "userValue": "For developers and creative platforms that need production inference for generative-media models without provisioning and operating GPU infrastructure themselves.",
+      "availability": "Pay as you go / Enterprise",
+      "url": "https://fal.ai/inference",
+      "evidenceUrls": [
+        "https://fal.ai/inference",
+        "https://fal.ai/serverless",
+        "https://docs.fal.ai/"
+      ]
+    },
+    {
+      "name": "FeedHive",
+      "category": "Social media",
+      "description": "AI social-media workspace for generating on-brand captions and visuals, planning and scheduling posts, automating publishing conditions, collaborating with teams and connecting external AI agents through API and MCP.",
+      "userValue": "For creators, brands and agencies that want AI-assisted content creation and controlled cross-channel publishing in one workflow.",
+      "availability": "7-day trial / Paid",
+      "url": "https://www.feedhive.com/",
+      "evidenceUrls": [
+        "https://www.feedhive.com/",
+        "https://www.feedhive.com/features/ai",
+        "https://www.feedhive.com/pricing"
+      ]
+    },
+    {
+      "name": "Felo",
+      "category": "Research",
+      "description": "Multilingual AI search and creation platform that combines cited web research with deep-research agents, AI slides and PowerPoint, mind maps, document and webpage creation, and image/video tools.",
+      "userValue": "For users who want to move from multilingual research and source discovery to structured reports, presentations and other deliverables in one workspace.",
+      "availability": "Free tier / Paid",
+      "url": "https://felo.ai/en",
+      "evidenceUrls": [
+        "https://felo.ai/en",
+        "https://felo.ai/en/version",
+        "https://felo.ai/tools"
+      ]
+    },
+    {
+      "name": "Filmora AI",
+      "category": "Video",
+      "description": "AI feature suite inside Wondershare Filmora, including text-to-video and image-to-video, AI portrait and cutout, smart scene and audio tools, speech-to-text, text-based editing and generative editing workflows.",
+      "userValue": "For video editors who want AI-assisted generation, cleanup and editing inside a familiar timeline editor rather than a separate generation-only app. This is a Filmora capability suite.",
+      "availability": "Free trial / Paid Filmora plans",
+      "url": "https://filmora.wondershare.com/ai-features.html",
+      "evidenceUrls": [
+        "https://filmora.wondershare.com/ai-features.html",
+        "https://filmora.wondershare.com/"
+      ]
+    },
+    {
+      "name": "Findem",
+      "category": "HR & recruiting",
+      "description": "AI people-intelligence platform that builds a contextual graph of skills, career signals and relationships to power talent sourcing, executive search, candidate engagement, workforce planning and agentic people workflows.",
+      "userValue": "For recruiting and HR teams that need evidence-rich talent discovery and workforce insight beyond static résumés and keyword filters.",
+      "availability": "Enterprise / Request demo",
+      "url": "https://www.findem.ai/platform",
+      "evidenceUrls": [
+        "https://www.findem.ai/platform",
+        "https://www.findem.ai/"
+      ]
+    },
+    {
+      "name": "Firecrawl",
+      "category": "Data extraction",
+      "description": "Web data API and open-source toolkit for crawling, scraping, mapping and searching websites into clean Markdown or structured data for LLMs and agents, with extraction schemas, browser rendering and MCP integration.",
+      "userValue": "For developers building RAG, research agents and data pipelines that need reliable, structured web content from live sites.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.firecrawl.dev/",
+      "evidenceUrls": [
+        "https://www.firecrawl.dev/",
+        "https://docs.firecrawl.dev/"
+      ]
+    },
+    {
+      "name": "Fireworks AI",
+      "category": "AI infrastructure",
+      "description": "Inference and model-training platform for open and custom AI models, with serverless APIs, dedicated autoscaling GPU deployments, supervised fine-tuning and reinforcement fine-tuning for production workloads.",
+      "userValue": "For teams that need low-latency production serving and customization of open models without building their own inference and GPU-training stack.",
+      "availability": "Free credits / Paid usage",
+      "url": "https://fireworks.ai/inference",
+      "evidenceUrls": [
+        "https://fireworks.ai/inference",
+        "https://docs.fireworks.ai/"
+      ]
+    },
+    {
+      "name": "Flair AI",
+      "category": "Images & design",
+      "description": "AI visual-production platform for branded product and marketing imagery, with drag-and-drop scene staging, custom product or human models, image editing, variations, upscaling and short video generation.",
+      "userValue": "For ecommerce and marketing teams that need consistent branded product visuals and campaign assets without arranging a new photoshoot for each variation.",
+      "availability": "Free tier / Paid",
+      "url": "https://flair.ai/",
+      "evidenceUrls": [
+        "https://flair.ai/",
+        "https://flair.ai/pricing",
+        "https://flair.ai/resources/faq"
+      ]
+    }
+  ],
+  "superseded": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Elai.io was acquired by Panopto in October 2024, but its own official pricing page remains active and lists current standalone subscriptions and a 2026 copyright notice; it is retained as an active product under its acquired ownership.",
+    "Filmora AI is explicitly represented as an integrated feature suite within Wondershare Filmora, not as a separate standalone product.",
+    "Explainpaper is retained as a focused research-paper workflow because it offers in-context explanations, source-section citations, adjustable complexity, paper-aware follow-up Q&A and structured paper insights, not merely generic chat over arbitrary files.",
+    "FeedHive's current official site announces v2.0 and documents AI agents, AI content generation, social publishing and automation; older positioning has been refreshed.",
+    "Elephas is a Mac-first private knowledge workspace with local indexing and offline/on-device modes; optional cloud AI is separately described and not confused with local inference.",
+    "EvenUp is described as assistive legal-work software for plaintiff personal-injury firms; the catalog does not imply autonomous legal advice or replace attorney verification."
+  ]
+}

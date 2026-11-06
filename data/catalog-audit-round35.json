@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-35",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Moises. Verified the active musician-focused AI suite, stem separation and practice features, the September 2026 collaborative Studio launch, current free/Premium/Pro feature differences, Turkish App Store prices, mobile app update cadence and copyright constraints; refined the existing listing without changing lifecycle status.",
+  "accepted": [
+    {
+      "name": "Moises",
+      "category": "Music",
+      "description": "AI music practice and production suite that separates vocals and instruments into stems, detects chords, key and BPM, transcribes lyrics, changes pitch and tempo, and provides a smart metronome, looping, setlists, recording, stem generation and collaborative browser-based multitrack/MIDI sessions.",
+      "userValue": "For musicians, singers, producers and educators who want to practice, analyze or build on their own recordings rather than generate a finished song from text. The free tier has limited monthly uploads and basic vocal/drum/bass separation; Premium expands stem options and practice tools, while Pro adds Hi-Fi separation, detailed drum/multimedia stems, long uploads, Voice Studio and VST access. The Turkish App Store lists Premium at ₺99.99/month or ₺699.99/year and Pro at ₺499.99/month or ₺4,999.99/year; store and offer prices can vary. AI Studio generation uses credits in 30-second blocks. Only upload or modify music you have rights to use; a streaming subscription does not grant stem-extraction rights.",
+      "availability": "Free tier / Paid",
+      "url": "https://moises.ai/",
+      "evidenceUrls": [
+        "https://moises.ai/",
+        "https://moises.ai/features/",
+        "https://moises.ai/newsroom/product-announcements/moises-launches-studio-collaborative-workspace/",
+        "https://help.moises.ai/hc/en-us/articles/9410960985628-Reasons-to-subscribe-to-the-Moises-Premium-Plan",
+        "https://help.moises.ai/hc/en-us/articles/21960006352796-Moises-AI-Studio-Credits",
+        "https://help.moises.ai/hc/en-us/articles/18322457396508-How-do-streaming-services-work-and-why-can-t-we-accept-their-URL-links-on-Moises",
+        "https://apps.apple.com/tr/app/moises-ai-the-musicians-app/id1515796612",
+        "https://play.google.com/store/apps/details?id=ai.moises"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Moises is an active cross-platform music practice and production suite with web, desktop, iOS, iPadOS, Android, TV and DAW plugin workflows. The official site documents stem separation, chord/key/BPM detection, lyric transcription, pitch/tempo changes, smart metronome, setlists, video recording and exports.",
+    "The official September 2, 2026 launch announcement describes Moises Studio as a browser-based collaborative workspace for multitrack recording, MIDI production, real-time co-editing, AI stem generation, voice models, DAWproject export and agentic editing workflows. This is a major current product expansion beyond the original practice app.",
+    "The App Store Turkey listing shows version 2.150.0 dated October 15, 2026 and local in-app prices including Premium at ₺99.99/month or ₺699.99/year and Pro at ₺499.99/month or ₺4,999.99/year. These are store-listed options and may vary by platform, offer and account.",
+    "Free accounts have limited monthly processing/uploads and basic vocal, drum and bass separation. Premium expands instrument separation and unlocks practice tools; Pro adds Hi-Fi models, professional drum and multimedia stems, longer uploads, Voice Studio and VST plugins. Exact feature availability differs by platform and plan.",
+    "Moises AI Studio generation uses a separate credit system measured in 30-second blocks; plan allowances and pricing can change, so the current in-app allowance should be checked rather than hardcoding a credit count into the catalogue.",
+    "The company states it does not train shared models on user uploads and trains its models only on licensed materials. However, users must have legal rights to upload and modify source recordings; a Spotify or Apple Music subscription does not grant stem-extraction rights, and separated stems remain subject to third-party rights in the original material."
+  ]
+}

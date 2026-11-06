@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-13",
+  "reviewedAt": "2026-10-31",
+  "scope": "Review of the next 15 alphabetically pending active catalog entries, Browse AI through Chroma. Fourteen were accepted after first-party checks. Character.AI was moved to status watch because its official court-supervised sale process leaves service continuity unresolved; the company explicitly says the platform remains operational for now.",
+  "accepted": [
+    {
+      "name": "Browse AI",
+      "category": "Data extraction",
+      "description": "AI-assisted no-code web data extraction and monitoring: Table Studio proposes structured tables from a URL, while Robot Studio records interactive browser steps and scheduled robots track changes.",
+      "userValue": "For teams that need recurring structured website data—such as product details, listings, leads or competitor changes—without maintaining custom scrapers.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.browse.ai/",
+      "evidenceUrls": [
+        "https://help.browse.ai/en/articles/10486935-how-browse-ai-uses-ai",
+        "https://help.browse.ai/en/articles/10445807-what-are-robots-and-what-can-they-do",
+        "https://www.browse.ai/pricing"
+      ]
+    },
+    {
+      "name": "Browser Use",
+      "category": "AI development",
+      "description": "Open-source Python/TypeScript browser-agent framework with hosted agents and managed cloud browsers; agents navigate pages, fill forms, extract data and replay successful workflows.",
+      "userValue": "For developers and teams automating multi-step browser tasks with a local or hosted agent and optional managed browser infrastructure.",
+      "availability": "Open source / Paid cloud",
+      "url": "https://browser-use.com/",
+      "evidenceUrls": [
+        "https://github.com/browser-use/browser-use",
+        "https://browser-use.com/developers",
+        "https://docs.browser-use.com/"
+      ]
+    },
+    {
+      "name": "Browserbase",
+      "category": "AI development",
+      "description": "Managed web-agent platform providing scalable browser sessions, Search and Fetch, Agent Identity, observability and integrations such as the Stagehand browser automation SDK.",
+      "userValue": "For developers deploying agents that must interact with live websites reliably, with managed sessions, authentication support, logs, live view and replay.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.browserbase.com/",
+      "evidenceUrls": [
+        "https://www.browserbase.com/",
+        "https://github.com/browserbase/stagehand"
+      ]
+    },
+    {
+      "name": "Bubble AI",
+      "category": "Web apps",
+      "description": "Bubble's AI app builder turns natural-language requirements into an app structure with pages, workflows and a database, then lets users refine the result in Bubble's visual editor.",
+      "userValue": "For founders and nontechnical builders who want a functional web-app starting point while retaining visual control over the interface, data and logic.",
+      "availability": "Free tier / Paid",
+      "url": "https://bubble.io/ai-app-builder",
+      "evidenceUrls": [
+        "https://bubble.io/ai-app-builder",
+        "https://manual.bubble.io/help-guides/ai"
+      ]
+    },
+    {
+      "name": "Buffer AI Assistant",
+      "category": "Social media",
+      "description": "An AI writing feature inside Buffer's Create workspace and publishing composer that drafts social posts, generates ideas, adjusts tone and repurposes longer content using language models.",
+      "userValue": "For creators and social teams that want to draft and adapt posts inside the same publishing and scheduling workflow. This is a Buffer feature, not a claim that Buffer's core platform is AI-powered.",
+      "availability": "Free tier / Paid",
+      "url": "https://buffer.com/ai-assistant",
+      "evidenceUrls": [
+        "https://buffer.com/ai-assistant",
+        "https://support.buffer.com/articles/using-buffers-ai-assistant-qbBulfw9sn"
+      ]
+    },
+    {
+      "name": "Builder.io Visual Copilot",
+      "category": "Web UI",
+      "description": "Builder's AI design-to-code capability converts Figma designs into responsive frontend code and can map generated output to a team's existing components, design tokens and frameworks.",
+      "userValue": "For product teams that want to turn approved designs into code aligned with their real component system, then refine and review the implementation in their existing repository workflow.",
+      "availability": "Available on Develop plans",
+      "url": "https://builder.io/figma-to-code",
+      "evidenceUrls": [
+        "https://builder.io/figma-to-code",
+        "https://builder.io/ai",
+        "https://www.builder.io/c/docs/developers"
+      ]
+    },
+    {
+      "name": "Caktus AI",
+      "category": "Education",
+      "description": "Academic study workspace with AI tools for essay drafting with source citations, research, document analysis, step-by-step math and science help, notes and study materials.",
+      "userValue": "For students who need one academic workflow for researching, drafting and understanding course material; generated citations should still be checked against the original sources.",
+      "availability": "Paid / 1-day trial",
+      "url": "https://caktus.ai/",
+      "evidenceUrls": [
+        "https://caktus.ai/",
+        "https://caktus.ai/essay",
+        "https://caktus.ai/pricing"
+      ]
+    },
+    {
+      "name": "CAMEL-AI",
+      "category": "Agents",
+      "description": "Open-source multi-agent framework and research ecosystem for building agent societies, task automation, data generation, tool use, memory and retrieval-augmented workflows.",
+      "userValue": "For developers and researchers prototyping coordinated agents, agent collaboration and multi-agent simulations with a documented framework and examples.",
+      "availability": "Open source",
+      "url": "https://camel-ai.org/",
+      "evidenceUrls": [
+        "https://www.camel-ai.org/framework",
+        "https://github.com/camel-ai/camel"
+      ]
+    },
+    {
+      "name": "CapCut AI",
+      "category": "Video",
+      "description": "AI features within CapCut's video editor, including text- and image-to-video generation, AI voice and other editing assistance that can be refined in the same editing workflow.",
+      "userValue": "For creators who want to generate or enhance video assets and finish short-form content in an integrated editor. This is an AI feature suite within CapCut.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.capcut.com/tools/ai-video",
+      "evidenceUrls": [
+        "https://www.capcut.com/tools/ai-video",
+        "https://www.capcut.com/tools"
+      ]
+    },
+    {
+      "name": "Captions",
+      "category": "Video",
+      "description": "AI video editor for generating and editing creator videos, with automated cuts, B-roll, captions, translation, AI avatars and digital twins, plus prompt-based editing.",
+      "userValue": "For creators producing short-form videos, ads and tutorials who want AI-assisted post-production and localized versions in one app.",
+      "availability": "Free tier / Paid",
+      "url": "https://captions.ai/",
+      "evidenceUrls": [
+        "https://captions.ai/",
+        "https://captions.ai/pricing",
+        "https://help.captions.ai/docs/project/ai-twin"
+      ]
+    },
+    {
+      "name": "Cartesia",
+      "category": "Voice & audio",
+      "description": "Speech AI platform offering Sonic text-to-speech, Ink speech-to-text and managed voice agents, with streaming APIs and cloud, on-premise and on-device deployment options.",
+      "userValue": "For developers building real-time voice interfaces and phone agents that need low-latency speech generation and transcription.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.cartesia.ai/",
+      "evidenceUrls": [
+        "https://www.cartesia.ai/",
+        "https://www.cartesia.ai/product/speech-synthesis",
+        "https://docs.cartesia.ai/"
+      ]
+    },
+    {
+      "name": "Cerebras Inference",
+      "category": "AI infrastructure",
+      "description": "Hosted inference API for supported open-weight language models running on Cerebras systems, with OpenAI-compatible access and developer and enterprise deployment tiers.",
+      "userValue": "For developers who need fast managed language-model inference without operating their own model-serving infrastructure.",
+      "availability": "Free credit / Paid usage",
+      "url": "https://www.cerebras.ai/inference",
+      "evidenceUrls": [
+        "https://www.cerebras.ai/inference",
+        "https://www.cerebras.ai/pricing"
+      ]
+    },
+    {
+      "name": "Chatbase",
+      "category": "Customer support",
+      "description": "Platform for building and deploying AI agents trained on a company's website and documents, with actions, analytics, testing and deployment across chat, email, voice and messaging channels.",
+      "userValue": "For businesses that need customer-support or product-guidance agents grounded in their own content and connected to helpdesk, commerce or communication workflows.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.chatbase.co/",
+      "evidenceUrls": [
+        "https://mcp.chatbase.co/llm-info",
+        "https://www.chatbase.co/",
+        "https://www.chatbase.co/pricing"
+      ]
+    },
+    {
+      "name": "Chroma",
+      "category": "Vector databases",
+      "description": "Open-source AI data infrastructure for storing documents and embeddings, performing dense, sparse and hybrid vector search and metadata filtering, with self-hosted and managed cloud options.",
+      "userValue": "For developers building RAG, semantic search or multimodal retrieval systems who need a local or hosted vector database.",
+      "availability": "Open source / Cloud",
+      "url": "https://www.trychroma.com/",
+      "evidenceUrls": [
+        "https://docs.trychroma.com/docs/overview/introduction",
+        "https://github.com/chroma-core/chroma",
+        "https://www.trychroma.com/"
+      ]
+    }
+  ],
+  "superseded": [],
+  "rejected": [],
+  "statusWatch": [
+    {
+      "name": "Character.AI",
+      "status": "unresolved",
+      "officialUrl": "https://character.ai/",
+      "checkedUrls": [
+        "https://character.ai/",
+        "https://blog.character.ai/an-update-on-character-ai/"
+      ],
+      "evidenceUrls": [
+        "https://blog.character.ai/an-update-on-character-ai/"
+      ],
+      "lastCheckedAt": "2026-10-31",
+      "reason": "Character.ai's official October 12, 2026 announcement says the platform remains up and running during a voluntary Chapter 11 process and court-supervised sale, but also says the platform will be wound down if no actionable bid emerges. As of 2026-10-31, the sale outcome is unresolved. This is a continuity risk, not evidence that the service has already shut down.",
+      "nextAction": "Recheck the official sale-process updates and confirm a buyer and continued service, or a formal wind-down notice, after the process expected to conclude by the end of November or early December 2026."
+    }
+  ],
+  "notes": [
+    "Browser Use and Browserbase are adjacent but distinct: Browser Use supplies an open-source browser-agent library and hosted agents, while Browserbase supplies managed browser infrastructure and agent web-access services.",
+    "Bubble AI, Buffer AI Assistant, Builder.io Visual Copilot and CapCut AI are first-party AI capabilities within broader platforms, not separate claims that the parent platforms are entirely AI-powered. Each is retained because the capability solves a specific, documented user workflow.",
+    "Buffer's own product page says Buffer's core scheduling and publishing features are not AI-powered; only the optional AI Assistant feature is represented in this catalog entry.",
+    "Caktus AI's academic writing and study claims are described by task type only; no company-reported user counts or unverifiable superiority claims were copied into the catalog.",
+    "Character.ai's October 12, 2026 notice says service remains up and running during Chapter 11 and a court-supervised sale, while warning that the platform will be wound down if no actionable bid emerges. It is unresolved, not marked discontinued."
+  ]
+}

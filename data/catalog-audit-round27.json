@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-27",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Meta AI. Verified the active consumer assistant and current feature set against Meta's official product announcements; no catalog expansion or lifecycle change.",
+  "accepted": [
+    {
+      "name": "Meta AI",
+      "category": "Writing & research",
+      "description": "Meta's consumer AI assistant on meta.ai and supported Meta apps, powered by Muse models. It combines conversational answers and web-backed research with voice interaction, multimodal image understanding, image generation and editing; selected rollouts add task planning and connected-app actions.",
+      "userValue": "For everyday users and creators who want help with questions, research and visual creation in one assistant integrated into Meta's ecosystem. Features, connected apps and rollout vary by country and surface; the core experience is free, while subscriptions offer higher usage and additional features.",
+      "availability": "Free core / Paid subscriptions",
+      "url": "https://www.meta.ai/",
+      "evidenceUrls": [
+        "https://www.meta.ai/",
+        "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+        "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+        "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
+        "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Meta's official announcements identify Muse Spark as the model powering the Meta AI app and meta.ai, with conversational reasoning, web search, multimodal perception and voice features.",
+    "Meta's July 2026 announcements document Muse Image generation and editing, plus selected planning and connected-app actions in Meta AI.",
+    "The feature set and rollout vary by country and Meta app. Meta says the core Meta AI experience remains free while Meta One subscriptions provide higher AI usage and additional features.",
+    "Do not describe a general public developer API as available: Meta's April 2026 announcement described private-preview API access for selected partners."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-34",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Modal. Verified the current Python-first serverless AI infrastructure platform, inference, training, batch, sandbox and agent workloads, current SDK release, Starter and Team pricing, included compute credits and the separate Shared Endpoints billing model; refined the existing listing without changing lifecycle status.",
+  "accepted": [
+    {
+      "name": "Modal",
+      "category": "AI infrastructure",
+      "description": "Python-first serverless cloud infrastructure for production AI. Deploy low-latency inference endpoints, run parallel batch jobs and data pipelines, train or fine-tune models on single- or multi-node GPUs, and launch isolated Sandboxes for agents and untrusted code, with autoscaling, storage and observability.",
+      "userValue": "For Python developers and ML teams that need GPU/CPU compute for inference, training, fine-tuning, parallel jobs and isolated agent sandboxes without managing servers. Starter is $0/month plus usage with $30/month compute credits, up to 3 seats and 10 concurrent GPUs; Team is $250/month plus compute with $100/month credits. CPU, GPU and memory are billed by the second. Important: Shared Endpoints are token-billed from the first request and are not covered by the included compute credits. Costs vary by hardware, region and requested resources; set workspace budgets.",
+      "availability": "Free tier / Paid",
+      "url": "https://modal.com/",
+      "evidenceUrls": [
+        "https://modal.com/",
+        "https://modal.com/docs",
+        "https://modal.com/pricing",
+        "https://modal.com/products/inference",
+        "https://modal.com/products/training",
+        "https://modal.com/docs/sdk/py/releases"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Modal is an active Python-first serverless cloud for production AI workloads. Its current platform covers inference endpoints, model serving, training and fine-tuning, reinforcement learning, parallel batch processing, data pipelines, and isolated Sandboxes for coding agents and untrusted code.",
+    "The official documentation says Modal can deploy Python applications that can be containerized, and highlights compute-intensive workloads that benefit from horizontal scaling. It provides GPU/CPU containers, volumes, web functions, servers, queues, autoscaling, logs and metrics.",
+    "The Python SDK release notes show version 1.6.3 dated 2026-10-27, with new Image Builder and CLI/endpoint capabilities, confirming active development.",
+    "The Starter plan is $0 plus compute usage per month and includes $30/month of compute credits, up to three workspace seats, 100 containers and 10 GPU concurrency. Team is $250/month plus compute, includes $100/month compute credits, unlimited seats, 5,000 containers and 50 GPU concurrency. Enterprise pricing is custom.",
+    "Compute for Functions and Sandboxes is metered by the second for CPU, memory and GPU. The $30 Starter and $100 Team included compute credits do not cover Shared Endpoints, which are token-billed from the first request. Region selection can cost 1.15–1.75x base rates and non-preemptible execution costs 3x base rates.",
+    "Modal is developer infrastructure, not a no-code app builder. Python and cloud/ML engineering skills are expected; users should configure workspace budgets and estimate GPU, memory, region and token costs before production use."
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-21",
+  "reviewedAt": "2026-10-31",
+  "scope": "Review of the next 15 pending active catalog entries, Ironclad AI through Khanmigo. All 15 retained after first-party checks and product-positioning corrections; no entries were rejected, superseded or moved to status watch.",
+  "accepted": [
+    {
+      "name": "Ironclad AI",
+      "category": "Legal",
+      "description": "Native AI capabilities within Ironclad's contract lifecycle management platform, including conversational search across signed and in-flight agreements, contract drafting and redlining, clause and metadata extraction, playbook-based review, portfolio insights and specialized agents for intake, review and renewals.",
+      "userValue": "For legal, procurement and operations teams that already manage agreements in Ironclad and want contract-aware AI grounded in their workflows and permissions; this is an AI layer inside Ironclad CLM, not a standalone general-purpose legal chatbot.",
+      "availability": "Enterprise / Paid CLM",
+      "url": "https://ironcladapp.com/product/ironclad-ai",
+      "evidenceUrls": [
+        "https://ironcladapp.com/product/ironclad-ai",
+        "https://support.ironcladapp.com/hc/en-us/articles/12947738534935-Ironclad-AI-Overview",
+        "https://legal.ironcladapp.com/fy2026-product-descriptions"
+      ]
+    },
+    {
+      "name": "Jamie",
+      "category": "Meetings",
+      "description": "On-device AI meeting intelligence that captures online and in-person conversations without adding a meeting bot, then creates structured notes, transcripts, speaker context, summaries and action items. It can answer questions across past meetings and automate follow-up workflows through connected tools, MCP, webhooks and API.",
+      "userValue": "For professionals and teams who want searchable meeting memory and automated follow-ups across different meeting platforms, including in-person conversations, without a bot joining the call.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.meetjamie.ai/",
+      "evidenceUrls": [
+        "https://www.meetjamie.ai/",
+        "https://www.meetjamie.ai/home-page",
+        "https://learn.microsoft.com/en-us/connectors/jamieai/"
+      ]
+    },
+    {
+      "name": "Jenni AI",
+      "category": "Writing",
+      "description": "Academic and professional writing workspace combining an AI document editor, contextual autocomplete and editing, research chat, semantic discovery across academic papers, a searchable PDF/source library, citation management and document reviews that flag unsupported or weakly supported claims.",
+      "userValue": "For students, researchers and analysts drafting source-based work who want research, citations, document editing and claim review in one workspace; citations and AI suggestions still require human verification.",
+      "availability": "Free tier / Paid",
+      "url": "https://jenni.ai/",
+      "evidenceUrls": [
+        "https://jenni.ai/",
+        "https://help.jenni.ai/docs/getting-started/introduction/",
+        "https://help.jenni.ai/docs/research/",
+        "https://jenni.ai/pricing"
+      ]
+    },
+    {
+      "name": "JetBrains AI Assistant",
+      "category": "Coding",
+      "description": "AI feature suite integrated into JetBrains IDEs, with project-aware chat, code completion and generation, explanations, refactoring, documentation and test assistance, plus coding-agent integrations and MCP/ACP extensibility. Users can choose JetBrains AI, supported external providers or local models where available.",
+      "userValue": "For developers who work in JetBrains IDEs and want AI assistance and configurable coding agents in their existing editor; this is the broader IDE AI layer, distinct from the more autonomous Junie agent.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.jetbrains.com/ai/",
+      "evidenceUrls": [
+        "https://www.jetbrains.com/ai/",
+        "https://www.jetbrains.com/help/ai-assistant/about-ai-assistant.html",
+        "https://www.jetbrains.com/help/ai-assistant/feature-set.html"
+      ]
+    },
+    {
+      "name": "JetBrains Junie",
+      "category": "Coding",
+      "description": "JetBrains' autonomous coding agent that plans and executes multi-step development tasks, edits files across a project, runs tests and terminal commands, and can use external tools. It is available inside supported JetBrains IDEs and through an interactive terminal interface.",
+      "userValue": "For developers who want to delegate bounded, multi-step implementation and debugging work to an agent while reviewing its changes and command execution.",
+      "availability": "Paid / BYO API key",
+      "url": "https://www.jetbrains.com/junie/",
+      "evidenceUrls": [
+        "https://www.jetbrains.com/junie/",
+        "https://www.jetbrains.com/help/ai-assistant/junie-agent.html",
+        "https://www.jetbrains.com/help/ai/jetbrains-ai.html"
+      ]
+    },
+    {
+      "name": "Jina AI Reader",
+      "category": "Data extraction",
+      "description": "Web and document reader API that fetches public URLs or PDFs and converts their content into clean, LLM-friendly text or Markdown. Reader supports URL and file inputs, structured JSON responses and optional link/image summaries; it is one service in Jina's wider Reader, Search and embedding API suite.",
+      "userValue": "For developers building research, retrieval-augmented generation and agent workflows that need readable webpage or PDF content instead of raw HTML; the Reader endpoint can be used without an API key at a lower rate limit.",
+      "availability": "Free tier / Paid API",
+      "url": "https://jina.ai/reader/",
+      "evidenceUrls": [
+        "https://jina.ai/reader/",
+        "https://docs.jina.ai/"
+      ]
+    },
+    {
+      "name": "Juicebox",
+      "category": "HR & recruiting",
+      "description": "AI recruiting and talent-sourcing platform that searches a large global candidate index across multiple data sources, builds ranked candidate pools from natural-language requirements, summarizes candidate fit, and supports AI-assisted outreach, sourcing agents and ATS/CRM workflows.",
+      "userValue": "For recruiters and talent teams sourcing hard-to-find candidates who need natural-language search, candidate calibration and personalized outreach in one recruiting workflow.",
+      "availability": "Free tier / Paid",
+      "url": "https://juicebox.ai/",
+      "evidenceUrls": [
+        "https://juicebox.ai/",
+        "https://juicebox.ai/ai-recruiting",
+        "https://juicebox.help/peoplegpt"
+      ]
+    },
+    {
+      "name": "Julius AI",
+      "category": "Data & analytics",
+      "description": "AI workspace for analyzing spreadsheets, documents and connected data sources, researching topics, running code-backed analysis and creating charts, reports, presentations, dashboards, websites, images and video. Paid plans add higher usage, more capable models, agents and additional data connectors.",
+      "userValue": "For individuals and teams who want to move from a question or dataset to analysis and shareable deliverables in one conversational workspace; it is broader than a spreadsheet-only analysis assistant.",
+      "availability": "Free tier / Paid",
+      "url": "https://julius.ai/product",
+      "evidenceUrls": [
+        "https://julius.ai/product",
+        "https://julius.ai/pricing"
+      ]
+    },
+    {
+      "name": "K Health",
+      "category": "Healthcare",
+      "description": "Clinical AI platform for health systems, combining dynamic patient intake and PatientGPT grounded in medical-record context with EHR integration and digital front-door workflows. K Health also partners with providers to deliver longitudinal primary and specialty virtual care with licensed clinicians; its AI supports patient engagement and clinical workflows rather than replacing medical professionals.",
+      "userValue": "For health systems and provider organizations that want to improve pre-visit intake, patient engagement and virtual-care access using AI connected to clinical records and clinician-led services; this is primarily an enterprise healthcare platform, not simply a consumer symptom checker.",
+      "availability": "Enterprise / Health-system partners",
+      "url": "https://www.khealth.com/",
+      "evidenceUrls": [
+        "https://www.khealth.com/"
+      ]
+    },
+    {
+      "name": "Kaedim",
+      "category": "3D",
+      "description": "AI-assisted 3D production platform that turns sketches, reference packs, product photos and creative briefs into 3D assets for product design, games and ecommerce. Its workflow emphasizes studio review, markup, iteration and approval, with production support for teams working on confidential assets.",
+      "userValue": "For game studios, product teams and brands that need 3D asset production integrated into a professional review workflow; Kaedim positions this as a studio-oriented production service rather than a simple self-serve text-to-3D generator.",
+      "availability": "Enterprise / Contact sales",
+      "url": "https://www.kaedim3d.com/",
+      "evidenceUrls": [
+        "https://www.kaedim3d.com/"
+      ]
+    },
+    {
+      "name": "Kagi Assistant",
+      "category": "Writing & research",
+      "description": "Multi-model AI assistant included with Kagi's search subscription, allowing users to choose among supported language models, optionally ground chats with Kagi Search, create custom assistants, upload files, switch models or web access within a thread, and save or export conversations.",
+      "userValue": "For research, writing and programming users who want model choice and optional private search grounding in one subscription; Kagi says user data is not used to train models and offers configurable conversation retention.",
+      "availability": "Paid subscription",
+      "url": "https://kagi.com/assistant",
+      "evidenceUrls": [
+        "https://kagi.com/assistant",
+        "https://help.kagi.com/kagi/ai/assistant.html"
+      ]
+    },
+    {
+      "name": "Kaiber",
+      "category": "Video",
+      "description": "AI creative studio with three connected tools: Canvas for generating and editing video, images and audio using selectable models; Beat Sync for creating music-synchronized visual variations and short-form clips; and Editor for arranging, trimming and finishing projects on a timeline.",
+      "userValue": "For musicians, artists and social creators who want to generate stylized visuals, synchronize batches of clips to music and finish them in one connected creative workspace.",
+      "availability": "Paid subscription / Credits",
+      "url": "https://kaiber.ai/",
+      "evidenceUrls": [
+        "https://kaiber.ai/",
+        "https://helpcenter.kaiber.ai/articles/0917805-faqs-getting-started-with-kaiber"
+      ]
+    },
+    {
+      "name": "Kapwing AI",
+      "category": "Video",
+      "description": "Browser-based AI toolkit built into Kapwing's online video editor, including AI video generation and editing, text-to-video, dubbing, subtitles, voiceovers, image generation, lip sync and other tools powered by multiple selectable models.",
+      "userValue": "For creators and teams who want AI generation, localization and editing in the same collaborative browser-based video workspace, without installing desktop editing software.",
+      "availability": "Free tier / Paid",
+      "url": "https://www.kapwing.com/ai/overview",
+      "evidenceUrls": [
+        "https://www.kapwing.com/ai/overview"
+      ]
+    },
+    {
+      "name": "Keyword Insights",
+      "category": "SEO & marketing",
+      "description": "SEO research and content platform for keyword discovery, SERP-based keyword clustering and search-intent analysis, content briefs, rank and competitor insights, and AI-assisted article writing. Its Keyword Discovery and other workflows are also accessible through an API for automation.",
+      "userValue": "For SEO teams and content marketers who need to group large keyword sets by intent, identify topical opportunities and turn search data into briefs and articles.",
+      "availability": "Paid plans",
+      "url": "https://www.keywordinsights.ai/",
+      "evidenceUrls": [
+        "https://www.keywordinsights.ai/",
+        "https://changelog.keywordinsights.ai/latest-features-and-improvements/",
+        "https://www.keywordinsights.ai/pricing/"
+      ]
+    },
+    {
+      "name": "Khanmigo",
+      "category": "Education",
+      "description": "Khan Academy's AI tutor and teaching assistant. For learners it guides students through questions instead of simply giving answers, using Khan Academy's curriculum across subjects including math, science and coding. For educators it helps create lesson plans, differentiated activities, quizzes, rubrics and feedback on student work.",
+      "userValue": "For students, families and educators who want guided learning or teaching support connected to Khan Academy content. Individual learner/parent access is currently restricted to eligible US accounts, while teacher access is limited to educators in supported countries and student classroom access is through school or district implementations.",
+      "availability": "Free for eligible teachers / Paid US learner access",
+      "url": "https://www.khanmigo.ai/",
+      "evidenceUrls": [
+        "https://www.khanmigo.ai/"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "rechecked": [],
+  "notes": [
+    "Ironclad AI is accepted as a documented first-class AI capability, but the catalog explicitly identifies it as the native AI layer inside Ironclad CLM rather than a standalone chatbot or independent CLM product.",
+    "Jamie (meetjamie.ai) is distinguished from similarly named Jamy (jamy.ai): this entry is the on-device, bot-free meeting-intelligence product with meeting search and workflow integrations.",
+    "Jenni's official brand is presented as Jenni; the existing catalog label Jenni AI is retained for continuity and search discoverability. Its value is academic research and source-linked writing, not generic AI text generation.",
+    "JetBrains AI Assistant and JetBrains Junie remain separate catalog entries: AI Assistant is the broader IDE-integrated AI feature suite, while Junie is the autonomous multi-step coding agent.",
+    "Jina AI Reader is specifically the Reader endpoint for converting URLs and documents to LLM-friendly content; it is not conflated with Jina Search or the embedding/reranking APIs.",
+    "Juicebox retains the PeopleGPT heritage but its current official product is an AI recruiting platform spanning talent search, sourcing agents, candidate calibration and personalized outreach.",
+    "Julius AI's official product page now presents a broad AI workspace for analysis, research and creation, including reports, presentations, websites, images and video; the older data-analysis-only description was incomplete.",
+    "K Health's current official positioning is primarily enterprise clinical AI infrastructure for health systems, including PatientGPT and EHR-connected intake. The listing no longer describes it only as a consumer symptom checker and avoids presenting AI as a substitute for clinicians.",
+    "Kaedim is retained but explicitly described as AI-assisted, studio-oriented 3D production with review and iteration; its current public site emphasizes sales-led professional workflows, not a simple self-serve text-to-3D tool.",
+    "Kagi Assistant is a multi-model assistant that can optionally ground responses in Kagi Search and supports custom assistants, file context and configurable thread settings.",
+    "Kaiber's official help center describes three connected products—Canvas, Beat Sync and Editor—rather than only a prompt-to-video generator.",
+    "Kapwing AI is correctly scoped as a suite embedded in Kapwing's browser-based video editor, including generation, editing, dubbing, subtitles, voiceover and image generation.",
+    "Keyword Insights is retained as an SEO workflow product with keyword discovery, SERP-based clustering, content briefs, AI writing and API workflows; its value is broader than a generic AI article writer.",
+    "Khanmigo is retained with explicit access limitations: parent/learner individual access is currently limited to eligible US accounts, teacher access to supported countries, and classroom student access through school/district implementations."
+  ]
+}
