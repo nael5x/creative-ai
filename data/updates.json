@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T19:29:47.889757+00:00",
+  "updatedAt": "2026-11-07T06:09:47.666318+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.15",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.44.2",
+      "title": "v0.44.2",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.2",
+      "publishedAt": "2026-11-06T20:37:56Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.44.1",
       "title": "v0.44.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.1",
@@ -386,16 +396,6 @@
       "title": "v0.42.2",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.2",
       "publishedAt": "2026-10-20T20:34:13Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.42.1",
-      "title": "v0.42.1",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1",
-      "publishedAt": "2026-10-19T01:33:54Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -502,6 +502,16 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev20",
+      "title": "v1.14.0.dev20",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev20",
+      "publishedAt": "2026-11-07T00:22:53Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev19",
       "title": "v1.14.0.dev19",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev19",
@@ -586,16 +596,6 @@
       "title": "1.12.9",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.9",
       "publishedAt": "2026-11-04T01:39:09Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev13",
-      "title": "v1.14.0.dev13",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev13",
-      "publishedAt": "2026-11-02T00:26:41Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -802,80 +802,70 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1306099",
-      "title": "Cursor Craft",
-      "url": "https://www.producthunt.com/products/cursor-craft",
-      "publishedAt": "2026-11-06T11:11:01-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1305877",
-      "title": "Magic Wonders",
-      "url": "https://www.producthunt.com/products/magic-wonders",
-      "publishedAt": "2026-11-06T11:21:38-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1258465",
-      "title": "Meadow",
-      "url": "https://www.producthunt.com/products/meadow-3",
-      "publishedAt": "2026-11-06T11:06:59-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1298963",
-      "title": "Native Tasks for Obsidian",
-      "url": "https://www.producthunt.com/products/native-tasks-for-obsidian",
-      "publishedAt": "2026-11-06T11:06:32-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1305307",
-      "title": "pwned.coffee",
-      "url": "https://www.producthunt.com/products/pwned-coffee",
-      "publishedAt": "2026-11-06T09:18:55-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1305474",
       "title": "PostMyPace",
       "url": "https://www.producthunt.com/products/postmypace",
-      "publishedAt": "2026-11-06T11:12:44-08:00",
+      "publishedAt": "2026-11-06T21:17:05-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1305536",
-      "title": "Openroster",
-      "url": "https://www.producthunt.com/products/openroster",
-      "publishedAt": "2026-11-06T11:12:49-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1299883",
+      "title": "Winq",
+      "url": "https://www.producthunt.com/products/winq",
+      "publishedAt": "2026-11-06T22:09:07-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1305770",
-      "title": "Shipnoted",
-      "url": "https://www.producthunt.com/products/shipnoted",
-      "publishedAt": "2026-11-06T06:53:06-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1305199",
+      "title": "TraceX",
+      "url": "https://www.producthunt.com/products/tracex",
+      "publishedAt": "2026-11-06T22:09:03-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1304303",
+      "title": "Datastripes Data Stories",
+      "url": "https://www.producthunt.com/products/datastripes",
+      "publishedAt": "2026-11-06T22:09:02-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1306125",
+      "title": "crystl",
+      "url": "https://www.producthunt.com/products/crystl-multitasking-terminal",
+      "publishedAt": "2026-11-06T22:09:01-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1301588",
+      "title": "EdgeBar",
+      "url": "https://www.producthunt.com/products/edgebar",
+      "publishedAt": "2026-11-06T22:08:56-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1305524",
+      "title": "Rankfender v3.0",
+      "url": "https://www.producthunt.com/products/rankfender",
+      "publishedAt": "2026-11-06T22:08:56-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -885,17 +875,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1245328",
       "title": "Meshia",
       "url": "https://www.producthunt.com/products/meshia",
-      "publishedAt": "2026-11-06T11:11:00-08:00",
+      "publishedAt": "2026-11-06T15:22:02-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1305393",
-      "title": "Moatly",
-      "url": "https://www.producthunt.com/products/moatly-2",
-      "publishedAt": "2026-11-06T08:53:56-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1303404",
+      "title": "Any Video to Text",
+      "url": "https://www.producthunt.com/products/any-video-to-text",
+      "publishedAt": "2026-11-06T20:13:46-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1297378",
+      "title": "Make0 Brain OSS",
+      "url": "https://www.producthunt.com/products/make0-brain",
+      "publishedAt": "2026-11-06T19:35:18-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
