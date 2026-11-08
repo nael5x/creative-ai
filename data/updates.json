@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T21:57:49.050079+00:00",
+  "updatedAt": "2026-11-08T06:15:48.260956+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.15",
@@ -502,6 +502,26 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev21",
+      "title": "v1.14.0.dev21",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev21",
+      "publishedAt": "2026-11-08T00:27:28Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.2",
+      "title": "v1.13.2: test(auth): cover trusted proxy credential sources (#16238)",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.2",
+      "publishedAt": "2026-11-08T04:43:07Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev20",
       "title": "v1.14.0.dev20",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev20",
@@ -576,26 +596,6 @@
       "title": "v1.14.0.dev14",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev14",
       "publishedAt": "2026-11-03T03:33:20Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.1",
-      "title": "1.13.1",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.1",
-      "publishedAt": "2026-11-05T23:33:57Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.9",
-      "title": "1.12.9",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.9",
-      "publishedAt": "2026-11-04T01:39:09Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -802,40 +802,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1306575",
-      "title": "Switchy",
-      "url": "https://www.producthunt.com/products/switchy",
-      "publishedAt": "2026-11-07T13:36:34-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1293330",
+      "title": "LiveReview",
+      "url": "https://www.producthunt.com/products/livereview",
+      "publishedAt": "2026-11-07T22:04:23-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1307289",
-      "title": "Trace by Context.dev",
-      "url": "https://www.producthunt.com/products/context-dev",
-      "publishedAt": "2026-11-07T13:17:39-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1303236",
-      "title": "Sendoff",
-      "url": "https://www.producthunt.com/products/sendoff-2",
-      "publishedAt": "2026-11-07T13:18:37-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1303008",
-      "title": "kayet",
-      "url": "https://www.producthunt.com/products/kayet",
-      "publishedAt": "2026-11-07T13:57:11-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1305716",
+      "title": "Google Omni 1.2 Flash",
+      "url": "https://www.producthunt.com/products/google-omni-1-2-flash",
+      "publishedAt": "2026-11-07T21:58:05-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -845,27 +825,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1305660",
       "title": "ChatGPT Images 2.6",
       "url": "https://www.producthunt.com/products/openai",
-      "publishedAt": "2026-11-07T13:54:56-08:00",
+      "publishedAt": "2026-11-07T22:12:16-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1293330",
-      "title": "LiveReview",
-      "url": "https://www.producthunt.com/products/livereview",
-      "publishedAt": "2026-11-07T13:54:26-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1305719",
-      "title": "GPT‑6 Cyber",
-      "url": "https://www.producthunt.com/products/openai",
-      "publishedAt": "2026-11-07T13:52:11-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1306522",
+      "title": "Capnot",
+      "url": "https://www.producthunt.com/products/capnot",
+      "publishedAt": "2026-11-07T19:42:57-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -875,7 +845,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1288128",
       "title": "Quest",
       "url": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279",
-      "publishedAt": "2026-11-07T13:52:28-08:00",
+      "publishedAt": "2026-11-07T22:14:14-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1302926",
+      "title": "Fleeep",
+      "url": "https://www.producthunt.com/products/fleeep",
+      "publishedAt": "2026-11-07T21:48:53-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1306971",
+      "title": "Muse Realtime Avatar",
+      "url": "https://www.producthunt.com/products/meta-ai",
+      "publishedAt": "2026-11-07T22:12:26-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1305719",
+      "title": "GPT‑6 Cyber",
+      "url": "https://www.producthunt.com/products/openai",
+      "publishedAt": "2026-11-07T22:12:24-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1306062",
+      "title": "Instagram Edits for Desktop",
+      "url": "https://www.producthunt.com/products/instagram",
+      "publishedAt": "2026-11-07T21:39:00-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -885,17 +895,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1289071",
       "title": "PacerTrip",
       "url": "https://www.producthunt.com/products/pacertrip",
-      "publishedAt": "2026-11-07T13:02:51-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1299937",
-      "title": "Standflow",
-      "url": "https://www.producthunt.com/products/standflow",
-      "publishedAt": "2026-11-07T13:02:50-08:00",
+      "publishedAt": "2026-11-07T19:30:40-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
