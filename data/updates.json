@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T13:39:17.241140+00:00",
+  "updatedAt": "2026-11-08T22:14:27.339684+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.15",
@@ -802,70 +802,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1306739",
-      "title": "Inkling 2 Small",
-      "url": "https://www.producthunt.com/products/tinker-2",
-      "publishedAt": "2026-11-08T05:36:01-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1301987",
-      "title": "Sage2 by Levanto Labs",
-      "url": "https://www.producthunt.com/products/sagecraft",
-      "publishedAt": "2026-11-08T05:37:41-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1301605",
-      "title": "Textly",
-      "url": "https://www.producthunt.com/products/textly-capture-copy-paste",
-      "publishedAt": "2026-11-08T05:29:19-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1293729",
-      "title": "NoMac",
-      "url": "https://www.producthunt.com/products/nomac",
-      "publishedAt": "2026-11-08T05:36:38-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1304829",
       "title": "outages.live",
       "url": "https://www.producthunt.com/products/polylane",
-      "publishedAt": "2026-11-08T05:35:52-08:00",
+      "publishedAt": "2026-11-08T13:23:48-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1305013",
-      "title": "DocsAlot for customer support",
-      "url": "https://www.producthunt.com/products/docsalot-2",
-      "publishedAt": "2026-11-08T05:13:09-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1307984",
-      "title": "Agent Clan",
-      "url": "https://www.producthunt.com/products/agent-clan",
-      "publishedAt": "2026-11-08T05:37:41-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1279086",
+      "title": "Memorias",
+      "url": "https://www.producthunt.com/products/memorias-3",
+      "publishedAt": "2026-11-08T14:03:07-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -875,7 +825,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1306206",
       "title": "Frameboy by World Labs",
       "url": "https://www.producthunt.com/products/marble-by-world-labs",
-      "publishedAt": "2026-11-08T04:37:22-08:00",
+      "publishedAt": "2026-11-08T13:28:36-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1307984",
+      "title": "Agent Clan",
+      "url": "https://www.producthunt.com/products/agent-clan",
+      "publishedAt": "2026-11-08T14:12:38-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1307776",
+      "title": "Zigzag Browser",
+      "url": "https://www.producthunt.com/products/zigzag-browser",
+      "publishedAt": "2026-11-08T14:12:38-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -885,17 +855,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1301556",
       "title": "NotchIsland",
       "url": "https://www.producthunt.com/products/notchisland-2",
-      "publishedAt": "2026-11-08T04:50:35-08:00",
+      "publishedAt": "2026-11-08T14:12:38-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1307776",
-      "title": "Zigzag Browser",
-      "url": "https://www.producthunt.com/products/zigzag-3",
-      "publishedAt": "2026-11-08T04:24:30-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1302760",
+      "title": "Deduplication",
+      "url": "https://www.producthunt.com/products/hacker-noon",
+      "publishedAt": "2026-11-08T13:45:01-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1305013",
+      "title": "DocsAlot for customer support",
+      "url": "https://www.producthunt.com/products/docsalot-2",
+      "publishedAt": "2026-11-08T14:12:38-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1298958",
+      "title": "AXL",
+      "url": "https://www.producthunt.com/products/axl-2",
+      "publishedAt": "2026-11-08T14:10:07-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1293729",
+      "title": "NoMac",
+      "url": "https://www.producthunt.com/products/nomac",
+      "publishedAt": "2026-11-08T13:25:05-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
