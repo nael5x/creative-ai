@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T22:14:27.339684+00:00",
+  "updatedAt": "2026-11-09T06:48:10.015786+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.15",
@@ -402,6 +402,16 @@
       "why": "Useful for advanced Stable Diffusion users."
     },
     {
+      "id": "tag:github.com,2008:Repository/701547123/v0.13.3",
+      "title": "v0.13.3",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.3",
+      "publishedAt": "2026-11-08T23:48:24Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/701547123/v0.13.2",
       "title": "v0.13.2",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.2",
@@ -492,14 +502,14 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
-      "id": "tag:github.com,2008:Repository/701547123/v0.11.4",
-      "title": "v0.11.4",
-      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.4",
-      "publishedAt": "2026-09-21T19:25:21Z",
-      "source": "Open WebUI",
-      "kind": "Local AI UI",
-      "purpose": "Use local or remote AI models in a browser interface.",
-      "why": "Useful for people who use Ollama or self-hosted models."
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev22",
+      "title": "v1.14.0.dev22",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev22",
+      "publishedAt": "2026-11-09T00:27:17Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
     },
     {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev21",
@@ -586,16 +596,6 @@
       "title": "v1.14.0.dev15",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev15",
       "publishedAt": "2026-11-04T00:24:08Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev14",
-      "title": "v1.14.0.dev14",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev14",
-      "publishedAt": "2026-11-03T03:33:20Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -802,50 +802,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1304829",
-      "title": "outages.live",
-      "url": "https://www.producthunt.com/products/polylane",
-      "publishedAt": "2026-11-08T13:23:48-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1279086",
-      "title": "Memorias",
-      "url": "https://www.producthunt.com/products/memorias-3",
-      "publishedAt": "2026-11-08T14:03:07-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1306206",
-      "title": "Frameboy by World Labs",
-      "url": "https://www.producthunt.com/products/marble-by-world-labs",
-      "publishedAt": "2026-11-08T13:28:36-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1307984",
-      "title": "Agent Clan",
-      "url": "https://www.producthunt.com/products/agent-clan",
-      "publishedAt": "2026-11-08T14:12:38-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1307776",
-      "title": "Zigzag Browser",
-      "url": "https://www.producthunt.com/products/zigzag-browser",
-      "publishedAt": "2026-11-08T14:12:38-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1298958",
+      "title": "AXL",
+      "url": "https://www.producthunt.com/products/axl-2",
+      "publishedAt": "2026-11-08T22:44:06-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -855,37 +815,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1301556",
       "title": "NotchIsland",
       "url": "https://www.producthunt.com/products/notchisland-2",
-      "publishedAt": "2026-11-08T14:12:38-08:00",
+      "publishedAt": "2026-11-08T22:46:31-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1302760",
-      "title": "Deduplication",
-      "url": "https://www.producthunt.com/products/hacker-noon",
-      "publishedAt": "2026-11-08T13:45:01-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1307776",
+      "title": "Zigzag Browser",
+      "url": "https://www.producthunt.com/products/zigzag-browser",
+      "publishedAt": "2026-11-08T22:46:31-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1305013",
-      "title": "DocsAlot for customer support",
-      "url": "https://www.producthunt.com/products/docsalot-2",
-      "publishedAt": "2026-11-08T14:12:38-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1301987",
+      "title": "Sage2 by Levanto Labs",
+      "url": "https://www.producthunt.com/products/sagecraft",
+      "publishedAt": "2026-11-08T22:46:18-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1298958",
-      "title": "AXL",
-      "url": "https://www.producthunt.com/products/axl-2",
-      "publishedAt": "2026-11-08T14:10:07-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1307984",
+      "title": "Agent Clan",
+      "url": "https://www.producthunt.com/products/agent-clan",
+      "publishedAt": "2026-11-08T22:24:19-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1301605",
+      "title": "Textly",
+      "url": "https://www.producthunt.com/products/textly-capture-copy-paste",
+      "publishedAt": "2026-11-08T21:43:42-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1304829",
+      "title": "outages.live",
+      "url": "https://www.producthunt.com/products/polylane",
+      "publishedAt": "2026-11-08T22:12:23-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -895,7 +875,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1293729",
       "title": "NoMac",
       "url": "https://www.producthunt.com/products/nomac",
-      "publishedAt": "2026-11-08T13:25:05-08:00",
+      "publishedAt": "2026-11-08T22:23:38-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1302760",
+      "title": "Deduplication",
+      "url": "https://www.producthunt.com/products/hacker-noon",
+      "publishedAt": "2026-11-08T22:36:37-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1306739",
+      "title": "Inkling 2 Small",
+      "url": "https://www.producthunt.com/products/tinker-2",
+      "publishedAt": "2026-11-08T22:20:22-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
