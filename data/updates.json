@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-11-09T22:29:03.197833+00:00",
+  "updatedAt": "2026-11-10T07:27:36.849706+00:00",
   "items": [
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.16-rc0",
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.16",
       "title": "v0.40.16",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "publishedAt": "2026-11-09T23:45:36Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.16-rc0",
+      "title": "v0.40.16-rc0: Add ripple preview support to the MLX runner (#19592)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
-      "publishedAt": "2026-11-09T18:21:19Z",
+      "publishedAt": "2026-11-08T00:36:53Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -92,14 +102,14 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.13-rc0",
-      "title": "v0.40.13-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
-      "publishedAt": "2026-10-28T17:37:56Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.7.7",
+      "title": "langchain-core==1.7.7",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7",
+      "publishedAt": "2026-11-10T04:08:29Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
     },
     {
       "id": "tag:github.com,2008:Repository/552661142/langchain-fireworks==1.7.3",
@@ -186,16 +196,6 @@
       "title": "langchain==1.4.9",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9",
       "publishedAt": "2026-11-04T17:07:40Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.7.4",
-      "title": "langchain-core==1.7.4",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4",
-      "publishedAt": "2026-11-02T15:31:49Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -502,6 +502,16 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev23",
+      "title": "v1.14.0.dev23",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev23",
+      "publishedAt": "2026-11-10T00:24:07Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev22",
       "title": "v1.14.0.dev22",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev22",
@@ -513,9 +523,9 @@
     },
     {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.2",
-      "title": "v1.13.2: fix(security): require admin custom-code authoring by default (#16288)",
+      "title": "v1.13.2",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.2",
-      "publishedAt": "2026-11-09T21:39:41Z",
+      "publishedAt": "2026-11-09T23:22:52Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -586,16 +596,6 @@
       "title": "v1.14.0.dev16",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev16",
       "publishedAt": "2026-11-04T12:18:24Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev15",
-      "title": "v1.14.0.dev15",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev15",
-      "publishedAt": "2026-11-04T00:24:08Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -802,50 +802,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1307908",
-      "title": "Egoist AI Passport",
-      "url": "https://www.producthunt.com/products/egoist-ai-passport",
-      "publishedAt": "2026-11-09T13:34:17-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1306420",
+      "title": "Flic Cue",
+      "url": "https://www.producthunt.com/products/flic-cue",
+      "publishedAt": "2026-11-09T23:26:53-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1309174",
-      "title": "Cue",
-      "url": "https://www.producthunt.com/products/cue-voice-keyboard",
-      "publishedAt": "2026-11-09T13:34:42-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1293370",
-      "title": "Databox CLI",
-      "url": "https://www.producthunt.com/products/databox",
-      "publishedAt": "2026-11-09T13:57:24-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1305763",
-      "title": "Sign Language by Panda Video",
-      "url": "https://www.producthunt.com/products/panda-video",
-      "publishedAt": "2026-11-09T13:28:03-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1306799",
-      "title": "Arcjet AI security models",
-      "url": "https://www.producthunt.com/products/arcjet",
-      "publishedAt": "2026-11-09T14:07:53-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1296250",
+      "title": "ProtoMap",
+      "url": "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2",
+      "publishedAt": "2026-11-09T23:25:31-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -855,37 +825,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1302788",
       "title": "Dageno AI 2.0",
       "url": "https://www.producthunt.com/products/agent-powered-geo-by-dageno",
-      "publishedAt": "2026-11-09T14:27:09-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1306884",
-      "title": "If You Read This",
-      "url": "https://www.producthunt.com/products/if-you-read-this",
-      "publishedAt": "2026-11-09T13:28:00-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1304254",
-      "title": "Jotform App for Shopify",
-      "url": "https://www.producthunt.com/products/jotform",
-      "publishedAt": "2026-11-09T14:11:24-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1309182",
-      "title": "Nörth",
-      "url": "https://www.producthunt.com/products/north-5",
-      "publishedAt": "2026-11-09T11:27:00-08:00",
+      "publishedAt": "2026-11-09T23:26:05-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -895,7 +835,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1308023",
       "title": "Higgsfield Miracle",
       "url": "https://www.producthunt.com/products/higgsfield",
-      "publishedAt": "2026-11-09T14:10:25-08:00",
+      "publishedAt": "2026-11-09T22:08:49-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1306884",
+      "title": "If You Read This",
+      "url": "https://www.producthunt.com/products/if-you-read-this",
+      "publishedAt": "2026-11-09T22:58:44-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1306799",
+      "title": "Arcjet AI security models",
+      "url": "https://www.producthunt.com/products/arcjet",
+      "publishedAt": "2026-11-09T23:25:31-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1306678",
+      "title": "MCP1",
+      "url": "https://www.producthunt.com/products/appwrite",
+      "publishedAt": "2026-11-09T23:26:03-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1307908",
+      "title": "Egoist AI Passport",
+      "url": "https://www.producthunt.com/products/egoist-ai-passport",
+      "publishedAt": "2026-11-09T23:26:30-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1266350",
+      "title": "Voyager",
+      "url": "https://www.producthunt.com/products/vygr",
+      "publishedAt": "2026-11-09T23:26:38-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1304790",
+      "title": "CozyZip",
+      "url": "https://www.producthunt.com/products/cozyzip",
+      "publishedAt": "2026-11-09T22:40:45-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
