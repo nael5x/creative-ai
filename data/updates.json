@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T19:41:49.560921+00:00",
+  "updatedAt": "2026-11-12T07:21:46.370320+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.17-rc0",
@@ -502,6 +502,16 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev25",
+      "title": "v1.14.0.dev25",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev25",
+      "publishedAt": "2026-11-12T02:11:35Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev24",
       "title": "v1.14.0.dev24",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev24",
@@ -586,16 +596,6 @@
       "title": "1.12.10",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.10",
       "publishedAt": "2026-11-05T23:32:46Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev17",
-      "title": "v1.14.0.dev17",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev17",
-      "publishedAt": "2026-11-04T17:09:26Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -802,80 +802,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1311491",
-      "title": "Nod by n8n",
-      "url": "https://www.producthunt.com/products/n8n-io",
-      "publishedAt": "2026-11-11T11:40:52-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1312257",
-      "title": "Mister Blocks",
-      "url": "https://www.producthunt.com/products/mister-blocks",
-      "publishedAt": "2026-11-11T11:40:17-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1311828",
-      "title": "Scribe v3 by ElevenLabs",
-      "url": "https://www.producthunt.com/products/elevenlabs",
-      "publishedAt": "2026-11-11T11:13:37-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1306167",
-      "title": "Skillbox",
-      "url": "https://www.producthunt.com/products/skillbox-5",
-      "publishedAt": "2026-11-11T11:37:15-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1311330",
-      "title": "Shot.video",
-      "url": "https://www.producthunt.com/products/shot-video",
-      "publishedAt": "2026-11-11T11:40:00-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1285122",
       "title": "ScroogeFrog AI",
       "url": "https://www.producthunt.com/products/scroogefrog-ai-antifraud",
-      "publishedAt": "2026-11-11T11:31:59-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1311715",
-      "title": "MiniMax H3-Image",
-      "url": "https://www.producthunt.com/products/minimax",
-      "publishedAt": "2026-11-11T11:35:33-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1311529",
-      "title": "Subscriptrack",
-      "url": "https://www.producthunt.com/products/subscriptrack",
-      "publishedAt": "2026-11-11T11:29:06-08:00",
+      "publishedAt": "2026-11-11T23:20:39-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -885,7 +815,37 @@
       "id": "tag:www.producthunt.com,2005:Post/1296277",
       "title": "CALL-E",
       "url": "https://www.producthunt.com/products/call-e",
-      "publishedAt": "2026-11-11T11:13:36-08:00",
+      "publishedAt": "2026-11-11T23:20:34-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1311491",
+      "title": "Nod by n8n",
+      "url": "https://www.producthunt.com/products/n8n-io",
+      "publishedAt": "2026-11-11T23:06:34-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1311715",
+      "title": "MiniMax H3-Image",
+      "url": "https://www.producthunt.com/products/minimax",
+      "publishedAt": "2026-11-11T23:05:49-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1303622",
+      "title": "Relay",
+      "url": "https://www.producthunt.com/products/relaytoai",
+      "publishedAt": "2026-11-11T23:06:23-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -895,7 +855,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1311454",
       "title": "Valin",
       "url": "https://www.producthunt.com/products/valin",
-      "publishedAt": "2026-11-11T11:20:20-08:00",
+      "publishedAt": "2026-11-11T22:42:50-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1311828",
+      "title": "Scribe v3 by ElevenLabs",
+      "url": "https://www.producthunt.com/products/elevenlabs",
+      "publishedAt": "2026-11-11T23:14:40-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1311529",
+      "title": "Subscriptrack",
+      "url": "https://www.producthunt.com/products/subscriptrack",
+      "publishedAt": "2026-11-11T22:47:20-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1311269",
+      "title": "nizima ACTION!!",
+      "url": "https://www.producthunt.com/products/nizima-action-by-live2d",
+      "publishedAt": "2026-11-11T23:17:09-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1312166",
+      "title": "RigSpark",
+      "url": "https://www.producthunt.com/products/rigspark",
+      "publishedAt": "2026-11-11T22:48:29-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
