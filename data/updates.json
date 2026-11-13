@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T20:03:43.780998+00:00",
+  "updatedAt": "2026-11-13T06:54:56.948903+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.17-rc0",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.45.3",
+      "title": "v0.45.3",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.3",
+      "publishedAt": "2026-11-12T20:58:31Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.45.2",
       "title": "v0.45.2",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.2",
@@ -386,16 +396,6 @@
       "title": "v0.43.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.0",
       "publishedAt": "2026-10-27T02:40:46Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.42.5",
-      "title": "v0.42.5",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.5",
-      "publishedAt": "2026-10-23T00:07:14Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -502,6 +502,16 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev26",
+      "title": "v1.14.0.dev26",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev26",
+      "publishedAt": "2026-11-13T00:25:14Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev25",
       "title": "v1.14.0.dev25",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev25",
@@ -586,16 +596,6 @@
       "title": "v1.14.0.dev18",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev18",
       "publishedAt": "2026-11-05T00:25:32Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.10",
-      "title": "1.12.10",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.10",
-      "publishedAt": "2026-11-05T23:32:46Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -802,60 +802,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1313761",
-      "title": "Didit MCP",
-      "url": "https://www.producthunt.com/products/didit-3",
-      "publishedAt": "2026-11-12T12:01:53-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1313683",
-      "title": "Hoy for Mac",
-      "url": "https://www.producthunt.com/products/hoy-for-mac",
-      "publishedAt": "2026-11-12T12:01:42-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1303448",
-      "title": "CanyonOS",
-      "url": "https://www.producthunt.com/products/canyon-code",
-      "publishedAt": "2026-11-12T11:29:39-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1303480",
-      "title": "Customer.io Fall Release",
-      "url": "https://www.producthunt.com/products/customer-io",
-      "publishedAt": "2026-11-12T11:46:08-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1313327",
-      "title": "Skysoon",
-      "url": "https://www.producthunt.com/products/skysoon",
-      "publishedAt": "2026-11-12T11:42:31-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1312481",
-      "title": "Harness Memory",
-      "url": "https://www.producthunt.com/products/epsilla",
-      "publishedAt": "2026-11-12T12:02:02-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1308353",
+      "title": "YouArt Desktop App",
+      "url": "https://www.producthunt.com/products/youart",
+      "publishedAt": "2026-11-12T22:53:10-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -865,37 +815,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1298575",
       "title": "Omnigraph",
       "url": "https://www.producthunt.com/products/omnigraph",
-      "publishedAt": "2026-11-12T12:01:14-08:00",
+      "publishedAt": "2026-11-12T22:54:17-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1311866",
-      "title": "Adobe AI Assistant",
-      "url": "https://www.producthunt.com/products/adobe-ai-assistant",
-      "publishedAt": "2026-11-12T11:58:21-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1311740",
+      "title": "three.dev",
+      "url": "https://www.producthunt.com/products/three-dev",
+      "publishedAt": "2026-11-12T22:51:54-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1313277",
-      "title": "LeaseWire",
-      "url": "https://www.producthunt.com/products/leasewire",
-      "publishedAt": "2026-11-12T10:20:33-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1312557",
+      "title": "⌘+L",
+      "url": "https://www.producthunt.com/products/l",
+      "publishedAt": "2026-11-12T22:53:43-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1313559",
-      "title": "Crossfade",
-      "url": "https://www.producthunt.com/products/crossfade",
-      "publishedAt": "2026-11-12T10:54:41-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1311420",
+      "title": "Klang",
+      "url": "https://www.producthunt.com/products/klang",
+      "publishedAt": "2026-11-12T21:12:09-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1267000",
+      "title": "Sendr V4: Lovable for GTM",
+      "url": "https://www.producthunt.com/products/sendr",
+      "publishedAt": "2026-11-12T21:56:20-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1304141",
+      "title": "Neura HQ",
+      "url": "https://www.producthunt.com/products/neura-4",
+      "publishedAt": "2026-11-12T22:34:01-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1312481",
+      "title": "Harness Memory",
+      "url": "https://www.producthunt.com/products/epsilla",
+      "publishedAt": "2026-11-12T22:49:15-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1311999",
+      "title": "Yogurt",
+      "url": "https://www.producthunt.com/products/yogurt",
+      "publishedAt": "2026-11-12T22:33:04-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1313154",
+      "title": "Marqly 7.0",
+      "url": "https://www.producthunt.com/products/marqly",
+      "publishedAt": "2026-11-12T21:27:05-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
