@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batch": "catalog-review-batch-40",
+  "reviewedAt": "2026-10-31",
+  "scope": "Single-entry quality review of Nabla. Verified the active clinical AI assistant, ambient documentation, dictation, ICD-10/E/M coding suggestions, patient instructions, EHR/API integration, multilingual and multi-device access, individual subscription pricing, patient-consent requirements, data retention and human-review safeguards; refined the existing listing without changing lifecycle status.",
+  "accepted": [
+    {
+      "name": "Nabla",
+      "category": "Healthcare",
+      "description": "Clinical AI assistant for ambient documentation, medical dictation and coding. It transcribes clinician–patient conversations, generates structured clinical notes and patient instructions, suggests ICD-10 and E/M codes, and connects to EHR workflows through apps, extensions and Nabla Connect APIs.",
+      "userValue": "For clinicians who want to reduce documentation time while staying focused on the patient. Individual access includes a 30-day free trial, then costs $119 USD/month; group and health-system rates are available by request. Supports 30+ languages and web, mobile and Chrome workflows, with EHR integration options including embedded/API connections. Audio is not retained by default; clinical notes are retained for 14 days by default and retention is configurable. Patient consent is required in many jurisdictions, and clinicians must review and approve all generated notes, instructions and coding suggestions before clinical use.",
+      "availability": "Free trial / Paid",
+      "url": "https://www.nabla.com/",
+      "evidenceUrls": [
+        "https://www.nabla.com/",
+        "https://help.nabla.com/en/articles/781954",
+        "https://help.nabla.com/en/articles/10692354",
+        "https://help.nabla.com/en/articles/4854722",
+        "https://help.nabla.com/en/articles/4854466",
+        "https://trust.nabla.com/?format=html",
+        "https://nabla.com/press",
+        "https://docs.nabla.com/connect/changelog",
+        "https://docs.nabla.com/guides/ehr-integration",
+        "https://www.nabla.com/connect",
+        "https://www.nabla.com/copilot-patient-consent"
+      ]
+    }
+  ],
+  "superseded": [],
+  "retired": [],
+  "rejected": [],
+  "statusWatch": [],
+  "notes": [
+    "Nabla is an active clinical AI platform with ambient documentation, clinical-grade dictation, coding suggestions, patient instructions and broader workflow automation. The company reports deployment across 130+ health organizations and use by 85,000+ clinicians; these are company-reported figures.",
+    "The ambient assistant captures clinician-patient conversations and produces structured notes in real time. It is available through desktop web, iOS/Android apps and a Chrome extension, and the help center says it supports more than 30 languages.",
+    "Nabla now includes ICD-10 diagnosis suggestions and E/M coding suggestions grounded in the generated documentation. The clinician retains responsibility for reviewing and deciding whether the suggested note, diagnosis, code or patient instruction is accurate and appropriate.",
+    "The individual subscription help article, edited October 4, 2026, states a 30-day free trial followed by $119 USD per month per individual. Group rates are available through support; health-system and embedded EHR deployments use enterprise arrangements.",
+    "Nabla Connect supports front-end or back-end EHR integration through its API, allowing an EHR to launch an encounter, pass context, and receive the generated note and patient instructions. The October 21, 2026 API changelog confirms ongoing development.",
+    "The company announced an OpenEvidence integration on October 15, 2026 to surface clinical evidence at the point of care. It also launched a medical-grade dictation product for Apple devices on July 28, 2026.",
+    "The current help and Trust Center documentation says audio is not retained by default and clinical notes are retained for 14 days by default, with configurable retention. The patient-consent help article says consent is required in most U.S. states; clinicians should explain ambient recording and obtain consent under applicable local law.",
+    "Nabla lists HIPAA, GDPR, SOC 2 Type II and ISO 27001 compliance. Healthcare organizations should obtain current trust documentation and the appropriate agreement, configure data retention for their jurisdiction, and verify EHR workflow details before deployment."
+  ]
+}

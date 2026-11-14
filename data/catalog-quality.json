@@ -5032,6 +5032,26 @@
       "reviewedAt": "2026-10-31",
       "userValue": "For AEs, BDRs, sales leaders, CSMs and ABM marketers who need account-specific content and follow-up without waiting on design or marketing. Free plan: up to 5 team members and 5 daily credits (up to 30/month) per seat. Business: $50/month with 50 credits/month, unlimited team members, custom subdomain and expanded routines/projects; Enterprise starts at $40,000/year with SSO, custom limits and implementation support. Mutiny retired its earlier website-personalization/visitor A/B-testing product in April 2026; current Mutiny generates deal-specific assets and automates sales workflows rather than changing variants on an existing website. Meeting, email and CRM integrations require scoped access; generated outputs are drafts for review.",
       "decision": "accepted"
+    },
+    {
+      "name": "Nabla",
+      "officialUrl": "https://www.nabla.com/",
+      "evidenceUrls": [
+        "https://www.nabla.com/",
+        "https://help.nabla.com/en/articles/781954",
+        "https://help.nabla.com/en/articles/10692354",
+        "https://help.nabla.com/en/articles/4854722",
+        "https://help.nabla.com/en/articles/4854466",
+        "https://trust.nabla.com/?format=html",
+        "https://nabla.com/press",
+        "https://docs.nabla.com/connect/changelog",
+        "https://docs.nabla.com/guides/ehr-integration",
+        "https://www.nabla.com/connect",
+        "https://www.nabla.com/copilot-patient-consent"
+      ],
+      "reviewedAt": "2026-10-31",
+      "userValue": "For clinicians who want to reduce documentation time while staying focused on the patient. Individual access includes a 30-day free trial, then costs $119 USD/month; group and health-system rates are available by request. Supports 30+ languages and web, mobile and Chrome workflows, with EHR integration options including embedded/API connections. Audio is not retained by default; clinical notes are retained for 14 days by default and retention is configurable. Patient consent is required in many jurisdictions, and clinicians must review and approve all generated notes, instructions and coding suggestions before clinical use.",
+      "decision": "accepted"
     }
   ],
   "lastAuditFixesAt": "2026-10-31",
@@ -5047,7 +5067,7 @@
     "updated": 28
   },
   "lastQualityReviewBatchAt": "2026-10-31",
-  "lastQualityReviewBatch": "catalog-review-batch-39",
+  "lastQualityReviewBatch": "catalog-review-batch-40",
   "lastQualityReviewBatchSummary": {
     "accepted": 1,
     "rejected": 0,
