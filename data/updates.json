@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T19:50:33.707345+00:00",
+  "updatedAt": "2026-11-14T06:39:30.623240+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.17-rc0",
@@ -502,6 +502,16 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev27",
+      "title": "v1.14.0.dev27",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev27",
+      "publishedAt": "2026-11-14T00:24:31Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev26",
       "title": "v1.14.0.dev26",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev26",
@@ -586,16 +596,6 @@
       "title": "v1.14.0.dev19",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev19",
       "publishedAt": "2026-11-06T00:26:23Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev18",
-      "title": "v1.14.0.dev18",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev18",
-      "publishedAt": "2026-11-05T00:25:32Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -702,6 +702,16 @@
       "why": "Useful for repeatable content and business automation."
     },
     {
+      "id": "tag:github.com,2008:Repository/560704231/v0.14.26",
+      "title": "v0.14.26",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.26",
+      "publishedAt": "2026-11-13T22:38:15Z",
+      "source": "LlamaIndex",
+      "kind": "AI development",
+      "purpose": "Connect data to LLM applications.",
+      "why": "Useful for search and Q&A over documents or databases."
+    },
+    {
       "id": "tag:github.com,2008:Repository/560704231/v0.14.25",
       "title": "v0.14.25",
       "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25",
@@ -792,70 +802,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:github.com,2008:Repository/560704231/v0.14.15",
-      "title": "v0.14.15",
-      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.15",
-      "publishedAt": "2026-02-18T19:06:42Z",
-      "source": "LlamaIndex",
-      "kind": "AI development",
-      "purpose": "Connect data to LLM applications.",
-      "why": "Useful for search and Q&A over documents or databases."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1313622",
-      "title": "Trainn MCP",
-      "url": "https://www.producthunt.com/products/trainn",
-      "publishedAt": "2026-11-13T11:46:24-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1314761",
-      "title": "Replicate",
-      "url": "https://www.producthunt.com/products/replicate-10",
-      "publishedAt": "2026-11-13T11:46:55-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1293281",
       "title": "Templify AI",
       "url": "https://www.producthunt.com/products/templify",
-      "publishedAt": "2026-11-13T11:42:48-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1314743",
-      "title": "WHOOP Humans",
-      "url": "https://www.producthunt.com/products/whoop",
-      "publishedAt": "2026-11-13T11:23:33-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1307926",
-      "title": "Kairos",
-      "url": "https://www.producthunt.com/products/kairos-18",
-      "publishedAt": "2026-11-13T11:23:50-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1284660",
-      "title": "qorqbot",
-      "url": "https://www.producthunt.com/products/qorqbot",
-      "publishedAt": "2026-11-13T11:28:27-08:00",
+      "publishedAt": "2026-11-13T22:39:06-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -865,27 +815,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1282575",
       "title": "Filament by Galaxy",
       "url": "https://www.producthunt.com/products/galaxy",
-      "publishedAt": "2026-11-13T11:39:21-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1311191",
-      "title": "Burnstate",
-      "url": "https://www.producthunt.com/products/burnstate",
-      "publishedAt": "2026-11-13T11:42:40-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1314471",
-      "title": "GAtrends",
-      "url": "https://www.producthunt.com/products/gatrends",
-      "publishedAt": "2026-11-13T11:28:27-08:00",
+      "publishedAt": "2026-11-13T22:23:59-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -895,7 +825,77 @@
       "id": "tag:www.producthunt.com,2005:Post/1312154",
       "title": "Google Pixel Tag",
       "url": "https://www.producthunt.com/products/google",
-      "publishedAt": "2026-11-13T11:28:27-08:00",
+      "publishedAt": "2026-11-13T21:06:40-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1314743",
+      "title": "WHOOP Humans",
+      "url": "https://www.producthunt.com/products/whoop",
+      "publishedAt": "2026-11-13T19:59:30-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1314471",
+      "title": "GAtrends",
+      "url": "https://www.producthunt.com/products/gatrends",
+      "publishedAt": "2026-11-13T22:16:16-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1311191",
+      "title": "Burnstate",
+      "url": "https://www.producthunt.com/products/burnstate",
+      "publishedAt": "2026-11-13T21:25:57-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1307926",
+      "title": "Kairos",
+      "url": "https://www.producthunt.com/products/kairos-18",
+      "publishedAt": "2026-11-13T19:55:51-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1314761",
+      "title": "Replicate",
+      "url": "https://www.producthunt.com/products/replicate-10",
+      "publishedAt": "2026-11-13T22:26:04-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1313622",
+      "title": "Trainn MCP",
+      "url": "https://www.producthunt.com/products/trainn",
+      "publishedAt": "2026-11-13T22:14:37-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1284660",
+      "title": "qorqbot",
+      "url": "https://www.producthunt.com/products/qorqbot",
+      "publishedAt": "2026-11-13T22:27:03-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
