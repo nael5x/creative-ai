@@ -2738,9 +2738,9 @@
   [
     "Nabla",
     "Healthcare",
-    "Clinical AI assistant for ambient documentation and healthcare workflows.",
-    "For clinicians reducing note-taking and administrative work during patient visits.",
-    "Paid",
+    "Clinical AI assistant for ambient documentation, medical dictation and coding. It transcribes clinician–patient conversations, generates structured clinical notes and patient instructions, suggests ICD-10 and E/M codes, and connects to EHR workflows through apps, extensions and Nabla Connect APIs.",
+    "For clinicians who want to reduce documentation time while staying focused on the patient. Individual access includes a 30-day free trial, then costs $119 USD/month; group and health-system rates are available by request. Supports 30+ languages and web, mobile and Chrome workflows, with EHR integration options including embedded/API connections. Audio is not retained by default; clinical notes are retained for 14 days by default and retention is configurable. Patient consent is required in many jurisdictions, and clinicians must review and approve all generated notes, instructions and coding suggestions before clinical use.",
+    "Free trial / Paid",
     "https://www.nabla.com/"
   ],
   [
