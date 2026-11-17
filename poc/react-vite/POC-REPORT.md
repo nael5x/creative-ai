@@ -8,6 +8,7 @@
 ## Scope and protection checks
 
 - **PASS** — GitHub confirmed `main` and `checkpoint/pre-redesign-2026-11-17` both pointed to `fdb3b5355a354c96f1f50e127899580cf97b2ccf` before work began.
+- **PASS** — After pushing, GitHub still reported both protected references at the same SHA; the PoC branch points to its isolated commit.
 - **PASS** — The PoC was created on a separate branch from that SHA. Existing static pages, catalog data, and GitHub Actions were not edited. No deployment or pull request was made.
 - **PASS** — Work is confined to `poc/react-vite/`; the original site remains HTML, CSS, and JavaScript.
 
@@ -34,9 +35,9 @@
 
 ## Dependency and source notes
 
-The PoC uses React 19, Vite 7, Tailwind CSS 4, Motion for the Aceternity Timeline, `radix-ui` and `class-variance-authority` for the shadcn Button, `lucide-react`, and the static Lobe Icons SVG package. An initial build exposed missing Node typings and an unused upstream Timeline import; both were corrected. A first Lobe React package attempt caused a peer warning and a 1.65 MB JavaScript bundle. Switching to Lobe's official static SVG reduced the final bundle to 444.24 kB and removed the peer warning. The final install audit reported zero vulnerabilities.
+The PoC uses React 19, Vite 7, Tailwind CSS 4, Motion for the Aceternity Timeline, `radix-ui` and `class-variance-authority` for the shadcn Button, `lucide-react`, and the static Lobe Icons SVG package. An initial build exposed missing Node typings and an unused upstream Timeline import; both were corrected. A first Lobe React package attempt caused a peer warning and a 1.65 MB JavaScript bundle. Switching to Lobe's official static SVG reduced the final bundle to 444.46 kB and removed the peer warning.
 
-The final install audit reported zero vulnerabilities. A later audit recheck was **BLOCKED** because the npm advisory endpoint could not resolve in the current network environment. The React Bits source is MIT + Commons Clause: it allows use as part of an application but prohibits redistribution of the components themselves. React Bits and Aceternity source files therefore remain local and are excluded from Git; the README gives commands to fetch them from their official registries. See `THIRD-PARTY-NOTICES.md` for source and license notes.
+The final install audit reported zero vulnerabilities. A later audit recheck was **BLOCKED** because the npm advisory endpoint could not resolve in the current network environment. React Bits' MIT + Commons Clause permits use as part of an application but prohibits redistribution of the components themselves, so those original source files are excluded from Git. Aceternity originals were also kept local in this PoC; the README gives commands to fetch all four sources from their official registries before building. See `THIRD-PARTY-NOTICES.md` for source and license notes.
 
 ## Remaining risks
 
