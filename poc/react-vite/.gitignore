@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Fetched from the publishers' official registries for local PoC runs.
+# The React Bits license does not permit redistributing the components themselves.
+src/components/Antigravity.tsx
+src/components/BorderGlow.tsx
+src/components/ui/timeline.tsx
+src/components/ui/bento-grid.tsx
