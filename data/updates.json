@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T21:01:46.407624+00:00",
+  "updatedAt": "2026-11-18T07:40:11.733626+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.17-rc1",
@@ -112,6 +112,16 @@
       "why": "Useful for developers building AI products."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.8.2",
+      "title": "langchain-core==1.8.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.2",
+      "publishedAt": "2026-11-17T22:42:55Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-xai==1.4.0",
       "title": "langchain-xai==1.4.0",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0",
@@ -186,16 +196,6 @@
       "title": "langchain-core==1.8.0",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0",
       "publishedAt": "2026-11-11T15:22:09Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain==1.5.0",
-      "title": "langchain==1.5.0",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0",
-      "publishedAt": "2026-11-11T15:47:24Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.45.6",
+      "title": "v0.45.6",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.6",
+      "publishedAt": "2026-11-17T22:47:35Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.45.5",
       "title": "v0.45.5",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.5",
@@ -386,16 +396,6 @@
       "title": "v0.44.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.0",
       "publishedAt": "2026-11-04T01:12:27Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.43.2",
-      "title": "v0.43.2",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.2",
-      "publishedAt": "2026-10-30T01:24:06Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -502,6 +502,16 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev31",
+      "title": "v1.14.0.dev31",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev31",
+      "publishedAt": "2026-11-18T00:25:34Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev30",
       "title": "v1.14.0.dev30",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev30",
@@ -513,9 +523,9 @@
     },
     {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.3",
-      "title": "v1.13.3",
+      "title": "1.13.3",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.3",
-      "publishedAt": "2026-11-17T19:59:28Z",
+      "publishedAt": "2026-11-17T21:22:30Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -586,16 +596,6 @@
       "title": "v1.14.0.dev23",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev23",
       "publishedAt": "2026-11-11T00:26:04Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.2",
-      "title": "1.13.2",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.2",
-      "publishedAt": "2026-11-10T22:26:03Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -802,90 +802,50 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1319139",
-      "title": "Liquid d1.2",
-      "url": "https://www.producthunt.com/products/lfm2",
-      "publishedAt": "2026-11-17T11:13:54-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1308114",
+      "title": "Lasso",
+      "url": "https://www.producthunt.com/products/lasso-11",
+      "publishedAt": "2026-11-17T23:39:29-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1319690",
-      "title": "GatherHQ Agent Research",
-      "url": "https://www.producthunt.com/products/gatherhq-agent-research",
-      "publishedAt": "2026-11-17T10:14:58-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1318920",
+      "title": "VINC",
+      "url": "https://www.producthunt.com/products/vinc",
+      "publishedAt": "2026-11-17T23:39:23-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1257199",
-      "title": "TheBold",
-      "url": "https://www.producthunt.com/products/thebold",
-      "publishedAt": "2026-11-17T12:55:22-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1319276",
+      "title": "Lampa Camera",
+      "url": "https://www.producthunt.com/products/lampa-camera",
+      "publishedAt": "2026-11-17T22:48:52-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1319271",
-      "title": "ExtraDock 5",
-      "url": "https://www.producthunt.com/products/extradock",
-      "publishedAt": "2026-11-17T10:48:50-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1310525",
+      "title": "Link.bio",
+      "url": "https://www.producthunt.com/products/link-bio",
+      "publishedAt": "2026-11-17T23:35:07-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1297244",
-      "title": "AI Visibility by TruLata",
-      "url": "https://www.producthunt.com/products/trulata",
-      "publishedAt": "2026-11-17T11:24:31-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1319349",
-      "title": "Clamor",
-      "url": "https://www.producthunt.com/products/clamor-2",
-      "publishedAt": "2026-11-17T09:51:51-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1303191",
-      "title": "Trellus",
-      "url": "https://www.producthunt.com/products/trellus",
-      "publishedAt": "2026-11-17T10:34:06-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1307529",
-      "title": "3BCAD",
-      "url": "https://www.producthunt.com/products/3bcad",
-      "publishedAt": "2026-11-17T10:25:01-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1319132",
-      "title": "WispOS",
-      "url": "https://www.producthunt.com/products/wispos",
-      "publishedAt": "2026-11-17T11:19:54-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1317811",
+      "title": "superlog",
+      "url": "https://www.producthunt.com/products/superlog",
+      "publishedAt": "2026-11-17T23:38:48-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -895,7 +855,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1318923",
       "title": "BASE Studio",
       "url": "https://www.producthunt.com/products/base-studio",
-      "publishedAt": "2026-11-17T12:13:05-08:00",
+      "publishedAt": "2026-11-17T22:47:52-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1311672",
+      "title": "Glass Page",
+      "url": "https://www.producthunt.com/products/glass-page",
+      "publishedAt": "2026-11-17T22:55:34-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1304366",
+      "title": "ROOTKey Platform",
+      "url": "https://www.producthunt.com/products/rootkey-platform",
+      "publishedAt": "2026-11-17T22:47:57-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1304843",
+      "title": "Hako",
+      "url": "https://www.producthunt.com/products/hako",
+      "publishedAt": "2026-11-17T22:47:55-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1319374",
+      "title": "AWS Emulator",
+      "url": "https://www.producthunt.com/products/aws",
+      "publishedAt": "2026-11-17T22:47:53-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
