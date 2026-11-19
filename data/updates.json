@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T20:39:45.865225+00:00",
+  "updatedAt": "2026-11-19T07:36:19.286721+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.17-rc1",
@@ -102,6 +102,16 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.8.3",
+      "title": "langchain-openai==1.8.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3",
+      "publishedAt": "2026-11-19T00:38:59Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-xai==1.4.1",
       "title": "langchain-xai==1.4.1",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.1",
@@ -162,6 +172,16 @@
       "why": "Useful for developers building AI products."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain==1.5.2",
+      "title": "langchain==1.5.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.2",
+      "publishedAt": "2026-11-18T22:30:45Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain==1.5.1",
       "title": "langchain==1.5.1",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.1",
@@ -176,26 +196,6 @@
       "title": "langchain-openai==1.8.1",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.1",
       "publishedAt": "2026-11-17T20:39:46Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.8.2",
-      "title": "langchain-core==1.8.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.2",
-      "publishedAt": "2026-11-17T22:42:55Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-xai==1.4.0",
-      "title": "langchain-xai==1.4.0",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0",
-      "publishedAt": "2026-11-15T21:35:22Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.46.0",
+      "title": "v0.46.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0",
+      "publishedAt": "2026-11-18T22:55:32Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.45.6",
       "title": "v0.45.6",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.6",
@@ -386,16 +396,6 @@
       "title": "v0.44.1",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.1",
       "publishedAt": "2026-11-06T03:26:00Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.44.0",
-      "title": "v0.44.0",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.0",
-      "publishedAt": "2026-11-04T01:12:27Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -502,6 +502,16 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev32",
+      "title": "v1.14.0.dev32",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev32",
+      "publishedAt": "2026-11-19T03:10:10Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev31",
       "title": "v1.14.0.dev31",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev31",
@@ -586,16 +596,6 @@
       "title": "v1.14.0.dev24",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev24",
       "publishedAt": "2026-11-11T15:24:21Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev23",
-      "title": "v1.14.0.dev23",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev23",
-      "publishedAt": "2026-11-11T00:26:04Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -805,87 +805,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1320655",
       "title": "GPT-6.2 Astra and Sol",
       "url": "https://www.producthunt.com/products/openai",
-      "publishedAt": "2026-11-18T12:30:16-08:00",
+      "publishedAt": "2026-11-18T23:23:10-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1259097",
-      "title": "Toone",
-      "url": "https://www.producthunt.com/products/toone",
-      "publishedAt": "2026-11-18T12:31:39-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1320857",
+      "title": "Incredible Agents",
+      "url": "https://www.producthunt.com/products/incredible",
+      "publishedAt": "2026-11-18T23:09:03-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1317562",
-      "title": "S.Space",
-      "url": "https://www.producthunt.com/products/s-space",
-      "publishedAt": "2026-11-18T12:37:46-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1320420",
-      "title": "Orken",
-      "url": "https://www.producthunt.com/products/orken",
-      "publishedAt": "2026-11-18T11:17:58-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1320481",
-      "title": "AI Canvas",
-      "url": "https://www.producthunt.com/products/ai-canvas-2",
-      "publishedAt": "2026-11-18T11:57:42-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1318981",
-      "title": "Stringman",
-      "url": "https://www.producthunt.com/products/stringman",
-      "publishedAt": "2026-11-18T11:22:31-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1319278",
-      "title": "Ody Ai Business Phone",
-      "url": "https://www.producthunt.com/products/ody-ai-business-phone",
-      "publishedAt": "2026-11-18T11:27:49-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1306111",
-      "title": "Happo animation testing",
-      "url": "https://www.producthunt.com/products/happo-2",
-      "publishedAt": "2026-11-18T11:25:07-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1315797",
-      "title": "SaaS Toolkit MCP",
-      "url": "https://www.producthunt.com/products/saas-toolkit-mcp",
-      "publishedAt": "2026-11-18T12:30:38-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1320941",
+      "title": "Diagramly 2.0",
+      "url": "https://www.producthunt.com/products/diagramly-2",
+      "publishedAt": "2026-11-18T23:15:37-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -895,7 +835,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1321222",
       "title": "AssemblyAI-STT-3.7",
       "url": "https://www.producthunt.com/products/assemblyai",
-      "publishedAt": "2026-11-18T11:58:43-08:00",
+      "publishedAt": "2026-11-18T23:15:03-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1288961",
+      "title": "Pitch Avatar HR Suite",
+      "url": "https://www.producthunt.com/products/pitchavatar",
+      "publishedAt": "2026-11-18T23:02:35-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1319947",
+      "title": "LinkBit",
+      "url": "https://www.producthunt.com/products/linkbit",
+      "publishedAt": "2026-11-18T18:19:00-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1318419",
+      "title": "Tencent Hy4 flash",
+      "url": "https://www.producthunt.com/products/hunyuan-a13b",
+      "publishedAt": "2026-11-18T22:35:35-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1319456",
+      "title": "Replay QA Self-healing Mode",
+      "url": "https://www.producthunt.com/products/replayio",
+      "publishedAt": "2026-11-18T22:34:11-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1320750",
+      "title": "Microsoft IQ",
+      "url": "https://www.producthunt.com/products/microsoft-365",
+      "publishedAt": "2026-11-18T19:19:20-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1316478",
+      "title": "Bluedot Phone Calls",
+      "url": "https://www.producthunt.com/products/bluedot-2",
+      "publishedAt": "2026-11-18T23:23:23-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
