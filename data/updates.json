@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-11-19T20:45:58.474952+00:00",
+  "updatedAt": "2026-11-20T07:26:51.450291+00:00",
   "items": [
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.17-rc1",
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.17-rc2",
       "title": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
+      "publishedAt": "2026-11-20T00:25:30Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.40.17-rc1",
+      "title": "v0.40.17-rc1: mlxrunner: batch speculative verification (#19663)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
-      "publishedAt": "2026-11-16T19:02:48Z",
+      "publishedAt": "2026-11-16T16:43:54Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -92,16 +102,6 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.40.14-rc0",
-      "title": "v0.40.14-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0",
-      "publishedAt": "2026-11-03T00:59:50Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-openrouter==0.3.0",
       "title": "langchain-openrouter==0.3.0",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.3.0",
@@ -112,10 +112,50 @@
       "why": "Useful for developers building AI products."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.8.5",
+      "title": "langchain-openai==1.8.5",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.5",
+      "publishedAt": "2026-11-19T23:16:22Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.8.4",
+      "title": "langchain-openai==1.8.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.4",
+      "publishedAt": "2026-11-19T21:36:53Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.8.3",
       "title": "langchain-openai==1.8.3",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3",
       "publishedAt": "2026-11-19T00:38:59Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.8.4",
+      "title": "langchain-core==1.8.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.4",
+      "publishedAt": "2026-11-19T22:35:59Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.7.12",
+      "title": "langchain-anthropic==1.7.12",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.12",
+      "publishedAt": "2026-11-19T23:00:21Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -156,46 +196,6 @@
       "title": "langchain-deepseek==1.2.1",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.1",
       "publishedAt": "2026-11-18T17:27:46Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.8.3",
-      "title": "langchain-core==1.8.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.3",
-      "publishedAt": "2026-11-18T15:38:38Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.7.11",
-      "title": "langchain-anthropic==1.7.11",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.11",
-      "publishedAt": "2026-11-18T15:20:21Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain==1.5.2",
-      "title": "langchain==1.5.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.2",
-      "publishedAt": "2026-11-18T22:30:45Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain==1.5.1",
-      "title": "langchain==1.5.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.1",
-      "publishedAt": "2026-11-18T15:45:16Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.46.1",
+      "title": "v0.46.1",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.1",
+      "publishedAt": "2026-11-19T21:33:50Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.46.0",
       "title": "v0.46.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.46.0",
@@ -386,16 +396,6 @@
       "title": "v0.44.2",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.2",
       "publishedAt": "2026-11-06T20:37:56Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.44.1",
-      "title": "v0.44.1",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.44.1",
-      "publishedAt": "2026-11-06T03:26:00Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -502,6 +502,16 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev33",
+      "title": "v1.14.0.dev33",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev33",
+      "publishedAt": "2026-11-20T01:10:27Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev32",
       "title": "v1.14.0.dev32",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev32",
@@ -586,16 +596,6 @@
       "title": "v1.14.0.dev25",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev25",
       "publishedAt": "2026-11-12T02:11:35Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev24",
-      "title": "v1.14.0.dev24",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev24",
-      "publishedAt": "2026-11-11T15:24:21Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -802,20 +802,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1310284",
-      "title": "Teaflask",
-      "url": "https://www.producthunt.com/products/teaflask",
-      "publishedAt": "2026-11-19T12:06:27-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1318828",
-      "title": "Spellar for Chrome",
-      "url": "https://www.producthunt.com/products/spellar",
-      "publishedAt": "2026-11-19T12:43:35-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1310799",
+      "title": "Manufact",
+      "url": "https://www.producthunt.com/products/manufact",
+      "publishedAt": "2026-11-19T23:20:06-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -825,67 +815,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1312482",
       "title": "Stripo Email Widgets",
       "url": "https://www.producthunt.com/products/stripo-email",
-      "publishedAt": "2026-11-19T12:40:43-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1322288",
-      "title": "Adside",
-      "url": "https://www.producthunt.com/products/adside",
-      "publishedAt": "2026-11-19T12:44:09-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1321708",
-      "title": "Fieldwork Code",
-      "url": "https://www.producthunt.com/products/fieldwork-code",
-      "publishedAt": "2026-11-19T11:53:04-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1221588",
-      "title": "Impractical",
-      "url": "https://www.producthunt.com/products/impractical",
-      "publishedAt": "2026-11-19T12:32:25-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1322382",
-      "title": "ToolJet",
-      "url": "https://www.producthunt.com/products/tooljet",
-      "publishedAt": "2026-11-19T12:09:22-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1322352",
-      "title": "Gemini 4 Neon",
-      "url": "https://www.producthunt.com/products/gemini-6",
-      "publishedAt": "2026-11-19T12:24:36-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1322379",
-      "title": "Tecla",
-      "url": "https://www.producthunt.com/products/tecla-3",
-      "publishedAt": "2026-11-19T11:53:12-08:00",
+      "publishedAt": "2026-11-19T23:26:31-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -895,7 +825,77 @@
       "id": "tag:www.producthunt.com,2005:Post/1320414",
       "title": "Verse Engine by Ctruh",
       "url": "https://www.producthunt.com/products/verse-engine-by-ctruh",
-      "publishedAt": "2026-11-19T12:40:43-08:00",
+      "publishedAt": "2026-11-19T23:26:25-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1311952",
+      "title": "Netlify Server",
+      "url": "https://www.producthunt.com/products/netlify",
+      "publishedAt": "2026-11-19T23:26:03-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1314645",
+      "title": "TestSprite 4.0",
+      "url": "https://www.producthunt.com/products/testsprite",
+      "publishedAt": "2026-11-19T23:26:02-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1321708",
+      "title": "Fieldwork Code",
+      "url": "https://www.producthunt.com/products/fieldwork-code",
+      "publishedAt": "2026-11-19T22:00:46-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1321837",
+      "title": "Noteshell",
+      "url": "https://www.producthunt.com/products/noteshell",
+      "publishedAt": "2026-11-19T22:43:01-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1319464",
+      "title": "Tabstack by Mozilla",
+      "url": "https://www.producthunt.com/products/tabstack",
+      "publishedAt": "2026-11-19T23:26:16-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1319325",
+      "title": "The Calm Creator Mastermind",
+      "url": "https://www.producthunt.com/products/the-calm-creator-mastermind",
+      "publishedAt": "2026-11-19T23:12:29-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1305473",
+      "title": "Meilisearch Searchandising",
+      "url": "https://www.producthunt.com/products/meilisearch-cloud",
+      "publishedAt": "2026-11-19T22:01:31-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
