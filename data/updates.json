@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T19:48:16.734822+00:00",
+  "updatedAt": "2026-11-23T07:50:43.114018+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.17",
@@ -502,10 +502,30 @@
       "why": "Useful for people who use Ollama or self-hosted models."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev36",
+      "title": "v1.14.0.dev36",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev36",
+      "publishedAt": "2026-11-23T00:27:12Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev35",
       "title": "v1.14.0.dev35",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev35",
       "publishedAt": "2026-11-22T00:26:25Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.4",
+      "title": "v1.13.4: fix(deps): dependency upgrades for 1.13.4 (#16541)",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.4",
+      "publishedAt": "2026-11-22T23:02:15Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -576,26 +596,6 @@
       "title": "v1.14.0.dev29",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev29",
       "publishedAt": "2026-11-16T00:29:59Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev28",
-      "title": "v1.14.0.dev28",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev28",
-      "publishedAt": "2026-11-15T00:27:11Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.14.0.dev27",
-      "title": "v1.14.0.dev27",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev27",
-      "publishedAt": "2026-11-14T00:24:31Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -802,90 +802,30 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
+      "id": "tag:www.producthunt.com,2005:Post/1320357",
+      "title": "MeshLive",
+      "url": "https://www.producthunt.com/products/meshlive",
+      "publishedAt": "2026-11-22T23:43:59-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1306148",
+      "title": "Yoroll",
+      "url": "https://www.producthunt.com/products/yoroll",
+      "publishedAt": "2026-11-22T23:48:34-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
       "id": "tag:www.producthunt.com,2005:Post/1323666",
       "title": "Mockreel",
       "url": "https://www.producthunt.com/products/mockreel",
-      "publishedAt": "2026-11-22T11:40:31-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1320738",
-      "title": "Ulika",
-      "url": "https://www.producthunt.com/products/ulika",
-      "publishedAt": "2026-11-22T11:43:25-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1325665",
-      "title": "oovi",
-      "url": "https://www.producthunt.com/products/oovi",
-      "publishedAt": "2026-11-22T11:46:05-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1305689",
-      "title": "Wispim",
-      "url": "https://www.producthunt.com/products/wispim-online-teleprompter",
-      "publishedAt": "2026-11-22T11:40:35-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1325452",
-      "title": "Resurf",
-      "url": "https://www.producthunt.com/products/resurf-2",
-      "publishedAt": "2026-11-22T11:44:27-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1323604",
-      "title": "Pushback",
-      "url": "https://www.producthunt.com/products/pushback-flight-tracker",
-      "publishedAt": "2026-11-22T11:02:04-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1310082",
-      "title": "Slotify",
-      "url": "https://www.producthunt.com/products/slotify-2",
-      "publishedAt": "2026-11-22T09:35:55-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1322636",
-      "title": "DeNotch",
-      "url": "https://www.producthunt.com/products/denotch",
-      "publishedAt": "2026-11-22T09:35:38-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1307253",
-      "title": "Webless Agents",
-      "url": "https://www.producthunt.com/products/webless",
-      "publishedAt": "2026-11-22T11:44:27-08:00",
+      "publishedAt": "2026-11-22T23:50:04-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -895,7 +835,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1325043",
       "title": "Omi CLI",
       "url": "https://www.producthunt.com/products/omi-cli",
-      "publishedAt": "2026-11-22T10:41:53-08:00",
+      "publishedAt": "2026-11-22T23:48:45-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1285780",
+      "title": "Daymaker",
+      "url": "https://www.producthunt.com/products/daymaker",
+      "publishedAt": "2026-11-22T23:36:48-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1312026",
+      "title": "Squint",
+      "url": "https://www.producthunt.com/products/squint",
+      "publishedAt": "2026-11-22T21:57:48-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1324705",
+      "title": "Creavit Studio 4.0",
+      "url": "https://www.producthunt.com/products/creavit-studio",
+      "publishedAt": "2026-11-22T23:47:14-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1305689",
+      "title": "Wispim",
+      "url": "https://www.producthunt.com/products/wispim-online-teleprompter",
+      "publishedAt": "2026-11-22T23:45:37-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1318840",
+      "title": "Leapdeck",
+      "url": "https://www.producthunt.com/products/leapdeck",
+      "publishedAt": "2026-11-22T22:20:13-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1307253",
+      "title": "Webless Agents",
+      "url": "https://www.producthunt.com/products/webless",
+      "publishedAt": "2026-11-22T23:23:20-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
