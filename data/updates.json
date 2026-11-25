@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:47:35.859282+00:00",
+  "updatedAt": "2026-11-25T21:48:39.049440+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.18",
@@ -102,6 +102,16 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.7.13",
+      "title": "langchain-anthropic==1.7.13",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13",
+      "publishedAt": "2026-11-25T21:42:01Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-text-splitters==1.2.0",
       "title": "langchain-text-splitters==1.2.0",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.2.0",
@@ -186,16 +196,6 @@
       "title": "langchain-exa==1.2.0",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-exa%3D%3D1.2.0",
       "publishedAt": "2026-11-23T17:09:52Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-classic==1.1.0",
-      "title": "langchain-classic==1.1.0",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.1.0",
-      "publishedAt": "2026-11-23T16:45:54Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -402,6 +402,16 @@
       "why": "Useful for advanced Stable Diffusion users."
     },
     {
+      "id": "tag:github.com,2008:Repository/701547123/v0.13.5",
+      "title": "v0.13.5",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.5",
+      "publishedAt": "2026-11-25T09:37:55Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/701547123/v0.13.4",
       "title": "v0.13.4",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.4",
@@ -486,16 +496,6 @@
       "title": "v0.12.2",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.2",
       "publishedAt": "2026-10-14T21:07:29Z",
-      "source": "Open WebUI",
-      "kind": "Local AI UI",
-      "purpose": "Use local or remote AI models in a browser interface.",
-      "why": "Useful for people who use Ollama or self-hosted models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/701547123/v0.12.1",
-      "title": "v0.12.1",
-      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.1",
-      "publishedAt": "2026-10-14T16:18:56Z",
       "source": "Open WebUI",
       "kind": "Local AI UI",
       "purpose": "Use local or remote AI models in a browser interface.",
@@ -802,10 +802,40 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1325033",
-      "title": "Tray",
-      "url": "https://www.producthunt.com/products/tray-2",
-      "publishedAt": "2026-11-25T00:47:04-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1323240",
+      "title": "Airbot",
+      "url": "https://www.producthunt.com/products/airbots",
+      "publishedAt": "2026-11-25T13:48:19-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1330047",
+      "title": "MAGI-2",
+      "url": "https://www.producthunt.com/products/magi-1",
+      "publishedAt": "2026-11-25T13:40:38-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1329023",
+      "title": "Hai",
+      "url": "https://www.producthunt.com/products/hai-4",
+      "publishedAt": "2026-11-25T13:45:42-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1312113",
+      "title": "Continual-ARC",
+      "url": "https://www.producthunt.com/products/unify-5",
+      "publishedAt": "2026-11-25T13:34:23-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -815,57 +845,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1329858",
       "title": "Blink",
       "url": "https://www.producthunt.com/products/blink-35",
-      "publishedAt": "2026-11-25T00:47:02-08:00",
+      "publishedAt": "2026-11-25T12:46:03-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1316963",
-      "title": "Tendeck",
-      "url": "https://www.producthunt.com/products/tendeck",
-      "publishedAt": "2026-11-25T00:47:01-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1329988",
-      "title": "GibHub",
-      "url": "https://www.producthunt.com/products/gibhub-git-file-history",
-      "publishedAt": "2026-11-25T00:47:01-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1325269",
-      "title": "VibeCode.surf",
-      "url": "https://www.producthunt.com/products/vibecode-surf",
-      "publishedAt": "2026-11-25T00:47:01-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1329265",
-      "title": "file.spot",
-      "url": "https://www.producthunt.com/products/file-spot",
-      "publishedAt": "2026-11-25T00:47:00-08:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1328124",
-      "title": "3way.Social MCP",
-      "url": "https://www.producthunt.com/products/3way-social",
-      "publishedAt": "2026-11-25T00:47:00-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1329956",
+      "title": "Hiring Right Now",
+      "url": "https://www.producthunt.com/products/hiring-right-now",
+      "publishedAt": "2026-11-25T13:45:16-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -875,27 +865,37 @@
       "id": "tag:www.producthunt.com,2005:Post/1329374",
       "title": "MyClaw 3.0",
       "url": "https://www.producthunt.com/products/myclaw-3-0",
-      "publishedAt": "2026-11-25T00:47:00-08:00",
+      "publishedAt": "2026-11-25T13:48:14-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1328178",
-      "title": "TruAstra",
-      "url": "https://www.producthunt.com/products/truastra",
-      "publishedAt": "2026-11-25T00:46:59-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1316963",
+      "title": "Tendeck",
+      "url": "https://www.producthunt.com/products/tendeck",
+      "publishedAt": "2026-11-25T13:12:49-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1326465",
-      "title": "eluna",
-      "url": "https://www.producthunt.com/products/eluna",
-      "publishedAt": "2026-11-25T00:46:55-08:00",
+      "id": "tag:www.producthunt.com,2005:Post/1316846",
+      "title": "SteerLatch",
+      "url": "https://www.producthunt.com/products/steerlatch",
+      "publishedAt": "2026-11-25T12:42:27-08:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1329703",
+      "title": "MemoryWorks",
+      "url": "https://www.producthunt.com/products/memoryworks",
+      "publishedAt": "2026-11-25T13:08:30-08:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
